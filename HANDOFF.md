@@ -140,3 +140,31 @@ file is explicitly evidence, not instruction — it never overrides merit, and a
 item in a liked topic is still a weak item.
 
 A rated-up evergreen item is exempt from the 90-day age-out. You said you wanted it.
+
+## When things actually run
+
+The cron described further up this file no longer exists anywhere, and reading it
+as current costs an afternoon — it is recorded here as history, not as the schedule.
+`publish.yml` has **no `schedule:` at all**; it is `workflow_dispatch` only. There is
+exactly one clock in the system:
+
+| | What runs it | When |
+|---|---|---|
+| **Curate** | A scheduled Claude Code cloud routine, configured in the claude.ai web UI — not in this repo | Set there; aim for early morning Melbourne |
+| **Publish** | `edition.yml`, triggered `on: push` when the routine commits `candidates.json` | Seconds after curation |
+| **Retry** | `edition.yml` on `schedule`, 21:00 and 23:00 UTC | Only acts if candidates were left stranded |
+
+So publication is not scheduled and cannot drift from curation: it is the push that
+starts it. Moving the edition to a different hour means moving the **routine**, in
+the web UI. Nothing in this repo needs to change with it.
+
+The retry exists because a failed publish is silent in the worst way — the edition is
+curated, verified and simply never lands, and `candidates.json` sits on `main`
+unnoticed until someone opens the site and finds yesterday. That happened once. On a
+scheduled run with nothing stranded the workflow does nothing at all: rebuilding would
+stamp a fresh `generated` time and commit a deploy every morning for no reason.
+
+Cron is UTC-only and Melbourne is UTC+10/+11, so the retry lands 07:00 and 09:00 AEST,
+08:00 and 10:00 AEDT. A morning run is the previous UTC day; that is fine, because the
+edition is filed by Melbourne day (`generator/lib/day.mjs`), not by slicing the
+timestamp.

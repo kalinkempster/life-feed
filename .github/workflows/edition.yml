@@ -25,6 +25,19 @@ on:
   push:
     paths:
       - "candidates.json"
+  # The safety net. A publish that fails leaves candidates.json sitting on main
+  # and nothing retries it — the edition is curated, verified and simply never
+  # lands, which is invisible until someone opens the site and finds yesterday.
+  # These two checks re-publish anything stranded, and do nothing at all when
+  # there is nothing stranded.
+  #
+  # Both are UTC, because cron here has no other option. Melbourne is UTC+10 in
+  # winter and UTC+11 over summer, so they fall at 07:00 and 09:00 AEST, 08:00
+  # and 10:00 AEDT — a window that closes before the phone gets picked up,
+  # whichever half of the year it is.
+  schedule:
+    - cron: "0 21 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -38,38 +51,69 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    if: github.actor != 'github-actions[bot]'
+    # Only a push needs guarding against the generator's own commit. A scheduled
+    # run must never be skipped for it: the actor on a scheduled run reflects who
+    # last touched the repo, which after a successful edition is the bot itself —
+    # exactly the state the retry exists to recover from.
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
 
     steps:
       - uses: actions/checkout@v4
 
+      # Three things this run might be, decided once so the steps below agree:
+      #
+      #   publish   candidates are waiting — a fresh push, or a stranded file a
+      #             scheduled check found, which is a failure being recovered
+      #   rebuild   no candidates, but a human asked: re-render the published
+      #             files from the archive after a presentation change
+      #   none      no candidates on a scheduled check: nothing is stranded, so
+      #             do nothing. Rebuilding here would stamp a new `generated`
+      #             time and commit a deploy every morning for no reason.
+      - name: Decide what this run is
+        id: mode
+        run: |
+          if [ -s candidates.json ]; then
+            echo "mode=publish" >> "$GITHUB_OUTPUT"
+            if [ "${{ github.event_name }}" = "schedule" ]; then
+              echo "::warning::candidates.json was still on main at a scheduled check — an earlier publish did not complete. Retrying it now."
+            else
+              echo "Candidates present — publishing the edition."
+            fi
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+            echo "Nothing stranded. Nothing to do."
+          else
+            echo "mode=rebuild" >> "$GITHUB_OUTPUT"
+            echo "No candidates — rebuilding the published files from the archive."
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.mode.outputs.mode != 'none'
         with:
           node-version: 22
 
       # The pipeline path used here has no dependencies at all, so there is no
       # npm ci step. Only the API curation path needs node_modules.
       - name: Verify and publish
+        if: steps.mode.outputs.mode != 'none'
         env:
           UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
           UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
           SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
           SIGNALS_ENABLED: ${{ vars.SIGNALS_ENABLED }}
         run: |
-          # No candidates is not the same as nothing to do. A dispatch with no
-          # candidates file re-renders the published files from the archive, which
-          # is how a presentation change — how editions are grouped, how the feed
-          # is selected — reaches the site without inventing an edition to carry
-          # it. It curates nothing and verifies nothing, because there is nothing
-          # new to verify.
-          if [ ! -s candidates.json ]; then
-            echo "No candidates.json — rebuilding the published files from the archive."
+          # A rebuild curates nothing and verifies nothing, because there is
+          # nothing new to verify — it only re-renders the published files from
+          # the archive, which is how a presentation change reaches the site
+          # without inventing an edition to carry it.
+          if [ "${{ steps.mode.outputs.mode }}" = "rebuild" ]; then
             node generator/run.mjs --no-curate
           else
             node generator/run.mjs --from-candidates=candidates.json
           fi
 
       - name: Publish if it conforms
+        if: steps.mode.outputs.mode != 'none'
         env:
           SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
         run: |
@@ -82,8 +126,22 @@ jobs:
           node generator/publish-checked.mjs
 
       - name: Verify the live site
+        if: steps.mode.outputs.mode != 'none'
         env:
           SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
         run: |
           sleep 90
           node generator/verify-feed.mjs --live
+
+      # If candidates survived a publish run, the edition did not land and the
+      # steps above did not notice. Fail here so the run goes red and GitHub
+      # sends its own mail, rather than leaving it to be discovered by opening
+      # the site and finding yesterday.
+      - name: Nothing should be left stranded
+        if: steps.mode.outputs.mode == 'publish'
+        run: |
+          if [ -e candidates.json ]; then
+            echo "::error::candidates.json is still here after a publish run — the edition did not land."
+            exit 1
+          fi
+          echo "Candidates consumed. Edition published."
