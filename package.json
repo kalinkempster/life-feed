@@ -8,14 +8,15 @@
     "node": ">=20"
   },
   "scripts": {
-    "generate": "node generator/run.mjs",
-    "generate:dry": "node generator/run.mjs --dry-run",
-    "rebuild": "node generator/run.mjs --no-curate",
-    "verify": "node generator/verify-feed.mjs",
+    "generate": "node --env-file-if-exists=.env generator/run.mjs",
+    "generate:dry": "node --env-file-if-exists=.env generator/run.mjs --dry-run",
+    "rebuild": "node --env-file-if-exists=.env generator/run.mjs --no-curate",
+    "verify": "node --env-file-if-exists=.env generator/verify-feed.mjs",
     "test": "node generator/selftest.mjs",
     "seed": "node generator/seed-archive.mjs",
-    "verify:live": "node generator/verify-feed.mjs --live",
-    "verify:links": "node generator/verify-feed.mjs --links"
+    "verify:live": "node --env-file-if-exists=.env generator/verify-feed.mjs --live",
+    "verify:links": "node --env-file-if-exists=.env generator/verify-feed.mjs --links",
+    "library": "node --env-file-if-exists=.env generator/library-probe.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.70.0",
