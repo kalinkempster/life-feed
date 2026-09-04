@@ -288,7 +288,7 @@ check("end-to-end dry run exits cleanly", () =>
 ${e2e.out}`),
 );
 check("id guard ran over the archive", () =>
-  assert.match(e2e.out, /ids\s+18 archived, all stable/),
+  assert.match(e2e.out, /ids\s+\d+ archived, all stable/),
 );
 check("rule 3 — the already-published candidate was filtered before verifying", () =>
   assert.match(e2e.out, /verifying\s+2 new URLs/),

@@ -1,0 +1,82 @@
+# Verify and publish an edition from a candidates file.
+#
+# Why this exists, and why the cloud routine does not just run the pipeline itself:
+#
+# The scheduled Claude Code routine runs in a sandbox whose outbound HTTPS is
+# proxied. Its WebSearch and WebFetch tools work, but a plain `fetch()` from Node
+# does not reach the open internet. On the first cloud run that meant every one of
+# the eleven URLs came back unreachable, the verifier correctly declined to call
+# them dead, and rule 2 — "every URL is verified before publishing" — silently
+# degraded to publishing whatever it was handed. The links happened to be real.
+# That is luck, not a guard.
+#
+# So the work is split along the line of what each environment can actually do:
+#
+#   cloud routine   has web search + judgement, no direct network → curates
+#   this workflow   has direct network, no judgement needed       → verifies, publishes
+#
+# The routine commits candidates.json; that push triggers this. Verification, og:image
+# fetching, ids, dedupe and the contract check all happen here, where they work.
+# No API key is involved on either side.
+
+name: edition
+
+on:
+  push:
+    paths:
+      - "candidates.json"
+  workflow_dispatch:
+
+concurrency:
+  group: edition
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The pipeline path used here has no dependencies at all, so there is no
+      # npm ci step. Only the API curation path needs node_modules.
+      - name: Verify and publish
+        env:
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+          SIGNALS_ENABLED: ${{ vars.SIGNALS_ENABLED }}
+        run: |
+          if [ ! -s candidates.json ]; then
+            echo "No candidates.json — nothing to publish."
+            exit 0
+          fi
+          node generator/run.mjs --from-candidates=candidates.json
+
+      - name: Publish if it conforms
+        env:
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+        run: |
+          git config user.name  "life-of-k2 generator"
+          git config user.email "kalinkempster@gmail.com"
+          # Consume the candidates file in the same commit as the edition, so a
+          # replay of this workflow cannot republish yesterday's candidates.
+          rm -f candidates.json
+          git add -- candidates.json || true
+          node generator/publish-checked.mjs
+
+      - name: Verify the live site
+        env:
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+        run: |
+          sleep 90
+          node generator/verify-feed.mjs --live

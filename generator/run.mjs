@@ -219,6 +219,21 @@ async function main() {
     log(`  verifying  ${unseen.length} new URLs…`);
     const checked = await verifyAll(unseen, { concurrency: 5 });
 
+    // If almost everything came back inconclusive, the verifier is broken — not
+    // the entire internet. This is what a sandbox with proxied egress looks like:
+    // every fetch fails, nothing is provably dead, and rule 2 silently degrades to
+    // "publish whatever you were given". It happened on the first cloud run and
+    // the only reason it did no harm was that the links were real anyway.
+    const inconclusiveCount = checked.filter((c) => c.check.status === "inconclusive").length;
+    if (checked.length >= 3 && inconclusiveCount / checked.length >= 0.8) {
+      throw new Error(
+        `verification unavailable: ${inconclusiveCount} of ${checked.length} URLs could ` +
+          `not be reached at all. That is a broken network, not ${checked.length} bot ` +
+          `walls, and publishing now would mean publishing unverified links. ` +
+          `Run the pipeline somewhere with direct outbound HTTPS.`,
+      );
+    }
+
     let inconclusive = 0;
     for (const { candidate, check, image } of checked) {
       if (check.status === "dead") {
