@@ -1,0 +1,211 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Life of K²",
+  "description": "Circulation: one. Standards: unreasonable.",
+  "home_page_url": "https://life-of-k2.vercel.app",
+  "feed_url": "https://life-of-k2.vercel.app/feed.json",
+  "_homepage": {
+    "generated": "2026-09-04T09:00:00Z",
+    "signals_url": "https://life-of-k2.vercel.app/api/signal"
+  },
+  "items": [
+    {
+      "id": "a17a1e6108cc17e93469b71bfe0d0f1b2848337deff26c7d5e3ca2e59f6623cd",
+      "url": "https://emcrit.org/rv-failure-in-the-crashing-patient/",
+      "title": "RV failure in the crashing patient",
+      "summary": "Ties directly to the CCPU module you're partway through — the volume-vs-pressor call is the part most registrars get backwards..",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Ties directly to the CCPU module you're partway through — the volume-vs-pressor call is the part most registrars get backwards.",
+        "image": null
+      }
+    },
+    {
+      "id": "c1c4406b52582af97f670c0baf732ab7371b6a12b73079a8e137953f9e3a00d6",
+      "url": "https://litfl.com/ecg-of-the-week-subtle-occlusion-mi/",
+      "title": "ECG of the week: subtle occlusion MI",
+      "summary": "Three tracings that don't meet STEMI criteria and all three occluded.",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "Three tracings that don't meet STEMI criteria and all three occluded. Worth ten minutes.",
+        "image": null,
+        "read": true
+      }
+    },
+    {
+      "id": "68305a7cc1dc5ebc1fb0cde0ab96d4a36890b300a1653b10aface70751a9c370",
+      "url": "https://broadsheet.com.au/a-twelve-seat-pasta-counter-opens-in-thornbury/",
+      "title": "A twelve-seat pasta counter opens in Thornbury",
+      "summary": "Walking distance from you.",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet MEL",
+        "note": "Walking distance from you. No bookings, opens 5pm, expect a queue by six.",
+        "image": null
+      }
+    },
+    {
+      "id": "6e3fb138a2cdb6a08d1cda2e6a8cc496267bdc8cda1921d569f2abe176f038aa",
+      "url": "https://eurogamer.net/the-witcher-4-gets-a-release-window-at-last/",
+      "title": "The Witcher 4 gets a release window at last",
+      "summary": "Late 2027, and the first real look at the engine change..",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Eurogamer",
+        "note": "Late 2027, and the first real look at the engine change.",
+        "image": null
+      }
+    },
+    {
+      "id": "44350629e58cf0ce902cdd8fc4dbc3c3794a76958ed651c6c3f5fbd5a9f7c4c6",
+      "url": "https://mutimer.co/the-moleskin-chore-coat-is-back-in-stock/",
+      "title": "The moleskin chore coat is back in stock",
+      "summary": "Sold out in a week last year.",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Mutimer",
+        "note": "Sold out in a week last year. Ecru and olive only.",
+        "image": null
+      }
+    },
+    {
+      "id": "f9ca937608272f7b9f517b5b43d64ba95fb2f4c0cca776f2525e562006ca154b",
+      "url": "https://35mmc.com/portra-400-pushed-two-stops-honestly/",
+      "title": "Portra 400 pushed two stops, honestly",
+      "summary": "Someone finally shows the ugly frames alongside the good ones..",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Someone finally shows the ugly frames alongside the good ones.",
+        "image": null
+      }
+    },
+    {
+      "id": "a71fddfa38d44f2d3cdd7fa91b87ce7d1baf0e29372d4a36d831053be5d3ac95",
+      "url": "https://owencuts.com/the-pressing-that-ruined-my-ears/",
+      "title": "The pressing that ruined my ears",
+      "summary": "On why the 2016 remaster of a record you own is the wrong one to keep..",
+      "date_published": "2026-09-04T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Owen Cuts",
+        "note": "On why the 2016 remaster of a record you own is the wrong one to keep.",
+        "image": null
+      }
+    },
+    {
+      "id": "31b48875b3aa4615b5c8113889a64a42dfe784b774c7d0d919888fca02ba91a5",
+      "url": "https://first10em.com/lung-ultrasound-in-undifferentiated-dyspnoea/",
+      "title": "Lung ultrasound in undifferentiated dyspnoea",
+      "summary": "A clean summary of what the probe can and can't settle at the bedside..",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "First10EM",
+        "note": "A clean summary of what the probe can and can't settle at the bedside.",
+        "image": null
+      }
+    },
+    {
+      "id": "d62116c25b6e55c68d381122c3abca9cf93409db90dae682004fdb826464a2fb",
+      "url": "https://heddels.com/how-rrl-manufactures-ninety-years-of-wear/",
+      "title": "How RRL manufactures ninety years of wear",
+      "summary": "The processes behind the repro look, described by people who do it..",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The processes behind the repro look, described by people who do it.",
+        "image": null,
+        "read": true
+      }
+    },
+    {
+      "id": "3147d2dcf9fe7b05f089467e43fa541a96166fe0a7f89f9e01c887a60282e324",
+      "url": "https://timeout.com/northside-sunday-markets-ranked-by-what-you-d-actually-buy/",
+      "title": "Northside Sunday markets, ranked by what you'd actually buy",
+      "summary": "Two you haven't been to, both under twenty minutes away..",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Time Out MEL",
+        "note": "Two you haven't been to, both under twenty minutes away.",
+        "image": null
+      }
+    },
+    {
+      "id": "20e50219567c96924366e17b660cfcf04a26e401bc11199adeb0ea407d585c8f",
+      "url": "https://casualphotophile.com/the-contax-t2-in-2026-at-2026-prices/",
+      "title": "The Contax T2 in 2026, at 2026 prices",
+      "summary": "Argues the T3 is the better buy and mostly convinces..",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Casual Photophile",
+        "note": "Argues the T3 is the better buy and mostly convinces.",
+        "image": null
+      }
+    },
+    {
+      "id": "ec61d5842a76b18c2896caf157a30e9917e80413476aadedc83a57b2189b694d",
+      "url": "https://enshrouded.com/enshrouded-update-8-the-farming-rework/",
+      "title": "Enshrouded update 8: the farming rework",
+      "summary": "Base-building changes that make a second playthrough worth it..",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Keen Games",
+        "note": "Base-building changes that make a second playthrough worth it.",
+        "image": null
+      }
+    },
+    {
+      "id": "79c302400a534144adf8d55d8c182742239983eac501eb010814eb8c65f43f00",
+      "url": "https://aquariumdrunkard.com/deep-listening-the-second-side-of-pharoah/",
+      "title": "Deep listening: the second side of Pharoah",
+      "summary": "You own this.",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "You own this. This is about the half you skip.",
+        "image": null
+      }
+    },
+    {
+      "id": "7f929961e5a323e9f8d69ee8a5ab15342b8be192d3098b6fc11ee22aa21b7bff",
+      "url": "https://tenderlovingtattoo.com.au/black-work-tattooers-in-melbourne-worth-the-wait/",
+      "title": "Black-work tattooers in Melbourne worth the wait",
+      "summary": "Four studios, all northside, all with open books this month..",
+      "date_published": "2026-09-03T09:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "other",
+        "source": "Tender Loving",
+        "note": "Four studios, all northside, all with open books this month.",
+        "image": null
+      }
+    }
+  ]
+}
