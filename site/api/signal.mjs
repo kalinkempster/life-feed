@@ -1,5 +1,9 @@
 // POST /api/signal — one object per dismissal from the dashboard.
 //
+// This file is .mjs deliberately. Vercel's Root Directory is `site/`, which has no
+// package.json, so a `.js` function is loaded as CommonJS and `export default` is a
+// syntax error at module load — the route deploys and then 500s on every request.
+//
 // The contract's promise to the caller is absolute: fire-and-forget. Always 202,
 // never a body to parse, never an error that could surface to the user or block a
 // dismissal. If Redis is down, the signal is lost and that is the correct
