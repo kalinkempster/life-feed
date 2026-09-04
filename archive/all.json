@@ -462,5 +462,184 @@
       "image": "https://www.escapistmagazine.com/wp-content/uploads/2026/06/Enshrouded-1-0-Release-Date.jpg",
       "icon": null
     }
+  },
+  {
+    "id": "5f469131af73993f2a9574292e50b7be30d9f5067e48190a3e32cde62c064b3f",
+    "url": "https://litfl.com/goodbye-massive-and-submassive",
+    "title": "Goodbye \"Massive\" and \"Submassive\"",
+    "summary": "The two words you have used for every PE handover since medical school are gone; this is the short version of what replaced them.",
+    "date_published": "2026-03-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "Nickson walks the new AHA/ACC A-to-E clinical categories and why \"submassive\" was too blunt to hold both the hypoxic patient who is sliding and the well one with a nudged troponin. This is the terminology half of the change that EMCrit's 2026 crashing PE update — already in the feed — handles on the management side. Category A going home from the department is the line that will surprise people.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "bd69cec637425dfd82683632fd710175bdb1769cf8da260505913266fa5124e5",
+    "url": "https://www.analog.cafe/r/film-photography-news-august-2026-recap-nr97",
+    "title": "Film Photography News — August 2026 Recap",
+    "summary": "A month of film-stock news in one pass: what is actually being coated, and what you will be able to buy in six months.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "photography",
+      "source": "Analog.Cafe",
+      "note": "Analog.Cafe's monthly recaps track the supply side — coating lines, discontinuations, price moves — rather than camera launches, which is the half of the news that changes what goes in the fridge. Kodak's Ektacolor and Ektapan announcements and Harman's colour-negative experiments both landed this year, so the emulsion side is genuinely moving for the first time in a while. Read it for what to stock up on.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_818056_qeRIfUydZ.jpg",
+      "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+    }
+  },
+  {
+    "id": "eaa57abb5488e0d55296072ca68ade45c53f77c4f89bea59149c12b731eb0438",
+    "url": "https://www.headphonesty.com/2026/04/vinyl-pressings-expose-streaming-cds",
+    "title": "50 Vinyl Pressings That Ruin the Streaming and CD Versions",
+    "summary": "A buying list for the narrow case where a specific pressing genuinely beats the file, rather than another vinyl-is-warmer argument.",
+    "date_published": "2026-04-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Headphonesty",
+      "note": "The value is the specificity — named pressings, not formats in the abstract — which is the only question that matters once a catalogue title has been reissued five times and they all look the same on Discogs. With 297 records already in, most future additions are repeat pressings of things streaming already covers, so the mastering is the whole difference. Worth a scan before the next order.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "e558e0d3b388cb5f38ff2b0a84766d1696e83fc849d7c72086b0ddd7126a3a6b",
+    "url": "https://emcrit.org/emcrit/a-few-things",
+    "title": "EMCrit 428 — A Few Things: ARISE Fluids, Bicarb and More",
+    "summary": "ARISE FLUIDS was run in Australian and New Zealand emergency departments, so its answer on early vasopressors lands in your resus bay rather than someone else's.",
+    "date_published": "2026-06-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The trial randomised a thousand patients across ANZ and Ireland and found restricted fluids with early vasopressors no better on days alive and out of hospital — which neither vindicates the 30 mL/kg mandate nor kills it. Weingart pairs the result with the bicarbonate literature in one sitting. Reads directly against the 2026 Surviving Sepsis guidelines episode already in the feed.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/06/arise-fluids-750x419.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "f63f30d8b76638a5e00a7a289a529407cd430f597e7eda71452e3fc8d42a9b45",
+    "url": "https://emcrit.org/emcrit/rush-2",
+    "title": "EMCrit 429 — RUSH 2.0: The I-RUSH and CRUSH Exams",
+    "summary": "The RUSH exam re-cut as a standing hemodynamic map rather than a crash-only protocol — the version worth learning before the next CCPU sitting.",
+    "date_published": "2026-07-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "Weingart's rebuild folds LVOT VTI and the interface model of hemodynamics into a scan you run on any undifferentiated hypotensive, not only the peri-arrest ones. That is the same territory CCPU examines, and it sits directly on top of the LITFL critical care ultrasound pages already in this feed. Better watched before your next shock case than after it.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/07/I-RUSH-750x419.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "3cf7c140fc7a1d5c7941cdf277c8ce8fb47bad0c75af93cfad42160faf3592d8",
+    "url": "https://www.35mmc.com/03/10/2025/half-framing-practically-any-film-camera-part-1-of-2",
+    "title": "\"Half Framing\" Practically Any Film Camera (Part 1 of 2)",
+    "summary": "Turns half-frame into a technique you can run on a camera you already own instead of a second body you have to buy.",
+    "date_published": "2025-10-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The method needs nothing more than a double-exposure facility, which most of the usual suspects have, and it turns 36 exposures into 72 at a time when that arithmetic matters. 35mmc has twice earned a place in this feed on exactly this argument — use the camera you have, not the one you want. Part one is the method; the second half deals with what it does to scanning.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2025/08/Featured-Image-1024x900.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "2059a7f28bb99a73ad08510729101f2046486e0b5aa3fced3f050a4704317232",
+    "url": "https://www.gamespot.com/articles/playstation-state-of-play-september-2026-all-the-biggest-announcements-games-and-trailers",
+    "title": "PlayStation State of Play September 2026: every reveal",
+    "summary": "One page for everything Sony showed, and specifically for the dates that reorder a PS5 backlog.",
+    "date_published": "2026-09-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "GameSpot",
+      "note": "Final Fantasy Resonance took 22 October, Final Fantasy 7 Revelation went to April 2027, and Marvel's Wolverine was confirmed playable off a physical disc — a detail that carries weight given Sony is retiring PlayStation discs in 2028. Gran Turismo 7's Spec IV update splits across autumn and winter rather than landing at once. Skim it for dates, not trailers.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "5851c92223622f7120ba5f312a2e4f977f69c3a73a9ecb5bc2b76068e623ed8e",
+    "url": "https://diymag.com/interview/jalen-ngonda-doctrine-of-love-june-2026",
+    "title": "Jalen Ngonda on soul's timelessness and Doctrine of Love",
+    "summary": "He is already on your shelf, and this is him explaining what he was reaching for on the record that follows.",
+    "date_published": "2026-06-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "DIY Magazine",
+      "note": "Doctrine of Love pushes past the orchestral sweep of the debut into horns and gospel-leaning backing vocals, with Chiarito and Buckley producing again for Daptone. The collection already holds Thee Sacred Souls, Sharon Jones & The Dap-Kings and Menahan Street Band, so this is that same house sound moving forward rather than an unfamiliar bet. The interview catches him mid-tour, talking about why sixties soul still holds.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://d94thh4m1x8qv.cloudfront.net/d/diy/Artists/J/Jalen-Ngonda/_1500x1000_crop_center-center_100_line/Jalen-Ngonda-by-Rosie-Cohe-2026-2.jpg",
+      "icon": "https://diymag.com/ui/img/favicon.ico"
+    }
+  },
+  {
+    "id": "ecc3f0ee0183b892cd74b988540b47867282f3fd9b483568515c7b33366b5b66",
+    "url": "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-guide",
+    "title": "The Witcher 3 Remastered: everything in the free upgrade",
+    "summary": "A free upgrade to a game you almost certainly already own, with a date attached: 29 September.",
+    "date_published": "2026-08-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "PC Gamer",
+      "note": "CD Projekt announced it at Gamescom for PC, PS5, Xbox Series and — natively for the first time — Switch 2, and anyone holding only the base game gets both expansions thrown in. PC Gamer's rundown is the one that lists what actually changed rather than replaying the trailer beats. Under four weeks out, so it is a decision about this month, not a wishlist item.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://cdn.mos.cms.futurecdn.net/y3sNEtEAviYCPthyVp3F5F-2560-80.jpg",
+      "icon": "https://cdn.mos.cms.futurecdn.net/flexiimages/nsto4filky1762166946.png"
+    }
+  },
+  {
+    "id": "3bf9ed769f13a2723bab1e7af95f1276f270c460d5a4345596a2f4f956e55122",
+    "url": "https://www.insidehook.com/style-guides/banana-republic-archive-reissue-collection-2026",
+    "title": "Banana Republic Archive Reissue Revives Safari Style",
+    "summary": "Banana Republic has reissued its own safari-era archive — the exact thing you would otherwise be hunting secondhand.",
+    "date_published": "2026-08-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "InsideHook",
+      "note": "The Archive Reissue arrived with The Explorers Club and draws on the catalogue from the seventies through the early 2000s, which is the era vintage sellers have been pricing hard for years. Buying new is the cheap way to test whether those cuts actually work on you before chasing an original in the right size. Construction detail is thinner than Heddels would give you, but the reference points are the ones you already buy against.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://www.insidehook.com/wp-content/uploads/2026/08/Banana-Republic-Archive.png?resize=1200,800",
+      "icon": "https://www.insidehook.com/wp-content/uploads/2023/10/cropped-IH-favicon-700x700-v2.png?fit=32%2C32"
+    }
+  },
+  {
+    "id": "b268c1447b4be63f1ed4f7b340c3733f7780fcf6081b11ad01b33c0686edda5d",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/tochi-deli-reopens-coburg",
+    "title": "Tochi Deli Reopens in Coburg, With the Same Great Sushi",
+    "summary": "The Sydney Road sushi counter that vanished in July is trading again, ten minutes further north.",
+    "date_published": "2026-08-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Shingo and Rena Tochimoto ran the Brunswick market stall for five years before closing it; the Coburg room seats seventeen, sits across the mall from Half Moon, and carries the same nigiri, chirashi, donburi and onigiri at the same prices. Much of the fit-out is the old Brunswick timber unscrewed, sanded and reused. Northside, walkable from the 19, and cheap enough to be a weeknight rather than an occasion.",
+      "published_at": "2026-09-04T21:15:50.854Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/04/24/Tochi%20Deli%20Coburg%20-%20Casey%20Horsfield_02of%2032-00e78f6f17.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
   }
 ]
