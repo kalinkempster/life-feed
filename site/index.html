@@ -315,9 +315,20 @@ function setSignal(id, reason) {
 }
 
 /* ── Filtering ──────────────────────────────────────────────────────────── */
-const dayOf = it => ((h(it).published_at || it.date_published || "")).slice(0, 10);
-const fmtDay = d => new Date(d + "T00:00:00Z").toLocaleDateString("en-AU",
-  { weekday:"long", day:"numeric", month:"long", timeZone:"UTC" });
+// published_at is a UTC instant; the edition it belongs to is a Melbourne day.
+// Slicing the ISO string agreed with local time only while the run happened at
+// 09:00 UTC (19:00 AEST). A run after 14:00 UTC is already tomorrow here, and
+// slicing filed it under yesterday — merged into an edition already published.
+const TZ = "Australia/Melbourne";
+const dayKey = new Intl.DateTimeFormat("en-CA",
+  { timeZone:TZ, year:"numeric", month:"2-digit", day:"2-digit" });
+const dayOf = it => {
+  const at = new Date(h(it).published_at || it.date_published || "");
+  return isNaN(at) ? "" : dayKey.format(at);
+};
+// Midday, so neither AEST nor AEDT can push the label onto the adjacent day.
+const fmtDay = d => new Date(d + "T12:00:00+10:00").toLocaleDateString("en-AU",
+  { weekday:"long", day:"numeric", month:"long", timeZone:TZ });
 
 function match(it) {
   const r = reasonOf(it);

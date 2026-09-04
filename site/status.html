@@ -211,6 +211,12 @@ const TOPICS = ["medicine","records","photography","fashion","gaming","melbourne
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c =>
   ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 
+// "Today" is a Melbourne day, not a UTC one — the same rule the feed files
+// editions by. A run after 14:00 UTC is already tomorrow here.
+const dayKey = new Intl.DateTimeFormat("en-CA",
+  { timeZone:"Australia/Melbourne", year:"numeric", month:"2-digit", day:"2-digit" });
+const melDay = v => { const at = new Date(v || ""); return isNaN(at) ? "" : dayKey.format(at); };
+
 Promise.all([
   fetch("feed.json", { cache:"no-cache" }).then(r => r.json()),
   fetch("status.json", { cache:"no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null)
@@ -230,8 +236,8 @@ Promise.all([
   document.getElementById("tiles").innerHTML = [
     ["Live pool", items.length, "cap 200"],
     ["Timely items", timely, "floor 15"],
-    ["Published today", items.filter(i => ((i._homepage || {}).published_at || i.date_published || "").slice(0,10) ===
-      gen.toISOString().slice(0,10)).length, perDay.length ? "mean " +
+    ["Published today", items.filter(i => melDay((i._homepage || {}).published_at || i.date_published) ===
+      melDay(gen)).length, perDay.length ? "mean " +
       (perDay.reduce((a,b) => a+b, 0) / perDay.length).toFixed(1) : "—"],
     ["Feed age", ageH + "h", "refetch 60m"]
   ].map(([k,v,f]) => '<div class="tile"><div class="k mono">' + esc(k) +
