@@ -21,6 +21,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { FEED, PATHS, ORIGIN, TOPICS, KINDS, CURATION } from "./lib/config.mjs";
 import { assertIdsStable, idFor, normaliseUrl } from "./lib/url.mjs";
+import { editionDay } from "./lib/day.mjs";
 import { readSignals, summarise, ratingsBrief } from "./lib/signals.mjs";
 import { loadLibrary, digest } from "./lib/library.mjs";
 import { verifyAll } from "./lib/verify.mjs";
@@ -57,7 +58,8 @@ const WANT = Number(valueOf("want", "8"));
 const log = (...parts) => console.log(...parts);
 const started = new Date();
 const ranAt = started.toISOString();
-const today = ranAt.slice(0, 10);
+// The instant is UTC; the edition it belongs to is a Melbourne day. See lib/day.mjs.
+const today = editionDay(started);
 
 /**
  * Read and validate a candidates file written by the scheduled cloud routine.

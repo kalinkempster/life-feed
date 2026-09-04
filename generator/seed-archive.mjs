@@ -8,6 +8,7 @@
 import fs from "node:fs";
 import { PATHS } from "./lib/config.mjs";
 import { assertIdsStable } from "./lib/url.mjs";
+import { editionDay } from "./lib/day.mjs";
 import { verifyAll } from "./lib/verify.mjs";
 import {
   loadArchive,
@@ -64,7 +65,7 @@ saveArchive(merged.archive);
 // Group into the days they were originally published on.
 const byDay = new Map();
 for (const item of merged.archive) {
-  const day = String(item._homepage.published_at || item.date_published).slice(0, 10);
+  const day = editionDay(item._homepage.published_at || item.date_published);
   if (!byDay.has(day)) byDay.set(day, []);
   byDay.get(day).push(item);
 }

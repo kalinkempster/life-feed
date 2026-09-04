@@ -11,6 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ARCHIVE, PATHS } from "./config.mjs";
+import { editionDay } from "./day.mjs";
 
 function readJson(file, fallback) {
   try {
@@ -109,12 +110,13 @@ export function saveIndex(index, run) {
 export function perDay(index, days = 30) {
   const counts = new Map(index.runs.map((r) => [r.day, r.published || 0]));
   const out = [];
-  const cursor = new Date();
-  cursor.setUTCHours(0, 0, 0, 0);
+  // Step back in 24h hops and name each one in Melbourne, so the bars line up with
+  // the days the editions are filed under. A DST change only mislabels a hop if the
+  // step lands within an hour of local midnight; the run is at 19:00 local.
+  const now = Date.now();
 
   for (let i = days - 1; i >= 0; i -= 1) {
-    const d = new Date(cursor.getTime() - i * 24 * 3600 * 1000);
-    out.push(counts.get(d.toISOString().slice(0, 10)) || 0);
+    out.push(counts.get(editionDay(new Date(now - i * 24 * 3600 * 1000))) || 0);
   }
   return out;
 }

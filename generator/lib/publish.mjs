@@ -15,6 +15,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { FEED, ORIGIN, PATHS, TOPICS } from "./config.mjs";
+import { editionDay } from "./day.mjs";
 
 // The served files are minified: they are build artifacts fetched by machines and
 // by one page, not things anyone reads in a diff. The archive stays pretty-printed,
@@ -25,8 +26,9 @@ function writeJson(file, value, { pretty = false } = {}) {
   fs.writeFileSync(file, body);
 }
 
+// Which edition an item sits under on the site. Melbourne, not UTC — see day.mjs.
 const dayOf = (item) =>
-  String(item._homepage.published_at || item.date_published || "").slice(0, 10);
+  editionDay(item._homepage.published_at || item.date_published || "");
 
 /**
  * Decide which archived items are live in the dashboard's feed.

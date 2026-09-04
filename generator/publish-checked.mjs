@@ -13,6 +13,7 @@ import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT } from "./lib/config.mjs";
+import { editionDay } from "./lib/day.mjs";
 
 const run = (cmd, args, opts = {}) =>
   spawnSync(cmd, args, { cwd: ROOT, encoding: "utf8", ...opts });
@@ -76,7 +77,7 @@ const count = (() => {
   }
 })();
 
-const day = new Date().toISOString().slice(0, 10);
+const day = editionDay();
 run("git", ["config", "user.name", "life-of-k2 generator"]);
 run("git", ["config", "user.email", "kalinkempster@gmail.com"]);
 

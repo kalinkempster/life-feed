@@ -56,11 +56,18 @@ jobs:
           SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
           SIGNALS_ENABLED: ${{ vars.SIGNALS_ENABLED }}
         run: |
+          # No candidates is not the same as nothing to do. A dispatch with no
+          # candidates file re-renders the published files from the archive, which
+          # is how a presentation change — how editions are grouped, how the feed
+          # is selected — reaches the site without inventing an edition to carry
+          # it. It curates nothing and verifies nothing, because there is nothing
+          # new to verify.
           if [ ! -s candidates.json ]; then
-            echo "No candidates.json — nothing to publish."
-            exit 0
+            echo "No candidates.json — rebuilding the published files from the archive."
+            node generator/run.mjs --no-curate
+          else
+            node generator/run.mjs --from-candidates=candidates.json
           fi
-          node generator/run.mjs --from-candidates=candidates.json
 
       - name: Publish if it conforms
         env:
