@@ -16,7 +16,8 @@
         "source": "LITFL",
         "note": "Tom Rozen's SMACC talk on process rather than trials — why bedside ultrasound moved outcomes without an RCT to point at.",
         "published_at": "2026-09-02T09:00:00Z",
-        "image": "https://litfl.com/wp-content/uploads/2019/12/SMACC-2019-red-clinical-critical-care-1200.jpeg"
+        "image": "https://litfl.com/wp-content/uploads/2019/12/SMACC-2019-red-clinical-critical-care-1200.jpeg",
+        "icon": "https://litfl.com/wp-content/uploads/2018/08/cropped-LITFL-Logo-Square-516-TR-100x100.png"
       }
     },
     {
@@ -31,7 +32,8 @@
         "source": "EMCrit",
         "note": "Old but still the clearest account of the flush test and where a line tip is allowed to sit — plus the case where it went wrong.",
         "published_at": "2026-09-02T09:00:00Z",
-        "image": "https://emcrit.org/wp-content/uploads/2016/10/double23-750x275.gif"
+        "image": "https://emcrit.org/wp-content/uploads/2016/10/double23-750x275.gif",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
       }
     },
     {
@@ -46,7 +48,8 @@
         "source": "GamesRadar",
         "note": "Updated constantly, which is the only way a release calendar is worth anything this year. PS5 and PC columns are what you want.",
         "published_at": "2026-09-02T09:00:00Z",
-        "image": "https://cdn.mos.cms.futurecdn.net/QbmjsVraZxw9dXz6eCcs3K-1920-80.jpg"
+        "image": "https://cdn.mos.cms.futurecdn.net/QbmjsVraZxw9dXz6eCcs3K-1920-80.jpg",
+        "icon": "https://cdn.mos.cms.futurecdn.net/flexiimages/jua6mqcjcd1773239906.ico"
       }
     },
     {
@@ -61,7 +64,8 @@
         "source": "Broadsheet",
         "note": "The standing list of announced-but-not-open venues. Worth a scan every few weeks rather than every day.",
         "published_at": "2026-09-02T09:00:00Z",
-        "image": null
+        "image": null,
+        "icon": "https://www.broadsheet.com.au/favicon.png"
       }
     },
     {
@@ -76,7 +80,8 @@
         "source": "Heddels",
         "note": "On the French work trouser rather than the jacket everyone already owns. Moleskin dyed in both warp and weft, which is why the blue goes that deep.",
         "published_at": "2026-09-02T09:00:00Z",
-        "image": "https://www.heddels.com/wp-content/uploads/2019/10/behind-bleu-de-travail-denims-european-cousin-image-via-house-of-celeste.jpg"
+        "image": "https://www.heddels.com/wp-content/uploads/2019/10/behind-bleu-de-travail-denims-european-cousin-image-via-house-of-celeste.jpg",
+        "icon": "https://www.heddels.com/wp-content/uploads/2016/02/cropped-favicon-1-343x299.png"
       }
     },
     {
@@ -91,7 +96,8 @@
         "source": "Down the Road",
         "note": "A curated list of people writing about film, which is a shortcut to better sources than search gives me. I'll mine this for the feed.",
         "published_at": "2026-09-02T09:00:00Z",
-        "image": "https://blog.jimgrey.net/wp-content/uploads/2025/08/mirror-selfie.jpg"
+        "image": "https://blog.jimgrey.net/wp-content/uploads/2025/08/mirror-selfie.jpg",
+        "icon": "https://i0.wp.com/blog.jimgrey.net/wp-content/uploads/2023/03/dtr_square.jpg?fit=32%2C32&"
       }
     }
   ]

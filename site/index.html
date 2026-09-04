@@ -28,25 +28,38 @@
                 letter-spacing:-.02em; margin:0; color:var(--bright); }
   h1.masthead sup { font-size:.46em; vertical-align:super; line-height:0; letter-spacing:0; }
   .byline { font-size:10px; letter-spacing:.26em; color:var(--mute); margin:14px 0 0; }
+
+  /* Form controls do not inherit text-transform in every engine, so the mono
+     treatment is set explicitly wherever a button carries it. */
   .picker { position:relative; }
   .picker > button { background:none; border:0; padding:0; cursor:pointer; color:var(--mute);
-                     font-size:10px; }
+                     font-family:'IBM Plex Mono',monospace; font-size:10px;
+                     text-transform:uppercase; letter-spacing:.18em; }
   .picker > button:hover, .picker.open > button { color:var(--bright); }
   .menu { position:absolute; top:22px; right:0; z-index:20; min-width:250px; background:#141210;
           border:1px solid var(--rule); display:none; flex-direction:column;
           box-shadow:0 18px 40px rgba(0,0,0,.55); }
   .picker.open .menu { display:flex; }
   .menu button { background:none; border:0; border-bottom:1px solid var(--hair); cursor:pointer;
-                 color:#a09788; font-size:10px; padding:9px 12px; display:flex;
-                 justify-content:space-between; gap:16px; }
+                 color:#a09788; font-family:'IBM Plex Mono',monospace; font-size:10px;
+                 text-transform:uppercase; letter-spacing:.14em; padding:9px 12px; display:flex;
+                 justify-content:space-between; gap:16px; text-align:left; }
   .menu button:hover { background:#1a1509; color:var(--bright); }
   .menu span:last-child { color:var(--faint); }
+
   .shell { display:grid; grid-template-columns:216px minmax(0,1fr); gap:40px; }
   aside { padding:26px 20px 0 0; position:sticky; top:0; align-self:start; max-height:100vh;
           overflow:auto; border-right:1px solid var(--hair); }
 
-  /* Filters: one group per axis. Topic, kind and status are different questions,
-     so they are asked separately rather than run together in one list. */
+  /* The filter panel collapses on phones, where the rail becomes a stack of
+     chips at the top of the page and would otherwise push the feed off screen. */
+  .rail-toggle { display:none; width:100%; background:none; border:1px solid var(--rule);
+                 color:var(--mute); cursor:pointer; padding:9px 12px; align-items:center;
+                 gap:10px; font-family:'IBM Plex Mono',monospace; font-size:10px;
+                 text-transform:uppercase; letter-spacing:.18em; }
+  .rail-toggle .active { margin-left:auto; color:var(--accent); }
+  .rail-toggle .caret { transition:transform .2s; }
+  aside.open .rail-toggle .caret { transform:rotate(180deg); }
   .rail-h { font-size:9px; letter-spacing:.22em; color:var(--faint);
             border-bottom:1px solid var(--hair); padding-bottom:8px; margin:0 0 10px; }
   .rail-group + .rail-group { margin-top:22px; }
@@ -61,17 +74,16 @@
                                        color:var(--accent); }
   .chips .n { font-size:9px; color:var(--faint); font-variant-numeric:tabular-nums; }
   .chips button[aria-pressed="true"] .n { color:var(--accent); }
+  .clear { margin-top:20px; width:100%; background:none; border:1px solid var(--rule);
+           color:var(--mute); cursor:pointer; padding:8px 10px;
+           font-family:'IBM Plex Mono',monospace; font-size:9px; text-transform:uppercase;
+           letter-spacing:.16em; transition:all .15s; }
+  .clear:hover { color:var(--bright); border-color:var(--accent); background:#1a1509; }
 
   main { padding-top:26px; min-width:0; }
   .bar { display:flex; align-items:center; gap:14px; border-bottom:1px solid var(--hair);
          padding-bottom:10px; }
   .bar .count { font-size:10px; color:var(--mute); }
-  .views { margin-left:auto; display:flex; }
-  .views button { background:none; border:1px solid var(--rule); color:var(--dim); cursor:pointer;
-                  font-family:'IBM Plex Mono',monospace; text-transform:uppercase;
-                  font-size:10px; letter-spacing:.18em; padding:5px 12px; transition:all .15s; }
-  .views button:hover { color:var(--bright); }
-  .views button[aria-pressed="true"] { background:var(--rule); color:var(--bright); }
   section.edition { padding:34px 0 6px; }
   .ed-head { display:flex; align-items:baseline; gap:16px; border-bottom:2px solid var(--paper);
              padding-bottom:8px; }
@@ -87,16 +99,26 @@
   .kicker .src { font-size:10px; font-weight:500; color:var(--accent); }
   .kicker .rule { width:12px; height:1px; background:var(--rule); }
   .kicker .topic { font-size:10px; color:var(--dim); }
-  .kicker .tag { font-size:9px; letter-spacing:.16em; color:var(--bg); background:var(--mute);
-                 padding:2px 6px; }
   .kicker .tick { font-size:10px; color:var(--dim); }
+
+  /* Kind reads as a mark rather than a word: an hourglass for timely, a leaf for
+     evergreen. It was the only shouted word in an otherwise quiet kicker line. */
+  .kind { display:inline-flex; align-items:center; }
+  .kind svg { width:13px; height:13px; display:block; }
+  .kind.timely { color:var(--accent); }
+  .kind.evergreen { color:var(--dim); }
+
+  /* The source's own icon. Carries the masthead on phones, where a 76px crop of
+     an article's og:image reads as noise rather than as a picture. */
+  .fav { display:none; width:14px; height:14px; flex:0 0 14px; }
+  .fav img { width:100%; height:100%; object-fit:contain; border-radius:2px;
+             filter:saturate(.5); }
+
   article h3 { font-size:27px; font-weight:400; line-height:1.15; letter-spacing:-.01em;
                margin:0 0 8px; }
   article p { font-style:italic; font-weight:300; font-size:16px; line-height:1.45;
               color:#a09788; margin:0; max-width:62ch; text-wrap:pretty; }
 
-  /* Rating controls. Quiet at rest so the page still reads as a reading room;
-     they come up on hover, and stay lit once you have said something. */
   .acts { margin-left:auto; display:flex; align-items:center; gap:2px; opacity:0;
           transition:opacity .18s; }
   article:hover .acts, .acts:focus-within, .acts.set { opacity:1; }
@@ -111,8 +133,6 @@
   .acts button[aria-pressed="true"] { color:var(--accent); border-color:var(--rule); }
   .acts .down[aria-pressed="true"] { color:var(--down); }
 
-  /* A dismissed item collapses in place rather than vanishing, so the action is
-     undoable. It is gone for good on the next load. */
   article.gone { grid-template-columns:1fr; padding:12px 0; opacity:.5; }
   article.gone .body { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
   article.gone .g-label { font-family:'IBM Plex Mono',monospace; font-size:10px;
@@ -140,7 +160,6 @@
            letter-spacing:.16em; color:var(--faint); }
   footer a { border-bottom:1px solid var(--rule); }
 
-  /* Back to top. Only present once there is something to go back up to. */
   .to-top { position:fixed; right:28px; bottom:28px; z-index:30; background:#141210;
             border:1px solid var(--rule); color:var(--mute); cursor:pointer; padding:10px 14px;
             font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.18em;
@@ -154,7 +173,7 @@
 
   @media (prefers-reduced-motion: reduce) {
     html, body { scroll-behavior:auto; }
-    .to-top, .acts, article, .thumb { transition:none; }
+    .to-top, .acts, article, .thumb, .rail-toggle .caret { transition:none; }
   }
 
   @media (max-width:820px) {
@@ -164,7 +183,10 @@
     .dateline .mid { display:none; }
     .shell { grid-template-columns:1fr; gap:0; }
     aside { position:static; max-height:none; border:0; border-bottom:1px solid var(--hair);
-            padding:16px 0 10px; }
+            padding:16px 0 12px; }
+    .rail-toggle { display:flex; }
+    .rail-body { display:none; padding-top:14px; }
+    aside.open .rail-body { display:block; }
     .rail-group + .rail-group { margin-top:14px; }
     .rail-h { padding-bottom:6px; margin-bottom:8px; }
     .chips { flex-direction:row; flex-wrap:wrap; gap:6px; }
@@ -172,10 +194,13 @@
     .chips button[aria-pressed="true"] { background:var(--accent); color:var(--bg);
                                          border-color:var(--accent); }
     .chips button[aria-pressed="true"] .n { color:var(--bg); }
-    article { grid-template-columns:1fr 76px; gap:16px; padding:18px 0; }
+    .clear { margin-top:14px; }
+
+    /* One column: no thumbnail, the source's icon instead. */
+    article { grid-template-columns:1fr; gap:0; padding:18px 0; }
     article h3 { font-size:22px; }
-    .thumb { height:58px; }
-    /* No hover on touch — the controls have to be permanently visible. */
+    .thumb { display:none; }
+    .fav { display:inline-flex; }
     .acts { opacity:1; }
     .to-top { right:16px; bottom:16px; padding:9px 12px; }
   }
@@ -189,7 +214,7 @@
       <span class="mid" id="today"></span>
       <span class="picker" id="picker">
         <button type="button" id="picker-btn">Editions ▾</button>
-        <div class="menu mono" id="picker-menu"></div>
+        <div class="menu" id="picker-menu"></div>
       </span>
     </div>
     <div class="banner">
@@ -199,15 +224,17 @@
   </header>
 
   <div class="shell">
-    <aside id="rail"></aside>
+    <aside id="aside">
+      <button type="button" class="rail-toggle" id="railToggle"
+              aria-expanded="false" aria-controls="railBody">
+        <span>Filters</span><span class="active" id="railActive"></span><span class="caret">▾</span>
+      </button>
+      <div class="rail-body" id="railBody"></div>
+    </aside>
 
     <main>
       <div class="bar">
         <span class="count mono" id="result">loading…</span>
-        <div class="views mono">
-          <button type="button" data-view="editions" aria-pressed="true">Editions</button>
-          <button type="button" data-view="river" aria-pressed="false">River</button>
-        </div>
       </div>
       <div id="feed"></div>
       <footer class="mono">
@@ -225,7 +252,7 @@
 
 <script>
 const TOPICS = ["medicine","records","photography","fashion","gaming","melbourne","other"];
-let ITEMS = [], GENERATED = null, chip = null, view = "editions";
+let ITEMS = [], GENERATED = null, chip = null;
 
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c =>
   ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
@@ -233,10 +260,10 @@ const h = it => it._homepage || {};
 
 /* ── Signals ──────────────────────────────────────────────────────────────
    Three things you can say about an item: you read it, you want more like it,
-   or it is not for you. They are stored locally first so the page responds
-   instantly and remembers across reloads, and POSTed to /api/signal so that
-   once Upstash is configured they reach the generator and steer curation.
-   The POST is fire-and-forget: a failure must never block the interaction. */
+   or it is not for you. Stored locally first so the page responds instantly and
+   remembers across reloads, and POSTed to /api/signal so that once Upstash is
+   configured they reach the generator and steer curation. Fire-and-forget: a
+   failure must never block the interaction. */
 const STORE = "lok2:signals";
 let LOCAL = {};
 const justDismissed = new Set();
@@ -310,7 +337,6 @@ function groups(list) {
 }
 
 const GROUPS = [
-  { head: "Filter", chips: [["Everything", null]] },
   { head: "Topic",  chips: TOPICS.map(t => [t, t]) },
   { head: "Kind",   chips: [["Timely","timely"], ["Evergreen","evergreen"]] },
   { head: "Status", chips: [["Read","read"], ["Liked","liked"]] }
@@ -318,17 +344,31 @@ const GROUPS = [
 
 function chipsUI() {
   const count = c => { const s = chip; chip = c; const n = ITEMS.filter(match).length; chip = s; return n; };
-  document.getElementById("rail").innerHTML = GROUPS.map(g =>
+  document.getElementById("railBody").innerHTML = GROUPS.map(g =>
     '<div class="rail-group"><div class="rail-h mono">' + esc(g.head) + '</div>' +
     '<div class="chips">' + g.chips.map(([label, value]) =>
-      '<button type="button" data-chip="' + (value == null ? "" : value) + '" aria-pressed="' +
-      (chip === value) + '"><span>' + esc(label) + '</span><span class="n">' +
-      count(value) + '</span></button>').join("") +
-    '</div></div>').join("");
+      '<button type="button" data-chip="' + value + '" aria-pressed="' + (chip === value) +
+      '"><span>' + esc(label) + '</span><span class="n">' + count(value) +
+      '</span></button>').join("") +
+    '</div></div>').join("") +
+    (chip ? '<button type="button" class="clear" id="clearFilter">Clear filter</button>' : "");
+
+  document.getElementById("railActive").textContent = chip || "";
 }
 
 /* ── Rendering ──────────────────────────────────────────────────────────── */
 const THUMB_SVG = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.4 14V6.6L8.6 2c.9 0 1.5.7 1.4 1.6l-.4 2.2h3.1c.9 0 1.5.8 1.3 1.6l-1 4.9c-.1.6-.7 1-1.3 1H5.4zM1.6 14h3.8V6.6H1.6z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>';
+
+const HOURGLASS = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2h7M4.5 14h7M5.5 2v2.6L8 8l2.5-3.4V2M5.5 14v-2.6L8 8l2.5 3.4V14" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+const LEAF = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.2 2.8C6.6 2.6 2.8 5.6 2.8 10.2c0 1.2.4 2.2 1 3 5.2.3 9.6-3.4 9.4-10.4z" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/><path d="M3.4 13.2 9.6 6.6" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>';
+
+function kindMark(kind) {
+  const timely = kind === "timely";
+  return '<span class="kind ' + (timely ? "timely" : "evergreen") + '" title="' +
+    (timely ? "Timely" : "Evergreen") + '" role="img" aria-label="' +
+    (timely ? "Timely" : "Evergreen") + '">' + (timely ? HOURGLASS : LEAF) + '</span>';
+}
 
 function actions(it) {
   const r = reasonOf(it);
@@ -358,12 +398,20 @@ function row(it) {
     ? '<div class="thumb" style="background-image:url(' + esc(m.image) + ')"></div>'
     : '<div class="thumb placeholder"><span>og:image</span></div>';
 
+  // Deliberately not loading="lazy". These are 14px icons, so deferring them saves
+  // nothing measurable, and lazy images inside a container that starts display:none
+  // (the desktop case) can end up never being fetched at all once it is shown.
+  const fav = m.icon
+    ? '<span class="fav"><img src="' + esc(m.icon) + '" alt="" width="14" height="14" ' +
+      'decoding="async" onerror="this.parentNode.style.display=\'none\'"></span>'
+    : "";
+
   return '<article class="' + (r === "read" ? "read " : "") +
     (r === "interested" ? "liked" : "") + '">' +
-    '<div style="min-width:0"><div class="kicker mono">' +
+    '<div style="min-width:0"><div class="kicker mono">' + fav +
       '<span class="src">' + esc(m.source) + '</span><span class="rule"></span>' +
       '<span class="topic">' + esc(m.topic) + '</span>' +
-      (m.kind === "timely" ? '<span class="tag">timely</span>' : '') +
+      kindMark(m.kind) +
       (r === "read" ? '<span class="tick">✓ read</span>' : '') +
       actions(it) +
     '</div><h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
@@ -382,13 +430,11 @@ function render() {
       '<p class="mono">The generator publishes what it finds, not what fills a slot.</p></div>';
     return;
   }
-  feed.innerHTML = (view === "river"
-    ? ['<section class="edition">' + list.map(row).join("") + '</section>']
-    : groups(list).map(g => '<section class="edition" id="ed-' + g.date + '">' +
-        '<div class="ed-head"><h2>' + fmtDay(g.date) + '</h2><span class="n mono">' +
-        g.items.length + (g.items.length === 1 ? " item" : " items") + '</span></div>' +
-        g.items.map(row).join("") + '</section>')
-  ).join("");
+  feed.innerHTML = groups(list).map(g =>
+    '<section class="edition" id="ed-' + g.date + '">' +
+    '<div class="ed-head"><h2>' + fmtDay(g.date) + '</h2><span class="n mono">' +
+    g.items.length + (g.items.length === 1 ? " item" : " items") + '</span></div>' +
+    g.items.map(row).join("") + '</section>').join("");
 }
 
 function pickerUI() {
@@ -401,29 +447,28 @@ function pickerUI() {
 document.addEventListener("click", e => {
   const sig = e.target.closest("[data-sig]");
   const chipBtn = e.target.closest("[data-chip]");
-  const viewBtn = e.target.closest("[data-view]");
   const jump = e.target.closest("[data-jump]");
   const picker = document.getElementById("picker");
+  const aside = document.getElementById("aside");
+
+  if (e.target.closest("#railToggle")) {
+    const open = aside.classList.toggle("open");
+    document.getElementById("railToggle").setAttribute("aria-expanded", String(open));
+    return;
+  }
+  if (e.target.closest("#clearFilter")) {
+    chip = null; chipsUI(); render();
+    return;
+  }
 
   if (sig) {
     e.preventDefault();
     setSignal(sig.dataset.id, sig.dataset.sig);
   } else if (chipBtn) {
-    const v = chipBtn.dataset.chip || null;
+    const v = chipBtn.dataset.chip;
     chip = chip === v ? null : v;
     chipsUI(); render();
-  } else if (viewBtn) {
-    view = viewBtn.dataset.view;
-    document.querySelectorAll("[data-view]").forEach(b =>
-      b.setAttribute("aria-pressed", b.dataset.view === view));
-    render();
   } else if (jump) {
-    if (view === "river") {
-      view = "editions";
-      document.querySelectorAll("[data-view]").forEach(b =>
-        b.setAttribute("aria-pressed", b.dataset.view === "editions"));
-      render();
-    }
     const target = document.getElementById(jump.dataset.jump);
     if (target) window.scrollTo({ top: target.offsetTop - 24, behavior: "smooth" });
     picker.classList.remove("open");

@@ -34,7 +34,7 @@ const results = await verifyAll(
 const seeded = [];
 const dropped = [];
 
-for (const { candidate, check, image } of results) {
+for (const { candidate, check, image, icon } of results) {
   const item = candidate.item;
   if (check.status === "dead") {
     dropped.push({ code: check.code, url: item.url, when: "seed" });
@@ -46,6 +46,7 @@ for (const { candidate, check, image } of results) {
     _homepage: {
       ...item._homepage,
       image: image || item._homepage.image || null,
+      icon: icon || item._homepage.icon || null,
       ...(check.status === "inconclusive" ? { verified: "bot-walled" } : {}),
     },
   });

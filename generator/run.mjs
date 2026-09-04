@@ -236,7 +236,7 @@ async function main() {
     }
 
     let inconclusive = 0;
-    for (const { candidate, check, image } of checked) {
+    for (const { candidate, check, image, icon } of checked) {
       if (check.status === "dead") {
         dropped.push({ code: check.code, url: candidate.url, when: "this run" });
         continue;
@@ -259,6 +259,7 @@ async function main() {
           note: candidate.note,
           published_at: ranAt,
           image: image || null,
+          icon: icon || null,
           ...(check.status === "inconclusive" ? { verified: "bot-walled" } : {}),
         },
       });

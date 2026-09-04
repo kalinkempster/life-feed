@@ -84,6 +84,20 @@ reads the signals at build time and writes `curation/signals-summary.md`, which
 the scheduled routine reads the next day. Without Upstash the buttons still work
 in your browser, but nothing influences the feed.
 
+## Phone vs desktop
+
+The two are not the same page and are not meant to be.
+
+- **Filters collapse** behind a `FILTERS` toggle on phones; the active filter is
+  named on the collapsed bar so it is never hidden state. Desktop keeps the rail
+  open. There is no "everything" chip — a chip toggles off by being tapped again,
+  and `Clear filter` appears once anything is on.
+- **No thumbnails on phones.** A 76px crop of an article's og:image reads as noise
+  at that size. The source's own icon carries the masthead instead, fetched and
+  verified by the generator like every other asset — no third-party favicon
+  service, which would hand every source's domain to someone else on every load.
+- **Kind is a mark, not a word**: an hourglass for timely, a leaf for evergreen.
+
 ## What is NOT here
 
 Everything at the repo root: the curation brief, the handoff, the generator, the

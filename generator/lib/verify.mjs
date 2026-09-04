@@ -137,22 +137,19 @@ function findMeta(html, property) {
   return content ? decodeEntities(content[1]).trim() : null;
 }
 
-/**
- * Pull an og:image off a page and confirm the image itself resolves.
- * Returns null rather than an unverified URL — the design calls for thumbnails
- * "fetched and verified by the generator, never hot-linked unverified".
- */
-export async function findImage(pageUrl) {
-  const { res } = await request(pageUrl, "GET");
-  if (!res || !res.ok) return null;
-  const html = await readCapped(res);
-  if (!html) return null;
+function findLinkHref(html, relPattern) {
+  const tags = html.match(/<link\b[^>]*>/gi) || [];
+  for (const tag of tags) {
+    const rel = tag.match(/rel\s*=\s*["']([^"']+)["']/i);
+    if (!rel || !relPattern.test(rel[1].trim())) continue;
+    const href = tag.match(/href\s*=\s*["']([^"']+)["']/i);
+    if (href) return decodeEntities(href[1]).trim();
+  }
+  return null;
+}
 
-  const candidate =
-    findMeta(html, "og:image:secure_url") ||
-    findMeta(html, "og:image") ||
-    findMeta(html, "twitter:image") ||
-    findMeta(html, "twitter:image:src");
+/** Confirm a candidate asset URL actually serves an image. */
+async function confirmImage(candidate, pageUrl, { minBytes = 0 } = {}) {
   if (!candidate) return null;
 
   let absolute;
@@ -163,21 +160,57 @@ export async function findImage(pageUrl) {
   }
   if (!/^https:/i.test(absolute)) return null; // the site is HTTPS-only
 
-  const { res: imgRes } = await request(absolute, "GET", { Accept: "image/*,*/*;q=0.8" });
-  if (!imgRes || !imgRes.ok) return null;
-  const type = imgRes.headers.get("content-type") || "";
-  if (!/^image\//i.test(type)) return null;
+  const { res } = await request(absolute, "GET", { Accept: "image/*,*/*;q=0.8" });
+  if (!res || !res.ok) return null;
+
+  const type = res.headers.get("content-type") || "";
+  // Favicons are often served as x-icon or with a vague type; accept those too.
+  if (!/^image\/|icon/i.test(type)) return null;
 
   // Reject tracking pixels and sprite-sized junk where the host tells us the size.
-  const length = Number(imgRes.headers.get("content-length") || 0);
-  if (length && length < 3000) return null;
+  const length = Number(res.headers.get("content-length") || 0);
+  if (minBytes && length && length < minBytes) return null;
 
   try {
-    await imgRes.body?.cancel();
+    await res.body?.cancel();
   } catch {
     /* nothing to clean up */
   }
-  return imgRes.url || absolute;
+  return res.url || absolute;
+}
+
+/**
+ * Pull the og:image and the site icon off a page, confirming each resolves.
+ * One HTML fetch serves both. Returns nulls rather than unverified URLs — the
+ * design calls for thumbnails "fetched and verified by the generator, never
+ * hot-linked unverified", and the same standard applies to the icon.
+ */
+export async function findAssets(pageUrl) {
+  const { res } = await request(pageUrl, "GET");
+  if (!res || !res.ok) return { image: null, icon: null };
+  const html = await readCapped(res);
+  if (!html) return { image: null, icon: null };
+
+  const image = await confirmImage(
+    findMeta(html, "og:image:secure_url") ||
+      findMeta(html, "og:image") ||
+      findMeta(html, "twitter:image") ||
+      findMeta(html, "twitter:image:src"),
+    pageUrl,
+    { minBytes: 3000 },
+  );
+
+  // Declared icon first, then the conventional location. No third-party favicon
+  // service: that would hand every source's domain to someone else on every load.
+  let icon = await confirmImage(
+    findLinkHref(html, /(^|\s)(icon|shortcut icon|apple-touch-icon)(\s|$)/i),
+    pageUrl,
+  );
+  if (!icon) {
+    icon = await confirmImage(new URL("/favicon.ico", pageUrl).toString(), pageUrl);
+  }
+
+  return { image, icon };
 }
 
 async function readCapped(res) {
@@ -220,14 +253,16 @@ export async function verifyAll(candidates, { concurrency = 5, withImages = true
       const candidate = queue.shift();
       const check = await verifyLink(candidate.url);
       let image = null;
+      let icon = null;
       if (withImages && check.status !== "dead") {
         try {
-          image = await findImage(check.finalUrl);
+          ({ image, icon } = await findAssets(check.finalUrl));
         } catch {
           image = null;
+          icon = null;
         }
       }
-      results.push({ candidate, check, image });
+      results.push({ candidate, check, image, icon });
     }
   }
 

@@ -16,7 +16,8 @@
         "source": "LITFL",
         "note": "The CCC entry, which is the reference version rather than the teaching version. Worth keeping open in a tab through the module.",
         "published_at": "2026-09-03T09:00:00Z",
-        "image": "https://litfl.com/wp-content/uploads/2018/11/CCC-Critical-Care-compendium-1200.png"
+        "image": "https://litfl.com/wp-content/uploads/2018/11/CCC-Critical-Care-compendium-1200.png",
+        "icon": "https://litfl.com/wp-content/uploads/2018/08/cropped-LITFL-Logo-Square-516-TR-100x100.png"
       }
     },
     {
@@ -31,7 +32,8 @@
         "source": "Broadsheet",
         "note": "Two northside entries buried in this one: Jacket, a Thornbury jazz bar designed from a playlist, and Chabela doing Mexico City street snacks.",
         "published_at": "2026-09-03T09:00:00Z",
-        "image": "https://cdn.broadsheet.com.au/images/2026/05/18/Interlude%20-%20Lumea%20Photo,%20Amy%20Hemmings%20-%20May%2026-20-9591752b5f.webp"
+        "image": "https://cdn.broadsheet.com.au/images/2026/05/18/Interlude%20-%20Lumea%20Photo,%20Amy%20Hemmings%20-%20May%2026-20-9591752b5f.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
       }
     },
     {
@@ -46,7 +48,8 @@
         "source": "TheGamer",
         "note": "The official account committing to Albion in autumn, which is either confidence or a hostage note.",
         "published_at": "2026-09-03T09:00:00Z",
-        "image": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/04/fable-hero-swining-hammer-at-hobbe.jpg?w=1600&h=900&fit=crop"
+        "image": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/04/fable-hero-swining-hammer-at-hobbe.jpg?w=1600&h=900&fit=crop",
+        "icon": "https://www.thegamer.com/public/build/images/favicon-48x48.png"
       }
     },
     {
@@ -61,7 +64,8 @@
         "source": "Heddels",
         "note": "Where the bleu de travail came from and how it became the barn jacket. Background for the moleskin pieces you keep buying.",
         "published_at": "2026-09-03T09:00:00Z",
-        "image": "https://www.heddels.com/wp-content/uploads/2018/08/chore-coat-9.jpg"
+        "image": "https://www.heddels.com/wp-content/uploads/2018/08/chore-coat-9.jpg",
+        "icon": "https://www.heddels.com/wp-content/uploads/2016/02/cropped-favicon-1-343x299.png"
       }
     },
     {
@@ -76,7 +80,8 @@
         "source": "In Sheeps Clothing",
         "note": "Justin Gage's own listening picks. A good source of things to look for secondhand rather than new.",
         "published_at": "2026-09-03T09:00:00Z",
-        "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2020/08/AD4-2-1200x630.jpg"
+        "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2020/08/AD4-2-1200x630.jpg",
+        "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
       }
     },
     {
@@ -91,7 +96,8 @@
         "source": "35mmc",
         "note": "A long-term report on the panoramic Fuji rather than a first-impressions review, which is the rarer and more useful thing.",
         "published_at": "2026-09-03T09:00:00Z",
-        "image": "https://www.35mmc.com/wp-content/uploads/2025/11/image1.png"
+        "image": "https://www.35mmc.com/wp-content/uploads/2025/11/image1.png",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
       }
     }
   ]
