@@ -1,0 +1,98 @@
+{
+  "day": "2026-09-04",
+  "ran_at": "2026-09-04T09:00:00Z",
+  "published": 6,
+  "dropped": [],
+  "items": [
+    {
+      "id": "9f11df8fc3b792fe1126ce8d70845a6d98a27fb7ed2c99219ac2e8dd906a5eda",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/new-restaurants-cafes-bars-august-2026",
+      "title": "17 new restaurants, cafes and bars to try in September",
+      "summary": "Bar Tenko in Brunswick East and Brunswick Eats are both walkable from you.",
+      "date_published": "2026-09-01T00:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Bar Tenko in Brunswick East and Brunswick Eats are both walkable from you. Published three days ago, so the queues haven't formed yet.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/08/12/Frog%20Club_Michael%20Gardenia_52%20of%2060-c7d11548af.webp"
+      }
+    },
+    {
+      "id": "5c28d75f2956d2aa062b5f63d78dbeb39341857b7bdaeb8452db4fb0a2865575",
+      "url": "https://www.gameshub.com/news/article/fable-2026-release-window-gta6-avoidance-rumours-2865587/",
+      "title": "Fable reiterates its 2026 release window amid GTA 6 rumours",
+      "summary": "The clearest write-up of why every Xbox date is in limbo until GTA 6 lands.",
+      "date_published": "2026-06-16T00:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "GamesHub",
+        "note": "The clearest write-up of why every Xbox date is in limbo until GTA 6 lands. Relevant if you're planning what to actually buy this year.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": "https://www.gameshub.com/wp-content/uploads/2026/04/fable-gta6-release-window-pressure.webp"
+      }
+    },
+    {
+      "id": "d7c4d3276739cd178f82ef0c7f2c32838316a06965821cfbdf6c1ba213e3936c",
+      "url": "https://aquariumdrunkard.com/2026/08/03/twenty-years-inside-the-eraser/",
+      "title": "Twenty years inside The Eraser",
+      "summary": "A revisit of the Yorke solo record at twenty.",
+      "date_published": "2026-08-03T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "A revisit of the Yorke solo record at twenty. Part-paywalled, but the opening is the good bit.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/07/The-Eraser-Thom-Yorke.jpg"
+      }
+    },
+    {
+      "id": "b8d926209e6e7d06066c445cf178925c4acb106975531a026e517dbece6cd0f7",
+      "url": "https://emcrit.org/emcrit/ultrasound-cardiac-arrest/",
+      "title": "The Ultrasound Hierarchy of Needs in Cardiac Arrest",
+      "summary": "Mike Prats on how to actually use the probe in an arrest — one clip, six seconds, pre-pause.",
+      "date_published": "2026-03-13T00:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Mike Prats on how to actually use the probe in an arrest — one clip, six seconds, pre-pause. Directly useful for the CCPU work, and short enough to get through between shifts.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": "https://emcrit.org/wp-content/uploads/2024/09/Ultrasound-in-Cardiac-Arrest.jpg"
+      }
+    },
+    {
+      "id": "4d692fa69c1fdbf244403475704457b16a87f56414264ffc23cbf54a158f2399",
+      "url": "https://www.heddels.com/2025/10/get-to-work-in-havens-moleskin-graft-coat/",
+      "title": "Get to work in HAVEN's moleskin graft coat",
+      "summary": "Japanese organic-cotton moleskin, chore-coat pattern, welted hand pockets instead of the usual patch ones.",
+      "date_published": "2025-10-01T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Japanese organic-cotton moleskin, chore-coat pattern, welted hand pockets instead of the usual patch ones. The construction detail is the reason to read it.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": "https://www.heddels.com/wp-content/uploads/2025/09/social-get-to-work-in-havens-moleskin-graft-coat-front-model.jpg"
+      }
+    },
+    {
+      "id": "2bb73ffea9cf1c2ec9629f8c9e6c5c500f5bfa42192df109f2cea7d52a6ad924",
+      "url": "https://www.35mmc.com/15/04/2026/the-only-camera-im-allowed-to-own/",
+      "title": "The only camera I'm allowed to own",
+      "summary": "An argument for the one-camera compromise between rangefinder and SLR, via the M4-P and the FM2.",
+      "date_published": "2026-04-15T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "An argument for the one-camera compromise between rangefinder and SLR, via the M4-P and the FM2. Useful thinking if you're eyeing a second body.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/03/35a-scaled.jpg"
+      }
+    }
+  ]
+}

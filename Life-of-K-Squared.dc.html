@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="page">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #0e0d0c; }
+  a { color: #f0ead9; text-decoration: none; }
+  a:hover { color: #d9a45b; }
+  ::selection { background: #d9a45b; color: #0e0d0c; }
+  select { appearance: none; }
+</style>
+</helmet>
+
+<div style="background:#0e0d0c; color:#f0ead9; font-family:Newsreader,Georgia,serif; min-height:100vh; padding-bottom:90px">
+
+  <header style="{{ headerStyle }}">
+    <div style="{{ dateLineStyle }}">
+      <span>Curated by Claude</span>
+      <span style="{{ dateLineMidStyle }}">Friday, 4 September 2026</span>
+      <span style="position:relative">
+        <button onClick="{{ togglePicker }}" style="{{ pickerBtnStyle }}" style-hover="color:#f5efe2">Edition No. 214 ▾</button>
+        <sc-if value="{{ pickerOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="{{ pickerMenuStyle }}">
+            <sc-for list="{{ editionOptions }}" as="o" hint-placeholder-count="4">
+              <button onClick="{{ o.onClick }}" style="{{ o.style }}" style-hover="background:#1a1509; color:#f5efe2">
+                <span>{{ o.label }}</span>
+                <span style="color:#5c554b">{{ o.count }}</span>
+              </button>
+            </sc-for>
+          </div>
+        </sc-if>
+      </span>
+    </div>
+    <div style="border-top:1px solid #3a352d; border-bottom:1px solid #3a352d; padding:26px 0 22px; text-align:center">
+      <h1 style="{{ mastheadStyle }}">Life of K<sup style="{{ supStyle }}">2</sup></h1>
+      <p style="{{ subheadStyle }}">Circulation: one · Standards: unreasonable</p>
+    </div>
+  </header>
+
+  <div style="{{ shellStyle }}">
+
+    <aside style="{{ railStyle }}">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.22em; text-transform:uppercase; color:#5c554b; border-bottom:1px solid #221f1b; padding-bottom:8px; margin-bottom:10px">Filter</div>
+      <div style="{{ chipWrapStyle }}">
+        <sc-for list="{{ chips }}" as="c" hint-placeholder-count="11">
+          <button onClick="{{ c.onClick }}" style="{{ c.style }}" style-hover="color:#f5efe2; background:#17140f">
+            <span>{{ c.label }}</span>
+            <span style="{{ c.countStyle }}">{{ c.count }}</span>
+          </button>
+        </sc-for>
+      </div>
+
+    </aside>
+
+    <main style="{{ mainStyle }}">
+      <div style="display:flex; align-items:center; gap:14px; border-bottom:1px solid #221f1b; padding-bottom:10px">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#8a8175">{{ resultLine }}</span>
+        <span style="flex:1"></span>
+        <div style="display:flex; gap:0">
+          <button onClick="{{ setEditions }}" style="{{ editionsBtnStyle }}" style-hover="color:#f5efe2">Editions</button>
+          <button onClick="{{ setRiver }}" style="{{ riverBtnStyle }}" style-hover="color:#f5efe2">River</button>
+        </div>
+      </div>
+
+      <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:80px 0; text-align:center">
+          <p style="font-family:Newsreader,serif; font-style:italic; font-size:22px; color:#6e675c; margin:0">Nothing here under that filter.</p>
+          <p style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#4a443c; margin:12px 0 0">The generator publishes what it finds, not what fills a slot.</p>
+        </div>
+      </sc-if>
+
+      <sc-for list="{{ editions }}" as="ed" hint-placeholder-count="2">
+        <section id="{{ ed.anchor }}" style="padding:34px 0 6px">
+          <sc-if value="{{ ed.showHeader }}" hint-placeholder-val="{{ true }}">
+            <div style="display:flex; align-items:baseline; gap:16px; border-bottom:2px solid #f0ead9; padding-bottom:8px">
+              <h2 style="font-family:'Bodoni Moda',serif; font-size:24px; font-weight:400; margin:0; color:#f5efe2">{{ ed.label }}</h2>
+              <span style="flex:1"></span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#8a8175">{{ ed.count }}</span>
+            </div>
+          </sc-if>
+          <sc-for list="{{ ed.items }}" as="it" hint-placeholder-count="7">
+            <article style="{{ it.rowStyle }}" style-hover="background:#141210">
+              <div style="min-width:0">
+                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding-bottom:7px">
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#d9a45b">{{ it.source }}</span>
+                  <span style="width:12px; height:1px; background:#3a352d"></span>
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#6e675c">{{ it.topic }}</span>
+                  <sc-if value="{{ it.isTimely }}" hint-placeholder-val="{{ false }}">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.16em; text-transform:uppercase; color:#0e0d0c; background:#8a8175; padding:2px 6px">timely</span>
+                  </sc-if>
+                  <sc-if value="{{ it.read }}" hint-placeholder-val="{{ false }}">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:#6e675c">✓ read</span>
+                  </sc-if>
+                </div>
+                <h3 style="{{ it.titleStyle }}">
+                  <a href="{{ it.href }}" target="_blank" rel="noopener">{{ it.title }}</a>
+                </h3>
+                <p style="font-family:Newsreader,serif; font-style:italic; font-weight:300; font-size:16px; line-height:1.45; color:#a09788; margin:0; max-width:62ch; text-wrap:pretty">{{ it.note }}</p>
+              </div>
+              <div style="{{ it.thumbStyle }}" style-hover="filter:none">
+                <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.08em; color:#0e0d0c; background:rgba(240,234,217,0.72); padding:2px 4px">og:image</span>
+              </div>
+            </article>
+          </sc-for>
+        </section>
+      </sc-for>
+
+      <footer style="margin-top:48px; border-top:1px solid #3a352d; padding-top:16px; display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:#5c554b">
+        <span style="color:#6e675c">41 live · 16 timely · run 19:00 AEST</span>
+        <span style="display:flex; gap:16px">
+          <a href="Status.dc.html" style="color:#d9a45b; border-bottom:1px solid #3a352d">Status →</a>
+          <a href="feed.json" style="color:#8a8175; border-bottom:1px solid #3a352d">feed.json</a>
+        </span>
+      </footer>
+    </main>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180,&quot;height&quot;:940},&quot;defaultView&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;editions&quot;,&quot;river&quot;],&quot;default&quot;:&quot;editions&quot;,&quot;tsType&quot;:&quot;'editions' | 'river'&quot;,&quot;section&quot;:&quot;Feed&quot;},&quot;showThumbnails&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Feed&quot;},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;options&quot;:[&quot;#d9a45b&quot;,&quot;#c2724a&quot;,&quot;#6fb3a8&quot;,&quot;#b0a58c&quot;],&quot;default&quot;:&quot;#d9a45b&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Feed&quot;}}">
+class Component extends DCLogic {
+  state = { chip: null, data: null, view: null, narrow: false, pickerOpen: false };
+
+  componentDidMount() {
+    import("./feed-data.js").then(m => this.setState({ data: m }));
+    this.mq = window.matchMedia("(max-width: 820px)");
+    this.onMq = () => this.setState({ narrow: this.mq.matches });
+    this.onMq();
+    this.mq.addEventListener("change", this.onMq);
+  }
+  componentWillUnmount() { if (this.mq) this.mq.removeEventListener("change", this.onMq); }
+
+  view() { return this.state.view || this.props.defaultView || "editions"; }
+  accent() { return this.props.accent || "#d9a45b"; }
+
+  chipStyle(active) {
+    const a = this.accent();
+    return [
+      "font-family:'IBM Plex Mono',monospace", "font-size:10px", "letter-spacing:0.14em",
+      "text-transform:uppercase", "cursor:pointer", "border:0", "transition:all .15s",
+      "display:flex", "justify-content:space-between", "gap:10px", "align-items:center",
+      this.state.narrow
+        ? "padding:6px 11px; border:1px solid " + (active ? a : "#3a352d")
+        : "padding:7px 9px; text-align:left; border-left:2px solid " + (active ? a : "transparent"),
+      "background:" + (active ? (this.state.narrow ? a : "#1a1509") : "transparent"),
+      "color:" + (active ? (this.state.narrow ? "#0e0d0c" : a) : "#8a8175")
+    ].join(";");
+  }
+
+  viewBtnStyle(active) {
+    return [
+      "font-family:'IBM Plex Mono',monospace", "font-size:10px", "letter-spacing:0.18em",
+      "text-transform:uppercase", "padding:5px 12px", "cursor:pointer", "transition:all .15s",
+      "border:1px solid #3a352d",
+      "background:" + (active ? "#3a352d" : "transparent"),
+      "color:" + (active ? "#f5efe2" : "#6e675c")
+    ].join(";");
+  }
+
+  renderVals() {
+    const d = this.state.data, chip = this.state.chip, narrow = this.state.narrow;
+    const river = this.view() === "river";
+    const showThumbs = this.props.showThumbnails !== false;
+    const a = this.accent();
+    const pad = narrow ? "20px" : "46px";
+
+    const count = c => (d ? (c === null ? d.items.length : d.apply(d.items, c).length) : "");
+    const mk = (label, value) => ({
+      label, count: count(value),
+      onClick: () => this.setState({ chip: this.state.chip === value ? null : value }),
+      style: this.chipStyle(chip === value),
+      countStyle: "font-size:9px; color:" + (chip === value && narrow ? "rgba(14,13,12,0.6)" : "#5c554b")
+    });
+    const chips = [mk("Everything", null)]
+      .concat(d ? d.topics.map(t => mk(t, t)) : [])
+      .concat([mk("Timely", "timely"), mk("Evergreen", "evergreen"), mk("✓ Read", "read")]);
+
+    const filtered = d ? d.apply(d.items, chip) : [];
+    const grouped = d ? d.group(filtered) : [];
+    const editions = river
+      ? (filtered.length ? [{ anchor: "river", label: "", count: "", showHeader: false, items: filtered }] : [])
+      : grouped;
+
+    const rows = editions.map(ed => ({
+      anchor: ed.anchor || "ed-" + ed.date,
+      label: ed.label,
+      count: ed.items.length + (ed.items.length === 1 ? " item" : " items"),
+      showHeader: ed.showHeader !== false,
+      items: ed.items.map(it => ({
+        ...it,
+        href: "#",
+        isTimely: it.kind === "timely",
+        titleStyle: "font-family:Newsreader,serif; font-weight:400; line-height:1.15; letter-spacing:-0.01em; margin:0 0 8px; font-size:" + (narrow ? "22px" : "27px"),
+        rowStyle: "display:grid; gap:" + (narrow ? "16px" : "26px") + "; align-items:start; padding:" + (narrow ? "18px 0" : "22px 12px 22px 0") + "; border-bottom:1px solid #221f1b; transition:background .15s; grid-template-columns:" + (showThumbs ? (narrow ? "1fr 76px" : "1fr 108px") : "1fr") + "; opacity:" + (it.read ? "0.45" : "1"),
+        thumbStyle: "height:" + (narrow ? "58px" : "76px") + "; border:1px solid #3a352d; display:" + (showThumbs ? "flex" : "none") + "; align-items:flex-end; justify-content:flex-end; padding:5px; filter:saturate(0.4) contrast(0.95); transition:filter .3s; background-image:repeating-linear-gradient(135deg, rgba(255,255,255,0.09) 0 5px, rgba(0,0,0,0.09) 5px 10px), linear-gradient(135deg, hsl(" + it.hue + " 52% 46%), hsl(" + ((it.hue + 40) % 360) + " 40% 24%))"
+      }))
+    }));
+
+    const jump = id => {
+      const node = document.getElementById(id);
+      if (node) window.scrollTo({ top: node.offsetTop - 24, behavior: "smooth" });
+      this.setState({ pickerOpen: false });
+    };
+
+    return {
+      chips, editions: rows,
+      togglePicker: () => this.setState({ pickerOpen: !this.state.pickerOpen }),
+      pickerOpen: this.state.pickerOpen,
+      pickerBtnStyle: "font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.2em; text-transform:uppercase; background:transparent; border:0; padding:0; cursor:pointer; transition:color .15s; color:" + (this.state.pickerOpen ? "#f5efe2" : "#8a8175"),
+      pickerMenuStyle: "position:absolute; top:22px; right:0; z-index:20; min-width:250px; background:#141210; border:1px solid #3a352d; display:flex; flex-direction:column; box-shadow:0 18px 40px rgba(0,0,0,0.55)",
+      editionOptions: grouped.map((ed, i) => ({
+        label: ed.label,
+        count: ed.items.length + (i === 0 ? " · current" : ""),
+        onClick: () => jump("ed-" + ed.date),
+        style: "font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#a09788; background:transparent; border:0; border-bottom:1px solid #221f1b; padding:9px 12px; cursor:pointer; display:flex; justify-content:space-between; gap:16px; transition:all .12s"
+      })),
+      isEmpty: !!d && filtered.length === 0,
+      resultLine: d ? (chip ? filtered.length + " of " + d.items.length + " · " + chip : filtered.length + " items in the pool") : "loading…",
+      setEditions: () => this.setState({ view: "editions" }),
+      setRiver: () => this.setState({ view: "river" }),
+      editionsBtnStyle: this.viewBtnStyle(!river),
+      riverBtnStyle: this.viewBtnStyle(river),
+      headerStyle: "max-width:1180px; margin:0 auto; padding:" + (narrow ? "30px 20px 0" : "52px 46px 0"),
+      dateLineStyle: "font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:#8a8175; display:flex; justify-content:space-between; gap:12px; padding-bottom:14px",
+      dateLineMidStyle: narrow ? "display:none" : "",
+      mastheadStyle: "font-family:'Bodoni Moda',serif; font-weight:700; line-height:0.92; letter-spacing:-0.02em; margin:0; color:#f5efe2; font-size:" + (narrow ? "40px" : "76px"),
+      subheadStyle: "font-family:'IBM Plex Mono',monospace; font-size:" + (narrow ? "9px" : "10px") + "; letter-spacing:0.26em; text-transform:uppercase; color:#8a8175; margin:14px 0 0",
+      supStyle: "font-family:'Bodoni Moda',serif; font-size:0.46em; vertical-align:super; line-height:0; letter-spacing:0; margin-left:0.02em",
+      shellStyle: "max-width:1180px; margin:0 auto; padding:0 " + pad + "; display:grid; gap:" + (narrow ? "0" : "40px") + "; grid-template-columns:" + (narrow ? "1fr" : "216px minmax(0,1fr)"),
+      railStyle: narrow
+        ? "padding:16px 0 4px; border-bottom:1px solid #221f1b"
+        : "padding:26px 0 0; position:sticky; top:0; align-self:start; max-height:100vh; overflow:auto; border-right:1px solid #221f1b; margin-right:-20px; padding-right:20px",
+      chipWrapStyle: narrow
+        ? "display:flex; flex-wrap:wrap; gap:6px"
+        : "display:flex; flex-direction:column; gap:1px",
+      mainStyle: "padding-top:" + (narrow ? "18px" : "26px") + "; min-width:0"
+    };
+  }
+}
+
+</script>
+</body>
+</html>

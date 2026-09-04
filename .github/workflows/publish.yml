@@ -1,0 +1,99 @@
+# The daily run.
+#
+# Deliberately GitHub Actions rather than Vercel Cron. HANDOFF.md specifies a Vercel
+# Cron, but that same decision says "commits the new feed.json and archive entry" and
+# "git history is the audit trail" — and a Vercel cron fires a serverless function
+# that cannot commit to the repository. Actions can: it runs the generator, commits
+# the result, pushes, and the push is what triggers the Vercel deploy. Same cadence,
+# same deploy, and the audit trail actually exists.
+#
+# 09:00 UTC is 19:00 AEST. Melbourne shifts to AEDT (UTC+11) from October to April,
+# so the run lands at 20:00 local through summer. Cron schedules are UTC-only; the
+# alternative is two schedules and a guard, which is not worth an hour's drift.
+
+name: publish
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      want:
+        description: "Target number of items for this run"
+        required: false
+        default: "8"
+      no_curate:
+        description: "Rebuild published files from the archive without calling Claude"
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Catches a broken request shape before it costs a curation pass: a wrong
+      # model id or a stale thinking parameter is a 400 and an empty edition.
+      - name: Self-test (offline, mocked API)
+        run: npm test
+
+      - name: Run the generator
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_LIBRARY_DB: ${{ secrets.NOTION_LIBRARY_DB }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+          SIGNALS_ENABLED: ${{ vars.SIGNALS_ENABLED }}
+        run: |
+          node generator/run.mjs \
+            --want="${{ github.event.inputs.want || '8' }}" \
+            ${{ github.event.inputs.no_curate == 'true' && '--no-curate' || '' }}
+
+      # The gate. A run that produced a feed violating contract v1 must not be
+      # pushed — a bad feed deploys itself in about forty seconds otherwise.
+      - name: Check contract conformance
+        env:
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+        run: node generator/verify-feed.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name  "life-of-k2 generator"
+          git config user.email "kalinkempster@gmail.com"
+          git add site/feed.json site/site.json site/status.json archive
+          if git diff --cached --quiet; then
+            echo "Nothing changed — no commit."
+            exit 0
+          fi
+          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('site/feed.json','utf8')).items.length)")
+          git commit -m "Edition $(date -u +%Y-%m-%d) — ${COUNT} live"
+          git push
+
+      # Confirms the deploy actually serves what we just pushed, rather than
+      # assuming it did.
+      - name: Verify the live site
+        env:
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+        run: |
+          sleep 90
+          node generator/verify-feed.mjs --live

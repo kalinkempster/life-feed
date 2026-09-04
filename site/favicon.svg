@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0e0d0c"/>
+  <text x="32" y="45" text-anchor="middle" font-family="Bodoni MT, Didot, Georgia, serif"
+        font-weight="700" font-size="42" fill="#f5efe2">K</text>
+  <text x="49" y="26" text-anchor="middle" font-family="Bodoni MT, Didot, Georgia, serif"
+        font-weight="700" font-size="20" fill="#d9a45b">2</text>
+</svg>

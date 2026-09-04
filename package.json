@@ -1,0 +1,24 @@
+{
+  "name": "life-of-k-squared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Claude-curated feed. The site is the reading room; feed.json is the machine interface.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node generator/run.mjs",
+    "generate:dry": "node generator/run.mjs --dry-run",
+    "rebuild": "node generator/run.mjs --no-curate",
+    "verify": "node generator/verify-feed.mjs",
+    "test": "node generator/selftest.mjs",
+    "seed": "node generator/seed-archive.mjs",
+    "verify:live": "node generator/verify-feed.mjs --live",
+    "verify:links": "node generator/verify-feed.mjs --links"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "zod": "^4.0.0"
+  }
+}

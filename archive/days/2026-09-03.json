@@ -1,0 +1,98 @@
+{
+  "day": "2026-09-03",
+  "ran_at": "2026-09-03T09:00:00Z",
+  "published": 6,
+  "dropped": [],
+  "items": [
+    {
+      "id": "173d87db2191860ac63fcb8da5dfba438abeb4c068a0e995d5a8fa89ac39c909",
+      "url": "https://litfl.com/ultrasound-in-critical-care-ccc/",
+      "title": "Ultrasound in critical care",
+      "summary": "The CCC entry, which is the reference version rather than the teaching version.",
+      "date_published": "2024-11-08T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "The CCC entry, which is the reference version rather than the teaching version. Worth keeping open in a tab through the module.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": "https://litfl.com/wp-content/uploads/2018/11/CCC-Critical-Care-compendium-1200.png"
+      }
+    },
+    {
+      "id": "3996a4217443cfb3edf830891376c3f4325d3270da31ab163cfbb5fdf7b6c24b",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/new-restaurants-cafes-bakeries-may-2026",
+      "title": "21 Melbourne bars, bakeries and restaurants for the hit list",
+      "summary": "Two northside entries buried in this one: Jacket, a Thornbury jazz bar designed from a playlist, and Chabela doing Mexico City street snacks.",
+      "date_published": "2026-05-28T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Two northside entries buried in this one: Jacket, a Thornbury jazz bar designed from a playlist, and Chabela doing Mexico City street snacks.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/05/18/Interlude%20-%20Lumea%20Photo,%20Amy%20Hemmings%20-%20May%2026-20-9591752b5f.webp"
+      }
+    },
+    {
+      "id": "403e3e0cad03f286c0e59adfc3cf4bc2e8e3aee61ab207ff991e21845d447d36",
+      "url": "https://www.thegamer.com/fable-releases-autumn-2026-no-gta-6-delay/",
+      "title": "Fable doubles down on an autumn release date",
+      "summary": "The official account committing to Albion in autumn, which is either confidence or a hostage note.",
+      "date_published": "2026-04-13T00:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "TheGamer",
+        "note": "The official account committing to Albion in autumn, which is either confidence or a hostage note.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/04/fable-hero-swining-hammer-at-hobbe.jpg?w=1600&h=900&fit=crop"
+      }
+    },
+    {
+      "id": "f737d12fc094c38bf832df52c308681f405fc77d1f019c2afd3c10e6ce1742f5",
+      "url": "https://www.heddels.com/2018/09/history-of-the-chore-coat/",
+      "title": "History of the chore coat",
+      "summary": "Where the bleu de travail came from and how it became the barn jacket.",
+      "date_published": "2018-09-01T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Where the bleu de travail came from and how it became the barn jacket. Background for the moleskin pieces you keep buying.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": "https://www.heddels.com/wp-content/uploads/2018/08/chore-coat-9.jpg"
+      }
+    },
+    {
+      "id": "89df0e65d0e95dae223e40b0cc6e093b12251af073a336159347272b92c95c74",
+      "url": "https://insheepsclothinghifi.com/playlist-aquarium-drunkard/",
+      "title": "Home listening selections by Aquarium Drunkard",
+      "summary": "Justin Gage's own listening picks.",
+      "date_published": "2026-05-26T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "In Sheeps Clothing",
+        "note": "Justin Gage's own listening picks. A good source of things to look for secondhand rather than new.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2020/08/AD4-2-1200x630.jpg"
+      }
+    },
+    {
+      "id": "a5ffe8f39f8fdc09e46931505a92f955ef7b1b92eaa38971cf20001abe449759",
+      "url": "https://www.35mmc.com/05/01/2026/fujifilm-tx-1-nine-years-in-both-eyes-open/",
+      "title": "Fujifilm TX-1, nine years in",
+      "summary": "A long-term report on the panoramic Fuji rather than a first-impressions review, which is the rarer and more useful thing.",
+      "date_published": "2026-01-05T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "A long-term report on the panoramic Fuji rather than a first-impressions review, which is the rarer and more useful thing.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2025/11/image1.png"
+      }
+    }
+  ]
+}

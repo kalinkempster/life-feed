@@ -1,0 +1,31 @@
+{
+  "updated": "2026-09-04T12:31:14.153Z",
+  "runs": [
+    {
+      "day": "2026-09-02",
+      "ran_at": "2026-09-02T09:00:00Z",
+      "published": 6,
+      "dropped": 0,
+      "searches": 0,
+      "ok": true,
+      "seeded": true
+    },
+    {
+      "day": "2026-09-03",
+      "ran_at": "2026-09-03T09:00:00Z",
+      "published": 6,
+      "dropped": 0,
+      "searches": 0,
+      "ok": true,
+      "seeded": true
+    },
+    {
+      "day": "2026-09-04",
+      "ran_at": "2026-09-04T12:31:14.129Z",
+      "published": 0,
+      "dropped": 0,
+      "searches": 0,
+      "ok": true
+    }
+  ]
+}
