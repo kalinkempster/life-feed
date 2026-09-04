@@ -10,6 +10,8 @@
 // produces a malformed feed fails here and deploys nothing.
 
 import { spawnSync } from "node:child_process";
+import fs from "node:fs";
+import path from "node:path";
 import { ROOT } from "./lib/config.mjs";
 
 const run = (cmd, args, opts = {}) =>
@@ -39,7 +41,14 @@ const PATHS = [
   "curation/signals-summary.md",
 ];
 
-const add = run("git", ["add", "--", ...PATHS]);
+// Two of those are conditional: signals-summary.md is only written when Redis
+// answers, and the library snapshot only after a Notion sync. `git add` treats an
+// unmatched pathspec as fatal, so an absent optional file would fail the publish
+// rather than simply not be part of it. Stage what exists; keep the named list.
+const staging = PATHS.filter((p) => fs.existsSync(path.join(ROOT, p)));
+if (!staging.length) die("none of the publishable paths exist — nothing to stage.");
+
+const add = run("git", ["add", "--", ...staging]);
 if (add.status !== 0) die(`git add failed: ${add.stderr.trim()}`);
 
 const staged = run("git", ["diff", "--cached", "--name-only"]).stdout.trim();
@@ -51,7 +60,7 @@ if (!staged) {
 // A last guard: never let a secret reach the remote, whatever put it there.
 const diff = run("git", ["diff", "--cached"]).stdout;
 if (/\b(sk-ant-[A-Za-z0-9_-]{10,}|ntn_[A-Za-z0-9]{20,})\b/.test(diff)) {
-  run("git", ["reset", "--", ...PATHS]);
+  run("git", ["reset", "--", ...staging]);
   die("a credential appeared in the staged diff — unstaged everything and stopped.");
 }
 
