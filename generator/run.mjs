@@ -4,14 +4,21 @@
 //   guard ids → read signals → read library → curate → verify → merge → publish
 //
 // Flags:
-//   --dry-run     do everything, write nothing
-//   --no-curate   skip the Claude calls; rebuild the published files from the
-//                 archive and current signals. Use this after editing signals or
-//                 to re-publish without spending a curation pass.
-//   --want=N      target item count for this run (default 8)
+//   --dry-run              do everything, write nothing
+//   --no-curate            skip curation; rebuild the published files from the
+//                          archive and current signals. Use this after editing
+//                          signals or to re-publish without curating.
+//   --from-candidates=F    read candidates from a JSON file instead of calling
+//                          the API. This is how the scheduled cloud routine
+//                          works: a Claude Code session does the searching under
+//                          the subscription and writes the file; everything
+//                          downstream — verification, ids, dedupe, archive,
+//                          publish — is identical either way. The guards do not
+//                          care who did the curating.
+//   --want=N               target item count for this run (default 8)
 
 import fs from "node:fs";
-import { FEED, PATHS, ORIGIN } from "./lib/config.mjs";
+import { FEED, PATHS, ORIGIN, TOPICS, KINDS } from "./lib/config.mjs";
 import { assertIdsStable, idFor, normaliseUrl } from "./lib/url.mjs";
 import { readSignals, summarise } from "./lib/signals.mjs";
 import { loadLibrary, digest } from "./lib/library.mjs";
@@ -43,12 +50,79 @@ const valueOf = (name, fallback) => {
 
 const DRY = has("--dry-run");
 const NO_CURATE = has("--no-curate");
+const FROM_FILE = valueOf("from-candidates", null);
 const WANT = Number(valueOf("want", "8"));
 
 const log = (...parts) => console.log(...parts);
 const started = new Date();
 const ranAt = started.toISOString();
 const today = ranAt.slice(0, 10);
+
+/**
+ * Read and validate a candidates file written by the scheduled cloud routine.
+ *
+ * Validated hard, and with actionable messages: the writer is an agent session
+ * that can read the error and fix its own file. Anything malformed is rejected
+ * here rather than being carried into the archive, where a bad topic or a missing
+ * id would be permanent.
+ */
+function readCandidateFile(file) {
+  let raw;
+  try {
+    raw = JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch (err) {
+    throw new Error(`could not read ${file}: ${err.message}`);
+  }
+
+  const list = Array.isArray(raw) ? raw : raw.items;
+  if (!Array.isArray(list)) {
+    throw new Error(
+      `${file} must be a JSON array of candidates, or an object with an "items" array`,
+    );
+  }
+
+  const problems = [];
+  const ok = [];
+
+  list.forEach((c, i) => {
+    const at = `candidate ${i + 1}${c && c.url ? ` (${c.url})` : ""}`;
+    const missing = ["url", "title", "source", "topic", "kind", "summary", "note"].filter(
+      (f) => !c || typeof c[f] !== "string" || !c[f].trim(),
+    );
+    if (missing.length) {
+      problems.push(`${at}: missing or empty ${missing.join(", ")}`);
+      return;
+    }
+    if (!TOPICS.includes(c.topic)) {
+      problems.push(`${at}: topic "${c.topic}" is not one of ${TOPICS.join(", ")}`);
+      return;
+    }
+    if (!KINDS.includes(c.kind)) {
+      problems.push(`${at}: kind "${c.kind}" must be timely or evergreen`);
+      return;
+    }
+    if (!/^https?:\/\//i.test(c.url)) {
+      problems.push(`${at}: url must be an absolute http(s) URL`);
+      return;
+    }
+    const date = c.date_published || `${today}T00:00:00Z`;
+    if (!Number.isFinite(Date.parse(date))) {
+      problems.push(`${at}: date_published "${c.date_published}" is not ISO 8601`);
+      return;
+    }
+    ok.push({ ...c, date_published: new Date(date).toISOString() });
+  });
+
+  if (problems.length) {
+    throw new Error(
+      `${problems.length} invalid candidate(s) in ${file}:\n  ` +
+        problems.join("\n  "),
+    );
+  }
+  if (!ok.length) throw new Error(`${file} contained no candidates`);
+
+  return ok;
+}
 
 function readText(file) {
   try {
@@ -87,36 +161,44 @@ async function main() {
   if (NO_CURATE) {
     log("  curation   skipped (--no-curate)");
   } else {
-    const library = await loadLibrary();
-    log(
-      library.error
-        ? `  library    ${library.records.length} records ${
-            library.stale ? "(STALE cache)" : ""
-          } — ${library.error}`
-        : `  library    ${library.records.length} records, live from Notion`,
-    );
+    let candidates = [];
 
-    // Imported here rather than at the top so a --no-curate rebuild does not need
-    // the Anthropic SDK installed or an API key present.
-    const { curate } = await import("./lib/curate.mjs");
+    if (FROM_FILE) {
+      candidates = readCandidateFile(FROM_FILE);
+      log(`  curation   ${candidates.length} candidates from ${FROM_FILE}`);
+    } else {
+      const library = await loadLibrary();
+      log(
+        library.error
+          ? `  library    ${library.records.length} records ${
+              library.stale ? "(STALE cache)" : ""
+            } — ${library.error}`
+          : `  library    ${library.records.length} records, live from Notion`,
+      );
 
-    const liveNow = selectLive(archive, signals, started);
-    const health = poolHealth(liveNow);
+      // Imported here rather than at the top so a rebuild or a --from-candidates
+      // run needs neither the Anthropic SDK nor an API key.
+      const { curate } = await import("./lib/curate.mjs");
 
-    log(`  pool       ${health.total} live · ${health.timely} timely`);
-    log("  curating   searching…");
+      const liveNow = selectLive(archive, signals, started);
+      const health = poolHealth(liveNow);
 
-    const { candidates, searches: n } = await curate({
-      today,
-      interests: readText(PATHS.interests),
-      sources: readText(PATHS.sources),
-      libraryDigest: digest(library),
-      publishedUrls: archive.slice(-300).map((i) => i.url),
-      want: WANT,
-      poolState: { total: health.total, timely: health.timely },
-    });
-    searches = n;
-    log(`  curating   ${candidates.length} candidates from ${searches} searches`);
+      log(`  pool       ${health.total} live · ${health.timely} timely`);
+      log("  curating   searching…");
+
+      const result = await curate({
+        today,
+        interests: readText(PATHS.interests),
+        sources: readText(PATHS.sources),
+        libraryDigest: digest(library),
+        publishedUrls: archive.slice(-300).map((i) => i.url),
+        want: WANT,
+        poolState: { total: health.total, timely: health.timely },
+      });
+      candidates = result.candidates;
+      searches = result.searches;
+      log(`  curating   ${candidates.length} candidates from ${searches} searches`);
+    }
 
     // ------------------------------------------------------------- 4. verify
     const seen = publishedIds(archive);

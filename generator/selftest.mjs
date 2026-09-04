@@ -12,6 +12,7 @@
 
 import http from "node:http";
 import assert from "node:assert/strict";
+import path from "node:path";
 import { spawn } from "node:child_process";
 import { MODEL, ROOT } from "./lib/config.mjs";
 
@@ -296,6 +297,92 @@ check("rule 2 — the 404 was dropped, the live URL published", () =>
   assert.match(e2e.out, /verified\s+1 publishable · 1 dropped/),
 );
 check("dry run wrote nothing", () => assert.match(e2e.out, /DRY RUN — would have written/));
+
+// ------------------------------------------- candidate-file path (cloud routine)
+// The scheduled routine writes a candidates file instead of calling the API, so
+// this path carries the daily edition. It must reject anything malformed loudly
+// enough that the session can fix its own file, and it must apply exactly the same
+// rules as the API path.
+const fsp = await import("node:fs/promises");
+const os = await import("node:os");
+const tmp = await fsp.mkdtemp(path.join(os.tmpdir(), "lok2-"));
+
+const write = async (name, data) => {
+  const f = path.join(tmp, name);
+  await fsp.writeFile(f, JSON.stringify(data));
+  return f;
+};
+
+const runWith = (file, extra = []) =>
+  new Promise((resolve) => {
+    const child = spawn(
+      process.execPath,
+      ["generator/run.mjs", `--from-candidates=${file}`, "--dry-run", ...extra],
+      { cwd: ROOT, env: { ...process.env, UPSTASH_REDIS_REST_URL: "", UPSTASH_REDIS_REST_TOKEN: "" } },
+    );
+    let out = "";
+    child.stdout.on("data", (d) => (out += d));
+    child.stderr.on("data", (d) => (out += d));
+    child.on("close", (code) => resolve({ out, code }));
+  });
+
+const valid = {
+  url: "https://first10em.com/",
+  title: "A real, resolvable article",
+  source: "First10EM",
+  topic: "medicine",
+  kind: "timely",
+  summary: "One sentence.",
+  note: "Two or three sentences of actual curation.",
+  date_published: "2026-09-04T00:00:00Z",
+};
+
+const badTopic = await runWith(
+  await write("topic.json", [{ ...valid, topic: "cooking" }]),
+);
+check("candidate file: a non-canonical topic is rejected", () => {
+  assert.notEqual(badTopic.code, 0);
+  assert.match(badTopic.out, /topic "cooking" is not one of/);
+});
+
+const badKind = await runWith(await write("kind.json", [{ ...valid, kind: "weekly" }]));
+check("candidate file: a bad kind is rejected", () =>
+  assert.match(badKind.out, /kind "weekly" must be timely or evergreen/),
+);
+
+const missing = await runWith(await write("missing.json", [{ ...valid, note: "" }]));
+check("candidate file: an empty note is rejected", () =>
+  assert.match(missing.out, /missing or empty note/),
+);
+
+const notJson = path.join(tmp, "broken.json");
+await fsp.writeFile(notJson, "{not json");
+const broken = await runWith(notJson);
+check("candidate file: unparseable JSON fails the run, does not publish", () => {
+  assert.notEqual(broken.code, 0);
+  assert.match(broken.out, /could not read/);
+});
+
+const good = await runWith(
+  await write("good.json", {
+    items: [
+      valid,
+      { ...valid, url: "https://emcrit.org/emcrit/ultrasound-cardiac-arrest/",
+        title: "Already archived" },
+      { ...valid, url: "https://emcrit.org/no-such-page-here-1234/", title: "Dead link" },
+    ],
+  }),
+);
+check("candidate file: already-published filtered, dead link dropped, rest published", () => {
+  assert.equal(good.code, 0, good.out);
+  assert.match(good.out, /verifying\s+2 new URLs/);
+  assert.match(good.out, /verified\s+1 publishable · 1 dropped/);
+});
+check("candidate file: the run writes nothing under --dry-run", () =>
+  assert.match(good.out, /DRY RUN — would have written/),
+);
+
+await fsp.rm(tmp, { recursive: true, force: true });
 
 server.close();
 

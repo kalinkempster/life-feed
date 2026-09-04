@@ -16,7 +16,8 @@
     "seed": "node generator/seed-archive.mjs",
     "verify:live": "node --env-file-if-exists=.env generator/verify-feed.mjs --live",
     "verify:links": "node --env-file-if-exists=.env generator/verify-feed.mjs --links",
-    "library": "node --env-file-if-exists=.env generator/library-probe.mjs"
+    "library": "node --env-file-if-exists=.env generator/library-probe.mjs",
+    "publish:checked": "node generator/publish-checked.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.70.0",

@@ -1,21 +1,15 @@
-# The daily run.
+# Manual runs only. The daily edition is produced by a scheduled Claude Code cloud
+# routine instead, which does the curation under the Claude subscription rather than
+# per-token API billing — see "Curation" in README.md.
 #
-# Deliberately GitHub Actions rather than Vercel Cron. HANDOFF.md specifies a Vercel
-# Cron, but that same decision says "commits the new feed.json and archive entry" and
-# "git history is the audit trail" — and a Vercel cron fires a serverless function
-# that cannot commit to the repository. Actions can: it runs the generator, commits
-# the result, pushes, and the push is what triggers the Vercel deploy. Same cadence,
-# same deploy, and the audit trail actually exists.
-#
-# 09:00 UTC is 19:00 AEST. Melbourne shifts to AEDT (UTC+11) from October to April,
-# so the run lands at 20:00 local through summer. Cron schedules are UTC-only; the
-# alternative is two schedules and a guard, which is not worth an hour's drift.
+# The schedule here is deliberately OFF rather than the file being deleted: this
+# workflow is still the way to run the API-backed generator on demand, and the way
+# to rebuild the published files from the archive without curating at all. It needs
+# ANTHROPIC_API_KEY only for the former.
 
-name: publish
+name: publish (manual)
 
 on:
-  schedule:
-    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       want:

@@ -25,7 +25,7 @@ This is now the running project, not just the design package.
 
 ## The shape of the thing
 
-    generator (daily, 09:00 UTC)           site (Vercel)              dashboard
+    routine (daily, 16:00 UTC)             site (Vercel)              dashboard
     ────────────────────────────           ─────────────              ─────────
     reads curation/*.md                    renders site.json          GET /feed.json
     reads Notion record library            + /status                  every 60 min
@@ -45,7 +45,33 @@ npm run rebuild       # rebuild published files from the archive, no Claude call
 npm run verify        # contract v1 conformance check
 npm run verify:links  # ...and re-check that every URL still resolves
 npm run verify:live   # ...against the deployed site
+npm run library       # what the generator sees in Notion + writes the snapshot
+npm run publish:checked   # commit and push, but only if the contract check passes
 ```
+
+## Curation
+
+The daily edition is produced by a **scheduled Claude Code cloud routine**, not by
+the API. A cloud session searches the web under the Claude subscription, writes a
+`candidates.json`, and the existing pipeline takes it from there:
+
+```bash
+node generator/run.mjs --from-candidates=candidates.json
+npm run publish:checked
+```
+
+Everything downstream — verification, ids, dedupe, archive, publish — is identical
+whether candidates came from the API or from a session. **The guards do not care
+who did the curating**, which is what makes handing this to a less deterministic
+agent safe: a fabricated URL is caught by verification, an unstable id by the
+guard, and a malformed feed by `publish:checked`, which refuses to commit.
+
+`generator/lib/curate.mjs` still exists and still works — `npm run generate` runs
+the API path, and the `publish (manual)` workflow runs it on demand. It just is not
+what fires every night.
+
+The routine has no Notion access, so it reads `curation/library-snapshot.md` from
+the repo instead. Run `npm run library` after adding records to refresh it.
 
 ## How a run works
 
