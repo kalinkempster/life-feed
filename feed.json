@@ -10,200 +10,272 @@
   },
   "items": [
     {
-      "id": "a17a1e6108cc17e93469b71bfe0d0f1b2848337deff26c7d5e3ca2e59f6623cd",
-      "url": "https://emcrit.org/rv-failure-in-the-crashing-patient/",
-      "title": "RV failure in the crashing patient",
-      "summary": "Ties directly to the CCPU module you're partway through — the volume-vs-pressor call is the part most registrars get backwards..",
-      "date_published": "2026-09-04T09:00:00Z",
+      "id": "b8d926209e6e7d06066c445cf178925c4acb106975531a026e517dbece6cd0f7",
+      "url": "https://emcrit.org/emcrit/ultrasound-cardiac-arrest/",
+      "title": "The Ultrasound Hierarchy of Needs in Cardiac Arrest",
+      "summary": "Mike Prats on how to actually use the probe in an arrest — one clip, six seconds, pre-pause.",
+      "date_published": "2026-03-13T00:00:00Z",
       "_homepage": {
         "kind": "timely",
         "topic": "medicine",
         "source": "EMCrit",
-        "note": "Ties directly to the CCPU module you're partway through — the volume-vs-pressor call is the part most registrars get backwards.",
+        "note": "Mike Prats on how to actually use the probe in an arrest — one clip, six seconds, pre-pause. Directly useful for the CCPU work, and short enough to get through between shifts.",
+        "published_at": "2026-09-04T09:00:00Z",
         "image": null
       }
     },
     {
-      "id": "c1c4406b52582af97f670c0baf732ab7371b6a12b73079a8e137953f9e3a00d6",
-      "url": "https://litfl.com/ecg-of-the-week-subtle-occlusion-mi/",
-      "title": "ECG of the week: subtle occlusion MI",
-      "summary": "Three tracings that don't meet STEMI criteria and all three occluded.",
-      "date_published": "2026-09-04T09:00:00Z",
-      "_homepage": {
-        "kind": "timely",
-        "topic": "medicine",
-        "source": "LITFL",
-        "note": "Three tracings that don't meet STEMI criteria and all three occluded. Worth ten minutes.",
-        "image": null,
-        "read": true
-      }
-    },
-    {
-      "id": "68305a7cc1dc5ebc1fb0cde0ab96d4a36890b300a1653b10aface70751a9c370",
-      "url": "https://broadsheet.com.au/a-twelve-seat-pasta-counter-opens-in-thornbury/",
-      "title": "A twelve-seat pasta counter opens in Thornbury",
-      "summary": "Walking distance from you.",
-      "date_published": "2026-09-04T09:00:00Z",
+      "id": "9f11df8fc3b792fe1126ce8d70845a6d98a27fb7ed2c99219ac2e8dd906a5eda",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/new-restaurants-cafes-bars-august-2026",
+      "title": "17 new restaurants, cafes and bars to try in September",
+      "summary": "Bar Tenko in Brunswick East and Brunswick Eats are both walkable from you.",
+      "date_published": "2026-09-01T00:00:00Z",
       "_homepage": {
         "kind": "timely",
         "topic": "melbourne",
-        "source": "Broadsheet MEL",
-        "note": "Walking distance from you. No bookings, opens 5pm, expect a queue by six.",
+        "source": "Broadsheet",
+        "note": "Bar Tenko in Brunswick East and Brunswick Eats are both walkable from you. Published three days ago, so the queues haven't formed yet.",
+        "published_at": "2026-09-04T09:00:00Z",
         "image": null
       }
     },
     {
-      "id": "6e3fb138a2cdb6a08d1cda2e6a8cc496267bdc8cda1921d569f2abe176f038aa",
-      "url": "https://eurogamer.net/the-witcher-4-gets-a-release-window-at-last/",
-      "title": "The Witcher 4 gets a release window at last",
-      "summary": "Late 2027, and the first real look at the engine change..",
-      "date_published": "2026-09-04T09:00:00Z",
+      "id": "5c28d75f2956d2aa062b5f63d78dbeb39341857b7bdaeb8452db4fb0a2865575",
+      "url": "https://www.gameshub.com/news/article/fable-2026-release-window-gta6-avoidance-rumours-2865587/",
+      "title": "Fable reiterates its 2026 release window amid GTA 6 rumours",
+      "summary": "The clearest write-up of why every Xbox date is in limbo until GTA 6 lands.",
+      "date_published": "2026-06-16T00:00:00Z",
       "_homepage": {
         "kind": "timely",
         "topic": "gaming",
-        "source": "Eurogamer",
-        "note": "Late 2027, and the first real look at the engine change.",
+        "source": "GamesHub",
+        "note": "The clearest write-up of why every Xbox date is in limbo until GTA 6 lands. Relevant if you're planning what to actually buy this year.",
+        "published_at": "2026-09-04T09:00:00Z",
         "image": null
       }
     },
     {
-      "id": "44350629e58cf0ce902cdd8fc4dbc3c3794a76958ed651c6c3f5fbd5a9f7c4c6",
-      "url": "https://mutimer.co/the-moleskin-chore-coat-is-back-in-stock/",
-      "title": "The moleskin chore coat is back in stock",
-      "summary": "Sold out in a week last year.",
-      "date_published": "2026-09-04T09:00:00Z",
-      "_homepage": {
-        "kind": "timely",
-        "topic": "fashion",
-        "source": "Mutimer",
-        "note": "Sold out in a week last year. Ecru and olive only.",
-        "image": null
-      }
-    },
-    {
-      "id": "f9ca937608272f7b9f517b5b43d64ba95fb2f4c0cca776f2525e562006ca154b",
-      "url": "https://35mmc.com/portra-400-pushed-two-stops-honestly/",
-      "title": "Portra 400 pushed two stops, honestly",
-      "summary": "Someone finally shows the ugly frames alongside the good ones..",
-      "date_published": "2026-09-04T09:00:00Z",
+      "id": "2bb73ffea9cf1c2ec9629f8c9e6c5c500f5bfa42192df109f2cea7d52a6ad924",
+      "url": "https://www.35mmc.com/15/04/2026/the-only-camera-im-allowed-to-own/",
+      "title": "The only camera I'm allowed to own",
+      "summary": "An argument for the one-camera compromise between rangefinder and SLR, via the M4-P and the FM2.",
+      "date_published": "2026-04-15T00:00:00Z",
       "_homepage": {
         "kind": "evergreen",
         "topic": "photography",
         "source": "35mmc",
-        "note": "Someone finally shows the ugly frames alongside the good ones.",
+        "note": "An argument for the one-camera compromise between rangefinder and SLR, via the M4-P and the FM2. Useful thinking if you're eyeing a second body.",
+        "published_at": "2026-09-04T09:00:00Z",
         "image": null
       }
     },
     {
-      "id": "a71fddfa38d44f2d3cdd7fa91b87ce7d1baf0e29372d4a36d831053be5d3ac95",
-      "url": "https://owencuts.com/the-pressing-that-ruined-my-ears/",
-      "title": "The pressing that ruined my ears",
-      "summary": "On why the 2016 remaster of a record you own is the wrong one to keep..",
-      "date_published": "2026-09-04T09:00:00Z",
-      "_homepage": {
-        "kind": "evergreen",
-        "topic": "records",
-        "source": "Owen Cuts",
-        "note": "On why the 2016 remaster of a record you own is the wrong one to keep.",
-        "image": null
-      }
-    },
-    {
-      "id": "31b48875b3aa4615b5c8113889a64a42dfe784b774c7d0d919888fca02ba91a5",
-      "url": "https://first10em.com/lung-ultrasound-in-undifferentiated-dyspnoea/",
-      "title": "Lung ultrasound in undifferentiated dyspnoea",
-      "summary": "A clean summary of what the probe can and can't settle at the bedside..",
-      "date_published": "2026-09-03T09:00:00Z",
-      "_homepage": {
-        "kind": "timely",
-        "topic": "medicine",
-        "source": "First10EM",
-        "note": "A clean summary of what the probe can and can't settle at the bedside.",
-        "image": null
-      }
-    },
-    {
-      "id": "d62116c25b6e55c68d381122c3abca9cf93409db90dae682004fdb826464a2fb",
-      "url": "https://heddels.com/how-rrl-manufactures-ninety-years-of-wear/",
-      "title": "How RRL manufactures ninety years of wear",
-      "summary": "The processes behind the repro look, described by people who do it..",
-      "date_published": "2026-09-03T09:00:00Z",
-      "_homepage": {
-        "kind": "evergreen",
-        "topic": "fashion",
-        "source": "Heddels",
-        "note": "The processes behind the repro look, described by people who do it.",
-        "image": null,
-        "read": true
-      }
-    },
-    {
-      "id": "3147d2dcf9fe7b05f089467e43fa541a96166fe0a7f89f9e01c887a60282e324",
-      "url": "https://timeout.com/northside-sunday-markets-ranked-by-what-you-d-actually-buy/",
-      "title": "Northside Sunday markets, ranked by what you'd actually buy",
-      "summary": "Two you haven't been to, both under twenty minutes away..",
-      "date_published": "2026-09-03T09:00:00Z",
-      "_homepage": {
-        "kind": "evergreen",
-        "topic": "melbourne",
-        "source": "Time Out MEL",
-        "note": "Two you haven't been to, both under twenty minutes away.",
-        "image": null
-      }
-    },
-    {
-      "id": "20e50219567c96924366e17b660cfcf04a26e401bc11199adeb0ea407d585c8f",
-      "url": "https://casualphotophile.com/the-contax-t2-in-2026-at-2026-prices/",
-      "title": "The Contax T2 in 2026, at 2026 prices",
-      "summary": "Argues the T3 is the better buy and mostly convinces..",
-      "date_published": "2026-09-03T09:00:00Z",
-      "_homepage": {
-        "kind": "evergreen",
-        "topic": "photography",
-        "source": "Casual Photophile",
-        "note": "Argues the T3 is the better buy and mostly convinces.",
-        "image": null
-      }
-    },
-    {
-      "id": "ec61d5842a76b18c2896caf157a30e9917e80413476aadedc83a57b2189b694d",
-      "url": "https://enshrouded.com/enshrouded-update-8-the-farming-rework/",
-      "title": "Enshrouded update 8: the farming rework",
-      "summary": "Base-building changes that make a second playthrough worth it..",
-      "date_published": "2026-09-03T09:00:00Z",
-      "_homepage": {
-        "kind": "timely",
-        "topic": "gaming",
-        "source": "Keen Games",
-        "note": "Base-building changes that make a second playthrough worth it.",
-        "image": null
-      }
-    },
-    {
-      "id": "79c302400a534144adf8d55d8c182742239983eac501eb010814eb8c65f43f00",
-      "url": "https://aquariumdrunkard.com/deep-listening-the-second-side-of-pharoah/",
-      "title": "Deep listening: the second side of Pharoah",
-      "summary": "You own this.",
-      "date_published": "2026-09-03T09:00:00Z",
+      "id": "d7c4d3276739cd178f82ef0c7f2c32838316a06965821cfbdf6c1ba213e3936c",
+      "url": "https://aquariumdrunkard.com/2026/08/03/twenty-years-inside-the-eraser/",
+      "title": "Twenty years inside The Eraser",
+      "summary": "A revisit of the Yorke solo record at twenty.",
+      "date_published": "2026-08-03T00:00:00Z",
       "_homepage": {
         "kind": "evergreen",
         "topic": "records",
         "source": "Aquarium Drunkard",
-        "note": "You own this. This is about the half you skip.",
+        "note": "A revisit of the Yorke solo record at twenty. Part-paywalled, but the opening is the good bit.",
+        "published_at": "2026-09-04T09:00:00Z",
         "image": null
       }
     },
     {
-      "id": "7f929961e5a323e9f8d69ee8a5ab15342b8be192d3098b6fc11ee22aa21b7bff",
-      "url": "https://tenderlovingtattoo.com.au/black-work-tattooers-in-melbourne-worth-the-wait/",
-      "title": "Black-work tattooers in Melbourne worth the wait",
-      "summary": "Four studios, all northside, all with open books this month..",
-      "date_published": "2026-09-03T09:00:00Z",
+      "id": "4d692fa69c1fdbf244403475704457b16a87f56414264ffc23cbf54a158f2399",
+      "url": "https://www.heddels.com/2025/10/get-to-work-in-havens-moleskin-graft-coat/",
+      "title": "Get to work in HAVEN's moleskin graft coat",
+      "summary": "Japanese organic-cotton moleskin, chore-coat pattern, welted hand pockets instead of the usual patch ones.",
+      "date_published": "2025-10-01T00:00:00Z",
       "_homepage": {
         "kind": "evergreen",
-        "topic": "other",
-        "source": "Tender Loving",
-        "note": "Four studios, all northside, all with open books this month.",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Japanese organic-cotton moleskin, chore-coat pattern, welted hand pockets instead of the usual patch ones. The construction detail is the reason to read it.",
+        "published_at": "2026-09-04T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "173d87db2191860ac63fcb8da5dfba438abeb4c068a0e995d5a8fa89ac39c909",
+      "url": "https://litfl.com/ultrasound-in-critical-care-ccc/",
+      "title": "Ultrasound in critical care",
+      "summary": "The CCC entry, which is the reference version rather than the teaching version.",
+      "date_published": "2024-11-08T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "The CCC entry, which is the reference version rather than the teaching version. Worth keeping open in a tab through the module.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "403e3e0cad03f286c0e59adfc3cf4bc2e8e3aee61ab207ff991e21845d447d36",
+      "url": "https://www.thegamer.com/fable-releases-autumn-2026-no-gta-6-delay/",
+      "title": "Fable doubles down on an autumn release date",
+      "summary": "The official account committing to Albion in autumn, which is either confidence or a hostage note.",
+      "date_published": "2026-04-13T00:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "TheGamer",
+        "note": "The official account committing to Albion in autumn, which is either confidence or a hostage note.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "3996a4217443cfb3edf830891376c3f4325d3270da31ab163cfbb5fdf7b6c24b",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/new-restaurants-cafes-bakeries-may-2026",
+      "title": "21 Melbourne bars, bakeries and restaurants for the hit list",
+      "summary": "Two northside entries buried in this one: Jacket, a Thornbury jazz bar designed from a playlist, and Chabela doing Mexico City street snacks.",
+      "date_published": "2026-05-28T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Two northside entries buried in this one: Jacket, a Thornbury jazz bar designed from a playlist, and Chabela doing Mexico City street snacks.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "a5ffe8f39f8fdc09e46931505a92f955ef7b1b92eaa38971cf20001abe449759",
+      "url": "https://www.35mmc.com/05/01/2026/fujifilm-tx-1-nine-years-in-both-eyes-open/",
+      "title": "Fujifilm TX-1, nine years in",
+      "summary": "A long-term report on the panoramic Fuji rather than a first-impressions review, which is the rarer and more useful thing.",
+      "date_published": "2026-01-05T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "A long-term report on the panoramic Fuji rather than a first-impressions review, which is the rarer and more useful thing.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "f737d12fc094c38bf832df52c308681f405fc77d1f019c2afd3c10e6ce1742f5",
+      "url": "https://www.heddels.com/2018/09/history-of-the-chore-coat/",
+      "title": "History of the chore coat",
+      "summary": "Where the bleu de travail came from and how it became the barn jacket.",
+      "date_published": "2018-09-01T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Where the bleu de travail came from and how it became the barn jacket. Background for the moleskin pieces you keep buying.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "89df0e65d0e95dae223e40b0cc6e093b12251af073a336159347272b92c95c74",
+      "url": "https://insheepsclothinghifi.com/playlist-aquarium-drunkard/",
+      "title": "Home listening selections by Aquarium Drunkard",
+      "summary": "Justin Gage's own listening picks.",
+      "date_published": "2026-05-26T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "In Sheeps Clothing",
+        "note": "Justin Gage's own listening picks. A good source of things to look for secondhand rather than new.",
+        "published_at": "2026-09-03T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "822d9dfe89f541b9a0592583bd596ec61e4faff1448c40d4c3295d8d809d477b",
+      "url": "https://emcrit.org/squirt/us-line/",
+      "title": "Doubling down: ultrasound confirms central line position",
+      "summary": "Old but still the clearest account of the flush test and where a line tip is allowed to sit — plus the case where it went wrong.",
+      "date_published": "2016-10-31T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Old but still the clearest account of the flush test and where a line tip is allowed to sit — plus the case where it went wrong.",
+        "published_at": "2026-09-02T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "12ab0ba7a9ed49883a3fedf6654e184fa208c348a8a301e4c692cc6657ecb661",
+      "url": "https://litfl.com/critical-care-ultrasound/",
+      "title": "Critical care ultrasound",
+      "summary": "Tom Rozen's SMACC talk on process rather than trials — why bedside ultrasound moved outcomes without an RCT to point at.",
+      "date_published": "2021-07-24T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "Tom Rozen's SMACC talk on process rather than trials — why bedside ultrasound moved outcomes without an RCT to point at.",
+        "published_at": "2026-09-02T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "e80856fb693f709cde1c44214692dcaf3387edebcbcfe1a174bc9fc2d32c696d",
+      "url": "https://www.gamesradar.com/video-game-release-dates/",
+      "title": "Video game release dates for 2026 and beyond",
+      "summary": "Updated constantly, which is the only way a release calendar is worth anything this year.",
+      "date_published": "2026-09-03T00:00:00Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "GamesRadar",
+        "note": "Updated constantly, which is the only way a release calendar is worth anything this year. PS5 and PC columns are what you want.",
+        "published_at": "2026-09-02T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "cb3593037ff683942cdf9a572806054d23617bf533fccb4fe27c4fc516ed4d0d",
+      "url": "https://blog.jimgrey.net/2026/08/10/film-photography-blogs-you-should-follow-2026-27/",
+      "title": "Film photography blogs you should follow",
+      "summary": "A curated list of people writing about film, which is a shortcut to better sources than search gives me.",
+      "date_published": "2026-08-10T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Down the Road",
+        "note": "A curated list of people writing about film, which is a shortcut to better sources than search gives me. I'll mine this for the feed.",
+        "published_at": "2026-09-02T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "2937b139aafc9ea3a89f2f5c368cefc86f9d3d6b9b5ed88c94e147cdc16247a1",
+      "url": "https://www.heddels.com/2019/10/behind-bleu-de-travail-denims-european-cousin/",
+      "title": "Behind bleu de travail, denim's European cousin",
+      "summary": "On the French work trouser rather than the jacket everyone already owns.",
+      "date_published": "2019-10-01T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "On the French work trouser rather than the jacket everyone already owns. Moleskin dyed in both warp and weft, which is why the blue goes that deep.",
+        "published_at": "2026-09-02T09:00:00Z",
+        "image": null
+      }
+    },
+    {
+      "id": "fca8f8bc40a94b55772fbc87a395da8ad14d1385aac2164d89c16505eaba67ad",
+      "url": "https://www.broadsheet.com.au/melbourne/series/coming-soon",
+      "title": "Coming soon to Melbourne",
+      "summary": "The standing list of announced-but-not-open venues.",
+      "date_published": "2026-09-01T00:00:00Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "The standing list of announced-but-not-open venues. Worth a scan every few weeks rather than every day.",
+        "published_at": "2026-09-02T09:00:00Z",
         "image": null
       }
     }

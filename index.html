@@ -172,7 +172,7 @@ const match = it => !chip ? true
   : chip === "read" ? !!h(it).read
   : (chip === "timely" || chip === "evergreen") ? h(it).kind === chip
   : h(it).topic === chip;
-const dayOf = it => (it.date_published || "").slice(0, 10);
+const dayOf = it => ((h(it).published_at || it.date_published || "")).slice(0, 10);
 const fmtDay = d => new Date(d + "T00:00:00Z").toLocaleDateString("en-AU",
   { weekday:"long", day:"numeric", month:"long", timeZone:"UTC" });
 
@@ -269,7 +269,8 @@ document.addEventListener("click", e => {
 
 fetch("feed.json", { cache: "no-cache" }).then(r => r.json()).then(feed => {
   ITEMS = (feed.items || []).slice().sort((a, b) =>
-    (b.date_published || "").localeCompare(a.date_published || ""));
+    ((h(b).published_at || b.date_published) || "").localeCompare(
+      (h(a).published_at || a.date_published) || ""));
   GENERATED = (feed._homepage || {}).generated;
   const timely = ITEMS.filter(i => h(i).kind === "timely").length;
   document.getElementById("today").textContent =
