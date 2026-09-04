@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Life of K²</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0e0d0c; --paper:#f0ead9; --bright:#f5efe2; --mute:#8a8175; --dim:#6e675c;
+          --faint:#5c554b; --rule:#3a352d; --hair:#221f1b; --accent:#d9a45b; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; background:var(--bg); color:var(--paper);
+               font-family:Newsreader,Georgia,serif; }
+  a { color:var(--paper); text-decoration:none; }
+  a:hover { color:var(--accent); }
+  ::selection { background:var(--accent); color:var(--bg); }
+  .mono { font-family:'IBM Plex Mono',monospace; text-transform:uppercase; letter-spacing:.18em; }
+  .wrap { max-width:1180px; margin:0 auto; padding:0 46px; }
+  header.top { padding-top:52px; }
+  .dateline { display:flex; justify-content:space-between; gap:12px; font-size:10px;
+              color:var(--mute); padding-bottom:14px; }
+  .banner { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+            padding:26px 0 22px; text-align:center; }
+  h1.masthead { font-family:'Bodoni Moda',serif; font-weight:700; font-size:76px; line-height:.92;
+                letter-spacing:-.02em; margin:0; color:var(--bright); }
+  h1.masthead sup { font-size:.46em; vertical-align:super; line-height:0; letter-spacing:0; }
+  .byline { font-size:10px; letter-spacing:.26em; color:var(--mute); margin:14px 0 0; }
+  .picker { position:relative; }
+  .picker > button { background:none; border:0; padding:0; cursor:pointer; color:var(--mute);
+                     font-size:10px; }
+  .picker > button:hover, .picker.open > button { color:var(--bright); }
+  .menu { position:absolute; top:22px; right:0; z-index:20; min-width:250px; background:#141210;
+          border:1px solid var(--rule); display:none; flex-direction:column;
+          box-shadow:0 18px 40px rgba(0,0,0,.55); }
+  .picker.open .menu { display:flex; }
+  .menu button { background:none; border:0; border-bottom:1px solid var(--hair); cursor:pointer;
+                 color:#a09788; font-size:10px; padding:9px 12px; display:flex;
+                 justify-content:space-between; gap:16px; }
+  .menu button:hover { background:#1a1509; color:var(--bright); }
+  .menu span:last-child { color:var(--faint); }
+  .shell { display:grid; grid-template-columns:216px minmax(0,1fr); gap:40px; }
+  aside { padding:26px 20px 0 0; position:sticky; top:0; align-self:start; max-height:100vh;
+          overflow:auto; border-right:1px solid var(--hair); }
+  .rail-h { font-size:9px; letter-spacing:.22em; color:var(--faint);
+            border-bottom:1px solid var(--hair); padding-bottom:8px; margin-bottom:10px; }
+  .chips { display:flex; flex-direction:column; gap:1px; }
+  .chips button { background:none; border:0; border-left:2px solid transparent; cursor:pointer;
+                  color:var(--mute); font-size:10px; letter-spacing:.14em; padding:7px 9px;
+                  display:flex; justify-content:space-between; gap:10px; align-items:center;
+                  text-align:left; transition:all .15s; }
+  .chips button:hover { background:#17140f; color:var(--bright); }
+  .chips button[aria-pressed="true"] { border-left-color:var(--accent); background:#1a1509;
+                                       color:var(--accent); }
+  .chips .n { font-size:9px; color:var(--faint); }
+  main { padding-top:26px; min-width:0; }
+  .bar { display:flex; align-items:center; gap:14px; border-bottom:1px solid var(--hair);
+         padding-bottom:10px; }
+  .bar .count { font-size:10px; color:var(--mute); }
+  .views { margin-left:auto; display:flex; }
+  .views button { background:none; border:1px solid var(--rule); color:var(--dim); cursor:pointer;
+                  font-size:10px; letter-spacing:.18em; padding:5px 12px; transition:all .15s; }
+  .views button:hover { color:var(--bright); }
+  .views button[aria-pressed="true"] { background:var(--rule); color:var(--bright); }
+  section.edition { padding:34px 0 6px; }
+  .ed-head { display:flex; align-items:baseline; gap:16px; border-bottom:2px solid var(--paper);
+             padding-bottom:8px; }
+  .ed-head h2 { font-family:'Bodoni Moda',serif; font-size:24px; font-weight:400; margin:0;
+                color:var(--bright); }
+  .ed-head .n { margin-left:auto; font-size:10px; color:var(--mute); }
+  article { display:grid; grid-template-columns:1fr 108px; gap:26px; align-items:start;
+            padding:22px 12px 22px 0; border-bottom:1px solid var(--hair); transition:background .15s; }
+  article:hover { background:#141210; }
+  article.read { opacity:.45; }
+  .kicker { display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding-bottom:7px; }
+  .kicker .src { font-size:10px; font-weight:500; color:var(--accent); }
+  .kicker .rule { width:12px; height:1px; background:var(--rule); }
+  .kicker .topic { font-size:10px; color:var(--dim); }
+  .kicker .tag { font-size:9px; letter-spacing:.16em; color:var(--bg); background:var(--mute);
+                 padding:2px 6px; }
+  .kicker .tick { font-size:10px; color:var(--dim); }
+  article h3 { font-size:27px; font-weight:400; line-height:1.15; letter-spacing:-.01em;
+               margin:0 0 8px; }
+  article p { font-style:italic; font-weight:300; font-size:16px; line-height:1.45;
+              color:#a09788; margin:0; max-width:62ch; text-wrap:pretty; }
+  .thumb { height:76px; border:1px solid var(--rule); background-size:cover;
+           background-position:center; filter:saturate(.4) contrast(.95); transition:filter .3s;
+           display:flex; align-items:flex-end; justify-content:flex-end; padding:5px; }
+  article:hover .thumb { filter:none; }
+  .thumb.placeholder { background-image:
+      repeating-linear-gradient(135deg, rgba(255,255,255,.09) 0 5px, rgba(0,0,0,.09) 5px 10px),
+      linear-gradient(135deg,#4a4438,#241f18); }
+  .thumb span { font-family:'IBM Plex Mono',monospace; font-size:8px; color:var(--bg);
+                background:rgba(240,234,217,.72); padding:2px 4px; }
+  .empty { padding:80px 0; text-align:center; }
+  .empty p { font-style:italic; font-size:22px; color:var(--dim); margin:0; }
+  .empty .mono { font-size:10px; color:#4a443c; margin-top:12px; }
+  footer { margin-top:48px; border-top:1px solid var(--rule); padding-top:16px; display:flex;
+           flex-wrap:wrap; gap:10px; justify-content:space-between; font-size:10px;
+           letter-spacing:.16em; color:var(--faint); }
+  footer a { border-bottom:1px solid var(--rule); }
+  @media (max-width:820px) {
+    .wrap { padding:0 20px; }
+    header.top { padding-top:30px; }
+    h1.masthead { font-size:40px; }
+    .dateline .mid { display:none; }
+    .shell { grid-template-columns:1fr; gap:0; }
+    aside { position:static; max-height:none; border:0; border-bottom:1px solid var(--hair);
+            padding:16px 0 4px; }
+    .chips { flex-direction:row; flex-wrap:wrap; gap:6px; }
+    .chips button { border:1px solid var(--rule); border-left-width:1px; padding:6px 11px; }
+    .chips button[aria-pressed="true"] { background:var(--accent); color:var(--bg);
+                                         border-color:var(--accent); }
+    article { grid-template-columns:1fr 76px; gap:16px; padding:18px 0; }
+    article h3 { font-size:22px; }
+    .thumb { height:58px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="dateline mono">
+      <span>Curated by Claude</span>
+      <span class="mid" id="today"></span>
+      <span class="picker" id="picker">
+        <button type="button" id="picker-btn">Editions ▾</button>
+        <div class="menu mono" id="picker-menu"></div>
+      </span>
+    </div>
+    <div class="banner">
+      <h1 class="masthead">Life of K<sup>2</sup></h1>
+      <p class="byline mono">Circulation: one · Standards: unreasonable</p>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside>
+      <div class="rail-h mono">Filter</div>
+      <div class="chips mono" id="chips"></div>
+    </aside>
+
+    <main>
+      <div class="bar">
+        <span class="count mono" id="result">loading…</span>
+        <div class="views mono">
+          <button type="button" data-view="editions" aria-pressed="true">Editions</button>
+          <button type="button" data-view="river" aria-pressed="false">River</button>
+        </div>
+      </div>
+      <div id="feed"></div>
+      <footer class="mono">
+        <span id="health"></span>
+        <span style="display:flex; gap:16px">
+          <a href="status.html" style="color:var(--accent)">Status →</a>
+          <a href="feed.json">feed.json</a>
+        </span>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<script>
+const TOPICS = ["medicine","records","photography","fashion","gaming","melbourne","other"];
+let ITEMS = [], GENERATED = null, chip = null, view = "editions";
+
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c =>
+  ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const h = it => it._homepage || {};
+const match = it => !chip ? true
+  : chip === "read" ? !!h(it).read
+  : (chip === "timely" || chip === "evergreen") ? h(it).kind === chip
+  : h(it).topic === chip;
+const dayOf = it => (it.date_published || "").slice(0, 10);
+const fmtDay = d => new Date(d + "T00:00:00Z").toLocaleDateString("en-AU",
+  { weekday:"long", day:"numeric", month:"long", timeZone:"UTC" });
+
+function groups(list) {
+  const by = {};
+  list.forEach(i => { (by[dayOf(i)] = by[dayOf(i)] || []).push(i); });
+  return Object.keys(by).sort().reverse().map(d => ({ date:d, items:by[d] }));
+}
+
+function chipsUI() {
+  const count = c => { const s = chip; chip = c; const n = ITEMS.filter(match).length; chip = s; return n; };
+  const defs = [["Everything", null]].concat(TOPICS.map(t => [t, t]))
+    .concat([["Timely","timely"], ["Evergreen","evergreen"], ["✓ Read","read"]]);
+  document.getElementById("chips").innerHTML = defs.map(([label, value]) =>
+    '<button type="button" data-chip="' + (value == null ? "" : value) + '" aria-pressed="' +
+    (chip === value) + '"><span>' + esc(label) + '</span><span class="n">' +
+    count(value) + '</span></button>').join("");
+}
+
+function row(it) {
+  const m = h(it);
+  const thumb = m.image
+    ? '<div class="thumb" style="background-image:url(' + esc(m.image) + ')"></div>'
+    : '<div class="thumb placeholder"><span>og:image</span></div>';
+  return '<article class="' + (m.read ? "read" : "") + '">' +
+    '<div style="min-width:0"><div class="kicker mono">' +
+      '<span class="src">' + esc(m.source) + '</span><span class="rule"></span>' +
+      '<span class="topic">' + esc(m.topic) + '</span>' +
+      (m.kind === "timely" ? '<span class="tag">timely</span>' : '') +
+      (m.read ? '<span class="tick">✓ read</span>' : '') +
+    '</div><h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
+      esc(it.title) + '</a></h3><p>' + esc(m.note || it.summary || "") + '</p></div>' +
+    thumb + '</article>';
+}
+
+function render() {
+  const list = ITEMS.filter(match);
+  document.getElementById("result").textContent = chip
+    ? list.length + " of " + ITEMS.length + " · " + chip
+    : list.length + " items in the pool";
+  const feed = document.getElementById("feed");
+  if (!list.length) {
+    feed.innerHTML = '<div class="empty"><p>Nothing here under that filter.</p>' +
+      '<p class="mono">The generator publishes what it finds, not what fills a slot.</p></div>';
+    return;
+  }
+  feed.innerHTML = (view === "river"
+    ? ['<section class="edition">' + list.map(row).join("") + '</section>']
+    : groups(list).map(g => '<section class="edition" id="ed-' + g.date + '">' +
+        '<div class="ed-head"><h2>' + fmtDay(g.date) + '</h2><span class="n mono">' +
+        g.items.length + (g.items.length === 1 ? " item" : " items") + '</span></div>' +
+        g.items.map(row).join("") + '</section>')
+  ).join("");
+}
+
+function pickerUI() {
+  document.getElementById("picker-menu").innerHTML = groups(ITEMS).map((g, i) =>
+    '<button type="button" data-jump="ed-' + g.date + '"><span>' + fmtDay(g.date) +
+    '</span><span>' + g.items.length + (i === 0 ? " · current" : "") + '</span></button>').join("");
+}
+
+document.addEventListener("click", e => {
+  const chipBtn = e.target.closest("[data-chip]");
+  const viewBtn = e.target.closest("[data-view]");
+  const jump = e.target.closest("[data-jump]");
+  const picker = document.getElementById("picker");
+
+  if (chipBtn) {
+    const v = chipBtn.dataset.chip || null;
+    chip = chip === v ? null : v;
+    chipsUI(); render();
+  } else if (viewBtn) {
+    view = viewBtn.dataset.view;
+    document.querySelectorAll("[data-view]").forEach(b =>
+      b.setAttribute("aria-pressed", b.dataset.view === view));
+    render();
+  } else if (jump) {
+    const node = document.getElementById(jump.dataset.jump);
+    if (view === "river") {
+      view = "editions";
+      document.querySelectorAll("[data-view]").forEach(b =>
+        b.setAttribute("aria-pressed", b.dataset.view === "editions"));
+      render();
+    }
+    const target = document.getElementById(jump.dataset.jump);
+    if (target) window.scrollTo({ top: target.offsetTop - 24, behavior: "smooth" });
+    picker.classList.remove("open");
+  } else if (e.target.id === "picker-btn") {
+    picker.classList.toggle("open");
+  } else {
+    picker.classList.remove("open");
+  }
+});
+
+fetch("feed.json", { cache: "no-cache" }).then(r => r.json()).then(feed => {
+  ITEMS = (feed.items || []).slice().sort((a, b) =>
+    (b.date_published || "").localeCompare(a.date_published || ""));
+  GENERATED = (feed._homepage || {}).generated;
+  const timely = ITEMS.filter(i => h(i).kind === "timely").length;
+  document.getElementById("today").textContent =
+    new Date(GENERATED || Date.now()).toLocaleDateString("en-AU",
+      { weekday:"long", day:"numeric", month:"long" });
+  document.getElementById("health").textContent =
+    ITEMS.length + " live · " + timely + " timely · generated " +
+    new Date(GENERATED).toLocaleTimeString("en-AU", { hour:"2-digit", minute:"2-digit" });
+  chipsUI(); pickerUI(); render();
+}).catch(() => {
+  document.getElementById("result").textContent = "feed unavailable";
+  document.getElementById("feed").innerHTML =
+    '<div class="empty"><p>The feed did not load.</p>' +
+    '<p class="mono">feed.json is missing or malformed.</p></div>';
+});
+</script>
+</body>
+</html>
