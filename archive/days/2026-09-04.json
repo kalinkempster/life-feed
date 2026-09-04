@@ -1,97 +1,183 @@
 {
   "day": "2026-09-04",
-  "ran_at": "2026-09-04T09:00:00Z",
-  "published": 6,
+  "ran_at": "2026-09-04T13:17:00.930Z",
+  "published": 11,
   "dropped": [],
   "items": [
     {
-      "id": "9f11df8fc3b792fe1126ce8d70845a6d98a27fb7ed2c99219ac2e8dd906a5eda",
-      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/new-restaurants-cafes-bars-august-2026",
-      "title": "17 new restaurants, cafes and bars to try in September",
-      "summary": "Bar Tenko in Brunswick East and Brunswick Eats are both walkable from you.",
-      "date_published": "2026-09-01T00:00:00Z",
+      "id": "3b2f4cb12d1f0bee8d4abb78752dc9a8fb2998fac2d99ad95d365acbd7d6dece",
+      "url": "https://first10em.com/stratify-and-storm-pe-trials",
+      "title": "Higher risk PE management: STRATIFY and STORM-PE",
+      "summary": "The two trials everyone is citing for intermediate-high-risk PE, read sceptically rather than reverentially.",
+      "date_published": "2026-04-13T00:00:00.000Z",
       "_homepage": {
         "kind": "timely",
-        "topic": "melbourne",
-        "source": "Broadsheet",
-        "note": "Bar Tenko in Brunswick East and Brunswick Eats are both walkable from you. Published three days ago, so the queues haven't formed yet.",
-        "published_at": "2026-09-04T09:00:00Z",
-        "image": "https://cdn.broadsheet.com.au/images/2026/08/12/Frog%20Club_Michael%20Gardenia_52%20of%2060-c7d11548af.webp"
+        "topic": "medicine",
+        "source": "First10EM",
+        "note": "STORM-PE randomised only 100 patients and its primary outcome is RV/LV ratio at 48 hours — a surrogate, and Morgenstern says so plainly. STRATIFY's three-arm design (heparin alone versus catheter-directed versus systemic 20mg alteplase) is the one that matters for a department without an interventional service on site, which is most of them overnight. Worth reading before the guideline summaries harden into departmental policy.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
       }
     },
     {
-      "id": "5c28d75f2956d2aa062b5f63d78dbeb39341857b7bdaeb8452db4fb0a2865575",
-      "url": "https://www.gameshub.com/news/article/fable-2026-release-window-gta6-avoidance-rumours-2865587/",
-      "title": "Fable reiterates its 2026 release window amid GTA 6 rumours",
-      "summary": "The clearest write-up of why every Xbox date is in limbo until GTA 6 lands.",
-      "date_published": "2026-06-16T00:00:00Z",
-      "_homepage": {
-        "kind": "timely",
-        "topic": "gaming",
-        "source": "GamesHub",
-        "note": "The clearest write-up of why every Xbox date is in limbo until GTA 6 lands. Relevant if you're planning what to actually buy this year.",
-        "published_at": "2026-09-04T09:00:00Z",
-        "image": "https://www.gameshub.com/wp-content/uploads/2026/04/fable-gta6-release-window-pressure.webp"
-      }
-    },
-    {
-      "id": "d7c4d3276739cd178f82ef0c7f2c32838316a06965821cfbdf6c1ba213e3936c",
-      "url": "https://aquariumdrunkard.com/2026/08/03/twenty-years-inside-the-eraser/",
-      "title": "Twenty years inside The Eraser",
-      "summary": "A revisit of the Yorke solo record at twenty.",
-      "date_published": "2026-08-03T00:00:00Z",
-      "_homepage": {
-        "kind": "evergreen",
-        "topic": "records",
-        "source": "Aquarium Drunkard",
-        "note": "A revisit of the Yorke solo record at twenty. Part-paywalled, but the opening is the good bit.",
-        "published_at": "2026-09-04T09:00:00Z",
-        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/07/The-Eraser-Thom-Yorke.jpg"
-      }
-    },
-    {
-      "id": "b8d926209e6e7d06066c445cf178925c4acb106975531a026e517dbece6cd0f7",
-      "url": "https://emcrit.org/emcrit/ultrasound-cardiac-arrest/",
-      "title": "The Ultrasound Hierarchy of Needs in Cardiac Arrest",
-      "summary": "Mike Prats on how to actually use the probe in an arrest — one clip, six seconds, pre-pause.",
-      "date_published": "2026-03-13T00:00:00Z",
+      "id": "36947a37122cc9e7631a67945908859d3c3e5434aab95cc714e5ca90ba61fc55",
+      "url": "https://emcrit.org/emcrit/2026-crashing-pe-update",
+      "title": "EMCrit 424 – 2026 Crashing PE Update",
+      "summary": "Weingart reconciles the AHA's A-to-E categories with the words you actually use at the bedside, then gives you an algorithm.",
+      "date_published": "2026-05-02T00:00:00.000Z",
       "_homepage": {
         "kind": "timely",
         "topic": "medicine",
         "source": "EMCrit",
-        "note": "Mike Prats on how to actually use the probe in an arrest — one clip, six seconds, pre-pause. Directly useful for the CCPU work, and short enough to get through between shifts.",
-        "published_at": "2026-09-04T09:00:00Z",
-        "image": "https://emcrit.org/wp-content/uploads/2024/09/Ultrasound-in-Cardiac-Arrest.jpg"
+        "note": "The AHA's new alphabetic PE categories are the sort of thing that reads fine in a guideline and falls apart at 3am when the registrar has to say out loud what this patient is. This episode does the translation and then stratifies therapy across low-dose systemic lysis, mechanical thrombectomy, half-dose tenecteplase and ECMO, folding in STRATIFY and HI-PEITHO. Pair it with the First10EM appraisal of the same two trials, also in today's edition, and you have both the recommendation and the evidence behind it.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
       }
     },
     {
-      "id": "4d692fa69c1fdbf244403475704457b16a87f56414264ffc23cbf54a158f2399",
-      "url": "https://www.heddels.com/2025/10/get-to-work-in-havens-moleskin-graft-coat/",
-      "title": "Get to work in HAVEN's moleskin graft coat",
-      "summary": "Japanese organic-cotton moleskin, chore-coat pattern, welted hand pockets instead of the usual patch ones.",
-      "date_published": "2025-10-01T00:00:00Z",
+      "id": "e8f98c016c0cc82f9102553a00ec72006c381629a472d07ea356362304b8e240",
+      "url": "https://first10em.com/research-roundup-june-2026",
+      "title": "Research Roundup – June 2026",
+      "summary": "A month of emergency medicine papers appraised in one sitting, with the weak ones named as weak.",
+      "date_published": "2026-06-15T00:00:00.000Z",
       "_homepage": {
-        "kind": "evergreen",
-        "topic": "fashion",
-        "source": "Heddels",
-        "note": "Japanese organic-cotton moleskin, chore-coat pattern, welted hand pockets instead of the usual patch ones. The construction detail is the reason to read it.",
-        "published_at": "2026-09-04T09:00:00Z",
-        "image": "https://www.heddels.com/wp-content/uploads/2025/09/social-get-to-work-in-havens-moleskin-graft-coat-front-model.jpg"
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "First10EM",
+        "note": "The monthly roundup is the cheapest way to stay current without reading journals, and it covers ground the podcasts skip — peripheral vasoactive administration among them, which is a live question in any department still moving pressors to a central line on principle. Skim the verdicts, read the two or three that touch your practice.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
       }
     },
     {
-      "id": "2bb73ffea9cf1c2ec9629f8c9e6c5c500f5bfa42192df109f2cea7d52a6ad924",
-      "url": "https://www.35mmc.com/15/04/2026/the-only-camera-im-allowed-to-own/",
-      "title": "The only camera I'm allowed to own",
-      "summary": "An argument for the one-camera compromise between rangefinder and SLR, via the M4-P and the FM2.",
-      "date_published": "2026-04-15T00:00:00Z",
+      "id": "34b10ba07f034cc9939b899f846cd8786e129fad054948c6fe65e002d582a4f8",
+      "url": "https://emcrit.org/emcrit/ssc-2026-sepsis-guidelines",
+      "title": "EMCrit 422 – SSC 2026 Sepsis Guidelines",
+      "summary": "The lead author of the new Surviving Sepsis guidelines sits down and is asked which parts are actually bad.",
+      "date_published": "2026-04-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "The 2026 rewrite carries 129 statements, 46 of them new ground, and it moves on things that change ED practice directly: high-flow nasal cannula as the first device in sepsis-associated respiratory failure, active fluid removal once resuscitation is done, and a recommendation against routine antipyretics. Having Hallie Prescott defend it live is more useful than reading the document, because the conditional recommendations are where the argument actually is.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "4bb35a68d8dfc873d880197fd1796cce870033e7e4e50c1ed6f7a7aa8db6ba9a",
+      "url": "https://www.rollingstone.com/music/music-news/hermanos-gutierrez-announce-new-album-los-ojos-del-condor-1235571904",
+      "title": "Hermanos Gutiérrez Announce 'Los Ojos del Cóndor'",
+      "summary": "The third Auerbach-produced record from a duo already on your shelf, out 25 September and worth a pre-order.",
+      "date_published": "2026-06-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Rolling Stone",
+        "note": "Hermanos Gutiérrez are in the library, so this is a record to have on order rather than discover late. The pitch is a move off the American desert and into the Andes — Peru, their great-grandfather's country — which is a real change of vocabulary from El Bueno y el Malo and Sonido Cósmico rather than a third go at the same reverb. Dan Auerbach at Easy Eye again, which given what The Black Crowes and Menahan Street Band sit next to on your shelf is exactly the production register that suits it.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "33b81a8e5b4adf60ca02ceb7c548996b60735b1270426add361a5c7fc6e08d45",
+      "url": "https://www.35mmc.com/25/03/2026/the-next-ascent",
+      "title": "The Next Ascent",
+      "summary": "What to work on once you can already expose correctly and the pictures still are not good.",
+      "date_published": "2026-03-25T00:00:00.000Z",
       "_homepage": {
         "kind": "evergreen",
         "topic": "photography",
         "source": "35mmc",
-        "note": "An argument for the one-camera compromise between rangefinder and SLR, via the M4-P and the FM2. Useful thinking if you're eyeing a second body.",
-        "published_at": "2026-09-04T09:00:00Z",
-        "image": "https://www.35mmc.com/wp-content/uploads/2026/03/35a-scaled.jpg"
+        "note": "This is the plateau piece — written for the point where the mechanics are automatic and the limiting factor has become how you read light rather than what your meter says. The specific argument is about midtones and restraint, and about testing a stock properly instead of collecting stocks, which is a more useful discipline than another camera. Sits directly against the 35mmc one-camera piece already in your feed.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "9fc8fdd4131a9bdb247cad6126102529fec4c028c9325c4b5a5ed1f160e49a5f",
+      "url": "https://petapixel.com/2026/08/14/eastman-kodak-goes-big-and-shows-film-some-more-love",
+      "title": "Eastman Kodak Goes Big and Shows Film Some More Love",
+      "summary": "Tri-X 400 in 100-foot bulk rolls is back, which is the cheapest your black and white will ever get per frame.",
+      "date_published": "2026-08-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "photography",
+        "source": "PetaPixel",
+        "note": "The headline is large format, but the line that matters for a 35mm shooter is the return of 100-foot bulk rolls of Tri-X 400 and Ektapan. Bulk loading is the one lever left on film cost now that per-roll prices have settled where they have, and this is the first time the newly in-house Eastman Kodak range has offered it. It also effectively closes out Kodak's move to take distribution back from Alaris, fourteen years on.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "f0f1e1cf8434c992ab2f4294b46d9a41b69e5252a33154f49c3b0e7e7cd9a6f9",
+      "url": "https://www.broadsheet.com.au/melbourne/fashion/article/mutimer-store-collingwood",
+      "title": "Internet Fashion Label Mutimer's Collingwood Store Opens",
+      "summary": "Six years direct-to-consumer, and now there is finally somewhere in Melbourne to try the fit on.",
+      "date_published": "2026-03-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "308 Smith Street, so a tram ride rather than a postal gamble on sizing — which for a label you have only ever bought online is the whole point. Jasper Mutimer has fitted it out as a mid-century apartment, Eames chair and wall-mounted CD player included, which tells you how the brand wants the workwear read. Worth a walk down from Collingwood on a Saturday, and the closest thing Melbourne has to a home store for the label.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "6149c7d1d05988e43f0a4a1643159f53df894a23c74e05b2d31a3069b7055e20",
+      "url": "https://www.heddels.com/2018/01/the-history-of-flannel-2",
+      "title": "All About Flannel – Winter Fabric from Wales",
+      "summary": "Why the word once meant wool, and how to tell a real flannel from a plaid-printed cotton shirt.",
+      "date_published": "2018-01-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Flannel is a nap and a finish, not a check — the pattern is the thing everyone mistakes for the cloth. The Welsh origin and the Pendleton century that followed are the useful part here, because Pendleton and Woolrich are the reference points you buy against, and both still trade on a wool flannel most of the market has quietly swapped for brushed cotton. Good reading going into a Melbourne spring, when the vintage racks fill with last winter's shirts.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "829ccd058257c4696ce30385498570ad136b350e42cf6a3a0cca6d6afb80ed53",
+      "url": "https://www.jagex.com/news/runescape-dragonwilds-leaves-early-access-with-full-launch-on-15-september-2026",
+      "title": "Dragonwilds Leaves Early Access on 15 September 2026",
+      "summary": "1.0 lands in eleven days, on PS5 the same day as PC, with the Scorned Wilderness raid attached.",
+      "date_published": "2026-06-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Jagex",
+        "note": "First-party announcement rather than a re-write of it, so the platform detail is reliable: PC, PS5, Xbox Series X|S and Switch 2 all on 15 September, with crossplay. 1.0 bundles the Scorned Wilderness raid, the Runite tier and the end of Kuldra's saga on top of everything from Umbral Sands. If you have been waiting to start on PlayStation rather than PC, this is the date to clear.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "d3c05ad911b882bc99c68c9348afa392049c0c94a0945addd62a1bf7d626a1b7",
+      "url": "https://www.escapistmagazine.com/news-enshrouded-official-release-date-october-ps5-xbox-next-year",
+      "title": "Enshrouded's release date set for October on PC and PS5",
+      "summary": "The other survival game you have been waiting on console for — 15 October, PS5 and PS5 Pro, Xbox not until 2027.",
+      "date_published": "2026-06-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "The Escapist",
+        "note": "Two and a half years of early access ends on 15 October, and PlayStation gets it day one while Xbox waits until spring 2027. Keen are promising the parts early access never fixed — onboarding, quest flow, shader compilation stutter — plus Adventure Sharing, which opens other people's builds and trap-laden worlds to you. It lands a month after Dragonwilds 1.0, so October is a decision rather than a double buy.",
+        "published_at": "2026-09-04T13:17:00.930Z",
+        "image": null,
+        "verified": "bot-walled"
       }
     }
   ]
