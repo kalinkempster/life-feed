@@ -36,6 +36,7 @@ const PATHS = [
   "site/status.json",
   "archive",
   "curation/library-snapshot.md",
+  "curation/signals-summary.md",
 ];
 
 const add = run("git", ["add", "--", ...PATHS]);

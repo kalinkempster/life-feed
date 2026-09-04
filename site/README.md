@@ -42,10 +42,18 @@ Vercel redeploys on push. Nothing else in this folder changes day to day.
 
 ## /api/signal
 
-`POST` one JSON object per dismissal:
+`POST` one JSON object per dismissal or rating:
 
-    { "id": "<64 hex>", "reason": "read" | "irrelevant",
+    { "id": "<64 hex>", "reason": "read" | "irrelevant" | "interested" | "clear",
       "topic": "medicine", "source": "EMCrit", "at": "..." }
+
+`read` and `irrelevant` are contract v1's two reasons. **`interested` is a
+deliberate extension** for the site's thumbs-up control — a positive signal that
+steers curation rather than dismissing anything — and `clear` retracts whatever
+was said before. The dashboard never sends either; only the site does.
+
+An item holds exactly one state at a time: a later statement replaces an earlier
+one rather than accumulating beside it.
 
 Always answers **202 with no body**, whatever happens downstream — a dismissal
 must never be blocked or surfaced as an error. Writes to Upstash Redis when it is
@@ -57,6 +65,24 @@ not become a way to write arbitrary keys.
 Until then it is absent, which is the contract's own default: the dashboard keeps
 dismissals local. Publishing the URL while the route 404s means every dismissal is
 fired into a wall and the failure is swallowed by design.
+
+## Rating from the site
+
+Every item carries three controls: mark read, thumbs up, thumbs down.
+
+    read         dims the item in place with a tick, and drops it from the live feed
+    interested   marks it, keeps it live, and steers the next run's curation
+    irrelevant   collapses the row to an undo strip; gone for good on the next load
+
+State is stored in `localStorage` first, so the controls respond instantly and
+survive a reload with no server at all, and POSTed to `/api/signal` so that once
+Upstash is configured it reaches the generator. Local state wins over the
+build-time baseline — it is the more recent statement.
+
+**Thumbs up only reaches curation once Upstash is configured.** The generator
+reads the signals at build time and writes `curation/signals-summary.md`, which
+the scheduled routine reads the next day. Without Upstash the buttons still work
+in your browser, but nothing influences the feed.
 
 ## What is NOT here
 

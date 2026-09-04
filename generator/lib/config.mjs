@@ -71,5 +71,6 @@ export const MODEL = "claude-opus-5";
 export const KEYS = {
   read: "signals:read",
   irrelevant: "signals:irrelevant",
+  interested: "signals:interested",
   meta: "signals:meta",
 };

@@ -35,7 +35,7 @@ const dayOf = (item) =>
  * - `read` items stay on the site but leave the live feed; the dashboard has
  *   already dismissed them, so they are only taking up cap.
  * - evergreen ages out of the live feed after 90 days (interests.md rule 5) but
- *   stays on the site forever.
+ *   stays on the site forever. A rated-up item is exempt: you said you wanted it.
  * - newest first, then hard-capped. Trim, never paginate.
  */
 export function selectLive(archive, signals, now = new Date()) {
@@ -46,6 +46,7 @@ export function selectLive(archive, signals, now = new Date()) {
     .filter((item) => !signals.read.has(item.id))
     .filter((item) => {
       if (item._homepage.kind !== "evergreen") return true;
+      if (signals.interested && signals.interested.has(item.id)) return true;
       const published = Date.parse(item._homepage.published_at || item.date_published);
       return !Number.isFinite(published) || published >= cutoff;
     })
@@ -106,7 +107,11 @@ export function buildSite(archive, signals, generated) {
     .filter((item) => !signals.irrelevant.has(item.id))
     .map((item) => ({
       ...item,
-      _homepage: { ...item._homepage, read: signals.read.has(item.id) },
+      _homepage: {
+        ...item._homepage,
+        read: signals.read.has(item.id),
+        liked: signals.interested ? signals.interested.has(item.id) : false,
+      },
     }))
     .sort((a, b) =>
       String(b._homepage.published_at).localeCompare(String(a._homepage.published_at)),

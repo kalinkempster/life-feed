@@ -219,9 +219,17 @@ const archive = JSON.parse(
 
 const readId = archive[0].id;
 const goneId = archive[1].id;
+const likedId = archive[2].id;
 const fakeSignals = {
+  available: true,
   read: new Set([readId]),
   irrelevant: new Set([goneId]),
+  interested: new Set([likedId]),
+  meta: {
+    [readId]: { reason: "read", topic: "medicine", source: "EMCrit", at: new Date().toISOString() },
+    [goneId]: { reason: "irrelevant", topic: "gaming", source: "IGN", at: new Date().toISOString() },
+    [likedId]: { reason: "interested", topic: "records", source: "Owen Cuts", at: new Date().toISOString() },
+  },
 };
 
 const liveAfter = selectLive(archive, fakeSignals, new Date("2026-09-05T09:00:00Z"));
@@ -234,6 +242,35 @@ check("an `irrelevant` item leaves the live feed", () =>
 );
 check("everything else stays live", () =>
   assert.equal(liveAfter.length, archive.length - 2),
+);
+check("a rated-up item stays in the live feed", () =>
+  assert.ok(liveAfter.some((i) => i.id === likedId)),
+);
+
+const { buildSite } = await import("./lib/publish.mjs");
+const siteView = buildSite(archive, fakeSignals, "now");
+check("the site keeps a read item, marked", () =>
+  assert.ok(siteView.items.some((i) => i.id === readId && i._homepage.read)),
+);
+check("the site drops a dismissed item entirely", () =>
+  assert.ok(!siteView.items.some((i) => i.id === goneId)),
+);
+check("the site marks a rated-up item", () =>
+  assert.ok(siteView.items.some((i) => i.id === likedId && i._homepage.liked)),
+);
+check("feed.json never carries the site-only liked flag", () => {
+  const f = buildFeed(liveAfter.slice(0, 5), "now");
+  assert.ok(f.items.every((i) => i._homepage.liked === undefined));
+});
+
+const { ratingsBrief } = await import("./lib/signals.mjs");
+const brief = ratingsBrief(fakeSignals);
+check("the ratings brief reaches curation with both directions", () => {
+  assert.match(brief, /## More of this[\s\S]*records \(1\)/);
+  assert.match(brief, /## Less of this[\s\S]*gaming \(1\)/);
+});
+check("no ratings brief is written when signals are unavailable", () =>
+  assert.equal(ratingsBrief({ available: false }), null),
 );
 check("evergreen older than 90 days ages out of the live feed", () => {
   const future = selectLive(archive, { read: new Set(), irrelevant: new Set() },

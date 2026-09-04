@@ -118,3 +118,25 @@ those would have binned the highest-weighted medicine source in the brief.
   Vercel's Root Directory is `.`. Moving them requires flipping that setting.
 - Editing the curation brief through the site (auth + CRUD). Files in Git until then.
 - Honouring signals live rather than at build time.
+
+## Rating on the site (extends contract v1)
+
+The site now has its own signal controls, which it did not before: mark read,
+thumbs up, thumbs down. Two notes on what this changes.
+
+**`interested` is a third reason, and the contract defines two.** Contract v1 says
+the signal records "only what Kal deliberately said, in two words, about an item he
+chose to act on". A positive rating is a third word. It is still that same kind of
+thing — a deliberate statement about an item, not click tracking, dwell time or a
+behavioural profile — so the principle holds, but the extension is deliberate and
+belongs in a contract v2 if the dashboard ever wants to send it. The dashboard does
+not send it today and does not need to know it exists.
+
+**The feedback loop runs through the repo, not through Redis.** The scheduled
+curation routine has no network access to Upstash, so a rating cannot be read live.
+The generator reads signals at build time and writes `curation/signals-summary.md`,
+committed with the edition; the routine reads it from the brief the next day. That
+file is explicitly evidence, not instruction — it never overrides merit, and a weak
+item in a liked topic is still a weak item.
+
+A rated-up evergreen item is exempt from the 90-day age-out. You said you wanted it.

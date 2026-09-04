@@ -15,10 +15,14 @@
 const KEYS = {
   read: "signals:read",
   irrelevant: "signals:irrelevant",
+  interested: "signals:interested",
   meta: "signals:meta",
 };
 
-const REASONS = new Set(["read", "irrelevant"]);
+// contract v1 defines two reasons. `interested` is a deliberate extension for the
+// site's rating control — a positive signal that steers curation rather than
+// dismissing anything. `clear` retracts whatever was said before.
+const REASONS = new Set(["read", "irrelevant", "interested", "clear"]);
 const TOPICS = new Set([
   "medicine",
   "records",
@@ -41,18 +45,26 @@ async function persist(signal) {
   const token = process.env.UPSTASH_REDIS_REST_TOKEN || "";
   if (!url || !token) return;
 
-  const set = signal.reason === "read" ? KEYS.read : KEYS.irrelevant;
-  const other = signal.reason === "read" ? KEYS.irrelevant : KEYS.read;
+  const sets = [KEYS.read, KEYS.irrelevant, KEYS.interested];
+  const target = KEYS[signal.reason];
+
+  // Exactly one thing is true of an item at a time: a later statement replaces an
+  // earlier one rather than accumulating alongside it.
+  const commands = sets
+    .filter((key) => key !== target)
+    .map((key) => ["SREM", key, signal.id]);
+
+  if (target) {
+    commands.push(["SADD", target, signal.id]);
+    commands.push(["HSET", KEYS.meta, signal.id, JSON.stringify(signal)]);
+  } else {
+    commands.push(["HDEL", KEYS.meta, signal.id]); // "clear"
+  }
 
   await fetch(`${url}/pipeline`, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify([
-      ["SADD", set, signal.id],
-      // A mind changed later wins; an item cannot be both read and irrelevant.
-      ["SREM", other, signal.id],
-      ["HSET", KEYS.meta, signal.id, JSON.stringify(signal)],
-    ]),
+    body: JSON.stringify(commands),
   });
 }
 

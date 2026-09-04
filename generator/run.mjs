@@ -18,9 +18,10 @@
 //   --want=N               target item count for this run (default 8)
 
 import fs from "node:fs";
-import { FEED, PATHS, ORIGIN, TOPICS, KINDS } from "./lib/config.mjs";
+import path from "node:path";
+import { FEED, PATHS, ORIGIN, TOPICS, KINDS, CURATION } from "./lib/config.mjs";
 import { assertIdsStable, idFor, normaliseUrl } from "./lib/url.mjs";
-import { readSignals, summarise } from "./lib/signals.mjs";
+import { readSignals, summarise, ratingsBrief } from "./lib/signals.mjs";
 import { loadLibrary, digest } from "./lib/library.mjs";
 import { verifyAll } from "./lib/verify.mjs";
 import {
@@ -323,6 +324,14 @@ async function main() {
   const feed = writeFeed(live, ranAt);
   const site = writeSite(archive, signals, ranAt);
   writeStatus(status);
+
+  // The loop back to curation. The scheduled routine cannot reach Redis, so what
+  // the ratings say is written into the repo here and read from the brief tomorrow.
+  const ratings = ratingsBrief(signals);
+  if (ratings) {
+    fs.writeFileSync(path.join(CURATION, "signals-summary.md"), ratings);
+    log(`  ratings    ${signals.interested.size} up · ${signals.irrelevant.size} down → curation/signals-summary.md`);
+  }
 
   const feedBytes = fs.statSync(PATHS.feed).size;
   const siteBytes = fs.statSync(PATHS.site).size;

@@ -5,6 +5,10 @@
 //   read       — the item renders dimmed in place, with a tick.
 //   irrelevant — the item does not appear on the site at all. It becomes a number
 //                on /status and nothing more.
+//   interested — a positive rating from the site's thumbs-up control. The item
+//                stays live and marked; the topics and sources behind it are
+//                written to curation/signals-summary.md so the next run's brief
+//                reflects what actually landed.
 //
 // Everything degrades to "no signals" rather than failing the run. A generator
 // that refuses to publish because Redis is down is worse than one that publishes
@@ -41,6 +45,7 @@ export async function readSignals() {
     available: false,
     read: new Set(),
     irrelevant: new Set(),
+    interested: new Set(),
     meta: {},
     error: null,
   };
@@ -50,9 +55,10 @@ export async function readSignals() {
   }
 
   try {
-    const [read, irrelevant, meta] = await pipeline([
+    const [read, irrelevant, interested, meta] = await pipeline([
       ["SMEMBERS", KEYS.read],
       ["SMEMBERS", KEYS.irrelevant],
+      ["SMEMBERS", KEYS.interested],
       ["HGETALL", KEYS.meta],
     ]);
 
@@ -71,6 +77,7 @@ export async function readSignals() {
       available: true,
       read: new Set(read || []),
       irrelevant: new Set(irrelevant || []),
+      interested: new Set(interested || []),
       meta: parsed,
       error: null,
     };
@@ -101,7 +108,57 @@ export function summarise(signals) {
   return {
     read: signals.read.size,
     irrelevant: signals.irrelevant.size,
+    interested: signals.interested.size,
     week,
     top_topic: top ? top[0] : "—",
   };
+}
+
+/**
+ * What the ratings actually say, as prose the curator reads next run.
+ *
+ * This is how a thumbs-up reaches curation. The scheduled routine has no Redis
+ * access, so the signal cannot be read live — it is written into the repo here,
+ * committed with the edition, and read from the brief tomorrow.
+ */
+export function ratingsBrief(signals) {
+  if (!signals.available) return null;
+
+  const tally = (ids) => {
+    const topics = {}, sources = {};
+    for (const id of ids) {
+      const entry = signals.meta[id];
+      if (!entry) continue;
+      if (entry.topic) topics[entry.topic] = (topics[entry.topic] || 0) + 1;
+      if (entry.source) sources[entry.source] = (sources[entry.source] || 0) + 1;
+    }
+    const rank = (o) => Object.entries(o).sort((a, b) => b[1] - a[1]);
+    return { topics: rank(topics), sources: rank(sources) };
+  };
+
+  const up = tally(signals.interested);
+  const down = tally(signals.irrelevant);
+  const list = (pairs) =>
+    pairs.length ? pairs.map(([k, n]) => `${k} (${n})`).join(" · ") : "nothing yet";
+
+  return [
+    "# What the ratings say",
+    "",
+    "Written by the generator from dismissal and rating signals. Read this alongside",
+    "`interests.md`: it is evidence of what actually landed, not a change to the brief.",
+    "It never overrides merit — a weak item in a liked topic is still a weak item.",
+    "",
+    `Rated up: ${signals.interested.size} · dismissed as not relevant: ${signals.irrelevant.size} · read: ${signals.read.size}`,
+    "",
+    "## More of this",
+    "",
+    `Topics: ${list(up.topics)}`,
+    `Sources: ${list(up.sources)}`,
+    "",
+    "## Less of this",
+    "",
+    `Topics: ${list(down.topics)}`,
+    `Sources: ${list(down.sources)}`,
+    "",
+  ].join("\n");
 }
