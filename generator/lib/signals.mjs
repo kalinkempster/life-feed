@@ -14,16 +14,29 @@
 // that refuses to publish because Redis is down is worse than one that publishes
 // without read-state for a day.
 
-import { ENV, KEYS } from "./config.mjs";
+import { KEYS } from "./config.mjs";
 
-const configured = () => Boolean(ENV.redisUrl && ENV.redisToken);
+// Read the environment at call time rather than freezing it at import. The store
+// is configured by whatever is running the pipeline — Actions secrets in CI, a
+// local .env, a mock in the self-test — and a module-load snapshot silently
+// ignores anything set afterwards.
+const redis = () => ({
+  url: (process.env.UPSTASH_REDIS_REST_URL || "").replace(/\/+$/, ""),
+  token: process.env.UPSTASH_REDIS_REST_TOKEN || "",
+});
+
+const configured = () => {
+  const { url, token } = redis();
+  return Boolean(url && token);
+};
 
 async function pipeline(commands) {
   if (!configured()) return null;
-  const res = await fetch(`${ENV.redisUrl}/pipeline`, {
+  const { url, token } = redis();
+  const res = await fetch(`${url}/pipeline`, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${ENV.redisToken}`,
+      Authorization: `Bearer ${token}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(commands),
@@ -83,6 +96,55 @@ export async function readSignals() {
     };
   } catch (err) {
     return { ...empty, error: String(err.message || err) };
+  }
+}
+
+/**
+ * Prove the whole signal loop before advertising it.
+ *
+ * `signals_url` must never be published while the endpoint cannot persist, because
+ * the dashboard fires every dismissal at it and swallows the failure by design —
+ * the loss is total and completely silent. But "can it persist" is not knowable
+ * from the endpoint's own response: it answers 202 to everything, deliberately.
+ *
+ * It is also not answered by this process being able to reach Redis. The generator
+ * reads Redis with Actions secrets; the endpoint writes to it with Vercel
+ * environment variables. Those are two different places and either can be missing
+ * while the other is fine.
+ *
+ * So: POST a synthetic signal at the live endpoint, read it back out of Redis, and
+ * clean up. Only a full round trip returns true.
+ */
+const PROBE_ID = "e".repeat(64);
+
+export async function probeSignalLoop(origin) {
+  if (!configured()) return { ok: false, reason: "generator cannot reach Redis" };
+
+  try {
+    const res = await fetch(`${origin}/api/signal`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id: PROBE_ID, reason: "read", topic: "other", source: "probe" }),
+    });
+    if (res.status !== 202) {
+      return { ok: false, reason: `endpoint answered ${res.status}, expected 202` };
+    }
+
+    // The write is synchronous inside the handler, but give the round trip a beat.
+    await new Promise((r) => setTimeout(r, 750));
+
+    const [present] = await pipeline([["SISMEMBER", KEYS.read, PROBE_ID]]);
+    // Always clean up, whatever the answer, so a probe never shows on /status.
+    await pipeline([
+      ["SREM", KEYS.read, PROBE_ID],
+      ["HDEL", KEYS.meta, PROBE_ID],
+    ]);
+
+    return Number(present) === 1
+      ? { ok: true, reason: "round trip confirmed" }
+      : { ok: false, reason: "endpoint returned 202 but nothing reached Redis — check the Upstash environment variables in Vercel" };
+  } catch (err) {
+    return { ok: false, reason: String(err.message || err) };
   }
 }
 

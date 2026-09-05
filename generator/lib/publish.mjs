@@ -87,7 +87,7 @@ function leanItem(item, signals) {
 }
 
 /** Build the dashboard's feed object. Pure — writes nothing, so tests can call it. */
-export function buildFeed(liveItems, generated, signals) {
+export function buildFeed(liveItems, generated, signals, signalsProven = false) {
   return {
     version: "https://jsonfeed.org/version/1.1",
     title: FEED.title,
@@ -96,11 +96,15 @@ export function buildFeed(liveItems, generated, signals) {
     feed_url: `${ORIGIN}/feed.json`,
     _homepage: {
       generated,
-      // signals_url is published only once /api/signal actually answers. Publishing
-      // it while the route 404s means the dashboard fires every dismissal into a
-      // wall and swallows the failure — the contract's own default (absent = keep
-      // signals local) is the correct state until the endpoint is live.
-      ...(process.env.SIGNALS_ENABLED === "1"
+      // Published only when the run proved the whole loop: a synthetic signal
+      // POSTed at the live endpoint and read back out of Redis. Advertising it
+      // otherwise means the dashboard fires every dismissal into a wall and
+      // swallows the failure by design, which is a total and silent loss. The
+      // contract's own default — absent means keep signals local — is the correct
+      // state until the round trip works.
+      //
+      // SIGNALS_ENABLED=0 forces it off regardless, as an escape hatch.
+      ...(signalsProven && process.env.SIGNALS_ENABLED !== "0"
         ? { signals_url: `${ORIGIN}/api/signal` }
         : {}),
     },
@@ -108,8 +112,8 @@ export function buildFeed(liveItems, generated, signals) {
   };
 }
 
-export function writeFeed(liveItems, generated, signals) {
-  const feed = buildFeed(liveItems, generated, signals);
+export function writeFeed(liveItems, generated, signals, signalsProven = false) {
+  const feed = buildFeed(liveItems, generated, signals, signalsProven);
   writeJson(PATHS.feed, feed);
   return feed;
 }

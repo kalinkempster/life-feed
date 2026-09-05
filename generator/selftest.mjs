@@ -303,6 +303,71 @@ check("signals_url is omitted while SIGNALS_ENABLED is unset", () => {
   assert.equal(feed._homepage.signals_url, undefined);
 });
 
+// ------------------------------------------------- signal loop probe
+// The probe is what decides whether signals_url gets advertised, and getting it
+// wrong in the permissive direction loses every dismissal silently. Both halves
+// are mocked here because the two credentials live in different places (Actions
+// secrets vs Vercel env) and either can be missing while the other is fine.
+const probeCases = [];
+const probeServer = http.createServer((req, res) => {
+  let raw = "";
+  req.on("data", (c) => (raw += c));
+  req.on("end", () => {
+    const scenario = probeServer.scenario;
+    if (req.url.startsWith("/api/signal")) {
+      probeCases.push("endpoint-hit");
+      res.writeHead(scenario === "endpointDown" ? 500 : 202);
+      return res.end();
+    }
+    // Upstash pipeline
+    const cmds = JSON.parse(raw || "[]");
+    const results = cmds.map((c) =>
+      c[0] === "SISMEMBER" ? { result: scenario === "works" ? 1 : 0 } : { result: 1 },
+    );
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(results));
+  });
+});
+await new Promise((r) => probeServer.listen(0, "127.0.0.1", r));
+const probePort = probeServer.address().port;
+
+process.env.UPSTASH_REDIS_REST_URL = `http://127.0.0.1:${probePort}`;
+process.env.UPSTASH_REDIS_REST_TOKEN = "mock-token";
+const { probeSignalLoop } = await import(
+  "./lib/signals.mjs?probe=" + Date.now()
+);
+
+probeServer.scenario = "works";
+const probeOk = await probeSignalLoop(`http://127.0.0.1:${probePort}`);
+check("probe passes when the signal survives the round trip", () =>
+  assert.equal(probeOk.ok, true),
+);
+
+probeServer.scenario = "writeLost";
+const lost = await probeSignalLoop(`http://127.0.0.1:${probePort}`);
+check("probe fails when the endpoint 202s but nothing reaches Redis", () => {
+  assert.equal(lost.ok, false);
+  assert.match(lost.reason, /nothing reached Redis/);
+});
+
+probeServer.scenario = "endpointDown";
+const down = await probeSignalLoop(`http://127.0.0.1:${probePort}`);
+check("probe fails when the endpoint does not answer 202", () => {
+  assert.equal(down.ok, false);
+  assert.match(down.reason, /answered 500/);
+});
+
+check("signals_url is withheld unless the probe passed", () => {
+  const withheld = buildFeed(liveAfter.slice(0, 3), "now", fakeSignals, false);
+  assert.equal(withheld._homepage.signals_url, undefined);
+  const advertised = buildFeed(liveAfter.slice(0, 3), "now", fakeSignals, true);
+  assert.equal(advertised._homepage.signals_url, "https://life-of-kk.vercel.app/api/signal");
+});
+
+probeServer.close();
+delete process.env.UPSTASH_REDIS_REST_URL;
+delete process.env.UPSTASH_REDIS_REST_TOKEN;
+
 // ------------------------------------------------- end-to-end pipeline check
 // The mock is still up, so run the real daily run against it in --dry-run mode.
 // This exercises the parts that live in run.mjs rather than curate.mjs: rule 3

@@ -61,10 +61,19 @@ configured and silently discards when it is not. `id` and `reason` are validated
 before anything is written; the endpoint is public and unauthenticated, so it must
 not become a way to write arbitrary keys.
 
-**`_homepage.signals_url` is only published in `feed.json` when `SIGNALS_ENABLED=1`.**
-Until then it is absent, which is the contract's own default: the dashboard keeps
-dismissals local. Publishing the URL while the route 404s means every dismissal is
-fired into a wall and the failure is swallowed by design.
+**`_homepage.signals_url` publishes itself, but only once the loop is proven.**
+Each run POSTs a synthetic signal at the live endpoint and reads it back out of
+Redis; the key is written only on a full round trip. There is no flag to remember.
+
+That check exists because neither half is observable on its own. The endpoint
+answers 202 to everything by design, so a missing environment variable and a
+successful write look identical from the response. And the generator being able
+to reach Redis proves nothing about the endpoint: the generator reads with the
+**Actions secrets**, the endpoint writes with the **Vercel environment variables**,
+and either can be missing while the other is fine. Publishing the URL while the
+write half is broken means every dismissal is fired into a wall and swallowed.
+
+`SIGNALS_ENABLED=0` forces it off regardless, as an escape hatch.
 
 ## Rating from the site
 

@@ -22,7 +22,7 @@ import path from "node:path";
 import { FEED, PATHS, ORIGIN, TOPICS, KINDS, CURATION } from "./lib/config.mjs";
 import { assertIdsStable, idFor, normaliseUrl } from "./lib/url.mjs";
 import { editionDay } from "./lib/day.mjs";
-import { readSignals, summarise, ratingsBrief } from "./lib/signals.mjs";
+import { readSignals, summarise, ratingsBrief, probeSignalLoop } from "./lib/signals.mjs";
 import { loadLibrary, digest } from "./lib/library.mjs";
 import { verifyAll } from "./lib/verify.mjs";
 import {
@@ -155,6 +155,19 @@ async function main() {
       ? `  signals    ${signals.read.size} read · ${signals.irrelevant.size} not relevant`
       : `  signals    unavailable (${signals.error}) — publishing without read-state`,
   );
+
+  // Only worth probing when there is something to advertise, and never on a dry
+  // run — the probe writes to the live store, even though it cleans up after itself.
+  let signalsProven = false;
+  if (signals.available && !DRY) {
+    const probe = await probeSignalLoop(ORIGIN);
+    signalsProven = probe.ok;
+    log(
+      probe.ok
+        ? `  loop       /api/signal round trip confirmed — publishing signals_url`
+        : `  loop       signals_url withheld: ${probe.reason}`,
+    );
+  }
 
   // ---------------------------------------------------------------- 3. curate
   const dropped = [];
@@ -324,7 +337,7 @@ async function main() {
   if (merged.added.length) saveDay(today, merged.added, { ranAt, dropped });
   saveIndex(index, runRecord);
 
-  const feed = writeFeed(live, ranAt, signals);
+  const feed = writeFeed(live, ranAt, signals, signalsProven);
   const site = writeSite(archive, signals, ranAt);
   writeStatus(status);
 
