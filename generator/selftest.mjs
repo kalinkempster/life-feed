@@ -385,6 +385,80 @@ probeServer.close();
 delete process.env.UPSTASH_REDIS_REST_URL;
 delete process.env.UPSTASH_REDIS_REST_TOKEN;
 
+// ------------------------------------------------- POST /api/signal, two axes
+// read and rating are independent: something can be read AND liked. Collapsing
+// them into one slot meant a tick silently wiped a rating.
+const signalApi = (await import("../site/api/signal.mjs")).default;
+
+function fakeRes2() {
+  const r = { statusCode: 0, headers: {}, body: "" };
+  r.setHeader = (k, v) => { r.headers[k.toLowerCase()] = v; };
+  r.end = (b) => { r.body = b || ""; return r; };
+  return r;
+}
+
+const sentCommands = [];
+const realFetch0 = globalThis.fetch;
+process.env.UPSTASH_REDIS_REST_URL = "http://127.0.0.1:1";
+process.env.UPSTASH_REDIS_REST_TOKEN = "mock";
+globalThis.fetch = async (_url, init) => {
+  sentCommands.push(...JSON.parse(init.body));
+  return { ok: true, json: async () => [] };
+};
+
+const sig = async (reason) => {
+  sentCommands.length = 0;
+  const r = fakeRes2();
+  await signalApi({ method: "POST", body: { id: "c".repeat(64), reason, topic: "medicine" } }, r);
+  return { status: r.statusCode, cmds: sentCommands.map((c) => c[0] + " " + c[1]) };
+};
+
+const readCmd = await sig("read");
+check("`read` touches only the read set, never the ratings", () => {
+  assert.ok(readCmd.cmds.includes("SADD signals:read"));
+  assert.ok(!readCmd.cmds.some((c) => c.includes("signals:interested")));
+  assert.ok(!readCmd.cmds.some((c) => c.includes("signals:irrelevant")));
+});
+
+const likeCmd = await sig("interested");
+check("`interested` touches only the ratings, never the read set", () => {
+  assert.ok(likeCmd.cmds.includes("SADD signals:interested"));
+  assert.ok(likeCmd.cmds.includes("SREM signals:irrelevant"));
+  assert.ok(!likeCmd.cmds.some((c) => c.includes("signals:read")));
+});
+
+const unreadCmd = await sig("unread");
+check("`unread` removes only the read flag", () => {
+  assert.ok(unreadCmd.cmds.includes("SREM signals:read"));
+  assert.ok(!unreadCmd.cmds.some((c) => c.includes("signals:interested")));
+});
+
+const unratedCmd = await sig("unrated");
+check("`unrated` clears both ratings and leaves read alone", () => {
+  assert.ok(unratedCmd.cmds.includes("SREM signals:interested"));
+  assert.ok(unratedCmd.cmds.includes("SREM signals:irrelevant"));
+  assert.ok(!unratedCmd.cmds.some((c) => c.includes("signals:read")));
+});
+
+const clearCmd = await sig("clear");
+check("`clear` still resets both axes", () => {
+  assert.ok(clearCmd.cmds.includes("SREM signals:read"));
+  assert.ok(clearCmd.cmds.includes("SREM signals:interested"));
+  assert.ok(clearCmd.cmds.includes("HDEL signals:meta"));
+});
+
+const junkRes = fakeRes2();
+sentCommands.length = 0;
+await signalApi({ method: "POST", body: { id: "nope", reason: "read" } }, junkRes);
+check("a malformed id still gets 202 and writes nothing", () => {
+  assert.equal(junkRes.statusCode, 202);
+  assert.equal(sentCommands.length, 0);
+});
+
+globalThis.fetch = realFetch0;
+delete process.env.UPSTASH_REDIS_REST_URL;
+delete process.env.UPSTASH_REDIS_REST_TOKEN;
+
 // ------------------------------------------------- GET /api/signals
 // The endpoint the site reads so a rating made on the dashboard shows up here
 // without waiting for the next build.

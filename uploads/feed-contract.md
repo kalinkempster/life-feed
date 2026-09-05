@@ -189,10 +189,15 @@ Keep it that way.
 The feed site gained its own feedback control, which the contract did not
 anticipate: it assumed the dashboard was the only thing sending signals.
 
-`reason` now accepts four values rather than two — `read`, `irrelevant`,
-`interested` (a thumbs-up meaning *more like this*), and `clear` (retract).
-`interested` steers curation rather than dismissing anything; a later statement
-replaces an earlier one rather than accumulating beside it.
+`reason` now describes **two independent axes** rather than one list of states:
+
+- **status** — `read` / `unread`
+- **rating** — `interested` (thumbs-up, *more like this*) / `irrelevant` / `unrated`
+- `clear` resets both.
+
+Each reason moves exactly one axis. An item can be read *and* rated at the same
+time, which is the normal case for a good article; the two must not overwrite one
+another. `interested` steers curation rather than dismissing anything.
 
 `feed.json` items may carry an optional `_homepage.rated: "interested"`, present
 only on items rated up, so the dashboard can render that state rather than

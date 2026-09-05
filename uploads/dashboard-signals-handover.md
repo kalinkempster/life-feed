@@ -31,9 +31,33 @@ Two concrete changes you can see:
     Content-Type: application/json
 
 ```json
-{ "id": "a3f1c9e07b42…", "reason": "read" | "irrelevant" | "interested" | "clear",
+{ "id": "a3f1c9e07b42…", "reason": "read",
   "topic": "medicine", "source": "EMCrit", "at": "2026-09-05T02:10:00Z" }
 ```
+
+### Two axes, not one list of states
+
+This is the part most likely to be got wrong. `read` and a rating are
+**independent**. Something can be read *and* liked — that is the normal case for a
+good article — and an earlier version of this collapsed both into one slot, so
+ticking an item silently wiped its rating.
+
+| Axis | Reasons | Meaning |
+|---|---|---|
+| status | `read` · `unread` | have I consumed it |
+| rating | `interested` · `irrelevant` · `unrated` | what did I think of it |
+| both | `clear` | reset the item entirely |
+
+Each reason moves **exactly one axis** and leaves the other untouched. So:
+
+- tick on → `read`; tick off → `unread`
+- thumbs-up → `interested`; tap it again → `unrated`
+- thumbs-down → `irrelevant`; tap it again → `unrated`
+- switching directly from up to down is just `irrelevant`; no need to clear first
+
+`GET /api/signals` returns the three sets and **an id can appear in both `read`
+and `interested`**. Do not treat them as mutually exclusive when reading them
+back.
 
 | Field | Required | Notes |
 |---|---|---|
@@ -170,13 +194,14 @@ though it is still in `feed.json` until tomorrow's build.
 
 Three controls per item. The site uses a tick, a thumbs-up and a thumbs-down:
 
-| Control | Reason sent | Meaning |
-|---|---|---|
-| ✓ | `read` | read it — stop showing it |
-| thumbs-up | `interested` | more like this; steers future curation |
-| thumbs-down | `irrelevant` | not for me — never show again |
+| Control | On | Off | Meaning |
+|---|---|---|---|
+| ✓ | `read` | `unread` | read it — stop showing it |
+| thumbs-up | `interested` | `unrated` | more like this; steers future curation |
+| thumbs-down | `irrelevant` | `unrated` | not for me — never show again |
 
-Clicking an already-active control sends `clear` and un-toggles it.
+The tick and the thumbs are separate controls with separate state. Ticking must
+not clear a rating, and rating must not clear the tick.
 
 Match this mapping even if the visual treatment differs — the dashboard has a
 tick-and-cross idiom already and 195px columns, so cramming three icons in may not

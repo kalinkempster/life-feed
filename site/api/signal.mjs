@@ -19,10 +19,18 @@ const KEYS = {
   meta: "signals:meta",
 };
 
-// contract v1 defines two reasons. `interested` is a deliberate extension for the
-// site's rating control — a positive signal that steers curation rather than
-// dismissing anything. `clear` retracts whatever was said before.
-const REASONS = new Set(["read", "irrelevant", "interested", "clear"]);
+// Two independent axes, not one list of states.
+//
+//   status  unread ↔ read          "have I consumed this"
+//   rating  none ↔ up ↔ down       "what did I think of it"
+//
+// Something can be read AND liked — that is the normal case for a good article,
+// and collapsing both into one slot meant marking it read silently wiped the
+// rating. Each reason moves exactly one axis and leaves the other alone.
+const STATUS = { read: true, unread: false };
+const RATING = { interested: "interested", irrelevant: "irrelevant", unrated: null };
+// `clear` resets both, which is what it has always meant.
+const REASONS = new Set([...Object.keys(STATUS), ...Object.keys(RATING), "clear"]);
 const TOPICS = new Set([
   "medicine",
   "records",
@@ -45,20 +53,30 @@ async function persist(signal) {
   const token = process.env.UPSTASH_REDIS_REST_TOKEN || "";
   if (!url || !token) return;
 
-  const sets = [KEYS.read, KEYS.irrelevant, KEYS.interested];
-  const target = KEYS[signal.reason];
+  const commands = [];
+  const { reason, id } = signal;
 
-  // Exactly one thing is true of an item at a time: a later statement replaces an
-  // earlier one rather than accumulating alongside it.
-  const commands = sets
-    .filter((key) => key !== target)
-    .map((key) => ["SREM", key, signal.id]);
-
-  if (target) {
-    commands.push(["SADD", target, signal.id]);
-    commands.push(["HSET", KEYS.meta, signal.id, JSON.stringify(signal)]);
+  if (reason === "clear") {
+    commands.push(["SREM", KEYS.read, id]);
+    commands.push(["SREM", KEYS.interested, id]);
+    commands.push(["SREM", KEYS.irrelevant, id]);
+    commands.push(["HDEL", KEYS.meta, id]);
+  } else if (reason in STATUS) {
+    // Status axis only. The rating sets are not touched.
+    commands.push([STATUS[reason] ? "SADD" : "SREM", KEYS.read, id]);
   } else {
-    commands.push(["HDEL", KEYS.meta, signal.id]); // "clear"
+    // Rating axis only. `read` is not touched.
+    const target = RATING[reason];
+    for (const key of [KEYS.interested, KEYS.irrelevant]) {
+      if (key !== KEYS[target]) commands.push(["SREM", key, id]);
+    }
+    if (target) commands.push(["SADD", KEYS[target], id]);
+  }
+
+  // Keep a metadata row for anything still asserted, so curation can see the
+  // topic and source behind a rating; drop it only when nothing is left to say.
+  if (reason !== "clear") {
+    commands.push(["HSET", KEYS.meta, id, JSON.stringify(signal)]);
   }
 
   await fetch(`${url}/pipeline`, {

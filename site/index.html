@@ -95,6 +95,10 @@
   article:hover { background:#141210; }
   article.read { opacity:.45; }
   article.liked { border-left:2px solid var(--accent); padding-left:12px; margin-left:-14px; }
+  /* Read and liked are independent, so both marks can apply at once. Lift a read
+     item slightly when it is also rated, or the accent rule fades to nothing and
+     the rating looks like it was lost. */
+  article.read.liked { opacity:.62; }
   .kicker { display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding-bottom:7px; }
   .kicker .src { font-size:10px; font-weight:500; color:var(--accent); }
   .kicker .rule { width:12px; height:1px; background:var(--rule); }
@@ -275,23 +279,43 @@ const justDismissed = new Set();
 function loadLocal() {
   try { LOCAL = JSON.parse(localStorage.getItem(STORE) || "{}") || {}; }
   catch { LOCAL = {}; }
+
+  // Migrate the single-slot shape ({reason}) to the two axes. Anything already
+  // stored was one statement, so it maps cleanly onto whichever axis it belonged
+  // to; nothing is lost and nothing has to be re-tapped.
+  let migrated = false;
+  for (const [id, entry] of Object.entries(LOCAL)) {
+    if (!entry || entry.reason === undefined) continue;
+    LOCAL[id] = entry.reason === "read"
+      ? { read: true, at: entry.at }
+      : { rating: entry.reason, at: entry.at };
+    migrated = true;
+  }
+  if (migrated) saveLocal();
 }
 function saveLocal() {
   try { localStorage.setItem(STORE, JSON.stringify(LOCAL)); } catch { /* private mode */ }
 }
 
-// Local wins — it is the most recent statement, and it is what makes a tap feel
-// instant. Then live server state, which is where the dashboard's ratings arrive.
-// Then the build-time flags baked into site.json, which are the stale fallback.
-function reasonOf(it) {
-  const local = LOCAL[it.id];
-  if (local) return local.reason;
-  if (SERVER.read.has(it.id)) return "read";
-  if (SERVER.interested.has(it.id)) return "interested";
-  if (SERVER.irrelevant.has(it.id)) return "irrelevant";
-  if (h(it).read) return "read";
-  if (h(it).liked) return "interested";
-  return null;
+// Two independent axes. Something can be read AND liked — that is the normal case
+// for a good article, and treating them as one slot meant a tick wiped a rating.
+//
+// Each axis resolves separately, most recent source first: local intent, then live
+// server state, then the flags the last build baked into site.json.
+function stateOf(it) {
+  const local = LOCAL[it.id] || {};
+
+  const read = local.read !== undefined
+    ? local.read
+    : SERVER.read.has(it.id) || Boolean(h(it).read);
+
+  let rating = null;
+  if (local.rating !== undefined) rating = local.rating;
+  else if (SERVER.interested.has(it.id)) rating = "interested";
+  else if (SERVER.irrelevant.has(it.id)) rating = "irrelevant";
+  else if (h(it).liked) rating = "interested";
+
+  return { read, rating };
 }
 
 function send(it, reason) {
@@ -306,20 +330,27 @@ function send(it, reason) {
   } catch { /* nothing here is worth interrupting a click for */ }
 }
 
-function setSignal(id, reason) {
+function setSignal(id, control) {
   const it = ITEMS.find(x => x.id === id);
   if (!it) return;
-  const current = reasonOf(it);
+  const now = stateOf(it);
+  const next = { ...now };
 
-  if (current === reason) {            // clicking the same thing again clears it
-    delete LOCAL[id];
-    justDismissed.delete(id);
-    saveLocal(); send(it, "clear");
+  if (control === "read") {
+    next.read = !now.read;                       // toggles independently of rating
+    send(it, next.read ? "read" : "unread");
   } else {
-    LOCAL[id] = { reason, at: new Date().toISOString() };
-    if (reason === "irrelevant") justDismissed.add(id); else justDismissed.delete(id);
-    saveLocal(); send(it, reason);
+    // Tapping the active rating clears it; tapping the other one switches.
+    next.rating = now.rating === control ? null : control;
+    send(it, next.rating || "unrated");
+    if (next.rating === "irrelevant") justDismissed.add(id);
+    else justDismissed.delete(id);
   }
+
+  if (!next.read && !next.rating) delete LOCAL[id];
+  else LOCAL[id] = { ...next, at: new Date().toISOString() };
+
+  saveLocal();
   chipsUI(); render();
 }
 
@@ -340,12 +371,12 @@ const fmtDay = d => new Date(d + "T12:00:00+10:00").toLocaleDateString("en-AU",
   { weekday:"long", day:"numeric", month:"long", timeZone:TZ });
 
 function match(it) {
-  const r = reasonOf(it);
+  const { read, rating } = stateOf(it);
   // Dismissed items leave the site, but not until you have had a chance to undo.
-  if (r === "irrelevant" && !justDismissed.has(it.id)) return false;
+  if (rating === "irrelevant" && !justDismissed.has(it.id)) return false;
   if (!chip) return true;
-  if (chip === "read") return r === "read";
-  if (chip === "liked") return r === "interested";
+  if (chip === "read") return read;
+  if (chip === "liked") return rating === "interested";
   if (chip === "timely" || chip === "evergreen") return h(it).kind === chip;
   return h(it).topic === chip;
 }
@@ -391,12 +422,13 @@ function kindMark(kind) {
 }
 
 function actions(it) {
-  const r = reasonOf(it);
-  const btn = (reason, cls, label, inner) =>
-    '<button type="button" class="' + cls + '" data-sig="' + reason + '" data-id="' + it.id +
-    '" aria-pressed="' + (r === reason) + '" title="' + label + '" aria-label="' + label +
+  const { read, rating } = stateOf(it);
+  const on = { read, interested: rating === "interested", irrelevant: rating === "irrelevant" };
+  const btn = (control, cls, label, inner) =>
+    '<button type="button" class="' + cls + '" data-sig="' + control + '" data-id="' + it.id +
+    '" aria-pressed="' + Boolean(on[control]) + '" title="' + label + '" aria-label="' + label +
     '">' + inner + '</button>';
-  return '<span class="acts' + (r ? " set" : "") + '">' +
+  return '<span class="acts' + (read || rating ? " set" : "") + '">' +
     btn("read", "read", "Mark as read", "✓") +
     btn("interested", "up", "More like this", THUMB_SVG) +
     btn("irrelevant", "down", "Not for me — dismiss", THUMB_SVG) +
@@ -405,9 +437,9 @@ function actions(it) {
 
 function row(it) {
   const m = h(it);
-  const r = reasonOf(it);
+  const { read, rating } = stateOf(it);
 
-  if (r === "irrelevant") {
+  if (rating === "irrelevant") {
     return '<article class="gone"><div class="body">' +
       '<span class="g-label">Dismissed · ' + esc(it.title.slice(0, 54)) + '</span>' +
       '<button type="button" class="undo" data-sig="irrelevant" data-id="' + it.id +
@@ -426,13 +458,13 @@ function row(it) {
       'decoding="async" onerror="this.parentNode.style.display=\'none\'"></span>'
     : "";
 
-  return '<article class="' + (r === "read" ? "read " : "") +
-    (r === "interested" ? "liked" : "") + '">' +
+  return '<article class="' + (read ? "read " : "") +
+    (rating === "interested" ? "liked" : "") + '">' +
     '<div style="min-width:0"><div class="kicker mono">' + fav +
       '<span class="src">' + esc(m.source) + '</span><span class="rule"></span>' +
       '<span class="topic">' + esc(m.topic) + '</span>' +
       kindMark(m.kind) +
-      (r === "read" ? '<span class="tick">✓ read</span>' : '') +
+      (read ? '<span class="tick">✓ read</span>' : '') +
       actions(it) +
     '</div><h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' +
       esc(it.title) + '</a></h3><p>' + esc(m.note || it.summary || "") + '</p></div>' +
@@ -537,7 +569,7 @@ Promise.all([
     document.getElementById("today").textContent =
       new Date(GENERATED || Date.now()).toLocaleDateString("en-AU",
         { weekday:"long", day:"numeric", month:"long" });
-    const read = ITEMS.filter(i => reasonOf(i) === "read").length;
+    const read = ITEMS.filter(i => stateOf(i).read).length;
     document.getElementById("health").textContent =
       ITEMS.length + " published · " + timely + " timely · " + read + " read" +
       (GENERATED ? " · generated " + new Date(GENERATED).toLocaleTimeString("en-AU",

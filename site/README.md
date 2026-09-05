@@ -89,6 +89,9 @@ Every item carries three controls: mark read, thumbs up, thumbs down.
     interested   marks it, keeps it live, and steers the next run's curation
     irrelevant   collapses the row to an undo strip; gone for good on the next load
 
+The tick and the thumbs are **independent axes** — status and rating. An article
+can be read and liked at once, and marking one must never clear the other.
+
 State resolves in three layers, most recent first:
 
 1. **`localStorage`** — your own taps. Instant, and survive with no server at all.
