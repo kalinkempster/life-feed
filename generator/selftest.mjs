@@ -259,8 +259,21 @@ check("the site marks a rated-up item", () =>
   assert.ok(siteView.items.some((i) => i.id === likedId && i._homepage.liked)),
 );
 check("feed.json never carries the site-only liked flag", () => {
-  const f = buildFeed(liveAfter.slice(0, 5), "now");
+  const f = buildFeed(liveAfter.slice(0, 5), "now", fakeSignals);
   assert.ok(f.items.every((i) => i._homepage.liked === undefined));
+  assert.ok(f.items.every((i) => i._homepage.note === undefined));
+  assert.ok(f.items.every((i) => i._homepage.image === undefined));
+});
+check("feed.json exposes `rated` so the dashboard can mirror a thumbs-up", () => {
+  const f = buildFeed(liveAfter, "now", fakeSignals);
+  const rated = f.items.filter((i) => i._homepage.rated);
+  assert.equal(rated.length, 1, "exactly the one rated-up item");
+  assert.equal(rated[0].id, likedId);
+  assert.equal(rated[0]._homepage.rated, "interested");
+});
+check("`rated` is absent entirely when there are no signals", () => {
+  const f = buildFeed(liveAfter, "now", { available: false, interested: new Set() });
+  assert.ok(f.items.every((i) => i._homepage.rated === undefined));
 });
 
 const { ratingsBrief } = await import("./lib/signals.mjs");

@@ -324,7 +324,7 @@ async function main() {
   if (merged.added.length) saveDay(today, merged.added, { ranAt, dropped });
   saveIndex(index, runRecord);
 
-  const feed = writeFeed(live, ranAt);
+  const feed = writeFeed(live, ranAt, signals);
   const site = writeSite(archive, signals, ranAt);
   writeStatus(status);
 

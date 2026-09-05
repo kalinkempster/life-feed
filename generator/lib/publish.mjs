@@ -58,8 +58,16 @@ export function selectLive(archive, signals, now = new Date()) {
     .slice(0, FEED.cap);
 }
 
-/** The dashboard's view. Contract fields only — no note, no image, no read flag. */
-function leanItem(item) {
+/**
+ * The dashboard's view. Contract fields only — no note, no image.
+ *
+ * One addition: `rated`. Read and dismissed items are already gone from the live
+ * feed, so the only state the dashboard cannot otherwise see is a thumbs-up, and
+ * without it the two surfaces disagree about an item the user has explicitly
+ * rated. It is additive and optional — a v1 consumer ignores it — so the contract
+ * version does not move.
+ */
+function leanItem(item, signals) {
   const out = {
     id: item.id,
     url: item.url,
@@ -72,11 +80,14 @@ function leanItem(item) {
     },
   };
   if (item.summary) out.summary = item.summary;
+  if (signals && signals.interested && signals.interested.has(item.id)) {
+    out._homepage.rated = "interested";
+  }
   return out;
 }
 
 /** Build the dashboard's feed object. Pure — writes nothing, so tests can call it. */
-export function buildFeed(liveItems, generated) {
+export function buildFeed(liveItems, generated, signals) {
   return {
     version: "https://jsonfeed.org/version/1.1",
     title: FEED.title,
@@ -93,12 +104,12 @@ export function buildFeed(liveItems, generated) {
         ? { signals_url: `${ORIGIN}/api/signal` }
         : {}),
     },
-    items: liveItems.map(leanItem),
+    items: liveItems.map((item) => leanItem(item, signals)),
   };
 }
 
-export function writeFeed(liveItems, generated) {
-  const feed = buildFeed(liveItems, generated);
+export function writeFeed(liveItems, generated, signals) {
+  const feed = buildFeed(liveItems, generated, signals);
   writeJson(PATHS.feed, feed);
   return feed;
 }

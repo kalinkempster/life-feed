@@ -184,6 +184,28 @@ Keep it that way.
 
 ---
 
+## Amendment, 2026-09-05 — three-way feedback (additive, still v1)
+
+The feed site gained its own feedback control, which the contract did not
+anticipate: it assumed the dashboard was the only thing sending signals.
+
+`reason` now accepts four values rather than two — `read`, `irrelevant`,
+`interested` (a thumbs-up meaning *more like this*), and `clear` (retract).
+`interested` steers curation rather than dismissing anything; a later statement
+replaces an earlier one rather than accumulating beside it.
+
+`feed.json` items may carry an optional `_homepage.rated: "interested"`, present
+only on items rated up, so the dashboard can render that state rather than
+disagreeing with the site. Read and dismissed items are filtered out of the live
+feed server-side and never appear, so no other rating value is possible here.
+
+Both changes are additive: a consumer written to v1 as published ignores the new
+reason it never sends and the new key it never reads. `_homepage.contract` stays
+absent. The note in "Signals" about what this is and is not still holds — three
+deliberate words instead of two, and still not click tracking.
+
+Implementation guidance for the dashboard: `dashboard-signals-handover.md`.
+
 ## Versioning
 
 Breaking changes to this contract bump `_homepage.contract` (absent = v1). The dashboard
