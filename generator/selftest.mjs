@@ -315,12 +315,19 @@ const probeServer = http.createServer((req, res) => {
   req.on("end", () => {
     const scenario = probeServer.scenario;
     if (req.url.startsWith("/api/signal")) {
-      probeCases.push("endpoint-hit");
+      probeCases.push("POST:" + (JSON.parse(raw || "{}").reason || "?"));
       res.writeHead(scenario === "endpointDown" ? 500 : 202);
       return res.end();
     }
     // Upstash pipeline
     const cmds = JSON.parse(raw || "[]");
+    cmds.forEach((c) => probeCases.push("REDIS:" + c[0]));
+    // A read-only token, which is what the generator should need: any attempt to
+    // write is rejected exactly as Upstash rejects it.
+    if (scenario !== "endpointDown" && cmds.some((c) => /^(SREM|HDEL|SADD|HSET|DEL)$/i.test(c[0]))) {
+      res.writeHead(200, { "Content-Type": "application/json" });
+      return res.end(JSON.stringify([{ error: "NOPERM this user has no permissions" }]));
+    }
     const results = cmds.map((c) =>
       c[0] === "SISMEMBER" ? { result: scenario === "works" ? 1 : 0 } : { result: 1 },
     );
@@ -338,9 +345,19 @@ const { probeSignalLoop } = await import(
 );
 
 probeServer.scenario = "works";
+probeCases.length = 0;
 const probeOk = await probeSignalLoop(`http://127.0.0.1:${probePort}`);
 check("probe passes when the signal survives the round trip", () =>
   assert.equal(probeOk.ok, true),
+);
+check("probe needs no write access to Redis — a read-only token is enough", () =>
+  assert.ok(
+    !probeCases.some((c) => /^REDIS:(SREM|HDEL|SADD|HSET|DEL)$/i.test(c)),
+    `probe issued a write: ${probeCases.join(", ")}`,
+  ),
+);
+check("probe retracts its test signal through the endpoint", () =>
+  assert.ok(probeCases.includes("POST:clear"), probeCases.join(", ")),
 );
 
 probeServer.scenario = "writeLost";

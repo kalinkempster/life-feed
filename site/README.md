@@ -75,6 +75,12 @@ write half is broken means every dismissal is fired into a wall and swallowed.
 
 `SIGNALS_ENABLED=0` forces it off regardless, as an escape hatch.
 
+**The generator only ever reads.** A read-only Upstash token is the right amount
+of access for Actions, and the pipeline is written to need nothing more: the probe
+retracts its own test signal by POSTing `clear` at the endpoint, which already
+holds the write credential, rather than issuing `SREM` itself. Only Vercel needs a
+token that can write.
+
 ## Rating from the site
 
 Every item carries three controls: mark read, thumbs up, thumbs down.

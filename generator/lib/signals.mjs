@@ -120,12 +120,26 @@ const PROBE_ID = "e".repeat(64);
 export async function probeSignalLoop(origin) {
   if (!configured()) return { ok: false, reason: "generator cannot reach Redis" };
 
-  try {
-    const res = await fetch(`${origin}/api/signal`, {
+  const post = (body) =>
+    fetch(`${origin}/api/signal`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: PROBE_ID, reason: "read", topic: "other", source: "probe" }),
+      body: JSON.stringify(body),
     });
+
+  // Retract through the endpoint, never with SREM from here. The generator only
+  // ever needs to READ the store — a read-only Actions token is the right amount
+  // of access for it — and the endpoint already holds the write credential.
+  const retract = async () => {
+    try {
+      await post({ id: PROBE_ID, reason: "clear" });
+    } catch {
+      /* best effort: a stranded probe id inflates one counter, nothing more */
+    }
+  };
+
+  try {
+    const res = await post({ id: PROBE_ID, reason: "read", topic: "other", source: "probe" });
     if (res.status !== 202) {
       return { ok: false, reason: `endpoint answered ${res.status}, expected 202` };
     }
@@ -140,13 +154,10 @@ export async function probeSignalLoop(origin) {
       [present] = await pipeline([["SISMEMBER", KEYS.read, PROBE_ID]]);
     }
 
-    // Always clean up, whatever the answer, so a probe never shows on /status.
-    await pipeline([
-      ["SREM", KEYS.read, PROBE_ID],
-      ["HDEL", KEYS.meta, PROBE_ID],
-    ]);
+    const ok = Number(present) === 1;
+    await retract();
 
-    return Number(present) === 1
+    return ok
       ? { ok: true, reason: "round trip confirmed" }
       : {
           ok: false,
@@ -156,6 +167,9 @@ export async function probeSignalLoop(origin) {
             "the running deployment predates them (env vars only apply to new deployments)",
         };
   } catch (err) {
+    // Reaching here means the read itself failed. Still try to retract, so a
+    // half-finished probe does not leave its id sitting in the store.
+    await retract();
     return { ok: false, reason: String(err.message || err) };
   }
 }
