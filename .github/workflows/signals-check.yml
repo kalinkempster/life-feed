@@ -1,0 +1,148 @@
+# Does the signal loop actually work, end to end?
+#
+# Dispatch this after changing anything about Upstash. It exercises the whole
+# path rather than any one half of it, because the halves fail differently and
+# both fail quietly:
+#
+#   browser → /api/signal   always answers 202, by design. A missing env var, a
+#                           bad token and a successful write are indistinguishable
+#                           from the response, so the only proof is reading the
+#                           value back out of Redis afterwards.
+#   generator → Redis       degrades to "publishing without read-state" rather
+#                           than failing a run, which is correct behaviour and
+#                           also completely silent.
+#
+# It writes one signal against a synthetic id, reads it back, and clears it, so
+# it leaves no mark on /status and cannot dim a real item on the site.
+#
+# Nothing here prints a token. Secrets are passed through the environment and only
+# status codes and parsed results are echoed.
+
+name: signals check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      # No real URL hashes to this, so it can never collide with a published item.
+      TEST_ID: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+      ORIGIN: ${{ vars.SITE_ORIGIN || 'https://life-of-kk.vercel.app' }}
+      UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+      UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+      SIGNALS_ENABLED: ${{ vars.SIGNALS_ENABLED }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 1. Are the Actions secrets present?
+        run: |
+          fail=0
+          [ -n "$UPSTASH_REDIS_REST_URL" ]   || { echo "::error::UPSTASH_REDIS_REST_URL is not set as an Actions secret"; fail=1; }
+          [ -n "$UPSTASH_REDIS_REST_TOKEN" ] || { echo "::error::UPSTASH_REDIS_REST_TOKEN is not set as an Actions secret"; fail=1; }
+          [ "$fail" = 0 ] || exit 1
+          echo "Both secrets present. URL host: $(echo "$UPSTASH_REDIS_REST_URL" | sed -E 's#https?://([^/]+).*#\1#')"
+          echo "SIGNALS_ENABLED=${SIGNALS_ENABLED:-(unset)}"
+
+      - name: 2. Can Actions read Redis at all?
+        run: |
+          code=$(curl -sS -o /tmp/ping.json -w '%{http_code}' \
+            -H "Authorization: Bearer $UPSTASH_REDIS_REST_TOKEN" \
+            "$UPSTASH_REDIS_REST_URL/smembers/signals:read")
+          echo "SMEMBERS signals:read -> HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "::error::Upstash rejected the read. A 401 means the token is wrong; a 404 means the URL is."
+            cat /tmp/ping.json; exit 1
+          fi
+          echo "Current signals:read members: $(node -e 'console.log((JSON.parse(require("fs").readFileSync("/tmp/ping.json","utf8")).result||[]).length)')"
+
+      - name: 3. Does the Vercel function write to Redis?
+        run: |
+          code=$(curl -sS -o /dev/null -w '%{http_code}' \
+            -X POST "$ORIGIN/api/signal" \
+            -H 'Content-Type: application/json' \
+            -d "{\"id\":\"$TEST_ID\",\"reason\":\"read\",\"topic\":\"medicine\",\"source\":\"signals-check\"}")
+          echo "POST /api/signal -> HTTP $code  (202 proves only that the route exists)"
+          [ "$code" = "202" ] || { echo "::error::/api/signal did not accept the POST — the route is not deployed."; exit 1; }
+
+          # The handler awaits the write before answering, so one retry is ample.
+          for i in 1 2 3; do
+            curl -sS -o /tmp/after.json \
+              -H "Authorization: Bearer $UPSTASH_REDIS_REST_TOKEN" \
+              "$UPSTASH_REDIS_REST_URL/smembers/signals:read"
+            if node -e "process.exit((JSON.parse(require('fs').readFileSync('/tmp/after.json','utf8')).result||[]).includes(process.env.TEST_ID)?0:1)"; then
+              echo "Test id found in signals:read — Vercel wrote to Redis."
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::/api/signal returned 202 but nothing reached Redis. The Vercel env vars are missing, wrong, or the deployment predates them — env vars only apply to NEW deployments."
+          exit 1
+
+      - name: 4. Is the metadata written too?
+        run: |
+          curl -sS -o /tmp/meta.json \
+            -H "Authorization: Bearer $UPSTASH_REDIS_REST_TOKEN" \
+            "$UPSTASH_REDIS_REST_URL/hget/signals:meta/$TEST_ID"
+          node -e "
+            const r = JSON.parse(require('fs').readFileSync('/tmp/meta.json','utf8')).result;
+            if (!r) { console.log('::warning::no signals:meta row — counts will work, but topic/source steering will not'); process.exit(0); }
+            const m = JSON.parse(r);
+            console.log('meta row:', JSON.stringify({ reason: m.reason, topic: m.topic, source: m.source }));
+          "
+
+      - name: 5. Clean up the test signal
+        if: always()
+        run: |
+          curl -sS -o /dev/null -w 'POST clear -> HTTP %{http_code}\n' \
+            -X POST "$ORIGIN/api/signal" \
+            -H 'Content-Type: application/json' \
+            -d "{\"id\":\"$TEST_ID\",\"reason\":\"clear\"}"
+          curl -sS -o /tmp/gone.json \
+            -H "Authorization: Bearer $UPSTASH_REDIS_REST_TOKEN" \
+            "$UPSTASH_REDIS_REST_URL/smembers/signals:read"
+          node -e "
+            const left = (JSON.parse(require('fs').readFileSync('/tmp/gone.json','utf8')).result||[]);
+            if (left.includes(process.env.TEST_ID)) {
+              console.log('::warning::test id still in signals:read — clear it by hand so it does not inflate /status');
+            } else {
+              console.log('Test signal retracted. Redis is back to where it started.');
+            }
+          "
+
+      - name: 6. Does the generator see the signals?
+        run: |
+          # --dry-run writes nothing; this is only to see which branch readSignals takes.
+          node generator/run.mjs --no-curate --dry-run 2>&1 | tee /tmp/run.log | sed -n '1,20p'
+          if grep -q "signals    unavailable" /tmp/run.log; then
+            echo "::error::The generator could not read signals — see the reason on that line."
+            exit 1
+          fi
+          echo "The generator read signals successfully."
+
+      - name: 7. Is signals_url published, and does it answer?
+        run: |
+          if [ "$SIGNALS_ENABLED" != "1" ]; then
+            echo "::warning::SIGNALS_ENABLED is not '1', so feed.json will not carry signals_url and the dashboard will keep dismissals local."
+            exit 0
+          fi
+          curl -sS -o /tmp/feed.json "$ORIGIN/feed.json"
+          node -e "
+            const u = (JSON.parse(require('fs').readFileSync('/tmp/feed.json','utf8'))._homepage||{}).signals_url;
+            if (!u) {
+              console.log('::warning::SIGNALS_ENABLED=1 but the LIVE feed.json has no signals_url — it was built before the variable was set. Dispatch the edition workflow to republish.');
+            } else {
+              console.log('live feed.json publishes signals_url:', u);
+            }
+          "
