@@ -266,6 +266,10 @@ const h = it => it._homepage || {};
    failure must never block the interaction. */
 const STORE = "lok2:signals";
 let LOCAL = {};
+// Live server state, fetched on load. Without it the two surfaces only agree once
+// a day: a rating made on the dashboard sits in Redis, invisible here until the
+// next edition is built, while one made here appears instantly from localStorage.
+let SERVER = { read: new Set(), irrelevant: new Set(), interested: new Set() };
 const justDismissed = new Set();
 
 function loadLocal() {
@@ -276,10 +280,15 @@ function saveLocal() {
   try { localStorage.setItem(STORE, JSON.stringify(LOCAL)); } catch { /* private mode */ }
 }
 
-// Local wins: it is the more recent statement. Server state is the build-time baseline.
+// Local wins — it is the most recent statement, and it is what makes a tap feel
+// instant. Then live server state, which is where the dashboard's ratings arrive.
+// Then the build-time flags baked into site.json, which are the stale fallback.
 function reasonOf(it) {
   const local = LOCAL[it.id];
   if (local) return local.reason;
+  if (SERVER.read.has(it.id)) return "read";
+  if (SERVER.interested.has(it.id)) return "interested";
+  if (SERVER.irrelevant.has(it.id)) return "irrelevant";
   if (h(it).read) return "read";
   if (h(it).liked) return "interested";
   return null;
@@ -502,10 +511,24 @@ loadLocal();
 // site.json is the reading room's feed: everything ever published, with the notes,
 // the images and the read-state. feed.json is the dashboard's lean, capped view —
 // fall back to it so the page still renders if a run wrote one but not the other.
-fetch("site.json", { cache: "no-cache" })
-  .then(r => r.ok ? r.json() : Promise.reject(new Error(String(r.status))))
-  .catch(() => fetch("feed.json", { cache: "no-cache" }).then(r => r.json()))
-  .then(feed => {
+Promise.all([
+  fetch("site.json", { cache: "no-cache" })
+    .then(r => r.ok ? r.json() : Promise.reject(new Error(String(r.status))))
+    .catch(() => fetch("feed.json", { cache: "no-cache" }).then(r => r.json())),
+  // Never blocks the page: if signals are unreachable we fall back to whatever
+  // the last build baked in, which is stale but not wrong.
+  fetch("api/signals", { cache: "no-store" })
+    .then(r => r.ok ? r.json() : null)
+    .catch(() => null)
+])
+  .then(([feed, live]) => {
+    if (live && live.available) {
+      SERVER = {
+        read: new Set(live.read || []),
+        irrelevant: new Set(live.irrelevant || []),
+        interested: new Set(live.interested || [])
+      };
+    }
     ITEMS = (feed.items || []).slice().sort((a, b) =>
       ((h(b).published_at || b.date_published) || "").localeCompare(
         (h(a).published_at || a.date_published) || ""));

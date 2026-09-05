@@ -98,15 +98,38 @@ ever hold `"read"` or `"irrelevant"` — those items are not in the feed at all.
 
 ---
 
+### Reading live state, not just build-time state
+
+`GET https://life-of-kk.vercel.app/api/signals` returns the current sets, ids only:
+
+```json
+{ "read": ["…"], "irrelevant": ["…"], "interested": ["…"], "available": true }
+```
+
+Uncached, CORS-open, and it degrades to empty arrays with `available: false`
+rather than erroring when the store is unreachable — so it is always safe to call
+and never worth blocking on.
+
+Use it if you want the dashboard to reflect a rating made on the site without
+waiting for the next build. `_homepage.rated` in `feed.json` gives you the same
+information a day late; this gives it immediately. Treat `available: false` as
+"no information", not as "no signals" — falling back to the feed's own state.
+
+The precedence the site uses, and the one worth matching: **local intent wins**,
+then live server state, then whatever the last build baked in.
+
 ## 3. `signals_url` — read this before wiring anything
 
 Contract v1 says: send signals only if `_homepage.signals_url` is present; absent
 means keep them local.
 
-**It is currently absent.** The endpoint is deployed and answers 202, but the store
-behind it is not yet configured, so signals would be accepted and discarded. The key
-will appear in `feed.json` once that is done. Nothing on your side needs to change
-when it does, if you build it this way:
+**It is now present**, as of 2026-09-05: the store is configured and the whole loop
+is verified on every build. You can send immediately.
+
+Build the outbox below anyway. The feed withholds `signals_url` whenever a build
+cannot prove the round trip works, so it can go absent again — a rotated token, a
+Vercel redeploy that drops an environment variable. When it does, the correct
+behaviour is to queue rather than to fire into a wall:
 
 1. On each fetch, read `feed._homepage.signals_url`.
 2. Record every dismissal or rating locally, always — that is your source of truth

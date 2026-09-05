@@ -89,10 +89,15 @@ Every item carries three controls: mark read, thumbs up, thumbs down.
     interested   marks it, keeps it live, and steers the next run's curation
     irrelevant   collapses the row to an undo strip; gone for good on the next load
 
-State is stored in `localStorage` first, so the controls respond instantly and
-survive a reload with no server at all, and POSTed to `/api/signal` so that once
-Upstash is configured it reaches the generator. Local state wins over the
-build-time baseline — it is the more recent statement.
+State resolves in three layers, most recent first:
+
+1. **`localStorage`** — your own taps. Instant, and survive with no server at all.
+2. **`GET /api/signals`** — live server state, fetched on load. This is where a
+   rating made on the *dashboard* arrives. Without it the two surfaces only agree
+   once a day, because the generator bakes signal state in at build time: a tap
+   here looked instant while a tap there appeared to do nothing for hours.
+3. **The flags in `site.json`** — what the last build knew. Stale, but never wrong,
+   and the fallback when the endpoint is unreachable.
 
 **Thumbs up only reaches curation once Upstash is configured.** The generator
 reads the signals at build time and writes `curation/signals-summary.md`, which

@@ -385,6 +385,63 @@ probeServer.close();
 delete process.env.UPSTASH_REDIS_REST_URL;
 delete process.env.UPSTASH_REDIS_REST_TOKEN;
 
+// ------------------------------------------------- GET /api/signals
+// The endpoint the site reads so a rating made on the dashboard shows up here
+// without waiting for the next build.
+const signalsApi = (await import("../site/api/signals.mjs")).default;
+
+function fakeRes() {
+  const r = { statusCode: 0, headers: {}, body: "" };
+  r.setHeader = (k, v) => { r.headers[k.toLowerCase()] = v; };
+  r.end = (b) => { r.body = b || ""; return r; };
+  return r;
+}
+
+const realFetch = globalThis.fetch;
+process.env.UPSTASH_REDIS_REST_URL = "http://127.0.0.1:1";
+process.env.UPSTASH_REDIS_REST_TOKEN = "mock";
+const realId = "a".repeat(64);
+globalThis.fetch = async () => ({
+  ok: true,
+  json: async () => [
+    { result: [realId] },
+    { result: [] },
+    { result: ["NOT-A-VALID-ID", "b".repeat(64)] },
+  ],
+});
+
+const okRes = fakeRes();
+await signalsApi({ method: "GET" }, okRes);
+const payload = JSON.parse(okRes.body);
+
+check("GET /api/signals returns the three sets", () => {
+  assert.equal(okRes.statusCode, 200);
+  assert.deepEqual(payload.read, [realId]);
+  assert.equal(payload.available, true);
+});
+check("/api/signals filters out anything that is not a 64-hex id", () =>
+  assert.deepEqual(payload.interested, ["b".repeat(64)]),
+);
+check("/api/signals is never cached — it exists to be fresher than the build", () =>
+  assert.equal(okRes.headers["cache-control"], "no-store"),
+);
+check("/api/signals rejects non-GET", async () => {
+  const r = fakeRes();
+  return signalsApi({ method: "POST" }, r).then(() => assert.equal(r.statusCode, 405));
+});
+
+globalThis.fetch = async () => { throw new Error("redis down"); };
+const downRes = fakeRes();
+await signalsApi({ method: "GET" }, downRes);
+check("/api/signals degrades to empty rather than erroring when Redis is down", () => {
+  assert.equal(downRes.statusCode, 200);
+  assert.equal(JSON.parse(downRes.body).available, false);
+});
+
+globalThis.fetch = realFetch;
+delete process.env.UPSTASH_REDIS_REST_URL;
+delete process.env.UPSTASH_REDIS_REST_TOKEN;
+
 // ------------------------------------------------- end-to-end pipeline check
 // The mock is still up, so run the real daily run against it in --dry-run mode.
 // This exercises the parts that live in run.mjs rather than curate.mjs: rule 3
