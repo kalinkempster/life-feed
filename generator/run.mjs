@@ -340,6 +340,27 @@ async function main() {
     return;
   }
 
+  // A machine without the Upstash secrets — a laptop, a misconfigured job — would
+  // otherwise happily rewrite feed.json without signals_url and push it, silently
+  // telling the dashboard to stop sending. Refuse: this environment knows less
+  // than the one that built what is already published.
+  if (!signals.available && !has("--allow-signal-downgrade")) {
+    let publishedUrl = null;
+    try {
+      publishedUrl = JSON.parse(fs.readFileSync(PATHS.feed, "utf8"))._homepage?.signals_url;
+    } catch {
+      /* no published feed yet */
+    }
+    if (publishedUrl) {
+      throw new Error(
+        `refusing to republish: the current feed.json publishes signals_url, but this ` +
+          `run cannot reach the signal store (${signals.error}). Writing it would drop ` +
+          `the key and silently stop the dashboard sending. Run this where the Upstash ` +
+          `credentials are set, or pass --allow-signal-downgrade if that is really intended.`,
+      );
+    }
+  }
+
   saveArchive(archive);
   if (merged.added.length) saveDay(today, merged.added, { ranAt, dropped });
   saveIndex(index, runRecord);

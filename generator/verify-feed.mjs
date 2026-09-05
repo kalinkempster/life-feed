@@ -118,11 +118,21 @@ async function main() {
   console.log(`  feed.json    ${items.length} items · ${timely} timely · ${kb.toFixed(1)}KB`);
 
   if (feed._homepage?.signals_url) {
-    const res = await fetch(feed._homepage.signals_url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: "0".repeat(64), reason: "read" }),
-    }).catch(() => null);
+    // Synthetic id, and it is retracted immediately. Before the store existed this
+    // POST went nowhere and the cleanup did not matter; now it does — every live
+    // check was leaving a phantom "read" in Redis, inflating /status and showing
+    // up as a signal nobody sent.
+    const probeId = "0".repeat(64);
+    const post = (body) =>
+      fetch(feed._homepage.signals_url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      }).catch(() => null);
+
+    const res = await post({ id: probeId, reason: "read" });
+    await post({ id: probeId, reason: "clear" });
+
     if (!res || res.status !== 202) {
       fail(
         `signals_url is published but ${
