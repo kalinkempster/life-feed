@@ -159,9 +159,11 @@ async function main() {
   // Only worth probing when there is something to advertise, and never on a dry
   // run — the probe writes to the live store, even though it cleans up after itself.
   let signalsProven = false;
+  let probeResult = null;
   if (signals.available && !DRY) {
     const probe = await probeSignalLoop(ORIGIN);
     signalsProven = probe.ok;
+    probeResult = probe;
     log(
       probe.ok
         ? `  loop       /api/signal round trip confirmed — publishing signals_url`
@@ -315,6 +317,11 @@ async function main() {
     per_day: perDay(nextIndex, 30),
     dropped,
     signals: summarise(signals),
+    // Why signals_url is or is not published, on the page rather than buried in a
+    // CI log. "Signals accepted but discarded" is otherwise invisible.
+    signal_loop: probeResult
+      ? { ok: probeResult.ok, detail: probeResult.reason }
+      : { ok: false, detail: signals.available ? "not probed this run" : signals.error },
     pool: health,
     library_stale: NO_CURATE ? null : undefined,
     verification: {

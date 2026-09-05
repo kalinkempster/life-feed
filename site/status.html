@@ -155,6 +155,12 @@
   .drop .url { font-family:'IBM Plex Mono',monospace; font-size:11px; color:#a09788;
                overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .drop .when { font-size:9.5px; letter-spacing:.12em; color:var(--faint); text-align:right; }
+  .loop { display:flex; align-items:center; gap:10px; margin-top:14px; padding:11px 13px;
+          border:1px solid var(--rule); font-size:9.5px; letter-spacing:.14em;
+          color:var(--mute); line-height:1.6; }
+  .loop .dot { width:7px; height:7px; flex:0 0 7px; border-radius:50%; }
+  .loop .dot.ok { background:#7f9e6b; }
+  .loop .dot.bad { background:#a8776b; }
   .sig { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px;
          background:var(--hair); border:1px solid var(--hair); }
   .sig .cell { background:var(--bg); padding:16px 18px; }
@@ -195,6 +201,7 @@
   <h2 class="sec">Signals received</h2>
   <p class="note">One object per dismissal from the dashboard. Two words about an item you chose to act on — nothing else is recorded.</p>
   <div class="sig mono" id="signals"></div>
+  <div class="loop mono" id="loop"></div>
   <p class="mono" style="font-size:9.5px; letter-spacing:.14em; color:var(--faint); padding-top:16px">
     Not-relevant dismissals are counted here only · they do not appear as rows on the feed</p>
 
@@ -285,6 +292,19 @@ Promise.all([
     : [["Read","—"], ["Not relevant","—"], ["This week","—"], ["Most read topic","—"]]
   ).map(([k, v]) => '<div class="cell"><div class="v">' + esc(v) +
       '</div><div class="k">' + esc(k) + '</div></div>').join("");
+
+  // Whether the signal loop actually closes. The endpoint answers 202 to
+  // everything by design, so "accepted and silently discarded" looks exactly like
+  // success from every side except this one.
+  const loop = diag && diag.signal_loop;
+  const url = (feed._homepage || {}).signals_url;
+  document.getElementById("loop").innerHTML = loop
+    ? '<span class="dot ' + (loop.ok ? "ok" : "bad") + '"></span><span>' +
+      (loop.ok
+        ? "Signal loop closed · dismissals reach the generator · signals_url " +
+          (url ? "published" : "not yet in this build")
+        : "Signals are not reaching the store · " + esc(loop.detail)) + '</span>'
+    : '<span class="dot bad"></span><span>Signal loop not checked in this run</span>';
 });
 </script>
 </body>

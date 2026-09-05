@@ -130,10 +130,16 @@ export async function probeSignalLoop(origin) {
       return { ok: false, reason: `endpoint answered ${res.status}, expected 202` };
     }
 
-    // The write is synchronous inside the handler, but give the round trip a beat.
-    await new Promise((r) => setTimeout(r, 750));
+    // The handler awaits the write before answering, so this should be immediate.
+    // Retry anyway: a Vercel deployment that has only just picked up new
+    // environment variables can serve a stale instance for a few seconds, and
+    // withholding signals_url for a transient miss costs a whole day of signals.
+    let present = 0;
+    for (let attempt = 0; attempt < 3 && Number(present) !== 1; attempt += 1) {
+      await new Promise((r) => setTimeout(r, attempt === 0 ? 750 : 2000));
+      [present] = await pipeline([["SISMEMBER", KEYS.read, PROBE_ID]]);
+    }
 
-    const [present] = await pipeline([["SISMEMBER", KEYS.read, PROBE_ID]]);
     // Always clean up, whatever the answer, so a probe never shows on /status.
     await pipeline([
       ["SREM", KEYS.read, PROBE_ID],
@@ -142,7 +148,13 @@ export async function probeSignalLoop(origin) {
 
     return Number(present) === 1
       ? { ok: true, reason: "round trip confirmed" }
-      : { ok: false, reason: "endpoint returned 202 but nothing reached Redis — check the Upstash environment variables in Vercel" };
+      : {
+          ok: false,
+          reason:
+            "endpoint returned 202 but nothing reached Redis after 3 tries — " +
+            "the Upstash environment variables are missing or wrong in Vercel, or " +
+            "the running deployment predates them (env vars only apply to new deployments)",
+        };
   } catch (err) {
     return { ok: false, reason: String(err.message || err) };
   }
