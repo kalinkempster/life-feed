@@ -8,8 +8,8 @@ Rated up: 1 · dismissed as not relevant: 0 · read: 0
 
 ## More of this
 
-Topics: medicine (1)
-Sources: EMCrit (1)
+Topics: gaming (1)
+Sources: GameSpot (1)
 
 ## Less of this
 
