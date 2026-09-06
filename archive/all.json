@@ -755,5 +755,102 @@
       "image": "https://emcrit.org/wp-content/uploads/2026/06/427-hemodynamic-physiology-750x422.png",
       "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
     }
+  },
+  {
+    "id": "9889f3daf01dca64a5c418a03a8a659e55194f4cc7a9d61476b7a0912ef69688",
+    "url": "https://litfl.com/pocus-made-easy-clue-protocol",
+    "title": "POCUS Made Easy: CLUE Protocol",
+    "summary": "The short cardiopulmonary look, for the shifts where a full RUSH is more scan than the patient has time for.",
+    "date_published": "2023-08-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "CLUE pairs a basic echo with a lung exam and stops there, which is a different tool from the RUSH and I-RUSH protocols already sitting in the feed rather than a lesser version of them. For CCPU purposes it is a useful contrast case: same windows, deliberately narrower question, and a clear account of what you give up by not scanning further. Kimura's original 2011 paper is cited at the bottom if the derivation matters.",
+      "published_at": "2026-09-06T16:16:53.496Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "5b411d989b0561def3c280f2e6683f67fa27a45aaa346c25495354fdc73df90c",
+    "url": "https://aquariumdrunkard.com/2026/09/01/melo-do-embaixador-brazilian-soul-funk-disco-covers-1968-2015",
+    "title": "Melô do Embaixador: Brazilian Soul, Funk & Disco Covers",
+    "summary": "Twenty-seven Brazilian readings of the soul and funk canon that takes up most of a shelf at home.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "The collection runs deep on the American originals here — James Brown, Curtis Mayfield, Parliament, Solomon Burke, and the Daptone descendants in Sharon Jones and Menahan Street Band. This is that same material passed through Brazilian studios between 1968 and 2015, sometimes translated into Portuguese, sometimes cut instrumental, sometimes sung in wonderfully approximate English. Tim Maia anchors it, but the anonymous studio bands and disco cash-ins are the reason to stay.",
+      "published_at": "2026-09-06T16:16:53.496Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/08/brazil-funk.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "9ddd5cb2ee2b41583382e92d9a5ba7d07f0d58c314ee3e5673d6b267e85fd06f",
+    "url": "https://kotaku.com/the-witcher-4-release-window-2028-gamescom-trailer-2000727598",
+    "title": "The Witcher 4 Finally Gets a Launch Window",
+    "summary": "CD Projekt Red puts a year on the Ciri game, and it is further out than anyone was hoping.",
+    "date_published": "2026-08-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Kotaku",
+      "note": "Nowakowski confirmed a 2028 target in a video posted ahead of Gamescom, and the game skipped the show entirely — no gameplay, no trailer. That reframes the Witcher 3 Remastered coverage already in the feed: the free remaster on 29 September and the Songs of the Past expansion in 2027 are now the whole Witcher plan for the next two years, not a warm-up act. Worth knowing before deciding whether to start another Blood and Wine run.",
+      "published_at": "2026-09-06T16:16:53.496Z",
+      "image": "https://kotaku.com/app/uploads/2025/06/746ed16e11a5353c40e125696c63e2ab.jpg",
+      "icon": "https://kotaku.com/favicon.svg"
+    }
+  },
+  {
+    "id": "22fb7346c68e94578a4fbacff057df363481b4ade85d0f484292686ae6c779b8",
+    "url": "https://www.35mmc.com/14/07/2026/hi-con-ir-the-story-of-bringing-back-true-ir-on-film",
+    "title": "Hi-Con IR: Bringing Back True IR on Film",
+    "summary": "Genuinely new emulsion rather than another house-branded respool of something that already exists.",
+    "date_published": "2026-07-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "True infrared has been effectively gone from the film market since Kodak and Efke stopped making it, and most things sold as IR since are extended-red films that fake the look. This is the account of getting an actual IR-sensitive stock back into production — the coating problems, the handling constraints, why nobody else bothered. Emulsion news of the kind that is worth more than the tenth camera review of the month.",
+      "published_at": "2026-09-06T16:16:53.496Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/06/20260320_0005-scaled.jpeg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "60d97a16d5ac6ec2fcbd461967cc472908b57467a3fc0e6166ae8e08fb5e9aa4",
+    "url": "https://www.35mmc.com/01/09/2026/how-i-meter-slide-film",
+    "title": "How I Meter Slide Film",
+    "summary": "A working method for the one film stock where getting the exposure wrong costs you the frame outright.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Omar Tibi's argument is that slide film asks you to invert the habit negative film teaches: protect the highlights, let the shadows fall. He shoots it without bracketing on cost grounds and explains how he gets away with that, which is the part most slide-film writing skips. Concrete enough to take out on the next roll rather than nod along to.",
+      "published_at": "2026-09-06T16:16:53.496Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/08/55418335668_37eeb82ec5_b.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "d8b336677930984c26450e75f0274e794697dd267089e15f5a583413eed25bf2",
+    "url": "https://www.stemlynsblog.org/to-squeeze-or-not-to-squeeze-the-arise-fluids-trial",
+    "title": "To squeeze or not to squeeze: the ARISE-FLUIDS trial",
+    "summary": "A full appraisal of the one recent septic shock trial actually run in the departments he works in.",
+    "date_published": "2026-06-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "ARISE-FLUIDS randomised early vasopressors against a larger fluid load in Australian, New Zealand and Irish emergency departments, so the case mix and the staffing are his, not an American ICU's. The feed already carries EMCrit 428, which passes over the trial in a roundup, and the 2026 Surviving Sepsis guidelines, which kept the 30 mL/kg suggestion anyway; this is the version that sits with the numbers long enough to say what the two arms actually received. Worth reading before the next time someone asks why the bag is still running.",
+      "published_at": "2026-09-06T16:16:53.496Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/06/The-ARISE-FLUIDS-Trial-@-ST-Emlyns.png",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
   }
 ]
