@@ -33,6 +33,7 @@ const RATING = { interested: "interested", irrelevant: "irrelevant", unrated: nu
 const REASONS = new Set([...Object.keys(STATUS), ...Object.keys(RATING), "clear"]);
 const TOPICS = new Set([
   "medicine",
+  "news",
   "records",
   "photography",
   "fashion",

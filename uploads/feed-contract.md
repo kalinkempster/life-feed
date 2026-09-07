@@ -211,6 +211,30 @@ deliberate words instead of two, and still not click tracking.
 
 Implementation guidance for the dashboard: `dashboard-signals-handover.md`.
 
+## Amendment, 2026-09-07 — the `news` topic (additive, still v1)
+
+`news` joins the canonical topic keys:
+
+`medicine` · **`news`** · `records` · `photography` · `fashion` · `gaming` ·
+`melbourne` · `other`
+
+It covers local news, healthcare news (the system rather than clinical practice,
+which stays in `medicine`), global emergency and disaster, and AI. Sport and
+celebrity are explicitly excluded. It is capped at roughly two or three items an
+edition so it cannot flood the feed.
+
+**`_homepage.contract` deliberately does not move.** Bumping it would make a
+dashboard built to v1 ignore the entire feed rather than one unfamiliar key, which
+is far worse than the problem it would solve.
+
+**The dashboard must add `news` to its topic list.** It uses `topic` only to
+enforce variety, so an unknown key is not catastrophic — but it should be handled
+deliberately rather than by accident.
+
+**Recommended, and the durable fix:** treat any unrecognised topic as `other`
+rather than dropping the item. Then the next topic added is a feed-side change
+only, and this coordination never has to happen again.
+
 ## Versioning
 
 Breaking changes to this contract bump `_homepage.contract` (absent = v1). The dashboard

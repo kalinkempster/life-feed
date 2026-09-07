@@ -24,6 +24,27 @@ ultrasound teaching, guideline changes, ECG teaching cases. Timely-skewed.
 **Not** health policy, hospital-management news, or research press releases.
 Bias toward anything touching CCPU material.
 
+### news
+Four things, and a headline is not automatically worth his time — the merit bar is
+the same as everywhere else.
+
+- **Local news** — Melbourne and Victoria first, then Australia.
+- **Healthcare news, local especially** — funding, workforce, EDs under load,
+  college and registrar matters, public health policy. This is the health *system*;
+  clinical practice belongs in `medicine`. If you cannot decide, ask whether it
+  changes what he does at work (`medicine`) or what he knows about the place he
+  works in (`news`).
+- **Global emergency and disaster** — outbreaks, mass-casualty events, humanitarian
+  response. His profession makes these relevant in a way they are not for most.
+- **AI** — capability releases, research worth reading, and how it lands in
+  medicine and work.
+
+**Not sport. Not celebrity.** Explicitly uninteresting, however big the story.
+
+Cap at roughly two or three an edition. It is the topic most able to flood the
+feed, and a reading room that turns into a newspaper has lost the point. Timely by
+nature; an evergreen `news` item should be rare and unusually good.
+
 ### records
 Guided by what is actually in the library (see `library.md`, synced from Notion).
 Artists, labels and adjacent listening from the collection; pressing and mastering craft;

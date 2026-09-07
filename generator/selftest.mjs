@@ -603,6 +603,14 @@ const valid = {
 const badTopic = await runWith(
   await write("topic.json", [{ ...valid, topic: "cooking" }]),
 );
+const newsOk = await runWith(
+  await write("news.json", [{ ...valid, topic: "news", title: "A news item" }]),
+);
+check("candidate file: `news` is accepted as a canonical topic", () => {
+  assert.equal(newsOk.code, 0, newsOk.out);
+  assert.doesNotMatch(newsOk.out, /is not one of/);
+});
+
 check("candidate file: a non-canonical topic is rejected", () => {
   assert.notEqual(badTopic.code, 0);
   assert.match(badTopic.out, /topic "cooking" is not one of/);

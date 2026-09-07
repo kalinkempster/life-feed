@@ -25,6 +25,21 @@ Two concrete changes you can see:
 
 ---
 
+## 0. Two changes that need action on your side
+
+**`news` is a new canonical topic** (2026-09-07). Add it to your topic list:
+
+    medicine · news · records · photography · fashion · gaming · melbourne · other
+
+`_homepage.contract` has not moved and will not for this — bumping it would make
+you ignore the whole feed over one key. Better still, **treat any unrecognised
+topic as `other` rather than dropping the item**, and this stops being a
+coordination problem for good.
+
+**`read` and a rating are independent axes** — see §5. If you built to the earlier
+spec where every control sent `clear` to turn off, ticking an item is wiping its
+rating.
+
 ## 1. The endpoint
 
     POST https://life-of-kk.vercel.app/api/signal

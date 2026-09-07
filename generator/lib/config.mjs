@@ -38,8 +38,12 @@ export const FEED = {
   evergreenMaxAgeDays: 90, // interests.md rule 5: evergreen ages out of the live feed
 };
 
+// Canonical topic keys. Adding one is a contract change: the dashboard uses topic
+// to enforce variety, so it has to learn a new key before the feed emits it.
+// `news` was added 2026-09-07 — see the amendment in uploads/feed-contract.md.
 export const TOPICS = [
   "medicine",
+  "news",
   "records",
   "photography",
   "fashion",
