@@ -852,5 +852,199 @@
       "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/06/The-ARISE-FLUIDS-Trial-@-ST-Emlyns.png",
       "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
     }
+  },
+  {
+    "id": "9c04b51ae684255f8bdc10a16a3834153fe482bbe0700d67cecfa3e65b0c1f8f",
+    "url": "https://emergencymedicinecases.com/ecg-cases-wpw-tachyarrhythmias-ischemic-mimics",
+    "title": "WPW, tachy-arrhythmias and ischemic mimics",
+    "summary": "Five real ECGs where pre-excitation is the trap — palpitations written off as anxiety, a pseudo-infarct pattern, and an MI hidden underneath the delta waves.",
+    "date_published": "2026-08-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EM Cases",
+      "note": "Jesse McLaren's monthly ECG Cases is the closest thing going to a structured curriculum in occlusion-MI recognition, and the feed has been leaning on LITFL's ECG library for this until now. The last case here — infarction concealed by pre-excitation — is exactly the failure mode that survives a normal computer read. New source for the feed, and the strongest single ECG teaching series not yet in the pool.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "fc6a277cb0e3df1122cfc71bd18f75e95c9146d69471ce6a39fe36845a7d8f56",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+    "title": "GPT-6 Astra",
+    "summary": "A working developer's first read on the new frontier model, with benchmark results treated as claims to be checked rather than announcements to be repeated.",
+    "date_published": "2026-09-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison is the useful counterweight to launch-day coverage: he runs the thing, reports what it actually does, and is explicit about which benchmark numbers he trusts. Worth ten minutes if only to calibrate how much of the current AI-in-medicine noise is downstream of models that materially changed in the last fortnight. Near-daily, so this is the source to check rather than the aggregators.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": null,
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "c18524cee2c0653f3760d0522d28c5cf4eaf5d30246dc05ac3901c3e4d10bab6",
+    "url": "https://www.abc.net.au/news/2026-08-16/drc-ebola-outbreak-2026-graphs-case-numbers/107032286",
+    "title": "DRC's Ebola outbreak likely to become the worst in history: WHO",
+    "summary": "The Bundibugyo-species outbreak in eastern DRC is spreading faster than any previous Ebola epidemic, and there is no licensed vaccine for this species.",
+    "date_published": "2026-08-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "Bundibugyo is the detail that matters clinically: Ervebo covers Zaire ebolavirus, so the vaccine-and-ring-vaccination playbook from 2018–20 does not straightforwardly apply here. By early September WHO had it past 6,000 cases with most deaths still occurring in communities rather than treatment centres. Charted rather than narrated, which makes the trajectory legible in a couple of minutes.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/1c059b656d7da583357a0f3a55646921?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "01f01d974ee4119b0c94ccd4285d0b28427f0931231c93d9fca560cc092a8d56",
+    "url": "https://daily.bandcamp.com/features/deep-funk-archival-feature",
+    "title": "Keeping the Flame Alive: Deep Funk Archival Compilations",
+    "summary": "How Numero, Jazzman and BBE go about finding, licensing and sequencing the 45s that never got a second pressing.",
+    "date_published": "2023-04-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Bandcamp Daily",
+      "note": "The shelf that holds Sharon Jones, Menahan Street Band, Thee Sacred Souls and the Solomon Burke sits directly next to this world — Daptone and Big Crown are the revivalists, these labels are the archaeologists who supplied the source material. The piece is good on the unglamorous part: chasing rights holders for records that sold three hundred copies in 1971. A map of where to dig next rather than a list of things to buy.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://f4.bcbits.com/img/0010440630_171.jpg",
+      "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "7876e90f04d2d34d6a5fce56a833724c2d08c702b61014aef3b3df1f06640ef7",
+    "url": "https://emcrit.org/pulmcrit/kroupa",
+    "title": "PulmCrit Hot Take: PRAGUE-26 on catheter-directed thrombolysis in PE",
+    "summary": "A second multicentre RCT lands on catheter-directed lysis for intermediate-high risk PE, and Farkas reads it against HI-PEITHO rather than in isolation.",
+    "date_published": "2026-08-31T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The feed has already carried the 2026 Crashing PE update, the ANZ 'goodbye massive and submassive' reframing and the stratify-and-storm trial round-up; this is the trial that tells you whether any of that repositioning survives contact with a second RCT. Farkas's hot-take format is deliberately fast and provisional, which is the right register for a paper this new. Worth reading before the next intermediate-high risk PE lands in resus and someone asks whether to call interventional.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/08/boxingtopimage-scaled.jpg",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "0240b972deb61e453f5f8a763ee328addf3cc2752a21f78d47076f72a392f138",
+    "url": "https://www.abc.net.au/news/2026-09-04/regional-doctor-shortage-driving-demand-at-emergency-departments/107075594",
+    "title": "Victorian healthcare 'fundamentally broken', regional GP says",
+    "summary": "AMA says five regional Victorian hospitals are showing signs of system failure, with GP shortage pushing primary-care presentations into EDs.",
+    "date_published": "2026-09-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "This is the system story sitting underneath his waiting room: when regional primary care thins out, the overflow arrives at metropolitan and regional EDs as low-acuity volume that still has to be triaged, seen and dispositioned. The state's answer so far has been 29 urgent care clinics, and the ABC piece has the government's line next to the on-the-ground one. Free to read, unlike The Age's version.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/4da12e7f75099e1b9d7c7e15e33ad869?impolicy=wcms_watermark_news&cropH=3213&cropW=5712&xPos=0&yPos=903&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "8153d0bc04eabda505471ae85884c02ff2634774489f25e497a6353739b5f85c",
+    "url": "https://www.heddels.com/2026/09/blowout-the-bell-bottom-tolls-for-thee",
+    "title": "Blowout: The Bell Bottom Tolls For Thee",
+    "summary": "Shuck on the inverse-tapered leg — boot cut, flare, bell — as a construction problem of tight top block and open hem rather than a decade reference.",
+    "date_published": "2026-09-07T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "Useful because it treats the flare as a pattern-making decision, which is how you tell a genuine 70s workwear cut from a costume version of one. That matters when sorting through vintage Banana Republic and Woolrich stock where the leg opening is the fastest way to date a pair. Heddels does most of the heavy lifting in this topic and this is the sort of piece that earns it.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "718089446e7f22d4fff844a3340372190ef6e3aef7150845b76fe0046fa3cde2",
+    "url": "https://emcrit.org/pulmcrit/habui",
+    "title": "Four reasons hyperangulated VL should be the ICU intubation mainstay",
+    "summary": "An argument that the Mac blade is being asked to do a job it was never designed for, and that the hybrid technique most of us default to is the worst of both worlds.",
+    "date_published": "2026-08-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The core claim is about deliberate practice, not kit: if hyperangulated blade plus rigid stylet is your everyday technique, the obese, limited-mouth-opening patient at 3am is not a special case. It is the sort of piece that changes what you reach for on the next routine intubation rather than the next difficult one. Pairs directly with the airway end of CCPU-adjacent resuscitation work.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/08/videokilled.jpg",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "32242707a515969080d8fa3a3d181bab7d826f1ebb64a5815566d1c2cb23bb03",
+    "url": "https://www.35mmc.com/05/09/2026/fomapan-fomaortho-400-a-film-that-might-inspire-you",
+    "title": "Fomapan FomaOrtho 400 – a film that might inspire you",
+    "summary": "A user report on Foma's orthochromatic 400 stock, where red-blindness does something specific to skin and foliage rather than just looking vintage.",
+    "date_published": "2026-09-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Orthochromatic film is the cheapest way to change how a negative looks without changing a single piece of glass, and Foma's is the one that is actually stocked in Australia. Useful next to the slide-metering piece already in the feed: both are about deciding what a stock is for before loading it. Being able to develop under a red safelight is a side benefit rather than the point.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/08/foma_14743_ortho_400_black_and_1936661-1584232053.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "7a3d0369e27c39aa12af998126014e71cf22994ba4d45352d04bb46628057a8f",
+    "url": "https://enshrouded.com/en-US/news/nows-the-best-time-to-get-enshrouded",
+    "title": "Now's the best time to get Enshrouded",
+    "summary": "Keen Games is raising the price by €10 on 8 September, ahead of the 15 October 1.0 launch on PC and PS5.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Enshrouded",
+      "note": "First-party and time-limited in a way most gaming news is not: the early-access price ends tomorrow, and anyone still on the fence for a second copy or a gift is choosing between €22.49 and €39.99. The feed already has the October release date and the console plans; this is the practical footnote to both. Xbox Series X|S still slips to early 2027.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://enshrouded.com/static/images/social.jpg",
+      "icon": "https://enshrouded.com/favicon.ico"
+    }
+  },
+  {
+    "id": "93e830202ac3b3a94e48cb768658a321c6a1b23d41854669fd92229d1fa9b504",
+    "url": "https://kosmofoto.com/2026/09/eastman-kodaks-new-range-of-films-see-uk-price-drop",
+    "title": "Eastman Kodak's new range of films see UK price drop",
+    "summary": "Wholesale cuts on Eastman Kodak's self-distributed stock are showing up as roughly 20% off at retail — the first real price movement in film in years.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "The Kodak self-distribution story has been building all year and this is the point where it reaches the shelf: Gold 200 in 35mm down £2 a roll, a five-pack of 120 down from £51 to £39.99. UK pricing is not Australian pricing, but the wholesale change is upstream of both, so it is a reasonable leading indicator for what Melbourne labs charge in a few months. New source for the feed and the one that covers stock and emulsion news properly.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2025/11/kodak-gold-film-200-135-36exp-1920x1920-1.jpg?fit=1200%2C1200&",
+      "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "ce0eca065d451b53f899cd3bd51d0f702de8bc0b2ff3536e3eff88ede892e0f7",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/nina-northcote-suze-opening-soon",
+    "title": "The Suze Team To Open Nina, a Northcote Pasta Bar",
+    "summary": "Giulia Giorgetti and Steve Harry are turning the old Vex Dining site on High Street into a pasta bar, opening this month.",
+    "date_published": "2026-08-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Their Fitzroy North wine bar Suze is barely eighteen months old, and Nina grows out of its Sunday pasta project — a menu written the morning it is served. 66–68 High Street puts it a short walk up from Northside territory, with about twenty wines by the glass drawn mostly from Italy and Australia. A single-venue Coming Soon piece rather than the monthly roundup, so it stays readable after the doors open.",
+      "published_at": "2026-09-07T16:19:18.998Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/08/28/DSCF0908-e0f9ae7b8d.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
   }
 ]
