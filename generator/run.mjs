@@ -175,6 +175,7 @@ async function main() {
   const dropped = [];
   let fresh = [];
   let searches = 0;
+  const freshFunnel = { proposed: 0, alreadyPublished: 0, duplicateInBatch: 0 };
 
   if (NO_CURATE) {
     log("  curation   skipped (--no-curate)");
@@ -221,6 +222,8 @@ async function main() {
     // ------------------------------------------------------------- 4. verify
     const seen = publishedIds(archive);
     const unseen = [];
+    let alreadyPublished = 0;
+    let duplicateInBatch = 0;
     for (const candidate of candidates) {
       let id;
       try {
@@ -229,8 +232,8 @@ async function main() {
         dropped.push({ code: "malformed", url: candidate.url, when: "this run" });
         continue;
       }
-      if (seen.has(id)) continue; // rule 3: published once, never again
-      if (unseen.some((c) => c.id === id)) continue; // same article, two sources
+      if (seen.has(id)) { alreadyPublished += 1; continue; } // rule 3
+      if (unseen.some((c) => c.id === id)) { duplicateInBatch += 1; continue; }
       unseen.push({ ...candidate, id });
     }
 
@@ -286,9 +289,25 @@ async function main() {
     const byId = new Map(fresh.map((i) => [i.id, i]));
     fresh = [...byId.values()].filter((i) => !seen.has(i.id));
 
+    // The whole funnel, because "6 published" alone cannot tell you whether the
+    // curator found six things or found fifteen and lost nine to the archive.
     log(
       `  verified   ${fresh.length} publishable · ${dropped.length} dropped · ${inconclusive} bot-walled (kept)`,
     );
+
+    freshFunnel.proposed = candidates.length;
+    freshFunnel.alreadyPublished = alreadyPublished;
+    freshFunnel.duplicateInBatch = duplicateInBatch;
+    log(
+      `  funnel     ${candidates.length} proposed → ${alreadyPublished} already published → ` +
+        `${duplicateInBatch} dupes in batch → ${dropped.length} dead → ${fresh.length} published`,
+    );
+    if (candidates.length && alreadyPublished / candidates.length > 0.4) {
+      log(
+        `  ! ${alreadyPublished} of ${candidates.length} candidates were already in the archive — ` +
+          `the sources in curation/sources.md are running dry. Widen them.`,
+      );
+    }
     log(`  images     ${fresh.filter((i) => i._homepage.image).length} of ${fresh.length}`);
   }
 
@@ -329,6 +348,15 @@ async function main() {
       published: fresh.length,
       dropped: dropped.length,
     },
+    funnel: NO_CURATE
+      ? null
+      : {
+          proposed: freshFunnel.proposed,
+          already_published: freshFunnel.alreadyPublished,
+          duplicate_in_batch: freshFunnel.duplicateInBatch,
+          dead: dropped.length,
+          published: fresh.length,
+        },
   };
 
   if (DRY) {
