@@ -17,7 +17,8 @@
     "verify:live": "node --env-file-if-exists=.env generator/verify-feed.mjs --live",
     "verify:links": "node --env-file-if-exists=.env generator/verify-feed.mjs --links",
     "library": "node --env-file-if-exists=.env generator/library-probe.mjs",
-    "publish:checked": "node generator/publish-checked.mjs"
+    "publish:checked": "node generator/publish-checked.mjs",
+    "sources": "node generator/probe-sources.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.70.0",
