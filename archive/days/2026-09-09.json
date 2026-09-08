@@ -1,0 +1,236 @@
+{
+  "day": "2026-09-09",
+  "ran_at": "2026-09-08T16:21:07.188Z",
+  "published": 14,
+  "dropped": [],
+  "items": [
+    {
+      "id": "e800fa74481689951397ed3688e42c95b6684ad7d326fcfb08c88ed84abc7a65",
+      "url": "https://www.abc.net.au/news/2026-09-03/hundreds-of-regional-doctors-stop-work-for-better-conditions/107110580",
+      "title": "Hundreds of regional doctors stop work over burnout and conditions",
+      "summary": "The rolling Victorian public-hospital stoppages reached Grampians and Bendigo, ahead of a statewide 24-hour strike on 15 September.",
+      "date_published": "2026-09-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "This is the first sustained industrial action by Victorian salaried doctors since 2002, and it is now working through the health services one at a time — inner-city hospitals in late August, Monash and Eastern, then Northern, Mercy and Austin. ASMOF is asking for 30 per cent over four years plus training and safety terms, so the outcome sets the conditions registrars work under for the next enterprise agreement. Free to read, unlike most of the coverage.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/192cd3b9762d887e769797754ef650b8?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "3a7756f80b9b5d3ff0c1fe820599a3d81d6ca876e9cc3e62978b3817292f9a4e",
+      "url": "https://aquariumdrunkard.com/2022/11/21/celtic-guru-van-morrison-in-the-80s-beautiful-vision",
+      "title": "Celtic Guru: Van Morrison In The 80s — Beautiful Vision",
+      "summary": "The opening instalment of a series that makes the case for Morrison's most dismissed decade as his deepest.",
+      "date_published": "2022-11-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "You own Van Morrison, and almost certainly the canonical end of him rather than the stretch from Common One to Irish Heartbeat that this series works through. James Rooney reads Beautiful Vision as devotional repetition rather than a lapse in quality, which is a genuinely different way to hear those records. It runs album by album, so it is a listening project rather than a single read.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2022/11/van-vision.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "b41d58d111faac7fbefa7f280e222227ddd9739c28c3156559d4485bd3215d3f",
+      "url": "https://www.analogplanet.com/content/analogue-productions-announces-180g-uhqrs-180g-45rpm-2lps-and-reel-reel-editions-four",
+      "title": "Analogue Productions announces UHQR editions of four Who albums",
+      "summary": "My Generation, Tommy, Live at Leeds and Who's Next cut from the original tapes, with the mastering and pressing chain named.",
+      "date_published": "2026-07-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "The Who are on your shelf, which makes this the rare reissue announcement worth reading rather than skipping. The detail is the point: original analog masters, lacquers by Chris Bellman at Bernie Grundman, pressed at QRP, with My Generation and Live at Leeds as 45rpm 2LPs and Tommy and Who's Next as 200g UHQRs. That is enough information to judge whether any of it beats what you already own.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "d2f6371346abf0c665ff959ab42e8e6afab8c1c3f5d589753edd548d16adebb3",
+      "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients",
+      "title": "Health-care AI is here. We don't know if it actually helps patients",
+      "summary": "Ambient scribes and record-trawling risk flags are already in hospitals; almost none of it has been tested against patient outcomes.",
+      "date_published": "2026-04-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "news",
+        "source": "MIT Tech Review",
+        "note": "The tools described here — note-taking assistants, background models flagging patients from the record — are arriving in Australian EDs on procurement timelines, not evidence timelines. Given how hard you are made to argue for a change in practice from a randomised trial, the asymmetry is worth noticing before someone asks you to use one. Pairs badly, in a useful way, with the non-inferiority piece above.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/patient-care.jpg?resize=1200,600",
+        "icon": null
+      }
+    },
+    {
+      "id": "dd8aebd280bc6518892457c5d99fc79eb75ae46381f3d0be3b2dd621209cafe1",
+      "url": "https://first10em.com/you-dont-understand-non-inferiority-trials-and-neither-do-i",
+      "title": "You don't understand non-inferiority trials (and neither do I)",
+      "summary": "Morgenstern takes apart the design that quietly underwrites half the trials you are asked to change practice on.",
+      "date_published": "2024-01-22T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "First10EM",
+        "note": "Nearly every recent trial in this feed — ARISE-FLUIDS, RENOVATE, the ketamine-versus-etomidate RSI trial — hangs on a non-inferiority margin somebody chose before enrolment. This is the piece that explains why that choice does most of the work and why 'non-inferior' is not the same as 'equivalent'. Read once and it changes how you read journal club for good.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://first10em.com/wp-content/uploads/2023/12/You-dont-understand-non-inferiority-trials-First10EM.jpg",
+        "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+      }
+    },
+    {
+      "id": "c9acfb8aac2d8e2de12415c38a4095a444f6435515ed858460e0f8c8d7f0e435",
+      "url": "https://emcrit.org/emcrit/2026-pe-update-fu",
+      "title": "EMCrit Wee — 2026 PE Update F/u with Farkas & Morgenstern",
+      "summary": "Farkas and Morgenstern argue out the disagreements the main PE update left hanging, which is where the useful thinking actually is.",
+      "date_published": "2026-05-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "The feed already carries EMCrit 424, the PulmCrit hot take on PRAGUE-26 and First10EM on STRATIFY/STORM-PE — this is the conversation that ties them together, with two people who read the same trials and reached different bedside thresholds. Worth it for the reasoning about who actually gets catheter-directed therapy rather than the headline result. Short-format episode, so it is a commute rather than an evening.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/05/pe-2026-wee-750x422.png",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "728d7fd54dd7b5f0b21d0f10f7af0aff7469ceb823451714b0b74981badb667d",
+      "url": "https://www.heddels.com/2016/10/how-to-date-and-value-vintage-levis-type-i-ii-and-iii-denim-jackets",
+      "title": "How to Date and Value Vintage Levi's Type I, II and III Jackets",
+      "summary": "The pocket, pleat and tab details that tell you what decade a jacket is from before you look at the price tag.",
+      "date_published": "2016-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "This is the reference piece for reading a denim jacket in the wild — single pocket versus double, pleats, the red tab, the details that separate a 1950s Type II from a reproduction. Useful in exactly the places you actually shop, and it sits alongside the chore coat and bleu de travail histories already in the feed as the third leg of the workwear-outerwear canon. Old, and none the worse for it: the garments have not changed.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "242c762865f88d09dbadf42dee0c1630914a7af73fd147da51ebbe0ba651f043",
+      "url": "https://massivelyop.com/2026/04/22/enshroudeds-final-early-access-update-forging-the-path-revamps-almost-everything-in-the-game",
+      "title": "Enshrouded's final early access update revamps almost everything",
+      "summary": "Forging the Path is the shape the game will actually launch in on 15 October, not a side patch.",
+      "date_published": "2026-04-22T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Massively OP",
+        "note": "Keen rebuilt combat, weapon skills and animation behaviour in the last early access update rather than saving it for 1.0, so an old save will not feel like the game you left. The price also goes up today, 8 September, ahead of the October launch. Read it as the changelog for the version you will be playing rather than as news about a release date.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "81d412951ee5c3964b03943cc8c1f30ef8e0e119ae98d7515b4bd0dbdc1138ea",
+      "url": "https://dragonwilds.runescape.com/news/0.12.1-and-the-road-to-release",
+      "title": "0.12.1 and the Road to Release",
+      "summary": "The last patch before 1.0 on 15 September: Agility as a full skill, a double jump, and the longest side quest yet.",
+      "date_published": "2026-07-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Dragonwilds",
+        "note": "First-party notes rather than coverage of them, and the final content drop before Dragonwilds leaves early access next week. Agility arrives as a real skill tree with six timed courses, Kebbit Burrow shortcuts and an aerial dash, plus the Recall spell and The Great Body Robbery out of Bloodblight Swamp. Worth reading now so the 1.0 launch and the Scorned Wilderness raid land on a character that is already set up.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://framerusercontent.com/images/yARAvbHeETKz0PRpvTPk0dZuE.png?scale-down-to=512&width=1393&height=785",
+        "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+      }
+    },
+    {
+      "id": "9dd6456d6799df391003e0c58523426ed3e35a75877383e06e435fa252a6bce6",
+      "url": "https://kosmofoto.com/2026/09/china-lucky-film-announces-two-new-black-and-white-films",
+      "title": "China Lucky Film announces two new black-and-white films",
+      "summary": "A third and fourth new emulsion in twelve months from Lucky, which matters more than any single stock does.",
+      "date_published": "2026-09-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "photography",
+        "source": "Kosmo Foto",
+        "note": "Lucky has now put out two colour films and is following with two black-and-white ones inside a year — that is a manufacturer scaling up, not a novelty run, and it is the counterweight to the Kodak price stories already in the feed. Details came via Reddit screengrabs on 6 September, so treat the specifics as provisional. Worth watching if you want a cheap B&W stock that is not Fomapan.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/09/new-lucky-black-and-white-film-yingzhe-100-400-v0-yafarakw0znh1.webp?fit=790%2C1200&",
+        "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "acbd2cea6cd8e91dd96b60cfd1fc56a908fce828c07d6cb44b7ddb9a5a0079d1",
+      "url": "https://rebelem.com/option-trial-tenecteplase",
+      "title": "The OPTION Trial: Late-Window TNK for Non-LVO Stroke",
+      "summary": "A CT-perfusion-selected thrombolysis result that widens who might get TNK at 4.5–24 hours, with the bleeding cost stated plainly.",
+      "date_published": "2026-04-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "REBEL EM",
+        "note": "OPTION randomised CTP-selected non-LVO patients out to 24 hours from last-known-well: mRS 0–1 improved 34.2% to 43.6%, and symptomatic ICH went from 0% to 2.8%. That combination is exactly the conversation you end up having at 3am with a stroke team and a family, so it is worth having the numbers in your head rather than reaching for them. REBEL EM's appraisal is short on hype about the selection criteria, which is the part that will not travel to every ED.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2026/03/option-trial-tenecteplase-non-lvo-stroke-late-window-ct-perfusion.jpg?fit=1536%2C1024&ssl=1",
+        "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "22837e471a8e76b2f43a10391344cccc49fbc1a76571602b39345bf5e86ac410",
+      "url": "https://casualphotophile.com/2026/01/30/pentax-pc35af-camera-review",
+      "title": "Lemons and Lemonade — a Review of the Pentax PC35AF",
+      "summary": "An honest account of a compact that keeps breaking and keeps getting fixed, and why people forgive it.",
+      "date_published": "2026-01-30T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Casual Photophile",
+        "note": "Tocchio's verdict — 'horribly flawed, foolish to own... and yet, every time its shutter fires, unquestionably great' — is the most useful thing anyone writes about eighties point-and-shoots, which are now priced as if they were reliable. Fixed 35mm f/2.8, manual ISO to 400, manual advance: worth knowing what you would actually be buying before an op-shop find tempts you. Casual Photophile is new to this feed; the 35mmc well has been drawn on hard lately.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "372a586d364c40c33853b73969581863819ffc718dcd596298c9407d6a57e6c5",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/two-bays-brewing-opens-freehouse-collingwood",
+      "title": "The Freehouse Opens in Collingwood With 24 Gluten-Free Drinks",
+      "summary": "Twobays, the country's only fully gluten-free brewery, finally has a room of its own on Rokeby Street.",
+      "date_published": "2026-08-27T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "A beer hall where all 15 taps and the other nine drinks are gluten-free is a genuinely useful address to have filed away for whoever in the group cannot drink normally — and the food is a Latin American menu from an ex-Vue de Monde and Stokehouse chef rather than an afterthought. Empanadas, adobo half-chicken, cast-iron provolone, crumbed whole snapper. 118 Rokeby Street, Wednesday to Sunday from 11.30am.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/08/13/The%20Freehouse_Michael%20Gardenia_01%20of%2031-458aa9bc7a.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    },
+    {
+      "id": "8ce3e30d5cfc158d5e008aa1e3d14c86c9891557a8f87f475a532bc52ca68df4",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/community-wine-house-northcote-bar",
+      "title": "Melbourne's newest wine bar opened behind a roller door in Northcote",
+      "summary": "Minimum Wines opened a small European-style bar at the back of their own Northcote winery — cheese, tinned fish, low-intervention pours.",
+      "date_published": "2026-07-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Matt and Leni Purbrick make the wine on site from their Goulburn Valley fruit and pour it through a roller door at the rear of the same building, which is about as short a supply chain as a Melbourne wine bar gets. Walking distance from the Northcote end of your usual run, and a different proposition from the Suze team's Nina pasta bar already in the feed. Small room, so it rewards going early.",
+        "published_at": "2026-09-08T16:21:07.188Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/07/14/community%20wine%20house%20-%20northcote%20-%20july%202026%20-%2018-3c9435f409.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
