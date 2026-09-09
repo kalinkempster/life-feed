@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "url": "https://emergencymedicinecases.com/em-quick-hits-73-sept-2026/",
+      "title": "EM Quick Hits 73: Phenobarb, Bacteriuria, Vent Settings",
+      "source": "EM Cases",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Four registrar-grade updates in one sitting, including the phenobarb-for-withdrawal question that keeps coming up on nights.",
+      "note": "Zoe Polsky's phenobarbital segment sits directly alongside the EMCrit IBCC alcohol-withdrawal chapter already in the feed — same drug, different house style, and worth hearing both arguments before you write the order. The asymptomatic bacteriuria piece is the other one to keep: 30-60% of nursing-home residents culture positive at baseline, which is the trap behind a lot of ED 'urosepsis' labels. Mike Weinstock's malpractice case, a 15-year-old with thunderclap headache after coughing sent home without imaging, costs five minutes and sticks.",
+      "date_published": "2026-09-08T00:00:00Z"
+    },
+    {
+      "url": "https://coreem.net/procedures/fascia-iliaca-nerve-block/",
+      "title": "Fascia Iliaca Nerve Block",
+      "source": "Core EM",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A block you can own as an ED registrar, filmed step by step rather than described in prose.",
+      "note": "Mitchell Foster walks the whole procedure — positioning, the fascia iliaca plane on screen, hydrodissection to confirm the needle tip, then injection — which is the format that actually transfers to a neck-of-femur patient at 2am. It leans on the same probe skills as the CCPU material: identifying a fascial plane and watching anaesthetic spread is the same eye you use for vascular access. Core EM has not been drawn on before here and its procedure library runs much deeper than this one entry.",
+      "date_published": "2025-02-14T00:00:00Z"
+    },
+    {
+      "url": "https://emergencymedicineireland.com/tasty-morsels-of-critical-care-095-blunt-cerebrovascular-injury/",
+      "title": "Tasty Morsels 095: Blunt Cerebrovascular Injury",
+      "source": "EM Ireland",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "The BCVI screening question compressed to something you can actually hold in your head during a trauma call.",
+      "note": "Blunt cerebrovascular injury is a classic fellowship-exam topic and a genuine miss in trauma — the Denver and Memphis criteria are easy to nod along to and hard to recall under pressure. The series is deliberately simplified for retention and built off Oh's Manual as its curriculum, which makes it better revision than a full review article. Emergency Medicine Ireland has never appeared in this feed and there are nearly a hundred of these in the back catalogue.",
+      "date_published": "2026-04-13T00:00:00Z"
+    },
+    {
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+      "title": "Ebola (Bundibugyo virus) — Democratic Republic of the Congo",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The primary-source count on an outbreak that has roughly doubled since the coverage you already read here.",
+      "note": "The ABC piece this feed carried in August was tracking case numbers; this is the WHO's own Disease Outbreak News, and as of 26 August it stands at 5,794 confirmed cases and 2,786 deaths — a 48.1% case fatality ratio across 60 health zones in six provinces, up from 54 zones a fortnight earlier. Bundibugyo is the Ebola species with no licensed vaccine and no specific treatment, which is why the spread rate reads differently to the 2018-20 Kivu outbreak. When numbers move this fast the source beats the reporting.",
+      "date_published": "2026-08-28T00:00:00Z"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "An AI system apparently resolving a Millennium Prize problem, written up by someone who checks the claims before repeating them.",
+      "note": "OpenAI put an unreleased model on Navier-Stokes existence and smoothness and the agents landed a resolution roughly 88 hours after launch — a claim that is either a genuine step change or a category error, and Willison is careful about which. He is the right person to read here because he separates what has been verified from what has been announced. Pairs with the GPT-6 Astra post the feed carried last week for the full shape of what shifted this fortnight.",
+      "date_published": "2026-09-08T00:00:00Z"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-09-07/vic-melbourne-airport-pick-up-drop-off/107122706",
+      "title": "Melbourne Airport to open new pick-up and drop-off zones",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A concrete change to how you drop someone at Tullamarine, effective 6 October.",
+      "note": "The 56-year-old departures ramp closes and pick-up and drop-off shift to new zones, clearing ground for the international terminal expansion. It is small news that becomes annoying news if you learn it in the car at 5am with a flight to catch. Filed under news rather than melbourne because it is a Victorian infrastructure change, not somewhere to go.",
+      "date_published": "2026-09-07T00:00:00Z"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/09/09/walt-dickerson-to-my-queen/",
+      "title": "Walt Dickerson :: To My Queen",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Vibraphone approached from the opposite direction to the Milt Jackson already on your shelf.",
+      "note": "Your jazz corner runs through Milt Jackson on Soul Brothers/Soul Meeting and Oscar Peterson's Night Train — polished, swinging, sat right in the pocket. Dickerson plays the same instrument almost as a percussion device, with Andrew Hill on piano and Andrew Cyrille on drums, which makes To My Queen the obvious next thing if you want to hear what else a vibraphone can be. Aquarium Drunkard remains the most reliable source here for adjacent listening rather than reissue announcements.",
+      "date_published": "2026-09-09T00:00:00Z"
+    },
+    {
+      "url": "https://www.analogplanet.com/content/dmm-or-lacquer-which-better",
+      "title": "DMM or Lacquer? Which is Better?",
+      "source": "Analog Planet",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Why the mastering credit on a reissue jacket tells you something before the needle ever drops.",
+      "note": "Fremer had the same Wilco record cut both ways and reports the difference plainly: DMM sharper on transients and image edge definition, lacquer smoother and warmer through the midrange. That matters when you are choosing between pressings of something you already own, because a 180g reissue is not automatically the better object. Abbey Road and most cutting houses have since gone back to lacquer, which is itself most of the argument.",
+      "date_published": "2012-06-01T00:00:00Z"
+    },
+    {
+      "url": "https://casualphotophile.com/2026/01/06/depth-of-field-in-photography-the-art-of-the-unsharp-image/",
+      "title": "Depth of Field: The Art of the Unsharp Image",
+      "source": "Casual Photophile",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Depth of field treated as a compositional decision first, with all the aperture arithmetic deliberately held back.",
+      "note": "Part one leaves out the maths entirely and asks what an out-of-focus zone is actually doing inside the frame — the more useful half if you already know how to stop down. Sroyon Mukherjee shoots pinhole through to phone, so it never collapses into a gear argument. Casual Photophile has not been in the feed since the Pentax PC35AF review, and its technique category is worth working through properly.",
+      "date_published": "2026-01-06T00:00:00Z"
+    },
+    {
+      "url": "https://kosmofoto.com/2026/03/how-the-compact-film-camera-returned-from-the-dead/",
+      "title": "How the compact film camera returned from the dead",
+      "source": "Kosmo Foto",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Where the new point-and-shoots actually are, as opposed to where the hype says they are.",
+      "note": "The Lomo MC-A and Pentax 17 have shipped; Analogue's aF-1 is still pre-order only and slipped again to Q3 2026, with lens manufacturing and the shutter mechanism named as the specific hard parts. That is useful if you have watched secondhand compact prices climb and assumed relief was coming — the new supply is slower than the coverage suggests. Stephen Dowling has run this since 2012 and reports the film trade rather than the camera market.",
+      "date_published": "2026-03-20T00:00:00Z"
+    },
+    {
+      "url": "https://www.heddels.com/2020/12/men-blue-jeans-seals-vietnam-wore-levis/",
+      "title": "The Men With Blue Jeans: Navy SEALs in Vietnam Wore Levi's",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Provenance writing at its best — why 501s ended up in the Mekong Delta, told by the men who wore them there.",
+      "note": "SEALs in late 1970 and early 1971 chose Levi's 501s and 505s over issued dungarees because denim drained faster, did not snag, and — the detail that earns the piece — was quieter when wet, which matters on a night operation. It is the same cloth-and-use logic running through the RRL and Woolrich end of the wardrobe, only sourced from primary interviews rather than a brand's own mythology. Reads as a companion to the vintage 501 collector's guide Heddels keeps alongside it.",
+      "date_published": "2020-12-01T00:00:00Z"
+    },
+    {
+      "url": "https://massivelyop.com/2026/07/09/runescape-dragonwilds-teases-scorned-wilderness-and-its-september-15-boss-raid/",
+      "title": "Dragonwilds teases Scorned Wilderness and its Sept 15 raid",
+      "source": "MassivelyOP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "What actually lands when Dragonwilds leaves early access on Monday, rather than just the fact that it does.",
+      "note": "The 1.0 drop is six days out and Scorned Wilderness is the headline: anima-torn floating islands, the Kuldra raid closing out the saga, and the Runite tier. The part worth reading is the combat pass underneath it — visceral attacks, wands and RuneScape's classic special attack bar, which changes how the game plays rather than just what is in it. You already have the Jagex launch announcement; this is the content detail sitting under it.",
+      "date_published": "2026-07-09T00:00:00Z"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/preston-market-night-festival-september-2026",
+      "title": "Preston Market Is Launching a New Night Festival Soon",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Preston Market stays open after dark for the first time, and it is this Friday.",
+      "note": "6pm to 9pm on Friday 11 September, with Jessica Wilson of Fools, Latinx DJ collective Bellaqueo and Sri Lankan band Dynamics — a market you have only ever seen in daylight, run as an evening. It is a short ride up from Thornbury and the kind of one-off that is over before the monthly roundups catch it. First edition of a new thing, so it is worth seeing what it turns into.",
+      "date_published": "2026-08-27T00:00:00Z"
+    }
+  ]
+}
