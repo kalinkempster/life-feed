@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T16:21:13.915Z",
+  "updated": "2026-09-09T16:19:54.224Z",
   "runs": [
     {
       "day": "2026-09-02",
@@ -56,6 +56,14 @@
       "ran_at": "2026-09-08T16:21:07.188Z",
       "published": 14,
       "dropped": 0,
+      "searches": 0,
+      "ok": true
+    },
+    {
+      "day": "2026-09-10",
+      "ran_at": "2026-09-09T16:19:40.798Z",
+      "published": 12,
+      "dropped": 1,
       "searches": 0,
       "ok": true
     }
