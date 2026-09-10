@@ -18,10 +18,14 @@
     "verify:links": "node --env-file-if-exists=.env generator/verify-feed.mjs --links",
     "library": "node --env-file-if-exists=.env generator/library-probe.mjs",
     "publish:checked": "node generator/publish-checked.mjs",
-    "sources": "node generator/probe-sources.mjs"
+    "sources": "node generator/probe-sources.mjs",
+    "icons": "node generator/make-icons.mjs",
+    "vapid": "node generator/make-vapid.mjs",
+    "push": "node --env-file-if-exists=.env generator/send-push.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.70.0",
+    "web-push": "^3.6.7",
     "zod": "^4.0.0"
   }
 }

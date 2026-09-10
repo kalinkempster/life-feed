@@ -459,6 +459,97 @@ globalThis.fetch = realFetch0;
 delete process.env.UPSTASH_REDIS_REST_URL;
 delete process.env.UPSTASH_REDIS_REST_TOKEN;
 
+// ------------------------------------------------- the morning notification
+const { buildNotify } = await import("./lib/publish.mjs");
+const { melbourneHour } = await import("./lib/day.mjs");
+
+const notifyItems = [
+  { title: "An evergreen piece", url: "https://e.example/1",
+    _homepage: { kind: "evergreen", topic: "records", source: "AD" } },
+  { title: "A timely one", url: "https://e.example/2",
+    _homepage: { kind: "timely", topic: "medicine", source: "EMCrit" } },
+  { title: "Another evergreen", url: "https://e.example/3",
+    _homepage: { kind: "evergreen", topic: "records", source: "AD" } },
+];
+const digest = buildNotify(notifyItems, "2026-09-10", "2026-09-10T16:00:00Z");
+
+check("notify digest counts only the new edition, not the pool", () => {
+  assert.equal(digest.count, 3);
+  assert.equal(digest.timely, 1);
+});
+check("notify digest leads with timely", () =>
+  assert.equal(digest.headlines[0].source, "EMCrit"),
+);
+check("notify digest de-duplicates topics", () =>
+  assert.deepEqual([...digest.topics].sort(), ["medicine", "records"]),
+);
+check("notify digest carries what the worker needs, and no more", () => {
+  const h = digest.headlines[0];
+  assert.deepEqual(Object.keys(h).sort(), ["source", "title", "topic", "url"]);
+});
+
+// 07:00 Melbourne is 21:00 UTC in winter and 20:00 UTC over summer. The workflow
+// fires at both and the gate picks the right one — this is what stops the
+// notification drifting an hour twice a year.
+check("07:00 gate resolves to 21:00 UTC in winter (AEST)", () =>
+  assert.equal(melbourneHour("2026-07-01T21:00:00Z"), 7),
+);
+check("07:00 gate resolves to 20:00 UTC in summer (AEDT)", () =>
+  assert.equal(melbourneHour("2026-12-01T20:00:00Z"), 7),
+);
+check("only one of the two firings is 07:00 on a given day", () => {
+  assert.notEqual(melbourneHour("2026-07-01T20:00:00Z"), 7);
+  assert.notEqual(melbourneHour("2026-12-01T21:00:00Z"), 7);
+});
+
+// ------------------------------------------------- POST /api/subscribe
+const subscribeApi = (await import("../site/api/subscribe.mjs")).default;
+const goodSub = {
+  endpoint: "https://fcm.googleapis.com/fcm/send/abc123",
+  keys: { p256dh: "BObviouslyFakeButWellFormed", auth: "alsoFake" },
+};
+
+const realFetch2 = globalThis.fetch;
+let subWrites = [];
+process.env.UPSTASH_REDIS_REST_URL = "http://127.0.0.1:1";
+process.env.UPSTASH_REDIS_REST_TOKEN = "mock";
+globalThis.fetch = async (_u, init) => {
+  subWrites.push(...JSON.parse(init.body));
+  return { ok: true, json: async () => [] };
+};
+
+const subRes = fakeRes();
+await subscribeApi({ method: "POST", body: { subscription: goodSub }, headers: {} }, subRes);
+check("/api/subscribe stores a valid subscription", () => {
+  assert.equal(subRes.statusCode, 200);
+  assert.equal(subWrites[0][0], "HSET");
+});
+
+subWrites = [];
+const unsubRes = fakeRes();
+await subscribeApi(
+  { method: "POST", body: { action: "unsubscribe", subscription: goodSub }, headers: {} },
+  unsubRes,
+);
+check("/api/subscribe removes on unsubscribe", () =>
+  assert.equal(subWrites[0][0], "HDEL"),
+);
+
+subWrites = [];
+const badRes = fakeRes();
+await subscribeApi({ method: "POST", body: { subscription: { endpoint: "nope" } }, headers: {} }, badRes);
+check("/api/subscribe rejects a malformed subscription and writes nothing", () => {
+  assert.equal(badRes.statusCode, 400);
+  assert.equal(subWrites.length, 0);
+});
+check("/api/subscribe reports failure rather than lying to the toggle", () =>
+  assert.equal(JSON.parse(badRes.body).ok, false),
+);
+
+globalThis.fetch = realFetch2;
+delete process.env.UPSTASH_REDIS_REST_URL;
+delete process.env.UPSTASH_REDIS_REST_TOKEN;
+
 // ------------------------------------------------- GET /api/signals
 // The endpoint the site reads so a rating made on the dashboard shows up here
 // without waiting for the next build.

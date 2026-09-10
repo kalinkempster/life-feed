@@ -32,3 +32,24 @@ export function editionDay(when = new Date()) {
   if (Number.isNaN(at.getTime())) return "";
   return fmt.format(at);
 }
+
+const hourFmt = new Intl.DateTimeFormat("en-GB", {
+  timeZone: TZ,
+  hour: "2-digit",
+  hour12: false,
+});
+
+/**
+ * The hour of the Melbourne clock, 0–23.
+ *
+ * The morning notification is scheduled in UTC because cron has no other option,
+ * but it should land at 07:00 local in both halves of the year. So the schedule
+ * fires either side of the daylight-saving change and this decides which firing is
+ * the real one — rather than two cron lines someone has to remember to edit twice
+ * a year, and will not.
+ */
+export function melbourneHour(when = new Date()) {
+  const at = when instanceof Date ? when : new Date(when);
+  if (Number.isNaN(at.getTime())) return -1;
+  return Number(hourFmt.format(at).replace(/\D/g, ""));
+}

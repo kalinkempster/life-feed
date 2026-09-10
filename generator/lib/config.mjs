@@ -15,6 +15,7 @@ export const PATHS = {
   feed: path.join(SITE, "feed.json"), // lean — what the dashboard fetches
   site: path.join(SITE, "site.json"), // full — what the reading room renders
   status: path.join(SITE, "status.json"),
+  notify: path.join(SITE, "notify.json"), // what the service worker reads at 07:00
   archiveAll: path.join(ARCHIVE, "all.json"),
   archiveIndex: path.join(ARCHIVE, "index.json"),
   archiveDay: (day) => path.join(ARCHIVE, "days", `${day}.json`),

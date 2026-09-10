@@ -6,6 +6,12 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Life of K²</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0e0d0c">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Life of K²">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -163,6 +169,13 @@
            flex-wrap:wrap; gap:10px; justify-content:space-between; font-size:10px;
            letter-spacing:.16em; color:var(--faint); }
   footer a { border-bottom:1px solid var(--rule); }
+  .notify { background:none; border:1px solid var(--rule); color:var(--mute); cursor:pointer;
+            font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.16em;
+            text-transform:uppercase; padding:5px 10px; transition:all .15s; }
+  .notify:hover:not(:disabled) { color:var(--bright); border-color:var(--accent);
+                                 background:#1a1509; }
+  .notify[aria-pressed="true"] { color:var(--accent); border-color:var(--accent); }
+  .notify:disabled { opacity:.5; cursor:default; }
 
   .to-top { position:fixed; right:28px; bottom:28px; z-index:30; background:#141210;
             border:1px solid var(--rule); color:var(--mute); cursor:pointer; padding:10px 14px;
@@ -243,7 +256,8 @@
       <div id="feed"></div>
       <footer class="mono">
         <span id="health"></span>
-        <span style="display:flex; gap:16px">
+        <span style="display:flex; gap:16px; align-items:center">
+          <button type="button" id="notify" class="notify" hidden></button>
           <a href="status.html" style="color:var(--accent)">Status →</a>
           <a href="feed.json">feed.json</a>
         </span>
@@ -530,6 +544,132 @@ document.addEventListener("click", e => {
     picker.classList.remove("open");
   }
 });
+
+/* ── Daily notification ───────────────────────────────────────────────────
+   A push at 07:00 with what landed overnight. The toggle only appears where it
+   can actually work, and says why when it cannot — a switch that does nothing is
+   worse than no switch.
+
+   On iOS this requires the site to have been added to the Home Screen and opened
+   from there: Safari itself refuses to subscribe, and does so silently, so the
+   check below is what turns that into a sentence rather than a mystery. */
+const notifyBtn = document.getElementById("notify");
+
+const pushSupported = () =>
+  "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+
+// iOS only grants push to installed web apps. Chrome/Android does not care.
+const iosStandalone = () =>
+  !/iPad|iPhone|iPod/.test(navigator.userAgent) ||
+  window.matchMedia("(display-mode: standalone)").matches ||
+  navigator.standalone === true;
+
+function setNotifyState(state, label, pressed) {
+  notifyBtn.hidden = false;
+  notifyBtn.textContent = label;
+  notifyBtn.dataset.state = state;
+  notifyBtn.disabled = state === "blocked" || state === "busy";
+  notifyBtn.setAttribute("aria-pressed", String(Boolean(pressed)));
+}
+
+async function refreshNotifyState() {
+  if (!pushSupported()) return;                       // desktop Safari, old browsers
+  if (!iosStandalone()) {
+    setNotifyState("blocked", "Add to home screen for alerts", false);
+    notifyBtn.title =
+      "On iPhone, notifications only work once this is added to the Home Screen and opened from there.";
+    return;
+  }
+  if (Notification.permission === "denied") {
+    setNotifyState("blocked", "Alerts blocked", false);
+    notifyBtn.title = "Notifications are blocked for this site in your browser settings.";
+    return;
+  }
+  try {
+    // No key published means the server cannot send anything yet. Say so, rather
+    // than offering a switch that would fail at the last step.
+    const keyRes = await fetch("push-key.json", { cache: "no-store" });
+    if (!keyRes.ok) {
+      setNotifyState("blocked", "Alerts not set up", false);
+      notifyBtn.title = "No push key is published yet — run `npm run vapid` and deploy.";
+      return;
+    }
+
+    const reg = await navigator.serviceWorker.ready;
+    const sub = await reg.pushManager.getSubscription();
+    setNotifyState(sub ? "on" : "off", sub ? "Daily alert on" : "Daily alert", Boolean(sub));
+    notifyBtn.title = sub
+      ? "A summary of each new edition at 7am. Tap to turn off."
+      : "Get a summary of each new edition at 7am.";
+  } catch {
+    setNotifyState("off", "Daily alert", false);
+  }
+}
+
+async function toggleNotify() {
+  const wasOn = notifyBtn.dataset.state === "on";
+  setNotifyState("busy", wasOn ? "Turning off…" : "Turning on…", wasOn);
+
+  try {
+    const reg = await navigator.serviceWorker.ready;
+
+    if (wasOn) {
+      const sub = await reg.pushManager.getSubscription();
+      if (sub) {
+        await fetch("api/subscribe", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ action: "unsubscribe", subscription: sub.toJSON() }),
+        }).catch(() => {});
+        await sub.unsubscribe();
+      }
+      await refreshNotifyState();
+      return;
+    }
+
+    // Must be called from the click, not after an await chain that loses the
+    // user gesture — Safari in particular will refuse otherwise.
+    const permission = await Notification.requestPermission();
+    if (permission !== "granted") {
+      await refreshNotifyState();
+      return;
+    }
+
+    const { publicKey } = await (await fetch("push-key.json", { cache: "no-store" })).json();
+    const sub = await reg.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: publicKey,
+    });
+
+    const res = await fetch("api/subscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ subscription: sub.toJSON() }),
+    });
+
+    // If the server could not store it, nothing will ever be sent — so undo the
+    // browser-side subscription rather than leave a toggle that reads "on".
+    if (!res.ok) {
+      await sub.unsubscribe();
+      setNotifyState("off", "Could not enable", false);
+      notifyBtn.title = "The server could not store the subscription. Try again later.";
+      return;
+    }
+
+    await refreshNotifyState();
+  } catch (err) {
+    setNotifyState("off", "Could not enable", false);
+    notifyBtn.title = String(err && err.message ? err.message : err);
+  }
+}
+
+if (pushSupported()) {
+  notifyBtn.addEventListener("click", toggleNotify);
+  navigator.serviceWorker
+    .register("sw.js")
+    .then(refreshNotifyState)
+    .catch(() => { /* no worker, no toggle — the page still reads perfectly */ });
+}
 
 const toTop = document.getElementById("toTop");
 toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));

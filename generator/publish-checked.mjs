@@ -37,6 +37,7 @@ const PATHS = [
   "site/feed.json",
   "site/site.json",
   "site/status.json",
+  "site/notify.json",
   "archive",
   "curation/library-snapshot.md",
   "curation/signals-summary.md",

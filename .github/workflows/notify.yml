@@ -1,0 +1,58 @@
+# The 07:00 notification.
+#
+# Cron is UTC-only and Melbourne moves twice a year, so this fires either side of
+# the daylight-saving change and send-push.mjs decides which firing is the real one
+# by checking the actual Melbourne clock. 21:00 UTC is 07:00 AEST; 20:00 UTC is
+# 07:00 AEDT. Exactly one of them is 07:00 locally on any given day, and the other
+# exits in about a second having done nothing.
+#
+# The alternative — one cron, edited twice a year — is a thing nobody remembers to
+# do, and the failure is a notification arriving an hour late for six months.
+
+name: notify
+
+on:
+  schedule:
+    - cron: "0 20 * * *" # 07:00 AEDT (October–April)
+    - cron: "0 21 * * *" # 07:00 AEST (April–October)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send now, whatever the Melbourne clock says"
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # web-push is the only reason this job needs dependencies. It handles VAPID
+      # signing and the push-service protocol — the parts where hand-rolling
+      # cryptography would be a bad trade for a morning notification.
+      - run: npm ci
+
+      - name: Send the morning digest
+        env:
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN }}
+        run: |
+          node generator/send-push.mjs ${{ github.event.inputs.force == 'true' && '--force' || '' }}

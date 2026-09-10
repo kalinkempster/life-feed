@@ -41,6 +41,7 @@ import {
   writeFeed,
   writeSite,
   writeStatus,
+  writeNotify,
 } from "./lib/publish.mjs";
 
 const args = process.argv.slice(2);
@@ -392,6 +393,14 @@ async function main() {
   saveArchive(archive);
   if (merged.added.length) saveDay(today, merged.added, { ranAt, dropped });
   saveIndex(index, runRecord);
+
+  // Today's edition, for the morning notification. On a rebuild there is nothing
+  // new, so the existing digest is left alone rather than overwritten with zero —
+  // a rebuild at 09:00 must not turn "12 new stories" into "no new edition".
+  if (merged.added.length) {
+    const notify = writeNotify(merged.added, today, ranAt);
+    log(`  notify     ${notify.count} new · ${notify.topics.length} topics → notify.json`);
+  }
 
   const feed = writeFeed(live, ranAt, signals, signalsProven);
   const site = writeSite(archive, signals, ranAt);

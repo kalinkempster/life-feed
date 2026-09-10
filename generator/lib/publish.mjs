@@ -153,6 +153,43 @@ export function writeSite(archive, signals, generated) {
   return site;
 }
 
+/**
+ * The digest the service worker reads when a push wakes the phone.
+ *
+ * Deliberately tiny and deliberately separate from feed.json: it is fetched by a
+ * worker on a cold radio at 07:00, and it answers one question — what landed
+ * today. Composed from the items published in the last edition rather than from
+ * the whole pool, because "90 live" is not news and "12 new" is.
+ */
+export function buildNotify(todaysItems, day, generated) {
+  const timely = todaysItems.filter((i) => i._homepage.kind === "timely").length;
+  const topics = [...new Set(todaysItems.map((i) => i._homepage.topic))];
+
+  return {
+    day,
+    generated,
+    count: todaysItems.length,
+    timely,
+    topics,
+    // Lead with timely, then whatever else earned a slot. The worker shows three.
+    headlines: [...todaysItems]
+      .sort((a, b) => (b._homepage.kind === "timely") - (a._homepage.kind === "timely"))
+      .slice(0, 5)
+      .map((i) => ({
+        title: i.title,
+        source: i._homepage.source,
+        topic: i._homepage.topic,
+        url: i.url,
+      })),
+  };
+}
+
+export function writeNotify(todaysItems, day, generated) {
+  const notify = buildNotify(todaysItems, day, generated);
+  writeJson(PATHS.notify, notify);
+  return notify;
+}
+
 export function writeStatus(status) {
   writeJson(PATHS.status, status);
   return status;

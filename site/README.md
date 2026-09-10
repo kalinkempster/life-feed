@@ -121,6 +121,42 @@ The two are not the same page and are not meant to be.
   service, which would hand every source's domain to someone else on every load.
 - **Kind is a mark, not a word**: an hourglass for timely, a leaf for evergreen.
 
+## The 07:00 notification
+
+Installed to the home screen, the site sends one push a morning with what landed
+overnight.
+
+    site/manifest.json    makes it installable; iOS needs this for push at all
+    site/sw.js            the service worker — notification only, no caching
+    site/api/subscribe.mjs   stores a device's subscription in Upstash
+    site/notify.json      what the worker reads when the push wakes the phone
+    site/push-key.json    the PUBLIC half of the VAPID pair
+
+**The push carries no payload.** The sender only says "wake up"; the worker fetches
+`notify.json` itself. That means no per-subscription encryption to get wrong, no
+4KB payload cap on headlines, and — most usefully — the notification describes the
+edition as it stands when your phone wakes, not as it stood when the job ran.
+
+**The worker caches nothing.** This is a reading room whose point is a fresh
+edition each morning; an offline cache would mean opening the app to yesterday.
+
+**Timing.** `.github/workflows/notify.yml` fires at 20:00 and 21:00 UTC and
+`send-push.mjs` checks the actual Melbourne clock, sending only at 07:00 local.
+One cron edited twice a year is a thing nobody remembers to do; this handles
+daylight saving on its own. If no edition landed overnight, it sends nothing
+rather than announcing yesterday's.
+
+### Setting it up
+
+    npm run vapid    # prints the private key ONCE — paste into Actions secrets
+    npm run icons    # redraw icon-192/512 if the mark ever changes
+
+Then commit `site/push-key.json`, add `VAPID_PRIVATE_KEY` as a repository secret,
+and tap **Daily alert** in the site footer.
+
+**On iPhone this only works from the installed app.** Safari refuses to subscribe
+and does so silently, so the toggle detects it and says so instead.
+
 ## What is NOT here
 
 Everything at the repo root: the curation brief, the handoff, the generator, the
