@@ -1,0 +1,6 @@
+{
+  "publicKey": "BAE3BjZ-TXwsAyqv9LFeu9xqM91Z6WtuiCQMGcT6MGgh3JMsNmAgXNfHPTI17l6PxuWOZwnMRALwSGzeWCRf2bU",
+  "subject": "mailto:kalinkempster@gmail.com",
+  "generated": "2026-09-10T00:24:12.228Z",
+  "note": "Public half of the VAPID pair. Safe to commit. The private half lives only in the VAPID_PRIVATE_KEY Actions secret."
+}
