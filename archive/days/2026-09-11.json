@@ -1,0 +1,203 @@
+{
+  "day": "2026-09-11",
+  "ran_at": "2026-09-10T16:19:42.762Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "ab451f047deb0683fb4b193797df6f055064253a3a8f911e98bbb6c2100c9ef7",
+      "url": "https://litfl.com/awake-in-vf",
+      "title": "Awake in VF",
+      "summary": "A resus case where the patient talks back mid-compressions, and the fix turns out to be a nerve block rather than another shock.",
+      "date_published": "2026-08-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "Inferior OMI into refractory VF, CPR-induced consciousness, then a stellate ganglion block before successful PCI — three things that each derail a resus team's script in a different way. The teaching point that CPR-induced consciousness is not ROSC is the kind that only sticks once you have watched it happen. Pairs with the electrical-storm and cardiac-arrest ultrasound material already in the feed.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "69aa60ec43577d7f434977c4d2c54f4b1609adafb8889bc18c2d2f99401f095a",
+      "url": "https://www.analogplanet.com/content/ap-exclusive-first-listening-impressions-new-hana-eh-mk-ii-cartridge",
+      "title": "First listening impressions of the Hana EH MK II cartridge",
+      "summary": "A $550 high-output moving coil that runs into an ordinary MM phono stage — the upgrade path for a 297-record collection without a new preamp.",
+      "date_published": "2026-09-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "Hana's E Series MK II lands late September, and this is serial number 0001 before anyone else has heard one. The point of the EH over the EL is high output: it plugs into a moving-magnet input, so it sidesteps the step-up transformer or MC stage that usually gates the jump from moving magnet. Fine's read is that it keeps the quick, defined Hana signature while digging deeper in the bass than the price suggests.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "b9869c13014c0fa2a587b0a9c8e72dcd56cd20aabdf4979754817733a3765885",
+      "url": "https://daptonerecords.com/news/thee-sacred-souls-x-victor-axelrod-45s",
+      "title": "Thee Sacred Souls x Victor Axelrod 45s",
+      "summary": "Two songs from an album already on his shelf, rebuilt as reggae by Ticklah, with heavy dub versions on the B-sides.",
+      "date_published": "2026-07-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Daptone Records",
+        "note": "Thee Sacred Souls are in the library, and this takes \"Waiting for the Right Time\" and \"One and the Same\" from Got a Story to Tell and hands them to Victor Axelrod and The Inversions for a rocksteady rework. Axelrod is the arranger behind a lot of the Daptone house sound, so this is less a remix than a re-recording in a different idiom. Straight to the Daptone announcement rather than coverage of it.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "id": "db7c94a4f8a4ef75ab592679ed448d49d10eca459aeec39b5316a12f24de6a16",
+      "url": "https://www.abc.net.au/news/2026-09-09/yarra-council-bans-smart-glasses-from-pools-playgrounds/107132706",
+      "title": "Yarra council bans smart glasses from pools and playgrounds",
+      "summary": "The council covering Fitzroy, Collingwood and Richmond has become the second in Australia to ban camera glasses from its pools, gyms and childcare centres.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Yarra is also lobbying Canberra to temporarily ban importing smart glasses until privacy law catches up with wearables — a local council trying to legislate ahead of a consumer AI product. The trigger was Kmart's $89 Anko camera glasses going viral and selling out nationally, which is what moved this from a tech-conference problem to a Fitzroy Pool problem. Exemptions apply for people using them as a vision or hearing aid.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/c972b1a079db8dbe15d117d67d42baa3?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "57e2b7e57090717242addb8bab84de40695cb202f1b17099acb76203dcb066be",
+      "url": "https://www.abc.net.au/news/2026-09-09/state-road-repair-report-victoria/106745852",
+      "title": "Nearly half of Victoria's roads in very poor condition",
+      "summary": "The auditor-general puts a number on what every Victorian driver already suspects, and the maintenance shortfall is over $3 billion a year.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "48% of the state road network now rates poor or very poor, up from 39% in 2021, with the very-poor share jumping from 26% to 37%. The audit found maintenance has shifted to reactive and safety-critical repairs only, and the gap between defects identified and defects fixed more than doubled between January 2025 and June 2026. Road surface quality is upstream of the trauma that arrives in an ED, which makes this less abstract than a typical infrastructure audit.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/72ea8466fc46c776fa210b5617f0f775?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "f8109c70861cbce04693fbcc048252c78ebd59733ae4cc5d6e652f07046e476b",
+      "url": "https://www.heddels.com/2026/09/red-wing-heritage-renders-its-iconic-blacksmith-boot-in-chocolate-roughout",
+      "title": "Red Wing renders the Blacksmith in chocolate roughout",
+      "summary": "The Blacksmith in chocolate muleskinner roughout — a reverse-tanned leather that scuffs into character instead of out of it.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The leather comes from S.B. Foot, the Minnesota tannery Red Wing has owned since 1987, which is why the boot can be talked about in terms of a specific hide rather than a colourway. Roughout is the flesh side out: it is the workwear answer to needing a boot that looks better dirty, and it sits with the moleskin and chore-coat material already in the feed. A drop rather than a trend piece, which is the only kind of fashion timeliness that matters here.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "e381c74c702e9a014ff6d19eedfd8ef1457f96f7d6598fb02907bd3d437afcd6",
+      "url": "https://www.gamingbible.com/news/platform/playstation/playstation-plus-free-games-september-2026-extra-premium-962102-20260909",
+      "title": "PS Plus confirms 10 new games for September 2026",
+      "summary": "RuneScape: Dragonwilds hits the Extra catalogue day one on 15 September, so the 1.0 launch costs nothing if the subscription is already live.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "GamingBible",
+        "note": "Dragonwilds leaving early access on 15 September has been in the feed, but the PS Plus Extra day-one detail is the part that changes the decision — the console version arrives at no extra cost rather than as a second purchase. It is RuneScape's first appearance on PlayStation, launching with the Scorned Wilderness raid and the Runite tier included. The rest of the September catalogue is listed alongside it.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/bltce0b17089136754c/6aa17c097994dbefcbf52145/psplusept.jpg",
+        "icon": "https://www.gamingbible.com/icons/gamingbible/favicon.ico"
+      }
+    },
+    {
+      "id": "8d4f3723c3aa6e8003ea6fa24e7ea97de5b93c804cb82fd9636e6d1753433423",
+      "url": "https://www.35mmc.com/02/09/2026/street-photography-is-tough",
+      "title": "Street Photography is Tough",
+      "summary": "An honest account of why the genre defeats most people who try it, written by someone still failing at it rather than someone selling a workshop.",
+      "date_published": "2026-09-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Most street-photography writing is either a gear list or a Cartier-Bresson homily; this is the rarer kind that admits how much of it is standing around feeling conspicuous and coming home with nothing. Useful counterweight to the metering and technique pieces already in the feed, which handle the part of the problem that has an answer. Worth reading before the next roll gets loaded for a walk through Brunswick.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/PXL_20260805_211244650-scaled.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "c2caf5093be3df1049acaba908d34a24183cff8f167a58942fe250d6e13616dc",
+      "url": "https://www.pushsquare.com/reviews/ps5/marvels-wolverine",
+      "title": "Marvel's Wolverine Review (PS5)",
+      "summary": "Insomniac's verdict five days out, from the outlet that covers PlayStation properly rather than as one platform among four.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "The structural news is that this is linear rather than open world — a deliberate break from the Spider-Man and Horizon template, with combat built around a rage meter that trades control for damage. Push Square rate the face models and framerate as about the best the PS5 does in 2026. It lands 15 September, the same day Dragonwilds does, which makes for a crowded week.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://images.pushsquare.com/351f11f76d30f/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "ab25cfd8040740102bd7a39dc7b1c3294835500f26c4e01c7ab9c10a9fc30ba1",
+      "url": "https://www.stemlynsblog.org/to-protect-and-serveand-drop-off-st-emlyns",
+      "title": "JC: To Protect and Serve…and Drop Off",
+      "summary": "Philadelphia lets police drive stabbings and gunshot wounds straight to the trauma centre, and the outcome data is more awkward than the prehospital orthodoxy allows.",
+      "date_published": "2018-04-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Roughly 40% of penetrating trauma arriving at the author's hospital comes by police car, with PPD often halving the time an ambulance would take. It is the cleanest natural experiment going on scoop-and-run versus stay-and-play, and it lands differently from a Victorian ED where every penetrating trauma arrives via Ambulance Victoria with a full prehospital workup already done. Worth reading for what it says about how much of prehospital time is actually treatment.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2018/04/ProtectServe...and-drop-off-here.png",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "6a04f83f78ef6491a87b6080d926a91ea560c1018e1604a3f4df14949eedb5ae",
+      "url": "https://kosmofoto.com/2026/07/these-two-new-simple-cameras-are-a-positive-sign-for-films-future",
+      "title": "Two new simple cameras are a positive sign for film's future",
+      "summary": "Two established manufacturers deciding new film cameras are worth tooling up for is a better health indicator than any stock announcement.",
+      "date_published": "2026-07-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Kosmo Foto",
+        "note": "Lomography's reworked half-frame Simple Use Reloadable is the headline — a genuinely reloadable version of the disposable-shaped camera they first shipped in 2017. Bellamy's argument is that new-camera investment, not new emulsions, is the signal that matters, because it means a brand is betting on shooters who do not exist yet. Reads well against the half-framing and compact-camera-revival pieces already published.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/07/EC35_W_Listing-photo_1C_2.webp?fit=1200%2C1200&",
+        "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "0a5a5dd314ff3d372f4b7b8796fceb4956c72183774cf4ab4defa4b95aa8803f",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/shogunn-yakitori-smith-street-pop-up",
+      "title": "Peter Gunn opens Shogunn yakitori pop-up in Collingwood",
+      "summary": "A six-week, twelve-seat yakitori counter run single-handed by the chef behind Ides, in the room that used to be March.",
+      "date_published": "2026-08-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Gunn closed Ides and its bar March on Smith Street earlier this year; Shogunn is him alone behind a grill in the same dark room, doing a ten-dish $97 set. Skewers run chicken neck with nori, thigh and onion, skin with tobiko, meatballs with sansho, plus shokupan with pâté and miso-glazed eggplant off the bird. It is a limited run before he looks for a permanent site, so the window closes rather than the booking getting easier.",
+        "published_at": "2026-09-10T16:19:42.762Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/01/28/D0227348-3E59-4532-A564-EC9E598D48A5_1_201_a-fc1b7a93d0.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
