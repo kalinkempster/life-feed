@@ -1665,5 +1665,215 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/01/28/D0227348-3E59-4532-A564-EC9E598D48A5_1_201_a-fc1b7a93d0.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "64d2a2161ba3188c37c9a63f01d8fa00f657d700de5b1eccd53d7bbf62d1ddeb",
+    "url": "https://reliefweb.int/report/nepal/nepal-rasuwa-flood-situation-report-no-6-3-september-2026",
+    "title": "Nepal: Rasuwa Flood Situation Report No. 6",
+    "summary": "OCHA's running count on the Trishuli valley flood: over a thousand dead, thousands still unaccounted for, and the health system in the affected districts largely gone.",
+    "date_published": "2026-09-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ReliefWeb",
+      "note": "The 26 August event is thought to have started with a glacier collapse on Langtang Lirung and ran 72km down the Trishuli, taking out 41 bridges along the way. What the sitrep documents is the second disaster — overcrowded camps, unsafe water, damaged health facilities and broken referral pathways — which is the phase where the casualty count stops being trauma and starts being communicable disease. A useful corrective to the way these events are reported once and then dropped.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": null,
+      "icon": null
+    }
+  },
+  {
+    "id": "fcf3e1ebd8ffeaaf48358f6cf6a71ce728d8e2656b29b92861c2ea3a43fa9fd2",
+    "url": "https://thesgem.com/2026/08/sgem519-dont-let-pediatric-pulmonary-embolism-leave-you-breathless",
+    "title": "SGEM#519: Pediatric Pulmonary Embolism and the PERC-Peds Rule",
+    "summary": "A structured appraisal of the first big prospective attempt to rule out PE in children without radiating them.",
+    "date_published": "2026-08-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "The SGEM",
+      "note": "BEEPER is a multicentre prospective diagnostic-accuracy study of PERC-Peds, and the case it opens with — a 15-year-old with pleuritic chest pain after a viral illness — is the exact presentation where adult rules get applied to a paediatric body out of habit. Lauren Westafer is the guest skeptic, which is the right pairing: she researches PE diagnosis and implementation science, so the discussion goes past the numbers into whether a rule survives contact with a real department. Worth reading alongside the adult PE material already in the feed, because the failure mode here is the opposite one — under-testing a low-prevalence group.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": null,
+      "icon": "https://i0.wp.com/thesgem.com/wp-content/uploads/2019/01/cropped-SGEM-Logo.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "64a3949072ccd15b6c78bb4fa1e7d43432662d4a26436e307dcec71b6de24baa",
+    "url": "https://www.analogplanet.com/content/david-bowies-young-americans-deserves-reassessment-thanks-its-fascinating-new-half-speed",
+    "title": "Bowie's Young Americans, Half-Speed Mastered, Reassessed",
+    "summary": "A cutting-room account of the Young Americans half-speed, and an argument that the 'plastic soul' record has been undersold.",
+    "date_published": "2025-07-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "The technical detail is the point: 192kHz transfers of the original Record Plant masters, no additional processing, cut by John Webber at AIR on a recapped Neumann VMS80. Given how much Philadelphia soul sits in your collection — Sam & Dave, Solomon Burke, the Temptations — Bowie's attempt at the same idiom is worth hearing on a pressing that does not flatten it. Also a clean case study in what half-speed cutting actually buys you, which is the recurring argument on this site.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "904ea86174aa4acc4bec58d1d6f122149151cb9143caf39f4e9305a476b4c4e4",
+    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+    "title": "Research acceleration: The view inside OpenAI",
+    "summary": "A sober read on how much of the research-acceleration claim is real, from someone who annotates rather than amplifies.",
+    "date_published": "2026-09-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison's value here is that he sits between the announcement and the hype and quotes the specific claims being made about models doing original research. This is the same week the Navier-Stokes result was being passed around, and the interesting question is not whether a model can produce a proof but what the working process around it looked like. Relevant to anyone about to be told an AI tool will accelerate their department's evidence review.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "94996b2420b3324168f7cf80e84d07eeaf7846326b3289c91c3b86938eccd9c7",
+    "url": "https://www.abc.net.au/news/2026-08-09/opposition-election-pledge-pso-deployed-melbourne-hospitals/107013890",
+    "title": "PSOs to bolster security at Melbourne hospitals under proposal",
+    "summary": "An election pledge to put armed protective services officers inside Melbourne hospitals, which would change who stands next to you at three in the morning.",
+    "date_published": "2026-08-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "Occupational violence in EDs has been argued about in Victoria for a decade, mostly through code grey policy and duress alarms rather than uniformed officers on the floor. Putting PSOs — sworn, armed, and trained for railway stations — into a clinical environment raises the question of who de-escalates and who escalates, and that is a staff-safety debate with a live political deadline attached. Worth tracking because whatever wins the argument ends up in your department's response plan.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/29b85bcdf40e246c02809b3847e29df0?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "90d5201d4ed44d69a4badb1a9fab3316b12de33f74a6ad1196639ccd1dc1b49b",
+    "url": "https://www.theavantmag.com/stories/exploring-the-heritage-of-rrl-ralph-laurens-iconic-western-and-workwear-inspired-brand",
+    "title": "Exploring the Heritage of RRL",
+    "summary": "The long version of where Double RL's vocabulary comes from, with the historians who actually hold the garments.",
+    "date_published": "2024-10-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "AVANT",
+      "note": "RRL is one of the reference points the whole vintage-menswear interest hangs off, and this goes past the marketing into the sources: Lynn Downey on Levi's, Rin Tanaka and Larry McKaughan on the archives people buy from. Ralph Lauren founded it in 1993 off the Colorado ranch, and the piece is clear that the brand is a reading of real workwear, military utility and western clothing rather than an invention. Useful for knowing what you are looking at on a rack of old chore coats.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": null,
+      "icon": "https://images.squarespace-cdn.com/content/v1/5f3ecaafedcc9c4af99022a9/33901581-3d88-4e6f-a59f-c03fee494f31/favicon.ico?format=100w"
+    }
+  },
+  {
+    "id": "6b008beb6f4c3099efba7ee559c0dad1d1c3f75f4d6ff7d25397a5a66554a06f",
+    "url": "https://coreem.net/podcast/episode-226-superwarfarin-toxicity",
+    "title": "Episode 226: Superwarfarin Toxicity",
+    "summary": "Recognition, reversal and the months of vitamin K that follow — the part of brodifacoum poisoning that outlasts the ED stay.",
+    "date_published": "2026-08-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "Core EM",
+      "note": "Superwarfarins are the rodenticide that behaves nothing like warfarin: the half-life runs to weeks, so a normal INR at four hours means very little and the reversal decision is a different calculation entirely. Reandelar and Mitra keep it to the practical sequence — when to test, what to give, and how to set up the outpatient vitamin K course that actually prevents the bleed. It is the kind of low-frequency, high-consequence tox case that is worth having heard once before it walks in.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://i0.wp.com/coreem.net/content/uploads/2026/08/Superwarfarin-Toxicity.001.jpeg?fit=2000%2C2000&ssl=1",
+      "icon": "https://coreem.net/favicon.ico"
+    }
+  },
+  {
+    "id": "03d7e0d81f0df202da6cbf558fc760144391727a15109c6ba04998a9a90e3c1c",
+    "url": "https://www.35mmc.com/11/09/2026/washi-w-and-washi-y-paper-roll-film-if-you-are-ready-for-a-challenge",
+    "title": "Washi W and Washi Y — Paper Roll Film, If You're Ready",
+    "summary": "A working account of shooting emulsion coated on Japanese paper, including everything that goes wrong before it goes right.",
+    "date_published": "2026-09-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Washi's paper-base stocks are the far end of the emulsion experiments the feed has been tracking — the Fomapan ortho piece, the Lucky announcements, the Hi-Con IR revival. Paper base means no anti-halation layer, a transport that fights the camera, and development that behaves differently from anything on acetate, so the piece is mostly practical warnings. Good counterweight to the idea that new stock is just a new box.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/08/d-Hass-Washi-Y-Sleeve-6-121003-1024x988.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "cb9b67b8ef6977d35efd4acbcd31f16de4c788484a9abedb861fea4b1559dd82",
+    "url": "https://massivelyop.com/2026/09/09/runescape-dragonwilds-announces-that-its-price-wont-change-when-it-makes-its-1-0-launch",
+    "title": "Dragonwilds' price won't change at its 1.0 launch",
+    "summary": "Jagex holds the price at $30 through the 15 September 1.0 launch, four days out.",
+    "date_published": "2026-09-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "Worth noting against Enshrouded, which put its Steam price up by €10 on 8 September ahead of its own October 1.0 — two survival games you play, taking opposite approaches to leaving early access. Dragonwilds goes out on the 15th with the Scorned Wilderness raid closing the Kuldra saga, arrives on console the same day, and Jagex has committed to monthly updates after with a 2027 roadmap to come. If you were holding off on recommending it to anyone, the price question is settled.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "9d16f1942f7786acede20db6d5d8300784c7dae0d69f4d9782516454e47badfd",
+    "url": "https://www.spinmagazine.com/2026/07/hermanos-gutierrez-look-family-history-in-the-eyes-on-los-ojos-del-condor",
+    "title": "Hermanos Gutiérrez Look Family History in the Eyes",
+    "summary": "The story behind the record that lands on 25 September, told through a 1976 photograph of the brothers' father at Machu Picchu.",
+    "date_published": "2026-07-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "SPIN",
+      "note": "Hermanos Gutiérrez are on your shelf, and this is the origin piece for the album rather than the press release — Alejandro bringing in charango and the Peruvian quijada, and the 70s salsa and cumbia records the brothers collect surfacing as organ parts. Dan Auerbach produces again at Easy Eye, so it is the third record in that partnership and the first to leave the American southwest behind. Two weeks out, which makes it the right time to read it.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://static.spinmagazine.com/files/2026/07/LEADPhoto-Crop-JackieLeeYoung.jpg",
+      "icon": "https://static.spinmagazine.com/files/2023/08/cropped-logo-spin-s-340x340.png"
+    }
+  },
+  {
+    "id": "367e98e002079d0faa9f32b33e6753e588e38f34ea83e78abed38387f9f7411f",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/better-now-vegan-bakery-opens-brunswick-east",
+    "title": "Better Now Bakery Brings Vegan Treats to Brunswick East",
+    "summary": "Lygon Street's first permanent home for a farmers'-market baker whose za'atar scrolls have a following already.",
+    "date_published": "2026-09-02T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Jai Johns did the Coburg, Carlton and Alphington market circuit for years before this shopfront, so the queue is inherited rather than built from scratch. The list is scrolls with dairy-free cheese and za'atar, Persian love cake with rosewater glaze and pistachios, and miso-caramel apple turnovers — plant-based without being an exercise in substitution. Brunswick East end of Lygon, which puts it in easy range.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/08/28/Better%20Now%20Bakes_Michael%20Gardenia_17%20of%2029-3ce5915468.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
+  },
+  {
+    "id": "33703beabd5c4e0cfd109c463733564f91b7e08fa10164b50c085a8bdda0b2bc",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/frida-croutons-final-course-escape-room-restaurant-northcote",
+    "title": "Escape From Frida Crouton's Final Course in Northcote",
+    "summary": "Three courses at Poke the Bear where the puzzles are hidden in the food, from the person who built Australia's first escape room.",
+    "date_published": "2026-08-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Owen Spear and Bec DiNapoli run it out of the Northcote cafe on Friday and Saturday nights, with the conceit that a dead chef's fortune gets divided according to what you solve. $139 a head in a group of three to eight, $159 for a pair, and the kitchen is doing actual food — a smashed beef burger on milk bun, tempura hoki tacos — rather than props. Filed under things worth the ten-minute drive when someone visits.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/08/13/260807_broadsheet_escape%20room-15-74f46637a9.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
+  },
+  {
+    "id": "beca414eef06336ee4ec8a8bfb888ffd1e31cd1c33e79ba6a76d4ec1c7922bda",
+    "url": "https://www.35mmc.com/01/09/2026/a-study-in-deep-shade-a-one-shot-story",
+    "title": "A Study in Deep Shade — A One Shot Story",
+    "summary": "One frame, 8:30 on a hot English morning, and the whole reasoning behind it.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The One Shot Story format is the closest thing 35mmc has to a masterclass: a single image, the conditions, and why the exposure was placed where it was. Deep shade in hard light is exactly the metering problem the slide-film piece in the feed dances around, so the two read well together. Short, and more useful than another camera review.",
+      "published_at": "2026-09-11T16:23:19.893Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/07/Shade-3-scaled.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
   }
 ]
