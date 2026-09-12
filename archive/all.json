@@ -1875,5 +1875,216 @@
       "image": "https://www.35mmc.com/wp-content/uploads/2026/07/Shade-3-scaled.jpg",
       "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
     }
+  },
+  {
+    "id": "425d0299726ea0974f44696aff059d1712b0b5fef7f434d3eab289f075a5b75c",
+    "url": "https://litfl.com/ecg-case-137",
+    "title": "ECG Case 137 — The Monitor Says Extreme VT",
+    "summary": "Three rhythm-strip features that tell you the monitor is screaming at an artefact, not a dying patient.",
+    "date_published": "2021-12-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "A 55-year-old with exertional chest pain, and the monitor calls polymorphic VT — the discipline is in reading the strip rather than the alarm. The tells here are an onset with no R-on-T, a rate approaching 600bpm that no ventricle can sustain, and native QRS complexes marching through underneath at 60. ECG Case 130 is already in the feed; this one is the artefact counterpart to it, and the pulse-oximetry trace as a tiebreaker is worth carrying into the next resus bay.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "70d1f7bcd760543a8633bd6f84343c3957124aa23fc067ca95f163dae6fef759",
+    "url": "https://www.headphonesty.com/2026/09/pressing-plants-warning-record-labels-premium-vinyl",
+    "title": "Pressing Plants Warn Labels Off One Premium Vinyl",
+    "summary": "The plants themselves are telling labels to stop ordering the coloured and splattered variants collectors pay a premium for.",
+    "date_published": "2026-09-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Headphonesty",
+      "note": "Straight from the manufacturing end: the additives that make a record look like a marbled sweet also make it noisier and less consistent than plain black, and the people running the presses have stopped being polite about it. With 297 records on the shelf, this is the difference between paying more for a worse object and knowing when the standard press is the audiophile choice. Sits neatly against the DMM-versus-lacquer piece already in the feed — both are about what actually reaches the groove.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "8a0335701ea5c5932a8dc0c5d5c8a77782aeca965824bbe7978741ea4d614c0c",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617",
+    "title": "Ebola disease caused by Bundibugyo virus — DR Congo",
+    "summary": "The authoritative update on an outbreak now past 6,700 confirmed cases with a case fatality ratio near 48 per cent.",
+    "date_published": "2026-09-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "WHO",
+      "note": "DON616 has already run in the feed; this supersedes it with figures to 7 September, a 61st affected health zone in North Kivu, and the exported cases in Uganda and France. The detail that matters clinically is that Bundibugyo has no licensed vaccine or specific treatment — the Ervebo playbook does not apply here. For anyone who might one day take a febrile returned traveller's history, the geography and the numbers are the part worth holding.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://www.who.int/ResourcePackages/WHO/assets/whofallback.jpg",
+      "icon": "https://www.who.int/favicon.ico"
+    }
+  },
+  {
+    "id": "76130e90b3812221ec31ae42561b1d9e9bb5dcedd8229480ada478b9a9f70708",
+    "url": "https://www.coleminerecords.com/blogs/news/thee-sinseers-share-love-stories",
+    "title": "Thee Sinseers Share Love Stories",
+    "summary": "Joey Quiñones' East LA soul group land their second album on 18 September, and the label has posted the whole context.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Colemine",
+      "note": "Thee Sinseers live one shelf across from Thee Sacred Souls, Menahan Street Band and the Daptone records already in the collection — same oldies lineage, same reverence for sweet harmony and warm brass. Quiñones has pulled this one toward earthier instrumentation, standup bass and guitars run hot through amps for a sixties-adjacent tone, and says it did not feel like making soul music at any point. First-party from Colemine, so the release detail and the pressing information are the real thing rather than a repost.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://www.coleminerecords.com/cdn/shop/articles/B_W_A_1024x.jpg?v=1778243726",
+      "icon": "https://www.coleminerecords.com/cdn/shop/files/colemine_logo_favicon_96x.png?v=1613601570"
+    }
+  },
+  {
+    "id": "7e12076ad0ca68d5d68a45c443e748cbf37adaf734ae6aecf9d98fcd6079e77b",
+    "url": "https://emcrit.org/emcrit/mastering-persistent-air-leaks",
+    "title": "Mastering Persistent Air Leaks",
+    "summary": "What to do with the chest drain that keeps bubbling, from conservative management through to ultra-protective ventilation.",
+    "date_published": "2025-07-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The pneumothorax that does not seal is a problem that starts in the ED and then becomes somebody else's, which is exactly why the far end of the algorithm is worth knowing before you refer. Weingart's crew walk the whole ladder — suction settings, blood patch, endobronchial valves, and eventually VV ECMO to let the lung rest. Pairs with the CCPU lung work: the same fistula you cannot see on a film is the one you have been hunting for with the probe.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://emcrit.org/wp-content/uploads/2025/06/20250611_1000_Bronchopleural-Air-Escape_simple_compose_01jxfmhyytf3qvh0pbrym58xts-750x500.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "48df8bcd2624af97920f3131ee93583481658137eeb7c5330577b77f72827c19",
+    "url": "https://www.abc.net.au/news/2026-09-12/mildura-base-hospital-patient-dies-forgotten-referral/107141512",
+    "title": "Patient dies after referral 'forgotten' at Mildura hospital",
+    "summary": "Up to 150 Victorian patients waited over a year because their paper referrals sat in a box, and Safer Care Victoria is now reviewing it.",
+    "date_published": "2026-09-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "This is the Victorian health system he works inside failing at the least glamorous point — referral administration, on paper, in 2026. Mildura Base has been in the news all year for ED locum gaps and an executive restructure, and this is the consequence rather than the governance story. The state is mid-rollout of electronic medical records and CareSync Exchange; this is the argument for that rollout written in the bluntest possible terms.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/82295644f43d687a1ccd6a10ceadda32?impolicy=wcms_watermark_news&cropH=1772&cropW=3151&xPos=231&yPos=3&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "97a7a08949c2b0daba47b8395948fa2b690bd17a4ec3721c6523f3649a0d8c70",
+    "url": "https://www.heddels.com/2018/01/woolrich-history-philosophy-iconic-products-2",
+    "title": "Woolrich — History, Philosophy, Iconic Products",
+    "summary": "The full account of America's oldest continuously operating outdoor clothing maker, mill and all.",
+    "date_published": "2018-01-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "Woolrich is one of the four reference points the brief names, and until now the feed has had flannel, chore coats and Levi's dating guides but nothing on the mill itself. The through-line is worth having: railroad workers, two world wars, the buffalo check, and a woollen mill that never stopped running in Pennsylvania. It is the provenance argument for anything Woolrich-labelled you might find in a vintage rack on Smith Street.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "611dc8cba820f82a761a5592b64cbb43e868a788cbc06af01e9df934fd159ebb",
+    "url": "https://www.35mmc.com/10/09/2026/experimenting-with-ir-filters",
+    "title": "Experimenting with IR Filters",
+    "summary": "Side-by-side results from a stack of different IR filters, so you can see what each cutoff actually does before buying one.",
+    "date_published": "2026-09-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The Hi-Con IR piece in the feed covered the emulsion coming back; this is the other half of the problem, which is the glass in front of it. Comparative frames through several filters make the tradeoff legible — how far into the red you cut, how much exposure you give away, how strange the foliage goes. Practical rather than mystical, which is the useful register for a technique that mostly gets written about in adjectives.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/08/A7R4390-1.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "7941374032949b8caab2866a225cd8db1552e19d73ca6a446092d7677112e52c",
+    "url": "https://blog.playstation.com/2026/09/03/first-look-at-the-grand-theft-auto-vi-limited-edition-dualsense-wireless-controllers",
+    "title": "First Look at the GTA VI Limited-Edition DualSense Controllers",
+    "summary": "Two Vice City DualSense designs, with the pre-order date and the pricing, ahead of GTA VI's 19 November PS5 launch.",
+    "date_published": "2026-09-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "PlayStation Blog",
+      "note": "First-party and dated, which is what makes it worth linking rather than the twenty aggregator rewrites of it — pre-orders opened 10 September, the controllers land 19 November alongside the game, and direct.playstation.com stock is limited. The white one is Vice City at daybreak, the black one is the nightlife; both are the usual haptics-and-adaptive-triggers pitch. If a GTA VI launch-day plan is happening, this is the bit with a deadline attached to it.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://blog.playstation.com/tachyon/2026/09/a5bd4c6e9ca55c1e1fe1705b79e86300f205831f.png",
+      "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+    }
+  },
+  {
+    "id": "8b9ffefbc808e516adf7c0ce860c051f5c42eae1618c47356dc184cca0d39f45",
+    "url": "https://dontforgetthebubbles.com/virtual-ed",
+    "title": "Can a Paediatric Emergency Department Fit Inside a Laptop?",
+    "summary": "A hard look at the Victorian Virtual ED after 380,000 paediatric consultations — what it actually diverts, and what it does not.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "DFTB",
+      "note": "The VVED is a Victorian service, run out of Northern Health, and it is now one of the largest paediatric virtual EDs anywhere — so this is a piece about the department down the road from his, not a foreign model. Worth reading for what the data says about which presentations are genuinely safe to see through a screen and which quietly end up in a physical ED anyway. It is the system side of the same crowding story the regional-ED items in the feed were telling from the inside.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2026/09/VVED-HEADER.png?fit=560%2C315&ssl=1",
+      "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "5f35f4c8960ce2d1470b97962eaba433d22b5dc710a84143a7f8b81daf896bd9",
+    "url": "https://maph.org.au/exhibitions/326",
+    "title": "Bowness Photography Prize 2026",
+    "summary": "Fifty finalists from 750 entries, hung at Wheelers Hill from today until 8 November.",
+    "date_published": "2026-09-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "MAPh",
+      "note": "Australia's most significant photography prize, in its 21st year, and this year's field explicitly ranges across darkroom-based practice as well as digital — which is the part worth the drive out to Ferntree Gully Road. Judged by Natasha Bullock, Petrina Hicks and Anouska Phizacklea, with the winner announced on 17 September, so going after that date means seeing the field and the verdict together. It opens today and runs until 8 November, so there is no rush, but there is a reason to go.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": null,
+      "icon": "https://maph.org.au/static/images/favicon.png"
+    }
+  },
+  {
+    "id": "5c74fa39676158f0316c6a28ab0be7fdbc465260f8a9e73af98a6a22a7aefeeb",
+    "url": "https://shootitwithfilm.com/every-film-ever-an-interview-with-lenny-alvarez",
+    "title": "Every Film Ever: An Interview with Lenny Alvarez",
+    "summary": "The man cataloguing every film stock ever made, on why the boxes and the dead emulsions are worth keeping.",
+    "date_published": "2026-08-29T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Shoot It w/ Film",
+      "note": "A first appearance in the feed for Shoot It With Film, and a good reason for it — Alvarez is building the reference work nobody else is building, down to packaging for emulsions discontinued decades ago. Useful context for the Fomapan, Washi and China Lucky items that have run here recently: new stocks keep arriving, and almost all of them are reaching back to something that already existed. Read it as an argument for why the film you shoot has a history worth knowing.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://shootitwithfilm.com/wp-content/uploads/2026/08/Every-Film-Ever-by-Lenny-Alvarez-on-Shoot-It-With-Film-Featured-Image.jpg",
+      "icon": null
+    }
+  },
+  {
+    "id": "0fcb313502acd867091812e86643ebb9af386b285ae413bb07dc5c236f6b2769",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/brunswick-picture-house",
+    "title": "Brunswick Picture House Is More Than Just a Movie Theatre",
+    "summary": "The Thornbury Picture House pair's second cinema, in a converted 1920s petrol station on Sydney Road, where you can just come for a drink.",
+    "date_published": "2025-11-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Gus and Lou Berger took eighteen months over the conversion and built something bigger than Thornbury — eighty seats, a six-and-a-half-metre screen, and a bar that locals use whether or not anything is screening. The programming is the point: special screenings, DJ sets, live music, Q&As and independent festivals rather than a release schedule. Sydney Road Brunswick, so it is a tram ride rather than an expedition.",
+      "published_at": "2026-09-12T16:18:57.185Z",
+      "image": "https://cdn.broadsheet.com.au/images/2025/12/09/Brunswick%20Picture%20House%20-%20Casey%20Horsfield_05%20of%2076-db45670cb8.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
   }
 ]
