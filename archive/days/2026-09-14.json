@@ -1,0 +1,203 @@
+{
+  "day": "2026-09-14",
+  "ran_at": "2026-09-13T16:18:09.805Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "b1c79f35dda59589f9c96f8b3f3418439a41364351f60643af677fae7f9e932b",
+      "url": "https://emergencymedicinecases.com/facial-injuries-assessment-management-disposition",
+      "title": "Facial Injuries: Assessment, Management and Disposition",
+      "summary": "A top-down approach to the face that keeps the airway, the eye and the septum from being the thing you missed.",
+      "date_published": "2026-06-30T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EM Cases",
+        "note": "Fialkov and Petrosoniak build the episode around four traps — the threatened airway, orbital compartment syndrome, the missed septal haematoma, and soft-tissue injury hiding under intact skin. Maxillofacial trauma at registrar level is a case mix where the hard call is disposition rather than diagnosis, and this is a rare piece of teaching that spends its time there. It is the trauma-side counterpart to the ECG and ultrasound material already in the feed.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "0d66960f43df347e7f7970dea13fdb52284e050b0ccff5d86c82bacdedbb5ce2",
+      "url": "https://emergencymedicineireland.com/tasty-morsels-of-critical-care-094-haemoglobin-targets-in-critical-care",
+      "title": "Tasty Morsels 094: Haemoglobin targets in critical care",
+      "summary": "Twenty years of transfusion trials compressed into the ten minutes before you have to pick a number.",
+      "date_published": "2026-03-30T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EM Ireland",
+        "note": "Andy Neill works from Oh's Manual chapter 97 and walks the restrictive-versus-liberal evidence to where it actually lands at the bedside. Transfusion thresholds tend to get settled by departmental habit rather than by the trials, and this is short enough to fix that on a coffee break. Number 095 on blunt cerebrovascular injury is already in the feed — this is the one worth going back for.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": null,
+        "icon": "https://emergencymedicineireland.com/favicon.ico"
+      }
+    },
+    {
+      "id": "0d23f17da6e75534286246b939b1e51dff024441cee31e48ac32e7fcb6173c82",
+      "url": "https://emcrit.org/emcrit/racc-lit-september-2026",
+      "title": "EMCrit RACC Lit Review — September 2026",
+      "summary": "The month's resuscitation and critical care papers filtered by people working the same shifts he is.",
+      "date_published": "2026-09-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "The RACC lit review runs as a triage list rather than a reading list: what changes practice, what to ignore, and why. It sits directly downstream of the 2026 PE and sepsis updates already in the feed, so it is the cheapest way to stop this year's guideline churn getting ahead of him. Skim it on a night shift and flag one or two papers to read properly.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://emcrit.org/wp-content/uploads/2022/09/racc-lit-review.jpg",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "4e7f2ed958e30667d0b95ef7000880d813d9bf5b3f1d8f5aabee587ed700f630",
+      "url": "https://aquariumdrunkard.com/2026/09/13/well-travelled-talk-talks-final-live-performances-40-years-on",
+      "title": "Talk Talk's Final Live Performances, 40 Years On",
+      "summary": "The band walked off stage in 1986 and never came back — this is what those last nights actually sounded like.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Talk Talk's retreat from the stage into Spirit of Eden is the origin point for most of the quiet, room-tone end of his shelf — This Will Destroy You, For Emma, the slower half of Radiohead. Aquarium Drunkard treats the Spanish shows as the hinge rather than a footnote. Good listening-chair reading if the collection is going to keep growing in that direction.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/04/talk-talk-live-montreaux.jpeg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "19e067634ad56519ce54cff1e679b02ef5de84dd283ba2326f96b4c2bd0cede3",
+      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration",
+      "title": "Healthcare AI's next test is integration",
+      "summary": "The argument that clinical AI's bottleneck is now workflow plumbing rather than model capability.",
+      "date_published": "2026-09-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "MIT Tech Review",
+        "note": "Models can already read a long chart, parse the terminology and summarise it; what they cannot do is survive the fragmented administrative systems a hospital actually runs on. That gap explains why scribing and triage tools keep landing well in demos and badly on the floor. It reads as the follow-on to the April piece on whether health-care AI helps patients, already in the feed.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/Ensemble-contributed-iStock-2263561985.jpg?resize=1200,600",
+        "icon": null
+      }
+    },
+    {
+      "id": "20d8f513c8e2550e54b39cca5dfdb990425bc2f9dc022b2a1706d7d19a6263ad",
+      "url": "https://www.heddels.com/2026/09/get-roped-in-blue-beach-denims-custom-unmarked-roper-boots",
+      "title": "Blue Beach Denim's Custom Unmarked Roper Boots",
+      "summary": "The cowboy boot rebuilt for people who actually had to walk in it, which is why it reads as workwear not costume.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "John Justin Jr. cut the heel down and rounded the toe in the 1950s because ropers asked for something they could stand up in all day. A shape that exists because of the job is the same argument the Woolrich and chore-coat pieces in the feed make about cloth. Unmarked's version is the wearable modern end of it, and sits closer to RRL territory than to novelty western.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "544b035975949baab8a950fe8ba838979fc40eaa0046ae4d69b0808650b7f1c9",
+      "url": "https://www.heddels.com/2026/09/a-closer-look-at-bleu-de-chauffe-fw26-selvedge-denim-new-business-bags-more",
+      "title": "A Closer Look at Bleu de Chauffe FW26",
+      "summary": "The French workwear house's autumn bags in selvedge denim and stonewashed canvas, with the making shown.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Bleu de Chauffe takes its name from the boiler-suit blue covered in the bleu de travail piece already in the feed, and it is one of the few makers still cutting and stitching canvas and vegetable-tanned leather by hand in the Aveyron. This drop puts selvedge denim on the bags rather than the trousers. Provenance-first rather than seasonal, which is the only reason a lookbook earns a slot here.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "be23456112d9bba002b1dadad71a3df17751493a862e22dccb1a1c695b682449",
+      "url": "https://www.abc.net.au/news/2026-09-09/woman-attacked-princess-alexandra-hospital/107108610",
+      "title": "Woman badly injured in alleged attack in hospital ED",
+      "summary": "ACEM's president calls ED violence hugely significant and hugely under-reported — the under-reporting is the story.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "A 73-year-old patient was allegedly assaulted inside the emergency department at Princess Alexandra. Peter Allely uses the case to press the college's line that occupational violence in EDs is systematically under-recorded nationwide, which is the part that reaches his own department rather than Brisbane's. It is the safety leg of the same problem as the regional workforce and ED-load stories already in the feed.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/0defa263ff45f3a8f24bcabea4000fd8?impolicy=wcms_watermark_news&cropH=470&cropW=835&xPos=2&yPos=55&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "4328cb79bb3bbc56432cc3c38b6bd0d4fb3e8b2f7729d4d8768cce6bcc77aebc",
+      "url": "https://blog.playstation.com/2026/09/03/jin-sakai-returns-in-ghost-of-yotei-most-wanted",
+      "title": "Jin Sakai returns in Ghost of Yotei: Most Wanted",
+      "summary": "Sucker Punch's roguelike survival mode, with the Tsushima protagonist and all four stances, out 1 October.",
+      "date_published": "2026-09-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PlayStation Blog",
+        "note": "Most Wanted ships alongside the Echoes of Sekigahara narrative expansion in the Complete Edition, with a $14.99 upgrade if you already own the base game. This is the first-party post out of the September State of Play rather than the aggregated round-up already in the feed. The escalating-bounty structure makes it closer to an arcade mode than to the campaign, which is the part worth knowing before paying for the upgrade.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://blog.playstation.com/tachyon/2026/09/90de947bea07604563418f7274fbbcded7749303.png",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "c5629e8816504f8eaaa258c140da58db9aca329ebfb366effe71effca9871d50",
+      "url": "https://enshrouded.com/en-US/news/enshrouded-10-release-date-reveal",
+      "title": "Enshrouded — 1.0 Release Date Reveal",
+      "summary": "First-party confirmation that the survival game he has been playing in early access goes 1.0 on 15 October.",
+      "date_published": "2026-06-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Enshrouded",
+        "note": "Keen Games put PC and PS5 on the same day and pushed Xbox back to spring 2027 rather than ship it rough, which is the good version of that decision given he plays on both platforms it kept. This is the announcement post itself rather than coverage of it. It also sets up an odd month: Dragonwilds leaves early access on 15 September and Enshrouded follows on 15 October, so both survival games in the feed hit 1.0 inside thirty days.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://enshrouded.com/uploads/resized260625_SOCIALS_16x9_EN_1_0_RELEASE_DATE_REVEAL_THUMBNAIL_31a4700516.jpg",
+        "icon": "https://enshrouded.com/favicon.ico"
+      }
+    },
+    {
+      "id": "dffa3f480f4ad77d49bfe0fa70746d74b75b47dfa18fd4f96906b592b1ee4fc8",
+      "url": "https://kosmofoto.com/2026/05/introducing-kosmo-fotos-new-film-direktor",
+      "title": "Introducing Kosmo Foto's new film — Direktor",
+      "summary": "Re-rolled Eastman Double-X in 35mm cassettes, sold in limited batches rather than as a standing stock.",
+      "date_published": "2026-05-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "photography",
+        "source": "Kosmo Foto",
+        "note": "Double-X is the black-and-white cine stock behind Raging Bull and Oppenheimer, and getting it in a loaded 35mm cassette without hand-rolling bulk film is the actual news. Kosmo Foto is releasing it in limited batches, so it is not a shelf item — that matters if he wants any. It is the third strand of the same story as the Kodak range and China Lucky emulsion news already in the feed: new black-and-white stock is genuinely coming back.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/05/roll-and-canister_1500.jpg?fit=1200%2C1103&",
+        "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "b90507e4e8dafa3084b4eadc566119736a8ddfe1dce85398a93792db8cf103f1",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/chabela-new-mexican-restaurant-thornbury",
+      "title": "Chabela Brings the Food of Mexico City to Thornbury",
+      "summary": "A Thornbury dining room built by two people who spent five years eating in Coyoacán and could not find it here.",
+      "date_published": "2026-05-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Harry Lawrence and Karla Martinez opened on High Street after a decade of failing to find CDMX cooking in Melbourne, and the starters read as street snacks — prawn aguachile tostadas, corn poached in bone marrow — rather than a Tex-Mex menu. It is a short run up High Street from the Northcote and Preston places already in the feed. Worth keeping on the list for the nights when Nina and Community Wine House are booked out.",
+        "published_at": "2026-09-13T16:18:09.805Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/04/30/Chabela%20-%20April%202026%20-%20Thornbury%20-%2017-a6c2e6bea3.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
