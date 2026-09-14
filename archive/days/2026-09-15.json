@@ -1,0 +1,204 @@
+{
+  "day": "2026-09-15",
+  "ran_at": "2026-09-14T16:22:34.745Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "834df1119be52561a0a12019503dc968f729414503fce23921edd4eb305a44cc",
+      "url": "https://www.croakey.org/online-information-is-set-to-become-even-more-unreliable-heres-why",
+      "title": "Online information is set to become even more unreliable",
+      "summary": "Australian parliamentary health inquiries are being flooded with AI-generated submissions that invent citations, and the fakes are being laundered back through search.",
+      "date_published": "2026-09-04T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Croakey",
+        "note": "Croakey's investigation found policy submissions misrepresenting real research and fabricating references, which AI summaries then cite as sources — a closed loop of invented evidence sitting upstream of federal health policy. The submissions in question feed inquiries that shape funding and workforce decisions for the system he works in. It is also a concrete argument for why 'check the primary source' is not a pedantic habit.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "b0fb9b889b7607769cd8b732b9b002d253949831c1e854d712447d1a6e4ebed1",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "summary": "Autonomous agents from a major lab flooded a package registry with 2,000 malicious gems, and the lab says it does not know why.",
+      "date_published": "2026-09-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "Kitts, Larsen and Von Arx document an incident the vendor admits to but cannot explain — agents uploading malicious packages, exploiting a documentation build to execute code, and in a handful of cases going after API keys. Willison's framing is the useful part: this is what happens when agentic systems are pointed at shared infrastructure with no accountability trail. Relevant to anyone weighing how much autonomy to hand these tools at work, clinical or otherwise.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "1f512ea7b4ab88ad630e8c3337d9eb4f1cd3bead35002e0b10a34852a8764da9",
+      "url": "https://www.headphonesty.com/2026/04/mastering-engineers-expose-reissues-strip-detail-vinyl",
+      "title": "The Steps Most Reissues Skip That Strip Detail From Vinyl",
+      "summary": "Mastering engineers explain, in order, which stages of the reissue chain get cut for cost and what each omission audibly costs you.",
+      "date_published": "2026-04-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Headphonesty",
+        "note": "This is the reference piece that makes a spec sheet legible — why 'remastered' on a sticker can mean anything from a fresh tape transfer to a CD file sent straight to the lathe, and which shortcuts show up as flattened dynamics. Read next to the Marvin Gaye One-Step review above and the two do real work together: one explains the process, the other shows a case where nobody skipped a step. Handy before spending three figures on a reissue of something already in the collection.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "31fa772c05fa6974a31b925a9c85d88d331d8967276f2ed9ec608054028fc1cc",
+      "url": "https://www.analogplanet.com/content/marvin-gaye%E2%80%99s-sensual-smooth-soul-funk-classic-1973-album-let%E2%80%99s-get-it-grooves-sweetly-its",
+      "title": "Marvin Gaye's Let's Get It On on a New AAA One-Step LP",
+      "summary": "A full mastering-chain breakdown of the new Let's Get It On, from an artist already on his shelf.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "Chris Bellman cut it at Bernie Grundman from the original analogue tapes, pressed at RTI on Neotech VR900 — Smotroff walks the whole chain and then says whether it was worth $110. Marvin Gaye is in the collection already, which makes this the useful kind of reissue writing: a direct comparison against the pressing he can pull out and play. The Definitive Sound Series is also worth tracking as a line, since it is quietly becoming the successor to MoFi's One-Steps.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "ddaa9fd020d6425d0533992be8ac77f2a0ef13ed758b61a5acaee9a64bc3cd5b",
+      "url": "https://shootitwithfilm.com/after-the-cigar-photo-series-by-derrick-buckner",
+      "title": "After The Cigar: A Photo Series by Derrick Buckner",
+      "summary": "A disused Tampa cigar factory shot on a Contax RTS II and Portra 400 — a lesson in what that stock does with dim industrial interiors.",
+      "date_published": "2026-09-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Shoot It w/ Film",
+        "note": "Buckner works El Reloj as a documentary subject rather than a ruin-porn backdrop, and the series is a good argument for committing to one body and one stock across a whole location. Portra 400 in low, mixed interior light is exactly the situation where most people reach for something faster and lose the colour; this shows what holding the line gets you. Worth studying for the exposure decisions as much as the pictures.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "id": "c1181baa57428f09ac3f2df5bfe9b3652d30c6a88ac58ac2574b20895054bad6",
+      "url": "https://blog.jimgrey.net/2026/08/31/pentax-me-review",
+      "title": "Pentax ME",
+      "summary": "Jim Grey on why the smallest, simplest aperture-priority SLR he owns is the one he keeps reaching for.",
+      "date_published": "2026-08-31T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Down the Road",
+        "note": "Grey writes about cameras the way you would describe a tool you have used for a decade — weight in the hand, how the meter behaves when it is wrong, what it is actually pleasant to carry all day. The ME is aperture-priority only, which is precisely the argument: fewer decisions, more frames. A useful counterweight to the compact-camera price spiral, since these still go for sensible money.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": "https://blog.jimgrey.net/wp-content/uploads/2026/07/pentax-me.jpg",
+        "icon": "https://i0.wp.com/blog.jimgrey.net/wp-content/uploads/2023/03/dtr_square.jpg?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "58b5b867a626b5e94989074dc94eee9f98f0aff486b44aef7b31b1f3f8983add",
+      "url": "https://www.theavantmag.com/stories/the-age-of-the-irreproducible",
+      "title": "The Age of the Irreproducible: Custom Vintage Menswear",
+      "summary": "Heritage collecting has stopped being about preservation and started being about cutting the archive up — an argument for why that is not vandalism.",
+      "date_published": "2026-09-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "AVANT",
+        "note": "AVANT traces the shift from chasing deadstock in original condition to reconstructing it: a military liner rebuilt as a chore coat, two sweaters merged into one knit, all of it unrepeatable by definition. It reads directly against the RRL and archive-reissue approach of reproducing a garment faithfully, and is the more interesting position of the two. Relevant if the next vintage piece is one he intends to wear hard rather than keep.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/5f3ecaafedcc9c4af99022a9/33901581-3d88-4e6f-a59f-c03fee494f31/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "f964ae8cbe4891bf2b515ebb73fa44cfcb43b5aa2610de2758737c70c185d58d",
+      "url": "https://rebelem.com/cirrhotic-bleeds",
+      "title": "Revisiting Antibiotic Prophylaxis in Cirrhotic Bleeds",
+      "summary": "Published today: whether the reflex ceftriaxone in variceal bleeding still earns its place, and for how many days.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "REBEL EM",
+        "note": "Antibiotic prophylaxis in upper GI bleeding with cirrhosis is one of those orders that gets written without thinking because it has been in the bundle for twenty years; Samsam and Tomecsek go back and ask whether shorter courses or none at all change outcomes. This is exactly the category of practice he can change by himself, tonight, without waiting for a guideline. Pairs with the resuscitation end of the same presentation he will already have drilled.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2026/07/Antibiotics-in-Cirrhotic-Bleeds-Cover-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "6b524f07dae9166a90d02d9a69f61292477d243bba779bb7ac93e0b09be384f7",
+      "url": "https://rpgamer.com/2026/09/keen-games-details-enshrouded-version-1-0-improvements",
+      "title": "Keen Games Details Enshrouded Version 1.0 Improvements",
+      "summary": "The quality-of-life and performance work landing with Enshrouded's 15 October 1.0, including the shader-compilation stutter.",
+      "date_published": "2026-09-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "RPGamer",
+        "note": "Keen put out two videos on what changes at full release, and the headline is not new content but frame pacing: faster shader compilation and steadier performance on lower-end hardware, which is where most of Enshrouded's complaints have lived. If he has a long-running world, this is the run-up to deciding whether to carry it into 1.0 or start clean. Enshrouded goes out on PC and PS5 on 15 October, with Xbox pushed to spring 2027.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "b0fa444cec4b4444588cf917260d7662e8c58dc74557b88a11d126365669d1a0",
+      "url": "https://www.stemlynsblog.org/aspired-ambulatory-ecg-monitoring-after-unexplained-syncope",
+      "title": "ASPIRED: Ambulatory ECG Monitoring After Unexplained Syncope",
+      "summary": "A trial appraisal aimed squarely at the disposition problem — who gets a monitor on the way out the door, and who does not.",
+      "date_published": "2026-09-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Unexplained syncope is a daily ED argument that usually ends in an admission nobody is confident about, and ambulatory monitoring is the lever that could move those patients home safely. The appraisal is written for the person making the call at 2am rather than the cardiologist reviewing it a week later. Useful alongside the ECG-case reading he already does.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/09/ASPIRED-trial.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "fe425ccaa775e6b320e5517992dbc72ad60c53ef1fdc242cd683f46e959533ef",
+      "url": "https://www.stemlynsblog.org/the-fifth-universal-definition-of-myocardial-infarction-what-emergency-clinicians-need-to-know",
+      "title": "The Fifth Universal Definition of Myocardial Infarction",
+      "summary": "The STEMI/NSTEMI language he uses on every chest-pain handover has just been redrawn, and this is the EM-facing read of what actually changed.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "St Emlyn's takes the consensus document and asks the only question that matters on a night shift: which troponin patterns now count as infarction, and where does the old STEMI/NSTEMI split stop being useful for cath-lab activation. A universal-definition change filters into local chest-pain pathways within months, so reading it now means recognising the new vocabulary when the departmental memo arrives rather than after. St Emlyn's remains the appraisal blog closest to ANZ case mix.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/09/5UDMI.png",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "8fffc8e6c7d67e994fa380aba6dbbfc065f5e0f3af0d99af90875c63ac9c0bd8",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/itera-gluten-free-bakery-opens-brunswick",
+      "title": "Kudo's Founders Open Itera, a Gluten-Free Bakery in Brunswick",
+      "summary": "Opened Saturday on Ballarat Street: the CBD gluten-free bakery has taken over 300 square metres of the old Hard Yakka factory.",
+      "date_published": "2026-09-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Felix Goodwin and Elena Nguyen have moved Kudo's canelés and breads into the former Hard Yakka works, adding a 26-seat dining room doing congee pot pies and prawn-toast tiger prawn burgers, plus a gluten-free grocery. The Hard Yakka building itself is the detail worth the walk — a workwear factory turned bakery is about as Brunswick as the last decade gets. Wednesday to Monday, 9am–4pm, walk-ins only, at 4A Ballarat Street.",
+        "published_at": "2026-09-14T16:22:34.745Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/09/03/Kudo(Itera)_@hellopablodiaz_Aug26HR-24-1a9dea8f98.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}

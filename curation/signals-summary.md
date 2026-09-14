@@ -4,7 +4,7 @@ Written by the generator from dismissal and rating signals. Read this alongside
 `interests.md`: it is evidence of what actually landed, not a change to the brief.
 It never overrides merit — a weak item in a liked topic is still a weak item.
 
-Rated up: 2 · dismissed as not relevant: 0 · read: 4
+Rated up: 2 · dismissed as not relevant: 0 · read: 6
 
 ## More of this
 
