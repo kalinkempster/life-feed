@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://www.stemlynsblog.org/jc-peri-intubation-cardiovascular-collapse-in-critically-ill-patients/",
+      "title": "JC: Peri-intubation cardiovascular collapse",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "The crash after the tube goes in is the part of RSI nobody rehearses, and this pulls apart who it happens to and why.",
+      "note": "St Emlyn's works the Mayo review of peri-intubation collapse from the resus-room end rather than the anaesthetic one, which is the case mix he actually sees. It sits directly alongside the shock-physiology and RUSH material already in the feed: the same haemodynamics, but at the single moment where a sick patient is most likely to arrest. Worth reading before the next borderline intubation, not after it.",
+      "date_published": "2026-08-05"
+    },
+    {
+      "url": "https://emcrit.org/emcrit/ecg-acute-pulmonary-embolism/",
+      "title": "ECGs in Acute Pulmonary Embolism",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Pendell Meyers on the squiggles that should send you looking for a clot, built around a missed-PE malpractice case.",
+      "note": "This is the bridge between the two threads the feed has been running separately — the PE cluster (crashing PE, the STORM and PEITHO trials, 'goodbye massive and submassive') and the LITFL ECG cases. Weingart built the episode around a case where the ECG findings were there and nobody joined them up. Pattern recognition that pays off in triage, before the CTPA is even ordered.",
+      "date_published": "2026-02-01"
+    },
+    {
+      "url": "https://rebelem.com/pocus-use-in-shock-resuscitation/",
+      "title": "POCUS Use in Shock Resuscitation",
+      "source": "REBEL EM",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "What the evidence actually shows POCUS changes in undifferentiated shock — including where IVC reading goes wrong.",
+      "note": "Straight CCPU territory, and a useful counterweight to the protocol-led pieces already in the feed (RUSH, CLUE, ultrasound in cardiac arrest). Karnicki is careful about the difference between a scan that changes the diagnosis and a scan that changes the outcome, and is blunt about inexperienced operators over-reading IVC dynamics. Read it as the 'why' behind the protocols rather than another protocol.",
+      "date_published": "2026-01-05"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-09-04/health-ministers-meeting-private-health-hospital-beds/107109926",
+      "title": "Commonwealth stares down states on private health changes",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A rebate change that Victoria says would push more older patients into public EDs — his EDs.",
+      "note": "Ingrid Stitt is on the record saying any change leaving older Victorians worse off is unacceptable, precisely because the overflow lands in public hospital beds. This is the system-level version of the regional-ED demand story the feed already carried: same pressure, one funding layer up. Worth knowing where a policy argument in Canberra shows up as a bed-block problem on a Tuesday night.",
+      "date_published": "2026-09-04"
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "source": "MIT Tech Review",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Amodei, Altman, Musk and Hassabis have converged on the same warning at once — this asks what that convergence is worth.",
+      "note": "The feed's AI reading has been mostly capability and deployment — GPT-6, the OpenAI research piece, healthcare AI integration. This is the other half: the people shipping the models arguing in public that the current generation isn't safe. Given he's watching AI arrive in clinical tooling, the question of who gets to set the brakes is not abstract.",
+      "date_published": "2026-09-14"
+    },
+    {
+      "url": "https://dragonwilds.runescape.com/news/launch",
+      "title": "Our 1.0 Release is live!",
+      "source": "Dragonwilds",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "First-party launch post for the 1.0 he's been tracking since the road-to-release note — live as of today.",
+      "note": "Out of early access today with the Scorned Wilderness raid, Runite tier, crossplay across PC/PS5/Xbox/Switch 2, and the Kuldra saga finally finished. The combat rework that was trailed in 0.12.1 — parry into Visceral Attacks, rebalanced stamina, the Old School special attack bar — ships with it. It's also day one on PS Plus Extra, so there's nothing to buy if he wants to pick it back up.",
+      "date_published": "2026-09-15"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/09/08/way-dynamic-massive-shoe/",
+      "title": "Way Dynamic :: Massive Shoe",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "A Melbourne multi-instrumentalist getting the Aquarium Drunkard treatment — local, and findable in local shops.",
+      "note": "Dylan Young records as Way Dynamic out of Melbourne, and the arrangements are sparse in a way that sits closer to the Khruangbin and Glass Beams end of the shelf than to anything loud. Aquarium Drunkard rarely looks this far south, which is half the reason to pay attention. Northside Records or Rocksteady are the obvious places to ask.",
+      "date_published": "2026-09-08"
+    },
+    {
+      "url": "https://daily.bandcamp.com/label-profile/colemine-records-label-guide",
+      "title": "Colemine Records Keeps It Funky",
+      "source": "Bandcamp Daily",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "A map of the label that sits directly next to the Daptone shelf, from the 45s up.",
+      "note": "The collection already runs deep on the Brooklyn side of the modern soul revival — Sharon Jones, Menahan Street Band, Thee Sacred Souls — and Colemine is the Ohio answer to it, built on gritty instrumental funk 45s rather than albums. Blake Gillespie traces it from a Honda hatchback to Durand Jones and Thee Sinseers. Useful as a dig list rather than news: it tells you which catalogue numbers to chase.",
+      "date_published": "2019-08-21"
+    },
+    {
+      "url": "https://www.analog.cafe/r/film-photography-in-2016-vs-2026-2hth",
+      "title": "Film Photography in 2016 vs. 2026",
+      "source": "Analog.Cafe",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Ten years of the film revival measured honestly, including what it now costs to do what used to be casual.",
+      "note": "2016 was the bottom of the market collapse; the piece is built from community replies about what shooting film felt like then versus now. The price story is the blunt one, but the more interesting thread is how people's reasons for shooting changed. Good context for the Kodak and Foma stock news the feed keeps carrying — this is the demand side of it.",
+      "date_published": "2026-01-20"
+    },
+    {
+      "url": "https://kosmofoto.com/2026/04/eastman-kodak-releases-new-verita-200d-colour-negative-cinema-film/",
+      "title": "Eastman Kodak releases new Verita 200D cinema film",
+      "source": "Kosmo Foto",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A genuinely new Kodak colour emulsion — not a Vision3 variant — and one that will end up re-rolled into 35mm.",
+      "note": "Verita 200D was developed against a specific production (Euphoria's third season, over a million feet of it) and Kodak describes it as warmer and more saturated than Vision3, with different shadow and highlight behaviour. Every recent Kodak cinema stock has eventually reached still shooters through re-rollers, the way Double-X became Kosmo's Direktor. Worth filing now so the ECN-2 arithmetic isn't new when it turns up in a shop.",
+      "date_published": "2026-04-12"
+    },
+    {
+      "url": "https://www.heddels.com/2026/09/fade-friday-iron-heart-ih-634sr-5-years-20-washes-5-soaks/",
+      "title": "Fade Friday: Iron Heart IH-634SR (5 Years, 20 Washes)",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Six years of one pair of heavyweight raw denim, documented wash by wash — provenance you can actually see.",
+      "note": "Fade Friday is the only fashion writing that treats a garment as a record of its wearer rather than a product launch, which is the whole argument for buying this way. Adam Welch's 634SR has the wear map — honeycombs, whiskers, the repairs — after 20 washes and five soaks. Useful calibration against the Australian makers on his list, where the cloth is lighter and the wear reads differently.",
+      "date_published": "2026-09-11"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/scroll-lab-opens-brunswick-west",
+      "title": "Scroll Lab Brings Sticky, Fluffy Bakes to Brunswick West",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Ballarat's scroll bakery lands on Grantham Street with a Vegemite-and-parmesan laminate that shouldn't work.",
+      "note": "Daniel Shrimpton is doing naturally leavened brioche rather than the croissant-dough shortcut most of the scroll shops use, which is the actual point of difference. Flavours run to Thai milk tea with crispy rice and palm-sugar caramel, plus the honey-parmesan-olive-oil Vegemite one. Grantham Street, Brunswick West, coffee from Rumble — walkable from the Brunswick bakeries already on the list.",
+      "date_published": "2026-08-28"
+    }
+  ]
+}
