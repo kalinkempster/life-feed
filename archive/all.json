@@ -2477,5 +2477,198 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/09/03/Kudo(Itera)_@hellopablodiaz_Aug26HR-24-1a9dea8f98.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "e8e4e3637194fdb8b31340e57ea25b04a1cd35c166c8bb5f68cca5da1f8c6016",
+    "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now",
+    "title": "The AI industry has taken a doomer turn. What now?",
+    "summary": "Amodei, Altman, Musk and Hassabis have converged on the same warning at once — this asks what that convergence is worth.",
+    "date_published": "2026-09-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "MIT Tech Review",
+      "note": "The feed's AI reading has been mostly capability and deployment — GPT-6, the OpenAI research piece, healthcare AI integration. This is the other half: the people shipping the models arguing in public that the current generation isn't safe. Given he's watching AI arrive in clinical tooling, the question of who gets to set the brakes is not abstract.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260911_AIAlgo.jpg?resize=1200,600",
+      "icon": null
+    }
+  },
+  {
+    "id": "51e8744bbce0fe11255870f9c6cfdfa9b99e76897680464ab745e1eef6ef7d9f",
+    "url": "https://www.abc.net.au/news/2026-09-04/health-ministers-meeting-private-health-hospital-beds/107109926",
+    "title": "Commonwealth stares down states on private health changes",
+    "summary": "A rebate change that Victoria says would push more older patients into public EDs — his EDs.",
+    "date_published": "2026-09-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "Ingrid Stitt is on the record saying any change leaving older Victorians worse off is unacceptable, precisely because the overflow lands in public hospital beds. This is the system-level version of the regional-ED demand story the feed already carried: same pressure, one funding layer up. Worth knowing where a policy argument in Canberra shows up as a bed-block problem on a Tuesday night.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/d6ddefdc82530c021e0d4cccf8b776b5?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=285&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "64166deb5a0dc45ee9dd89c3fb86d97b256f2a683d7279ecf6fef28db02ab9f7",
+    "url": "https://dragonwilds.runescape.com/news/launch",
+    "title": "Our 1.0 Release is live!",
+    "summary": "First-party launch post for the 1.0 he's been tracking since the road-to-release note — live as of today.",
+    "date_published": "2026-09-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Dragonwilds",
+      "note": "Out of early access today with the Scorned Wilderness raid, Runite tier, crossplay across PC/PS5/Xbox/Switch 2, and the Kuldra saga finally finished. The combat rework that was trailed in 0.12.1 — parry into Visceral Attacks, rebalanced stamina, the Old School special attack bar — ships with it. It's also day one on PS Plus Extra, so there's nothing to buy if he wants to pick it back up.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://framerusercontent.com/images/y2qoYl8ZC1IYc24K8pMJ1hiWGW8.png?scale-down-to=512&width=1920&height=1080",
+      "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+    }
+  },
+  {
+    "id": "dbb2fac84ffe4f18d1c66198da6d620b75bca9c7e636a59aeeaabd9246033c87",
+    "url": "https://emcrit.org/emcrit/ecg-acute-pulmonary-embolism",
+    "title": "ECGs in Acute Pulmonary Embolism",
+    "summary": "Pendell Meyers on the squiggles that should send you looking for a clot, built around a missed-PE malpractice case.",
+    "date_published": "2026-02-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "This is the bridge between the two threads the feed has been running separately — the PE cluster (crashing PE, the STORM and PEITHO trials, 'goodbye massive and submassive') and the LITFL ECG cases. Weingart built the episode around a case where the ECG findings were there and nobody joined them up. Pattern recognition that pays off in triage, before the CTPA is even ordered.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/02/ecgs-pe-750x500.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "65fa4a6155e762328ddd55d9f2e21957e6d0f2a6445811e26110e72b05aa487a",
+    "url": "https://www.analog.cafe/r/film-photography-in-2016-vs-2026-2hth",
+    "title": "Film Photography in 2016 vs. 2026",
+    "summary": "Ten years of the film revival measured honestly, including what it now costs to do what used to be casual.",
+    "date_published": "2026-01-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Analog.Cafe",
+      "note": "2016 was the bottom of the market collapse; the piece is built from community replies about what shooting film felt like then versus now. The price story is the blunt one, but the more interesting thread is how people's reasons for shooting changed. Good context for the Kodak and Foma stock news the feed keeps carrying — this is the demand side of it.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_1632653_3bbAFgbdN.jpg",
+      "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+    }
+  },
+  {
+    "id": "a9748a5a013f3ff7eb3da2d17895e09bd8066406eb33e7fbeafe0df5216c8258",
+    "url": "https://daily.bandcamp.com/label-profile/colemine-records-label-guide",
+    "title": "Colemine Records Keeps It Funky",
+    "summary": "A map of the label that sits directly next to the Daptone shelf, from the 45s up.",
+    "date_published": "2019-08-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Bandcamp Daily",
+      "note": "The collection already runs deep on the Brooklyn side of the modern soul revival — Sharon Jones, Menahan Street Band, Thee Sacred Souls — and Colemine is the Ohio answer to it, built on gritty instrumental funk 45s rather than albums. Blake Gillespie traces it from a Honda hatchback to Durand Jones and Thee Sinseers. Useful as a dig list rather than news: it tells you which catalogue numbers to chase.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://f4.bcbits.com/img/0030587422_171.jpg",
+      "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "fd47bc7336226e7d2279f60e97f0ea1402bfc47f1f234c242b2aedbab90c8c1e",
+    "url": "https://www.heddels.com/2026/09/fade-friday-iron-heart-ih-634sr-5-years-20-washes-5-soaks",
+    "title": "Fade Friday: Iron Heart IH-634SR (5 Years, 20 Washes)",
+    "summary": "Six years of one pair of heavyweight raw denim, documented wash by wash — provenance you can actually see.",
+    "date_published": "2026-09-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "Fade Friday is the only fashion writing that treats a garment as a record of its wearer rather than a product launch, which is the whole argument for buying this way. Adam Welch's 634SR has the wear map — honeycombs, whiskers, the repairs — after 20 washes and five soaks. Useful calibration against the Australian makers on his list, where the cloth is lighter and the wear reads differently.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "b07c9949f426b1cae3435a0d1845d6a4cca56a8dfa546975090ecdcfef2b6109",
+    "url": "https://rebelem.com/pocus-use-in-shock-resuscitation",
+    "title": "POCUS Use in Shock Resuscitation",
+    "summary": "What the evidence actually shows POCUS changes in undifferentiated shock — including where IVC reading goes wrong.",
+    "date_published": "2026-01-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "REBEL EM",
+      "note": "Straight CCPU territory, and a useful counterweight to the protocol-led pieces already in the feed (RUSH, CLUE, ultrasound in cardiac arrest). Karnicki is careful about the difference between a scan that changes the diagnosis and a scan that changes the outcome, and is blunt about inexperienced operators over-reading IVC dynamics. Read it as the 'why' behind the protocols rather than another protocol.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2025/11/POCUS-Use-in-Shock-Cover-Final-scaled.jpg?fit=2560%2C1440&ssl=1",
+      "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "777613cb34314f5f8f54f60944ad4f3a709400d1ce1e9417cbef96dbf4127773",
+    "url": "https://www.stemlynsblog.org/jc-peri-intubation-cardiovascular-collapse-in-critically-ill-patients",
+    "title": "JC: Peri-intubation cardiovascular collapse",
+    "summary": "The crash after the tube goes in is the part of RSI nobody rehearses, and this pulls apart who it happens to and why.",
+    "date_published": "2026-08-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "St Emlyn's works the Mayo review of peri-intubation collapse from the resus-room end rather than the anaesthetic one, which is the case mix he actually sees. It sits directly alongside the shock-physiology and RUSH material already in the feed: the same haemodynamics, but at the single moment where a sick patient is most likely to arrest. Worth reading before the next borderline intubation, not after it.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/08/Peri-Intubation-collapse-in-the-the-critically-ill.jpg",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
+  },
+  {
+    "id": "3a82a7c20ff7f3bb40ff8ff2f3ff184f7eeb1494812e722005a01a245bd81f57",
+    "url": "https://aquariumdrunkard.com/2026/09/08/way-dynamic-massive-shoe",
+    "title": "Way Dynamic :: Massive Shoe",
+    "summary": "A Melbourne multi-instrumentalist getting the Aquarium Drunkard treatment — local, and findable in local shops.",
+    "date_published": "2026-09-08T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Dylan Young records as Way Dynamic out of Melbourne, and the arrangements are sparse in a way that sits closer to the Khruangbin and Glass Beams end of the shelf than to anything loud. Aquarium Drunkard rarely looks this far south, which is half the reason to pay attention. Northside Records or Rocksteady are the obvious places to ask.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/08/massive-show-dynamic.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "36aa1058d189e4dde83e6bccf4cca46c2ab61c46bb822416354cf72a1b6ca286",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/scroll-lab-opens-brunswick-west",
+    "title": "Scroll Lab Brings Sticky, Fluffy Bakes to Brunswick West",
+    "summary": "Ballarat's scroll bakery lands on Grantham Street with a Vegemite-and-parmesan laminate that shouldn't work.",
+    "date_published": "2026-08-28T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Daniel Shrimpton is doing naturally leavened brioche rather than the croissant-dough shortcut most of the scroll shops use, which is the actual point of difference. Flavours run to Thai milk tea with crispy rice and palm-sugar caramel, plus the honey-parmesan-olive-oil Vegemite one. Grantham Street, Brunswick West, coffee from Rumble — walkable from the Brunswick bakeries already on the list.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/08/28/Scroll%20Lab_KZafiridis_029-b36b83029c.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
+  },
+  {
+    "id": "cf49ebe116fd68858845e1cc34d7f235e5eb9a209e68b4cb256d6fe706410de0",
+    "url": "https://kosmofoto.com/2026/04/eastman-kodak-releases-new-verita-200d-colour-negative-cinema-film",
+    "title": "Eastman Kodak releases new Verita 200D cinema film",
+    "summary": "A genuinely new Kodak colour emulsion — not a Vision3 variant — and one that will end up re-rolled into 35mm.",
+    "date_published": "2026-04-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "Verita 200D was developed against a specific production (Euphoria's third season, over a million feet of it) and Kodak describes it as warmer and more saturated than Vision3, with different shadow and highlight behaviour. Every recent Kodak cinema stock has eventually reached still shooters through re-rollers, the way Double-X became Kosmo's Direktor. Worth filing now so the ECN-2 arithmetic isn't new when it turns up in a shop.",
+      "published_at": "2026-09-15T16:17:46.142Z",
+      "image": "https://kosmofoto.com/wp-content/uploads/2026/04/VERITA-200D-Film-family-white-hi-res.jpg",
+      "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+    }
   }
 ]
