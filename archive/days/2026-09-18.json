@@ -1,0 +1,235 @@
+{
+  "day": "2026-09-18",
+  "ran_at": "2026-09-17T16:17:54.139Z",
+  "published": 14,
+  "dropped": [],
+  "items": [
+    {
+      "id": "658a626bf5767fe1c231068c1469345ae38d8ad7045a1042e7b3b612c1c894a0",
+      "url": "https://reliefweb.int/report/sudan/sudan-emergency-population-movements-sudan-7-september-2026",
+      "title": "Sudan Emergency: Population Movements, 7 September 2026",
+      "summary": "The current displacement picture out of Sudan, in the flat operational format the response agencies are actually planning from.",
+      "date_published": "2026-09-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ReliefWeb",
+        "note": "Sudan is the largest displacement emergency running and it gets a fraction of the coverage of smaller crises, so the primary situation reports are close to the only way to track it. These snapshots are what health-cluster planning is built on - where people have crossed to, and therefore where cholera, measles and malnutrition caseloads will land next. Reading the raw report rather than a summary of it is the habit worth having for anyone whose profession is emergency response.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "id": "b365401fd38a766d27b4af1ff240c23ab0c6ba7b3742a082984166cdd1315f00",
+      "url": "https://simonwillison.net/2026/Sep/16/one-claude",
+      "title": "Claude Cowork and Chat Are Now One Claude",
+      "summary": "Willison's read on the agentic-work tooling collapsing into the consumer product, written for people who actually use these things.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "The interesting part is not the product news but the direction of travel: the file-and-task surface that was a separate power-user tool is now the default, which is how these capabilities end up in ordinary workplace hands rather than developer ones. Willison is the right person to read on this because he tests rather than speculates. Relevant to him mostly as a forecast of what the hospital's own document-and-summary workflows will look like when they eventually arrive.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": null,
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "34ebca8bab029168f2613ed3d23530b3df82ce0f49a0440d09ee8e8f867e8bff",
+      "url": "https://emcrit.org/emcrit/titrate-vertigo",
+      "title": "You Don't Understand Dizziness and Vertigo - But You Need To",
+      "summary": "Weingart dismantling the central-versus-peripheral habit and rebuilding the workup around timing and triggers instead.",
+      "date_published": "2026-04-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "The TiTrATE framework replaces the question most of us actually ask at the bedside - 'does this feel central?' - with one that has evidence behind it: what is the timing, and what triggers it. It also makes clear how often HINTS gets applied to patients it was never validated in, which is the trap for a registrar who has just learned the manoeuvre. Pairs with the GRACE-3 material he has already seen and is the piece that makes the guideline usable at 3am.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/04/vertigo-wee-750x419.png",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "764d15c96898cef269657d879914403d5b49904c4980b771bb05176c882aa2fd",
+      "url": "https://www.stemlynsblog.org/ttl-tips-19-find-one-spinal-injury-look-for-another",
+      "title": "TTL Tips 19: Find One Spinal Injury, Look for Another",
+      "summary": "A one-page trauma-team-leader prompt for the moment the CT report comes back with a single level and the imaging decision is still open.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Simon Carley's TTL Tips are written for the person standing at the foot of the bed with the whole team waiting, which is the position he is in on trauma calls. The point here is non-contiguous injury: a fracture at one level materially raises the odds of a second somewhere distant, and scanning the segment rather than the spine is how the second one gets missed. It is short enough to read between patients and specific enough to change a request form.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/09/TTL-tip-19-1.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "227cfbb0ab41b25e134f9928d35a7b9a78ca466c7c1277d7071042029cc55f9f",
+      "url": "https://www.thelineofbestfit.com/news/arthur-verocai-features-on-new-menahan-street-band-album-illusions",
+      "title": "Arthur Verocai Features on New Menahan Street Band Album",
+      "summary": "Menahan Street Band's first album in over a decade, with Brazilian arranger Arthur Verocai writing the strings.",
+      "date_published": "2026-09-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Line of Best Fit",
+        "note": "Menahan Street Band are already on his shelf, and this is the first new one from them in more than ten years - out 13 November, on Tommy Brenneck's own Diamond West rather than Daptone, which is a change worth noting given where the rest of that shelf comes from. Verocai arranging strings over Brenneck's horns and drums is the specific reason to care: it points the Charles Bradley-era sound at MPB rather than at Sharon Jones. The lead track, 'Palace of Illusions', is out now to judge it by.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://cdn.craft.cloud/3747bbfe-07db-499d-aa3d-b239ba21c062/assets/images/000542330029-2.jpg?fit=cover&format=webp&width=1200&s=paebrVA5yuBEpigyrtxA89slSs65NtvatrDSKqGUSGM",
+        "icon": "https://cdn.craft.cloud/3747bbfe-07db-499d-aa3d-b239ba21c062/builds/a29c7889-f593-408a-afbc-968506ee268a/artifacts/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "b9f5c617fe9883254077bf0139745a755adbdd57db5d180b4ae10b7f7445093b",
+      "url": "https://aquariumdrunkard.com/2026/09/17/the-lagniappe-sessions-instrumentals-2016-2026",
+      "title": "The Lagniappe Sessions: Instrumentals (2016-2026)",
+      "summary": "Ninety minutes of instrumental covers pulled from a decade of Lagniappe sessions - a listening session rather than a reading one.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "The Lagniappe series asks artists to cover whatever they love, and the instrumental ones are where the sessions stop being novelty and start being arrangement studies. The spread here - MPB, Takoma-school fingerpicking, free-funk, orchestral jazz - sits almost exactly between the Khruangbin, Yin Yin and Glass Beams end of his collection and the Oscar Peterson and Milt Jackson end. It is also a good source of names to chase down for records he does not own yet.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/08/AQUARIUM-DRUNKARD-2026-Lagniappe.jpeg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "015e9510a08b493e7806ac5b07121caaf5e4c5769d88137384c9fa5b49e3a991",
+      "url": "https://www.permanentstyle.com/2026/09/the-guide-to-shirt-style-pockets-plackets-buttons.html",
+      "title": "The Guide to Shirt Style: Pockets, Plackets, Buttons",
+      "summary": "The vocabulary for the parts of a shirt that decide whether it reads as workwear or as office kit.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Permanent Style",
+        "note": "This is the useful end of Permanent Style rather than the bespoke-tailoring end: placket construction, pocket shape and button choice are exactly the details that separate a good vintage Banana Republic or Pendleton shirt from a modern reissue of one. Knowing the terms makes secondhand listings legible, because sellers describe these features without knowing what they are describing. Reference material rather than a read-once piece.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "7d1ff1caef50ce73cc6c4b758f22d7b90b53c5a216365ef2ce8d600860f16034",
+      "url": "https://emcrit.org/emcrit/dlvoto",
+      "title": "EMCrit 420 - Dynamic LVOT Obstruction, the Nuanced Cases",
+      "summary": "The hypotensive patient whose problem is an under-filled, hyperdynamic ventricle - and the treatments that make it worse.",
+      "date_published": "2026-03-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Straight CCPU territory: this is an echo diagnosis, and the whole episode turns on what the subcostal and apical views are actually showing you before anyone reaches for an inotrope. Trina Augustin pushes past the textbook septal-hypertrophy case into the 'two-ventricle' presentations, where RV failure and LVOT obstruction coexist and the usual fluid-and-noradrenaline reflex is precisely wrong. Worth having read before it turns up on a resus shift, because the window to recognise it is short.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/02/dlvoto-750x500.png",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "28080f5655005fd335e6428577e7cfc979f72d6345e3bafa3fde689e89136596",
+      "url": "https://www.heddels.com/2026/09/levis-vintage-clothings-1922-501-reproduction-is-back",
+      "title": "Levi's Vintage Clothing's 1922 501 Reproduction Is Back",
+      "summary": "The one 501 that carries belt loops, suspender buttons and a back cinch all at once, reproduced stitch for stitch.",
+      "date_published": "2026-09-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "1922 is the hinge year in the 501 story - belt loops arrive, but Levi's hedged and kept the suspender buttons and the cinch, so a single pair carries three competing ideas about how trousers stay up. LVC's repro is made in Japan on shuttle looms in 12oz redline selvedge, with unhidden rear rivets and period button stamping. Given how much of the archive on his shelf is chore coats and flannel, this is the denim end of the same argument about why old construction was different rather than just older.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "c6b711ef1d2b458c8d9e4eaeb87b7382582fbb672ef9d2e87e457ab2f1b19737",
+      "url": "https://scenestr.com.au/arts/melbourne-fringe-2026-programme-20260807",
+      "title": "Melbourne Fringe 2026 Programme",
+      "summary": "Three weeks of independent work across the inner north, starting 29 September - worth planning rather than stumbling into.",
+      "date_published": "2026-08-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Scenestr",
+        "note": "Fringe runs 29 September to 18 October under the theme 'Turn Towards the Heat', and a good share of it sits in walkable northside venues rather than in the city. The free and roving pieces are the ones that reward a plan - Na Djinang Circus running a portable railway track through the streets, and Joel Bray's campfire installation at Fed Square. Printed guides turn up in the obvious northside places, Northside Records in Northcote among them.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "3b3f866645cc15c10decb1391bbfbfff2c7c97339e3f1f8c4b8873bbea3cfd10",
+      "url": "https://dragonwilds.runescape.com/news/console-release-date",
+      "title": "Dragonwilds Is Coming to Consoles",
+      "summary": "Jagex's own post on the 15 September console launch, with the crossplay detail the coverage kept leaving out.",
+      "date_published": "2026-09-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Dragonwilds",
+        "note": "First-party, so the platform list is authoritative: PS5, Xbox Series X|S, Switch 2 and PC on the same day, with crossplay across them. That last part is the whole story for a survival game - a shared base survives the console the other person happens to own. Read it next to the pricing post rather than the aggregator write-ups, which mostly reprinted the platform list without the crossplay confirmation.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://framerusercontent.com/images/pCTzxiW5j5pDTXOEWVCT3H7KkAA.jpg?lossless=1&width=1920&height=1080",
+        "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+      }
+    },
+    {
+      "id": "f97c798c6e2844a815f7516ae40af98b9d42d862daf1bae1d0ca237c9664795f",
+      "url": "https://blog.playstation.com/2026/09/09/playstation-plus-game-catalog-for-september-runescape-dragonwilds-wwe-2k26-ball-x-pit-date-everything-and-more",
+      "title": "PS Plus Game Catalog for September: Dragonwilds and More",
+      "summary": "Dragonwilds lands in the Extra catalogue the same month it leaves early access - no second purchase needed.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PlayStation Blog",
+        "note": "He is already in Dragonwilds on PC, and this puts the console version in the Plus catalogue rather than behind another $29.99, which matters for playing it with people who were not going to buy in. Worth noting the distinction from the Essential monthly games announced in late August: this is the Extra and Premium tier, and catalogue titles rotate out rather than staying in the library. Metro Redux going to Premium is the other one worth a look.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://blog.playstation.com/tachyon/2026/09/1a99d9682f34d3b6309a1c08879506eca547812a.jpg",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "a5a659e909bbaab2b18e26e40cc6f358ab7ba88d0e0897bf508d591cb15302cb",
+      "url": "https://www.35mmc.com/17/09/2026/practicing-the-forgotten-art-of-patience-through-film-photography",
+      "title": "Practicing the Forgotten Art of Patience Through Film",
+      "summary": "A working argument for waiting for the frame rather than hunting it, built on a Leica MP and two very different films.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "The technical spine of this is the film choice: T-Max 400 for latitude and Ilford Ortho 80 Plus, which is slow, blue-sensitive and utterly unforgiving of an impatient exposure. Shooting ortho is itself a patience exercise, since skin and red tones go dark and you have to previsualise rather than check. Useful counter-programming to the 5-frames posts, which reward volume; this one rewards the opposite.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/1-Window_Ortho-scaled.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "0eb196de95d06fd8b0cab607b0b37ee0199537992b53dbc651e8139d57f2cd8c",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/pinnacle-pub-fitzroy-north-reopened",
+      "title": "The Fitzroy Pinnacle Reopens With $25 Pot-and-Parma Nights",
+      "summary": "A St Georges Road corner pub back open under the Bar Liberty crew, and deliberately still cheap.",
+      "date_published": "2026-02-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "251 St Georges Road, Fitzroy North - close enough to be a default rather than an outing. Michael Bascetta of Bar Liberty and Capitano has it with Scott Eddington out of Arnold's, which is an unusually serious pairing for a pub committing to $25 pot-and-parma on Mondays, $28 steak on Wednesdays and a $35 Sunday roast. The live music stage is gone, which is the trade they made to keep the rest of it viable.",
+        "published_at": "2026-09-17T16:17:54.139Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/02/24/The%20Pinnacle%20-%20Casey%20Horsfield_43%20of%2048-5bcda543b3.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
