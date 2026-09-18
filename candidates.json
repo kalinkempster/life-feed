@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emcrit/halo/",
+      "title": "EMCrit 433 - HALO Procedural Philosophy",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Weingart separates the procedures you personally can do from the ones your department can actually deliver at 3am, and gives a twelve-month plan to fix both.",
+      "note": "The registrar problem with resuscitative thoracotomy, transvenous pacing and surgical airway is not knowing the steps — it is that you do one every few years and the kit lives in three different rooms. Weingart's 'Recipe Method' is a rehearsal structure for exactly that, and the ultrasound-guided access and wire-control material sits directly on CCPU ground. The institutional-competence half is the part most FOAMed skips.",
+      "date_published": "2026-09-05"
+    },
+    {
+      "url": "https://dontforgetthebubbles.com/apem-peruki-2026/",
+      "title": "The APEM-PERUKI 2026 Mental Health PEM Adventure",
+      "source": "DFTB",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "An interactive run at a 15-year-old brought in at 11pm with ligature marks, where the audience picks each next move and then lives with it.",
+      "note": "Adolescent self-harm presentations land in mixed EDs at night with no paediatric registrar in the building, and the hard parts are sedation thresholds, restraint, and who you can actually call. The PEM Adventure format forces a decision before showing the consequence, which is closer to the real thing than a topic review. Worth doing as a solo run rather than reading.",
+      "date_published": "2026-09-15"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-09-12/optus-outage-emergency-services/107146350",
+      "title": "Police do welfare checks after Optus outage hits Triple Zero",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Around 40 Triple Zero calls failed to connect across Victoria and three other states, and the Victorian health minister says it is the third telco failure in twelve months.",
+      "note": "When the front door to the system breaks, the patients still arrive — later, sicker, and often by private car. Ingrid Stitt calling it the third outage in a year is the part that matters: this is now a recurring failure mode that Victorian EDs have to plan around rather than a one-off. Police doing welfare checks on dropped calls is the improvised backstop.",
+      "date_published": "2026-09-12"
+    },
+    {
+      "url": "https://www.croakey.org/what-happens-after-a-heart-attack-matters-more-than-we-think/",
+      "title": "What happens after a heart attack matters more than we think",
+      "source": "Croakey",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Australian data treating the ED presentation as the pivot point in a coronary patient's whole trajectory, not the end of the episode.",
+      "note": "Croakey frames the index coronary event at the ED door as the moment that sets everything downstream — follow-up, rehab, secondary prevention, and who falls out of the system entirely. That is a systems argument rather than a clinical one, which is exactly why it is worth reading alongside the chest-pain pathways: it is about what happens to the patient after the disposition decision is made.",
+      "date_published": "2026-09-15"
+    },
+    {
+      "url": "https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/",
+      "title": "Anthropic says Claude 'leads' 26 percent of its AI R&D work",
+      "source": "Engadget",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A concrete, self-published number on how much frontier AI work is now model-led — and Engadget is properly sceptical about who chose the metric.",
+      "note": "The figure went from roughly nothing in February to a quarter of R&D by August, with about 90 per cent of the work done in some form of collaboration. Anthropic is also pushing other labs to publish the same measure, which is the more interesting move: a comparable public number would tell you far more about the pace of this than any benchmark. Read the methodology caveats, not the headline.",
+      "date_published": "2026-09-17"
+    },
+    {
+      "url": "https://consequence.net/2026/08/hermanos-gutierrez-new-album-ojos-del-condor/",
+      "title": "Hermanos Gutiérrez Look to Their South American Roots",
+      "source": "Consequence",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "The backstory to Los Ojos del Cóndor, out 25 September — the Andes, their mother's Ecuador, and a 1976 photograph of their father at Machu Picchu.",
+      "note": "Hermanos Gutiérrez are already on the shelf, and this is the third record with Dan Auerbach at Easy Eye Sound, so the sonic signature you own carries across. The framing here is family archive rather than press release: the brothers went through old photo albums and built the album around what they found. Pre-order now if you want the first pressing rather than a repress.",
+      "date_published": "2026-08-15"
+    },
+    {
+      "url": "https://www.analogplanet.com/content/short-cuts-vol-36-trio-excellent-new-180g-vinylphyle-lp-releases-update-classic-albums-band",
+      "title": "Short Cuts Vol. 36: Three New 180g Vinylphyle Reissues",
+      "source": "Analog Planet",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "A pressing-quality assessment of UMe's Vinylphyle line — flat, dead-quiet, well-centred discs in RTI sleeves — using three albums you can check it against.",
+      "note": "This is less about The Band, Sheryl Crow and Counting Crows than about whether UMe's new audiophile sub-label is worth trusting when it comes for records you do own. Mettler is specific about centring, surface noise and inner sleeves, which is the vocabulary that makes a reissue decision rather than a review. Useful calibration before the next Universal-catalogue repress lands.",
+      "date_published": "2026-09-04"
+    },
+    {
+      "url": "https://hackaday.com/2026/09/11/this-machine-makes-35mm-almost-film/",
+      "title": "This Machine Makes 35mm (Almost) Film",
+      "source": "Hackaday",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Jon Schiereck 3D-printed a perforator that punches sprocket holes into photographic paper so it can be loaded and shot like 35mm.",
+      "note": "Paper negatives in a 35mm body is a genuinely cheap way to keep shooting when stock prices move, and the mechanism — ground drill bits as punches, gear-and-crank drive, rubber feed roller, hand or cordless drill — is simple enough to be reproduced. A matching printable slitter is in progress and the files are on his Ko-Fi. Not on the usual film-blog circuit, which is half the reason it is here.",
+      "date_published": "2026-09-11"
+    },
+    {
+      "url": "https://www.permanentstyle.com/2026/09/allevol-easy-americana-and-other-passions.html",
+      "title": "Allevol: Easy Americana and other passions",
+      "source": "Permanent Style",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Twenty-three years of a one-man Japanese-Americana label, told through denim he had made because London retail had none he wanted.",
+      "note": "Taka Okabe started Allevol out of an IT job because he could not buy dark straight selvedge in London — the same provenance-first instinct behind the RRL and Woolrich end of the wardrobe. The detail worth the read is the GAT: veg-tanned leather inside and out at £195, which Crompton rates as the best version he has tried at the price. Tees made in Slovakia, denim through his Japanese contacts.",
+      "date_published": "2026-09-14"
+    },
+    {
+      "url": "https://blog.playstation.com/2026/09/03/state-of-play-state-of-play-japan-all-announcements-trailers/",
+      "title": "State of Play & State of Play Japan: all announcements, trailers",
+      "source": "PlayStation",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "The first-party recap of a double-length showcase — over 30 games, with dates rather than vague windows.",
+      "note": "The hard numbers are here: Final Fantasy VII Revelation on 8 April 2027, Until Dawn 2 exclusive to PS5 on 28 January, and the two GTA VI DualSense editions arriving 19 November alongside the game itself. Going to the PlayStation Blog rather than a recap site means you get the embedded trailers and the actual platform wording. Worth a scroll for the Crimson Desert expansion and the Gran Turismo 7 update too.",
+      "date_published": "2026-09-03"
+    },
+    {
+      "url": "https://beat.com.au/melbourne-has-a-new-live-music-venue-with-killer-skyline-views/",
+      "title": "Melbourne has a new live music venue with killer skyline views",
+      "source": "Beat",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "A disused storage room on top of the Melbourne Recital Centre is now a small room with a weekly program, and it opened this week.",
+      "note": "The Peter and Ruth McMullin Beacon is a $2 million conversion — a million from the state, matched philanthropically — and the point of it is scale: an intimate room in a building otherwise built for 1,000-seat halls. The inaugural program runs weekly through to November across cabaret, jazz, musical theatre and First Nations-led work, opening with three Meow Meow nights from 17 September. Southbank, so a tram rather than a walk, but worth the trip.",
+      "date_published": "2026-09-16"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/pho-le-opens-elizabeth-street",
+      "title": "Michelin-Recognised Pho Le Opens on Elizabeth Street",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "A 56-year-old Ho Chi Minh City pho house with a Bib Gourmand has opened its first Australian outpost, and the broth is still an 8-to-10 hour job.",
+      "note": "Not northside, but 500 Elizabeth Street is an easy detour and this is the only outpost outside Vietnam. Five cuts of beef — rare, brisket, fatty brisket, tendon, meatballs — with aromatics simmered daily rather than a base shipped in, served in bowls brought over from Bat Trang in Hanoi. Melbourne now has three Vietnamese pho institutions trading in the CBD, which makes a comparison worth doing properly.",
+      "date_published": "2026-09-08"
+    }
+  ]
+}
