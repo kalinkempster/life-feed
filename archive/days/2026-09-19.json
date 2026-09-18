@@ -1,0 +1,204 @@
+{
+  "day": "2026-09-19",
+  "ran_at": "2026-09-18T16:19:01.744Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "626558a5454fc50f1400cd9f5ecc70c30b81d2498a3345034d50d0af728576f9",
+      "url": "https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development",
+      "title": "Anthropic says Claude 'leads' 26 percent of its AI R&D work",
+      "summary": "A concrete, self-published number on how much frontier AI work is now model-led — and Engadget is properly sceptical about who chose the metric.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Engadget",
+        "note": "The figure went from roughly nothing in February to a quarter of R&D by August, with about 90 per cent of the work done in some form of collaboration. Anthropic is also pushing other labs to publish the same measure, which is the more interesting move: a comparable public number would tell you far more about the pace of this than any benchmark. Read the methodology caveats, not the headline.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "21c64dce04ea6eeea73af5814dcac0cb2bb3d14d4674e2f3f6efe75a9b91fc20",
+      "url": "https://www.croakey.org/what-happens-after-a-heart-attack-matters-more-than-we-think",
+      "title": "What happens after a heart attack matters more than we think",
+      "summary": "Australian data treating the ED presentation as the pivot point in a coronary patient's whole trajectory, not the end of the episode.",
+      "date_published": "2026-09-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Croakey",
+        "note": "Croakey frames the index coronary event at the ED door as the moment that sets everything downstream — follow-up, rehab, secondary prevention, and who falls out of the system entirely. That is a systems argument rather than a clinical one, which is exactly why it is worth reading alongside the chest-pain pathways: it is about what happens to the patient after the disposition decision is made.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "77c5970c83671536b5d5ca7d03682fd0481b0a19084c8bda6ec09b5088242d2e",
+      "url": "https://www.analogplanet.com/content/short-cuts-vol-36-trio-excellent-new-180g-vinylphyle-lp-releases-update-classic-albums-band",
+      "title": "Short Cuts Vol. 36: Three New 180g Vinylphyle Reissues",
+      "summary": "A pressing-quality assessment of UMe's Vinylphyle line — flat, dead-quiet, well-centred discs in RTI sleeves — using three albums you can check it against.",
+      "date_published": "2026-09-04T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "This is less about The Band, Sheryl Crow and Counting Crows than about whether UMe's new audiophile sub-label is worth trusting when it comes for records you do own. Mettler is specific about centring, surface noise and inner sleeves, which is the vocabulary that makes a reissue decision rather than a review. Useful calibration before the next Universal-catalogue repress lands.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "9efa6de58de7e914757ea48f02014aadb7827078225d52adccdf6fb0376b85e9",
+      "url": "https://hackaday.com/2026/09/11/this-machine-makes-35mm-almost-film",
+      "title": "This Machine Makes 35mm (Almost) Film",
+      "summary": "Jon Schiereck 3D-printed a perforator that punches sprocket holes into photographic paper so it can be loaded and shot like 35mm.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Hackaday",
+        "note": "Paper negatives in a 35mm body is a genuinely cheap way to keep shooting when stock prices move, and the mechanism — ground drill bits as punches, gear-and-crank drive, rubber feed roller, hand or cordless drill — is simple enough to be reproduced. A matching printable slitter is in progress and the files are on his Ko-Fi. Not on the usual film-blog circuit, which is half the reason it is here.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://hackaday.com/wp-content/uploads/2026/09/filmperf_feat.jpg",
+        "icon": "https://hackaday.com/wp-content/themes/hackaday-2/favicon.ico?v=3"
+      }
+    },
+    {
+      "id": "19568d1be9f23649170396c8999947866a314488574cb751b362c4a718839b40",
+      "url": "https://www.permanentstyle.com/2026/09/allevol-easy-americana-and-other-passions.html",
+      "title": "Allevol: Easy Americana and other passions",
+      "summary": "Twenty-three years of a one-man Japanese-Americana label, told through denim he had made because London retail had none he wanted.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Permanent Style",
+        "note": "Taka Okabe started Allevol out of an IT job because he could not buy dark straight selvedge in London — the same provenance-first instinct behind the RRL and Woolrich end of the wardrobe. The detail worth the read is the GAT: veg-tanned leather inside and out at £195, which Crompton rates as the best version he has tried at the price. Tees made in Slovakia, denim through his Japanese contacts.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "16c11f0a9600fe577131d527581be97e879daadff67e185d16580414e7ded248",
+      "url": "https://consequence.net/2026/08/hermanos-gutierrez-new-album-ojos-del-condor",
+      "title": "Hermanos Gutiérrez Look to Their South American Roots",
+      "summary": "The backstory to Los Ojos del Cóndor, out 25 September — the Andes, their mother's Ecuador, and a 1976 photograph of their father at Machu Picchu.",
+      "date_published": "2026-08-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Consequence",
+        "note": "Hermanos Gutiérrez are already on the shelf, and this is the third record with Dan Auerbach at Easy Eye Sound, so the sonic signature you own carries across. The framing here is family archive rather than press release: the brothers went through old photo albums and built the album around what they found. Pre-order now if you want the first pressing rather than a repress.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://consequence.net/wp-content/uploads/2026/08/Hermanos-Gutierrez-Ojos-del-Condor.jpg",
+        "icon": "https://consequence.net/wp-content/themes/cosv2/images/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "21e053d5799af3527ea715fad02c67ffdb5d856cb31bfbfa07a804e5ad029fb4",
+      "url": "https://www.abc.net.au/news/2026-09-12/optus-outage-emergency-services/107146350",
+      "title": "Police do welfare checks after Optus outage hits Triple Zero",
+      "summary": "Around 40 Triple Zero calls failed to connect across Victoria and three other states, and the Victorian health minister says it is the third telco failure in twelve months.",
+      "date_published": "2026-09-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "When the front door to the system breaks, the patients still arrive — later, sicker, and often by private car. Ingrid Stitt calling it the third outage in a year is the part that matters: this is now a recurring failure mode that Victorian EDs have to plan around rather than a one-off. Police doing welfare checks on dropped calls is the improvised backstop.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/9192c32f54d40851f2c8b8a28e9206eb?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=257&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "527c0959e4ebe59bab60181f0fcb3af455e0eaf08de0300e9de5622c7ce03c94",
+      "url": "https://emcrit.org/emcrit/halo",
+      "title": "EMCrit 433 - HALO Procedural Philosophy",
+      "summary": "Weingart separates the procedures you personally can do from the ones your department can actually deliver at 3am, and gives a twelve-month plan to fix both.",
+      "date_published": "2026-09-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "The registrar problem with resuscitative thoracotomy, transvenous pacing and surgical airway is not knowing the steps — it is that you do one every few years and the kit lives in three different rooms. Weingart's 'Recipe Method' is a rehearsal structure for exactly that, and the ultrasound-guided access and wire-control material sits directly on CCPU ground. The institutional-competence half is the part most FOAMed skips.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/09/HALO-Procedures.jpg",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "5aa5330ed57e2e6e4044ca137029c9bcd8d7cec81bc4658026126833818e90e5",
+      "url": "https://blog.playstation.com/2026/09/03/state-of-play-state-of-play-japan-all-announcements-trailers",
+      "title": "State of Play & State of Play Japan: all announcements, trailers",
+      "summary": "The first-party recap of a double-length showcase — over 30 games, with dates rather than vague windows.",
+      "date_published": "2026-09-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PlayStation",
+        "note": "The hard numbers are here: Final Fantasy VII Revelation on 8 April 2027, Until Dawn 2 exclusive to PS5 on 28 January, and the two GTA VI DualSense editions arriving 19 November alongside the game itself. Going to the PlayStation Blog rather than a recap site means you get the embedded trailers and the actual platform wording. Worth a scroll for the Crimson Desert expansion and the Gran Turismo 7 update too.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://blog.playstation.com/tachyon/2026/09/921216676bd65a093ce51d5b6bfb8d7f59fae2f7.jpg",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "8b96773c4c1b90a633f1d0e77ecb8d73e0e8c15a3966f98237210e9da8ea7c76",
+      "url": "https://beat.com.au/melbourne-has-a-new-live-music-venue-with-killer-skyline-views",
+      "title": "Melbourne has a new live music venue with killer skyline views",
+      "summary": "A disused storage room on top of the Melbourne Recital Centre is now a small room with a weekly program, and it opened this week.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat",
+        "note": "The Peter and Ruth McMullin Beacon is a $2 million conversion — a million from the state, matched philanthropically — and the point of it is scale: an intimate room in a building otherwise built for 1,000-seat halls. The inaugural program runs weekly through to November across cabaret, jazz, musical theatre and First Nations-led work, opening with three Meow Meow nights from 17 September. Southbank, so a tram rather than a walk, but worth the trip.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://beat.com.au/wp-content/uploads/2026/08/Untitled-design-91.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    },
+    {
+      "id": "edea01852828c48b924e4fe9118c796a71e70fb4df6433c67c4171d59ffc527f",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/pho-le-opens-elizabeth-street",
+      "title": "Michelin-Recognised Pho Le Opens on Elizabeth Street",
+      "summary": "A 56-year-old Ho Chi Minh City pho house with a Bib Gourmand has opened its first Australian outpost, and the broth is still an 8-to-10 hour job.",
+      "date_published": "2026-09-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Not northside, but 500 Elizabeth Street is an easy detour and this is the only outpost outside Vietnam. Five cuts of beef — rare, brisket, fatty brisket, tendon, meatballs — with aromatics simmered daily rather than a base shipped in, served in bowls brought over from Bat Trang in Hanoi. Melbourne now has three Vietnamese pho institutions trading in the CBD, which makes a comparison worth doing properly.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/08/10/2026-Pho-Le-H-Wang-007-fe29347401.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    },
+    {
+      "id": "bc75f786398d0197d7f9606a9a5f625bdc45ba06b3a1d97fca362128075efb06",
+      "url": "https://dontforgetthebubbles.com/apem-peruki-2026",
+      "title": "The APEM-PERUKI 2026 Mental Health PEM Adventure",
+      "summary": "An interactive run at a 15-year-old brought in at 11pm with ligature marks, where the audience picks each next move and then lives with it.",
+      "date_published": "2026-09-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "DFTB",
+        "note": "Adolescent self-harm presentations land in mixed EDs at night with no paediatric registrar in the building, and the hard parts are sedation thresholds, restraint, and who you can actually call. The PEM Adventure format forces a decision before showing the consequence, which is closer to the real thing than a topic review. Worth doing as a solo run rather than reading.",
+        "published_at": "2026-09-18T16:19:01.744Z",
+        "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2026/09/APEM-PERUKI-HEADER.png?fit=560%2C315&ssl=1",
+        "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+      }
+    }
+  ]
+}
