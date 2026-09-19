@@ -8,8 +8,8 @@ Rated up: 4 · dismissed as not relevant: 0 · read: 7
 
 ## More of this
 
-Topics: melbourne (2) · gaming (1) · fashion (1)
-Sources: Broadsheet (2) · GameSpot (1) · Heddels (1)
+Topics: melbourne (2) · fashion (1) · gaming (1)
+Sources: Broadsheet (2) · Heddels (1) · GameSpot (1)
 
 ## Less of this
 
