@@ -3693,5 +3693,200 @@
       "image": "https://cdn.broadsheet.com.au/images/2025/10/31/Bar%20Elsie%20-%20Casey%20Horsfield_33%20of%2038-338db87638.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "08ec50b3ba7cc769eb8c840dc9930fb6cc1b92db9e12483ba08bfe0aa4de358d",
+    "url": "https://litfl.com/ultrasound-case-106",
+    "title": "Ultrasound Case 106: right loin pain after a keto diet",
+    "summary": "A renal POCUS quiz that rewards you for taking a dietary history before you put the probe down.",
+    "date_published": "2025-05-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "A 24-year-old with right loin pain, recent dramatic weight loss on a ketogenic diet, and mild-to-moderate hydronephrosis with a 5mm echogenic stone at the pelvi-ureteric junction. The case then makes the link most people miss — ketogenic diets raise the incidence of renal calculi, and the same rapid weight loss and hyperlipidaemia raise gallstone risk too, so the scan and the history argue for each other. Renal is core CCPU material and this is the kind of case that fixes the appearance of PUJ obstruction in your head better than a module does.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "ed22a7ae4cc06e3ee25f0264e1813c14740b03f2ea4c4507d9c240dc62820cfb",
+    "url": "https://litfl.com/ecg-case-136",
+    "title": "ECG Case 136: pre-excited AF at rates up to 300 bpm",
+    "summary": "The one tachycardia where reaching for the usual AV-nodal blockers is the mistake that kills the patient.",
+    "date_published": "2024-10-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "Short PR, delta wave, dominant R in V1 — Type A WPW — with atrial fibrillation conducting down the accessory pathway at rates too fast for the AV node to explain. The teaching point is that adenosine, verapamil and digoxin all accelerate conduction down the pathway here, and the unstable patient goes straight to synchronised DC cardioversion. It sits directly alongside the EM Cases WPW tachyarrhythmias piece already in the feed, but as a self-assessment quiz rather than a lecture.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "bfd271eb31339a039dc4992ee8f758d393d2470f49c7cab7a3e4d293f93d2b81",
+    "url": "https://reliefweb.int/report/democratic-republic-congo/iom-multi-country-bundibugyo-ebola-virus-disease-outbreak-situation-report-no-17-31-august-6-september-2026",
+    "title": "IOM Bundibugyo Ebola outbreak situation report no. 17",
+    "summary": "The operational picture behind an outbreak now past 7,000 confirmed cases with a case fatality ratio just under 50 percent.",
+    "date_published": "2026-09-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ReliefWeb",
+      "note": "Bundibugyo is the Ebola species with no licensed vaccine and no specific treatment, which is why the response documented here is all surveillance, contact tracing, cross-border screening and clinical preparedness rather than a vaccination campaign. The ABC explainer on the DRC outbreak in the feed gave the shape of the epidemic; this gives the week-by-week logistics of containing it across six provinces and into Uganda. Dry reading, but it is what emergency response at scale actually looks like on paper.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": null,
+      "icon": null
+    }
+  },
+  {
+    "id": "3d398b505f1de8cde2611cf6d15994d38be6dd995fc8ed3f6eeed54e9b052fda",
+    "url": "https://store.steampowered.com/news/app/1374490/view/716790555855553171",
+    "title": "Eye on Ashenfall: Dragonwilds 1.0.0.4 patch notes",
+    "summary": "The patch that actually fixes the save corruption that has been eating worlds since the 1.0 launch.",
+    "date_published": "2026-09-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Steam",
+      "note": "The feed already carried the launch itself, the console release date, and the report that Jagex was working flat out on corrupted saves — this is the fix landing, three days after 1.0 went live. Worlds were being corrupted on exiting a session, which is about the worst possible bug for a survival game where the world is the save. Straight from the patch notes rather than coverage of them.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1374490/1ca162046316f66e438268daa727e4e6dcc60915/capsule_616x353_alt_assets_4.jpg",
+      "icon": "https://store.steampowered.com/favicon.ico"
+    }
+  },
+  {
+    "id": "55aeee77999b0c3914e7d14ed6f7a9302798c9112b6c257da734e04a407d642c",
+    "url": "https://www.cnbc.com/2026/09/18/anthropic-quietly-sets-up-biology-lab-as-it-ramps-ai-drug-program-report.html",
+    "title": "Anthropic quietly sets up biology lab as it ramps AI drug program",
+    "summary": "A frontier AI lab buying wet-bench capacity is a different kind of claim from a benchmark score, and it is worth noticing which one gets made.",
+    "date_published": "2026-09-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "CNBC",
+      "note": "The feed has carried the abstract version of this story for weeks — Claude leading a quarter of Anthropic's own R&D, the doomer turn, the argument that healthcare AI's problem is integration rather than capability. This is the concrete move underneath it: physical laboratory infrastructure, aimed at drug discovery. If AI is going to reach clinical practice as anything other than a scribe, it arrives through pipelines like this one long before it arrives in an ED.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://image.cnbcfm.com/api/v1/image/108362608-1789409040216-gettyimages-2294307202-Anthropic.jpeg?v=1789409061&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
+    }
+  },
+  {
+    "id": "d517c29399a8b7a51721d16890071cabeee44e23295fd9c5cc8ebb58112e5a21",
+    "url": "https://emcrit.org/emcrit/translating-sepsis-farkas",
+    "title": "EMCrit 413: translating recent sepsis papers to the bedside",
+    "summary": "Farkas on what Andromeda-Shock 2 and its neighbours actually change about the next septic patient you resuscitate.",
+    "date_published": "2025-11-29T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "This is the practical counterweight to the 2026 Surviving Sepsis guidelines episode already in the feed: Weingart and Farkas working through the recent trial literature and asking what survives contact with a real resus bay. Andromeda-Shock 2 in particular is a capillary-refill-versus-lactate argument that lands on how you decide a patient has had enough fluid. Worth an hour because the guidelines tell you what to do and this tells you why the evidence underneath is softer than the recommendation grade suggests.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://emcrit.org/wp-content/uploads/2021/08/emcrit-logo.jpg",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "9192c8a2d6e2d78aa2d4ae608dbb1fd78e868278423492c1e20b8e5fde86a124",
+    "url": "https://www.heddels.com/2026/09/get-shaggy-with-harley-of-scotlands-esteemed-shetland-sweaters",
+    "title": "Get shaggy with Harley of Scotland's Shetland sweaters",
+    "summary": "Seam-free whole-garment knitting out of Peterhead since 1929, and why the brushed 'shaggy dog' finish is the point.",
+    "date_published": "2026-09-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "Harley knit the whole garment as one piece, so there are no shoulder or side seams to fail — the same construction-over-styling argument that runs through the Woolrich and Pendleton pieces already in the feed. Shetland wool is finer than it looks and takes a heavy brushing without going soft, which is what gives the shaggy dog its halo. Genuine three-season weight for a Melbourne autumn rather than a proper winter garment.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "2fd5e6a1932d01dae790844672a11454310bf22e9cac4792427415901ed37cd9",
+    "url": "https://kosmofoto.com/2026/09/harman-technology-releases-collectors-edition-of-delta-400-professional",
+    "title": "Harman releases a collector's edition of Delta 400 Professional",
+    "summary": "A limited Delta 400 coated on a clear base, which quietly makes black-and-white slide processing possible.",
+    "date_published": "2026-09-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "The all-black cassette and carton are the marketing, but the clear base is the interesting part — it opens the door to developing Delta 400 as a black-and-white transparency rather than a negative. Sits with the Fomapan Fomaortho 400 and Lucky Yingzhe items already in the feed as part of a year where emulsion news has actually been worth following. Worth deciding on quickly, because limited runs from Harman do not hang around.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/09/d400l_lrg_700.jpg?fit=700%2C561&",
+      "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "24c6e44e4b211e20db58411109cece01a58af901c088182151ac6397e2249b10",
+    "url": "https://www.abc.net.au/news/2026-08-10/regional-emergency-departments-a-basket-case-of-mania/106994288",
+    "title": "Regional EDs overcrowded and risking patient safety, doctors say",
+    "summary": "The AMA naming five regional Victorian hospitals as showing signs of system failure, with the clinicians on the floor describing it in their own words.",
+    "date_published": "2026-08-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "This is the story the September pieces already in the feed — the regional doctor shortage, the postponed strike, the Mildura referral death — are all downstream of. Regional Victorians wait substantially longer in an ED than Melburnians do, and the AMA is now willing to say which hospitals are failing rather than speak in aggregate. Useful background for anyone whose department absorbs the transfers when a regional service can't cope.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/0ede15b712ae96aeb97d2afeee8daaa3?impolicy=wcms_watermark_news&cropH=563&cropW=1000&xPos=0&yPos=75&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "c9a6e9ca2e6c99ac221418513857bd44ec8a4cd170a5fbefa44df5a0bb4b550d",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-coburgs-historic-pentridge-prison-unusual-site-brewdogs-first-melbourne-taproom",
+    "title": "First Look: Brewdog's Melbourne taproom inside Pentridge Prison",
+    "summary": "A 26-tap beer hall and beer garden in the E Division bluestone at Pentridge, ten minutes up Sydney Road.",
+    "date_published": "2023-08-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "The old prison yard is now the beer garden and the bluestone division block holds two levels of bar, which makes it the most architecturally strange drinking venue on the northside by some distance. It anchors a Coburg precinct that also has a Palace cinema, so it works as an evening rather than just a pint. Filed with the Tochi Deli reopening and the Preston Market night festival as reasons to stay north of Bell Street on a weekend.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://cdn.broadsheet.com.au/cache/df/99/df991eca87aef4ca7b0194daa9e693b5.jpg",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
+  },
+  {
+    "id": "fab8c5d9abb1014e9c84ce1cfdaf16cfe4ea4d80ed1b7af73693680f525af4c8",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/joe-taylor-thai-restaurant-bar-north-melbourne",
+    "title": "Tom yum fries and sticky rice cocktails at Joe Taylor",
+    "summary": "A Thai wine bar on Errol Street in a room that still wears its early-1900s tailor's signage.",
+    "date_published": "2026-05-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Scot Nottle and Mini Punapaprasurt kept the original painted glass shopfront from the building's tailoring days and put a low-intervention wine list behind it, curated by a sommelier and turned over roughly monthly. The kitchen is Thai home cooking rather than a fusion exercise, which is the distinction that decides whether a room like this is worth crossing town for. Errol Street is a short ride from the northside and this is the sort of place that does not make the September roundups because it opened in May.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/05/26/Joe%20Taylor%20Bar%20-%20Casey%20Horsfield_28%20of%2038-38a7c3cef9.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
+  },
+  {
+    "id": "246adff7eb277b286abd27c4d570ecb1ba3bd1acaf469692413717576dba8dbf",
+    "url": "https://aquariumdrunkard.com/2026/09/20/radio-free-aquarium-drunkard-september-2026",
+    "title": "Radio Free Aquarium Drunkard: September 2026",
+    "summary": "Two hours of dublab radio: a survey of the year's digs, then an hour of instrumentals built for a dark afternoon.",
+    "date_published": "2026-09-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Chad DePasquale opens with recent 2026 finds and Tyler Wilcox takes the back half for autumnal instrumentals, which is the stretch worth staying for if the Tycho, Khruangbin and Glass Beams end of the shelf is where you live. The Lagniappe instrumentals compendium already in the feed was the covers version of this idea; this is the monthly radio one, and it turns up finds a full month ahead of the Bandcamping round-ups. Northern-hemisphere autumn programming landing in a Melbourne spring is a feature, not a mismatch.",
+      "published_at": "2026-09-21T16:18:21.206Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/09/IMG_7373.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
   }
 ]
