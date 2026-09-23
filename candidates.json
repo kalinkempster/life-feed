@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emcrit/hd-caths/",
+      "title": "EMCrit 434 – Temporary Hemodialysis (HD) Catheters",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "The vascath is the line most registrars place least often and get taught about least well, and this is Weingart on catheter choice, insertion depth and what good looks like.",
+      "note": "Weingart follows last month's HALO episode — the one about high-acuity, low-occurrence procedures and how rarely-used skills decay — with a worked example of exactly that kind of line. Depth selection and site choice are ultrasound problems before they are catheter problems, which puts this squarely next to the CCPU vascular access material. Pairs with the RUSH and ultrasound-guided line episodes already in the feed.",
+      "date_published": "2026-09-21"
+    },
+    {
+      "url": "https://thesgem.com/2026/09/sgem-xtra-if-i-could-turn-back-time-14-seasons-of-skepticism-kindness-evidence-based-em/",
+      "title": "SGEM Xtra: 14 Seasons of Skepticism, Kindness and Evidence",
+      "source": "The SGEM",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Ken Milne looks back over fourteen years of structured critical appraisal and sets out how the method itself has changed — useful if you are trying to build an appraisal habit rather than just consume one.",
+      "note": "The feed already carries SGEM519 on paediatric PE and SGEM520 on morphine and paracetamol; this is the show turning the lens on its own method. For a registrar who reads trial appraisals weekly, the value is in seeing where a fourteen-year-old framework has been revised and why. Season 15 starts from here, so it is a reasonable place to work out whether the podcast is worth a standing slot.",
+      "date_published": "2026-09-04"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-09-22/wet-winter-increases-risk-of-active-hayfever-season-in-victoria/107176136",
+      "title": "Active hayfever season likely in Victoria after warm, wet winter",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A warm wet winter has loaded central and western Victoria with grass pollen, and the Department of Health starts issuing daily thunderstorm asthma forecasts next week.",
+      "note": "Melbourne is the city where epidemic thunderstorm asthma is an ED staffing problem, not a curiosity — October to December is the window, and this is the forecast that says how bad the substrate looks. Six new automated pollen counters have been added to the risk forecasting system this year, so the daily green/orange/red call should be faster and better resolved than previous seasons. Worth knowing before the first big northerly front, rather than during it.",
+      "date_published": "2026-09-22"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "title": "Jev introduces a new shape of LLM—System One decision models",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A model that takes text in and returns typed probabilities instead of prose — classification, triage and ranking at $0.042 per million tokens, with Willison's reservations attached.",
+      "note": "TypeSafe AI's Jev returns floating point numbers against categories, yes/no questions and ratings with confidence scores, which is the shape of almost every screening and prioritisation problem in a hospital. Willison's objection is the interesting part: it is a regression toward black-box machine learning, because unlike a chat model it cannot be asked to explain itself. That distinction matters a lot more when the classifier is sorting patients than when it is sorting spam.",
+      "date_published": "2026-09-21"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/09/21/hug-hug/",
+      "title": "HUG :: HUG",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Devendra Banhart, Gyan Riley and Noah Georgeson made a record for the small hours, and Aquarium Drunkard makes the case for it as late-night listening rather than background.",
+      "note": "This sits in the same register as the José González, Sufjan and This Will Destroy You end of the shelf — quiet, acoustic, built for a room rather than a commute. Georgeson has produced most of Banhart's best work and Riley is a classical guitarist, so the playing is closer to composition than to folk strumming. A good candidate for the post-night-shift side of the collection, where Einaudi and For Emma already live.",
+      "date_published": "2026-09-21"
+    },
+    {
+      "url": "https://daily.bandcamp.com/album-of-the-day/various-artists-mainstream-funk-review",
+      "title": "Mainstream Funk: Funk, Soul & Spiritual Jazz 1971–75",
+      "source": "Bandcamp Daily",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "The funk end of Bob Shad's Mainstream Records, compiled by Wewantsounds — the natural next listen after the Mainstream label guide.",
+      "note": "The feed already carried Bandcamp's Mainstream Records label guide, which covered the jazz side; this is the comp that shows what Shad did when he decided the label needed more funk in it. The hybrids are the draw — session bands leaning rock and funk underneath straight R&B vocals, which is the same collision Menahan Street Band and Daptone are working a half-century later. Available on vinyl, which is the point.",
+      "date_published": "2022-02-01"
+    },
+    {
+      "url": "https://www.japancamerahunter.com/2026/03/camera-geekery-kodak-aerochrome-cameras/",
+      "title": "Camera Geekery: Kodak Aerochrome cameras",
+      "source": "JCH",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A photographer who shoots the discontinued infrared Aerochrome stock and builds his own cameras to do it — the practical end of false-colour film, not the Instagram end.",
+      "note": "Aerochrome is the legendary colour infrared stock that renders foliage in reds and magentas, and the hard part has always been the handling: loading, filtration and a body that will not fog it. This follows the IR thread already running through the feed — 35mmc's Hi-Con IR story and the piece on experimenting with IR filters — but from the camera side rather than the emulsion side. Japan Camera Hunter is a source this feed has never drawn on, and it is the most camera-literate of the film blogs.",
+      "date_published": "2026-03-16"
+    },
+    {
+      "url": "https://kosmofoto.com/2026/04/eastman-kodak-is-distributing-all-its-films-again-what-happens-next/",
+      "title": "Eastman Kodak is distributing all its films again",
+      "source": "Kosmo Foto",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Kodak Alaris is out of the chain and Eastman Kodak has to rebuild a distribution network it let go twelve years ago — the piece that explains why film prices have been moving oddly all year.",
+      "note": "This is the structural story behind the individual announcements the feed has been carrying: the Verita 200D release, the Ektacolor Pro and Ektapan ranges, the UK price drop in September. Alaris's margin comes off the top, but Eastman now wears the cost of getting stock to retailers itself, and nobody knows yet which way that nets out at the counter. Also explains the rebadging — Kodacolor 100 and 200 are Pro Image 100 and ColorPlus 200 in new boxes, not new emulsions.",
+      "date_published": "2026-04-21"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/fashion/article/melbourne-menswear-label-front-office-turned-its-online-success-physical-shop",
+      "title": "Melbourne Menswear Label Front Office Opens a Physical Shop",
+      "source": "Broadsheet",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Ken Sakata's label — vintage workwear staples, and formerly an internet football-merch joke — now has a Smith Street shopfront that doubles as his studio.",
+      "note": "Same street, same trajectory as Mutimer's Collingwood store: an Australian label that grew online and then took a physical room in Fitzroy/Collingwood rather than a wholesale account. Front Office's cut is the vintage-workwear-with-a-twist end rather than strict repro, which puts it adjacent to the RRL and Banana Republic reference points without the import cost. The shop only opens to the public on weekends, which is worth knowing before walking up Smith Street on a Tuesday.",
+      "date_published": "2025-02-11"
+    },
+    {
+      "url": "https://dragonwilds.runescape.com/news/1.0.0.5-patch",
+      "title": "1.0.0.5 Patch Notes: Expected Friday",
+      "source": "Dragonwilds",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "First-party notes for the next post-launch fix pass, landing Friday the 25th — the corrupted-save problem and a batch of quest soft-locks.",
+      "note": "Dragonwilds went 1.0 on 15 September and immediately hit a world-save corruption bug on exit, which Jagex has been fixing in stages; this is the patch that collects that work. Also in here: Agility completion times finally persisting across sessions on dedicated servers and hosted worlds, and the TokTz-Ket-Xil shield vestige drop failing in some circumstances. Dedicated servers need a restart to sync, so worth reading before Friday if you host.",
+      "date_published": "2026-09-23"
+    },
+    {
+      "url": "https://www.photoreview.com.au/news/photo-competitions/tamara-dean-wins-2026-bowness-photography-prize/",
+      "title": "Tamara Dean wins 2026 Bowness Photography Prize",
+      "source": "Photo Review",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "The $50,000 Bowness goes to a work shot in a purpose-built underwater studio, and the full finalists' exhibition is hanging at MAPh until 8 November.",
+      "note": "MAPh in Wheelers Hill is the only Australian public institution devoted solely to photography, and the Bowness is the one night a year the whole national field is on one set of walls. Dean's Metamorphosis is going into the collection; honourable mentions went to Ingvar Kenne for termite mounds on Marra Country and Justine Varga for Concussion #1. Six weeks left to see it, and it is the kind of show that reads very differently in print than on a phone.",
+      "date_published": "2026-09-17"
+    }
+  ]
+}
