@@ -4260,5 +4260,184 @@
       "image": null,
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "dc0c6bb1a64e7a4438bb0460bd8dbe9fe9941150feed6eb1bd04fcdce885ad99",
+    "url": "https://www.doctorswithoutborders.org/latest/ebola-disease-outbreak-2026-how-msf-responding",
+    "title": "Ebola outbreak 2026: how MSF is responding",
+    "summary": "The operational view of the largest Ebola outbreak ever recorded, from the people running the treatment centres.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "MSF",
+      "note": "The WHO Disease Outbreak News entries for DRC are already in the feed; this is the same emergency described by the organisation doing the isolation and staffing, which is a different and more concrete account. The detail worth noting is the ERVEBO effectiveness study launched on 19 September across 20,000 frontline health workers in Ituri and North Kivu — vaccinating the people doing the work, and measuring whether it holds. Relevant to anyone whose job is the first hour of an undifferentiated febrile traveller.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://www.doctorswithoutborders.org/sites/default/files/styles/social_share/public/image_base_media/2026/07/MSF372294.jpg?itok=ULJzQ1I-",
+      "icon": "https://www.doctorswithoutborders.org/themes/custom/msf/favicon.ico"
+    }
+  },
+  {
+    "id": "bfa7c44b720fb804cad336beb19c9bbaa4a127ffb9fef580804fdcc612f6005a",
+    "url": "https://litfl.com/ultrasound-case-108",
+    "title": "Ultrasound Case 108 — osteomyelitis in a finger",
+    "summary": "A water-bath scan of a fingertip too tender to press on, and what cortical breakdown looks like before plain film catches up.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "The POCUS Top 100 is the closest free analogue to the CCPU image bank, and this case teaches a technique rather than just a picture: the water bath buys standoff on a digit the patient won't let you touch. Ultrasound Case 106 is already in the feed — this is further along the same series and covers a region most ED scanning never goes near. A tender finger with a disrupted dorsal cortex is exactly the presentation that gets discharged from triage.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "dbf0d541a18197f475c1296db8c1bf36a47ea28cd7716b9dadba7aae0d79dbb3",
+    "url": "https://www.analogplanet.com/content/short-cuts-vol-37-three-outstanding-new-180g-aaa-bluesville-series-lps-revive-rare-and-hard",
+    "title": "Three new 180g AAA Bluesville reissues, reviewed",
+    "summary": "Jimmy Reed, Skip James and Albert King cut from the original tapes, with the pressing chain named end to end.",
+    "date_published": "2026-09-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "Lacquers cut by Matthew Lutthans at The Mastering Lab and pressed at QRP is about as good as the industrial side of this gets, and Smotroff separates the music rating from the sound rating so you can tell which is carrying the record. The collection already has B.B. King and the wider blues shelf, so Albert King's *I'll Play the Blues for You* — rated a 10 for music here, and said to sound fuller than the 1972 Monarch pressing — is the obvious entry point. Short Cuts Vol. 36 is already in the feed; this is the blues instalment.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "5e5779d39953acd4ab3b131cbb7a17af3dd803b83900a4cae6ab1f3c0d627a3d",
+    "url": "https://www.abc.net.au/news/2026-09-23/senate-inquiry-probes-ai-data-centre-affects-on-communities/107185098",
+    "title": "Senate inquiry probes AI data centres as locals seek payout",
+    "summary": "The AI buildout finally shows up as a local planning fight, with residents near a Melbourne facility asking to be compensated.",
+    "date_published": "2026-09-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "The hearing sat at Yarraville Community Centre on Wednesday, which puts the abstract argument about compute and energy in an inner-west street rather than a white paper. Hanson-Young's committee reports on 16 November, so this is the window where submissions still shape the outcome. It is the rare story that lands in both halves of what he reads for — AI capability, and what is happening in the city he works in.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/213c1dcc3d46ac9d81d37e148d9faf88?impolicy=wcms_watermark_news&cropH=1079&cropW=1918&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "067f4f7f14c0eddecaba5c622bac11a059b58299df7203bf482e1c8cec4b3fac",
+    "url": "https://first10em.com/paxlovid-doesnt-work-surprise",
+    "title": "Paxlovid doesn't work. Surprise?",
+    "summary": "Morgenstern pulls apart the trial evidence under a drug that is still handed out on reflex, and the reasoning transfers well beyond COVID.",
+    "date_published": "2026-05-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "First10EM",
+      "note": "This is the same appraisal habit as his non-inferiority piece already in the feed — start from who was actually enrolled, then ask what the absolute numbers were. Worth reading as method rather than as a verdict on one antiviral: the pattern of an early trial in an unvaccinated population carrying a recommendation years past its use-by date repeats constantly. Useful the next time a medical registrar asks you to prescribe it on the way out of the department.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://first10em.com/wp-content/uploads/2024/01/Paxlovid-evidence-First10EM.jpg",
+      "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+    }
+  },
+  {
+    "id": "fdfa99c1728b62dbc6655eed495ab482cb789be67202cb52cd39c37dcf19c374",
+    "url": "https://www.heddels.com/2017/01/baby-its-cold-outside-the-warmth-and-wonder-of-wool-blankets",
+    "title": "The warmth and wonder of wool blankets",
+    "summary": "Where Pendleton and Woolrich blanket cloth came from, and why the same wool ends up in the jackets worth owning.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "Pendleton has been a named reference point without ever appearing in the feed — this fills that in properly, back to Thomas Kay weaving in Oregon and the trade-blanket patterns the brand still runs. The Woolrich history piece already published covers the company; this covers the cloth, which is the part that explains why a blanket-lined coat behaves the way it does. Good background before spending real money on anything wool this coming winter.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "099ce7016511287a8769f665f2971b02369319e2096de95aaf68fa4c9b8ad905",
+    "url": "https://kosmofoto.com/2026/08/japans-film-shooters-seem-to-be-shooting-less-but-film-sales-are-holding-steady",
+    "title": "Japan shoots less film, but sales are holding steady",
+    "summary": "Survey data from the market that sets film prices worldwide, and why fewer rolls per shooter is not the same as decline.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "Japan is where the emulsion and compact-camera supply actually originates, so what its shooters do turns up in Melbourne lab prices about a year later. Read alongside the Kodak distribution and China Lucky stories already in the feed, this is the demand-side half of a picture that has mostly been told through manufacturer announcements. The interesting split is shooters holding on while rolls per shooter fall — a hobby getting more deliberate rather than smaller.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/08/3541335968_514b1c73d6_k-e1787474403315.jpg?fit=1200%2C802&",
+      "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "ed632c63bc5b9931d00fc13ab76a9dd78779e46327a0eb7cacef5b6aa98e5b53",
+    "url": "https://www.emdocs.net/ecg-pointers-7-cant-miss-ecg-patterns-of-high-risk-syncope-the-abcde-left-right-mnemonic",
+    "title": "7 can't-miss ECG patterns of high-risk syncope",
+    "summary": "One mnemonic that covers the seven ECG findings that turn a reassuring syncope workup into an admission.",
+    "date_published": "2022-09-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "emDocs",
+      "note": "ABCDE Left Right — AV block, Brugada, long QTc, delta waves, epsilon waves, LVH and right ventricular strain — is the kind of structure that survives a busy shift better than pattern recognition alone. It pairs directly with the ASPIRED ambulatory monitoring appraisal already in the feed, which deals with what happens after you decide the ECG is clean. The epsilon wave and ARVC section is the one most registrars have read about and never actually looked for.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://www.emdocs.net/wp-content/uploads/2017/11/Screen-Shot-2017-11-21-at-12.31.56-PM.png",
+      "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+    }
+  },
+  {
+    "id": "8310e0237d18ba2aabdce047dd922de5e993035e07fc32eb4d0db82eb64bac1f",
+    "url": "https://www.35mmc.com/18/09/2026/zeiss-342-bebe-resurrecting-an-1930-ikon",
+    "title": "Zeiss 342 Bébé — resurrecting a 1930 Ikon",
+    "summary": "A 1930 strut-folding plate camera dragged back into service by machining brass sheaths to hold 120 film.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "This is camera writing at its best — the point is using the thing, not owning it, and most of the piece is the tolerance problem of fitting roll film into original plate holders. The camera itself is a 6x4.5 Bébé with a rim-set Compur and a 7cm f/3.5 Tessar, which is a better lens than a 96-year-old auction find has any right to carry. A useful companion to the Braun Paxette and Super Ikonta pieces already in the feed, and a reminder that the ground glass back is still the most honest way to focus.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/08/20260807_6233.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "83dcdc75afe298e5d609fccf831ff92664af1ead9bc6c9b1b387b07a8591624b",
+    "url": "https://www.pushsquare.com/news/2026/08/massively-upgraded-the-witcher-3-remaster-comes-to-ps5-in-september-free-for-existing-players",
+    "title": "Witcher 3 remaster hits PS5 free for existing owners",
+    "summary": "A free upgrade with PS5 Pro support, reworked combat and a revamped skill tree, out 29 September.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "If The Witcher 3 is already on the account, this costs nothing and arrives next Tuesday — both expansions included, so there is no edition to work out. The changes go past a resolution bump: combat, traversal, sign effects, transmog and a rebuilt skill tree, which is closer to a remake of how it plays than a remaster of how it looks. The 'Songs of the Past' expansion teased alongside it is 2027, and Witcher 4 is still targeting 2028.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://images.pushsquare.com/151bb8c8d2394/large.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "9235edcac2d89c1a47cdfd8519872cd927c85543ef096177da10a12f2860ed5a",
+    "url": "https://www.broadsheet.com.au/melbourne/fashion/article/garmes-collingwood-opening",
+    "title": "Garmes, Collingwood's new consignment fashion store",
+    "summary": "A Depop operation grown into a Smith Street shopfront, with a consignment arm that pays cash or credit for what you bring in.",
+    "date_published": "2026-09-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Smith Street rather than Chapel Street was a deliberate choice by the Canberra group behind it, and it puts them a short walk from Mutimer's Collingwood store already in the feed — the secondhand and the new ends of the same stretch. Cash for Garmes pays 30 per cent cash or 50 per cent store credit of estimated resale, which is the practical reason to walk in with a bag rather than just browse. Around 60 per cent of their online orders were already coming from Melbourne before they opened here.",
+      "published_at": "2026-09-24T16:21:19.970Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/06/22/0I8A6317-aa42deca2c.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
   }
 ]
