@@ -1,0 +1,191 @@
+{
+  "day": "2026-09-27",
+  "ran_at": "2026-09-26T16:21:18.445Z",
+  "published": 11,
+  "dropped": [
+    {
+      "code": "404",
+      "url": "https://www.ama.com.au/articles/ambulance-ramping-report-card-2026",
+      "when": "this run"
+    }
+  ],
+  "items": [
+    {
+      "id": "6d5147a7d120cead8039649ff56ec9a56fcc48697bd315ec4a1837ae37e52b0b",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-bolivarian-republic-earthquake-response-situation-report-30-17-23-september-2026",
+      "title": "Venezuela Earthquake Response Situation Report #30",
+      "summary": "Week thirty of a coordinated earthquake response — what a sustained deployment looks like after the cameras leave.",
+      "date_published": "2026-09-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ReliefWeb",
+        "note": "Report thirty covers 17–23 September, long past the point where a disaster falls out of the news cycle and deep into the grinding logistics phase of shelter, water and health cluster coordination. This feed has carried Nepal, Sudan and Flores situation reports; Venezuela is the one still running, and the interest is in the tail rather than the impact. For someone whose job is the acute end of exactly this, the coordination architecture is the part that is hardest to learn from a textbook.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "id": "c3f77b94a9f66b2b7a316ffa1c0430a7a7594e4a9c7d8a8da161dc7c320f01f4",
+      "url": "https://www.theresusroom.co.uk/papers-of-september",
+      "title": "Papers of September",
+      "summary": "Three papers on post-RSI sedation and trauma triage that land squarely on registrar-level decisions.",
+      "date_published": "2026-09-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "The Resus Room",
+        "note": "Post-intubation sedation after prehospital RSI is exactly the handover gap that shows up when a retrieval case lands in resus — the paper looks at how wildly intermittent bolus dosing varies between patients. The second asks whether NEWS beats shock index for predicting mortality and transfusion need, which is live anywhere trauma is triaged by numbers rather than by look. The Resus Room is not on the source list and skews prehospital, which is precisely the gap in what this feed has been reading.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": null,
+        "icon": "https://www.theresusroom.co.uk/wp-content/uploads/2016/02/cropped-cropped-THE-RESUS-ROOM-1-32x32.jpg"
+      }
+    },
+    {
+      "id": "ad8e23331ab7b3ecbbe5941584c6bada94a33bd6770beb351ffadd31bdc5a92b",
+      "url": "https://daily.bandcamp.com/features/stones-throw-label-profile",
+      "title": "Stones Throw at 30: Artists Share Stories",
+      "summary": "Three decades of the label that found Madlib and put DāM-FunK's boogie funk back into circulation.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Bandcamp Daily",
+        "note": "Peanut Butter Wolf and a rotating cast of artists walk the label's history, from discovering Madlib in Oxnard to Mild High Club and Los Retros going gold and viral decades later. The DāM-FunK thread is the one that reaches the shelf — boogie funk is the bridge between the Parliament and Sly & The Family Stone records and the newer Daptone and Big Crown material. Colemine, Daptone and Mainstream label guides have all been through here already; Stones Throw was the obvious hole.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://f4.bcbits.com/img/0047539821_171.jpg",
+        "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "ac66cebb1d2b5772685a1e50044877cd8c6df152655b69cbef1744008dbf8ea8",
+      "url": "https://blog.jimgrey.net/2026/09/21/fujifilm-neopan-400-in-bellini-ecofilm",
+      "title": "Fujifilm Neopan 400 in Bellini Ecofilm",
+      "summary": "A discontinued Japanese emulsion pushed through a low-toxicity developer, with the frames to judge it by.",
+      "date_published": "2026-09-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Down the Road",
+        "note": "Neopan 400 has been off the market long enough that any roll still around is expired, and Bellini's Ecofilm is one of the low-toxicity developers quietly displacing the old standbys. Grey is specific about dilution and times rather than theory, which is what makes his posts usable rather than merely pleasant. Useful reference for any mystery roll of Fuji black and white that turns up in a Melbourne camera shop bargain bin.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://i0.wp.com/blog.jimgrey.net/wp-content/uploads/2026/08/420.jpg?fit=799%2C533&ssl=1",
+        "icon": "https://i0.wp.com/blog.jimgrey.net/wp-content/uploads/2023/03/dtr_square.jpg?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "c22cad5edcf211abf000e7a4396cef0d6ee336970ea6d76acd65d1725742371b",
+      "url": "https://www.35mmc.com/24/09/2026/logging-jamboree",
+      "title": "Logging Jamboree!",
+      "summary": "A career photographer covering a fast, chaotic event on film, where there is no spraying and praying.",
+      "date_published": "2026-09-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Jeffery Luhn has been shooting professionally since UPI sent him to photograph the hippie invasion of Europe in 1969, and has taught photography since 1980 — the reportage instincts are all over this. The Sierra Nevada jamboree is competitive axe throwing and chainsaw work at close range, which is a real test of anticipating a frame rather than reacting to one. Worth reading before shooting anything that moves faster than a street corner.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/Copy_6925-copy-scaled.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "1cb96bd254fda36f9fc0cd85a8d23baa1acf93b1c14321f75b22f94698b5cd28",
+      "url": "https://www.heddels.com/2026/09/cozy-up-in-outclass-campfire-motif-zip-cardigan",
+      "title": "Outclass' Campfire Motif Zip Cardigan",
+      "summary": "A shawl-neck zip cardigan in 60% alpaca and 40% merino, knitted in Peru — the rustic end of the wardrobe.",
+      "date_published": "2026-09-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The blend is the interesting part: alpaca brings loft and halo but almost no memory, so the merino is doing the structural work that stops a heavy shawl collar from sagging permanently out of shape. It sits in the same rustic register as the Pendleton and Woolrich reference points, only knitted rather than woven. Peru is still where most serious alpaca knitting happens, which is worth knowing when comparing prices on anything claiming the fibre.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "8f1eebd484312f04cfc7797190a834f4ff81578093f0423988804fa80e045635",
+      "url": "https://broomedocs.com/2026/05/diagnosis-2026",
+      "title": "Diagnosis: 2026",
+      "summary": "Bayesian reasoning worked through with a drivable Fagan nomogram, on PE, bowel obstruction and paediatric appendicitis.",
+      "date_published": "2026-05-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Broome Docs",
+        "note": "Casey Parker revisits his SMACC Dublin diagnostics talk and demonstrates a Docnomo/Fagan nomogram tool you can actually operate, rather than the static version everyone nods at and forgets. The PE worked example is the one worth the time — pre-test probability is the step of the PE workup that gets hand-waved hardest. Parker is a rural WA hospital DMO covering emergency, anaesthetics and obstetrics, so both the case mix and the resource ceiling are recognisably Australian.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://broomedocs.com/wp-content/uploads/2026/05/Screenshot-2026-05-15-at-3.07.48-pm.png",
+        "icon": "https://broomedocs.com/wp-content/uploads/fbrfg/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "bfd0b31390cd43930450a108772b7231f7251c0c232132f2ddf9f2f244186df4",
+      "url": "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-is-just-an-update-on-ps5-not-a-new-edition-with-new-trophies",
+      "title": "Witcher 3 Remastered Is Just an Update on PS5",
+      "summary": "If he already owns The Witcher 3 on PS5, the remaster lands 29 September as a free patch with saves intact.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "There is no separate download and no new trophy list — the Complete Edition updates in place, so existing saves and unlocked trophies carry straight over. That makes the 29 September launch a question of reinstalling rather than buying, which is the only practical question for anyone with the game already in their library. CD Projekt is running this remaster straight into the Songs of the Past expansion and, eventually, The Witcher 4.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://images.pushsquare.com/77e356dde77d6/large.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "82ef42d045a83f73a68adfeabb089cdf1559595afe997ce79418a20c23448c26",
+      "url": "https://broomedocs.com/2026/06/the-science-of-empathy",
+      "title": "The Science of Empathy",
+      "summary": "A thirty-minute talk on the neurobiology of empathy and what it costs to keep spending it at work.",
+      "date_published": "2026-06-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Broome Docs",
+        "note": "Re-released from SMACC Gold, it runs from the neuroscience through the social science to the practical question of how empathy behaves at the bedside on a bad night shift. It pairs with the St Emlyn's piece on compassion in emergency care that this feed carried earlier, but goes at the mechanism rather than the sentiment. Broome Docs has been on the source list the whole time and has never once appeared in the feed — it is worth mining properly.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://broomedocs.com/wp-content/uploads/2026/06/Screenshot-2026-05-24-at-3.47.11-pm.png",
+        "icon": "https://broomedocs.com/wp-content/uploads/fbrfg/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "581ccd98da469ac9676032e1ab7bb34251cb4801b23b3e56ae1536233ea4fd38",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/nina-the-suze-team-s-new-northcote-pasta-restaurant",
+      "title": "Meet Nina, the Suze Team's New Northcote Pasta Restaurant",
+      "summary": "The Suze team's casual second act on High Street — handmade pasta and twenty wines by the glass.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Giulia Giorgetti and Steve Harry opened Suze in Fitzroy North eighteen months ago; Nina takes the old Vex Dining room on High Street, Northcote, and does the same thing louder and cheaper. Small plates built for mopping with bronzed focaccia, a long communal table inside and a jasmine courtyard out the back. The feed carried the coming-soon notice weeks ago — this is the doors-open version, which means it is finally bookable.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/09/23/Nina_Michael%20Gardenia_24%20of%2057-beebb3fa53.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    },
+    {
+      "id": "358cc32e42a7eca68ceb9faee45a35a0ae168389b1f6b4c98b933a6554aa77dc",
+      "url": "https://viewcameraaustralia.org/2026/09/14/exhibition-hand-made-melbourne-camera-club-2",
+      "title": "Hand Made — Melbourne Camera Club's 26th Annual Show",
+      "summary": "Sixty-plus hand-made silver gelatin and alternative-process prints, hanging in South Melbourne.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "View Camera Aus",
+        "note": "The Melbourne Camera Club's 26th annual print exhibition is at 254 Ferrars Street, and every print in it was physically made rather than output — silver gelatin alongside cyanotype and other alternative processes. A well-made fibre print in person is the argument for the darkroom that no scan on a screen can make. It is also a room full of local film photographers, which is considerably harder to find in Melbourne than the prints are.",
+        "published_at": "2026-09-26T16:21:18.445Z",
+        "image": "https://viewcameraaustralia.org/wp-content/uploads/2026/09/hand-nmade.jpg",
+        "icon": "https://viewcameraaustralia.org/wp-includes/images/w-logo-blue-white-bg.png"
+      }
+    }
+  ]
+}
