@@ -1,0 +1,186 @@
+{
+  "day": "2026-09-28",
+  "ran_at": "2026-09-27T16:21:43.728Z",
+  "published": 11,
+  "dropped": [],
+  "items": [
+    {
+      "id": "d289e5091cd67042ac5dc614e6b583c7a4918be4c9699340181fc432f0613c47",
+      "url": "https://www.emdocs.net/2026-guideline-update-early-management-of-acute-ischemic-stroke",
+      "title": "2026 Guideline Update: Early Management of Acute Ischemic Stroke",
+      "summary": "The 2018 stroke guideline he trained on has been replaced, and this pulls out only the parts that change ED decisions.",
+      "date_published": "2026-02-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "emDocs",
+        "note": "The AHA/ASA guideline that replaced the 2018 document and its 2019 update widens tenecteplase to 4.5 hours, broadens thrombectomy eligibility and adds paediatric recommendations for the first time. emDocs strips the 120-page original down to prehospital triage, door-to-needle and the in-department decisions a registrar actually owns. If the stroke pathway at his shop still reads off 2018 criteria, this is the document that says why it shouldn't.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://www.emdocs.net/wp-content/uploads/2026/01/Screenshot-2026-01-28-at-12.36.35-AM.jpg",
+        "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+      }
+    },
+    {
+      "id": "562ebaffb4c6f7fd4f4ae0bf8ee0e33f746048dd186d418ffd13f3d8148a3721",
+      "url": "https://www.analogplanet.com/content/wam-engineering-wallyloupe-seeing-believing",
+      "title": "The WAM Engineering WallyLoupe: Seeing Is Believing!",
+      "summary": "Michael Trei on why a $195 two-lens loupe beats a jeweller's loupe for getting a cartridge square to the groove.",
+      "date_published": "2026-09-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "Cartridge alignment is the one setup variable that quietly degrades every record in a 297-title collection, and it fails because you cannot see the cantilever well enough to judge it. The kit's second lens sits at three and a half inches specifically so you can see under the cartridge body — the exact problem that makes overhang and zenith guesswork. From the back half of Spin Doctor #41, so it reads like bench notes rather than a product page.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "6706d544eccc4e9130bcffca9ac376b401913f79065df3987c8d1ff4431fbaba",
+      "url": "https://thesgem.com/2026/09/sgem521-hit-me-with-your-best-shot-im-ketorolac-for-back-pain",
+      "title": "SGEM#521: IM Ketorolac for Back Pain?",
+      "summary": "A structured appraisal of whether the reflexive IM ketorolac for acute low back pain actually beats the oral route.",
+      "date_published": "2026-09-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "The SGEM",
+        "note": "Back pain is one of the highest-volume presentations in any ED and the IM NSAID is close to muscle memory. Milne's format — clinical question, methods critique, bottom line, case resolution — is the one that survives contact with a busy shift. It follows SGEM#520 on morphine plus acetaminophen from a fortnight earlier, so the two together cover most of the analgesia decisions he makes in a night.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": null,
+        "icon": "https://i0.wp.com/thesgem.com/wp-content/uploads/2019/01/cropped-SGEM-Logo.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "96f6ff7fb63a209903bed4b5183674c7220e79fcc926cfa2e0219e7776e423bb",
+      "url": "https://www.heddels.com/2026/09/melin-mills-pursuit-of-materials-detail-and-innovation",
+      "title": "melin MILL's Pursuit of Materials, Detail, and Innovation",
+      "summary": "A rare piece of writing that treats a cap as a constructed object rather than a logo carrier.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Headwear is the blind spot in most heritage menswear writing — everything gets the cloth-and-construction treatment except the thing on your head. David Shuck goes through the MILL line's materials and panel work the way Heddels normally handles selvedge or shell cordovan. Useful reference points if you are weighing a cap the way you would weigh a Pendleton or a Woolrich.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "512c3f7fef852cee0d51a518c8eb5e10e3293c3a305b4864520dcd4b10720295",
+      "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+      "title": "How We Built Safety Into Muse",
+      "summary": "The first consumer agentic AI gives every user a persistent cloud Linux VM, and Meta's security case is built on an independent researcher's framing.",
+      "date_published": "2026-09-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Meta AI",
+        "note": "Meta cites Simon Willison's \"lethal trifecta\" — private data, untrusted content, external communication — directly, which is the first time a major consumer launch has hung its public security story on an outside researcher's model. Worth reading because the same three conditions describe every clinical AI tool that reads a record and writes somewhere else. Willison, whose work already turns up in this feed regularly, thinks people are underestimating how dangerous it is.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://research.meta.ai/images/media-backups/security-and-safety-for-ai-agents-our-approach-with-hatch/social-v1.webp",
+        "icon": "https://research.meta.ai/icon.svg?v=1"
+      }
+    },
+    {
+      "id": "d8049d50ddba0537ddff7214c1355ec54c5138d17b8e9c30ce2a104c56075a60",
+      "url": "https://emcrit.org/emcrit/cardiogenic-shock-2-mcs",
+      "title": "EMCrit 259 — Cardiogenic Shock: The Next Level & Mechanical Support",
+      "summary": "Weingart and Badulak on what happens after pressors stop working, and how to talk to the people who bring the pump.",
+      "date_published": "2019-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Badulak is an emergency physician and intensivist, so this is framed from the resus bay rather than the cath lab — when to stop escalating inotropes, what Impella and VA ECMO actually buy you, and the language to use when you ring for them. It sits directly alongside the echo findings in CCPU cardiac: RV failure, LV systolic assessment, and the decision point they drive. Older than most of what runs here, and none the worse for it.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2019/11/SCREENSHOT-11-11-2019-001.png?fit=1123%2C638&ssl=1",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "e2055a2c7dc9e683d81697c0b21cfbdcc2e414e631e4cf1629e9dd2765f8c8f9",
+      "url": "https://www.abc.net.au/news/2026-09-24/victoria-ibac-granted-follow-the-money-powers/107192998",
+      "title": "IBAC granted 'follow the dollar' powers on final sitting day",
+      "summary": "Victoria's anti-corruption watchdog can now trace public money through subcontractors, which matters in a state that builds hospitals through them.",
+      "date_published": "2026-09-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Passed on the last sitting day before the Victorian election, the legislation lowers IBAC's investigable threshold to serious misconduct and lets it follow taxpayer funds into non-government entities. Health is the single biggest line in the state budget and most of it reaches the ward via contracted builders and service providers. Carroll brought the integrity laws forward in July to mark himself off from Allan; this is the version that actually passed.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/fe7bad07e5ce4b8acdeba06e06c0dd19?impolicy=wcms_watermark_news&cropH=627&cropW=1115&xPos=0&yPos=76&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "183b2c78dfd36be6ef82a220aac8c9903fa0ed31a405d0560c3021aeac71ae9d",
+      "url": "https://www.pushsquare.com/news/2026/09/newest-wolverine-ps5-update-wipes-out-scent-trails-to-collectibles",
+      "title": "Newest Wolverine PS5 Update Wipes Out Scent Trails to Collectibles",
+      "summary": "Insomniac's hotfix adds the toggle that turns off the hand-holding people complained about at launch.",
+      "date_published": "2026-09-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "Patch 1.001.006 lets you switch off scent trails, audio cues and the purple Nightmare roots entirely, which is the single change most likely to fix the game for anyone who bounced off the guided feel. It landed ten days after the 15 September launch, alongside crash fixes. Worth knowing before starting rather than forty hours in.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://images.pushsquare.com/814042911175a/large.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "38e743e4050a69704eb038cd420cabd113fc4542c5f011b0bdadeb43f617fc8d",
+      "url": "https://www.35mmc.com/27/09/2026/picturing-musicians",
+      "title": "Picturing Musicians — Part 1",
+      "summary": "Shooting musicians on film, where the light is bad, the subject moves, and you get one frame per guess.",
+      "date_published": "2026-09-27T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Published today. Music photography is the hardest argument for film — no chimping, terrible venue light, a subject who will not repeat the moment — which makes it a good place to see technique explained rather than asserted. Given the shelf of soul, funk and jazz records in the house, the subject matter sits on both sides of his interests at once.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/Lisa-Taylor-profile-scaled.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "b7918fa726483e573870d540ac0b9fa4f45eadd57ffa55ce8ba93111963a3f05",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-peaches-wine-bar-skinnys-older-goth-sister",
+      "title": "First Look: Preston's Peaches Is the \"Older Goth Sister\" of Skinnys",
+      "summary": "Skin-contact wine and pickled mussel toast at 901 High Street, from the pair behind the Preston diner up the road.",
+      "date_published": "2025-05-22T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Genevieve Bruwer and Jamal Nicoll run Skinnys, the retro diner in the old Preston milk bar, and Peaches is the night-time version a few doors along the High Street strip. Nicoll's framing is \"drinks with food, not food with drinks\" — no pairings, lo-fi labels, French and Italian plates including a house-made vegan pasta. A short walk or a couple of tram stops from the northside patch this feed usually covers.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": null,
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    },
+    {
+      "id": "af487a4eb1d0597613565c7bd2425f7f879c4f0672d29be3c42ae03461fc7d60",
+      "url": "https://beat.com.au/queen-victoria-markets-biggest-record-haul-is-about-to-arrive-for-two-days-of-digging",
+      "title": "Queen Victoria Market's Biggest Record Haul Arrives for Two Days",
+      "summary": "20,000 records in C Shed on Sunday 4 October, a week out, with dealers pulling from personal collections.",
+      "date_published": "2026-09-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat",
+        "note": "The Melbourne Record Fair runs twice a year at Queen Vic and the October date is the second of 2026, 9am to 4pm in C Shed with vinyl DJs across the day. It is the one local dig big enough that the soul, funk and jazz dealers all turn up to the same room rather than being spread across Gertrude and Sydney Road. Free entry, and the market's food is already there for when the crates stop being fun.",
+        "published_at": "2026-09-27T16:21:43.728Z",
+        "image": "https://beat.com.au/wp-content/uploads/2026/04/Frankie-Web-Article-Image-Design-2026-04-30T155206.697.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    }
+  ]
+}
