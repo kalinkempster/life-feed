@@ -4989,5 +4989,184 @@
       "image": "https://beat.com.au/wp-content/uploads/2026/04/Frankie-Web-Article-Image-Design-2026-04-30T155206.697.jpg",
       "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
     }
+  },
+  {
+    "id": "497bac24b6df3886f27bba8c8471a92f33dc709338fb47444efe51fcf1957266",
+    "url": "https://www.analogplanet.com/content/grandmaster-flash-pioneering-art-turntablism-quik-mix-theory-and-his-new-book-birth-culture",
+    "title": "Grandmaster Flash on Turntablism and the Quik Mix Theory",
+    "summary": "The man who invented the slipmat explains, at length, why he needed to invent the slipmat.",
+    "date_published": "2026-09-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "Mike Mettler gets Flash onto the mechanics: knitting drum beats together by hand, the grease pencil that other collectors considered desecration, the cueing system he called peek-a-boo, and the Quik Mix Theory behind it. This is playback craft rather than reissue news — the thing sitting between platter and record on every turntable is his solution to a problem he had in the Bronx. The collection's hip-hop shelf (Tribe, Outkast, Jay-Z, Lauryn Hill) is downstream of everything described here.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "a068c50324a9ff73a93953fc790075e003ed5bc8ad299ec78b5bf7b03e7a8915",
+    "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+    "title": "2026 in LLMs (so far)",
+    "summary": "Nine months of model releases, agent failures and product shifts, arranged chronologically by the one person who wrote it all down as it happened.",
+    "date_published": "2026-09-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison's closing keynote from WeAreDevelopers World Congress, turned into prose: the Opus 5.5 and GPT-6 releases hours apart, the emergent-communication incidents, and his argument that coding agents are where the technology found product-market fit. The feed has been taking his individual posts one at a time — Jev, the Opus/Sol/Luna day, the OpenAI agents on RubyGems — so this is the piece that puts those in order and says which of them mattered. A single sitting instead of nine months of scrollback.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://static.simonwillison.net/static/2026/2026-in-llms/simon-willison-2026-in-llms-png.001.webp",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "55d69e21b3adf130c64c56f82fdd1f3eec1e49d9a728ea410de021d6cdcd845d",
+    "url": "https://www.abc.net.au/news/2026-09-28/paramedics-concerned-by-mental-health-call-out-change/107202608",
+    "title": "Paramedics to lead mental health call-outs, union not told",
+    "summary": "Victoria is changing who turns up first to a mental health crisis, which changes who walks through his ED door and in whose company.",
+    "date_published": "2026-09-28T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "The state wants paramedics rather than police as first responders to mental health call-outs, to free police for crime and improve patient outcomes; the Victorian Ambulance Union says it was not consulted. However it lands, it reshapes the front half of every mental health presentation at a Victorian ED — arrival mode, restraint decisions, handover, and who is still standing in the cubicle an hour later. Published today.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/bcc840c3cb1f41bf7ce0ea9842363047?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "4cd1396e35f316f8534501f748626053b8fdcd7f395afecbe3bb4cee7cd15839",
+    "url": "https://petapixel.com/2026/07/22/light-lens-lab-is-making-an-all-new-film-camera",
+    "title": "Light Lens Lab Is Making an All-New Film Camera",
+    "summary": "A lens house that mostly reissues old Leica glass is now building a camera, a black-and-white emulsion and peel-apart film from scratch.",
+    "date_published": "2026-07-22T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "photography",
+      "source": "PetaPixel",
+      "note": "The camera is the headline but the emulsion work is the part worth watching: a genuinely new black-and-white stock and a revival of peel-apart instant film, from a company with the manufacturing base to actually do it. Set against the Kodak redistribution and the China Lucky announcements already in the feed, it suggests the supply side is getting less fragile rather than more. Nothing to buy yet — this is the early-stage announcement, so the interest is in whether the next twelve months bear it out.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://petapixel.com/assets/uploads/2026/07/light-lens-lab-analog-camera-featured.jpg",
+      "icon": "https://petapixel.com/assets/img/favicon.ico"
+    }
+  },
+  {
+    "id": "764903f528ebfc96565c80f6fc26e30e01d60b5f8a19b6e0a4cdfa2945df20eb",
+    "url": "https://massivelyop.com/2026/09/26/the-division-2-survivors-is-an-upcoming-winter-survival-experience-thats-taking-names-for-testing",
+    "title": "The Division 2 Survivors is a winter survival experience",
+    "summary": "Ubisoft is spinning the original Division's Survival mode out into a standalone game, and is signing people up to test it now.",
+    "date_published": "2026-09-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "A transformed, frozen Washington DC with per-run variation in weather, time of day, loot and routes, playable PvE or PvP — the extraction-survival shape rather than the base-building one. Sign-ups are open, which is the actionable part: the games in rotation here are Dragonwilds and Enshrouded, both of which are past their feature-complete point, and Enshrouded goes 1.0 on 15 October. Worth a look while there is a slot free in the survival rotation.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "2b9337585326ebfc1cef92b9813398b6a48de5ea55784f7d32d4aebc1b34ff8f",
+    "url": "https://massivelyop.com/2026/09/21/once-human-is-bringing-a-wide-open-ocean-shipbuilding-and-new-locations-in-its-isles-of-abyss-update",
+    "title": "Once Human's Isles of Abyss brings ocean and shipbuilding",
+    "summary": "The biggest free update Once Human has shipped since launch lands 22 October, and it is the one that adds boats you design yourself.",
+    "date_published": "2026-09-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "Craft, customise and upgrade vessels from skiffs to warships across a new open ocean and new locations — the same build-then-sail loop that Dragonwilds and Enshrouded keep circling without quite committing to. Free rather than paid, which is the comparison worth making against Enshrouded's 1.0 price rise a week earlier on 15 October. Dated and specific, so it is a decision about the last week of October rather than a rumour.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "2e975c1fc1d7a3038ea780e1c8050871710ecb4361c912285ee9482551c17c6e",
+    "url": "https://rebelem.com/a2b-trial",
+    "title": "The A2B Trial: Alpha-2 Agonists vs Propofol for ICU Sedation",
+    "summary": "A 1438-patient trial finally tests whether the dexmedetomidine enthusiasm of the last decade actually gets people extubated sooner.",
+    "date_published": "2026-09-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "REBEL EM",
+      "note": "Forty-one UK ICUs randomised primary sedation to dexmedetomidine, clonidine or propofol, with time to successful extubation as the endpoint — the question that comes up every time a ventilated patient waits in resus for a bed. Worth reading alongside the cardiogenic shock and peri-intubation collapse material already in the feed, because sedation choice is the decision that follows intubation rather than precedes it. Salim Rezaie's breakdown is the usual structured appraisal rather than an abstract summary.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2026/06/A2B-Trial-Cover-scaled.jpg?fit=2560%2C1440&ssl=1",
+      "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "ca64f3c3a9ed8932abdc981da6f1d929e5e3744b107f6ca79f3a487010557a51",
+    "url": "https://prov.vic.gov.au/whats/public-exhibitions/rehearsing-city",
+    "title": "Rehearsing the City",
+    "summary": "Victoria's government photo archive, hung next to commissioned new street work, on how public space actually gets reshaped.",
+    "date_published": "2026-05-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "PROV",
+      "note": "At the Victorian Archives Centre on Shiel Street in North Melbourne until March 2027, pairing archival images of the urban environment being reimagined or repurposed with new work from twelve contemporary Victorian street photographers including Suzanne Phoenix and Hashem McAdam. The argument is that public space is shaped as much by protest, improvisation and neglect as by planners — which reads differently if you have spent shifts on the receiving end of all three. Free, and a fifteen-minute walk from the Queen Victoria Market end of town.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": null,
+      "icon": "https://prov.vic.gov.au/sites/default/files/favicon.jpg"
+    }
+  },
+  {
+    "id": "20b366a85a2eb16a114c09fe9dc15ca3e29b3792f2820bd5c27548e4c8ed67d0",
+    "url": "https://viewcameraaustralia.org/2026/07/25/exhibition-brassai-secret-paris",
+    "title": "Exhibition: Brassaï – Secret Paris",
+    "summary": "More than 150 vintage prints of Paris after dark, the largest Brassaï showing Australia has had and his first solo here in fifty years.",
+    "date_published": "2026-07-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "View Camera AU",
+      "note": "At Heide in Bulleen until 15 November: the 1930s night work, the graffiti photographs, the Picasso friendship and the Surrealist experiments. Vintage prints rather than modern reproductions is the whole point — this is the grain and the paper as Brassaï approved them, which is a different object from the same image in a monograph. Heide's third modernist photography survey in five years after Lee Miller, Man Ray and Max Dupain, and close enough to be a Saturday.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://viewcameraaustralia.org/wp-content/uploads/2026/07/brassai_couple-damoureux-dans-un-petit-cafe-parisien-quartier-italie-paris_ca1930-ca1970_reprofoto-albin-dahlstrm-moderna-museet-747x980-1.webp",
+      "icon": "https://viewcameraaustralia.org/wp-includes/images/w-logo-blue-white-bg.png"
+    }
+  },
+  {
+    "id": "ebbb67b87d58c42bbba1e787e28b283856203197e69ca923532e34cb6597d857",
+    "url": "https://first10em.com/hi-peitho",
+    "title": "HI-PEITHO: More negative data on invasive therapy for higher risk PEs",
+    "summary": "The trial that was meant to justify catheter-directed thrombolysis in intermediate-high-risk PE, appraised by someone willing to say it did not.",
+    "date_published": "2026-05-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "First10EM",
+      "note": "Ultrasound-facilitated catheter-directed thrombolysis plus anticoagulation versus anticoagulation alone, in exactly the patient where the interventional pitch is most persuasive and the evidence thinnest. This continues the PE thread already running through the feed — STRATIFY and STORM, the ECG of acute PE, the CXR eponyms — and the risk-stratification step it turns on is RV assessment on bedside echo, which is CCPU territory. Morgenstern's read on what the result does and does not license is the reason to read this rather than the abstract.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://first10em.com/wp-content/uploads/2026/03/Pulmonary-embolism-updates.jpg",
+      "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+    }
+  },
+  {
+    "id": "fd2adea7a535f3e9e75e02aba5290d6338809d04f12bb11ffa4c2952516c03ee",
+    "url": "https://www.capturemag.com.au/yafevent/shot-in-the-heart-of-melbourne-group-show",
+    "title": "Shot In The Heart of Melbourne",
+    "summary": "A group show of Melbourne street photography at the Town Hall, free, and running long enough that there is no excuse to miss it.",
+    "date_published": "2026-09-08T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Capture",
+      "note": "City Gallery at Melbourne Town Hall, 110 Swanston Street, from 8 September through to 19 February — decisive and indecisive moments in the city, which is the honest framing for street work. It opened three weeks ago and nobody has mentioned it, which is the usual fate of the Town Hall's gallery despite it being the most walk-past-able room in the CBD. Pairs naturally with the Brassaï survey at Heide: the same impulse, ninety years and one hemisphere apart.",
+      "published_at": "2026-09-28T16:26:16.874Z",
+      "image": "https://cdn.yaffa.com.au/yaffadsp/images/yafEvent/leadImage/sue-brunialti-_i-see-you_.jpg",
+      "icon": "https://cdn.yaffa.com.au/yaffadsp/files/Yaffa-circle-32-321.png"
+    }
   }
 ]
