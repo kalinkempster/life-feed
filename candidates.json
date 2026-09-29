@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "url": "https://www.abc.net.au/news/2026-09-29/victorian-doctors-to-walk-off-the-job-over-conditions/107206698",
+      "title": "Victorian doctors to walk off the job over conditions",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Up to 10,000 Victorian public doctors stopped work for four hours today over rosters and pay — this is his industrial agreement being fought over.",
+      "note": "The claims on the table are shift-level: a 12.5-hour cap, four consecutive nights instead of seven, and 28 per cent over four years after fourteen months without an offer. AMA Victoria's Simon Judkins is fronting it, and the Ballarat and Bendigo ED stoppages earlier this month were the warm-up. Whatever lands here sets the roster he works next year.",
+      "date_published": "2026-09-29"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "title": "Anthropic releases Opus 5.5 with lower prices",
+      "source": "TechCrunch",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A frontier model got cheaper to run rather than bigger, which is the shift that decides whether these things show up in hospital workflows.",
+      "note": "Opus 5.5 lands at $4/$20 per million tokens — a 20 per cent cut — with cache reads down 60 per cent and roughly 40 per cent less cost on typical workloads. The interesting part is not the benchmark but the pricing curve: cost per token is what gates whether a model ends up embedded in triage, documentation or decision support. Sonnet and Haiku 5.5 are flagged for the following weeks.",
+      "date_published": "2026-09-22"
+    },
+    {
+      "url": "https://broomedocs.com/2026/04/dr-scott-weingart-rural-resus-redux/",
+      "title": "Dr Scott Weingart: Rural Resus Redux",
+      "source": "Broome Docs",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Weingart on what resuscitation actually looks like when you don't have the team, the kit or the backup the evidence assumed you had.",
+      "note": "Recorded at the Spring Sessions in EM in Broome, this is EMCrit's founder talking to rural and regional Australian doctors rather than to a tertiary ICU — the translation problem, not the protocol. Broome Docs publishes every six to eight weeks, so this one had gone unnoticed since April. Useful counterweight to the EMCrit house style he already reads.",
+      "date_published": "2026-04-22"
+    },
+    {
+      "url": "https://first10em.com/empirical-evidence-of-the-availability-bias-in-emergency-medicine/",
+      "title": "Empirical evidence of the availability bias in EM",
+      "source": "First10EM",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A retrospective database study showing availability bias measurably changing what emergency physicians order, and harming patients doing it.",
+      "note": "Morgenstern takes Ly's Annals paper and pushes past the usual cognitive-bias listicle: this is real-world data on physicians who recently saw a PE ordering more CTPAs afterwards, with the yield going down. Cognitive error teaching is usually anecdote dressed as evidence; this is the rare piece with numbers. It pairs directly with the diagnostic-reasoning material in his exam prep.",
+      "date_published": "2022-03-28"
+    },
+    {
+      "url": "https://massivelyop.com/2026/09/28/enshrouded-highlights-combat-updates-for-mages-and-performance-improvements-arriving-in-its-1-0-release/",
+      "title": "Enshrouded details mage combat changes for 1.0",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "The last dev breakdown before Enshrouded leaves early access on 15 October — nine new spells, a piercing wand heavy attack, necromancy.",
+      "note": "He plays this one, and 1.0 on 15 October for PC and PS5 is the version the save files carry forward into. Keen Games is front-loading the magic skill lines here, with eternal arrow changes for archers thrown in, after the Forging the Path update already rebuilt most of the game in April. Worth knowing before the build gets locked in.",
+      "date_published": "2026-09-28"
+    },
+    {
+      "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-4-probably-isnt-coming-to-ps5-with-a-physical-disc-cd-projekt-red-boss-says-but-fans-will-still-get-something-to-open-up-and-enjoy/",
+      "title": "The Witcher 4 physical edition may ship without a disc",
+      "source": "GamesRadar",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "CD Projekt confirms a boxed Witcher 4 but concedes Sony's 2028 disc cutoff means the box may be empty of the disc itself.",
+      "note": "Joint-CEO Michał Nowakowski is blunt that CDPR has no influence over first-party policy, and The Witcher 4's 2028 target lands right on Sony's stated end of disc manufacturing. His fallback is \"feelies\" — the maps, postcards and letters that shipped in standard editions of Witcher 3 and Cyberpunk. For anyone who buys physical on PlayStation, this is the first concrete signal of what 2028 looks like.",
+      "date_published": "2026-08-30"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/patris-new-greek-cypriot-restaurant-brunswick",
+      "title": "New Homey Greek Restaurant Patris Opens in Brunswick",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "A Greek Cypriot kitchen on Sydney Road that graduated from a year of pop-ups into a permanent Brunswick room.",
+      "note": "Brunswick's Greek layer is mostly inherited rather than new, which makes a Cypriot opening on his own side of town worth the walk. It ran as a pop-up series from May of the previous year before taking a permanent lease, so the menu has been stress-tested in public. Beat and the Greek Herald both picked up the family story behind it.",
+      "date_published": "2026-03-19"
+    },
+    {
+      "url": "https://www.35mmc.com/22/09/2026/flamborough-head-and-bridlington-with-agfapan-25/",
+      "title": "Flamborough Head and Bridlington with Agfapan 25",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "What 25-plus-year-expired Agfapan 25 actually looks like when it has been kept cold — and why the tonality is worth chasing.",
+      "note": "Mark Ellerby shot fridge-stored stock long past its date and got smooth, delicate tonality and detail he chose not to touch in post. This is the useful counter-argument to treating expired film as a lo-fi gimmick: storage, not age, is the variable. A practical read if there is anything old sitting in the fridge.",
+      "date_published": "2026-09-22"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/09/29/future-sounds-of-jazz-vol-16/",
+      "title": "Future Sounds Of Jazz Vol. 16",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Compost's long-running compilation series hits sixteen, moving through jazz, dub and psychedelia with a late-night DJ's logic.",
+      "note": "Michael Reinboth and Michael Rütten sequence this like a set rather than a survey, pulling in DJ Oil, Bitchin Bajas, Booker Stardrum and Ilhan Ersahin. If the Khruangbin, Yin Yin and Glass Beams end of the shelf is the groove he reaches for, this is where that instinct goes when it is allowed to get strange. Compilations are also the cheapest way to find the next artist worth a full record.",
+      "date_published": "2026-09-29"
+    },
+    {
+      "url": "https://daily.bandcamp.com/album-of-the-day/andre-cymone-the-resurrection-of-funk-review",
+      "title": "André Cymone, \"The Resurrection of Funk\"",
+      "source": "Bandcamp",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Prince's original bassist writes, plays and sings an entire record himself, and it is a straight argument for the Minneapolis sound.",
+      "note": "Cymone was there before the Purple One was crowned — he was central to the bass end of the Minneapolis sound, and there is Prince on the shelf already. Jim Allen's write-up tracks how he builds the whole thing solo across fifteen tracks. Worth hearing next to Parliament and Sly, which is the company it keeps.",
+      "date_published": "2026-08-13"
+    },
+    {
+      "url": "https://www.heddels.com/2026/06/shirting-a-z-17-shirt-styles-explained/",
+      "title": "Shirting A-Z: Guide to Different Shirt Styles & History",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Seventeen shirt patterns, where each came from, what it is cut for, and which cloths it is actually made in.",
+      "note": "Oli Stevenson works through why each style exists rather than ranking them — the kind of provenance reading that makes a rack of vintage Banana Republic or Pendleton legible instead of just old. Construction and cloth first, no shopping list. Reference material for buying secondhand, where nothing is labelled by style name.",
+      "date_published": "2026-06-16"
+    }
+  ]
+}
