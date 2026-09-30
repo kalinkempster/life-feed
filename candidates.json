@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://www.thebottomline.org.uk/blog/ebm/logical/",
+      "title": "LOGICAL – Conservative Oxygen after Cardiac Arrest",
+      "source": "The Bottom Line",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "An ANZ trial of 1,840 post-arrest patients finds targeting SpO2 90-95% buys nothing at 180 days.",
+      "note": "Fifty-three ICUs across Australia, New Zealand and Ireland, which makes this the local answer rather than an imported one — the patients and the units are the ones he will hand over to. Conservative targeting did not improve survival with favourable function, and nothing moved on quality of life, cognition, ventilation time or length of stay either. The practical upshot is that the post-ROSC oxygen argument can stop being an argument.",
+      "date_published": "2026-07-25"
+    },
+    {
+      "url": "https://litfl.com/ultrasound-case-111/",
+      "title": "Ultrasound Case 111 — hypoxia with a normal chest",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A cirrhotic woman with exertional dyspnoea, SpO2 90% and an entirely normal examination and film — the bubble study explains it.",
+      "note": "The teaching point is what the bubbles do not do: in hepatopulmonary syndrome they arrive in the left atrium late, at the third to fifth cycle, via the pulmonary veins rather than across a septal defect. Timing the return is the whole diagnosis, and it is the kind of distinction CCPU examiners reach for. Worth a run-through because unexplained hypoxia with a clean CXR is otherwise a CT and a shrug.",
+      "date_published": "2023-11-22"
+    },
+    {
+      "url": "https://litfl.com/ultrasound-case-110/",
+      "title": "Ultrasound Case 110 — pneumonia, new AF, hypotension",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A 40-year-old admitted with lobar pneumonia goes into rapid AF and drops his pressure, and the echo finds the reason nobody looked for.",
+      "note": "The answer is severe rheumatic mitral stenosis decompensating under the load of sepsis and a lost atrial kick — a structural cause hiding behind a presentation that reads as ward pneumonia gone bad. Rate control looks very different once you have seen the valve. A good argument for putting the probe on before committing to a rhythm strategy, and an easy case to carry into teaching.",
+      "date_published": "2023-11-20"
+    },
+    {
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618",
+      "title": "Ebola disease caused by Bundibugyo virus – DR Congo",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The DRC Bundibugyo outbreak now stands at 7,890 confirmed cases and a 48% case fatality ratio across 63 health zones.",
+      "note": "The feed picked this up in August when it was still a graph on ABC News; it has since become one of the largest filovirus events on record, spread across seven provinces. The 48% CFR and the extension into Sud Ubangi and Tshopo are the numbers worth holding — they are what moves returned-traveller fever from a footnote to a triage screening question. Primary source rather than coverage of it, updated against the 11 September edition.",
+      "date_published": "2026-09-25"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "title": "OpenAI DevDay 2026 live blog",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The most useful account of what OpenAI shipped this week, written by someone in the room who tests rather than repeats.",
+      "note": "Willison live-blogged the keynote from the creator seats at Fort Mason and, characteristically, built the liveblog tooling on the day. GPT-6.1 and the pricing moves are the headline, but the value is in the running annotations on what is usable now versus what is demo-ware. Faster to read than the official recap and considerably less credulous.",
+      "date_published": "2026-09-29"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-09-30/keilor-east-station-melbourne-airport-rail-2031-completion/107208916",
+      "title": "Keilor East station to be built by 2031 in airport rail plan",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Melbourne Airport Rail finally gets a station and a completion date, with major construction still not starting until 2028.",
+      "note": "The feed already carried the airport pick-up and drop-off changes; this is the long-run version of the same problem. Early work on the 7.4km line from Albion starts in weeks, but a 2031 finish means anyone juggling night shifts and early flights lives with the current arrangement for another five years. Useful for calibrating how much transport rhetoric to believe two months out from a state election.",
+      "date_published": "2026-09-30"
+    },
+    {
+      "url": "https://www.videogameschronicle.com/features/interviews/the-witcher-3-developers-talk-remastering-a-classic-and-creating-songs-of-the-past/",
+      "title": "The Witcher 3 devs on remastering a classic",
+      "source": "VGC",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "CD Projekt Red on what they actually rebuilt for the remaster, and how Songs of the Past hooks into The Witcher 4.",
+      "note": "The remaster landed on 29 September as a free 45GB update to the Complete Edition rather than a separate purchase, which is the detail most coverage buried. This goes further: what was rebuilt in combat, enemy behaviour and traversal, and why Songs of the Past is being co-developed with Fool's Theory, a studio staffed by Witcher 3 veterans. Given the expansion connects directly into The Witcher 4 in 2027, it is the closest thing to a roadmap on offer.",
+      "date_published": "2026-09-29"
+    },
+    {
+      "url": "https://consequence.net/2026/09/michael-kiwanuka-stroke-new-album-fudge/",
+      "title": "Michael Kiwanuka announces Fudge after suffering a stroke",
+      "source": "Consequence",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "A library artist's fifth album lands 23 October, self-produced for the first time since 2012, and he has revealed why it was held for a year.",
+      "note": "Kiwanuka is on the shelf, so this is a straight library hit rather than an adjacency. The significant thing musically is that he took production himself for the first time since Home Again — no Danger Mouse, no Inflo — bringing in Dom Monks and strings arranger Rosie Danvers only to finish it. Written alongside Small Changes but deliberately made small and homespun, which suggests a very different record from the last two.",
+      "date_published": "2026-09-24"
+    },
+    {
+      "url": "https://www.analog.cafe/r/film-photography-news-september-2026-recap-bu6b",
+      "title": "Film Photography News — September 2026 Recap",
+      "source": "Analog.cafe",
+      "topic": "photography",
+      "kind": "timely",
+      "summary": "The month's film news in a single pass: emulsion announcements, price movement, and what actually shipped.",
+      "note": "The August recap earned its place here, and this is the rare monthly roundup that gets a fresh URL each time rather than being rewritten in place. It is the efficient way to stay across stock and pricing news — the China Lucky black-and-white announcement, the Harman Delta collector's edition, the Kodak range changes — without reading five sites. Dense, and free of the gear-launch filler that fills this slot elsewhere.",
+      "date_published": "2026-09-29"
+    },
+    {
+      "url": "https://shootitwithfilm.com/experimental-film-series-by-jesse-de-la-cruz/",
+      "title": "Experimental Film Series by Jesse De La Cruz",
+      "source": "Shoot It With Film",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A photographer who collects disposables, ignores technique entirely and shoots for the nostalgia he knows the frames will acquire.",
+      "note": "Shot on a Kodak Ektar H35N half-frame and Gold 200 — about as little camera as it is possible to bring — which makes it a useful counterweight to the gear-forward end of this topic. De La Cruz's position is that he does not think about lighting or technique, he just presses the button, and the work holds up anyway. Posted today, and the sort of thing that argues for keeping a cheap camera in the bag rather than the good one at home.",
+      "date_published": "2026-09-30"
+    },
+    {
+      "url": "https://www.heddels.com/2018/04/army-field-jackets-ages-m41-m65/",
+      "title": "A Guide to U.S. Army Field Jackets — M-41, M-43, M-51, M-65",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "How four generations of army field jacket differ in cut, cloth and closure, and which details let you date one on a rack.",
+      "note": "The M-65 is the most reproduced garment in the rustic-menswear canon and the one most often bought without knowing which generation is actually on the hanger. This traces the lineage from the M-41's poplin through the M-43's pocket layout to the M-51's liner system — the details you need to date a vintage piece rather than take the seller's word for it. It sits directly behind the custom-vintage argument in The Avant essay the feed ran earlier this month.",
+      "date_published": "2018-04-30"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/fitzroy-oyster-house-opens-george-street",
+      "title": "Fitzroy Oyster House Does Exactly What The Name Says",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Longplay's chef has opened an oyster and wine bar on a George Street side street where a pot and an oyster is a legitimate order.",
+      "note": "Tim Richmond ran Longplay for thirteen years, so this is a known quantity rather than a punt on a new operator. He and co-owner Sunny Leunig went to the Sapphire Coast to work out which Sydney rock oysters they wanted and how tide and water change them, and the blackboard now runs three to five varieties at a time. George Street is a short walk from the Fitzroy end of the feed's usual territory, and the pricing is pointedly not a special-occasion affair.",
+      "date_published": "2026-09-24"
+    }
+  ]
+}
