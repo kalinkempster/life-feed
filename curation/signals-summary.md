@@ -8,7 +8,7 @@ Rated up: 6 · dismissed as not relevant: 0 · read: 10
 
 ## More of this
 
-Topics: gaming (2) · melbourne (2) · fashion (2)
+Topics: melbourne (2) · fashion (2) · gaming (2)
 Sources: Broadsheet (3) · GameSpot (1) · Massively OP (1) · Heddels (1)
 
 ## Less of this
