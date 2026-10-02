@@ -1,0 +1,201 @@
+{
+  "day": "2026-10-03",
+  "ran_at": "2026-10-02T16:23:22.675Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "9e3f2665f4f0a8d26be1e71262e1d39e13d6b438ff796688eb1f55bd430920b9",
+      "url": "https://link.springer.com/article/10.1007/s00134-026-08487-2",
+      "title": "Evidence-based recommendations for point-of-care lung ultrasound",
+      "summary": "The first full rewrite of the 2012 lung ultrasound consensus — 83 statements on signs, technique, monitoring and where the evidence still is not there.",
+      "date_published": "2026-06-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Intensive Care",
+        "note": "This is the document the CCPU thoracic module will be measured against for the next decade, and it is explicit about limitations as well as indications, including where the lung ultrasound score holds up and where it does not. The eight-zone examination and the aeration-score reasoning are both spelled out, which makes it usable as a reference rather than just a position paper. Keep it alongside the LITFL ultrasound cases — this is the grammar behind them.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "id": "a99fde68aca4677cb68f5b1a7890e39fbf2658aad89743a157ffe2657012cc09",
+      "url": "https://www.tamingthesru.com/blog/journal-club/using-doppler-ultrasound-for-pulse-checks-during-cpr",
+      "title": "No Pause, No Problem? Doppler Ultrasound to Detect ROSC",
+      "summary": "Appraisal of whether femoral arterial Doppler can call ROSC without stopping compressions — and how badly the convenience sampling undercuts it.",
+      "date_published": "2026-06-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Taming the SRU",
+        "note": "The question matters because the pulse check is the last routine interruption left in a well-run arrest, and Doppler is the only probe position that plausibly removes it. Cincinnati's journal club works through the Rolston Annals paper honestly, including the arterial-line-only enrolment and the PEA-heavy cohort, which is where the enthusiasm should cool. Sits next to the LITFL 'Awake in VF' and cardiac-arrest ultrasound pieces already here, and Taming the SRU is a new source for this feed.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1438709457347-VA9D4R3HFQ1UTVKS53PW/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "5821484a783ee82640099bc3f44d8597a3b59273841ec3d97658cb2b6733f5e4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13584041",
+      "title": "AI Readiness in Emergency Medicine: Expert Consensus Opinion",
+      "summary": "ACEP's task force concedes AI is already in ED workflows ahead of any training, vetting or governance, and proposes who should be fixing that.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ACEP",
+        "note": "Three priorities — Educate, Evaluate, Advise — with a three-stage vetting framework for tools and a call for a national EM AI advisory council. It is a college position rather than a clinical paper, so it belongs to what the specialty is becoming rather than to bedside practice, and it is the document registrars will be quoted at when scribes and triage models arrive on their shifts. Read it before someone else summarises it for you.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0",
+        "icon": "https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "bbd1e84a42d1b63382e11e23d6f736b41ddb09678f9233fa5c529b04d7b15c8c",
+      "url": "https://arxiv.org/html/2610.00818",
+      "title": "Quantifying the Impact of Ambulance Ramping in Victoria",
+      "summary": "A multi-year quantitative analysis of Victorian ambulance cases, putting numbers to the handover delays he watches from the other side of the door.",
+      "date_published": "2026-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "arXiv",
+        "note": "Ramping gets reported as union statements and ministerial replies; this is the same problem as a dataset, covering Victorian emergency medical services cases across several years. Published within days of the Bairnsdale ramping reports out of East Gippsland and the Victorian doctors' and allied health walkout, both of which are already in the feed. Worth it for the measurement choices alone — the paper is about how you quantify ramping, not just how bad it is.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": null,
+        "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "6b3bd7ad342fc80d2c7f93e420427dc8be72e6f2a9a4671d509c313c6014528c",
+      "url": "https://emergencymedicinecases.com/epistaxis-management",
+      "title": "Epistaxis Management: A Step-Wise Approach",
+      "summary": "An ED physician and an ENT surgeon settle the practical arguments — where to compress, how long, which vasoconstrictor, and where topical TXA actually sits.",
+      "date_published": "2026-09-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EM Cases",
+        "note": "Leeor and Doron Sommer build the epistaxis tray item by item — topical TXA, silver nitrate, bipolar cautery, Gelfoam, anterior tampons and a dual-balloon posterior catheter — which is the useful part when you are the one assembling it at 3am. They also nail the compression disagreement: AAO-HNS says five minutes sustained, EM reviews say ten to fifteen, and most patients are squeezing the wrong part of the nose entirely. Follows the EM Cases facial injuries episode already in the feed.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://emergencymedicinecases.com/wp-content/uploads/2026/09/Epistaxis-Management-Deep-Dive-CARD.png",
+        "icon": "https://emergencymedicinecases.com/wp-content/uploads/2016/07/EM_Cases_Logo_16.png"
+      }
+    },
+    {
+      "id": "1455dd1bc37ea0c99bca268bda3b0b7ae18c267b5f83550cd48405fe2d24d898",
+      "url": "https://www.heddels.com/2026/10/sethu-american-silhoeuttes-reimagined-through-artisanal-indian-weaving",
+      "title": "Sethu: American Silhouettes Through Indian Handweaving",
+      "summary": "A chore coat and fatigue shorts handwoven in Gujarat from yarn-dyed khadi built to approximate duck canvas — familiar patterns, unfamiliar cloth.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The Long Wharf chore coat is the hook: the feed already carries Heddels' history of the chore coat and its bleu de travail piece, and this is the same garment rebuilt from a handloom rather than a mill. Khadi carries real provenance weight — handspun, handwoven, and bound up with Indian independence as a rejection of British industrial textiles — which is exactly the construction-and-origin end of menswear rather than the trend end. Kala cotton, Eri silk and Kullu wool are in the range too.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "8698ca9d00cdfbc2aa83a946a8fb7abe9f6c93f36ed963078fe1ab8e4ed1fad3",
+      "url": "https://www.stemlynsblog.org/ttl-tips-20-significant-pelvic-fracture-management",
+      "title": "TTL tips 20: Significant Pelvic Fracture Management",
+      "summary": "Carley on the sequencing argument that actually happens in the room — IR, laparotomy or external fixation first — and how the team leader resolves it.",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "The clinical content is only half of it: the post is mostly about chairing a disagreement between orthopaedics, surgery and interventional radiology while the patient keeps bleeding. It pairs directly with the earlier St Emlyn's TTL tip on pelvic binders, and with the 'find one spinal injury, look for another' habit from TTL tip 19. Worth reading for the three questions it hands you — what next, where, and who is making it happen.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/09/TTL-tip-19-2.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "763f1d5500dd75dcc6b9b3977428877d3afb7f5ad2f3e32bffe095cf652f2bd3",
+      "url": "https://aquariumdrunkard.com/2026/03/11/greg-belsons-divine-funk-rare-american-gospel-soul-and-funk",
+      "title": "Greg Belson's Divine Funk: Rare American Gospel Soul and Funk",
+      "summary": "A DJ-archivist's collection of obscure American gospel 45s that funk as hard as anything secular, back in print via Cultures of Soul.",
+      "date_published": "2026-03-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Gospel is the room the soul records on his shelf walked out of — Solomon Burke started in it, Aretha never left it, and the Daptone sound is unimaginable without it. Belson is a genuine digger rather than a compiler, and these are private-press church 45s that never had a secular release, which is why none of this turns up on the reissue circuit. Good context for Don't Give Up On Me, which is one of the most-played records in the collection.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/03/greg-belson.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "3c3a41f338f05563cd6a35412e0462d4fc76fb6d9ab545033d8e477e950ab69e",
+      "url": "https://press.cdprojektred.com/en/news/1874/the-witcher-3-wild-hunt-remastered-available-now",
+      "title": "The Witcher 3: Wild Hunt — Remastered Available Now!",
+      "summary": "First-party confirmation that the remaster has shipped, that it is a free upgrade for existing owners, and that both expansions are included.",
+      "date_published": "2026-09-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "CD Projekt Red",
+        "note": "Straight from CD Projekt Red's press centre rather than coverage of it, which matters for the detail that costs money: free upgrade if you already own The Witcher 3, with Hearts of Stone and Blood and Wine in the box, on PS5 and PC among others. The feed already has the Videogames Chronicle interview with the devs about remastering it; this is the part where you can actually download it. The Witcher 4 is not due until 2028, so this is the only Geralt on the calendar.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://cdn-s-press.cdprojektred.com/og-image/og_image.jpg",
+        "icon": "https://press.cdprojektred.com/favicon.ico?favicon.0ttvbi~ws7-iz.ico"
+      }
+    },
+    {
+      "id": "6910de78850ea4f3a35aef5c2d3943a41b30904288a3bddfb2ebc07ac082421c",
+      "url": "https://www.35mmc.com/01/10/2026/a-portrait-in-sand-coney-island-summer-2026",
+      "title": "Sweat and Sandy Feet: Coney Island, Summer 2026",
+      "summary": "A photographer who deliberately shoots Coney Island in brutal midday sun, on a 1959 Tele-Rolleiflex and an '86 Hasselblad SWC, explains why.",
+      "date_published": "2026-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "David Pauley goes against the usual golden-hour advice and works the high-contrast middle of the day on Tri-X 400, which is the interesting technical argument here — exposure and development choices made to survive the light rather than avoid it. Two very different medium-format bodies on the same roll of subject matter: a long tele Rollei for compression and the 38mm Biogon SWC for the opposite. Coney Island is the most photographed beach on earth, so the work has to earn it, and this does.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/10/400652F5-D72D-4116-9FE8-F9E003911A5B-2-scaled.jpeg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "d0aa935119789a9272206b2536de795db4b5625492c66412cb649ee49de664d1",
+      "url": "https://www.pushsquare.com/news/2026/10/sony-confirms-refined-version-of-acclaimed-pssr-upscaler-for-base-ps5-with-remarkable-potential",
+      "title": "Sony Confirms Refined PSSR Upscaler for Base PS5",
+      "summary": "QSSR brings a cut-down version of the Pro's machine-learning upscaler to the base PS5, which is the console he's actually playing on.",
+      "date_published": "2026-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "PSSR needed dedicated silicon in the PS5 Pro; QSSR is the version that runs without it, so a six-year-old base console gets meaningfully better image quality from the same hardware. Currently live only in Marvel's Wolverine and Ghost of Yotei, with the tooling going out to all developers — so the thing to watch is which existing games patch it in. Relevant to anything long and demanding, which includes the Witcher 3 remaster shipping the same fortnight.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://images.pushsquare.com/597dc3ca7009a/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "c73ec5bac4e4b4db43e0b3964f5e3de41651c244397827770af31c31d9d64eb9",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/commercial-club-hotel-fitzroy-reopens",
+      "title": "Fitzroy's Commercial Club Hotel Reopens Under a New Owner",
+      "summary": "A Nicholson Street corner pub quietly reopens under a bartender who grew up in the suburb and used to work behind this bar.",
+      "date_published": "2026-09-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Jackson Morgan took the keys from his former boss in April and has kept the pool table and the pub grub while redoing the interiors and the beer garden — the opposite of the gut-and-rebrand that usually follows a closure. He worked here from 2016 to 2020, which is why this reads as continuity rather than a new venue. A different proposition from the Pinnacle's Bascetta-led relaunch up the road, and the cheaper of the two.",
+        "published_at": "2026-10-02T16:23:22.675Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/09/08/Commercial%20Club%20Hotel%20-%20Casey%20Horsfield_28%20of%2031-96b044bef5.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
