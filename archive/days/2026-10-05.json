@@ -1,0 +1,187 @@
+{
+  "day": "2026-10-05",
+  "ran_at": "2026-10-04T16:22:27.310Z",
+  "published": 11,
+  "dropped": [],
+  "items": [
+    {
+      "id": "d09ee8b79bbb3b62e7743168c0bebf0c85245d6a646636aea7232dfa60ce17f7",
+      "url": "https://www.analogplanet.com/content/chad-kassem-tells-us-what-expect-vinyl-summit",
+      "title": "Chad Kassem Tells Us What to Expect From The Vinyl Summit",
+      "summary": "The Acoustic Sounds founder on running mastering, pressing, printing, recording and distribution under one roof — and what that control actually buys.",
+      "date_published": "2026-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "AnalogPlanet",
+        "note": "Pressing and mastering craft is the part of the records brief that is hardest to find written well, and Kassem is the rare operator who owns every step and will talk about the trade-offs in each. Relevant to anything Analogue Productions-adjacent on his shelf, and to why two pressings of the same record sound different. The Salina summit itself is mid-October, so this is the interview before the event rather than coverage of it.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "682b437b5c0c842da35492fce5f5d7d6656356421a95867f048d2872cfc96555",
+      "url": "https://aquariumdrunkard.com/2026/10/02/the-sagegazers-a-mixtape",
+      "title": "The Sagegazers :: A Mixtape",
+      "summary": "Fifteen recordings pulled from the private-press ambient and New Age cassette culture of the 1980s and 90s, most of them barely documented anywhere.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "This is the lineage behind the ambient end of the collection — Tycho, This Will Destroy You, the Einaudi and Yiruma shelf — played back through the home-studio synth records that got there first and were never reissued. A mixtape rather than a reissue announcement, so the point is the listening, not the buying. Good argument for the sequencing too: fifteen tracks assembled from a collection nobody else has catalogued.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/Sagegazers-Logo.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "993e71b784d24c88ba4ae1d51736701c68660990d24447370b58ed79a92ec3b2",
+      "url": "https://www.abc.net.au/news/2026-10-04/victoria-liberals-elective-surgery-labor-land-tax/107224800",
+      "title": "Victorian Liberals promise to slash surgery wait times",
+      "summary": "A $1.27bn Coalition pledge for 25,000 extra surgeries a year, funded by winding up Breakthrough Victoria — the opening health bid of the state campaign.",
+      "date_published": "2026-10-04T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Elective surgery promises land on the same hospitals that run the EDs, and the throughput they buy has to come from theatre lists, beds and staff that are already contested. Worth reading as the baseline both parties will now be measured against through the campaign, next to the $230m for ED equipment and ambulance waits already in this year's budget. Free to read, which The Age's version of the same story is not.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/4de04a69a2cda9989f44435235158f5d?impolicy=wcms_watermark_news&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "e541718699ce2d78833c460799e8f67a8cc9940416b82a99725071ba847f3b11",
+      "url": "https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape",
+      "title": "New WHO estimates show changing global health landscape",
+      "summary": "The refreshed Global Health Estimates — the numbers that quietly set what every outbreak and burden-of-disease argument gets compared against.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO",
+        "note": "This is the dataset behind most of the mortality and cause-of-death figures he will see quoted secondhand for the next few years, so reading the primary release once is worth more than reading ten pieces that cite it. Useful context for the Congo Ebola numbers currently running at a 48% case fatality ratio across six provinces. Dry, and better skimmed for the shifts than read through.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://cdn.who.int/media/images/default-source/topics/health-systems-and-interventions/digital-health/modular-clinic-near-the-frontline-in-kharkiv-region.tmb-1200v.jpg?sfvrsn=b649fa7c_1",
+        "icon": "https://www.who.int/favicon.ico"
+      }
+    },
+    {
+      "id": "6bfcc7369054fb8d7df723b826c24f90d7878790f58fcc0c36c6727c03b03c94",
+      "url": "https://www.heddels.com/2026/10/brycelands-lands-stateside-with-us-webstore-nyc-trunk-show",
+      "title": "Bryceland's Lands Stateside with US Webstore & NYC Trunk Show",
+      "summary": "The Tokyo house that built its name on mid-century American cut finally opens a US webstore, with a trunk show at Buck Mason on 22–24 October.",
+      "date_published": "2026-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Bryceland's sits directly upstream of the RRL and vintage Banana Republic reference points — sawtooth westerns, high-rise trousers, 1950s sportshirt proportions, made properly rather than costumed. A US storefront means sizing and shipping that an Australian buyer can actually read, which is the practical change here. The trunk show is only useful as a signal of what they are pushing this season.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "3b5af3ab126c5f4cb9be617d909c72b3ee87381fac26979c8754ebbfa6ae296e",
+      "url": "https://emcrit.org/emcrit/procedural-sedation-part-vi",
+      "title": "EMCrit 435 — Procedural Sedation Part VI: Guidelines and Boundaries",
+      "summary": "Weingart walks the new ACEP unscheduled sedation guideline and says plainly where the fasting rules and the nurse-administration rules actually sit.",
+      "date_published": "2026-10-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Two lines here change arguments he will have on shift: that there is no evidence elective fasting guidelines reduce aspiration or emesis in unscheduled sedation, and that a qualified nurse should be permitted to push every sedation drug under direct bedside supervision of the ordering clinician. Both are the sort of thing a department policy still gets wrong, and this is the citeable version. Part VI of a series, so it assumes the earlier groundwork rather than re-teaching it.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/10/EMCrit-435-PSA.jpg",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "ce2bf5b58781ff2e0623e284513283fa1762367499726d9f155175b1966f8864",
+      "url": "https://neoskosmos.com/en/2026/09/22/life/food-drink/hundreds-turn-out-as-bougatsaki-brings-a-taste-of-greece-to-sydney-road",
+      "title": "Bougatsaki brings a taste of Greece to Sydney Road",
+      "summary": "Australia's first dedicated bougatsa shop opened inside a Sydney Road greengrocer and drew queues down the footpath on day one.",
+      "date_published": "2026-09-22T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Neos Kosmos",
+        "note": "Kosta Kostidis is making it from his grandfather's recipe out of Serres, filo imported from Greece, semolina and vanilla custard under icing sugar and cinnamon, with Nutella, Biscoff, honey-walnut and a spinach-and-cheese version alongside. It is tucked inside Italiano's Fresh Produce at 403 Sydney Road, which is the sort of address you walk past rather than find. Neos Kosmos covered the opening from inside the Greek community rather than as a venue listing, and it is the better read for it.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "efa9a311c907d70665e5c05b34bb6229218aad6f0f34668ad3a78810983e0f9f",
+      "url": "https://drsmithsecgblog.com/translation-of-interventionalist-lets-wait-until-the-myocardium-is-dead-then-we-will-be-certain-that-it-is-an-acute-mi-then-we-can-treat-it-after-the-damage-is-done",
+      "title": "Translation of Interventionalist: \"Wait until the myocardium is dead\"",
+      "summary": "A 58-year-old with a week of stuttering crushing chest pain whose ECG shows reperfusion, and the cath lab's reasons for waiting taken apart line by line.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "Dr Smith's ECG",
+        "note": "The teaching point is the one that is hardest to use in real life: recognising spontaneous reperfusion on the ECG, and then holding the argument with someone who wants STEMI criteria before activating. Pain resolution plus the reperfusion pattern is the whole case. Pairs with the serial-ECG OMI case already in the feed — same paradigm, but this one is about the conversation rather than the tracing.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/09/Initial-ECG-with-pain.jpg",
+        "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+      }
+    },
+    {
+      "id": "e0a2aa77aa1f0d2af3215770b04d29fdf47059b814fdd07ba044945791387102",
+      "url": "https://www.35mmc.com/02/10/2026/rolleiflex-kalloflex-a-tale-of-two-twins",
+      "title": "Rolleiflex & Kalloflex — A Tale of Two Twins",
+      "summary": "Tony Warren shoots the Kalloflex Automat K2 against a first-version Rolleiflex T and finds the cheaper camera was built for harder work.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "The usual framing is that the Kalloflex is the poor man's Rolleiflex; Warren's case is that it was built as a press and professional tool while the Rollei T was aimed at the keen amateur, which inverts who should want which. Exactly the kind of camera writing the brief asks for — about using the thing, not collecting it. Useful if a TLR is on the list, because the Kalloflex still goes for a fraction of a Rollei.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/00.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "ee61771ff1bf03e4e8488016607d64d61e078bce279a1a7fd24609db93ee2682",
+      "url": "https://enshrouded.com/en-US/news/10-combat-changes-and-additions",
+      "title": "1.0 Combat: changes and additions",
+      "summary": "Keen Games' own breakdown of the 1.0 combat pass before the 15 October launch: nine new spells, summons, and a skill tree that will be reset.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Enshrouded",
+        "note": "First-party and specific, which is the whole point — Mana Drain, Entangle, Pillar of Flames, Blizzard, Ball Lightning, three elemental totems and a Hollow Skeleton summon, plus wands getting a piercing heavy attack and tier-seven Eternal spells that upgrade like gear. The level cap moves to 50 and equipment to 55, and every existing skill tree gets wiped, so an in-progress save needs a replan rather than a patch note skim. Read this before 15 October, not after.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://enshrouded.com/uploads/EN_COMBAT_BLOG_POST_16x9_ebe4aad8f6.jpg",
+        "icon": "https://enshrouded.com/favicon.ico"
+      }
+    },
+    {
+      "id": "a880d37a5db3029b6ecfbde8a7676daa8283e3dc0b1041bb72aed630fbb01aa0",
+      "url": "https://www.timeout.com/melbourne/news/melbournes-newest-music-venue-is-hiding-under-a-freeway-and-fatboy-slim-is-playing-there-092126",
+      "title": "Melbourne's newest music venue is hiding under a freeway",
+      "summary": "Novel has turned a never-before-used slab of inner-west freeway underpass into a 5000-capacity outdoor room, and booked Bicep and Fatboy Slim into it.",
+      "date_published": "2026-09-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Time Out",
+        "note": "The promoters are the ones behind Intercell, Smalltown and the A3 bridge parties, so the industrial-underside aesthetic is deliberate rather than a compromise on a venue they could not get. Bicep christen it across 1 and 2 November, the second night being public-holiday eve; Fatboy Slim — who is on the shelf at home — lands there in March 2027, which is far enough out to plan around. Worth knowing the site exists before the ticket scramble, because 5000 outdoors in the inner west is a different proposition to a Brunswick band room.",
+        "published_at": "2026-10-04T16:22:27.310Z",
+        "image": "https://media.timeout.com/images/106448989/image.jpg",
+        "icon": "https://www.timeout.com/static/root-files/favicon.ico"
+      }
+    }
+  ]
+}
