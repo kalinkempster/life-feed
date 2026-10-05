@@ -1,0 +1,155 @@
+{
+  "day": "2026-10-06",
+  "ran_at": "2026-10-05T16:25:47.263Z",
+  "published": 9,
+  "dropped": [],
+  "items": [
+    {
+      "id": "98dcf6a4a0344cb2fce46b0982f11672000743248428ae38f4172b62a42b332c",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1742-6723.70272",
+      "title": "Evaluation of an AI Scribe Tool in the Emergency Department",
+      "summary": "St Vincent's Melbourne put an ambient AI scribe into its ED and counted what it did to documentation time and what clinicians had to go back and fix.",
+      "date_published": "2026-06-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "news",
+        "source": "Emerg Med Austral",
+        "note": "This is a Melbourne ED, not a US academic centre, which makes the uptake split the most interesting line in it: 48 percent of trainees used the scribe against 22.5 percent of consultants, across 248 presentations. The sections people most often had to rewrite were the history of presenting illness and the management plan - the two bits where the model is inferring reasoning rather than transcribing. If an ambient scribe turns up on his shift, this is the local baseline for what it will and will not do.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "f87075f27951f2f751046263b1b53db2fc6c3d99b3c59bed223490cb9087bc7c",
+      "url": "https://www.aljazeera.com/news/2026/10/5/russian-lab-worker-dies-of-suspected-plague-in-siberia-us-monitoring-case",
+      "title": "Russian lab worker dies of suspected plague in Siberia",
+      "summary": "A broken test tube at an anti-plague institute, a dead 28-year-old researcher, and about 200 contacts under observation - with Moscow now denying it was plague at all.",
+      "date_published": "2026-10-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Al Jazeera",
+        "note": "The detail that matters clinically is the route: this is being described as pneumonic rather than bubonic, which is the form that transmits person-to-person and the reason three Irkutsk city hospitals, a children's hospital and a maternity hospital went into quarantine. Rospotrebnadzor said on Monday that tests found nothing occupational, while the quarantine stayed in place - a contradiction worth watching rather than resolving. Laboratory-acquired infection in a BSL facility is also the scenario that drives the index-case questions you would actually be asked at triage.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac30793-1791166355.jpg?resize=1920%2C1371",
+        "icon": "https://www.aljazeera.com/favicon_aje.ico"
+      }
+    },
+    {
+      "id": "974518b69406fcc3ab39a0f399a73bb7484205380631e513849f070222a2e810",
+      "url": "https://www.heddels.com/2026/10/10-years-into-the-game-faiz-t-s-is-still-making-end-level-knitwear",
+      "title": "10 Years Into the Game, FAIZ T.S. is Still Making Knitwear",
+      "summary": "A decade-in look at a knitwear maker whose argument is gauge, yarn and finishing rather than seasonal shape.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Knitwear is the thinnest part of the rustic-menswear case because so little of the writing gets past describing the colour, and this goes at the construction instead - which is the same reason the Woolrich and Pendleton pieces earn their keep. Useful as a yardstick for what a well-made heavy knit should cost and look like on the inside, before the next Mutimer or vintage Banana Republic wool piece turns up. FW26 is the collection under discussion, so it is current rather than retrospective.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "eac405946554c0528cc386f6a1922594e3fd2aa81accc08bd1fc7d61f05497ed",
+      "url": "https://insider-gaming.com/runescape-dragonwilds-2027-roadmap-adds-modding-and-hunter",
+      "title": "Dragonwilds Roadmap Adds Modding and Hunter Skill",
+      "summary": "Jagex's multi-year plan for Dragonwilds: Prayer and the elves in December, then Hunter, official modding and secure servers through 2027.",
+      "date_published": "2026-10-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Insider Gaming",
+        "note": "Luminance in December is the next free update and brings Prayer as the thirteenth skill and fourth combat skill, built on bones, altars and a Prayer Points gauge - explicitly not the OSRS implementation. Then the two-part Blood Crystal Saga opens in early 2027 with Song of Rebellion, with Hunter, Moss Giants, Kebbits and Implings, and official modding via a CurseForge partnership including an in-game browser and installer on all platforms. Monthly smaller drops and quarterly skill updates is the cadence to plan a world around.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "babe20f4a5c70fb6a430aa7f25879526cff91891237992f2da1b03b40928eaed",
+      "url": "https://karateboogaloo.bandcamp.com/album/access-all-areas",
+      "title": "Karate Boogaloo - Access All Areas",
+      "summary": "The Melbourne instrumental soul four-piece's new record lands 9 October, co-released by Colemine and Coburg's own College of Knowledge.",
+      "date_published": "2026-10-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Bandcamp",
+        "note": "Karate Boogaloo are the rhythm section at the centre of the same Melbourne scene as Surprise Chef, whose Frogs In A Pond is already on the shelf-to-watch list, and College of Knowledge operates out of Coburg. The stated rule for the record was access: if a song got complicated it was dropped, and if it could not be hummed it did not survive - which is the Colemine 45 ethos applied across eleven tracks. The dusty olive marble pressing is a Colemine exclusive, so the decision point is now rather than later.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": "https://f4.bcbits.com/img/a3820566487_5.jpg",
+        "icon": "https://f4.bcbits.com/img/a3820566487_3.jpg"
+      }
+    },
+    {
+      "id": "260493326af4571a2ac1f2bddc3a84d18c714ccd0341d57a6f0c13a6f92c87be",
+      "url": "https://www.abc.net.au/news/2026-10-03/earthquake-strikes-near-leongatha-gippsland-victoria/107224300",
+      "title": "Magnitude-4.8 earthquake strikes near Korumburra",
+      "summary": "Saturday's quake in South Gippsland, close enough to be felt across Melbourne and the latest in the sequence that has been rattling Korumburra for years.",
+      "date_published": "2026-10-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Korumburra has become Victoria's most active small-quake cluster, and 4.8 is the upper end of what that sequence has produced - the 2021 Woods Point event at 5.9 is the reference point for anything larger. Victoria's building stock is unreinforced masonry in exactly the inner-north suburbs he lives in, which is why the state's seismic risk reads as a facade-and-falling-debris problem rather than a collapse one. Useful background for why a modest magnitude here generates a disproportionate number of calls.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/508f69eea6d67f07c3c044fe483aa724?impolicy=wcms_watermark_news&cropH=507&cropW=901&xPos=0&yPos=102&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "a6a03811faa9fd0b81fbd3976d703d3dd084cbba0035a00c6c036057d2e6d88e",
+      "url": "https://thesgem.com/2026/10/sgem522-va-so-pressures-can-you-run-them-peripherally",
+      "title": "SGEM#522: Va-so-Pressors - Can You Run Them Peripherally?",
+      "summary": "The structured appraisal of whether a peripheral line is good enough to start noradrenaline, rather than waiting on central access.",
+      "date_published": "2026-10-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "The SGEM",
+        "note": "Most of us already do this on the strength of the 2021 Surviving Sepsis wording, which permits starting peripherally rather than delaying; what has been missing is a clean read on how thin the evidence underneath that permission actually is. Milne's crew land on reassuring but low-certainty - major complications uncommon over short runs - and the practical boundaries are the useful part: short duration, and a vein at or above the antecubital fossa. Worth having the numbers to hand the next time a nurse asks how long the peripheral pressor can keep running.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": null,
+        "icon": "https://i0.wp.com/thesgem.com/wp-content/uploads/2019/01/cropped-SGEM-Logo.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "d01fe3e7d7e6bcf6465f85d0afac456faf31754393f671f6480f37d093031570",
+      "url": "https://www.35mmc.com/04/10/2026/mapping-the-new-eastman-kodak-film-range",
+      "title": "Mapping the New Eastman Kodak Film Range",
+      "summary": "A plain-language chart of what each Kodak stock is now called, and which of them actually changed, after the rebrand to Eastman packaging.",
+      "date_published": "2026-10-04T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Kodak has been rolling 35mm and 120 into Eastman-branded boxes for about a year and has since added large format and bulk rolls, which has left shelves holding two sets of names for the same emulsions. Oliver Smith goes through GOLD, ULTRAMAX, EKTAR, EKTACHROME and TRI-X and separates the genuine range changes from the relabelling, which is the bit that matters when you are buying bulk or comparing prices between sellers. Keep it as the reference next time a shop listing and the box do not agree.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/IMG_6289-2-scaled.jpeg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "f47516347775df2cf9b957a1be20464a5c7545e1469360b8234974f02aee6509",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/bar-familiar-opens-cams-kiosk-space-abbotsford-convent",
+      "title": "First Look: Bar Familiar Opens at Abbotsford Convent",
+      "summary": "Two of Cam's Kiosk's own staff took over the room after it shut without warning, and reopened it in about a month with the same head chef.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Cam's held that spot inside the Convent for seventeen years before closing in June, so this is a succession rather than a replacement - Alessia Augello and Stephanie Lane were colleagues there, and the kitchen did not change hands. The menu is wine-bar starters, house focaccia sandwiches and toasties; the fit-out keeps the old bones and adds red velvet and a 1970s Italian sideboard at the bar entrance. Wednesday to Sunday 8am-3pm for now with evening service flagged for late October, which is the version worth going back for.",
+        "published_at": "2026-10-05T16:25:47.263Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/09/16/Bar%20Familiar_Michael%20Gardenia_04%20of%2040-235c08cca6.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
