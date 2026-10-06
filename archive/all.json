@@ -6433,5 +6433,201 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/09/16/Bar%20Familiar_Michael%20Gardenia_04%20of%2040-235c08cca6.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "10e4c5e0a45581db69ebb8b8cdf919ab9d983fc3f6c9dc624c577ebdeb3bc71a",
+    "url": "https://www.abc.net.au/news/2026-10-06/victorian-coalition-pledges-investment-in-youth-mental-health/107228286",
+    "title": "Victorian Coalition pledges youth mental health focus",
+    "summary": "The second health pledge of the November campaign, and this one lands on the cohort that fills ED cubicles for hours.",
+    "date_published": "2026-10-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "Youth mental health presentations are the slowest-moving load in a Victorian ED — long stays, scarce beds, and a handover that rarely resolves in one shift. Whatever the policy is worth, this is the campaign commitment most likely to change what happens on the floor where he works, more than the elective surgery pledge earlier in the week. Free to read, which the Age version of the same story will not be.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/478f66ac5789107bf89320720d19b294?impolicy=wcms_watermark_news&cropH=2478&cropW=4404&xPos=596&yPos=223&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "47be91cd52d348ebb727a29c86852d6e032f08f6dd297cb40cceae7f69db64c5",
+    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+    "title": "We're going to need default hard budget caps",
+    "summary": "The argument that usage-billed AI services should cut off at a number you set, written by someone who runs the bills.",
+    "date_published": "2026-10-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison's case is that pay-per-token pricing without a hard ceiling is a design defect rather than a pricing choice, and the absence of caps is why individuals get burned where enterprises do not. Relevant beyond hobby projects: the same billing shape sits under every AI scribe and triage tool now being sold into hospitals, and someone signs for the overrun. Short, concrete, and about the plumbing rather than the capability race.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": null,
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "e4ebcbe7213376315f44be194b940dca893f7df274160a381c0e64aa63eb09cd",
+    "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague",
+    "title": "WHO reports global trends in cholera, meningitis, plague",
+    "summary": "The baseline numbers that give last week's Siberian plague death and the Zambian cholera declaration their actual scale.",
+    "date_published": "2026-09-29T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "WHO",
+      "note": "The feed carried the Russian laboratory plague death on 5 October without any sense of how unusual that is; this is the denominator. It also sets out where cholera is resurging — Zambia declared a fresh outbreak on 30 September — and the meningitis belt picture. Reading the trend report alongside the individual outbreak notices is the difference between following headlines and understanding a season.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://cdn.who.int/media/images/default-source/topics/diseases-and-conditions/cholera/oral-cholera-vaccination-campaign-in-transmara-kenya.tmb-1200v.jpg?sfvrsn=7a849a12_6",
+      "icon": "https://www.who.int/favicon.ico"
+    }
+  },
+  {
+    "id": "722431f3904499f67c1e2de86132a3e950e8066d04fd0ba4a82b7eca1f115f50",
+    "url": "https://www.analogplanet.com/content/half-speed-mastered-mercury-living-presence-series-debuts-five-classics",
+    "title": "Half Speed Mastered Mercury Living Presence Series Debuts",
+    "summary": "Seventy-year-old three-track masters, a digital transfer, and half-speed lacquers — the argument over what \"analogue\" buys you, in one series.",
+    "date_published": "2026-10-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "The interesting wrinkle is that these are cut by Miles Showell at Abbey Road from high-definition digital transfers of the original first-generation three-track tapes, not from tape direct — so the series sits exactly on the fault line Analog Planet has argued over for years. Tom Fine, whose parents made the original recordings, did the 3:2 transfers and claims more micro-detail than 1960s cutting allowed. Pressed at Optimal, first five titles from 26 November; worth reading before the classical shelf grows.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "7485eec3d8b26653de17dd469912adb2ce1146cdd468cde7f5d8f0485bd97d12",
+    "url": "https://aquariumdrunkard.com/2026/10/06/antonio-adolfo-s-t-1972",
+    "title": "Antonio Adolfo :: S/T 1972",
+    "summary": "A 1972 Brazilian record its own maker banned from his discography, argued back into the canon.",
+    "date_published": "2026-10-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Adolfo disowned this album and kept it off his official discography, which is exactly the kind of record Aquarium Drunkard is good at rehabilitating — the writing is about why he was wrong, not just that it exists. The bossa and samba-jazz line runs straight into the Stan Getz and Buena Vista end of the collection, and the vocal performances are the thing Adolfo apparently could not forgive. Worth a listen before deciding whether to chase a pressing.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/antonio-1972.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "679dd494dc66e3ebdd9a267c0d023bd48601f8b1acfa54df4d4dfc6b763d9b0f",
+    "url": "https://kosmofoto.com/2026/10/turning-old-concert-shots-into-tour-merch-buffalo-tom-live-frames-2007-2011",
+    "title": "Turning old concert shots into tour merch",
+    "summary": "Four years of gig negatives sitting in a box, turned into something a band actually sells — film photography with an exit.",
+    "date_published": "2026-10-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "Sits across both of his shelves at once: live music shot on film, then printed as a photo zine the band carries on tour. The useful part is the practical path from an archive of unremarkable-looking frames to an edit and a physical object, which is the step most film shooters never take. Buffalo Tom are not in the collection, but the method transfers to any band photographed badly at a Northcote venue.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "5bdd4ba21c7f40c0cdaf6dad601ea7e91febee71c0dfd76face23135d3cf1e91",
+    "url": "https://www.permanentstyle.com/2026/10/beorma-rescuing-english-leather-manufacture.html",
+    "title": "Beorma: Rescuing English leather manufacture",
+    "summary": "Whitehouse Cox went under in 2022; one man bought the machines, rehired 27 of the staff and kept Walsall leatherwork alive.",
+    "date_published": "2026-10-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Permanent Style",
+      "note": "This is provenance reporting rather than product coverage — Alex Simpson went to Whitehouse Cox hoping to buy machinery from a closing factory and ended up taking on the business, the Japanese distribution and most of the workforce. Beorma is now the largest fine-leather maker in Britain and was founded in 2023, which tells you how thin that industry has become. The named-maker-behind-the-label thread is the same one that makes a Mutimer or an old Woolrich worth knowing about.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "d636ba912280aab3c2fe28be45a711196d3c1fcb5af00135c6ba2b7aafb17390",
+    "url": "https://drsmithsecgblog.com/even-if-you-are-not-impressed-use-the-queen-of-hearts-she-may-surprise-you",
+    "title": "Even if you are not impressed, use the Queen of Hearts",
+    "summary": "A South African Flag sign hiding inside a bifascicular block — the exact ECG a tired registrar waves through.",
+    "date_published": "2026-09-30T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "The teaching point is the one that keeps recurring in this blog: the physician who saw the ECG first was not impressed, and his colleague ran it through PMCardio anyway. Conduction abnormality was masking ST elevation in I, aVL and V2 with reciprocal depression in III — the pattern that means a mid-LAD occlusion and nothing else. Worth sitting with because it is the failure mode of experience rather than inexperience.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/09/FM-case-RBBB-scaled.jpg",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "acc9f88ab44879ef28137404ada14eccb559e71479fbc1ffad91438988380eb6",
+    "url": "https://massivelyop.com/2026/10/02/stormlight-archive-inspired-survivalbox-stormforge-confirms-november-10-early-access-release-date",
+    "title": "Survivalbox Stormforge confirms November 10 early access",
+    "summary": "A dated early-access window for the next survival build-and-craft game, a fortnight before GTA 6 eats the calendar.",
+    "date_published": "2026-10-02T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "Dragonwilds has gone quiet into its 1.0.1 patch and Enshrouded hits 1.0 on 15 October, so the survival shelf is about to need restocking — this is the one with a confirmed date on it. Stormlight Archive licence, early access from 10 November, which puts it awkwardly nine days before GTA 6. Massively OP stays closer to survival-game patch cycles than the general press does.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "4523469a46a7885e170cc434bf1f354c1e59ae59232786ad93a915d37b4a7f14",
+    "url": "https://first10em.com/andromeda-shock-2",
+    "title": "Not so fast with capillary refill guided resuscitation",
+    "summary": "Morgenstern takes the win-ratio apart on the biggest capillary-refill sepsis trial yet, and finds less than the headline promised.",
+    "date_published": "2026-04-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "First10EM",
+      "note": "ANDROMEDA-SHOCK-2 randomised 1,501 patients across 86 ICUs to a phenotype-driven protocol using capillary refill, pulse pressure, fluid responsiveness and bedside echo — and mortality was identical at roughly 18 per cent. The appraisal is a clean worked example of why a composite win ratio can look positive while the thing you care about does not move. The protocol also assumes serial bedside echo, which puts it squarely in CCPU territory and squarely outside what most EDs can staff.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://first10em.com/wp-content/uploads/2025/11/ANDROMEDA-SHOCK-2.jpg",
+      "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+    }
+  },
+  {
+    "id": "05fbf1610f9ce84fb47effbb0847a914f187cb23fbdec518a6ce8cb51defef0f",
+    "url": "https://www.35mmc.com/05/10/2026/how-i-organize-my-film-negatives-scans-and-darkroom-prints",
+    "title": "How I Organize My Film Negatives, Scans and Prints",
+    "summary": "The unglamorous half of shooting film — a working filing system for negatives, scans and prints that survives years.",
+    "date_published": "2026-10-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Sroyon lays out an actual naming and storage scheme rather than theorising about one: how sleeves, scan files and prints stay linked so a frame from four years ago is findable in a minute. This is the problem that arrives silently once you have shot enough rolls, and it is far easier to adopt a system than to retrofit one. Light on darkroom chemistry, heavy on the part nobody writes about.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2023/09/header-1-2.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "06a9c29b25896ef9142c2ff638fca1ca6783170d0ab3cbd0196ed0eb8803f529",
+    "url": "https://www.stemlynsblog.org/2026-pe-guidelines",
+    "title": "2026 PE Guidelines",
+    "summary": "Rich Carden walks the whole PE pathway under the new multi-society guideline, not just the renamed severity categories.",
+    "date_published": "2026-03-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "The feed already carried LITFL on the death of \"massive\" and \"submassive\"; this is the companion read, covering diagnosis through to therapy and PE response teams rather than the A-to-E scheme alone. Carden writes for a case mix much closer to an Australian ED than the American authors did, including who actually goes home from the department. The disposition recommendations for Category A and B are the part that will change a shift.",
+      "published_at": "2026-10-06T16:24:07.365Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/03/image.png",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
   }
 ]
