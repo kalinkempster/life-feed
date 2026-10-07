@@ -1,0 +1,170 @@
+{
+  "day": "2026-10-08",
+  "ran_at": "2026-10-07T16:26:51.429Z",
+  "published": 10,
+  "dropped": [],
+  "items": [
+    {
+      "id": "e039e9ecdf0a0e8f6a185207575ca6ea05a4caae6ec7519c704bf90a7393bf4e",
+      "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+      "title": "Import AI 475: Swarm scaling and the AI science economy",
+      "summary": "Jack Clark on why agent swarms buy wall-clock time rather than tokens, and what happens to science if the models really do accelerate it.",
+      "date_published": "2026-10-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Import AI",
+        "note": "Import AI has not appeared in the feed before despite sitting on the source list, which is an oversight worth correcting — it is the highest-signal AI read of the week and research-led rather than announcement-led. This issue argues 2026 has been a year of warning shots on automated AI R&D, and makes the more interesting point that the bottleneck moves to the physical scientific supply chain if models genuinely speed up discovery. Also covers DeepMind watermarking biological sequences, which is the biosecurity end of the same problem.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "3ff4661036078cad1dc37dbab56e3a79d6c095f515fd2a2afdfdb09b2ae6279d",
+      "url": "https://www.allergy.org.au/images/ASCIA_HP_Guidelines_Acute_Management_Anaphylaxis_2026_v2.pdf",
+      "title": "ASCIA Guidelines: Acute Management of Anaphylaxis 2026",
+      "summary": "A guideline change that alters what he reaches for and what he discharges people with: intranasal adrenaline is now in the Australian dose tables.",
+      "date_published": "2026-07-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "ASCIA",
+        "note": "The 2026 v2 revision adds two new flowcharts — initial and refractory anaphylaxis in medical settings — and folds in every adrenaline device now approved in Australia and New Zealand, nasal spray included. Neffy was TGA-registered in December 2025 and PBS-listed from 1 July 2026, so patients are already turning up holding one, and the red ASCIA Action Plan now comes in five device-specific versions he has to pick between at discharge. Version-stamped PDF rather than the landing page, so the link will still point at this revision later.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "id": "47b268156f622487fe31a6b9839b72df0c4876ed4bf01ff3b9f0dfcc5c579b7a",
+      "url": "https://coreultrasound.com/cardiac-output-measurement-made-easy",
+      "title": "Cardiac Output Measurement (Made Easy!)",
+      "summary": "The LVOT VTI-to-cardiac-output calculation sits squarely in the CCPU cardiac syllabus, and this walks it through at the bedside in five minutes.",
+      "date_published": "2026-01-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Core Ultrasound",
+        "note": "Core Ultrasound is not on the usual EMCrit/LITFL rotation, which is part of why it is here — the EMCrit and LITFL wells are close to dry for anything recent. Mike Prats takes the A5C view, puts pulsed-wave Doppler across the outflow tract, averages the VTI over three to five beats and gets to stroke volume and then cardiac output, which is exactly the chain CCPU examiners ask you to reproduce with the probe in your hand. The same site's LVOT-VTI volume-responsiveness episode is the obvious next one.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": null,
+        "icon": "https://coreultrasound.com/wp-content/uploads/2023/09/favicon.BAW_.v3-100x100.png"
+      }
+    },
+    {
+      "id": "7a3bc05b52e043b8a7f3c34b86c5a13b0a98e11ce23e98237089c82600b0b158",
+      "url": "https://www.analogplanet.com/content/beatles%E2%80%99-rubber-soul-60th-anniversary-180g-5lp-super-deluxe-box-set-showcases-exemplary-new",
+      "title": "The Beatles' Rubber Soul 60th Anniversary 180g 5LP Box Set",
+      "summary": "A pressing-level verdict on whether the new Rubber Soul stereo mix earns its place next to the mono master he can already hear on the shelf.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "AnalogPlanet",
+        "note": "He owns and heavily plays The Beatles 1962-1966, so Rubber Soul is already in the house in compilation form — the question this answers is whether the de-mixed Giles Martin stereo mix is a genuine improvement or a reconstruction. The box puts the new mix on LP1, half-speed mastered by Miles Showell at Abbey Road, alongside the original UK mono master and the US stereo LP, which makes it an unusually direct A/B of mastering philosophies. Pressed in Germany on 180g, two further LPs of sessions and demos, out 2 October.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "5e462f023eb3aba1779c1612917da565e679ee19fd2a64d7ad8861d7f1ad307d",
+      "url": "https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts",
+      "title": "Kenya confirms first imported Bundibugyo virus disease case",
+      "summary": "The DRC Bundibugyo outbreak has now walked onto a commercial flight, which is the point at which an African outbreak becomes a triage question everywhere.",
+      "date_published": "2026-10-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO Africa",
+        "note": "The feed has carried the DRC outbreak through two Disease Outbreak News notices and an ABC explainer; this is the step change those were building toward. A Kenyan citizen fell ill in DRC, travelled by road through Beni to Kampala on 2 October, flew to Nairobi on the 3rd and died on the night of the 5th — twenty-three fellow passengers and four crew are being traced, and Kenya is the fourth country to confirm BVD. Worth reading as the travel-history question he should be asking in triage, not as foreign news.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": "https://afro.who.int/sites/default/files/styles/social_1200x630/public/2026-10/pr_kenya_bvd_1920.jpg.jpeg?itok=lTKYYGDV",
+        "icon": "https://afro.who.int/themes/who26/favicon.svg"
+      }
+    },
+    {
+      "id": "a32fee365a5f169b4e8f9d7a7603e910038fa94594b061353f7260429c3017b4",
+      "url": "https://www.melbourning.com.au/2026/05/11/a-landmark-atong-atem-exhibition-is-coming-to-the-ngv-in-october",
+      "title": "Atong Atem exhibition is coming to the NGV in October",
+      "summary": "The first major survey of a Melbourne photographer working in studio portraiture opens at the Ian Potter on 30 October, free.",
+      "date_published": "2026-05-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Melbourning",
+        "note": "Passage: The Art of Atong Atem runs 30 October to 14 June 2027 at The Ian Potter Centre, over sixty-five works plus a new NGV commission, As Above, and the Australian premiere of Stars and Constellations. Atem builds vivid staged self-portraits out of Dinka Bor culture and mid-century African studio photography, so it lands in the overlap between the melbourne and photography columns rather than sitting in either. Free entry and an eight-month run means it is the rare what's-on item that does not need to be rushed.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": null,
+        "icon": "https://www.melbourning.com.au/wp-content/uploads/2023/08/cropped-Melbourning-32x32.png"
+      }
+    },
+    {
+      "id": "2cd6b493256d76aaed0beb8b6612a60f706dea77453e1e1bb54a523e364598a1",
+      "url": "https://blog.jimgrey.net/2026/10/05/argus-a2b-review",
+      "title": "Argus A2B review",
+      "summary": "An honest account of a historically important camera that is simply not good to use now, which is rarer writing than the praise kind.",
+      "date_published": "2026-10-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Down the Road",
+        "note": "Jim Grey has bought this camera twice, five years apart, and the review is mostly about why the second one did not change his mind — the A2B mattered because it made 35mm affordable, and that is the whole of its case. Useful counterweight to the collector framing that treats historical significance and shooting pleasure as the same thing, which is a trap at the cheap end of the market. His blog is the one he already follows via the film-photography-blogs roundup in the feed.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": "https://i0.wp.com/blog.jimgrey.net/wp-content/uploads/2026/09/argus-a2b.jpg?fit=800%2C600&ssl=1",
+        "icon": "https://i0.wp.com/blog.jimgrey.net/wp-content/uploads/2023/03/dtr_square.jpg?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "985e4330b48556d425ba3b4a1f840a547e37c4614b2d6ddc6d4c765ca8fe049c",
+      "url": "https://aquariumdrunkard.com/2026/10/07/transmissions-peanut-butter-wolf",
+      "title": "Transmissions :: Peanut Butter Wolf",
+      "summary": "Thirty years of Stones Throw told by the person who built it, which is the missing half of the label guide already in the feed.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "The Bandcamp Daily Stones Throw label profile went out a few weeks ago; this is the first-person version, a career-spanning conversation in which Wolf traces the thread through a roster that has never stopped being strange. The library's Anderson .Paak, Kaytranada and A Tribe Called Quest all sit downstream of what Stones Throw made commercially possible. Transmissions is the interview arm of Aquarium Drunkard and runs long, so this is a sit-down listen rather than a skim.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/PeanutButterWolf.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "cc804bb5b1d405fb8c76f974af3c13829c2e1bdd4c7df643ed16d8079b312151",
+      "url": "https://us.fashionnetwork.com/news/Australian-menswear-label-mutimer-opens-first-us-pop-ups,1872791.html",
+      "title": "Australian menswear label Mutimer opens first US pop-ups",
+      "summary": "Canary on the Frontier goes online on 24 October, which is the date to set an alarm for if the waxed windbreaker is the one.",
+      "date_published": "2026-10-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "FashionNetwork",
+        "note": "Mutimer is a reference point in the brief and the Collingwood store opening is already in the feed, so the useful thing here is the calendar: the collection has been pop-up exclusive in New York and only reaches the webstore on the 24th. The pieces named are a waxed windbreaker, a suede universal trucker and bootcut denim, which is Jasper Mutimer leaning further into the Western and workwear register rather than the internet-label graphics. Trade press rather than style press, which is why it carries the launch date and the retail detail.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": "https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=600,height=600,format=auto/m/171d/3a65/a288/d7fd/b6a2/c15e/15e9/106b/29b1/92ed/92ed.jpg",
+        "icon": "https://us.fashionnetwork.com/fashion_build/img/common/base/redesign/favicon-fashionnetwork.ico"
+      }
+    },
+    {
+      "id": "be0f83a7073906d382a045ba3b921553800f15d9d6381c79c77adb4f43401bc1",
+      "url": "https://www.thegamer.com/gta-6-real-world-politics-explained",
+      "title": "Rockstar Explains How GTA 6 Handles Real World Politics",
+      "summary": "Six weeks out from 19 November, the narrative lead finally says what Leonida satirises and what it deliberately refuses to name.",
+      "date_published": "2026-10-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "TheGamer",
+        "note": "Rockstar gave its deepest pre-launch interview to LOVE magazine's issue 27, which hit newsstands on 5 October, and senior VP of narrative Rupert Humphries is explicit that nothing maps to a real person, event or movement. What that buys in practice is election signage, campaign robocalls and radio talk shows — a distorted Florida rather than a recreated one. The feed already tracks GTA 6's wanted system and the limited-edition DualSense; this is the narrative half of the same run-up.",
+        "published_at": "2026-10-07T16:26:51.429Z",
+        "image": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/08/an-image-of-jason-from-gta-6-being-handed-a-handgun-by-an-older-gentleman.jpg?w=1600&h=900&fit=crop",
+        "icon": "https://www.thegamer.com/public/build/images/favicon-48x48.png"
+      }
+    }
+  ]
+}
