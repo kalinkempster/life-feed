@@ -1,0 +1,219 @@
+{
+  "day": "2026-10-09",
+  "ran_at": "2026-10-08T16:22:16.389Z",
+  "published": 13,
+  "dropped": [],
+  "items": [
+    {
+      "id": "fdc864340b44ea6ec22983b3de016ce3dd3ff03686dd583791da884112a07b4d",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "title": "Claude Haiku 5.5",
+      "summary": "The small-model release note worth reading, mostly because Willison catches the tokenizer change that makes the headline price misleading.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "He measures the new tokenizer at roughly 1.25x the tokens of Haiku 4.5 on the same long prompt, which means the per-token price cut is smaller than it looks once you are feeding it anything substantial. If any of his own tooling is sitting on a cheap model for bulk work, that ratio is the number to check rather than the pricing page. Willison also runs the usual reasoning-level comparisons rather than reprinting the announcement.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://static.simonwillison.net/static/2026/claude-haiku-5-5-card.webp",
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "4a335f2e1d90f8c5f8bf05a66ef1df4f1ddfeb34d66df6b9a3b662c652e1dd46",
+      "url": "https://www.analogplanet.com/content/rolling-stones%E2%80%99-new-foreign-tongues-180g-2lp-set-licks-its-studio-predecessor-production",
+      "title": "The Rolling Stones' new Foreign Tongues 180g 2LP set",
+      "summary": "A pressing-and-mastering read on a record he will almost certainly end up buying, with the clouding and the lacquer cut both accounted for.",
+      "date_published": "2026-07-22T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "Smotroff scores it 9 for music and 8 for sound, and names Randy Merrill at Sterling Sound for the lacquers — a digital-rooted production that he argues was templated for vinyl playback rather than streaming. The copy he reviews is the standard black, with some visible clouding that did not reach the groove, which is the detail that decides between the black and the several colour variants. The Stones shelf in the library is the reason to bother with that distinction at all.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "11eeb394b673eee90ddc8878307712deb1ce07abf1af363f3f1d63f7da53c555",
+      "url": "https://aquariumdrunkard.com/2026/10/08/emily-a-sprague-the-aquarium-drunkard-interview",
+      "title": "Emily A. Sprague :: The Aquarium Drunkard Interview",
+      "summary": "An interview about writing with very few words, from the Florist songwriter whose solo work sits between the ambient and folk ends of the collection.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Cyano is lyrically spare enough that AD builds the whole interview around economy — what gets left out and why. Sprague's two modes, Florist's quiet indie folk and her modular-synth ambient records, land either side of a shelf that already holds For Emma, Forever Ago, Sufjan and José González on one hand and Tycho and This Will Destroy You on the other. A good entry point if the ambient half of that shelf has gone unplayed for a while.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/a2529266007_10.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "7559aac39990577ec80a2294f316a78f4681040f57fc45a8e14bfb85e02e6f71",
+      "url": "https://www.stemlynsblog.org/jc-iv-or-io-first-in-cardiac-arrest-st-emlyns",
+      "title": "JC: IV or IO first in cardiac arrest?",
+      "summary": "An IPD meta-analysis that lands on almost no difference between IO-first and IV-first access, which is the kind of null result that quietly changes a resus checklist.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Thirty-day survival came out at 5.9% for intraosseous-first against 6.1% for intravenous-first, with no clear separation on favourable neurological outcome either. That matters for the part of an arrest where you are deciding whether to keep hunting for a vein while compressions run. Carley's appraisal is the ANZ-facing read on it, and it sits directly on top of the ALS access decision he makes without thinking.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/10/IO-or-IV-in-cardiac-arrest.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "e0acf1df4ff8d8cc44b9e027513958d93bcd499062432b647ab28a502dd2d0e3",
+      "url": "https://afro.who.int/countries/democratic-republic-of-congo/news/safe-and-dignified-burials-help-prevent-spread-ebola",
+      "title": "Safe and dignified burials help prevent the spread of Ebola",
+      "summary": "The operational end of the DRC Bundibugyo response, where the control measure that matters most is a burial team rather than a drug.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO Africa",
+        "note": "Mobile safe-and-dignified-burial teams in Ituri have gone from 53 to 114, which is the scale-up figure for an outbreak now across 63 health zones in seven provinces and the largest Ebola outbreak the DRC has recorded. With no licensed vaccine or specific treatment for Bundibugyo virus, the whole response rests on case detection, IPC, contact tracing and burial practice. Kenya's first imported case last week is what makes the containment detail worth following rather than skimming.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://afro.who.int/sites/default/files/styles/social_1200x630/public/2026-10/PHOTO-13.jpg.jpeg?itok=hepH1-qz",
+        "icon": "https://afro.who.int/themes/who26/favicon.svg"
+      }
+    },
+    {
+      "id": "4b22f0c2b533bf074fc69265e3fce087542bf45958ebd3d3df9a5e85245ab7a1",
+      "url": "https://www.heddels.com/2026/10/all-about-the-ishikawadai-spinning-machine",
+      "title": "All About the Ishikawadai Spinning Machine",
+      "summary": "The provenance story behind the yarn, rather than the jean — a 1953 ring spinner still running because nobody has replaced it.",
+      "date_published": "2026-10-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Introduced in 1953 and built by Seisaku-Sho in Ishikawa Prefecture, it is now run by Taisho Spinning specifically to keep vintage machinery alive, and nobody has records explaining why it was built in the first place. It spins at about a third of the speed of a modern machine, which is the whole point: lower output, more irregular and textural yarn. This is the upstream half of the ONI and Big John Ishikawadai denim that keeps turning up in end-level jean write-ups.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "e76a17d618d71d49ec872f601a460c0144386db2aec27483e7f7648d85399600",
+      "url": "https://massivelyop.com/2026/06/25/survivalbox-enshrouded-will-leave-early-access-and-launch-october-15-on-pc-ps5-with-xbox-xs-coming-in-2027",
+      "title": "Enshrouded leaves early access October 15 on PC and PS5",
+      "summary": "The date is now a week out, and 1.0 resets every character's skill tree — which is worth knowing before that Wednesday, not after.",
+      "date_published": "2026-06-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Massively OP",
+        "note": "Keen Games ships 1.0 on 15 October for Windows and PS5 including the Pro, with Xbox Series X|S held back to spring 2027. The launch build raises the level cap to 50 and gear to 55, adds nine spells and makes every Eternal arrow upgradeable, but it also wipes skill allocations, and a dedicated server has to be on the 1.0 build before anyone can join it. Worth checking the server before Thursday rather than on the night.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "e40b44a6e61ab263270db3acb51798d8983ad7585234579440ae035e21b7b354",
+      "url": "https://www.stemlynsblog.org/chest-pain-troponin-test",
+      "title": "Which patients with chest pain need a troponin test?",
+      "summary": "Beardsell and Body work through which history features actually shift the probability of MI, before the first troponin is even sent.",
+      "date_published": "2026-10-04T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Vomiting and observed sweating came out as genuine probability-raisers, as did pain radiating to one or both arms — the features that get dismissed as soft in a busy cubicle. This is the pre-test-probability half of the rule-out pathways he runs every shift, with Rick Body on it, which is as close to the source as this question gets. Useful precisely because it is about the decision before the assay, not the assay.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/10/Emergency-Department-Chest-Pain-Consultation.png",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "8953116b9798313b68819198a129a1e440ebee80f27fd58a0843f044ba332eac",
+      "url": "https://dragonwilds.runescape.com/news/save-corruptions---an-update",
+      "title": "Save Corruptions - An Update",
+      "summary": "First-party post naming the cause of the launch-window save corruptions and what Jagex will hand back to the roughly thousand players hit.",
+      "date_published": "2026-09-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Dragonwilds",
+        "note": "The culprit was editing character appearance, now disabled, with the corruption fix itself targeted at the 1.0.1 update in mid-October. Affected saves get cleaned and replaced with a pre-levelled Tier 4 character back in the same world — Attack, Ranged and Magic at 60, Construction at 85 — with name, appearance and private chest access intact. Straight from the developer rather than a coverage rewrite, which is the version that tells you whether your own world is affected.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://framerusercontent.com/images/0kEWSvnQqesGEuz1CQCG9IC2WA.png?width=3840&height=2160",
+        "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+      }
+    },
+    {
+      "id": "d3ff43d38a4354dee2ae90071978fe1aec70def8eb51799d4b0ca67f910b31e1",
+      "url": "https://www.35mmc.com/06/10/2026/nobody-saw-us-from-an-essay-to-an-exhibition",
+      "title": "Nobody Saw Us: From An Essay to an Exhibition",
+      "summary": "A follow-up on what happened when a personal essay about being present behind the camera turned into actual wall space.",
+      "date_published": "2026-10-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "DeVon Moore wrote the original piece in January about learning to stay in the moment while shooting, and this one picks it up after a move from Savannah to Dubai and the work becoming an exhibition. The useful part is the sequencing and editing decisions — how a loose body of frames gets chosen down into something hung in order. That is the problem that comes after the shooting, and it is the one most film writing skips.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/COVER.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "51acd961570207cbf518b1fecaaa33506ad3afe4a15cb224f4d76aaab80c2b18",
+      "url": "https://www.35mmc.com/07/10/2026/5-frames-a-pilgrimage-walk-with-a-pentax-mx-and-smc-a-35-80-zoom",
+      "title": "5 Frames - A Pilgrimage Walk with a Pentax MX",
+      "summary": "Fifteen miles on Ultramax 400 with a dead meter and a cheap zoom, which is a better argument for Sunny 16 than any tutorial.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Cope's MX meter failed partway along the route to Ely Cathedral, so the frames are guessed exposures on Kodak Ultramax 400 — and his point is how much latitude the stock gave him. The lens is a second-hand SMC-A 35-80mm f/4-5.6 he calls his plastic fantastic, rediscovered as a walkabout zoom, with a six-bladed diaphragm he actually likes here. Worth it as a case for carrying the unloved slow zoom on a long day rather than a fast prime.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/IMG1092.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "0d6b7b1e26bab9618e6a204e5ac775d2946ab0483a0c269a56b5d9192e7e1a72",
+      "url": "https://www.abc.net.au/news/2026-10-07/sa-paramedics-fear-worst-ramping-month-on-record/107237770",
+      "title": "SA paramedics fear worst ramping month on record",
+      "summary": "Interstate ramping data is the clearest available read on where Victoria's own numbers are heading after a long weekend.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "The union's claim is about Lyell McEwin after the October long weekend, but the mechanism is the one he works inside — offload delay as the visible end of an access-block problem that starts on the wards. Victoria's last quarterly figures had one in three ED patients not treated within the recommended time, and ramping is now a state election line here, with transit lounges the Coalition's answer. Worth reading as the comparator for what the VAHI release will say.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/305a42d966dd5fa1498521fea33fd2e0?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "6c40ff57dbf4afe6ea2c0aaa659a5ac2dfb052deb727cf44aca0e810dab015e2",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/venetian-wine-bar-da-bepi",
+      "title": "First Look: Nobody Does Venetian Wine Bars Like Da Bepi",
+      "summary": "A 3am licence, a built-in turntable and the family lasagne recipe, eight minutes up Sydney Road.",
+      "date_published": "2025-12-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "The Lucato brothers named it for their grandfather Giuseppi, and the room is theirs down to the family photographs; pasta comes in daily from Piera Pasta Fresca and the lasagne is their grandmother's. The thing that makes it his kind of room rather than just another cicchetteria is the turntable behind the bar and the vinyl sets Anthony programmes — funk and soul off the shelf, not a playlist. 391 Sydney Road, Wednesday to Sunday until 3am, which is the useful part after a late shift.",
+        "published_at": "2026-10-08T16:22:16.389Z",
+        "image": "https://cdn.broadsheet.com.au/images/2025/11/03/Da%20Bepi%20-%20Casey%20Horsfield_014%20of%2034-b7d947b999.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
