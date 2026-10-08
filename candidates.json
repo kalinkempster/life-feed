@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "url": "https://www.stemlynsblog.org/jc-iv-or-io-first-in-cardiac-arrest-st-emlyns/",
+      "title": "JC: IV or IO first in cardiac arrest?",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "An IPD meta-analysis that lands on almost no difference between IO-first and IV-first access, which is the kind of null result that quietly changes a resus checklist.",
+      "note": "Thirty-day survival came out at 5.9% for intraosseous-first against 6.1% for intravenous-first, with no clear separation on favourable neurological outcome either. That matters for the part of an arrest where you are deciding whether to keep hunting for a vein while compressions run. Carley's appraisal is the ANZ-facing read on it, and it sits directly on top of the ALS access decision he makes without thinking.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://www.stemlynsblog.org/chest-pain-troponin-test/",
+      "title": "Which patients with chest pain need a troponin test?",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Beardsell and Body work through which history features actually shift the probability of MI, before the first troponin is even sent.",
+      "note": "Vomiting and observed sweating came out as genuine probability-raisers, as did pain radiating to one or both arms — the features that get dismissed as soft in a busy cubicle. This is the pre-test-probability half of the rule-out pathways he runs every shift, with Rick Body on it, which is as close to the source as this question gets. Useful precisely because it is about the decision before the assay, not the assay.",
+      "date_published": "2026-10-04"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "title": "Claude Haiku 5.5",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The small-model release note worth reading, mostly because Willison catches the tokenizer change that makes the headline price misleading.",
+      "note": "He measures the new tokenizer at roughly 1.25x the tokens of Haiku 4.5 on the same long prompt, which means the per-token price cut is smaller than it looks once you are feeding it anything substantial. If any of his own tooling is sitting on a cheap model for bulk work, that ratio is the number to check rather than the pricing page. Willison also runs the usual reasoning-level comparisons rather than reprinting the announcement.",
+      "date_published": "2026-10-07"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-07/sa-paramedics-fear-worst-ramping-month-on-record/107237770",
+      "title": "SA paramedics fear worst ramping month on record",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Interstate ramping data is the clearest available read on where Victoria's own numbers are heading after a long weekend.",
+      "note": "The union's claim is about Lyell McEwin after the October long weekend, but the mechanism is the one he works inside — offload delay as the visible end of an access-block problem that starts on the wards. Victoria's last quarterly figures had one in three ED patients not treated within the recommended time, and ramping is now a state election line here, with transit lounges the Coalition's answer. Worth reading as the comparator for what the VAHI release will say.",
+      "date_published": "2026-10-07"
+    },
+    {
+      "url": "https://afro.who.int/countries/democratic-republic-of-congo/news/safe-and-dignified-burials-help-prevent-spread-ebola",
+      "title": "Safe and dignified burials help prevent the spread of Ebola",
+      "source": "WHO Africa",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The operational end of the DRC Bundibugyo response, where the control measure that matters most is a burial team rather than a drug.",
+      "note": "Mobile safe-and-dignified-burial teams in Ituri have gone from 53 to 114, which is the scale-up figure for an outbreak now across 63 health zones in seven provinces and the largest Ebola outbreak the DRC has recorded. With no licensed vaccine or specific treatment for Bundibugyo virus, the whole response rests on case detection, IPC, contact tracing and burial practice. Kenya's first imported case last week is what makes the containment detail worth following rather than skimming.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://www.analogplanet.com/content/rolling-stones%E2%80%99-new-foreign-tongues-180g-2lp-set-licks-its-studio-predecessor-production",
+      "title": "The Rolling Stones' new Foreign Tongues 180g 2LP set",
+      "source": "Analog Planet",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "A pressing-and-mastering read on a record he will almost certainly end up buying, with the clouding and the lacquer cut both accounted for.",
+      "note": "Smotroff scores it 9 for music and 8 for sound, and names Randy Merrill at Sterling Sound for the lacquers — a digital-rooted production that he argues was templated for vinyl playback rather than streaming. The copy he reviews is the standard black, with some visible clouding that did not reach the groove, which is the detail that decides between the black and the several colour variants. The Stones shelf in the library is the reason to bother with that distinction at all.",
+      "date_published": "2026-07-22"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/10/08/emily-a-sprague-the-aquarium-drunkard-interview/",
+      "title": "Emily A. Sprague :: The Aquarium Drunkard Interview",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "An interview about writing with very few words, from the Florist songwriter whose solo work sits between the ambient and folk ends of the collection.",
+      "note": "Cyano is lyrically spare enough that AD builds the whole interview around economy — what gets left out and why. Sprague's two modes, Florist's quiet indie folk and her modular-synth ambient records, land either side of a shelf that already holds For Emma, Forever Ago, Sufjan and José González on one hand and Tycho and This Will Destroy You on the other. A good entry point if the ambient half of that shelf has gone unplayed for a while.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://www.35mmc.com/06/10/2026/nobody-saw-us-from-an-essay-to-an-exhibition/",
+      "title": "Nobody Saw Us: From An Essay to an Exhibition",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A follow-up on what happened when a personal essay about being present behind the camera turned into actual wall space.",
+      "note": "DeVon Moore wrote the original piece in January about learning to stay in the moment while shooting, and this one picks it up after a move from Savannah to Dubai and the work becoming an exhibition. The useful part is the sequencing and editing decisions — how a loose body of frames gets chosen down into something hung in order. That is the problem that comes after the shooting, and it is the one most film writing skips.",
+      "date_published": "2026-10-06"
+    },
+    {
+      "url": "https://www.35mmc.com/07/10/2026/5-frames-a-pilgrimage-walk-with-a-pentax-mx-and-smc-a-35-80-zoom/",
+      "title": "5 Frames - A Pilgrimage Walk with a Pentax MX",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Fifteen miles on Ultramax 400 with a dead meter and a cheap zoom, which is a better argument for Sunny 16 than any tutorial.",
+      "note": "Cope's MX meter failed partway along the route to Ely Cathedral, so the frames are guessed exposures on Kodak Ultramax 400 — and his point is how much latitude the stock gave him. The lens is a second-hand SMC-A 35-80mm f/4-5.6 he calls his plastic fantastic, rediscovered as a walkabout zoom, with a six-bladed diaphragm he actually likes here. Worth it as a case for carrying the unloved slow zoom on a long day rather than a fast prime.",
+      "date_published": "2026-10-07"
+    },
+    {
+      "url": "https://www.heddels.com/2026/10/all-about-the-ishikawadai-spinning-machine/",
+      "title": "All About the Ishikawadai Spinning Machine",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "The provenance story behind the yarn, rather than the jean — a 1953 ring spinner still running because nobody has replaced it.",
+      "note": "Introduced in 1953 and built by Seisaku-Sho in Ishikawa Prefecture, it is now run by Taisho Spinning specifically to keep vintage machinery alive, and nobody has records explaining why it was built in the first place. It spins at about a third of the speed of a modern machine, which is the whole point: lower output, more irregular and textural yarn. This is the upstream half of the ONI and Big John Ishikawadai denim that keeps turning up in end-level jean write-ups.",
+      "date_published": "2026-10-06"
+    },
+    {
+      "url": "https://massivelyop.com/2026/06/25/survivalbox-enshrouded-will-leave-early-access-and-launch-october-15-on-pc-ps5-with-xbox-xs-coming-in-2027/",
+      "title": "Enshrouded leaves early access October 15 on PC and PS5",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "The date is now a week out, and 1.0 resets every character's skill tree — which is worth knowing before that Wednesday, not after.",
+      "note": "Keen Games ships 1.0 on 15 October for Windows and PS5 including the Pro, with Xbox Series X|S held back to spring 2027. The launch build raises the level cap to 50 and gear to 55, adds nine spells and makes every Eternal arrow upgradeable, but it also wipes skill allocations, and a dedicated server has to be on the 1.0 build before anyone can join it. Worth checking the server before Thursday rather than on the night.",
+      "date_published": "2026-06-25"
+    },
+    {
+      "url": "https://dragonwilds.runescape.com/news/save-corruptions---an-update",
+      "title": "Save Corruptions - An Update",
+      "source": "Dragonwilds",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "First-party post naming the cause of the launch-window save corruptions and what Jagex will hand back to the roughly thousand players hit.",
+      "note": "The culprit was editing character appearance, now disabled, with the corruption fix itself targeted at the 1.0.1 update in mid-October. Affected saves get cleaned and replaced with a pre-levelled Tier 4 character back in the same world — Attack, Ranged and Magic at 60, Construction at 85 — with name, appearance and private chest access intact. Straight from the developer rather than a coverage rewrite, which is the version that tells you whether your own world is affected.",
+      "date_published": "2026-09-29"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/venetian-wine-bar-da-bepi",
+      "title": "First Look: Nobody Does Venetian Wine Bars Like Da Bepi",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "evergreen",
+      "summary": "A 3am licence, a built-in turntable and the family lasagne recipe, eight minutes up Sydney Road.",
+      "note": "The Lucato brothers named it for their grandfather Giuseppi, and the room is theirs down to the family photographs; pasta comes in daily from Piera Pasta Fresca and the lasagne is their grandmother's. The thing that makes it his kind of room rather than just another cicchetteria is the turntable behind the bar and the vinyl sets Anthony programmes — funk and soul off the shelf, not a playlist. 391 Sydney Road, Wednesday to Sunday until 3am, which is the useful part after a late shift.",
+      "date_published": "2025-12-01"
+    }
+  ]
+}
