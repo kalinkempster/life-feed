@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emcrit/airway-triage-debate/",
+      "title": "EMCrit 425 – Sort of the Airway Triage Debate",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "The uncomfortable finding is that teams who predicted a difficult airway booked direct laryngoscopy anyway.",
+      "note": "The Danish cohort at the centre of this is the awkward part: where both difficult intubation and difficult mask ventilation were anticipated, 42.9% were still scheduled for direct laryngoscopy. Weingart's HELPET framework — human factors, experience, location, patient factors, equipment, time pressure — is the useful takeaway, because it moves the question from 'is this airway hard' to 'who should be holding the laryngoscope, here, now'. The MACOCHA numbers are also worth memorising honestly: 98% negative predictive value but only 36% positive, so it rules out far better than it rules in.",
+      "date_published": "2026-05-14"
+    },
+    {
+      "url": "https://rebelem.com/sep1/",
+      "title": "Sepsis Bundle (SEP-1) Compliance and Mortality",
+      "source": "REBEL EM",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "No moderate or high-quality evidence that bundle compliance moves sepsis mortality, which is awkward for a pay-for-performance measure.",
+      "note": "Ford et al found the evidence specific to SEP-1 compliance and implementation is low quality throughout, and the authors go as far as recommending CMS reconsider its place in the value-based purchasing program. The pattern rhymes with ProCESS, ARISE and ProMISe, which killed protocolised EGDT while leaving early antibiotics and sensible fluids standing. Relevant beyond the US because the same bundle logic drives local time-to-antibiotic audits, and the registrar is the one being audited.",
+      "date_published": "2026-08-24"
+    },
+    {
+      "url": "https://litfl.com/pulmonary-oedema-case-1/",
+      "title": "Pulmonary Oedema Case 1 · LITFL Ultrasound Library",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A 72-year-old in respiratory distress at 8am, worked up on lung and cardiac windows rather than a chest film.",
+      "note": "Diffuse bilateral B-lines plus bibasal effusions get you most of the way, and then the apical five-chamber view settles it — poor left ventricular function, worst at the apex and interventricular septum, so the oedema is cardiac in origin. This is precisely the view set and the reasoning chain CCPU basic echo examines, with the clips included rather than described. Worth running through before a scan list, because the diagnosis is made on the combination and not on any single window.",
+      "date_published": "2025-10-20"
+    },
+    {
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+      "title": "Ebola (Bundibugyo virus) – Democratic Republic of the Congo",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "8,728 confirmed cases and a 48.2% case fatality ratio make this the largest Ebola outbreak the DRC has ever recorded.",
+      "note": "Ituri remains the epicentre with 6,480 cases and 2,989 deaths across 64 health zones in seven provinces, and the trend is genuinely mixed — weekly cases nudged from 475 to 487 while deaths held near 224. Two items matter for anyone working a triage desk: Kenya's lab-confirmed imported case, who travelled from the DRC via Uganda and died on 5 October, and the Netherlands medevacking a response healthcare worker on 1 October. There is still no approved vaccine or therapeutic for Bundibugyo specifically, with more than 600 people now enrolled in treatment trials.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://www.medicalrepublic.com.au/racgp-wins-ama-college-report-card/129617",
+      "title": "RACGP Wins AMA College Report Card",
+      "source": "Medical Republic",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The AMA graded every specialist college on how its own registrars rate the training, and nobody got an A.",
+      "note": "RACGP took a B minus and ACRRM a C plus, and the RACGP was the only college scoring significantly better than average across most measures — clear communication about training changes and work-life balance among them. Its single bad mark was unrostered overtime pay, alongside a worse-than-average share of registrars thinking about leaving medicine inside twelve months. The grades come off AHPRA's 2025 Medical Training Survey, so every college that trains hospital specialists is sitting in the same table.",
+      "date_published": "2026-10-02"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "title": "Mistral Large 4",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A trillion-parameter model in API preview, with open weights promised before the month is out.",
+      "note": "One trillion total parameters against 49 billion active per token, trained on 3,800 Grace Blackwell GPUs in Mistral's own cluster, and the API exposes only two reasoning settings: none and high. Willison notes it scores 38 on Artificial Analysis, just behind DeepSeek 4.1 Flash at 552B, and that the 'high' pelican looked better while using fewer output tokens — a useful reminder that more thinking tokens is not the same as better output. The open-weights promise is the part with consequences: a model this size that can run inside a hospital network is a different proposition to one that cannot.",
+      "date_published": "2026-10-06"
+    },
+    {
+      "url": "https://www.analog.cafe/r/ilford-delta-100-film-review-2rm1",
+      "title": "Ilford Delta 100 Film Review",
+      "source": "Analog.Cafe",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Six years on one emulsion, and the practical advice is to rate it at 125–160 rather than box speed.",
+      "note": "Dmitri's argument is that Delta 100's 8.3 stops of datasheet latitude — against roughly 12 for HP5+ — is why his frames kept coming back overexposed, and that under-rating it buys contrast and highlight detail without editing. The developer notes are the usable part: DD-X for the smoothest grain with no loss of latitude, Rodinal coarser but easier to actually buy, HC-110 the middle ground. He also recovered a frame about four stops over, which is the sort of claim worth testing yourself on a roll you don't care about.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://shootitwithfilm.com/creating-dreamier-images-on-film/",
+      "title": "Creating Dreamier Images on Film",
+      "source": "Shoot It With Film",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Deliberate frame overlap and a 110mm fisheye, used as technique rather than happy accident.",
+      "note": "Angela Izzo shot colour-treated film at the Huntington Gardens and wound frames short on purpose so exposures stack, which is the opposite of the usual advice about a misfiring film advance. Everything happens in-camera, so it suits the light-on-darkroom preference — no process, just a decision made at the time of shooting. The cheapest way to try it is the tail end of a roll you have already written off.",
+      "date_published": "2026-10-09"
+    },
+    {
+      "url": "https://www.permanentstyle.com/2026/10/trims-and-fits-how-product-design-works-at-buck-mason.html",
+      "title": "Trims and Fits: How Product Design Works at Buck Mason",
+      "source": "Permanent Style",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "A day in the LA design room on which vintage details to copy and which to quietly fix.",
+      "note": "Designer Wyatt Kaufmann's point about hunting jackets is the one to keep: the big A-line cut existed so the thing could be pulled over layers, and the extreme shoulder slope on the originals is the detail that only surfaces once you start cutting patterns. Crompton pushes back on the cloth, flagging creasing the original's heavier, harder-wearing twill would not have shown, and Buck Mason swapping a dense original twill for an Italian melton to look cleaner. Useful reading if you own repro Woolrich or RRL and have wondered why the modern version hangs differently.",
+      "date_published": "2026-10-02"
+    },
+    {
+      "url": "https://www.analogplanet.com/content/new-vinylphyle-180g-1lp-edition-i-want-you-marvin-gaye%E2%80%99s-acclaimed-1976-love-letter-album",
+      "title": "Marvin Gaye's I Want You on New 180g Vinylphyle Edition",
+      "source": "Analog Planet",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Scored 9.5 music and 10 sound, with the verdict that you can stop hunting an original.",
+      "note": "Mark Smotroff calls the RTI pressing quiet and well-centred, more open and less compressed than his US originals, and recommends it at around $40 unless you specifically need a first press. The companion I Want You 2 set of alternates, remixes and outtakes he finds thinner and harsh at the top — fair at $37.99 for completists, not a listening record. Marvin Gaye is already several records deep on the shelf, so this one is purely the upgrade question rather than a discovery.",
+      "date_published": "2026-06-12"
+    },
+    {
+      "url": "https://daily.bandcamp.com/label-profile/strata-east-where-to-start",
+      "title": "The Groundbreaking Spiritual Jazz of Strata-East Records",
+      "source": "Bandcamp Daily",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "A where-to-start on the label that let its musicians keep their masters and 85% of the proceeds.",
+      "note": "Charles Tolliver and Stanley Cowell built Strata-East in 1971 because the majors were shut to the players driving the music, and the business model — artists financing their own sessions, owning the tapes, sharing profits — is as much the story as the records. Winter in America was the breakout, with Glass Bead Games, Capra Black and Izipho Zam the usual entry points. The Mack Avenue reissue campaign means these are now findable rather than three-figure originals, and they sit directly beside the Oscar Peterson and Milt Jackson end of the collection.",
+      "date_published": "2025-07-15"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/where-jasper-mutimer-eats-drinks-collingwood",
+      "title": "My Neighbourhood: Jasper Mutimer's Collingwood",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "evergreen",
+      "summary": "Five picks inside a Smith Street radius from the one Melbourne designer whose clothes are already on the brief.",
+      "note": "Mutimer opened his first permanent shop on Smith Street this year after six years online, so these are the places he actually walks to: Glou for letting you taste several wines before committing, Falafel Place for value, Tamago Sushi for onigiri made fresh on request, Carlito's for the deli. The one worth the trip from Brunswick is Happy Valley — it is where the Mutimer store buys its coffee-table books and vinyl, which makes it a record stop with a design brief rather than a bookshop. Written by Jenny Valentish, so the picks read like a person's rather than a ranking.",
+      "date_published": "2026-08-06"
+    },
+    {
+      "url": "https://massivelyop.com/2026/10/07/conan-exiles-adds-new-spells-and-tears-open-rifts-in-the-legacy-of-the-giant-kings-part-two-update/",
+      "title": "Conan Exiles: Legacy of the Giant-Kings Part Two",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "Extradimensional fights, new spells and a returning foe, with rifts opening across both maps.",
+      "note": "Part two of the Legacy of the Giant-Kings arc tears rifts through the Exiled Lands and the Isle of Siptah rather than walling the content into one map, which is the part that matters if you have an existing base on either. The timing is the other reason to look: it lands eight days before Enshrouded leaves early access on 15 October, and the two games are competing for the same evening. Worth a look as the survival-sandbox shelf next to Dragonwilds and Enshrouded, not as a new commitment.",
+      "date_published": "2026-10-07"
+    }
+  ]
+}
