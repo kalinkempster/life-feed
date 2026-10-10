@@ -1,0 +1,204 @@
+{
+  "day": "2026-10-11",
+  "ran_at": "2026-10-10T16:26:43.439Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "58b6a0160bba0ef4c0b528b555a8a6daef52fb1b8bf6a6f2448f0421cd4bbdca",
+      "url": "https://www.aliem.com/sickle-cell-acute-pain-episodes-pecarn-start-trial",
+      "title": "Sickle Cell Pain: Lessons From the Halted STArT Trial",
+      "summary": "A trial stopped for futility whose real finding was that which hospital you present to changed crisis length by 61 hours.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "ALiEM",
+        "note": "The arginine question is settled — it did nothing across 274 patients — but the site-variation signal underneath it is the part worth arguing about on a shift. Median time to crisis resolution varied by up to 61 hours between the ten participating children's hospitals, which is a departmental-practice finding dressed as a drug trial. Read it before the next vaso-occlusive crisis where the decision is how hard to push analgesia and when to stop the opioid.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "2bfc10012b69bd055b3ac2aa0519f0b9158eff7f8c4cc134edf537dcd9e751ff",
+      "url": "https://www.aliem.com/pem-pocus-pediatric-lung-ultrasound",
+      "title": "PEM POCUS Series: Pediatric Lung Ultrasound",
+      "summary": "Structured walkthrough of paediatric lung windows with the pathology images to match, and a badge quiz attached.",
+      "date_published": "2023-08-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "ALiEM",
+        "note": "Sits directly on CCPU lung material, and it is the practical answer to the exam-reliability problem rather than another lament about it. Peer-reviewed module format: scanning protocol, B-lines, consolidation with air bronchograms, effusion, plus an ALiEMU quiz worth two hours of course credit. ALiEM has not appeared in this feed before and its POCUS series looks like the richest unmined seam on the site.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "1945262a86def1894a5f230b5e677f520cb3d2ac4619b0f6e5eea9cd804526c4",
+      "url": "https://www.aliem.com/pediatric-pneumonia-exam-reliability",
+      "title": "How Much Weight Should the Lung Exam Carry in Kids?",
+      "summary": "Two clinicians examined the same 252 children with pneumonia and agreed reliably on essentially nothing.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "ALiEM",
+        "note": "Guidelines already say not to X-ray every well child with suspected community-acquired pneumonia, which quietly leaves the physical exam carrying the whole decision. This PECARN reliability analysis in JAMA Network Open found that no individual examination finding met its prespecified reliability standard — crackles included — so a single lung sound should not be deciding the diagnosis. The uncomfortable corollary is that the slack has to be taken up somewhere, and ultrasound is the obvious candidate.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "7f5d006483ca3f77d61a1d6f7066a332c21f17b1c05d4c01df15512a871e5672",
+      "url": "https://dragonwilds.runescape.com/news/1.0.0.8-patch",
+      "title": "Our 1.0.0.8 Patch Is Live",
+      "summary": "Stops world saves vanishing, but does not bring back the ones already gone — that waits for 1.0.1.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Dragonwilds",
+        "note": "First-party notes, so this is the authoritative version of the save-loss saga rather than someone's coverage of it. The fix is preventative only: worlds that have already disappeared stay invisible until the 1.0.1 restore, which Jagex is targeting for mid-October alongside new quests and a magic tree seed. Dedicated servers need a restart to pick it up, and SteamCMD is being rate-limited pulling the patch down.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": "https://framerusercontent.com/images/NeW7rCeAvc8TxGGDqsOuy59qek.png?scale-down-to=512&width=1920&height=1080",
+        "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+      }
+    },
+    {
+      "id": "f01b641d93ff53280acde0d440c0acedd1f32a3e3763f78565e510b6127ef10b",
+      "url": "https://shootitwithfilm.com/is-dry-plate-photography-the-new-wet-plate",
+      "title": "Is Dry Plate Photography the New Wet Plate?",
+      "summary": "Why a tintype shooter abandoned the chemistry bench for plates he can buy coated and expose whenever he likes.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "ShootItWithFilm",
+        "note": "Alec Pain came to this from wet plate collodion courses in London and makes the practical case for the 1870s successor process: plates that keep, so the exposure no longer has to happen inside the twenty minutes before the collodion dries. One of the three suppliers he names is Melbourne Dry Plates, which makes an 1870s process unusually easy to try from here. Large-format adjacent rather than 35mm, but it is hands-on process writing of the kind this topic is short of.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/09/Dry-Plate-Photography-by-Alec-Pain-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "3778a3723719e54fe781daa64212770e151cc6eb6b358c5327b9fb742f798e39",
+      "url": "https://worthplaying.com/article/2026/10/8/news/151186-enshrouded-details-adventure-sharing-and-game-changing-sparkworks-feature-trailer",
+      "title": "Enshrouded Details Adventure Sharing and Sparkworks",
+      "summary": "A week out from 1.0, Keen shows the creation tools that ship with it on PC and PS5.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Worthplaying",
+        "note": "Sparkworks is a set of in-game interactive creation tools — puzzles, dungeons, mini-games — built to be packaged and handed to other players, which is a different proposition from the base-building the game has run on through early access. It arrives with the 15 October 1.0 release on PC and PS5, with PS5 Pro support; Xbox Series X|S waits until spring 2027. Better to know what is in the box before launch day than to find it in the menus afterwards.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": null,
+        "icon": "https://worthplaying.com/favicon.ico"
+      }
+    },
+    {
+      "id": "3ec97322513f812cafe02af81df52293b2d9a2b4f87d84d81d3ccac3b6d42057",
+      "url": "https://www.analog.cafe/r/ilford-delta-3200-review-f9oq",
+      "title": "Ilford Delta 3200 Review",
+      "summary": "Six years of rolls and side-by-side developer tests on a film whose actual measured speed is 1000.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Analog.Cafe",
+        "note": "Dmitri's long-term reviews are the useful kind — resolution and dynamic range measured rather than gestured at, with DD-X and Rodinal compared at EI 1600. The headline finding is that the '3200' is a suggested exposure index with development times built to match it, and that rating the film lower buys neither finer grain nor better contrast, which is the opposite of what most pull advice assumes. Reads well against the Delta 100 review already in the feed if he is working through the Harman line.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_1589193_4H7lvZK7f.jpg",
+        "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+      }
+    },
+    {
+      "id": "a77c3e605ba9f529317e927de39be9cd374c7e6acfbe2decb3363c0174b3a519",
+      "url": "https://www.theavantmag.com/stories/the-stifel-jacket-that-almost-vanished",
+      "title": "The Stifel Jacket That Almost Vanished",
+      "summary": "A 1933 chore coat pulled off a rubbish pile, one owner in ninety years, in cloth from a mill dead since 1956.",
+      "date_published": "2026-04-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "AVANT",
+        "note": "Provenance writing rather than product writing: one Klemm chore jacket, one owner — a World War I veteran — and an indigo Stifel Wabash in an unusual double dotted parallel line pattern rather than the boot-stamped dots everyone reproduces. J.L. Stifel & Sons ran from 1835 to 1956, which is why the modern Wabash repros keep aiming at it and missing. The jacket is documented in Eric Maggiori's Collection Volume II, so there is somewhere to go next.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/5f3ecaafedcc9c4af99022a9/33901581-3d88-4e6f-a59f-c03fee494f31/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "2a22d141908ad9316f2cda82e989054f207aed15a7c2d75ada810071c07f9f46",
+      "url": "https://www.artshub.com.au/news/interviews/watch-melbourne-transform-over-55-years-of-andrew-chapmans-photographs-2872114",
+      "title": "55 Years of Andrew Chapman's Melbourne, in Photographs",
+      "summary": "One photograph for every year he has shot the city — free, in the Town Hall, until February.",
+      "date_published": "2026-08-31T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "ArtsHub",
+        "note": "Chapman curated The Green Bus himself: 55 images, a frame per year from 1971 on, and the title comes from the green buses that ran from Elsternwick into town when he was starting out. The City of Melbourne recently acquired a large part of his archive, which is what prompted the show, and the work is social history — a Moomba crowd on a Swanston Street awning in 1987, the wool industry, rural assignments. Free, weekdays, 110 Swanston Street, and it runs to 19 February, so there is no excuse.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "9088e2fceb8aa24e3470122668fb32e0b875494f202124fe4cd7a52ae35b3a2f",
+      "url": "https://news.un.org/en/story/2026/10/1168547",
+      "title": "'No Plague Case' in Siberia, Russia Tells WHO",
+      "summary": "A lab worker dies of severe pneumonia, 200 contacts go into quarantine, and the host state says there is nothing to find.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "UN News",
+        "note": "Worth following for the outbreak-reporting mechanics more than the pathogen: WHO has asked Moscow for lab results, tests and further analysis, and is saying out loud that it expects answers in the coming days, which is about as close to public friction as IHR reporting gets. Rospotrebnadzor's own testing of the Irkutsk contacts returned two COVID cases and two rhinovirus and nothing else, and there is a second suspicious pneumonia death in the same region. Pneumonic plague responds to ordinary antibiotics given early, which is precisely why a delay in confirmation is the story.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/07-10-2026_Adobe_plague.jpg/image770x420cropped.jpg",
+        "icon": "https://news.un.org/en/themes/custom/un_base_theme/favicon.ico"
+      }
+    },
+    {
+      "id": "85c2797003c71c47a54592a1f5a0175f0ebf7525480554dcaca43dce2cf31174",
+      "url": "https://www.abc.net.au/news/2026-10-09/qld-health-ambulance-ramping-data-for-august/107248682",
+      "title": "Ramping Only Marginally Better Under LNP Government",
+      "summary": "August figures put statewide ramping at 42 per cent across Queensland's 26 busiest emergency departments.",
+      "date_published": "2026-10-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Not his state, but it is the cleanest published test going of whether a change of government moves the number, since the previous figures were the central political claim. This feed has already carried SA paramedics bracing for their worst ramping month on record; Queensland is the comparator that makes that look structural rather than local. Useful the next time the conversation at work turns to whether anyone's plan is actually working.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/7c25e15be7a5ae15b1d5e23fdb72be3f?impolicy=wcms_watermark_news&cropH=844&cropW=1500&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "d7287e8ba1ee9f70adcfce50a978ee31ddd0bf1ac2f8185811ebae105ad2fd37",
+      "url": "https://concreteplayground.com/melbourne/food-drink/coming-soon-petit-crenn",
+      "title": "Dominique Crenn to Open Her First Venue Outside the US",
+      "summary": "Three Michelin stars, 40 seats, all-day Paris-comptoir format, opening in Melbourne this month.",
+      "date_published": "2026-09-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Concrete P'ground",
+        "note": "The name matters: Petit Crenn is the approachable San Francisco bistro rather than the Atelier Crenn tasting-menu project, so this is an all-day, counter-led French room and not a four-hour sitting. At 40 seats it will become impossible to book the week the first reviews land, which makes the window for knowing about it now rather than in November. Not northside, but this is the one worth the trip across town.",
+        "published_at": "2026-10-10T16:26:43.439Z",
+        "image": "https://cdn.concreteplayground.com/content/uploads/2026/09/9-5.jpg?webp=false",
+        "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
+      }
+    }
+  ]
+}
