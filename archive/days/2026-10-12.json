@@ -1,0 +1,202 @@
+{
+  "day": "2026-10-12",
+  "ran_at": "2026-10-11T16:22:33.149Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "9e92ea6f1141f8a4e411101f6220635bc33612c7a00ebd0967941a1b6968447f",
+      "url": "https://litfl.com/ecg-case-139",
+      "title": "ECG Case 139 · LITFL ECG Top 100",
+      "summary": "A stable broad-complex tachycardia in a 71-year-old, posed as the exact trap that gets registrars caught out.",
+      "date_published": "2026-10-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "The teaching point is the one that keeps mattering: haemodynamic stability does not separate VT from SVT with aberrancy, and treating a comfortable-looking broad-complex patient as SVT is a recognised and dangerous error. The case turns on spotting capture and fusion beats as evidence of AV dissociation, then goes to synchronised cardioversion under procedural sedation. Posted today, and it sits directly alongside the Queen of Hearts and Dr Smith material already in the feed.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "6cb53bbd6b721016b18daaf4803e13cb6c7f31891e989a519337898a92b7faea",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+      "title": "A new feature for my blog, built using my voice",
+      "summary": "A working feature shipped hands-free, by talking to a laptop while cooking dinner — the clearest demonstration yet of where agentic coding has actually landed.",
+      "date_published": "2026-10-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "Willison built and deployed a Newsletters page for his blog almost entirely by voice, with the model doing the typing while he was away from the keyboard. The interesting part is not the feature but the interaction model: no editor, no review loop, a task delegated the way you would delegate to a person. He is the most practical AI writer going for exactly this reason — he reports what the tools do rather than what they promise.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://static.simonwillison.net/static/2026/newsletters-card.webp",
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "f11e69009f0f78ae38f40680d77c02d752d30a07eefc8573fef87929f3d947e6",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620",
+      "title": "Pneumonia of undetermined etiology – Russian Federation",
+      "summary": "The authoritative notice behind the Siberian plague story: a researcher dead of severe pneumonia, high-threat pathogen testing negative, agent still unidentified.",
+      "date_published": "2026-10-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO",
+        "note": "This is the formal Disease Outbreak News for the death at the Irkutsk Antiplague Research Institute — hospitalised 29 September, died 2 October, pneumonic plague initially suspected. Russia has classified it as undetermined aetiology and says testing for the high-threat pathogens came back negative, and WHO states plainly that it still has no information identifying the causative agent. Worth reading against the UN story already in the feed, which carried the denial but not the gap in the record.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+        "icon": "https://www.who.int/favicon.ico"
+      }
+    },
+    {
+      "id": "2c79eda0979655095bf674ff790fc5052e1fd6692215179d5c20c677d51b899a",
+      "url": "https://aquariumdrunkard.com/2026/10/09/can-karussell-der-jugend-soest-1970",
+      "title": "CAN :: Karussell der Jugend, Soest 1970",
+      "summary": "Eighty-four minutes of West German television footage of CAN with Damo Suzuki, before the sound had a name.",
+      "date_published": "2026-10-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Filmed at the Karussell der Jugend festival in November 1970, with Suzuki, Karoli, Schmidt, Czukay and Liebezeit caught mid-mutation rather than mid-canon. If Yin Yin is on the shelf then this is the upstream source — the motorik pulse and hypnotic repetition that the whole modern psych-groove lane borrows from, documented live rather than described. A full-length film, so it is an evening, not a link.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/damo.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "5394c0f2906d4e9c898c10beaa3a97af864b825d97e2295603eee83c6098edab",
+      "url": "https://aquariumdrunkard.com/2026/10/07/teenage-fanclub-do-not-dare-to-dream",
+      "title": "Teenage Fanclub :: Do Not Dare To Dream",
+      "summary": "A thirteenth album from the Glasgow band whose jangle sits underneath a good deal of the guitar pop already on the shelf.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Aquarium Drunkard reads this one as softer-focused and more acoustic than usual while keeping the lilting, chiming guitar signature intact. Teenage Fanclub are the missing middle between the Byrds and the Britpop end of the collection — Oasis, the Strokes, the Kooks all owe them something they rarely get credited for. Thirty-odd years in and still releasing, which makes the back catalogue worth a look as much as the new one.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/fanclub.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "d8d73c3cf5347115656e458730ce1a78825eb2fc9db43a943ff155ed034e4029",
+      "url": "https://www.stemlynsblog.org/ttl-tips-21-catastrophic-bleeding-from-the-midface",
+      "title": "TTL tips 21: Catastrophic Bleeding from the midface",
+      "summary": "Simon Carley walks through the 'stacking' technique for midface haemorrhage you cannot pack — a procedure you will do rarely and must not improvise.",
+      "date_published": "2026-10-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Stacking combines bilateral nasal balloon tamponade with midface reduction and bite blocks, inflated posterior-then-anterior, and the order of operations is the whole point: airway and an experienced anaesthetist first, balloons placed but not inflated, then alignment. Carley is explicit that it is temporising only, so persistent bleeding escalates. The most useful line for a trauma team leader is the mundane one — know where your department keeps the bite blocks before you need them.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/10/Catastrophic-mid-face-bleeding.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "020e38a332a637132e940ee7aef951a52e162ac595611c54bc18a0525317b587",
+      "url": "https://www.permanentstyle.com/2026/10/house-cuts-deer-bones-tweed-suits-ask-me-anything.html",
+      "title": "House cuts, deer bones, tweed suits: Ask me anything",
+      "summary": "Simon Crompton answering reader questions, which is where Permanent Style gets closest to how things are actually made.",
+      "date_published": "2026-10-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Permanent Style",
+        "note": "The AMA format pulls Crompton off the review treadmill and onto the construction questions people actually have — what a house cut means and why it is not interchangeable between makers, how tweed behaves as a suit rather than a jacket. It is the cloth-and-making end of the site rather than the bespoke-tailoring end, which is the half worth reading. Thin week for menswear otherwise; Heddels and the Avant had nothing new.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "3e9b2c4e1174f11905b0634b60db2c0952d606b86de843552e868987d2dbee9e",
+      "url": "https://floodmagazine.com/233310/hermanos-gutierrez-los-ojos-del-condor",
+      "title": "Hermanos Gutiérrez, \"Los Ojos del Cóndor\"",
+      "summary": "The seventh record from a duo already in the collection, and the one where they swap the desert for the Andes.",
+      "date_published": "2026-09-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "FLOOD",
+        "note": "Third album with Dan Auerbach on Easy Eye Sound, out 25 September, and the reviews agree on the shift: charango and organ in place of the American-West reverb that defined the earlier records, with the whole thing dedicated to their father. Hermanos Gutiérrez is one of the few artists on the shelf currently making new work, so this is a straight addition rather than an adjacent recommendation. A.D. Amorosi's read is that the cinematic thing got wider rather than thinner.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://api.floodmagazine.com/wp-content/uploads/2026/09/Hermanos-Gutierrez-Los-Ojos-del-Condor.jpg",
+        "icon": "https://floodmagazine.com/favicon.png"
+      }
+    },
+    {
+      "id": "4ae8f6697fc9613feb550c4e3eb10e6bac84f77eccdca2344a3ceaef8ab5c7cb",
+      "url": "https://www.pushsquare.com/news/2026/10/forza-horizon-6-will-have-a-physical-ps5-disc-but-theres-a-catch",
+      "title": "Forza Horizon 6 Will Have a Physical PS5 Disc, But There's a Catch",
+      "summary": "The PS5 port finally has a date — 26 January — and a boxed release that will not actually hold the game.",
+      "date_published": "2026-10-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "Playground confirmed the PS5 version for 26 January after the date leaked, and committed to a disc, which is rarer than it should be for a Microsoft port. The catch is arithmetic: the game runs to roughly 150GB on Series X|S and a PS5 disc tops out near 100GB, so the disc functions as a licence and launcher rather than an install. Worth knowing before pre-ordering physical on the assumption it means what it used to.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://images.pushsquare.com/05b0ab59dadf1/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "76ccee2d6541af08384492ef58f5de209cae77037eb9517775bbaf120c1bcdcf",
+      "url": "https://www.35mmc.com/11/10/2026/5-frames-with-a-1933-leica-ii",
+      "title": "5 frames with a 1933 Leica II",
+      "summary": "A ninety-three-year-old camera used in anger, including the two frames it ruined — camera writing about using the thing, not owning it.",
+      "date_published": "2026-10-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Cem Eren pairs the 1933 body with a 1940 uncoated Summitar 5cm f2 on HP5+, and is honest about the cost: the uncoated glass flares badly and took out two of five frames, and the Leica II has no strap lugs, so there is nowhere to hang it from. His comparison against a IIIf twenty years younger is the useful part — the diopter-adjustable rangefinder is where two decades of refinement actually went. Published today.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/f-1.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "29264c1a029315cc0e005003fa0a60f061e4116ebabc4689feaff5ce41823d97",
+      "url": "https://beat.com.au/melbourne-sculpture-biennale-20-artists-are-filling-a-heritage-brighton-mansion",
+      "title": "Melbourne Sculpture Biennale fills a Brighton mansion",
+      "summary": "Twenty artists making site-specific work inside a heritage villa, free, and it closes on 25 October.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat",
+        "note": "Soft Systems is the Biennale's second edition and the first at Billilla, a late-1800s villa at 26 Halifax Street that the Weatherlys remodelled in Arts and Crafts style and Brighton Council bought for public use in 1973 — much of the original detailing survives, so the house is the other half of the work. Mikala Dwyer, Paul Yore, Lauren Berkowitz, Hannah Gartside and Nabilah Nordin are among the twenty. Thursday to Sunday, 11am–5pm, free, three weeks only.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://beat.com.au/wp-content/uploads/2026/10/es-1.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    },
+    {
+      "id": "ff0f37c04a0a4ad2c1fb56e4399b6e95fa2dd1988fa4b862cf108e874aa1a096",
+      "url": "https://www.timeout.com/melbourne/news/a-chic-euro-coded-eatery-has-opened-in-this-old-melbourne-convent-091726",
+      "title": "A chic, Euro-coded eatery has opened in an old convent",
+      "summary": "Two former Cam's Kiosk staff have taken over the space their old workplace held for seventeen years, with the old head chef back in the kitchen.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Time Out",
+        "note": "Bar Familiar is at Abbotsford Convent, in the Cam's Kiosk room that closed in June — Alessia Augello and Stephanie Lane ran it, and Alisha Grant has come back to cook a seasonal European menu. Days are sandwiches on Baker Bleu and Austro pastries, later shifting to vongole and mussels; 70 inside, 40 on the verandah, walk-ins and groups to twelve. Currently Wednesday to Sunday 8am–3pm with evening service promised for late October, which makes it worth the short run along the river from the northside.",
+        "published_at": "2026-10-11T16:22:33.149Z",
+        "image": "https://media.timeout.com/images/106448067/image.jpg",
+        "icon": "https://www.timeout.com/static/root-files/favicon.ico"
+      }
+    }
+  ]
+}
