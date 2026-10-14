@@ -7993,5 +7993,231 @@
       "image": "https://cdn.concreteplayground.com/content/uploads/2025/08/2-18.jpg?webp=false",
       "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
     }
+  },
+  {
+    "id": "52a10d2a81e0a550fb2ea910f51e4d0bca5e508fc5f6baefd0456fc791dbde43",
+    "url": "https://rebelem.com/troponin",
+    "title": "Safety and Efficacy of an Accelerated Troponin Protocol for ACS",
+    "summary": "A stepped-wedge randomised trial across nine EDs on compressing the troponin rule-out window — the kind of protocol change that lands on a registrar before the evidence does.",
+    "date_published": "2026-10-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "REBEL EM",
+      "note": "Accelerated troponin pathways are the single most common way a department quietly rewrites your chest-pain workflow, and this is a real randomised comparison rather than a before-and-after audit. Four of the nine sites were free-standing EDs, which matters for how transferable the result is to a department without a cath lab down the corridor. Read it alongside the St Emlyn's troponin podcast from earlier this month.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2026/10/Accelerated-Troponin-Cover-2-scaled.jpg?fit=2560%2C1440&ssl=1",
+      "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "c382c44738d55a53620d4219a7dc67dc217ca885703169123849f72e4e815b5a",
+    "url": "https://www.stemlynsblog.org/toe-guided-cpr-in-out-of-hospital-cardiac-arrest-physiology-over-algorithm",
+    "title": "TOE-Guided CPR in Out-of-Hospital Cardiac Arrest",
+    "summary": "Simon Carley on the EXECT-CPR trial, where putting a probe down the oesophagus during arrest improved the physiology and changed nothing that the patient could feel.",
+    "date_published": "2026-03-30T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "EXECT-CPR is the cleanest test yet of whether seeing your compressions in real time makes them better compressions: ETCO2 went up, ROSC and neurological outcome did not. Carley's reading of why — single centre, no blinding, TOE started only on ED arrival — is the useful part, because it is an argument about when physiological guidance can plausibly help rather than whether. Directly adjacent to the CCPU echo material, and a good reminder that a better number is not a better patient.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/03/The-EXACT-CPR-trial.jpg",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
+  },
+  {
+    "id": "0054a758fe155e5c4b678743048e01486c703be71a0eac77ed6fc3c07e009176",
+    "url": "https://www.abc.net.au/news/2026-10-13/acem-report-aging-population-health-system-crisis/107257352",
+    "title": "Longer waits at emergency departments mark worrying trend",
+    "summary": "ACEM's State of Emergency 2026 puts a number on the thing he watches happen every shift: 53,510 older patients waited more than 24 hours for a bed.",
+    "date_published": "2026-10-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "The 24-hour figure went from 15,084 to 53,510 in five years — a 3.5-fold rise — while older patients' ED presentations grew 16 per cent against four per cent for everyone else. ACEM's own diagnosis is that the bottleneck sits outside the ED, in primary care, residential aged care and inpatient bed numbers, and that departments are left absorbing the gap as ramping and corridor care. AMA Victoria responded the next day calling for every stay over 24 hours to trigger clinical review and public reporting per hospital.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/7b66997d4b19cc2754b33bf56f5a94d0?impolicy=wcms_watermark_news&cropH=2160&cropW=3840&xPos=0&yPos=346&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "7e289d45dfc4cd8f5fef8ccf0acbcc0adf6f8e16304a965fe552f8f7e7a0426d",
+    "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+    "title": "Redesigning source control at Anthropic",
+    "summary": "Anthropic built its own alternative to Git because agent-written code broke the assumptions Git was designed around — 2,500 merges a day in May, over 30,000 by September.",
+    "date_published": "2026-10-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "That 12-fold jump in four months is the most concrete public number anyone has published on what agentic coding does to a codebase's throughput, and it is the reason the tooling had to change rather than a side effect. Willison's scepticism is the useful counterweight: he reads Scion as a reinvention of centralised version control along Subversion lines, which is a real cost, not a detail. Worth reading as a case study in a workflow being rebuilt around the tool rather than the tool bolted onto the workflow.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "ae71d7232a7ae29e8af3ba2595c97bdea6610fa237b937b331c31f437b33c1e4",
+    "url": "https://dontforgetthebubbles.com/bubble-wrap-plus-october-2026",
+    "title": "Bubble Wrap PLUS — October 2026",
+    "summary": "The month's paediatric literature pre-read across 34 journals, which is the cheapest way to not be surprised by a parent who has read it first.",
+    "date_published": "2026-10-02T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "DFTB",
+      "note": "Compiled by Jaan Toelen in Leuven and Anke Raaijmakers at Sydney Children's, so the selection leans towards what actually reaches an ANZ paediatric ED rather than a purely European reading list. Paeds is the part of the case mix where the evidence turns over fastest and the exposure at registrar level is thinnest, which is exactly when a curated monthly list earns its keep.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://dontforgetthebubbles.com/wp-content/uploads/2021/10/Copy-of-Trial-1.png",
+      "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "a4897e7499ca1ef0a50903bb660e92c83fc10b08dbef71f49ff9de85ad1b4d46",
+    "url": "https://www.analogplanet.com/content/how-break-cartridge",
+    "title": "How to Break In a Cartridge",
+    "summary": "Michael Trei on why a new cartridge sounds good immediately, better within a few hours, and then keeps changing for far longer than anyone tells you.",
+    "date_published": "2026-09-28T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "Cartridge break-in is the part of turntable ownership most often either dismissed as mythology or wildly overstated, and Trei splits the difference with actual mechanism: the suspension compliance settles fast, the last few percent takes a long time. For a 297-record collection that gets genuine rotation, this is the difference between chasing a setup problem that does not exist and knowing when the thing has actually settled. Carried over from his Spin Doctor column in Stereophile's October print issue.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "53350b3f4c35b3ccfe8be2dc1d4692c49d22b4a7d421bbde5519df542211bdae",
+    "url": "https://aquariumdrunkard.com/2026/10/14/piero-umiliani-il-corpo",
+    "title": "Piero Umiliani :: Il Corpo",
+    "summary": "A write-up of Umiliani's 1974 score, which is the lounge-exotica end of Italian library music and a natural step sideways from the soundtrack shelf.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Il Corpo sits in the same territory as the Italian library and giallo scores that keep getting reissued, and it is the sort of record that arrives in a collection through a soundtrack habit rather than a jazz one. With John Williams, Footloose and The Blues Brothers already on the shelf, the Umiliani corner is the obvious unexplored direction — breezy, vibraphone-heavy, closer to Buena Vista's warmth than to anything orchestral.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/Il-Corpo-.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "76380dad2567abf4b782feeb24e765df316ff50f713347363dccdb8b230c7a19",
+    "url": "https://aquariumdrunkard.com/2026/10/13/the-lagniappe-sessions-beefheart-mcquinn",
+    "title": "The Lagniappe Sessions :: Beefheart & McQuinn",
+    "summary": "Winter McQuinn, a Melbourne songwriter, and William Murray pick three covers straight out of their own record collections — the format is a collector talking through their shelves.",
+    "date_published": "2026-10-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "The Lagniappe Sessions exist to make musicians play favourites from their collections rather than their catalogue, which makes them the closest thing to reading someone else's crate. The picks here — Danny O'Keefe's \"The Road\" and Mark Fry's \"Song For Wilde\" — are exactly the kind of deep folk cut that does not surface from an algorithm. McQuinn working out of Melbourne makes this a local pick as much as a records one.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/08/Lagniappe-BeefheartMcQuinn_a.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "ac7bd19d896773f69081841e36adb541b47cabff49a15fa22a95a1a4d43a6881",
+    "url": "https://brunswickvoice.com.au/council-workers-down-tools-again",
+    "title": "Council workers down tools again",
+    "summary": "Merri-bek staff strike for 24 hours on Thursday over a pay offer, closing libraries and pausing waste, parks and parking enforcement.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Brunswick Voice",
+      "note": "This is the council that runs Brunswick, Coburg and Pascoe Vale, so the practical fallout is local: libraries shut Thursday, extra household rubbish collections pushed to Saturday, and no local-laws or parking enforcement for the day. The union is asking for 22 per cent over four years and this is the second stoppage, which suggests the EBA is not landing soon. Brunswick Voice is a hyperlocal outlet not previously in the source list and worth keeping.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://brunswickvoice.com.au/wp-content/uploads/2026/10/261014_council-strike_social-scaled.jpg",
+      "icon": "https://brunswickvoice.com.au/wp-content/uploads/2021/07/cropped-Online-avatar-32x32.png"
+    }
+  },
+  {
+    "id": "21ec707e6877cf70fa63c414fb21e89816829339c89d13a87e84d31d63c952f6",
+    "url": "https://putthison.com/jacket-season",
+    "title": "Jacket Season!",
+    "summary": "A hand-sorted secondhand jacket roundup organised by chest size, which is the only format where a vintage list is actually shoppable.",
+    "date_published": "2026-10-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "Put This On",
+      "note": "Sorting by size rather than by brand is what separates a usable secondhand roundup from a mood board, and the run here goes from size 36 vests up to 50 varsity and windbreaker shells. The picks lean the right way for the RRL and Woolrich end of things — a Bruce Shelton tweed, a Chimala denim jacket, a Holland & Holland rain jacket. Northern-hemisphere autumn means this is spring buying here, which is when the prices are softest.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://putthison.com/wp-content/uploads/2026/10/20261009_123953.jpg",
+      "icon": "https://putthison.com/wp-content/themes/pto/favicon.png"
+    }
+  },
+  {
+    "id": "c75b53653c6d3712111c7285ac259a29e57e51f4a49ad86442e305d4913134e1",
+    "url": "https://kosmofoto.com/2026/05/the-husband-and-wife-creating-a-1920s-style-black-and-white-film-in-their-basement",
+    "title": "The couple making a 1920s-style black-and-white film in their basement",
+    "summary": "Mark and France Osterman are hand-coating a period-correct emulsion in Rochester that will never go on sale, which makes it a piece about how film is made rather than what to buy.",
+    "date_published": "2026-05-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "Almost all film-stock coverage is release news, so a piece on someone actually making an emulsion by hand explains what the big manufacturers are doing at industrial scale. The Rochester setting is not incidental either — it is Kodak's town, and the Ostermans are working a few miles from where this was all industrialised. A documentary is in progress; the film itself is not for sale, which is the point.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "2ab0082b1a80e1059cd5a4ec8574e3aa5bc1ad306e44ac29e70dad7fce9c78bb",
+    "url": "https://dragonwilds.runescape.com/news/eye-on-ashenfall-1-0-1",
+    "title": "Eye on Ashenfall — 1.0.1 Update",
+    "summary": "First-party patch notes landing today, and the one that finally restores the world saves that vanished and compensates corrupted characters.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Dragonwilds",
+      "note": "1.0.0.8 last week fixed the bug that was eating world saves but did not bring the lost ones back; 1.0.1 does, and gives corrupted characters their items and skill levels as compensation. The rest is substantive rather than cosmetic: a Death From Above jump attack with weapon-scaled damage, inventory up from 32 to 40 slots with dedicated ring and amulet slots, reduced enemy aggro range and longer respawn timers so cleared areas stay cleared. Straight from the developers rather than a patch-notes aggregator.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://framerusercontent.com/images/Ou3TiA1uFG1lsXrGcFTeaPoAZFQ.png?width=1920&height=1080",
+      "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+    }
+  },
+  {
+    "id": "da6715072260c21f2d7502637327423b20f4da8a487159d993b3cf33175aa13e",
+    "url": "https://www.35mmc.com/13/10/2026/priority-of-man-one-shot-story",
+    "title": "Priority of man — One Shot Story",
+    "summary": "Julian Tanase on a single street frame from Morocco, in the One Shot format where the whole piece is one picture and the thinking behind it.",
+    "date_published": "2026-10-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "One Shot Stories are the most useful thing 35mmc runs, because a single frame with the photographer's reasoning attached teaches more about seeing than a roll-by-roll review ever does. Street work in high, hard North African light is also a specific exposure problem — holding shadow detail without blowing the walls — and that is a decision you can carry into a Melbourne summer.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/09/priority-of-man-2-scaled.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "2e12d52a59ae3bc33d72768f5b0f69431a5feb8aa54fb2cbf3bbedb58efe2c97",
+    "url": "https://beat.com.au/melbourne-international-jazz-festival-2026-has-grammy-winners-farewell-tours-and-debuts",
+    "title": "Melbourne International Jazz Festival drops its 2026 lineup",
+    "summary": "The festival opens on Thursday, and Fred Wesley & The New JBs share the Sidney Myer Music Bowl bill with the Teskey Brothers on day two.",
+    "date_published": "2026-08-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Beat",
+      "note": "Fred Wesley wrote and played the trombone lines that hold up half the James Brown and Parliament catalogue, both of which are on the shelf, and he is in town for one weekend. The Bowl bill pairs him with the Teskey Brothers, which is as direct a live version of the Daptone and Sharon Jones corner of the collection as Melbourne is likely to offer. Ten days, 150 events, 30 venues — the Rebirth Brass Band second-line street party and the Aziza closing night at Hamer Hall are the other two worth booking.",
+      "published_at": "2026-10-14T16:24:14.964Z",
+      "image": "https://beat.com.au/wp-content/uploads/2026/05/Frankie-Web-Article-Image-Design-2026-05-19T113830.945.jpg",
+      "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+    }
   }
 ]
