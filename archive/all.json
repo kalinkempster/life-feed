@@ -8219,5 +8219,165 @@
       "image": "https://beat.com.au/wp-content/uploads/2026/05/Frankie-Web-Article-Image-Design-2026-05-19T113830.945.jpg",
       "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
     }
+  },
+  {
+    "id": "2631ebd5d8c2f921d787b861f6c4d38632897480dc7e68d75f97d69e2475c3e9",
+    "url": "https://first10em.com/normal-saline-is-not-normal-and-other-nonsense-that-people-love-to-spout-the-prompt-trial",
+    "title": "Normal saline is not normal, and other nonsense (PRoMPT)",
+    "summary": "The biggest balanced-fluid-versus-saline trial in paediatric septic shock, appraised by someone willing to say when a result does not justify the dogma.",
+    "date_published": "2026-10-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "First10EM",
+      "note": "Morgenstern takes PRoMPT BOLUS — a pragmatic multi-centre RCT in children from two months to 18 years with suspected septic shock — and goes after the reflex belief that saline is harmful. The fluid-choice argument has been running since SMART and BaSICS without ever quite settling, and this is the paediatric arm of it. Worth reading before the next shocked child needs a bolus decided in under a minute.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://first10em.com/wp-content/uploads/2026/10/The-PRoMPT-trial.png",
+      "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+    }
+  },
+  {
+    "id": "57e9459813b175ddb29f9e2010d6881bd9f9689d2b341c03671188682917c7db",
+    "url": "https://medicalxpress.com/news/2026-10-safety-prompts-ai-safer-clinical.html",
+    "title": "Safety prompts can help AI models make safer clinical choices",
+    "summary": "Twenty language models tested on clinical scenarios made fewer potentially harmful recommendations when given a short safety reminder — from 16.6% to 10.1%.",
+    "date_published": "2026-10-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Medical Xpress",
+      "note": "The researchers ran 501 variations of 50 clinical scenarios plus 100 cases adapted from deidentified discharge records, so the test is closer to real decisions than the usual exam-question benchmark. A one-in-ten harmful-response rate after mitigation is the number worth carrying around, given how many colleagues are already quietly asking a chatbot about dosing. Useful context for anyone watching these tools arrive in hospital workflows.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/safety-prompts-can-hel.jpg",
+      "icon": "https://medicalxpress.com/favicon.ico"
+    }
+  },
+  {
+    "id": "60e6124d3d2d02cf29fe37551eae591131cd751990e1b643337bd6c7726f2c79",
+    "url": "https://gamingbolt.com/enshrouded-1-0-is-available-now-as-launch-trailer-highlights-the-perilous-world-of-embervale",
+    "title": "Enshrouded 1.0 Is Available Now, Launch Trailer Released",
+    "summary": "Enshrouded leaves early access today with the story finished, a new region, and a skill-tree reset waiting on every existing save.",
+    "date_published": "2026-10-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "GamingBolt",
+      "note": "This is the 1.0 he has been playing towards: Cinder's Cradle in the far north, the level cap up to 50 with gear to 55, nine new mage spells, and the Sparkworks logic system for base building. Early access saves carry over but every character's skill tree resets, which is worth knowing before loading an old world. PS5 the same day; Xbox slips to spring 2027, and there is no crossplay at launch.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://gamingbolt.com/wp-content/uploads/2026/06/Enshrouded.jpg",
+      "icon": "https://gamingbolt.com/favicon.ico"
+    }
+  },
+  {
+    "id": "c67b94ce73296cad428dabd58730a6e932da3bf104ff3fdc22483c2f9978ddc6",
+    "url": "https://kotaku.com/enshrouded-is-a-survival-game-evolved-into-an-art-form-by-its-players-2000728929",
+    "title": "Enshrouded is a survival game perfected by its players",
+    "summary": "The argument that Enshrouded's real content is what its building community made of it, which is the half of the game patch notes never capture.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "gaming",
+      "source": "Kotaku",
+      "note": "Pairs with today's 1.0 news as the other side of it — not what Keen shipped, but what people built with the voxel tools over two years of early access. Given how much of his Enshrouded time goes into bases rather than bosses, this is the more useful read of the two. Also a fair sanity check on whether the finished story was ever the point.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://kotaku.com/app/uploads/2026/10/Enshrouded_1.0-Featured-Image_KEYART_16x9_4k.jpg",
+      "icon": "https://kotaku.com/favicon.svg"
+    }
+  },
+  {
+    "id": "d2a2ee6b2b1de2b88d9fbf4a758889db3c4a0aaae2ab4344062da6bb27bb6bba",
+    "url": "https://www.abc.net.au/news/2026-10-14/victoria-amrita-lanka-coroner-inquest-findings/107263414",
+    "title": "Junior doctor's care contributed to Melbourne girl's death",
+    "summary": "A Victorian coroner has handed down findings against a junior doctor's care at Monash, and the reasoning will shape escalation expectations locally.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "The inquest into eight-year-old Amrita Lanka's 2022 death at Monash Medical Centre has landed, with Monash Health saying it will review the findings. Coronial findings about recognising deterioration and escalating in a Melbourne tertiary paediatric setting tend to become local policy within months. This is the kind of story that changes the room he works in rather than the medicine he practises.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/49cfc0237e3091bddac64a02f861786e?impolicy=wcms_watermark_news&cropH=864&cropW=1536&xPos=0&yPos=592&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "98173e3b3e2b31212c23f09584fa80e745e7500cadcd57b720a3b2201e7bdb82",
+    "url": "https://emcrit.org/ibcc/vbg",
+    "title": "IBCC: ABG, VBG, and pulse oximetry",
+    "summary": "Farkas rebuilds the when-do-I-actually-need-an-arterial-gas decision, including the case for a lower threshold in patients with dark skin.",
+    "date_published": "2026-10-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The chapter argues for ordering an ABG more readily when pulse oximetry is less reliable on dark skin and the result would change management — a correction to occult-hypoxaemia practice that has been slow to reach the floor. It also covers perfusion index in septic shock, citing two small 2026 RCTs and being honest that the evidence is thin. An IBCC chapter is a reference you keep, not a post you read once.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://emcrit.org/wp-content/uploads/2023/04/o2satlessscary.jpg",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "226a527363fee2091aa771cf5e1bdb17e94c6a922aa7430d07ec5bb4cae6b607",
+    "url": "https://insheepsclothinghifi.com/daft-punk-returns-through-the-pages-of-metal-hurlant",
+    "title": "Daft Punk Returns Through the Pages of Metal Hurlant",
+    "summary": "An authorised 272-page Daft Punk special of the French sci-fi comic that fed the duo's whole visual language, co-signed by a listening-bar label.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "ISC Hi-Fi",
+      "note": "Daft Punk sits in the collection, and this is the obvious missing context for it: Metal Hurlant is where Mœbius and Druillet built the robot-futurism the duo spent two decades wearing. Over thirty contributors, archival Mœbius and Druillet strips, and cover art by Warren Fu and Cedric Hervet, who both worked on Random Access Memories. It also marks the start of an ongoing run with In Sheep's Clothing Hi-Fi; editions ship mid-January 2027.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2026/10/Screenshot-2026-10-11-at-1.58.54%E2%80%AFPM-1200x630.png",
+      "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "1445c7a5b5afc1b97223c1c7dbf20b291ef11fe33d9cd9747355724dc630623c",
+    "url": "https://rebelem.com/1-min-preceptor",
+    "title": "The One-Minute Preceptor",
+    "summary": "A five-step structure for teaching an intern during the thirty seconds you actually have between patients.",
+    "date_published": "2026-10-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "REBEL EM",
+      "note": "At registrar level the teaching load arrives whether or not anyone trained you for it, usually mid-shift with four patients waiting. Ilic's piece sets out the commit-probe-teach-reinforce-correct sequence and pairs it with a podcast, so it works as something to use on the next shift rather than a theory of medical education. Short, and aimed squarely at the person doing the supervising.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://rebelem.com/wp-content/uploads/2026/06/Rebel-OMP-1024x576.png",
+      "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "f51d7204274c4c22679523de3684c683fd86b78e8c4c92c680bb10a56539d328",
+    "url": "https://www.thephoblographer.com/2026/07/27/i-shot-a-rare-film-emulsion-that-sold-for-5000",
+    "title": "I Shot a Rare Film Emulsion That Sold for $5,000",
+    "summary": "Someone actually put a five-thousand-dollar roll through a camera instead of reselling it, and wrote up what the emulsion did.",
+    "date_published": "2026-07-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Phoblographer",
+      "note": "The interesting part is not the price but the decision — most rare stock now gets flipped rather than exposed, which is how an emulsion stops having any living record of how it renders. Reads as a useful corrective if you have film in the fridge you are saving for an occasion that never arrives. Phoblographer is not on the source list, and on this evidence it should be considered for it.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://www.thephoblographer.com/wp-content/uploads/2026/07/Chris-Gampat-The-Phoblographer-Polaroid-Peel-Apart-Scans-100C-edited-LEICA-SL2-SAPO-SUMMICRON-SL-1-2-28-ASPH.-3.51-200s400.jpg",
+      "icon": "https://www.thephoblographer.com/wp-content/uploads/2022/08/cropped-Phoblographer-Inclusive-rainbow-clear-32x32.png"
+    }
+  },
+  {
+    "id": "c49e05b491d8f1875ecaa2dfd2fd7e9ce91117910d4cad67607138a8f4d0f43d",
+    "url": "https://www.melbournejazz.com/events/the-teskey-brothers-10-years-of-half-mile-harvest",
+    "title": "The Teskey Brothers + Fred Wesley & The New JBs",
+    "summary": "Fred Wesley plays the Bowl this Saturday, which puts James Brown's actual arranger about forty minutes from home for one afternoon.",
+    "date_published": "2026-07-07T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Melbourne Jazz",
+      "note": "Wesley was Brown's musical director and then central to Parliament-Funkadelic — the line that runs straight through the James Brown, Parliament and Sly records on his shelves, and forward into the Daptone and Menahan Street Band end of the collection. Gates 3pm at Sidney Myer Music Bowl, Emily Wurramara at 4, Wesley and The New JBs at 5.30, Teskeys playing Half Mile Harvest in full to close. He is also signing records at Northside in Fitzroy the night before.",
+      "published_at": "2026-10-15T16:23:18.763Z",
+      "image": "https://www.melbournejazz.com/wp-content/uploads/2026/07/Teskey-Brothers-1200x900-1.jpg",
+      "icon": "https://www.melbournejazz.com/apple-touch-icon.png"
+    }
   }
 ]
