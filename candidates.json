@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://first10em.com/normal-saline-is-not-normal-and-other-nonsense-that-people-love-to-spout-the-prompt-trial/",
+      "title": "Normal saline is not normal, and other nonsense (PRoMPT)",
+      "source": "First10EM",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "The biggest balanced-fluid-versus-saline trial in paediatric septic shock, appraised by someone willing to say when a result does not justify the dogma.",
+      "note": "Morgenstern takes PRoMPT BOLUS — a pragmatic multi-centre RCT in children from two months to 18 years with suspected septic shock — and goes after the reflex belief that saline is harmful. The fluid-choice argument has been running since SMART and BaSICS without ever quite settling, and this is the paediatric arm of it. Worth reading before the next shocked child needs a bolus decided in under a minute.",
+      "date_published": "2026-10-12"
+    },
+    {
+      "url": "https://emcrit.org/ibcc/vbg",
+      "title": "IBCC: ABG, VBG, and pulse oximetry",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Farkas rebuilds the when-do-I-actually-need-an-arterial-gas decision, including the case for a lower threshold in patients with dark skin.",
+      "note": "The chapter argues for ordering an ABG more readily when pulse oximetry is less reliable on dark skin and the result would change management — a correction to occult-hypoxaemia practice that has been slow to reach the floor. It also covers perfusion index in septic shock, citing two small 2026 RCTs and being honest that the evidence is thin. An IBCC chapter is a reference you keep, not a post you read once.",
+      "date_published": "2026-10-10"
+    },
+    {
+      "url": "https://rebelem.com/1-min-preceptor/",
+      "title": "The One-Minute Preceptor",
+      "source": "REBEL EM",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A five-step structure for teaching an intern during the thirty seconds you actually have between patients.",
+      "note": "At registrar level the teaching load arrives whether or not anyone trained you for it, usually mid-shift with four patients waiting. Ilic's piece sets out the commit-probe-teach-reinforce-correct sequence and pairs it with a podcast, so it works as something to use on the next shift rather than a theory of medical education. Short, and aimed squarely at the person doing the supervising.",
+      "date_published": "2026-10-05"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-14/victoria-amrita-lanka-coroner-inquest-findings/107263414",
+      "title": "Junior doctor's care contributed to Melbourne girl's death",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A Victorian coroner has handed down findings against a junior doctor's care at Monash, and the reasoning will shape escalation expectations locally.",
+      "note": "The inquest into eight-year-old Amrita Lanka's 2022 death at Monash Medical Centre has landed, with Monash Health saying it will review the findings. Coronial findings about recognising deterioration and escalating in a Melbourne tertiary paediatric setting tend to become local policy within months. This is the kind of story that changes the room he works in rather than the medicine he practises.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://medicalxpress.com/news/2026-10-safety-prompts-ai-safer-clinical.html",
+      "title": "Safety prompts can help AI models make safer clinical choices",
+      "source": "Medical Xpress",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Twenty language models tested on clinical scenarios made fewer potentially harmful recommendations when given a short safety reminder — from 16.6% to 10.1%.",
+      "note": "The researchers ran 501 variations of 50 clinical scenarios plus 100 cases adapted from deidentified discharge records, so the test is closer to real decisions than the usual exam-question benchmark. A one-in-ten harmful-response rate after mitigation is the number worth carrying around, given how many colleagues are already quietly asking a chatbot about dosing. Useful context for anyone watching these tools arrive in hospital workflows.",
+      "date_published": "2026-10-10"
+    },
+    {
+      "url": "https://insheepsclothinghifi.com/daft-punk-returns-through-the-pages-of-metal-hurlant/",
+      "title": "Daft Punk Returns Through the Pages of Metal Hurlant",
+      "source": "ISC Hi-Fi",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "An authorised 272-page Daft Punk special of the French sci-fi comic that fed the duo's whole visual language, co-signed by a listening-bar label.",
+      "note": "Daft Punk sits in the collection, and this is the obvious missing context for it: Metal Hurlant is where Mœbius and Druillet built the robot-futurism the duo spent two decades wearing. Over thirty contributors, archival Mœbius and Druillet strips, and cover art by Warren Fu and Cedric Hervet, who both worked on Random Access Memories. It also marks the start of an ongoing run with In Sheep's Clothing Hi-Fi; editions ship mid-January 2027.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://gamingbolt.com/enshrouded-1-0-is-available-now-as-launch-trailer-highlights-the-perilous-world-of-embervale",
+      "title": "Enshrouded 1.0 Is Available Now, Launch Trailer Released",
+      "source": "GamingBolt",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "Enshrouded leaves early access today with the story finished, a new region, and a skill-tree reset waiting on every existing save.",
+      "note": "This is the 1.0 he has been playing towards: Cinder's Cradle in the far north, the level cap up to 50 with gear to 55, nine new mage spells, and the Sparkworks logic system for base building. Early access saves carry over but every character's skill tree resets, which is worth knowing before loading an old world. PS5 the same day; Xbox slips to spring 2027, and there is no crossplay at launch.",
+      "date_published": "2026-10-15"
+    },
+    {
+      "url": "https://kotaku.com/enshrouded-is-a-survival-game-evolved-into-an-art-form-by-its-players-2000728929",
+      "title": "Enshrouded is a survival game perfected by its players",
+      "source": "Kotaku",
+      "topic": "gaming",
+      "kind": "evergreen",
+      "summary": "The argument that Enshrouded's real content is what its building community made of it, which is the half of the game patch notes never capture.",
+      "note": "Pairs with today's 1.0 news as the other side of it — not what Keen shipped, but what people built with the voxel tools over two years of early access. Given how much of his Enshrouded time goes into bases rather than bosses, this is the more useful read of the two. Also a fair sanity check on whether the finished story was ever the point.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://www.melbournejazz.com/events/the-teskey-brothers-10-years-of-half-mile-harvest/",
+      "title": "The Teskey Brothers + Fred Wesley & The New JBs",
+      "source": "Melbourne Jazz",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Fred Wesley plays the Bowl this Saturday, which puts James Brown's actual arranger about forty minutes from home for one afternoon.",
+      "note": "Wesley was Brown's musical director and then central to Parliament-Funkadelic — the line that runs straight through the James Brown, Parliament and Sly records on his shelves, and forward into the Daptone and Menahan Street Band end of the collection. Gates 3pm at Sidney Myer Music Bowl, Emily Wurramara at 4, Wesley and The New JBs at 5.30, Teskeys playing Half Mile Harvest in full to close. He is also signing records at Northside in Fitzroy the night before.",
+      "date_published": "2026-07-07"
+    },
+    {
+      "url": "https://www.thephoblographer.com/2026/07/27/i-shot-a-rare-film-emulsion-that-sold-for-5000/",
+      "title": "I Shot a Rare Film Emulsion That Sold for $5,000",
+      "source": "Phoblographer",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Someone actually put a five-thousand-dollar roll through a camera instead of reselling it, and wrote up what the emulsion did.",
+      "note": "The interesting part is not the price but the decision — most rare stock now gets flipped rather than exposed, which is how an emulsion stops having any living record of how it renders. Reads as a useful corrective if you have film in the fridge you are saving for an occasion that never arrives. Phoblographer is not on the source list, and on this evidence it should be considered for it.",
+      "date_published": "2026-07-27"
+    }
+  ]
+}
