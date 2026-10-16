@@ -1,0 +1,203 @@
+{
+  "day": "2026-10-17",
+  "ran_at": "2026-10-16T16:26:01.177Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "f96deb726114c8f0c885ad3a1f4ac7bf813fce59738557d1e2b000141ac59af7",
+      "url": "https://www.healthcareitnews.com/news/new-research-framework-aims-assess-and-track-clinical-ai-models",
+      "title": "New research framework aims to assess and track clinical AI models",
+      "summary": "Stanford and Harvard launch a clinical benchmark built to replace the exam-score claims vendors keep quoting.",
+      "date_published": "2026-10-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "HealthcareITNews",
+        "note": "MAST v1.0 splits into clinical domains (diagnosis, management, safety) and general domains (radiology, multimodal reasoning), run through the ARISE network with shared infrastructure so models can be compared across benchmarks rather than per press release. The headline finding is that no single frontier model dominates — useful context next time a scribe or decision-support tool arrives in the department claiming superhuman performance. The authors' blunt position is that existing benchmarks are misleading.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "face45a92f778bc198a0f33b09e2dadcda00406115c1f47ed9b342f2a8d063b5",
+      "url": "https://daily.bandcamp.com/album-of-the-day/various-artists-antiyano-progresivo-review",
+      "title": "Antiyano Progresivo: Musical Experiments from the Dutch Caribbean",
+      "summary": "Soundway digs out two decades of Latin-flavoured psych, soul and funk from the former Dutch Caribbean.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Bandcamp Daily",
+        "note": "1968 to 1986, a scene that barely left the islands, and the kind of compilation that earns a place next to the Buena Vista and Gipsy Kings end of the shelf without sounding like either. Soundway's reissue work is the serious end of this trade — provenance and notes, not just a repress. If the Hermanos Gutiérrez and Yin Yin corner of the collection is the instrumental one, this is where it came from.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://f4.bcbits.com/img/0047728487_16.jpg",
+        "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "a61d121f02db81f1c238a2cd2fb88a5ed086c1a77f67ded043dd6c710d3a4b17",
+      "url": "https://www.stemlynsblog.org/ttl-tip-22-graded-assertiveness",
+      "title": "TTL Tip 22: Graded Assertiveness",
+      "summary": "A three-rung script for saying the uncomfortable thing out loud when you are the one running the resus.",
+      "date_published": "2026-10-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Carley lays out probe, alert, concern as escalating wording, with a drug-concentration example and the straight 'stop' reserved for imminent harm. The more useful half is the receiving end: how a trauma team leader takes a challenge, thanks the person, and still proceeds if they can explain why. Follows TTL tip 21 on midface bleeding, so it is the same series with the human factors turned up rather than the kit.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/10/Catastrophic-mid-face-bleeding-1.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "02c454fe5bc83905552cbf056a737dc1c900e9ddaa7491dd25ed47238df36a90",
+      "url": "https://kosmofoto.com/2026/08/harman-phoenix-has-a-new-look-and-a-new-iso",
+      "title": "Harman Phoenix has a new look and a new ISO",
+      "summary": "Harman re-codes Phoenix at ISO 125 because shooters kept rating it down anyway.",
+      "date_published": "2026-08-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Kosmo Foto",
+        "note": "A manufacturer changing the box speed to match what photographers were already doing is a rare and honest piece of film news — the DX code now says 125 rather than 200. The note that it takes E6 or ECN-2 as well as C41 makes it a genuinely odd stock to experiment with. Sits with the Kodak distribution and Lucky Film items already in the feed as part of the current reshuffling of what is actually available to buy.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "95d7de8a3e7d06af8c2ea7cf88ee39ab65af8678e94e860b4d0c96a2dd0ec969",
+      "url": "https://www.thebottomline.org.uk/uncategorized/bihca-sodium-bicarbonate-for-in-hospital-cardiac-arrest",
+      "title": "BIHCA — Sodium bicarbonate for in-hospital cardiac arrest",
+      "summary": "A double-blind RCT finally tests the amp of bicarb people reach for in a long arrest, and finds nothing.",
+      "date_published": "2026-09-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Bottom Line",
+        "note": "Granfeldt's JAMA trial found no difference in sustained ROSC against placebo, which puts routine fixed-dose bicarbonate in the same bin as several other reflexes in a prolonged code. The appraisal is careful to preserve the real indications — sodium channel blocker toxicity, hyperkalaemic arrest — so it sharpens rather than removes the drug. Pairs with the TOE-guided CPR and IV-versus-IO pieces already here as a run of 2026 arrest evidence.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://www.thebottomline.org.uk/wp-content/uploads/2026/08/BIHCA-1.png",
+        "icon": "https://www.thebottomline.org.uk/wp-content/uploads/2016/05/cropped-tbl-favicon-2-32x32.png"
+      }
+    },
+    {
+      "id": "fb8a94d002316f1f7e5f8b5c6b86e1b57f5a012d8e94ab2f07553d5fb102d5c7",
+      "url": "https://massivelyop.com/2026/10/05/runescape-dragonwilds-takes-a-deep-dive-into-decembers-luminance-update-and-2027s-two-chapter-saga",
+      "title": "Dragonwilds deep-dives December's Luminance update",
+      "summary": "What is actually coming to Dragonwilds in December — elves, the Prayer skill, and a Prifddinas-styled building kit.",
+      "date_published": "2026-10-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Massively OP",
+        "note": "The post-1.0 shape of a game he is already playing: Luminance in December as the prelude to 2027's two-chapter Blood Crystal Saga, with Hunter and Slayer on the quarterly cadence after that. Prayer is explicitly not the RuneScape version, which is the detail worth knowing before building a character around it. Massively OP covers survival-game roadmaps more closely than the general press does.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "e63571ef815060da79ffa110fd9a1574747a1f5c587db43589cab794f153f69f",
+      "url": "https://emcrit.org/emcrit/emcrit-432-members-airway-cases-and-qa",
+      "title": "EMCrit 432 — Members' Airway Cases and Q&A",
+      "summary": "Real submitted airway cases worked through out loud, including induction in cardiogenic shock without arresting the patient.",
+      "date_published": "2026-08-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Case-based rather than guideline-based, which is the format that actually transfers to a shift: high-risk hypoxaemia and the peri-induction collapse problem get argued rather than summarised. Sits directly alongside the peri-intubation cardiovascular collapse appraisal and the airway triage debate already in the feed. Worth it for the Q&A tangents more than the headline cases.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/08/Gemini_Generated_Image_9v8kzj9v8kzj9v8k.jpg",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "775df4ff7508b13ea0ec65fac325e588cb115aafabd1e3c4594aac5b6d7a3cb2",
+      "url": "https://insheepsclothinghifi.com/dummy-shares-5-under-appreciated-albums",
+      "title": "Dummy Shares 5 Under-Appreciated Albums",
+      "summary": "Five records picked by people whose job is listening rather than ranking — a shortlist to chase, not a think-piece.",
+      "date_published": "2026-10-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "ISC",
+        "note": "In Sheep's Clothing writes from a listening-bar position, so the picks assume you will sit with a record rather than skim it. The site has already supplied the Daft Punk piece and the hi-fi test records entry in this feed; this is the version that sends you digging. Short list, specific, no ceremony.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2026/10/dummy-1200x630.jpg",
+        "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "d046306e9a9f2803b4232e390e22080f896c78ce44b8c8ca1dcdb3fb4b18d485",
+      "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22",
+      "title": "Peak climbs its way onto PS5 October 22",
+      "summary": "The co-op climbing game finally lands on PS5 next week, with crossplay for up to four.",
+      "date_published": "2026-10-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PlayStation",
+        "note": "First-party confirmation with the date and the detail that matters: crossplay, so a PS5 copy still plays with friends on PC. It is the same cooperative survival itch as Enshrouded, compressed into runs rather than bases, and cheap enough to be a weeknight proposition. A physical edition is listed to follow.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://blog.playstation.com/tachyon/2026/10/2e73fbf3ff26c278bfe93c6477df4a4aa9ddb30c.jpg",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "7a4687e20b93586f859d02c34c03fe714ed389e6ff8f2b225ab8c71d655bd60c",
+      "url": "https://www.timeout.com/melbourne/news/fitzroy-has-scored-a-new-late-night-burlesque-bar-and-everything-on-the-menu-is-15-082426",
+      "title": "Fitzroy has scored a new late-night burlesque bar",
+      "summary": "Late-night Brunswick Street room with burlesque, crimson lighting, and a flat $15 on everything.",
+      "date_published": "2026-08-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Time Out",
+        "note": "Flair runs late on Brunswick Street with a single-price menu, which makes it the rare northside opening that does not require arithmetic at the end of the night. Cocktails and a stage rather than a wine list and small plates — a different proposition to the Brico and Peaches end of the feed. Worth holding for the nights when everything else on Brunswick Street has already called last drinks.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://media.timeout.com/images/106439286/image.jpg",
+        "icon": "https://www.timeout.com/static/root-files/favicon.ico"
+      }
+    },
+    {
+      "id": "7dc299bc407fca72825860238f9d79d5b0a7f6cd071ee37b7a0803c8f3eb1d81",
+      "url": "https://brunswickvoice.com.au/changes-sought-to-new-activity-centre-plans",
+      "title": "Changes sought to new activity centre plans",
+      "summary": "Merri-bek has formally objected to the state's draft Brunswick and Coburg plans, and public consultation closes on 19 October.",
+      "date_published": "2026-10-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Brunswick Voice",
+        "note": "Council endorsed its submission on 8 October arguing the government released the draft activity centre plans without the technical material to assess them. These are the rules that decide what gets built along Sydney Road and around Coburg station over the next decade, and the window to say anything closes in days. Local in the most literal sense — this is the planning framework for his own streets.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://brunswickvoice.com.au/wp-content/uploads/2024/02/Brunswick-aerial_social.jpg",
+        "icon": "https://brunswickvoice.com.au/wp-content/uploads/2021/07/cropped-Online-avatar-32x32.png"
+      }
+    },
+    {
+      "id": "b011652cbbc20fb5a6777bc40ade071674a34c1358696dfeb4d150d2065fd053",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/via-porta-new-sourdough-bakery-northcote",
+      "title": "Via Porta Opens in Northcote With a New Sourdough Program",
+      "summary": "Eight naturally fermented sourdoughs at 190 High Street, built with Michael James of Urbanstead.",
+      "date_published": "2026-06-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Via Porta took the old All Are Welcome site and went deliberately bread-first rather than pastry-first, developing the program with Urbanstead's Michael James. Eight varieties is an unusual commitment for a neighbourhood bakehouse and makes it a Northcote stop worth planning around rather than passing. Pastries still come down from the Hawthorn kitchen.",
+        "published_at": "2026-10-16T16:26:01.177Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/07/29/2026-Via-Porta-H-Wang-028-f37a241c47.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
