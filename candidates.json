@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://www.stemlynsblog.org/ttl-tip-22-graded-assertiveness/",
+      "title": "TTL Tip 22: Graded Assertiveness",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "A three-rung script for saying the uncomfortable thing out loud when you are the one running the resus.",
+      "note": "Carley lays out probe, alert, concern as escalating wording, with a drug-concentration example and the straight 'stop' reserved for imminent harm. The more useful half is the receiving end: how a trauma team leader takes a challenge, thanks the person, and still proceeds if they can explain why. Follows TTL tip 21 on midface bleeding, so it is the same series with the human factors turned up rather than the kit.",
+      "date_published": "2026-10-16"
+    },
+    {
+      "url": "https://emcrit.org/emcrit/emcrit-432-members-airway-cases-and-qa/",
+      "title": "EMCrit 432 — Members' Airway Cases and Q&A",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Real submitted airway cases worked through out loud, including induction in cardiogenic shock without arresting the patient.",
+      "note": "Case-based rather than guideline-based, which is the format that actually transfers to a shift: high-risk hypoxaemia and the peri-induction collapse problem get argued rather than summarised. Sits directly alongside the peri-intubation cardiovascular collapse appraisal and the airway triage debate already in the feed. Worth it for the Q&A tangents more than the headline cases.",
+      "date_published": "2026-08-23"
+    },
+    {
+      "url": "https://www.thebottomline.org.uk/uncategorized/bihca-sodium-bicarbonate-for-in-hospital-cardiac-arrest/",
+      "title": "BIHCA — Sodium bicarbonate for in-hospital cardiac arrest",
+      "source": "Bottom Line",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A double-blind RCT finally tests the amp of bicarb people reach for in a long arrest, and finds nothing.",
+      "note": "Granfeldt's JAMA trial found no difference in sustained ROSC against placebo, which puts routine fixed-dose bicarbonate in the same bin as several other reflexes in a prolonged code. The appraisal is careful to preserve the real indications — sodium channel blocker toxicity, hyperkalaemic arrest — so it sharpens rather than removes the drug. Pairs with the TOE-guided CPR and IV-versus-IO pieces already here as a run of 2026 arrest evidence.",
+      "date_published": "2026-09-07"
+    },
+    {
+      "url": "https://brunswickvoice.com.au/changes-sought-to-new-activity-centre-plans/",
+      "title": "Changes sought to new activity centre plans",
+      "source": "Brunswick Voice",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Merri-bek has formally objected to the state's draft Brunswick and Coburg plans, and public consultation closes on 19 October.",
+      "note": "Council endorsed its submission on 8 October arguing the government released the draft activity centre plans without the technical material to assess them. These are the rules that decide what gets built along Sydney Road and around Coburg station over the next decade, and the window to say anything closes in days. Local in the most literal sense — this is the planning framework for his own streets.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://www.healthcareitnews.com/news/new-research-framework-aims-assess-and-track-clinical-ai-models",
+      "title": "New research framework aims to assess and track clinical AI models",
+      "source": "HealthcareITNews",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Stanford and Harvard launch a clinical benchmark built to replace the exam-score claims vendors keep quoting.",
+      "note": "MAST v1.0 splits into clinical domains (diagnosis, management, safety) and general domains (radiology, multimodal reasoning), run through the ARISE network with shared infrastructure so models can be compared across benchmarks rather than per press release. The headline finding is that no single frontier model dominates — useful context next time a scribe or decision-support tool arrives in the department claiming superhuman performance. The authors' blunt position is that existing benchmarks are misleading.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://daily.bandcamp.com/album-of-the-day/various-artists-antiyano-progresivo-review",
+      "title": "Antiyano Progresivo: Musical Experiments from the Dutch Caribbean",
+      "source": "Bandcamp Daily",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Soundway digs out two decades of Latin-flavoured psych, soul and funk from the former Dutch Caribbean.",
+      "note": "1968 to 1986, a scene that barely left the islands, and the kind of compilation that earns a place next to the Buena Vista and Gipsy Kings end of the shelf without sounding like either. Soundway's reissue work is the serious end of this trade — provenance and notes, not just a repress. If the Hermanos Gutiérrez and Yin Yin corner of the collection is the instrumental one, this is where it came from.",
+      "date_published": "2026-10-08"
+    },
+    {
+      "url": "https://insheepsclothinghifi.com/dummy-shares-5-under-appreciated-albums/",
+      "title": "Dummy Shares 5 Under-Appreciated Albums",
+      "source": "ISC",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Five records picked by people whose job is listening rather than ranking — a shortlist to chase, not a think-piece.",
+      "note": "In Sheep's Clothing writes from a listening-bar position, so the picks assume you will sit with a record rather than skim it. The site has already supplied the Daft Punk piece and the hi-fi test records entry in this feed; this is the version that sends you digging. Short list, specific, no ceremony.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://kosmofoto.com/2026/08/harman-phoenix-has-a-new-look-and-a-new-iso/",
+      "title": "Harman Phoenix has a new look and a new ISO",
+      "source": "Kosmo Foto",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Harman re-codes Phoenix at ISO 125 because shooters kept rating it down anyway.",
+      "note": "A manufacturer changing the box speed to match what photographers were already doing is a rare and honest piece of film news — the DX code now says 125 rather than 200. The note that it takes E6 or ECN-2 as well as C41 makes it a genuinely odd stock to experiment with. Sits with the Kodak distribution and Lucky Film items already in the feed as part of the current reshuffling of what is actually available to buy.",
+      "date_published": "2026-08-12"
+    },
+    {
+      "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22/",
+      "title": "Peak climbs its way onto PS5 October 22",
+      "source": "PlayStation",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "The co-op climbing game finally lands on PS5 next week, with crossplay for up to four.",
+      "note": "First-party confirmation with the date and the detail that matters: crossplay, so a PS5 copy still plays with friends on PC. It is the same cooperative survival itch as Enshrouded, compressed into runs rather than bases, and cheap enough to be a weeknight proposition. A physical edition is listed to follow.",
+      "date_published": "2026-10-15"
+    },
+    {
+      "url": "https://massivelyop.com/2026/10/05/runescape-dragonwilds-takes-a-deep-dive-into-decembers-luminance-update-and-2027s-two-chapter-saga/",
+      "title": "Dragonwilds deep-dives December's Luminance update",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "What is actually coming to Dragonwilds in December — elves, the Prayer skill, and a Prifddinas-styled building kit.",
+      "note": "The post-1.0 shape of a game he is already playing: Luminance in December as the prelude to 2027's two-chapter Blood Crystal Saga, with Hunter and Slayer on the quarterly cadence after that. Prayer is explicitly not the RuneScape version, which is the detail worth knowing before building a character around it. Massively OP covers survival-game roadmaps more closely than the general press does.",
+      "date_published": "2026-10-05"
+    },
+    {
+      "url": "https://www.timeout.com/melbourne/news/fitzroy-has-scored-a-new-late-night-burlesque-bar-and-everything-on-the-menu-is-15-082426",
+      "title": "Fitzroy has scored a new late-night burlesque bar",
+      "source": "Time Out",
+      "topic": "melbourne",
+      "kind": "evergreen",
+      "summary": "Late-night Brunswick Street room with burlesque, crimson lighting, and a flat $15 on everything.",
+      "note": "Flair runs late on Brunswick Street with a single-price menu, which makes it the rare northside opening that does not require arithmetic at the end of the night. Cocktails and a stage rather than a wine list and small plates — a different proposition to the Brico and Peaches end of the feed. Worth holding for the nights when everything else on Brunswick Street has already called last drinks.",
+      "date_published": "2026-08-24"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/via-porta-new-sourdough-bakery-northcote",
+      "title": "Via Porta Opens in Northcote With a New Sourdough Program",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "evergreen",
+      "summary": "Eight naturally fermented sourdoughs at 190 High Street, built with Michael James of Urbanstead.",
+      "note": "Via Porta took the old All Are Welcome site and went deliberately bread-first rather than pastry-first, developing the program with Urbanstead's Michael James. Eight varieties is an unusual commitment for a neighbourhood bakehouse and makes it a Northcote stop worth planning around rather than passing. Pastries still come down from the Hawthorn kitchen.",
+      "date_published": "2026-06-01"
+    }
+  ]
+}
