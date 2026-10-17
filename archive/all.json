@@ -8574,5 +8574,198 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/07/29/2026-Via-Porta-H-Wang-028-f37a241c47.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "63a28bb94ed92a5f755236a9962e15877da116f3a92e7aeb514b1c2c16fd6770",
+    "url": "https://www.emdocs.net/ecg-pointers-this-ecg-just-went-into-m-mode",
+    "title": "ECG Pointers: This ECG just went into M Mode",
+    "summary": "A massive inferior MI hiding behind a PVC — the trace most likely to get filed for a repeat at 3am.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "emDocs",
+      "note": "Tannenbaum's ECG Pointers are short enough to finish between patients, and this one turns entirely on recognising what a wide ectopic beat does to the complexes around it. An inferior infarct with a PVC in the middle of it is exactly the pattern that gets deferred rather than acted on. Sits with the Dr Smith and LITFL ECG cases already in the feed.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://www.emdocs.net/wp-content/uploads/2018/11/Screen-Shot-2018-11-16-at-12.34.26-PM.png",
+      "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+    }
+  },
+  {
+    "id": "154a39176d886b3bd0ff901eba3548e2c4f017582684514f11e4b984aa5100ed",
+    "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+    "title": "AI is mass decompiling games. That's both awesome and scary.",
+    "summary": "Models are now reconstructing readable source from shipped binaries at volume, which is preservation and theft at the same time.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison is reading indie developer Popcar on the current wave of AI-driven decompilation and declining to pick a side, which is the honest position. It is the cleanest live example of a capability arriving well before anyone has decided what it is for — the same shape as the clinical-AI items already in the feed, minus the stakes. Short, and it links out to the primary source.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": null,
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "9048d502280a7dbcb7af503e7002999f36b68bb587b639f47d51d37b2d2b8016",
+    "url": "https://www.abc.net.au/news/2026-10-16/vic-royal-childrens-hospital-funding/107273706",
+    "title": "Royal Children's Hospital handed $66m to staff 20 new beds",
+    "summary": "Twenty built beds that were close to sitting empty now have the nursing funded to open them.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "The figure that matters is 85 extra full-time-equivalent nursing positions, not the $66m — staffing is what decides whether a commissioned bed is a real bed. It lands two weeks after Victorian doctors and allied health staff walked out over a pay dispute running more than a year, and a month out from the state election. Paediatric retrieval and transfer capacity at RCH is a live constraint on where sick kids can go from a suburban ED.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/118acbf2f28580d5e35ad9ac0f617a77?impolicy=wcms_watermark_news&cropH=2811&cropW=4997&xPos=1&yPos=0&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "66a2a9a6c56456495c5db2fdb97ba6896c11baedf706c52865ec579845b4243e",
+    "url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine",
+    "title": "Kenya's third Ebola case found early in quarantine",
+    "summary": "Two further Bundibugyo cases, both linked to the index patient and both caught inside quarantine rather than in the community.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "WHO Africa",
+      "note": "The feed already carries Kenya's first imported case and the DRC notice that explains where it came from, so this is the follow-through on a story in progress. The detail worth having is where the cases were found: contacts already under quarantine, which is the difference between a contained importation and an outbreak. The DRC epidemic behind it is the largest ever recorded there, at 8,728 confirmed cases and a 48% case fatality ratio.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://afro.who.int/sites/default/files/styles/social_1200x630/public/2026-10/Screenshot%202026-10-17%20at%2011.02.45.png.jpeg?itok=0nc_KkAc",
+      "icon": "https://afro.who.int/themes/who26/favicon.svg"
+    }
+  },
+  {
+    "id": "3e4901b530cd7145fd0ccdb8b1211d735e43117623e9fa6122b02b87cb50cde4",
+    "url": "https://aquariumdrunkard.com/2026/10/15/twin-peaks-fire-walk-with-me-soundtrack-angelo-badalamenti",
+    "title": "Twin Peaks: Fire Walk With Me (Angelo Badalamenti)",
+    "summary": "A case for Badalamenti's score as a record in its own right, pitched at a specific hour of the night.",
+    "date_published": "2026-10-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "The piece opens on the premise that the best records belong to a particular hour, season or state of mind, then places this one just past dusk. The library leans on soundtracks already — John Williams, The Blues Brothers, Footloose, Rocky Horror — but holds nothing that works the way this does, as atmosphere rather than accompaniment. Aquarium Drunkard has been writing about Lynch and Badalamenti since 2005, so this is not a first pass.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/Fire-Walk-With-Me-Cassette.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "8338984eb3d1696b3a90134ef037160155d4a325bdf7e26cd44585b2a78b2380",
+    "url": "https://www.stemlynsblog.org/manchester-acute-coronary-score",
+    "title": "Systematic review of the Manchester Acute Coronary Scores",
+    "summary": "An appraisal of MACS written by people who had no hand in building it.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "St Emlyn's flags the provenance itself: this paper comes from a team outside Virchester, so it is not Body's group marking its own homework on a score they developed. Chest-pain rule-out is a decision he makes several times a shift, and the feed already carries the St Emlyn's podcast on who actually needs a troponin. Worth reading the two together.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2024/07/Screenshot-2024-07-03-at-15.40.30.png",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
+  },
+  {
+    "id": "f8454aa1cf4223f8ff660c23d303b17300d24041ce82020a0a3e974a3293511d",
+    "url": "https://emcrit.org/pulmcrit/vaso2026",
+    "title": "PulmCrit Hot Take: VASSPR RCT on early vasopressin in sepsis",
+    "summary": "The randomised trial that finally tests whether starting vasopressin early in septic shock does anything at all.",
+    "date_published": "2026-10-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "PulmCrit",
+      "note": "Early vasopressin has been creeping into practice on the strength of a VASST subgroup and a run of retrospective papers, and Farkas says outright he hopes this RCT ends that stream. He writes these hot takes in the week a trial lands, which is when the question actually comes up on a shift rather than six months later in a journal club. Reads alongside the SSC 2026 sepsis guideline material already in the feed.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/10/vasoopener.jpg",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "41c5ddc0c36c3faba781eef29b354dae8ee7c85194fe497a5967b8f3ffc7cc98",
+    "url": "https://www.permanentstyle.com/2026/10/introducing-the-biscuit-donegal-coat.html",
+    "title": "Introducing: The biscuit Donegal coat",
+    "summary": "A 760g UK-woven Donegal in mid-brown, cut with more inlay than ready-to-wear normally bothers with.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "Permanent Style",
+      "note": "Same cloth as the previous runs — 760g, woven in the UK, with the Donegal flecks reading distinctly but not as tweed novelty. The part worth the read is the inlay: Crompton specs more than most RTW coats carry, so the coat can be let out or taken in years later instead of being replaced. September's sneak-peek post is already in the feed; this is the colour landing.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "ac31f218b68aec53476ec1f9105c53eabea9449c55f21f01274d560149ebd9e8",
+    "url": "https://aquariumdrunkard.com/2026/10/14/transmissions-richard-thompson-2026",
+    "title": "Transmissions :: Richard Thompson (2026)",
+    "summary": "An hour with the guitarist whose playing underwrites most of the folk-rock end of the collection.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Thompson is nominally here for Hippies, Thugs, and Heroes, but the value in a Transmissions episode is the long view back through Fairport. The library's folk and folk-rock shelf — Dylan, Van Morrison, Crosby Stills Nash & Young, Joni Mitchell, Cat Stevens, Simon & Garfunkel — all runs across ground he helped map, usually without him being the name on the sleeve. Long enough for a commute.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/RichardThompson.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "54ecd6a3a87f375e29da7c323561b9e8fd1e7c525b14af85211ca6f3c1699769",
+    "url": "https://www.35mmc.com/15/10/2026/5-frames-with-a-leica-m4-2-seagull-m-35mm-f1-7-and-kentmere-pan-400",
+    "title": "5 frames with a Leica M4-2, Seagull 35mm f1.7 and Kentmere 400",
+    "summary": "A cheap modern M-mount lens on a 1970s body and the cheapest black-and-white stock going — the whole kit costs less than one Summicron.",
+    "date_published": "2026-10-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Keith Smith is shooting a second-hand M4-2 that still needs a CLA, with a Seagull 35mm f1.7 he admits goes a little swirly and soft wide open, metered off-camera on a Voigtländer VCII. Kentmere Pan 400 and an orange filter do the rest. Useful as a counterweight to the Leica-and-HP5 write-ups: it is about what the combination actually renders, not what it cost.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/09/DSCF6700-scaled.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "f547e03447a8233572a6c8344f47a9b014a1c994ecff5fc37447399ef5af435f",
+    "url": "https://enshrouded.com/en-US/news/release-trailer-changelog-everything-you-need-to-wait-for-tomorrow",
+    "title": "Release trailer, changelog and everything you need for 1.0",
+    "summary": "Keen's own 1.0 changelog, which is the thing worth reading rather than any of the launch write-ups.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Enshrouded",
+      "note": "First-party and specific: level and gear caps to 55, skill trees reset on existing saves with many node costs cut, wands given heavy attacks, legendary odds up 5% across chests and silver-tier gear now appearing in wooden ones. The Albaneve Summits boss was reworked and staggered enemies now counter faster, so old fight habits will need relearning. Sparkworks is the new base-building logic system.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://enshrouded.com/uploads/261013_KEEN_EN_1_0_LAUNCH_TRAILER_THUMBNAIL_8e403f619a.jpg",
+      "icon": "https://enshrouded.com/favicon.ico"
+    }
+  },
+  {
+    "id": "b10ba6be8bedc8caa13800356cc437805e7ee72a410554457e878ed90a5ad771",
+    "url": "https://www.broadsheet.com.au/melbourne/fashion/article/home-store-fitzroy",
+    "title": "Home Store Is Fitzroy's House of Vintage Japanese Fashion",
+    "summary": "A 500sqm warehouse of deadstock and preloved clothing bought directly in Tokyo, a tram ride up Smith Street.",
+    "date_published": "2026-09-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Alex Turpin runs it with his father and stepmother, who live in Japan and do the buying there — Needles and A Bathing Ape racked next to Celine and Dior. It is in the old Nobody Denim factory on Leicester Street behind Fitzroy Market, with only about 30 per cent of the floor in use and the stock hung on construction fencing. Japanese deadstock is also the most reliable route into vintage that actually fits a smaller frame.",
+      "published_at": "2026-10-17T16:23:33.741Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/09/15/Home%20Store_Michael%20Gardenia_18%20of%2056-8684ed64fb.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
   }
 ]
