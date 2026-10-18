@@ -8767,5 +8767,183 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/09/15/Home%20Store_Michael%20Gardenia_18%20of%2056-8684ed64fb.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "5d6c5cfbe1c83b3142a5410b72ed59c91e559807e246e2ac1848ffb4ab8b25b8",
+    "url": "https://litfl.com/ecg-case-140",
+    "title": "ECG Case 140 — ECG Top 100 Self-Assessment Quiz",
+    "summary": "A pre-participation screening ECG that comes back three weeks later as a 196/min narrow tachycardia with the delta wave gone.",
+    "date_published": "2026-10-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "David Yu runs the case in two parts: the screening tracing first, then the symptomatic return, which is the order you actually meet these patients in. The teaching point is that a pre-excited baseline does not guarantee the tachycardia is pre-excited, and the reasoning toward AVRT over typical AVNRT is laid out step by step. Case 139 was in the feed last week; 140 is the sequel and the harder of the two.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "4abc7f0bbc89fb7c58656d2a593ad1d1612d3bc26cc5197a9307567d8d57264b",
+    "url": "https://www.cnn.com/2026/10/08/science/ai-biology-anthropic-dna-discovery",
+    "title": "What to know about Anthropic's 'Claude-led' biological discovery",
+    "summary": "A model-credited finding in bacteriophage biology, and the working scientists explaining why they are not convinced by it.",
+    "date_published": "2026-10-08T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "CNN",
+      "note": "The claim is a previously uncharacterised biological system; the pushback is about what \"led\" means when a model is one instrument among many. That argument is the one that will reach clinical practice first — not through diagnosis, but through how much of a result you are willing to accept on a model's say-so. The feed has carried the clinical-AI assessment framework and the decompiling story; this is the same question with a lab attached.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/0f6064436a364b73ce0d2a80848ac56be7ae9ddd-1360x1160-v2.jpg?c=16x9&q=w_800,c_fill",
+      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "74587d255c19cb9dd6ffc7384578828efc60628f193fa05e3d31ffa3fe92b4ad",
+    "url": "https://disasterphilanthropy.org/blog/what-were-watching-weekly-disaster-update-october-12-2026",
+    "title": "What we're watching: Weekly disaster update, October 12",
+    "summary": "A magnitude 7.7 in Panama with 100+ aftershocks, 420 damaged homes and 27 injured — and no deaths, which is the interesting part.",
+    "date_published": "2026-10-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "CDP",
+      "note": "Panama declared a national state of emergency on 10 October and released up to USD 100 million; damage reached all ten provinces, with churches, bridges and schools down in Los Santos and Herrera. A 7.7 producing zero deaths is a building-code and warning story as much as a seismic one, and worth reading next to the casualty counts his profession has him comparing against. The same update covers Hurricane Isaias and the Niger emergency.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://disasterphilanthropy.org/wp-content/uploads/2026/10/10006109-1024x683.jpg",
+      "icon": "https://disasterphilanthropy.org/favicon-light.png"
+    }
+  },
+  {
+    "id": "9b26c68447b7287b8d9b6340ebcd45b63a89fe09eb5291d9577312c624a8d14f",
+    "url": "https://boingboing.net/2026/10/02/new-camera-database-has-1482-entries-and-it-hasnt-even-gotten-to-b.html",
+    "title": "New camera database has 1482 entries and hasn't gotten to B",
+    "summary": "Camera Index, a free searchable archive of every film camera ever made, is 1482 entries deep and still on the letter A.",
+    "date_published": "2026-10-02T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Boing Boing",
+      "note": "Built by Pierro Pozella of PPP Cameras — a working repairer, not a collector — so the entries carry specs, manuals and service history rather than auction prices. It is alphabetical and nowhere near done, which is the appeal: a reference being assembled in public by someone who opens these bodies for a living. Useful the next time a Paxette or a half-frame Pen turns up and the question is what is actually inside it.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "51f97625b282aa910890869842ec649cb8ca7e3f5b3c38d1cad273daff690663",
+    "url": "https://www.stitchdown.com/shoes-of-the-week/viberg-whites-paraboot-easymoc-trickers-shellcordovan-jelado",
+    "title": "Shoes 'n' Boots of the Week: Viberg x Permanent Style, White's",
+    "summary": "A week's worth of welted releases read for construction and last shape rather than price — Viberg, White's, Tricker's, Paraboot in shell.",
+    "date_published": "2026-10-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "Stitchdown",
+      "note": "Stitchdown is not on the source list and should be: it covers footwear the way Heddels covers cloth, with the makers, lasts and welt methods named. The Viberg x Permanent Style Leisure Boot in dark chocolate suede is the second Viberg collaboration of the season after Michael Williams' Field Chukka, and the Paraboot in shell cordovan is the one to look at twice. Fills the gap under all the Permanent Style and Heddels cloth writing already in the feed.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://www.stitchdown.com/wp-content/uploads/2026/10/Our-newest-heritage-release-now-available-the-limited-edition-355-Cruiser%E2%80%94-Dr.-Sole-collection-1.jpg",
+      "icon": "https://stitchdown.wpenginepowered.com/wp-content/uploads/2019/06/cropped-Stitchdown_icon_browser_PNG-32x32.png"
+    }
+  },
+  {
+    "id": "b5d9e76b1f025b91c727efb33dd1a99ab3d55090bcc21f77b6d2500ae839ec4f",
+    "url": "https://drsmithsecgblog.com/50-something-male-with-acute-chest-pain",
+    "title": "50 something male with acute chest pain",
+    "summary": "Bifocal AIVR muddying the picture in a chest-pain patient Nossen reads as a proximal LAD occlusion before the cath confirms it.",
+    "date_published": "2026-10-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "Magnus Nossen walks the serial tracings through to a final ECG showing LAD reperfusion, with the accelerated idioventricular rhythm sitting on top of the ischaemic changes. Prior bilateral PE in the history is the kind of distractor that pulls an ED assessment the wrong way. Dr Smith's blog has been a steady supplier here and this is the strongest October case not already in the feed.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/07/digitized-bidirariv-scaled.png",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "0a98ead236b30002a2064e8c5e9d867454bc8908c771d5174551ed614c576787",
+    "url": "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2",
+    "title": "PS Plus Monthly Games for October: F1 25, Hunt: Showdown 1896",
+    "summary": "October's three claimable PS Plus titles, and Hunt: Showdown 1896 is the one worth the download slot.",
+    "date_published": "2026-09-30T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "PlayStation",
+      "note": "Hunt: Showdown 1896 is the pick here — extraction PvPvE with permanent hunter loss, which is nearer the risk structure of Dragonwilds and Enshrouded than anything else Sony has given away this year. First-party and dated, so the claim window is unambiguous. The September catalogue post is already in the feed; this is the monthly games, which is a different list.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://blog.playstation.com/tachyon/2026/09/d9cf749a1a4850fd0969ccb3a83cb907c56f640a.jpg",
+      "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+    }
+  },
+  {
+    "id": "83bb56c8a7a4e9c16c4a821fd90b968b393bf66d5e45680ce7fc1ccdb26e044e",
+    "url": "https://www.35mmc.com/17/10/2026/the-technical-side-of-my-photography-a-reflection-on-post-processing",
+    "title": "The Technical Side of My Photography: A Reflection on Post Processing",
+    "summary": "Alexandre Kreisman on what he actually does to a scan after the negative is dry, and why.",
+    "date_published": "2026-10-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The honest version of the question every film shooter dodges: the frame is captured chemically, then handled digitally, and most writing pretends the second half is not happening. Sits well next to the negative-and-scan organisation piece from 5 October that is already in the feed — that one was filing, this one is the decisions. Light on darkroom, which suits.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/04/1-1024x622.png",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "12df9e7907af14661f1c68d44e95bc1abfdb560f256a4ad1c2c00cfabbb764b5",
+    "url": "https://beat.com.au/surprise-chef-announce-fifth-album-frogs-in-a-pond-plus-tour-dates",
+    "title": "Surprise Chef announce fifth album Frogs In A Pond",
+    "summary": "Melbourne's own instrumental soul quartet land on Concord Jazz with a 40-minute giallo-inspired suite, out 23 October.",
+    "date_published": "2026-08-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Beat",
+      "note": "Recorded over nine continuous days at their own College of Knowledge studio, mostly live with minimal overdubs — which is the part that matters if you own the Menahan Street Band and Daptone end of the shelf, because this is the same method. Colemine, next door to that shelf, is pressing a Frogman Green edition limited to 500. The release show is at Quadraphonic Club in Brunswick on the day itself, with The Tote on the 25th.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://beat.com.au/wp-content/uploads/2026/08/unnamed.jpg",
+      "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+    }
+  },
+  {
+    "id": "f0fe4831428af62abab85f0f2c583ea5e833acb025f7756a08b95015b21166c5",
+    "url": "https://www.theindiansun.com.au/2026/10/12/the-melbourne-artist-turning-her-own-body-into-a-map",
+    "title": "The Melbourne artist turning her own body into a map",
+    "summary": "A profile of Atong Atem two weeks before her first major solo show opens free at NGV Australia in Fed Square.",
+    "date_published": "2026-10-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "The Indian Sun",
+      "note": "Passage: The Art of Atong Atem opens 30 October at The Ian Potter Centre and runs to June 2027, free entry — more than 65 works from the past decade, including the Australian premiere of Scars and Constellations and a new large-scale NGV commission, As Above. Atem is Melbourne-based, South Sudanese, and works in textiles, paint and costume on self-portraits, so the photographic end of this overlaps with the film work already in the feed. Worth having the opening date in hand rather than catching it in month seven.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://www.theindiansun.com.au/wp-content/uploads/2026/10/De110488_RGB.jpg",
+      "icon": "https://media.theindiansun.au/2017/03/favicon.png"
+    }
+  },
+  {
+    "id": "ab08e8e4efb8ec55e948b9e00210d2c96d79f38bdc50294571acc669a62bf59c",
+    "url": "https://dontforgetthebubbles.com/the-106th-bubblewrap-x-university-hospital-galway",
+    "title": "The 106th Bubblewrap x University Hospital Galway",
+    "summary": "Five papers chosen by a paediatric ED team, including one estimating excess child deaths in departments that lost high readiness.",
+    "date_published": "2026-10-07T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "DFTB",
+      "note": "The ED-readiness paper is the one worth the time: it attaches a mortality figure to departments that never had, or stopped having, paediatric readiness, which is an argument about resourcing rather than clinical technique. The second pick is a scoping review of 33 studies on language barriers and patient safety in paediatric emergency care — directly relevant in a Melbourne ED. Paeds is adjacent to his case mix but the Bubblewrap format is short enough that the adjacency costs nothing.",
+      "published_at": "2026-10-18T16:25:48.815Z",
+      "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/10/Copy-of-Trial-1.png?fit=1405%2C900&ssl=1",
+      "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+    }
   }
 ]
