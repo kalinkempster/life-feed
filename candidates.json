@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emcrit/when-you-rsi-shocked-patients-they-tend-to-die/",
+      "title": "EMCrit 436 — When You RSI Shocked Patients, They Tend to Die",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Weingart's eight-year revisit of the hemodynamically neutral intubation, aimed squarely at getting it out of expert-only hands.",
+      "note": "Part two of the HNI argument, posted 18 October: the case that a textbook RSI is itself what kills the shocked patient, and what to substitute. It reads directly against the peri-intubation cardiovascular collapse journal club already in the feed, and extends the ketamine-dissociation line from the old episode 104. The explicit goal here is de-expertising the technique, which is the part that matters at registrar level.",
+      "date_published": "2026-10-18"
+    },
+    {
+      "url": "https://www.stemlynsblog.org/clinical-decisions-under-pressure-in-emergency-care/",
+      "title": "Decisions Under Pressure: Knowing When to Act",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "The 40/70 rule, Ten Second Triage and calling off eCPR — about deciding on incomplete information rather than following a protocol.",
+      "note": "Episode 300 gathers the Tactical Trauma interviews on triage, prehospital eCPR and trauma ECMO into one argument about acting before you have the full picture. Alice Hutin's section — explaining to crews and relatives why eCPR will not help this patient — is the part worth sitting with. It sits alongside the TOE-guided CPR and pre-eCPR pieces already in the feed, and the post is careful to say the 40/70 heuristic has no evidence base.",
+      "date_published": "2026-10-18"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-03/victorian-state-election-unpredictable-casey-briggs-analysis/107216078",
+      "title": "One Nation may hold the balance of power after Victoria's poll",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Casey Briggs on why the 28 November state election is unusually hard to call, and who could end up holding the crossbench.",
+      "note": "The arithmetic is the useful bit: 45 of 88 lower-house seats to govern, One Nation polling around one in four, and Labor fighting a fourth term under Ben Carroll since July. Ramping and ED wait times are already campaign currency on both sides, so who holds the balance of power is not abstract for anyone rostered in a Victorian ED next year. Free to read, unlike most of the Age's coverage of the same race.",
+      "date_published": "2026-10-03"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-10/earthquake-panama-tsunami-warning/107250814",
+      "title": "Powerful 7.7-magnitude earthquake hits off coast of Panama",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Six provinces lost power and Tocumen suspended flights after a major quake off the Azuero Peninsula; the tsunami threat has since passed.",
+      "note": "OCHA is now five situation reports deep: 13,623 people affected across 4,045 families, and more than 5,800 dwellings assessed as of 16 October. The magnitude has been revised repeatedly — 7.7 from GDACS, then 7.5 and 7.6 — which is a clean illustration of how far early disaster numbers move before they settle. USGS put potential losses at one to ten per cent of Panama's GDP, while the Canal, 200km from the epicentre, kept running normally.",
+      "date_published": "2026-10-10"
+    },
+    {
+      "url": "https://www.billboard.com/music/latin/hermanos-gutierrez-interview-los-ojos-del-condor-1236347148/",
+      "title": "Hermanos Gutiérrez on 'Los Ojos Del Cóndor'",
+      "source": "Billboard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "The brothers on building an entire record out of one photograph of their father standing at Machu Picchu in 1987.",
+      "note": "Hermanos Gutiérrez are already on the shelf, so this is the provenance for the record that follows — their seventh, out 25 September on Dan Auerbach's Easy Eye Sound. Estevan describes travelling to Peru and only then knowing the album belonged there, which explains the charango and organ sitting under the usual two-guitar interplay. Worth reading before the needle drops rather than after.",
+      "date_published": "2026-09-25"
+    },
+    {
+      "url": "https://shootitwithfilm.com/how-to-shoot-blind-double-exposures-on-film/",
+      "title": "How to Shoot Blind Double Exposures on Film",
+      "source": "Shoot It With Film",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Shoot a whole roll, reload that same roll, shoot it again — double exposures you cannot preview or plan.",
+      "note": "Alison Hatch's walkthrough is unusually concrete: mark the leader with a silver or gold permanent marker, rate Portra 400 at 800, shoot the texture pass first and the subject second, and rewind slowly so the leader stays out. The failure mode gets honest treatment too — misalign the marks and you get a black bar across the frame, which she files as a happy accident. 35mm only, since medium-format backing paper makes the reload unworkable.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://www.permanentstyle.com/2026/09/introducing-bao-sexton-suits-and-vinted-scrolling.html",
+      "title": "Introducing Bao: Sexton Suits and Vinted Scrolling",
+      "source": "Permanent Style",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "A secondhand hunter's working method — Vinted over eBay, and a test for whether you actually want the garment.",
+      "note": "Bao's navy suit is vintage Ralph Lauren found in a second-hand shop in Vietnam, which is the RRL instinct arrived at from the opposite direction. His case for Vinted over eBay is practical rather than ideological: better interface, sellers who will actually negotiate, real room to low-ball. The hoarding test is the line to keep — would you still buy this with the label cut out. No runway, no bespoke pricing.",
+      "date_published": "2026-09-18"
+    },
+    {
+      "url": "https://www.pcgamer.com/games/survival-crafting/a-co-op-survival-game-where-trolls-arent-just-there-to-be-killed-we-dont-talk-about-them-as-enemies-but-rather-as-neighbors/",
+      "title": "A co-op survival game where trolls aren't just there to be killed",
+      "source": "PC Gamer",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "Trollheim's devs say they treat trolls as neighbours rather than mobs, which is a genuinely different survival loop.",
+      "note": "Announced 15 October and due in early access later this year, co-op, PC. The pitch is worth a wishlist slot precisely because it inverts the thing Dragonwilds and Enshrouded both do — the big hostile thing in the woods is a party to deal with, not a health bar to farm. Small studio, so expect it to arrive rough.",
+      "date_published": "2026-10-15"
+    },
+    {
+      "url": "https://gamingbolt.com/enshrouded-1-0-review-finally-feels-complete",
+      "title": "Enshrouded 1.0 Review — Finally Feels Complete",
+      "source": "GamingBolt",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "A verdict on whether 1.0 earns a return trip: 9/10, with Sparkstone called out as badly underexplained in-game.",
+      "note": "1.0 landed on 15 October with the player cap at 50, equipment to 55, nine new spell types and a rebuilt skill tree. The one substantive complaint — Sparkstone needs real in-game tutorialisation — is exactly the thing to know before loading an old Embervale world and wondering what changed. Reviewer rates the systems highly and the story thinly, which tracks with how the game has always played.",
+      "date_published": "2026-10-16"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/munchies-bar-oussou-late-night-restaurant",
+      "title": "Munchies, a Late-Night Favourite, Reopens in Brunswick",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "evergreen",
+      "summary": "John Chinsami's late-night Indian-Fijian kitchen is back, this time inside Bar Oussou on Sydney Road.",
+      "note": "653 Sydney Road, Wednesday to Saturday 5pm until midnight — a short ride from most of Brunswick and open late enough to be useful after a shift. Raw snapper dressed with coconut, chilli and lime, a 200g wagyu chilli cheeseburger, and the original hot wings still made to order. Chinsami shut the Berwick original in 2023 and spent the years between running a catering business.",
+      "date_published": "2026-07-16"
+    }
+  ]
+}
