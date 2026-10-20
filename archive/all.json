@@ -9106,5 +9106,215 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/02/27/3BB05516-95A9-4CCC-AF50-5AD6386CF1C9_1_201_a-433b622769.webp",
       "icon": "https://www.broadsheet.com.au/favicon.png"
     }
+  },
+  {
+    "id": "514514583735d90a73169bf461c930f6bdef95dddb9f6c0f6be8f2696e24ef84",
+    "url": "https://www.analogplanet.com/content/vinyl-summit-day-1",
+    "title": "Vinyl Summit: Day 1!",
+    "summary": "Micallef on the ground in Salina, Kansas for Acoustic Sounds' fortieth-anniversary summit — Chad Kassem's opening remarks from inside Blue Heaven Studios.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "The feed already carried Kassem's pre-event interview on 1 October; this is the first dispatch from the room, filmed at Blue Heaven and taking in the town that the whole Quality Record Pressings operation is built around. Becca Stevens plays. Worth following because the four-day bill — Taj Mahal, Jimmie Vaughan, Robert Finley, Chico Freeman — is an all-analogue argument made with live players rather than specs, and the pressing-plant material is the part of record craft Analog Planet does better than anyone.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "2ddab3c3b0f94d397f4b0596130189e8219e39dbaed02f0c855eda322373aeae",
+    "url": "https://www.croakey.org/as-medical-leaders-step-up-on-digital-health-and-ai-community-engagement-is-critical",
+    "title": "As medical leaders step up on digital health and AI",
+    "summary": "Australian colleges are starting to set AI policy for the wards you work on, and this is the argument about who gets consulted before they do.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Croakey",
+      "note": "Reported out of the RACMA/RANZCR meeting by Armstrong and McInerney, which puts the medical-administration and radiology colleges in the same room on AI governance — the two groups most likely to decide what lands in a Victorian ED first. The case is that community engagement has to come before deployment rather than after, which is the opposite of how scribes and triage tools have arrived so far. Croakey remains the most useful free source for Australian health-system politics.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "efd79bd778da1c28678a6d1e8b387ea2c229ef05c27b306176e7f64622953158",
+    "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
+    "title": "My obituary for programming",
+    "summary": "On what coding agents take away from the people who liked the puzzle, not the product — a loss Willison treats as real rather than nostalgic.",
+    "date_published": "2026-10-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison is usually the optimist in this argument, which is what makes him conceding the point interesting: if solving the problem yourself was the part you enjoyed, the loss is genuine and not recoverable by getting better at prompting. The same shape of argument is coming for clinical reasoning tools, where the pleasure of working out the diagnosis is the thing the job is built on. Worth reading next to his Haiku 5.5 and Anthropic source-control posts from earlier in the month.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": null,
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "d8cef99eaea92363e8737b6e496285ad2041641783203e6a002caeb9700f7a27",
+    "url": "https://first10em.com/peripheralperssors",
+    "title": "Peripheral vasopressors: the myth and the evidence",
+    "summary": "The reference piece behind the question SGEM asked three weeks ago — whether a peripheral line is genuinely a contraindication to noradrenaline, or just inherited dogma.",
+    "date_published": "2018-05-21T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "First10EM",
+      "note": "SGEM#522 put 'can you run them peripherally?' on the feed on 3 October; this is the appraisal that originally dismantled the absolute-contraindication claim, working from the 2015 systematic review of case reports where the injuries were overwhelmingly minor. Morgenstern is careful about what the evidence cannot say: extravasation still happens at around 3-4%, and the published series are small and retrospective. Read alongside the Surviving Sepsis suggestion to start peripherally rather than wait for central access, capped at six hours.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://first10em.com/wp-content/uploads/2018/05/Peripheral-vasopressors-myth-First10EM.png",
+      "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+    }
+  },
+  {
+    "id": "22843b30376ae2daee027a33f0a17b2aa36760eaf6bf3d1c4afc9fa031e9f423",
+    "url": "https://aquariumdrunkard.com/2026/10/18/introducing-radio-free-aquarium-drunkard-longform-listening-worldwide-24-7",
+    "title": "Introducing Radio Free Aquarium Drunkard",
+    "summary": "The best record-writing site on the internet just turned itself into a 24/7 station, with Justin Gage selecting — longform listening rather than a playlist.",
+    "date_published": "2026-10-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Gage's monthly dublab shows have been the reliable bridge between the soul and funk end of the collection and the stranger edges — Senegalese folk, Malian funk, library music — and this is that sensibility running continuously instead of once a month. James Barnes is credited as architect, Gage as selector. It needs an Apple Music subscription to access, which is the catch, but the programming logic is the same one that produced the Hermanos Gutiérrez and Richard Thompson Transmissions episodes.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/Radio-free-aquarium-drunkard-app.jpeg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "18daddf613727c2c995ff0a0c29113fe0254ad70bc3c8d0d70fcd3b52a458397",
+    "url": "https://www.35mmc.com/18/10/2026/house-of-photography-marrakech",
+    "title": "House of Photography, Marrakech",
+    "summary": "Julian Tanase shoots an archive of roughly 10,000 Moroccan photographs on Delta 100 and an F3 — pictures of a room full of pictures.",
+    "date_published": "2026-10-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The Maison de la Photographie holds work spanning about 1870 to the 1960s, and Tanase photographs the collection rather than the city, which is the more interesting choice. Ilford Delta 100 and a Nikon F3 is an unglamorous pairing that suits low interior light and dense detail. If the Delta 100 review from earlier this month was the technical case for the emulsion, this is what it looks like used in anger.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/09/20260905_114155-copy-887x1024.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "a9ad9521ea3d701dc97e373504e727dd027111c532475d7500ec39ccccea2579",
+    "url": "https://www.jems.com/patient-care/international-prehospital-medicine-institute-literature-review-october-2026",
+    "title": "Prehospital Medicine Literature Review, October 2026",
+    "summary": "The headline finding is that a higher prehospital share of blood products cut acute lung injury odds without moving mortality — a dissociation worth understanding before the next trauma call.",
+    "date_published": "2026-10-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "JEMS",
+      "note": "For every 10% increase in the prehospital-to-total blood ratio the odds of acute lung injury fell by about 8.8%, with no signal on 24-hour or 28-day mortality in the primary analysis. That is the kind of result that gets quoted as 'prehospital blood works' when what it actually shows is a lung-protective effect decoupled from survival. The International Prehospital Medicine Institute's monthly round-up is not on the source list and is worth a look — it reaches the retrieval and ambulance literature that EMCrit and First10EM mostly skip.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://www.jems.com/wp-content/uploads/2020/06/IPMHI-Final-Image.jpg",
+      "icon": "https://www.jems.com/wp-content/uploads/2024/02/cropped-android-chrome-512x512-1-32x32.png"
+    }
+  },
+  {
+    "id": "8d735a9128e0ee86d48ab6abd161c8eca9f17c3b70c709c7d806cf1ce90302d7",
+    "url": "https://www.35mmc.com/16/10/2026/5ish-frames-with-a-hasselblad-super-wide-c",
+    "title": "5(ish) Frames with a Hasselblad Super Wide C",
+    "summary": "Jeffery Luhn bought an SWC around 1977, sold it, and spends this piece explaining why he wants another one — a camera essay about regret.",
+    "date_published": "2026-10-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The Super Wide C is the 38mm Biogon bolted to a body with no mirror and no reflex viewing, which means guessing distances and trusting f/22 to cover you. Luhn used his mainly for architecture and makes the case for the lens on distortion and viewfinder accuracy rather than sharpness charts, then argues it works for portraits too. A better read than the gear reviews because the subject is the decision to sell a camera, not the camera.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/09/Preston-on-piano-BW-1-scaled.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "8107b93c5478281031bc033244258d0fc2056745919f81e2d8bf64250b51f142",
+    "url": "https://www.stitchdown.com/stitchdown-shoecast/stitchdown-expo-2026-preview",
+    "title": "Stitchdown Expo 2026 Preview + A Metaphysical Shoebag",
+    "summary": "Ben Robinson previews the Chicago Expo on 6-7 November — which makers are showing, and what the welted-footwear trade looks like right now.",
+    "date_published": "2026-10-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "Stitchdown",
+      "note": "Stitchdown has only appeared here once, for the Viberg and White's Shoes of the Week, and the Shoecast is where the construction talk actually happens rather than the photography. An expo preview is a useful cross-section: who is still making resolable boots, who turned up, and what Ticho is doing with a shoebag. The Permanent Style and Heddels end of the shelf covers cloth; this covers lasts, welts and the people cutting them.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://www.stitchdown.com/wp-content/uploads/2026/10/DSC07046-scaled.jpg",
+      "icon": "https://stitchdown.wpenginepowered.com/wp-content/uploads/2019/06/cropped-Stitchdown_icon_browser_PNG-32x32.png"
+    }
+  },
+  {
+    "id": "bd1c11873adc2cd688d9af3de2477a0e784c397f7085c956130fc2d59b806ee1",
+    "url": "https://www.insidehook.com/style-news/new-menswear-releases-10-19-26",
+    "title": "Taylor Stitch's Latest Collab Is Built to Last a Lifetime",
+    "summary": "This week's drop round-up, led by a collaboration pitched on repairability rather than season — the test being whether the construction claims survive contact with the spec sheet.",
+    "date_published": "2026-10-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "InsideHook",
+      "note": "InsideHook's style desk has already been useful here twice, for the Banana Republic archive reissue and the RRL western catalogue, and the weekly format catches brand news that Heddels covers only when there is a mill story attached. The lifetime-guarantee framing is worth reading sceptically: the interesting detail is always whether the repair is free, chargeable, or a store credit. Dated URL, so it stays what it was this week rather than being rewritten next.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://www.insidehook.com/wp-content/uploads/2026/10/Menswear-Drops-Hero-1019.jpeg?resize=1200,800",
+      "icon": "https://www.insidehook.com/wp-content/uploads/2023/10/cropped-IH-favicon-700x700-v2.png?fit=32%2C32"
+    }
+  },
+  {
+    "id": "e3d8376bb8398a5fbed0d6c0bc0b2a85d6508c7d3ea292d858fcad29b7b493ca",
+    "url": "https://mp1st.com/title-updates-and-patches/runescape-dragonwilds-hotfix-released-october-17-update-1-001-001",
+    "title": "Dragonwilds hotfix out October 17 as update 1.001.001",
+    "summary": "The save-corruption fix you actually need — shipped across all platforms three days after Eye on Ashenfall, which only partly closed the hole.",
+    "date_published": "2026-10-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "MP1st",
+      "note": "Eye on Ashenfall (1.0.1) on 14 October was meant to end the disappearing-worlds problem and added the character catch-up for corrupted saves, but Jagex conceded a small number of players were still affected. This hotfix is the follow-up. If you have a world you care about, it is worth confirming you are on 1.001.001 before the next long session — worlds lost before 1.0.1 were only visible again after it, and the catch-up restores aggregated stats and Tier 4 gear rather than the character you had.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://mp1st.com/wp-content/uploads/2026/10/RuneScape-Dragonwilds-img1.jpg",
+      "icon": "https://mp1st.com/favicon.ico"
+    }
+  },
+  {
+    "id": "ed498e4221d7b3aa49d36a9908cef8a5c5e01ec9f2e3bfb15606168fee3789f4",
+    "url": "https://www.pushsquare.com/news/2026/09/hunters-moon-is-a-folk-horror-adventure-based-on-englands-real-life-witch-hunts",
+    "title": "Hunter's Moon is a folk horror based on real witch hunts",
+    "summary": "PS5 exclusive out 26 October, timed to the actual Hunter's Moon — first-person, stealth-only, and built on eavesdropping rather than combat.",
+    "date_published": "2026-09-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "You play Lilith Thorne, accused of witchcraft in seventeenth-century England and hunted by the Witchfinder General, the magistrate and a huntsman, with no way to fight back. The core mechanic is listening at windows, borrowed from immersive theatre, with over a hundred fully voiced villagers for it to work on. Worth flagging the date discrepancy before you preorder: the store lists 26 October 00:00 UTC, which some outlets read as the 25th in North America.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://images.pushsquare.com/d2db3479995e5/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "10893cea7ac725a66e1745413d44e1d4d084ac4343f1c04edc0bad9168969803",
+    "url": "https://www.broadsheet.com.au/melbourne/fashion/article/new-melbourne-stores-spring-2026",
+    "title": "New Melbourne Store Openings, Spring 2026",
+    "summary": "Where to walk this spring: Man-tle has taken a small Gertrude Street room, and Garmes has brought its consignment operation down from Canberra to Smith Street.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Man-tle at 118 Gertrude Street is a petite space holding the permanent collection plus seasonal pieces, which is about the right size for a label that makes very few things — a short tram from Brunswick and in the same block as the Northside Records end of Fitzroy. Garmes at 212 Smith Street is part consignment, part vintage, covering apparel, accessories and footwear, and the second site after Canberra. Both are walkable with Home Store on Leicester Street, which went on the feed earlier this month.",
+      "published_at": "2026-10-20T16:26:03.667Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/09/29/DSC_9480_HDR-2-5976c7eeaf.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.png"
+    }
   }
 ]
