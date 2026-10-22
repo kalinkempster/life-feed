@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://rebelem.com/hints-vs-sudbury-vertigo-risk-score/",
+      "title": "MDCalc Wars: HINTS vs Sudbury Vertigo Risk Score",
+      "source": "REBEL EM",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Two dizziness tools that look like rivals on MDCalc actually answer different questions at the bedside.",
+      "note": "The distinction is that HINTS applies only to a patient with ongoing acute vestibular syndrome and nystagmus, and only in trained hands — an Ontario review found emergency physicians used it appropriately in roughly 3 per cent of the cases they applied it to. Sudbury does something else entirely: it risk-stratifies the broad dizziness-vertigo-imbalance presentation for a central cause, and a low score still does not override red flags. Reads well against the modified Sudbury validation in Academic Emergency Medicine this year, which puts the model's AUROC around 0.85.",
+      "date_published": "2026-09-28"
+    },
+    {
+      "url": "https://litfl.com/the-best-online-echocardiography-courses/",
+      "title": "The Best Online Echocardiography Courses",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A mapped survey of online echo training, which is the awkward half of getting CCPU signed off.",
+      "note": "The ultrasound component is the part of CCPU that cannot be read into existence — it needs structured teaching and logged scans — and this is a comparison of what is actually available rather than a pitch for one course. It sits in the same LITFL library as the Ultrasound 100 cases collection, which covers the interpretation side once the scanning is underway. More useful as a planning document than as something read once and closed.",
+      "date_published": "2026-10-11"
+    },
+    {
+      "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "source": "Import AI",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Jack Clark's IMF lecture published in full — an AI policy insider telling finance ministers the curve has already bent.",
+      "note": "Clark gave this as the Per Jacobsson Lecture at the IMF annual meeting and then put the text in his own newsletter, which makes it unusually direct: the argument is pitched at people who set macro policy, not at the usual AI readership. The previous issue is where he moved his estimate for full recursive self-improvement forward from 2028 to 2027, so the two issues read as one argument. Import AI remains the highest signal-per-word AI source in the feed.",
+      "date_published": "2026-10-19"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html",
+      "title": "Anthropic previews Claude Duet, a proactive personal AI agent",
+      "source": "CNBC",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "An agent designed to act between prompts rather than wait for them, which is a different product shape from the assistant everyone has learned to use.",
+      "note": "Duet is a research preview for Pro and Max subscribers, and the framing against Muse and Dots puts it in the personal-agent category rather than the coding-assistant one. The interesting question is whether proactivity survives contact with real calendars and inboxes, because that is precisely where every previous attempt at this has died. Worth tracking for the practical end of it — what an agent that initiates actually does to administrative work.",
+      "date_published": "2026-10-21"
+    },
+    {
+      "url": "https://www.croakey.org/how-to-prepare-for-escalating-climate-hazards-new-resources-for-health-sector/",
+      "title": "Escalating climate hazards: new resources for health sector",
+      "source": "Croakey",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Regional hazard reports, Victoria's among them, written for health services planning for surge rather than for policymakers debating emissions.",
+      "note": "The resources are broken down by region and cover continuity of service, supply chains and demand surges during extreme weather — the ED-facing end of climate adaptation rather than the mitigation end. It lands alongside Croakey's own reading of the Victorian budget, which put a record $32 billion into hospitals and emergency care while leaving prevention short. Open the Victoria hazard report first; the rest is national framing.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://insheepsclothinghifi.com/brian-eno-on-why-the-loudspeaker-is-the-unsung-hero-of-electronic-music/",
+      "title": "Brian Eno on Why the Loudspeaker Is Electronic Music's Unsung Hero",
+      "source": "ISC Hi-Fi",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Eno on the specific speakers he made records on, including a pair of 1960s cabinets bought secondhand in Notting Hill.",
+      "note": "His argument is that in electronic music the loudspeaker is part of the instrument rather than the delivery mechanism — the S-50s he found secondhand, later traced to a Canon optics engineer named Hiro Negishi, shaped what actually got committed to tape. That makes this a playback-chain essay rather than a gear review, which is the rare kind worth reading if you care how a record behaves in a room. Pegged to the revived Opal reissues of Drawn From Life and Another Day on Earth, out 16 October.",
+      "date_published": "2026-10-14"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/10/22/jimmy-webb-the-aquarium-drunkard-interview/",
+      "title": "Jimmy Webb :: The Aquarium Drunkard Interview",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "The writer behind a large share of the late-60s American songbook, finally recording his own versions, on a revived Sun Records.",
+      "note": "Webb wrote the songs that the soul and country-pop singers of the 60s and 70s kept making famous, so Yours For The Taking: The Found Songs of Jimmy Webb is him reclaiming material the library already holds second-hand, next to Solomon Burke, Roberta Flack, Donny Hathaway and Simon & Garfunkel. Sun Records being revived to carry it is the other half of the story. Posted 22 October, and the found-songs framing keeps it a craft interview rather than a release plug.",
+      "date_published": "2026-10-22"
+    },
+    {
+      "url": "https://www.35mmc.com/21/10/2026/rediscovering-what-i-had-never-lost/",
+      "title": "Rediscovering What I Had Never Lost",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Film gear surfacing in Cambodia inside Japan's exported electronic waste, and what one photographer found digging through it.",
+      "note": "Nigel Gardner writes from Cambodia about hunting used cameras among Japanese e-waste shipped there — a second-hand supply chain almost nobody writing about film acknowledges exists. It is as much about where the world's old cameras physically end up as about any particular body he came home with. A sharp corrective to the usual eBay-and-Japanese-auction account of finding kit.",
+      "date_published": "2026-10-21"
+    },
+    {
+      "url": "https://www.35mmc.com/22/10/2026/konica-infrared-film-second-try-a-year-later/",
+      "title": "Konica Infrared Film — Second Try a Year Later",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A second attempt at expired 750nm infrared stock a year on, with the technique changed rather than the film.",
+      "note": "Mark Ellerby goes back to the same batch of long-stored Konica IR after a first attempt that did not work, which makes this the more useful kind of film report: the variable under test is the approach, not the emulsion. It reads directly against the Hi-Con IR and IR-filter pieces already in the feed, both of which came at infrared from the current-stock side. Expired-stock behaviour is where most practical film knowledge actually lives.",
+      "date_published": "2026-10-22"
+    },
+    {
+      "url": "https://www.35mmc.com/20/10/2026/picturing-musicians-part-2/",
+      "title": "Picturing Musicians Part 2",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "The second instalment on shooting musicians on film, where the constraints do most of the work.",
+      "note": "Part one ran in late September and this continues it; the overlap with the record shelf is the whole appeal, since these are the conditions that produce the sleeve and press images that end up on the jackets. Low light, a subject who is working, and no second take. Worth reading for how the limits are handled rather than for the equipment list.",
+      "date_published": "2026-10-20"
+    },
+    {
+      "url": "https://www.well-played.com.au/gta-6-launch-trailer-ps5-november-19/",
+      "title": "GTA 6 launch trailer lands, captured entirely on PS5",
+      "source": "WellPlayed",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "November 19 is now firm after years of slipping, and the whole trailer was shot in-game on PS5.",
+      "note": "Rockstar captured it entirely on PS5 and put \"Plays Best On PS5\" on the front, which says plenty about where the marketing deal sits; digital preloads open 12 November, a week ahead of release. There is still no announced PC date, which matters if the plan was to wait for it. WellPlayed is Australian, which makes it a better place to read release-window news than the US outlets that otherwise own this story.",
+      "date_published": "2026-10-15"
+    },
+    {
+      "url": "https://massivelyop.com/2026/10/21/once-human-brings-a-vast-open-ocean-and-new-lands-to-survive-on-with-its-isles-of-abyss-scenario/",
+      "title": "Once Human brings a vast open ocean with Isles of Abyss",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "A PvE-only ocean with sea fishing, underwater exploration and seaborne points of interest, live from 22 October.",
+      "note": "Isles of Abyss runs its first phase for roughly five to ten days before rotating, and there is a PvP-enabled RaidZone variant of the same scenario for anyone who wants the other version. Scenario seasons are how Once Human handles new content, which is a structurally different answer to the problem Enshrouded and Dragonwilds solve with patches onto one persistent world — worth a look if only to see the alternative. Massively OP remains the most reliable place for survival-game update detail.",
+      "date_published": "2026-10-21"
+    }
+  ]
+}
