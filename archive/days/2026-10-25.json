@@ -1,0 +1,202 @@
+{
+  "day": "2026-10-25",
+  "ran_at": "2026-10-24T16:25:34.667Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "226d56189bc15ee1cbae6b07c973172bfc794aa0f4aff0d3668da524bac5b9b9",
+      "url": "https://www.croakey.org/eight-billion-reasons-to-scrutinise-private-health-insurance-policy",
+      "title": "Eight billion reasons to scrutinise private health insurance",
+      "summary": "The reform debate everyone is covering, from the one outlet asking what the coverage has skipped.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Croakey",
+        "note": "Croakey's line is that the volume of reporting on the Federal Government's private health insurance reforms has left the key questions unexamined. Eight billion dollars of public subsidy decides what turns up in a public ED and what gets absorbed privately — the system he works inside rather than the clinical practice he does. It is the policy counterweight to the ACEM ageing-population report already in the feed.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "567f752b4bb523c199b08da84f689a0bed79f40700d8caa2a80a64f60635dd99",
+      "url": "https://litfl.com/ecg-case-141",
+      "title": "ECG Case 141 — ECG Top 100 Self-Assessment Quiz",
+      "summary": "A pacing problem that presents as a mechanical fall — the version of this case that gets discharged.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "An 83-year-old with a single-chamber ventricular pacemaker, lightheaded after landing on her left arm, with a repeat tracing taken after the pacing team altered sensing sensitivity. Cases 139 and 140 are already in the archive, so this continues the Top 100 run; read it with the answer covered, because the stated diagnosis and the explanation underneath it do not obviously agree and working out which is right is the whole exercise. Posted today.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "9ab1f8f410faf5e0d7550af01ce83ba18a6d46ec512c08461cfd43415bfcbc33",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+      "title": "Ebola (Bundibugyo virus) — DR Congo, Kenya and Nigeria",
+      "summary": "The authoritative numbers on an Ebola outbreak that has now exported across three countries.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO",
+        "note": "Kenya's first imported case and Nigeria's Abuja confirmation are already in the feed as separate stories; this is the Disease Outbreak News that puts them in one frame — 9,704 confirmed cases and 4,687 deaths across 66 health zones in eight DRC provinces as at 20 October, a crude case fatality ratio of 48.3 percent. A filovirus near 50 percent lethality moving by air travel is precisely the scenario ED triage screening questions exist for. DON619 and DON620 are in the archive, so this is the running thread rather than a one-off headline.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+        "icon": "https://www.who.int/favicon.ico"
+      }
+    },
+    {
+      "id": "994b97827226c29f329039491681b0267514620c6f1cb27d57e0ee254835b66c",
+      "url": "https://www.emdocs.net/shift-pearls-non-convulsive-status-epilepticus",
+      "title": "Shift Pearls: Non-Convulsive Status Epilepticus",
+      "summary": "The diagnosis hiding in the post-seizure patient who simply isn't waking up.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "emDocs",
+        "note": "Brit Long's Shift Pearls format is deliberately short — this is a between-patients read, not a journal club. Non-convulsive status is the ED miss that needs you to think of it before anyone orders an EEG, and the empiric-treatment decision sits with the registrar. emDocs is a source this feed has drawn on far less than EMCrit or LITFL, which is the other reason it is here.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://www.emdocs.net/wp-content/uploads/2025/12/Screenshot-2025-12-27-at-9.40.33-PM.jpg",
+        "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+      }
+    },
+    {
+      "id": "4eb8e4b9e1eedffba884f39d590385055c0d4a98aae06b3e119cc63884933756",
+      "url": "https://www.emdocs.net/ecg-pointers-dont-just-do-something-stand-there",
+      "title": "ECG Pointers: Don't Just Do Something, Stand There!",
+      "summary": "A wide-complex rhythm where the correct intervention is none, and the reasoning for it.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "emDocs",
+        "note": "Lloyd Tannenbaum builds the case around accelerated idioventricular rhythm — the post-reperfusion rhythm that looks alarming and invites treatment it does not need. The LITFL ACLS pitfalls pieces on stable and unstable wide-complex tachycardia are already in his archive; this is the benign end of that same differential, which is the end that actually catches people out. Reviewed by Brit Long.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://www.emdocs.net/wp-content/uploads/2018/11/Screen-Shot-2018-11-16-at-12.34.26-PM.png",
+        "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+      }
+    },
+    {
+      "id": "a9be38ae9711936c005b2e68d44a3a413cff5958043b4f1cb25a28607ed6a36c",
+      "url": "https://mp1st.com/title-updates-and-patches/runescape-dragonwilds-hotfix-1-001-002-released-on-october-23",
+      "title": "Dragonwilds Hotfix 1.001.002 Released on October 23",
+      "summary": "Air Magic Staff combo fix, Runecrafting value changes, and an Xbox hosted-world cap.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "MP1st",
+        "note": "Straight patch notes, six days after 1.001.001 which is already in the feed. The fourth hit of the Air Magic Staff combo was not dealing damage or applying on-hit effects, which is the sort of bug that quietly makes a build feel wrong rather than broken; the Runecrafting value changes matter if he is mid-progression after Eye on Ashenfall. Luminance is still the December target ahead of the Blood Crystal Saga.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://mp1st.com/wp-content/uploads/2026/10/RuneScape-Dragonwilds-img3.jpg",
+        "icon": "https://mp1st.com/favicon.ico"
+      }
+    },
+    {
+      "id": "fcb98fe02a65b2796983a0000f3c20e95a6cde63c43b9ec0d4c1a508c10775fe",
+      "url": "https://bigcrownrecords.bandcamp.com/album/bcr10-ten-years-of-big-crown-records",
+      "title": "BCR10 — Ten Years of Big Crown Records",
+      "summary": "The label sitting next to his Daptone shelf turns ten, and put the case for itself on two LPs.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Big Crown",
+        "note": "Big Crown Day runs in record shops worldwide today, with BCR10 following on 30 October — a 2LP retrospective with liner notes by Jeff Mao pulling together Lady Wray, Lee Fields, Bobby Oroza, El Michels Affair, Brainstory and Holy Hive. Surprise Chef are on it, which makes this the Melbourne connection as much as a New York one; their film-score piece is already in his archive. Leon Michels and Danny Akalepse founded the label in 2016, and this is the clearest single-purchase map of what it has been doing since.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://f4.bcbits.com/img/a3553007578_5.jpg",
+        "icon": "https://f4.bcbits.com/img/a3553007578_3.jpg"
+      }
+    },
+    {
+      "id": "99601967db5c5ca71fbd1964682b76785350a1ca6e1f5052e59ab6f4ef00342a",
+      "url": "https://beat.com.au/one-of-melbournes-most-infamous-dives-is-reopening-as-a-live-music-venue",
+      "title": "One of Melbourne's most infamous dives is reopening",
+      "summary": "A vinyl-led basement booking jazz, blues and soul every weekend, reopening in November.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat",
+        "note": "Ganley Group has taken the Snakepit — St Kilda's late-90s indie basement under the George on Fitzroy Street — and rebuilt it around a stage and a record bar, with Studio Y on the fit-out and Eleisha Gray styling. Jazz, blues and soul with DJs every weekend is a straight line to the Etta James and Oscar Peterson Trio end of the shelf. Southside, so it is a trip rather than a local, but the booking policy is the reason to make it.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://beat.com.au/wp-content/uploads/2026/10/es-1-8.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    },
+    {
+      "id": "047b6d358d4f0b41bdfe42e4a44f5bbcfec2010bab364d072d9f582f8eb73dbb",
+      "url": "https://beat.com.au/iconic-melbourne-is-getting-a-new-5000-capacity-live-music-venue",
+      "title": "Melbourne is getting a new 5,000-capacity live music venue",
+      "summary": "North Melbourne lands a purpose-built 5,000-cap room running over 100 nights a year.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat",
+        "note": "Live Nation's venue at Arden Central is the first room of that size built on the northside in years, and it sits between Brunswick and the city rather than across the river. No opening date announced, which makes this one to file rather than act on. The new entertainment precinct opening is already in his archive — this is the other half of Melbourne's current venue build-out.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://beat.com.au/wp-content/uploads/2026/10/es-1-6.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    },
+    {
+      "id": "9ec189806b66fe0a9c427bde1b56fd9885b81e54c2ac21e581b60959db4cc1a9",
+      "url": "https://www.pushsquare.com/news/2026/10/hit-co-op-game-peak-officially-confirmed-for-ps5-and-its-coming-very-soon",
+      "title": "Hit Co-Op Game Peak Officially Confirmed for PS5",
+      "summary": "A ten-dollar co-op survival climb with full crossplay, now out on PS5.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "Confirmed after an ESRB rating leaked it, and already live digitally at US$9.99 with every content update from the PC version included at launch. Full cross-platform multiplayer means it works with whoever he already plays Enshrouded with, on whatever they own — this is the cheap co-op slot rather than a AAA purchase. A physical edition is announced but undated.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://images.pushsquare.com/31aac8db0e754/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "6ebd1d9c1e374fbf83a55914fd9b8ab44805a52e52acc6a8acab7157b82e1525",
+      "url": "https://www.secretfanbase.com/banana/ventile-poplin-safari-jacket",
+      "title": "Banana Republic Ventile Poplin Safari Jacket",
+      "summary": "How to tell a 1984 Ventile safari jacket from the Willis & Geiger original it copied.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Abandoned Republic",
+        "note": "Vintage Banana Republic is one of his stated reference points, and this is the archive that makes actually buying one possible: the Ventile Poplin jacket debuted Fall 1984, made in Hong Kong, and is near-identical in design to the earlier Willis & Geiger \"Kenya Safari\" version — which you identify by the large Mill Valley label, not by the cut. The site documents the 1978–88 Travel & Safari catalogues, up to the point the Zieglers were pushed out and the illustrated catalogues stopped. Not a source this feed has used, and better on provenance than anything currently in it.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": null,
+        "icon": "https://www.secretfanbase.com/banana/wp-content/uploads/2021/04/cropped-digitizedCoatofBanananas-32x32.png"
+      }
+    },
+    {
+      "id": "9a03b7c96fef4b24e6c886f132a12c54b3180c22622334946392b375126891bb",
+      "url": "https://www.35mmc.com/23/10/2026/a-film-look-is-one-piece-of-the-puzzle-that-is-why-it-never-quite-works",
+      "title": "A film look is one piece of the puzzle",
+      "summary": "The person who built a film-emulation tool explaining why emulation still doesn't get there.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Christoph Klutsch made MINILAB, a browser tool that walks a digital file through the stages an analogue lab used to handle, with grain scanned from his own negatives — then wrote this to argue the result is only one piece of what film is. The comment thread is unkind, which is part of the value: the disagreement is about whether the look or the process is the point. He shoots the process, so the argument lands on his side of the question.",
+        "published_at": "2026-10-24T16:25:34.667Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/01-kontaktbogen-portra160.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    }
+  ]
+}
