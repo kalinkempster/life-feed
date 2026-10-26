@@ -1,0 +1,202 @@
+{
+  "day": "2026-10-27",
+  "ran_at": "2026-10-26T15:31:38.686Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "9a064d95901e645ea065cfa704b4762ef050dfe46763269ed9ec0fab35c9cee2",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "title": "Anthropic files S-1 with the SEC for proposed IPO",
+      "summary": "The lab whose models he uses daily is about to have public shareholders and quarterly disclosure.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Anthropic",
+        "note": "Filed today: a Form S-1 for a proposed listing on Nasdaq under the ticker ANT, with share count and price range still unset. The reason this matters beyond markets is the S-1 itself — a registration statement is the first time a frontier lab has to put revenue concentration, compute commitments and risk factors in writing for a regulator. Anything that changes the incentives of the companies shipping clinical-adjacent AI eventually reaches the tools that land in hospital software.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "icon": "https://www.anthropic.com/favicon.ico"
+      }
+    },
+    {
+      "id": "4a77c647ce3df95022b885636fd2824e2c4037eab68a3ab95eec0c7e94cd92a7",
+      "url": "https://www.abc.net.au/news/2026-10-26/paul-edbrooke-labor-mp-threat-bullet/107307762",
+      "title": "Labor MP threatened with etched bullet found on car",
+      "summary": "A second threat against a Victorian MP inside a week, with a state election weeks away.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Police are investigating a bullet left on Emergency Services Minister Paul Edbrooke's car, etched with the word 'RAT'. It lands six days after Helen Haines was struck outside her Wangaratta electorate office and is still at the Alfred, now serious but stable — so the pattern, not the single incident, is the story. Edbrooke's portfolio covers the ambulance service and the ED surge plans being argued over in the campaign.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/92e5fb6ea36ffdc5b94ab22706e526de?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=740&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "608d316cda2fd8c89031692d76d4612d4a87fb44fdb07aa1ed50250c4440703e",
+      "url": "https://www.stemlynsblog.org/e-scooter-injuries-children-and-safeguarding-st-emlyns",
+      "title": "E-scooter injuries, children and safeguarding",
+      "summary": "A head-injury pattern worse than motorcycles, in a patient group where the social history matters as much as the CT.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Carley works through a study putting the relative risk of traumatic brain injury in e-scooter riders at 3.45 times that of motorcycle injuries, which reframes a mechanism most of us still triage as minor. The safeguarding half is the harder half: who was riding, whose scooter it was, and whether an unhelmeted child on a borrowed e-scooter is a trauma call or a social one. Melbourne's share-scheme scooters make this a presentation he will keep seeing.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/10/E-scooters.epidemiology.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "799c7316824489a0199212d5206d7a4e90f86c61aa081dbb30366914e0781dd3",
+      "url": "https://emcrit.org/emcrit/precare",
+      "title": "Pre-PreCare: Prehospital ECPR with Sydney HEMS",
+      "summary": "An Australian feasibility trial for prehospital ECPR, discussed by the retrieval team actually running it.",
+      "date_published": "2026-10-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "Nat Kruit and Bri Burns come on to talk through the PRECARE feasibility trial, which is one of the few ECPR conversations grounded in ANZ retrieval logistics rather than a Minnesota cath lab. For a registrar whose arrests arrive by Ambulance Victoria rather than by helicopter, the interesting part is the selection criteria and the time arithmetic — what has to be true at the scene for cannulation to be worth attempting. Sydney HEMS is close enough to his system that the constraints transfer.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://emcrit.org/wp-content/uploads/2021/08/Wee-Logo.jpg",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "4784788a3638ccbcedceeb7ce1f6c9f803c4212bd64673a885eb0c101f075f58",
+      "url": "https://aquariumdrunkard.com/2026/10/26/willis-alan-ramsey-the-aquarium-drunkard-interview",
+      "title": "Willis Alan Ramsey :: The Aquarium Drunkard Interview",
+      "summary": "The man who made one great record in 1972 and then nothing, finally explaining himself.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Ramsey's self-titled debut is one of the genuine cult objects of early-'70s American songwriting, and the occasion here is a vinyl reissue plus his first talk of new material in fifty years. It sits squarely on the shelf he already owns — the Dylan, Van Morrison, Cat Stevens, James Taylor and CSNY end of the collection — and is the kind of record that only reaches you through writing like this. Published today.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/willis-copy.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "6d72260c852407fda0cb0aeefae27c2b084247caa1d5b42cbc03b367bfd904c1",
+      "url": "https://www.heddels.com/2026/10/mutimer-future-nostalgia-from-down-under",
+      "title": "Mutimer: Future Nostalgia from Down Under",
+      "summary": "Heddels finally turns its construction-first lens on the Melbourne label already on his list.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Roper profiles the label Jasper Mutimer founded in 2020, reading it as contemporary menswear with a healthy appetite for the past — which is the Heddels way of saying it will stand up to being looked at closely. Mutimer is one of the two modern Australian names in his brief, and this is the first time an outlet that cares about cloth and making has written it up rather than a drop calendar. Published yesterday.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "418c1397d329289ca83e59d54d87e6f7a18d08165dd8908dae46372357416ef6",
+      "url": "https://rebelem.com/crao",
+      "title": "Clinical Conundrum: Thrombolysis in CRAO?",
+      "summary": "Two RCTs have now undercut the stroke-pathway reflex for sudden painless monocular vision loss.",
+      "date_published": "2026-10-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "REBEL EM",
+        "note": "DiBello walks the evidence behind treating central retinal artery occlusion as a 'stroke of the eye', including TenCRAOS, which found no difference in vision recovery between tenecteplase and aspirin and one symptomatic intracranial haemorrhage in the lysis arm. The conclusion is that the risk outweighs an unproven benefit — which is the opposite of what most code-stroke pathways will prompt him to do at 3am. Worth reading before the next ophthalmology phone call, not after it.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://rebelem.com/wp-content/uploads/2026/08/thrombolysis-central-retinal-artery-occlusion-crao-rebel-em.jpg",
+        "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "ab59deae548761818cd366065da7dac75ed29beba81f4420fd059dab7838b32a",
+      "url": "https://massivelyop.com/2026/10/15/survivalbox-rpg-enshrouded-launches-into-its-glorious-1-0-release",
+      "title": "Enshrouded launches into its glorious 1.0 release",
+      "summary": "One of his two survival games left early access, and existing saves lose their skill trees.",
+      "date_published": "2026-10-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Massively OP",
+        "note": "The 1.0 release on 15 October takes Enshrouded out of early access on PC and PS5, raising both the level and gear caps to 55, opening the full Embervale map and the Cinder's Cradle biome, and overhauling mage combat. The detail worth knowing before he next loads in is that pre-existing saves have their skill trees reset. Xbox has slipped to spring 2027, which is irrelevant to him but explains the launch-week noise.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "1385aa536c84b14043208d253c2ac12ba9b4c06ec243dde4809dc0fb9126f069",
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6005264/stones-throw-30th-oral-history",
+      "title": "To Madvillainy and beyond: 30 years of Stones Throw",
+      "summary": "An oral history of the label whose A&R logic explains half the funk and soul on his shelves.",
+      "date_published": "2026-10-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "NPR",
+        "note": "Peanut Butter Wolf founded Stones Throw in 1996 on a diet of funk, soul and disco before hip-hop, and the piece traces the line from Lootpack and Madlib through Madvillainy to Knxwledge forming NxWorries with Anderson .Paak. That last connection is the one that touches his collection directly — .Paak sits a few sleeves from the Dap-Kings and Menahan Street Band, and this is the label that built the bridge between crate-digging and the modern soul revival he keeps buying. Told in the artists' and staff's own words rather than as a discography.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2158+0+2/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F84%2Fd3%2F2fa6feda4ccdb6888b0235de23b9%2Fstonesthrow2.jpg",
+        "icon": "https://media.npr.org/chrome/favicon/favicon-180x180.png"
+      }
+    },
+    {
+      "id": "2c36cd5f5d79de1f4e0ae27997cf5338d481b5b2f256f1923e50acf0b35595aa",
+      "url": "https://www.35mmc.com/26/10/2026/changing-ltm-cameras-to-m-mount-and-learning-camera-repair-part-1",
+      "title": "Changing LTM cameras to M mount, and learning repair",
+      "summary": "Someone machining a Zorki body on a cheap CNC engraver to answer a question nobody had answered.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Saruwatari set out to learn advanced repair and test whether an LTM-mount body could be converted to M mount, and chose a for-parts Zorki 4K to ruin in the process — aluminium and brass turn out to be soft enough for a budget engraver. The failures are reported as honestly as the wins: torn sprocket holes on one roll, an advance that stalled around frame three, a re-mirrored prism that fixed an unreadable rangefinder patch. This is camera writing about using and keeping the thing rather than acquiring it, and Part 2 is promised.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/DoneLeather.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "16347a3a316e4807c1b5a92939303f963a69e4a89b14876a6e726f691eab7748",
+      "url": "https://www.35mmc.com/22/10/2026/5-frames-with-a-minolta-cle-the-myth-of-the-straight-line",
+      "title": "5 Frames with a Minolta CLE — the myth of the straight line",
+      "summary": "Five frames used as an argument about how photographic progress actually feels, not a camera review.",
+      "date_published": "2026-10-22T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "The CLE is the compact aperture-priority rangefinder Minolta built on the M mount, and it is the sort of body that normally attracts specification writing rather than thinking. This one goes the other way: the camera is the occasion, and the subject is how work gets better in loops and plateaus rather than a line. A useful counterweight on a site that can tip into gear talk.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/15530003-scaled.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "65f0433daea7570923f1c5494943c2bf91d1782ac31cfd5b01b28071b9d673ec",
+      "url": "https://www.timeout.com/melbourne/news/melbournes-chapel-street-is-scoring-a-new-sri-lankan-restaurant-and-late-night-supper-club-102026",
+      "title": "A new Sri Lankan restaurant and late-night supper club",
+      "summary": "Agnii opened on Saturday, and the supper-club half is the part that suits a post-shift finish.",
+      "date_published": "2026-10-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Time Out",
+        "note": "Gayan Pieris, previously at Many Little in Red Hill, has taken 105 Chapel Street in Windsor and split it into a Sri Lankan dining room and a late-night supper club. It is the wrong side of town from Brunswick, which is the honest caveat — but late-night Melbourne that is neither a pub nor a kebab is thin on the ground, and a chef with that pedigree cooking Sri Lankan after midnight is worth the tram. Opened 24 October.",
+        "published_at": "2026-10-26T15:31:38.686Z",
+        "image": "https://media.timeout.com/images/106458970/image.jpg",
+        "icon": "https://www.timeout.com/static/root-files/favicon.ico"
+      }
+    }
+  ]
+}
