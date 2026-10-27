@@ -10451,5 +10451,183 @@
       "image": "https://media.timeout.com/images/106458970/image.jpg",
       "icon": "https://www.timeout.com/static/root-files/favicon.ico"
     }
+  },
+  {
+    "id": "e582ebff7b0ffb61d365fe16c4a4a9f8c501ee550443f24e3a599cccf91478a4",
+    "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means",
+    "title": "Import AI 478: Math for alignment; ProgramBench; Mirendil",
+    "summary": "Clark's clearest issue in a while on what recursive self-improvement looks like in practice rather than in argument.",
+    "date_published": "2026-10-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Import AI",
+      "note": "The Mirendil section is the one to read: a cold-start organisation reaching near the open-weight frontier with little human effort, which is the concrete version of the abstraction Clark has been circling for a year. ProgramBench going from 0% to 20% inside a year is the other number worth carrying around, and it follows the RSI thread from Import AI 476 already in the feed.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": "https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/10/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-IAEEMa.png?fit=258%2C258&",
+      "icon": "https://s0.wp.com/i/webclip.png"
+    }
+  },
+  {
+    "id": "896842f3937b7d6d542dc693752bf91d8346cab9899615612ce8197d1228c2c5",
+    "url": "https://www.analogplanet.com/content/analogue-productions%E2%80%99-180g-45rpm-4lp-vinyl-reissue-buena-vista-social-club-where-outstanding",
+    "title": "Analogue Productions' 45rpm 4LP Buena Vista Social Club",
+    "summary": "A record already in the collection, broken out to four 45rpm sides, with Smotroff's account of what that actually buys you.",
+    "date_published": "2025-03-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "Mark Smotroff scores the music 11 and the sound 10, and the useful part is the comparison he draws against the 1997 CD: more presence, studio air and definition across the whole set. Reissue announcements are usually noise, but this is the one exception the brief allows, since the record is on the shelf and the question is whether a $120 four-disc cut is worth owning twice.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "169f8891e7bdbffdd1fa596ea54e49025a615223e332a72565fc894910468401",
+    "url": "https://thesgem.com/2026/10/sgem524-high-high-hope-for-recovery-alteplase-between-4-5-and-24-hours",
+    "title": "SGEM#524: High, High HOPE for Recovery",
+    "summary": "A structured appraisal of the HOPE trial on thrombolysis out to 24 hours, with the sICH signal kept in view.",
+    "date_published": "2026-10-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "The SGEM",
+      "note": "HOPE gave IV alteplase to perfusion-selected stroke patients between 4.5 and 24 hours, and Ken Milne's guest skeptic lands on highly selected, open-label, more symptomatic intracranial haemorrhage. That matters because the extended-window question arrives in the ED as pressure to treat, not as a journal club, and TIMELESS already failed its primary outcome in the same window.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": null,
+      "icon": "https://i0.wp.com/thesgem.com/wp-content/uploads/2019/01/cropped-SGEM-Logo.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "b531153fb61f1de945c7e4a30b624e81b58dcf18c54bf53847ce1e936618c507",
+    "url": "https://www.analogforevermagazine.com/features-interviews/15-film-photographers-reframing-landscape-photography-2026",
+    "title": "15 Film Photographers Reframing Landscape Photography",
+    "summary": "Fifteen photographers working landscape on film, selected for the pictures rather than the gear behind them.",
+    "date_published": "2026-01-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Analog Forever",
+      "note": "Elizabeth Flinsch's throughline is landscapes where human presence has thinned or vanished, reached through double exposure, expired stock, solarisation and pinhole rather than through sharpness. John Toohey's frames of rubbish in the Lancelin dunes in Western Australia are the local entry point, and Analog Forever is a source this feed has not used before.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": null,
+      "icon": null
+    }
+  },
+  {
+    "id": "507a6435bc07c7fd583c26937eb639343b505fef9f7defa6f971b832bfc93283",
+    "url": "https://www.songlines.co.uk/content/features/hermanos-gutierrez-los-ojos-del-condor-is-a-love-letter-to-our-roots",
+    "title": "Hermanos Gutierrez: a love letter to our roots",
+    "summary": "The brothers explain why the seventh record traded the desert for the Andes, and why a charango finally appears on one.",
+    "date_published": "2026-09-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Songlines",
+      "note": "A photograph of their Swiss father at Machu Picchu in the 1970s is what sent them to South America for Los Ojos del Condor, and Alejandro's charango is the first time the instrument has made one of their records. Worth reading against the Hermanos Gutierrez already on the shelf, where the sound is Sonoran rather than Andean, and against Auerbach's Easy Eye production of both.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": "https://www.songlines.co.uk/media/jmsi1ci0/hermanos-gutie-rrez-1.png?width=1002&height=564&v=1dd4775ccc41090",
+      "icon": "https://www.songlines.co.uk/media/xbclpl0d/songlines-favicon.png"
+    }
+  },
+  {
+    "id": "b70c772408d5818daa2e15b49aed188f16d1b13d856ef9b0df2fe51943565971",
+    "url": "https://www.analogforevermagazine.com/features-interviews/marcus-ubungen-altadena",
+    "title": "Interview: Marcus Ubungen, \"Altadena\"",
+    "summary": "A photographer who lost his house, his cameras and his archive to a fire, then went back with an 8x10 and Portra.",
+    "date_published": "2026-03-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Analog Forever",
+      "note": "Ubungen considered digital and medium format and chose 8x10 precisely because the process is slow and deliberate, which is the opposite instinct to the one disaster usually produces. He now keeps one camera per format and funds the work by selling prints, and the project exists because the news coverage of the Eaton Fire thinned out long before the street did.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": null,
+      "icon": null
+    }
+  },
+  {
+    "id": "55ec0c13a6c8ea9a9517da875282122bedbbf8676964eb6447c575f0f3f156b0",
+    "url": "https://www.permanentstyle.com/2025/12/the-origins-of-tweed-patterns-scottish-estates-and-district-checks.html",
+    "title": "The origins of tweed patterns: estates and district checks",
+    "summary": "Why a tweed looks the way it looks: shepherd's check first, then estates inventing patterns to uniform their staff.",
+    "date_published": "2025-12-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Permanent Style",
+      "note": "This is provenance rather than product, tracing district checks to Victorian families renting Scottish estates and needing their keepers identifiable at distance. It is the background that makes a Woolrich or Pendleton pattern legible as something other than decoration, and it reads better than the Introducing posts that make up most of Permanent Style's recent run.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "dfdfa9850f8ab2fe8af82e4cf1e64c85256b496323e5b3d22954cd59bb72fac0",
+    "url": "https://daily.bandcamp.com/album-of-the-day/parlor-greens-emeralds-review",
+    "title": "Parlor Greens, \"Emeralds\"",
+    "summary": "The Colemine organ trio's second record, cut with no overdubs and no click track, sitting right next to the Daptone shelf.",
+    "date_published": "2026-03-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Bandcamp Daily",
+      "note": "Tim Carman, Jimmy James and Adam Scone were assembled by Colemine's Terry Cole, and they deliberately pull toward soul jazz and boogaloo rather than the funk end most current organ trios chase. If Menahan Street Band, Thee Sacred Souls and Sharon Jones are in the collection, this is the same room with a Hammond at the front, and Colemine only surfaces about every six weeks.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": "https://f4.bcbits.com/img/0043670132_16.jpg",
+      "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "2913454998a0dfa5b33d93803a85e508440f05632e857b6237e8e1781c8db090",
+    "url": "https://www.pushsquare.com/news/2026/10/ps5s-release-schedule-is-insane-next-week-and-its-just-added-another-must-play",
+    "title": "PS5's Release Schedule Is Insane Next Week",
+    "summary": "Four PS5 releases land inside three days, with Mouthwashing the one added late to an already crowded week.",
+    "date_published": "2026-10-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "Phantom Blade Zero and Mouthwashing both arrive 29 October and Look Outside on the 30th, which is the dated platform detail the usual roundups leave out. Useful as a buying decision rather than coverage, given Hunter's Moon only just landed on the 25th and the Enshrouded 1.0 save is still open on the PC side.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": "https://images.pushsquare.com/24ee693c29983/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "86cd9fe59e6359e44032b62f09a970748ef69efcbcf5fc67e534f74881ca3921",
+    "url": "https://emcrit.org/emnerd/neuromuscular-blockade-ards",
+    "title": "FGEBM 004: Neuromuscular Blockade in ARDS",
+    "summary": "Rory Spiegel reopens the paralysis-in-ARDS question, which is the one ventilator decision a registrar gets asked to justify at handover.",
+    "date_published": "2026-10-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "Published on EMCrit's EMNerd strand on 26 October, this walks the ACURASYS-versus-ROSE problem rather than restating either trial's abstract. It is the argument you need when the intensivist asks why the patient is or isn't paralysed, and it pairs directly with the ARISE FLUIDS and ARDS material already in the feed.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/07/fgebm-Field-Guide-to-EBM-Banner-750x300.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "07c64ddaa0f1ffc230210478ec9c4ca5b4681325d1bbaf01c65201b51caaeb86",
+    "url": "https://concreteplayground.com/melbourne/shopping/fino-books-fitzroy-north-2",
+    "title": "Now Open: Fino Books, a North Fitzroy Bookshop",
+    "summary": "A new independent bookshop on St Georges Road that opened yesterday, running poetry nights and writers' workshops.",
+    "date_published": "2026-10-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Concrete P'ground",
+      "note": "222 St Georges Road puts it a short walk from Suze and the rest of the Fitzroy North strip, in a stretch that has had plenty of wine bars open and almost no retail. The programming is the part that makes it worth a detour rather than a browse: poetry nights, story time and workshops rather than just shelves.",
+      "published_at": "2026-10-27T15:30:07.325Z",
+      "image": "https://cdn.concreteplayground.com/content/uploads/2026/10/01-fino-books-supplied-1.jpg?webp=false",
+      "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
+    }
   }
 ]
