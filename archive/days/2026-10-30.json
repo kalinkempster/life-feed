@@ -1,0 +1,217 @@
+{
+  "day": "2026-10-30",
+  "ran_at": "2026-10-29T15:43:47.812Z",
+  "published": 13,
+  "dropped": [],
+  "items": [
+    {
+      "id": "670bdc25a85edb1886da1f719bac36991fe8a3da8fa4b2fd98f124747c57fd2d",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+      "title": "GPT-6.1 Terra",
+      "summary": "A frontier model release where the headline number is the price, not the benchmark.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "Willison puts GPT-6.1 Terra at $1 per million input tokens and $5 per million output — close to half what GPT-5.6 Terra cost. Cost per token is the variable that decides whether a model is usable for bulk, unglamorous work like chewing through notes or triaging free text, so a halving changes more in practice than a leaderboard place does.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "b512557faf5fd1bcf7178c809f5b6e970d9e0fb1efc52b40d13cf5d7fdf9f411",
+      "url": "https://first10em.com/an-rct-of-heparin-in-stemi",
+      "title": "An RCT of heparin in STEMI",
+      "summary": "Morgenstern appraises a trial in which both arms got the same heparin bolus and only the timing changed.",
+      "date_published": "2026-09-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "First10EM",
+        "note": "Prehospital heparin in STEMI is usually settled by ambulance protocol rather than evidence, and Fister 2026 found no bleeding difference between early and later dosing. The appraisal is worth more than the result here: because both groups received the identical bolus, this is a trial about timing, not about heparin, and Morgenstern is explicit about what that does and does not license you to change.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://first10em.com/wp-content/uploads/2019/08/Heparin-STEMI-evidence-First10EM-e1777328102408.jpg",
+        "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+      }
+    },
+    {
+      "id": "6cc67050e4d60998fb9e3465069d7ef7e8df7c0159df46835af044d87cbc0372",
+      "url": "https://afro.who.int/countries/kenya/news/twenty-contacts-kenyas-first-ebola-case-released-quarantine",
+      "title": "Twenty contacts of Kenya's first Ebola case leave quarantine",
+      "summary": "The Kenyan Bundibugyo cluster looks contained, which is the only good number in an outbreak that is still accelerating in DRC.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO Africa",
+        "note": "Kenya is holding at nine confirmed cases with no evidence of spread outside the original linked cluster, while DRC stood at 9,704 confirmed cases and 4,687 deaths across 66 health zones as of 20 October. Nigeria confirmed an imported case the same day. For an Australian ED the live question is screening logic — which travel histories matter, over what window, and what an imported viral haemorrhagic fever actually looks like at triage.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://afro.who.int/sites/default/files/styles/social_1200x630/public/2026-10/DSC08845.jpg.jpeg?itok=IJYVr4TB",
+        "icon": "https://afro.who.int/themes/who26/favicon.svg"
+      }
+    },
+    {
+      "id": "7beefc21cc6d7b6cf89eeb64e668ce944f9b0b9d2d681a72a043c91b35b197a7",
+      "url": "https://emcrit.org/emcrit/everdac",
+      "title": "EMCrit Wee: the EVERDAC arterial line RCT",
+      "summary": "The first randomised trial to ask whether putting an arterial line in a shocked patient changes anything.",
+      "date_published": "2025-12-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit",
+        "note": "EVERDAC (NEJM 2025;393:1875-88) randomised early versus deferred arterial catheterisation in acute circulatory failure, and Weingart's position is that nobody who thought about it expected a mortality benefit. His caveat is the useful part for anyone being asked to justify a line: non-invasive blood pressure frequency in the control arm was left to the treating team and never reported anywhere in the supplements.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://emcrit.org/wp-content/uploads/2025/12/EVERDAC-750x500.png",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "a78b5d7b455ae344e69615bcfcb7adbeb1af6694bdcc84ab315b343e8e830fc2",
+      "url": "https://www.35mmc.com/28/10/2026/5-frames-with-the-plaubel-makina-67",
+      "title": "5 Frames with the Plaubel Makina 67",
+      "summary": "A folding 6x7 rangefinder that collapses small enough to actually carry, written up after getting one repaired.",
+      "date_published": "2026-10-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "The Makina 67 is the standing answer to the medium-format compromise: a full 6x7 negative from a body that folds flat, with a fixed 80mm Nikkor on bellows. Jack Schad's frames come after a restoration, which is the honest version of this camera's story — every surviving example is old enough to need work, and the bellows are the usual casualty.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/404B5F5C-81CF-4274-BE83-29C64E86A37E.jpeg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "6a82e719cf3e7c4bb8c9bcef97e0301dc49d5ac47251c59db916714407623ed4",
+      "url": "https://www.heddels.com/2014/12/definitive-buyers-guide-m-65-field-jackets",
+      "title": "What is an M-65 Jacket? Buyers Guide for M-65 Field Jackets",
+      "summary": "The field jacket pulled apart generation by generation, so a surplus rack stops being a lottery.",
+      "date_published": "2014-12-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The M-65 sits at the same end of the wardrobe as the Woolrich and Pendleton reference points — military provenance, honest construction, and reproduced badly more often than well. Heddels walks the contract variations, the liner systems and the markings, which is the knowledge that lets you date a jacket on a Savers rail instead of guessing at it.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "5d2acee65acc0937bf226aefb04f6cec39e41ec139005ec2820773c21a7922b7",
+      "url": "https://daily.bandcamp.com/album-of-the-day/josh-johnson-animative-review",
+      "title": "Josh Johnson, \"Animative\"",
+      "summary": "Loop-pedal saxophone built like electronic music rather than like a jazz record.",
+      "date_published": "2026-10-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Bandcamp Daily",
+        "note": "Britt Robson reads Johnson's third album as ten pieces constructed out of rhythm, timbre and structure instead of heads and solos, with piano turning up on exactly one track. It belongs on the shelf where Tom Misch, KAYTRANADA and berlioz already sit — instrumental records that work as rooms rather than as showcases — and it is the jazz end of that same instinct.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://f4.bcbits.com/img/0048139808_16.jpg",
+        "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "456a6dd5a29ec48bb72b721694e904a1b1feee3e01731568d55f6c74b363bdf0",
+      "url": "https://www.35mmc.com/27/10/2026/5-frames-from-images-in-hiding",
+      "title": "5 Frames From Images in Hiding",
+      "summary": "Developing the rolls left inside secondhand cameras, and how much of a latent image survives decades of neglect.",
+      "date_published": "2026-10-27T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Richard Becker has found undeveloped film in bought cameras before and never got anything off it; this time a 120 roll and an old Verichrome Pan gave up a handful of usable frames. It is the best practical argument for buying a camera with film still in it, and a useful calibration on how far a latent image degrades before there is nothing left to recover.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/10/20261012_6937.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "926defbe890f59e6c06f8ddcbdbb9d573b9d5b5236029fcdfa4fb7d6e284d11e",
+      "url": "https://drsmithsecgblog.com/pneumonia-hypotension-and-large-rv-on-bedside-ultrasound-how-to-avoid-the-right-sided-death-spiral",
+      "title": "Pneumonia, hypotension, and a large RV on bedside ultrasound",
+      "summary": "A hypoxic pneumonia patient with a dilated right ventricle on bedside echo, and why a clean CTPA does not close the case.",
+      "date_published": "2026-10-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "Dr Smith's ECG",
+        "note": "The views in this case are the ones CCPU drills — RV size and the S1Q3T3 pattern that goes with it — and the CT pulmonary angiogram came back negative. Smith's argument is that anything acutely raising pulmonary vascular resistance causes right heart strain, hypoxia included, so acute strain is not a synonym for PE. The tall R wave in V1 on the repeat ECG is the detail that separates chronic RV hypertrophy from the acute version.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/10/Shock-sent-by-LP-first-ECG-slightly-different-ARHS-99.7-1024x472.png",
+        "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+      }
+    },
+    {
+      "id": "5c750d0e599af32eb3217a63b13fd6191b2cd69d7a9e2020e03f7ae57cd01fc0",
+      "url": "https://www.pushsquare.com/news/2026/10/gta-6-ps5-file-size-has-been-reported-and-its-an-absolute-monster",
+      "title": "GTA 6 PS5 File Size Has Been Reported, and It's a Monster",
+      "summary": "210GB on PS5 with preload from 12 November, which means clearing space is now a dated task.",
+      "date_published": "2026-10-27T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "That is roughly a third of the PS5's usable SSD and about double Red Dead Redemption 2, before any day-one patch lands on top of it. Launch is 19 November with preload opening on the 12th, and there is no disc release at all, so the download is the only way in — the deletions need to happen before preload, not after.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://images.pushsquare.com/efc10a10f718f/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "041deb6ff3f521e2053b49e23eb60b655c470d78c2c65161e49f59db16c9a4db",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/blackhearts-sparrows-fitzroy",
+      "title": "Blackhearts & Sparrows Opens a New Fitzroy Store",
+      "summary": "A bottle shop you are allowed to sit down in, in the old Slowbeer room on Smith Street.",
+      "date_published": "2026-02-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "The Ghaie siblings took 351 Smith Street with its liquor licence intact, so the site works as retail and as somewhere to stay for a glass and a snack without committing to a wine bar. Open to 8pm midweek and 9pm Friday and Saturday, which is the gap it fills on the Smith Street end of a northside evening.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/02/16/Blackheart&S_@hellopablodiaz_Feb26-4-81d77ddb50.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    },
+    {
+      "id": "2f08165af84c71c6e4bc40478c47c4fdd354218513c393f4e830d11b1ef25943",
+      "url": "https://www.thesixthaxis.com/2026/10/24/enshrouded-is-now-steam-deck-verified",
+      "title": "Enshrouded is now Steam Deck verified",
+      "summary": "Valve certified the 1.0 build, which changes where Enshrouded can be played rather than what is in it.",
+      "date_published": "2026-10-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "TheSixthAxis",
+        "note": "Keen Games confirmed Verified status on 23 October, eight days after 1.0 left early access on PC and PS5. It pairs with the one thing 1.0 actually added — Sparkworks, the logic system for traps, puzzles and triggered encounters — since the base-building half of the game is the part that suits a handheld session. Returning players should expect their skill trees reset on first 1.0 load regardless of platform.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://www.thesixthaxis.com/wp-content/uploads/2026/10/Enshrouded-Hero-500.jpg",
+        "icon": "https://www.thesixthaxis.com/favicon.ico"
+      }
+    },
+    {
+      "id": "e59de6242c5e5bf404011ae98d00a3e969cd272c28d82d9ae97f87459597ab19",
+      "url": "https://concreteplayground.com/melbourne/design-style/the-social-studio-fitzroy",
+      "title": "The Social Studio's Next Chapter Starts on Brunswick Street",
+      "summary": "A clothing retailer where the garments are made behind the counter, now reopened at 229 Brunswick Street.",
+      "date_published": "2026-10-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Concrete Playgrnd",
+        "note": "The Social Studio trains and employs people from refugee and migrant backgrounds and runs a working garment room alongside the shopfront, which makes it a rarity in Melbourne retail — construction on site rather than a container load. Fitzroy puts it inside the usual northside loop, and it is the kind of place worth going to for the making as much as the rack.",
+        "published_at": "2026-10-29T15:43:47.812Z",
+        "image": "https://cdn.concreteplayground.com/content/uploads/2026/10/the-social-studio-fitzoy-supplied-credit-benjamin-thomson-2.jpg?webp=false",
+        "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
+      }
+    }
+  ]
+}
