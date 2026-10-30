@@ -1,0 +1,203 @@
+{
+  "day": "2026-10-31",
+  "ran_at": "2026-10-30T15:32:42.371Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "81c0c491e257d66ad7167c779af4bac2d036adf3eb7ab684240343cc659373aa",
+      "url": "https://www.aliem.com/trick-trade-taco-exit-strategy-heat-stroke",
+      "title": "Trick of the Trade: Exiting TACO Cooling in Heat Stroke",
+      "summary": "A practical fix for the awkward half of tarp cooling — stopping without overshooting the patient into hypothermia.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "ALiEM",
+        "note": "Tarp-Assisted Cooling with Oscillation is the improvised answer to severe hyperthermia when there is no immersion tub in the department, which is most departments. Everything written about it covers getting the slurry in; this covers getting it out, using gravity to drain so cooling stops at target instead of chasing the core down past 35. Worth reading before the first 40-degree day rather than during it.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "5bc510bddce24acbadd6342f7babc6040682a6682ff51e1a361f1e7da0463ff7",
+      "url": "https://www.croakey.org/health-sector-urged-to-defend-treaty-as-victorian-election-approaches",
+      "title": "Health sector urged to defend Treaty as Victorian election nears",
+      "summary": "Jill Gallagher's argument that Victoria's health organisations have gone quiet on something that lands on their own patients.",
+      "date_published": "2026-10-30T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Croakey",
+        "note": "Victoria's is the first Treaty process in the country, and Gallagher's charge is that mainstream health bodies — colleges, hospitals, peak groups — have said almost nothing about it going into the election. For a department that sees the downstream of the access gap on every shift, the silence is the story rather than the politics. Croakey is close to the only outlet covering this from inside the health sector instead of from the press gallery.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "a4e713c46348c8f30c057e4ee8a31d9af42418c0f929ffd41eddd2163bdeef1e",
+      "url": "https://simonwillison.net/2026/oct/28/vibe-game-development",
+      "title": "The October inflection point for vibe game development",
+      "summary": "Willison's claim that building playable games crossed a capability line this month, with Opus 5.5 as the specific example.",
+      "date_published": "2026-10-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "He called November 2025 the inflection point for coding agents and was broadly right, which makes a second call worth weighing rather than waving off. The argument is not that the code got better but that the model is now adequate at the several things a game needs at once — state, feel, art direction. Useful as a calibrated read on where the capability curve actually sits, and it sits next to the games he plays rather than abstractly.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "e7fec9e1b77ba4281dd9048404abf7fa549bc78b5a5dce602d9f142861260854",
+      "url": "https://www.tamingthesru.com/blog/grand-rounds/recap-1026",
+      "title": "Grand Rounds Recap: M&M and Post-MI Free Wall Rupture",
+      "summary": "An M&M case where the diagnosis came from the autopsy, not the resuscitation.",
+      "date_published": "2026-10-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Taming the SRU",
+        "note": "The index case is an elderly man found in asystole whose death traced back to free wall rupture after an infarct he had earlier left hospital against advice to avoid — and the discussion turns on whether the rupture happened before CPR or because of it. Cincinnati's morbidity and mortality write-ups are unusually willing to publish the parts that went wrong. The same session also carries a clinicopathological conference on massive and submassive PE and a lecture on fluid resuscitation.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1438709457347-VA9D4R3HFQ1UTVKS53PW/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "c12b80ed7c28503a7330d29024a88ec91c8e57b74bc0293655d54241744eda44",
+      "url": "https://aquariumdrunkard.com/2026/10/29/sam-gendel-advanced-white-trash",
+      "title": "Sam Gendel :: Advanced White Trash",
+      "summary": "The case for Gendel's cheapest, most disposable-sounding record being the one that stays on the platter.",
+      "date_published": "2026-10-29T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Gendel is Josh Johnson's closest collaborator, and the Johnson album that went into the feed this week comes out of the same Los Angeles circle of players who treat the saxophone as texture rather than lead voice. This one pushes further into lo-fi and hypnotic, which the review frames as the point rather than a compromise. A sensible next step from the Khruangbin and Glass Beams end of the shelf.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/Advanced-White-Trash.jpeg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "65c5b404f28e0b59c392c63a19a89052f38ec26d28406d60aef2cff86f185e4f",
+      "url": "https://shootitwithfilm.com/a-closer-look-at-400-speed-film",
+      "title": "A Closer Look at 400-Speed Film: Fuji, UltraMax, Lomography",
+      "summary": "A side-by-side of the three cheap 400 colour stocks you actually end up buying, shot rather than spec-sheeted.",
+      "date_published": "2026-10-30T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Shoot It w/ Film",
+        "note": "Fujifilm 400, Kodak UltraMax 400 and Lomography 400 are the stocks still on shelves at a price that lets you shoot without rationing, and they are different enough in colour and grain to matter. Katya Rowny puts them against each other in frames instead of describing them, which is the only way this comparison is worth anything. The practical reference for deciding what to put through the camera on a normal weekend.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/10/400-Speed-Film-Fujifilm-400-Kodak-UltraMax-Lomography-400-by-Katya-Rowny-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "6d6962b4fbdf1e98f495ab902f0aff50d5362ee19ebfbf5bbea28a9e8ddb43f7",
+      "url": "https://emcrit.org/ibcc/cbc",
+      "title": "Interpreting the complete blood count with differential",
+      "summary": "Farkas on the one test ordered on nearly every patient and interpreted with the least care.",
+      "date_published": "2026-05-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EMCrit IBCC",
+        "note": "The Internet Book of Critical Care splits each chapter into a clean reference page and a separate discussion page, which makes this usable as a bedside lookup rather than a read-once blog post. It goes well past \"white cells up\" into what the differential and the red-cell indices actually buy you diagnostically. Sits alongside the IBCC venous-gas and PE chapters already in the feed.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://emcrit.org/wp-content/uploads/2026/05/celltypes2.jpg",
+        "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+      }
+    },
+    {
+      "id": "3fb4cfbb546555573980d53b7a1b5a4a99f7321372d987e53f78e935355ea9f7",
+      "url": "https://www.abc.net.au/news/2026-10-28/ambulance-victoria-paramedics-abusive-patients-labor/107318822",
+      "title": "Labor vows to make abusive patients pay for ambulance rides",
+      "summary": "An election promise that would change who pays when a patient assaults the crew bringing them in.",
+      "date_published": "2026-10-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Ambulance Victoria crews are the people who hand him patients, and the union backing this cites rates of threats and assaults that already shape how jobs get triaged, escorted and handed over. Whether billing aggressive patients is workable policy or a campaign line, it marks where the state is heading on occupational violence with the 28 November election close. The sort of thing that turns up months later as a new form at triage.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/43ca35de13ad5734e0ab54353a359de8?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "9374bd1960491b72947596fa5ec43c840903d9467a5100357ea39a26f5f3d885",
+      "url": "https://massivelyop.com/2026/10/28/co-op-survivalbox-aloft-ties-down-1-0-release-and-arrival-on-playstation-5-in-early-2027",
+      "title": "Co-op survivalbox Aloft locks 1.0 and PS5 for early 2027",
+      "summary": "A sky-island survival co-op finally dating its full release, and landing on PS5 rather than staying PC-only.",
+      "date_published": "2026-10-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Massively OP",
+        "note": "Astrolabe has committed to early 2027 for both the 1.0 and the PlayStation 5 version, which puts Aloft in the same slot Enshrouded occupied before its October launch. Floating-island building with weather you have to sail around is a different enough loop from Dragonwilds and Enshrouded to be worth a look rather than a third go at the same game. Massively OP is the one outlet that tracks survival-game roadmaps as news instead of as review bait.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "0f307e4ccfa02667f1d6749a0beca9d9c8532e80675ac50be10e441323125d01",
+      "url": "https://shootitwithfilm.com/vietnam-travel-essay-by-antoine-dupierre",
+      "title": "Vietnam Travel Essay by Antoine Dupierre",
+      "summary": "A travel body of work carried by the pictures rather than the gear list behind them.",
+      "date_published": "2026-10-28T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Shoot It w/ Film",
+        "note": "The site's essay format gives a photographer room to run a sequence and say why it holds together, which is the half of film photography that technique posts never reach. Worth reading as a set rather than a scroll — the discipline of a roll-limited trip shows in the editing. The counterweight to a feed that otherwise tilts toward emulsions and cameras.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/10/Vietnam-Travel-Essay-by-Antoine-Dupierre-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "e841453b41c021e827b7b60bfc3aaef59b0aa2e0bfc636c54346a7edd0d4c9d0",
+      "url": "https://www.stitchdown.com/stitchdown-shoecast/brian-davis-wooden-sleepers-vintage-boots-workwear",
+      "title": "Brian Davis of Wooden Sleepers on Why Everything We Buy Sucks",
+      "summary": "Ninety minutes with the person who has handled more good vintage American workwear than almost anyone selling it.",
+      "date_published": "2024-11-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Stitchdown",
+        "note": "Wooden Sleepers is the shop that defined the military-outdoors-Ivy-workwear edit that RRL and vintage Banana Republic are both reaching back toward, and Davis went from Etsy in 2010 to Red Hook to online-only. The useful part is his read on which materials actually age and which are engineered to look aged, plus an honest account of where the vintage market has priced itself. Long, but it is the construction-and-provenance argument made by someone who sorts the stuff by hand.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": "https://www.stitchdown.com/wp-content/uploads/2024/11/brian_davis_wooden_sleepers_on_the_shoecast-scaled.jpg",
+        "icon": "https://stitchdown.wpenginepowered.com/wp-content/uploads/2019/06/cropped-Stitchdown_icon_browser_PNG-32x32.png"
+      }
+    },
+    {
+      "id": "9b76a61e03c26387068cd4c70c9562a7bda289084ebcc7ea00e763c710f64762",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-98-lygon-delivers-french-bistro-classics-and-serious-hospo-pedigree",
+      "title": "A New Brunswick East Bistro with an Ex-Builders Arms Chef",
+      "summary": "A short walk up Lygon Street for gougères, steak frites and a wine list that stays local.",
+      "date_published": "2025-05-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "98 Lygon took over the old Maggie's site in Brunswick East and kept most of the fitout, stripped back a notch, with Ben Clark and Simon Aukett running it and a head chef out of the Builders Arms kitchen. The menu is deliberately short — bistro classics done properly rather than a long list done adequately. Not a new opening, which is the point: it has had time to settle into being good, and it is close enough to be a weeknight rather than an occasion.",
+        "published_at": "2026-10-30T15:32:42.371Z",
+        "image": null,
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
