@@ -11391,5 +11391,183 @@
       "image": "https://cdn.concreteplayground.com/content/uploads/2026/10/live-nation-arden-central-supplied-1.jpg?webp=false",
       "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
     }
+  },
+  {
+    "id": "fcee7fe2ae9bec9bd7c9392d182e7de470382ba1d3e33c135bb1a16c6fc312b9",
+    "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
+    "title": "Anthropic officially files for its public debut",
+    "summary": "The first time the company behind Claude has had to show its actual numbers, and they are strange ones.",
+    "date_published": "2026-10-26T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "TechCrunch",
+      "note": "The S-1 puts revenue at $16.3 billion for the first half of 2026 against a very large loss, and hands the seven co-founders 50.1% of voting power through a \"Founder LLC\" — a governance structure worth understanding given how much hospital and research tooling now runs on these models. Listing on Nasdaq as ANT. The feed has followed Anthropic's model releases and the drug-development work; this is the financial substrate underneath them.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+      "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32"
+    }
+  },
+  {
+    "id": "868b22cf52336bc81dc8238021f314c55d9e48f6ae72aeb52a1774eae9b40273",
+    "url": "https://thesgem.com/2026/10/sgem-paper-in-a-pic-524",
+    "title": "SGEM Paper in a Pic #524: alteplase at 4.5 to 24 hours",
+    "summary": "The extended thrombolysis window, compressed into one page you can actually hold in your head at handover.",
+    "date_published": "2026-10-30T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "The SGEM",
+      "note": "HOPE sits on the question of whether alteplase still earns its risk beyond 4.5 hours, and the window is where stroke pathways are currently moving fastest. The Paper in a Pic format is the appraisal stripped to the numbers and the caveats, which makes it the version you can carry into a conversation with the stroke team. Milne's structured skepticism is the point, not the headline.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": null,
+      "icon": "https://i0.wp.com/thesgem.com/wp-content/uploads/2019/01/cropped-SGEM-Logo.png?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "087846f9d04d0ef3cd9cbb0b597bd434caf779229972765d25aa7b068a55d54b",
+    "url": "https://emergencymedicinecases.com/episodic-vertigo",
+    "title": "Ep 224 Vertigo Part 1: Approach to Episodic Vertigo",
+    "summary": "Peter Johns on why HINTS is the wrong test for the episodic dizzy patient, and what to do instead.",
+    "date_published": "2026-10-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EM Cases",
+      "note": "Katie Lin, Peter Johns and Elisha Targonsky build a four-step timing-and-triggers approach, with Dix-Hallpike rather than HINTS as the bedside test for episodic presentations. The key correction is that HINTS was validated for acute continuous dizziness with nystagmus at rest and throws false positives in BPPV — a trap worth closing before the next shift. Sits alongside the EMCrit vertigo titration episode already published.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://emergencymedicinecases.com/wp-content/uploads/2026/10/Vertigo_-Episodic-Approach-Part-1_Featured-Image.png",
+      "icon": "https://emergencymedicinecases.com/wp-content/uploads/2016/07/EM_Cases_Logo_16.png"
+    }
+  },
+  {
+    "id": "74ff33b10051b9e5f38dce4be49d10e94f63042268625705c84c5c9d3a6bb22b",
+    "url": "https://www.salon.com/2026/10/23/michael-kiwanukas-fudge-is-a-treat-not-to-be-missed",
+    "title": "Michael Kiwanuka's \"Fudge\" is a treat not to be missed",
+    "summary": "A library artist's fifth record, self-produced, and made before the stroke he is still recovering from.",
+    "date_published": "2026-10-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Salon",
+      "note": "Kiwanuka is on the shelf already, and Fudge is the first album in thirteen years he has produced without Danger Mouse and Inflo — Dom Monks and Rosie Danvers instead. He recorded it before suffering a brain bleed earlier this year and does not yet know when he can tour, which gives the record's \"optimism and playfulness\" framing an odd weight. Worth knowing before the pressing sells through.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://www.salon.com/app/uploads/2026/10/Kiwanuka-GettyImages-2204439895.jpg",
+      "icon": "https://www.salon.com/app/themes/salon/assets/img/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "50582d3d4664100a8d0504d73bd830603d5a3d9897ae4ab31321e6b6747b42f3",
+    "url": "https://www.heddels.com/2026/10/moredocks-marks-return-of-american-selvedge-with-mount-vernon-mills",
+    "title": "Moredocks marks return of American selvedge with Mount Vernon Mills",
+    "summary": "The White Oak Draper X3 looms are weaving commercially again, and this is the first garment off them.",
+    "date_published": "2026-10-28T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "This is the provenance story the topic exists for: the same shuttle looms that left Cone Mills' White Oak plant when it closed in 2017, passed through Vidalia, and have now landed permanently in Trion, Georgia — 13.75oz, sanforized, 100% cotton, $425 on preorder. Mount Vernon's president saying the looms will never leave Trion is the line that matters for anyone who watched American selvedge nearly disappear. Construction and cloth over anything runway.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "7f0cb146f2388feb1e19064898d0e92ae3a36dc1660fa4a0aea2652a6c5faa60",
+    "url": "https://www.analog.cafe/r/film-photography-news-october-2026-recap-by4x",
+    "title": "Film Photography News — October 2026 Recap",
+    "summary": "Harman may be making a colour negative film, and Fujifilm just put $19M into Instax — the stock news that actually affects what you can buy.",
+    "date_published": "2026-10-27T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "photography",
+      "source": "Analog.Cafe",
+      "note": "Dmitri's monthly recap is the most reliable single read on emulsion and stock news, which is the part of the topic with consequences: a new Harman colour negative would be the first genuinely new C-41 option in years. This edition also covers a spot meter, tri-colour scanning (which he is openly skeptical of), and new apps. The August and September recaps are already in the feed and this continues the run.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_1000000_XZebYE2GO.jpg",
+      "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+    }
+  },
+  {
+    "id": "6a1cea31540b99d89ebf34e146427b2b0f3cbbced9692d32579bdfe2eb3ad676",
+    "url": "https://massivelyop.com/2026/10/30/old-school-runescape-reveals-an-upcoming-deep-sea-diving-update",
+    "title": "Old School RuneScape reveals an upcoming Deep Sea Diving update",
+    "summary": "Jagex's other RuneScape is getting a diving-bell content drop, which says something about where the studio's attention sits.",
+    "date_published": "2026-10-30T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "Diving gear and a diving bell gate access to a new story area — standard OSRS content cadence, but worth tracking given how much of Jagex's 2026 has gone into Dragonwilds patches and save-corruption firefighting. The studio running two very different RuneScape products at once is the context for the Dragonwilds roadmap already in the feed. News, not criticism.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "dc61fc41002b81994e191ce1b4c27f5256915f890b586e84feb6e1147f896722",
+    "url": "https://drsmithsecgblog.com/chest-pain-2",
+    "title": "Chest pain in a 70-something male",
+    "summary": "The final answer is \"chest pain of unknown aetiology\", which is exactly why the ECG reasoning on the way there is worth the ten minutes.",
+    "date_published": "2026-10-28T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "Inferior early repolarisation is one of the OMI mimics that gets registrars into trouble at 3am, and this case walks the discrimination rather than just naming it. Smith's blog has been the counterweight to STEMI-criteria thinking for years, and the cases where nothing turns out to be wrong are the ones that teach the threshold. Pairs with the Queen of Hearts material already in the feed.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/10/LP-Case-sent-Oct-24-2026-1024x530.png",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "6b1704ba7048934aa1d3be91dca20b7aac4439cc68e2e99a6d68ad46693512ba",
+    "url": "https://www.35mmc.com/29/10/2026/in-but-a-day",
+    "title": "In but a day…",
+    "summary": "Julian Tanase on shooting the hour when the street is not yet full — a case for the early walk rather than the good light.",
+    "date_published": "2026-10-29T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "A short reflective piece rather than a technique post: the argument is that the first hour of a city's day is a subject in itself, and that the discipline is being out in it rather than any particular camera. 35mmc is the most-represented source in the feed precisely because of writing like this, where the gear is incidental. Useful as a prompt if the camera has been sitting unloaded.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/08/6.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "b891d394c1d1efa617478206dc318b65fe175ad189307fe78b8bc11e0886f6ab",
+    "url": "https://www.medicalrepublic.com.au/one-nation-probably-doesnt-have-the-solution-to-the-medical-workforce/129863",
+    "title": "One Nation probably doesn't have the medical workforce solution",
+    "summary": "The specialty-training bottleneck, argued through a bad political answer to it — and the registrar numbers underneath are the real story.",
+    "date_published": "2026-10-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Medical Republic",
+      "note": "The projection that internationally trained doctors will account for 64% of registrar growth by 2048 is the number that matters here, because it describes competition for the training posts he is in the middle of. The piece takes apart a Victorian One Nation candidate's domestic-first framing while conceding there genuinely are not enough non-GP specialist positions. Reads as a companion to the ACEM ageing-population report already in the feed.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://d1svk58pjf7hyt.cloudfront.net/wp-content/uploads/sites/6/2026/10/09132717/iStock-159406920-modified-82ee97c2-031d-409f-b1e6-fd6bf12b378a.jpg",
+      "icon": "https://d1svk58pjf7hyt.cloudfront.net/wp-content/uploads/sites/6/2024/01/05093253/logo_icon_black-105x105.png"
+    }
+  },
+  {
+    "id": "310842e51a7e5bad60032048edd2e91b40327a91a44aaac8d7c60084391a61f7",
+    "url": "https://concreteplayground.com/melbourne/cafes/the-glass-den",
+    "title": "The Glass Den, Coburg",
+    "summary": "Brunch inside the old Pentridge bluestone, and the one dish reviewers agree on is the salmon benedict.",
+    "date_published": "2026-10-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Concrete Plygrnd",
+      "note": "Coburg, inside the prison precinct that has also given the feed BrewDog's taproom and Hotel Lombardo — the heritage-listed glasshouse is the draw as much as the plate. Veg and halal friendly, jazz on weekends, and the consistent complaint across reviews is price rather than quality. A short ride up from Brunswick and a hidden gem more than an opening.",
+      "published_at": "2026-11-01T15:27:06.185Z",
+      "image": "https://cdn.concreteplayground.com/content/uploads/2026/10/The-Glass-Den-1-1024x576.png?webp=false",
+      "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
+    }
   }
 ]
