@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emnerd/a-re-examination-of-the-bridge-to-nowhere",
+      "title": "A Re-Examination of the Bridge to Nowhere",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Spiegel argues the EXECT-CPR physiology never translated into outcomes, which is the opposite read to the one he got a fortnight ago.",
+      "note": "St Emlyn's framed TOE-guided CPR as physiology beating algorithm; Rory Spiegel reads the same trial and finds better numbers on the screen with nothing better for the patient. Reading the two against each other is more instructive than either alone, and the distinction he lands on — an intra-arrest intervention is only worth doing if it changes the next decision — is the one that matters when you are the registrar holding the probe. The ETCO2 signal he picks apart is weak enough to be worth seeing before anyone quotes it on a shift.",
+      "date_published": "2026-10-30"
+    },
+    {
+      "url": "https://drsmithsecgblog.com/normal-angiogram-one-week-prior-must-be/",
+      "title": "Normal angiogram one week prior. Must be myocarditis then?",
+      "source": "Dr Smith's ECG",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "A recent clean angiogram is exactly the anchor that gets an OMI mimic — or a real OMI — called wrong.",
+      "note": "Smith works through inferior early repolarisation as an OMI mimic using serial ECGs rather than a single tracing, which is the discipline that separates a registrar who re-does the ECG at ten minutes from one who doesn't. The trap here is the prior catheter report, and it is the same trap as the pericarditis case already in his feed: a label arriving before the tracing. Worth pairing with that one.",
+      "date_published": "2026-10-28"
+    },
+    {
+      "url": "https://litfl.com/stage-before-the-number/",
+      "title": "Stage before the number",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "How to recognise advanced HIV at the bedside hours before the CD4 count comes back.",
+      "note": "This is a four-pass bedside method — history, examination, FBC, and the syndrome actually in front of you — for deciding whether you are dealing with advanced disease while the CD4 is still pending. The practical hinge is the absolute lymphocyte count: under roughly 1000 raises concern for a CD4 below 200, but a normal ALC excludes nothing, so the staging has to come from the clinical picture. Written for exactly the decision an ED registrar makes before any immunology result exists.",
+      "date_published": "2026-10-23"
+    },
+    {
+      "url": "https://litfl.com/the-mono-that-wasnt/",
+      "title": "The Mono That Wasn't",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "One patient across three ED presentations, and the discordance everyone missed each time.",
+      "note": "LITFL's Microbial Mystery format follows a single patient through three separate presentations, which is the only way to show how a diagnosis gets deferred one discharge at a time. The teaching point is that an AIDS-defining opportunistic infection stages the disease regardless of what the CD4 says, and that a particular exam-versus-imaging discordance should put PJP at the front of the differential. Reads directly alongside the companion piece on bedside staging.",
+      "date_published": "2026-10-23"
+    },
+    {
+      "url": "https://neoskosmos.com/en/2026/11/02/news/new-thunderstorm-asthma-warning-issued-for-victoria-as-risk-increases/",
+      "title": "New thunderstorm asthma warning issued for Victoria",
+      "source": "Neos Kosmos",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A high-risk epidemic thunderstorm asthma warning is live today, three weeks before the tenth anniversary of the event that defined the risk.",
+      "note": "The Department of Health has warnings out through VicEmergency for the North East and North Central districts today, with a storm band crossing from South Australia into a pollen season loaded by a warm, wet winter. For anyone rostered in a Victorian ED this is the one weather forecast that is also a staffing forecast — the 21 November 2016 Melbourne event remains the deadliest on record anywhere. Ten years on, almost to the day.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-28/ebola-latest-10000-cases/107318116",
+      "title": "Congo Ebola outbreak surpasses 10,000 cases",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The DRC Bundibugyo epidemic is now the country's largest ever and the fastest-growing, with spread to Kenya and Nigeria.",
+      "note": "Past 10,000 confirmed cases and approaching 5,000 deaths, this is the second-largest Ebola outbreak recorded globally and the first at this scale caused by Bundibugyo virus, for which there is still no licensed vaccine or specific treatment. His feed has followed the imported Kenyan and Nigerian cases one WHO notice at a time; this is the number that puts those notices in proportion. Australia has committed $10 million through the IFRC and WHO and has so far declined border measures, unlike the US attestation order starting tomorrow.",
+      "date_published": "2026-10-28"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/11/02/miles-davis-europe-71/",
+      "title": "Miles Davis: Europe '71",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "The 1971 European tapes caught Miles mid-dismantling, moving pieces into place for whatever came next.",
+      "note": "This sits one shelf over from the jazz that actually gets played in his house — Night Train, Soul Brothers/Soul Meeting, the Getz records — and it is the loud, electric end of that same lineage rather than the trio-and-standards end. Aquarium Drunkard's read is that the 1971 band is best heard as transition rather than arrival, which is a more honest framing than most writing on this period manages. Useful if the Oscar Peterson rotation has started to feel settled.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://www.35mmc.com/02/11/2026/minolta-dynax-7xi-review-everything-turned-up-to-xi/",
+      "title": "Minolta Dynax 7xi review - everything turned up to 'xi'",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A high-spec early-90s autofocus SLR that nobody wants, which is exactly why it is cheap.",
+      "note": "Bob Janes writes this one from the using end rather than the collecting end: eye-start activation, powered zooms, and a specification sheet that was flagship-grade in 1991 and now goes for pocket money because the plastic-bodied Dynax bodies carry no cachet. The counterweight to the Leica M4 and Plaubel Makina pieces already in his feed — same film, a fraction of the outlay, and a genuine argument for why that is not a compromise. Worth it if he wants a second body he can be careless with.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://www.heddels.com/2026/10/oni-made-its-just-right-straight-jeans-from-selvedge-chino-cloth/",
+      "title": "ONI made its 'Just Right Straight' jeans from selvedge chino",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "timely",
+      "summary": "Chino twill woven on a shuttle loom and cut as jeans — a genuinely odd piece of cloth sourcing, not a colourway.",
+      "note": "The interesting part is the fabric rather than the fit: an 8oz Japanese selvedge chino twill, unsanforised and yarn-dyed in both warp and weft, which is chino construction given the loom and finishing of denim. It lands between a khaki and a jean — more rugged than the former, far lighter than the heavyweight selvedge ONI is known for — and the 271 cut sits between their regular straight and the roomier recent blocks. Note the weight discrepancy across retailers: Heddels and Redcast say 8oz, Blue Owl lists 9.5oz, so confirm the run before buying.",
+      "date_published": "2026-10-12"
+    },
+    {
+      "url": "https://blog.playstation.com/2026/10/28/playstation-plus-monthly-games-for-november-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2/",
+      "title": "PlayStation Plus Monthly Games for November",
+      "source": "PlayStation Blog",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "Dead Island 2, Tomb Raider IV-VI Remastered and Monster Train 2, claimable from tomorrow.",
+      "note": "First-party and dated, which is the version of this announcement worth reading rather than the aggregator rewrites. The claim window opens 3 November and closes 30 November, and today is the last day to add October's F1 25, Hunt: Showdown 1896 and Earth Defense Force — so this is one to act on rather than file. Monster Train 2 is the pick of the three if he wants something that survives being put down for a fortnight.",
+      "date_published": "2026-10-28"
+    },
+    {
+      "url": "https://massivelyop.com/2026/10/30/atmosfar-is-a-new-airship-centered-multiplayer-survival-sandbox-that-entered-early-access-this-week/",
+      "title": "Atmosfar, an airship survival sandbox, enters early access",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "A co-op survival sandbox built around a shared airship rather than a fixed base — the genre he plays, with the one constraint changed.",
+      "note": "Enshrouded and Dragonwilds both anchor you to a base you build outward from; Atmosfar's premise is that the base moves, which changes how storage, logistics and co-op division of labour work rather than just reskinning them. The developers have said plainly that it will be buggy and are running an experimental branch for feedback, so this is an early-access entry at the honest end. Worth watching rather than buying immediately, which is the right posture for a survival game at week one.",
+      "date_published": "2026-10-30"
+    },
+    {
+      "url": "https://www.theindiansun.com.au/2026/11/02/melbourne-exhibition-exploring-identity-opens-on-6-november/",
+      "title": "Melbourne exhibition exploring identity opens on 6 November",
+      "source": "The Indian Sun",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Six contemporary Indian photographers, student-curated, in a Docklands gallery above a curry house.",
+      "note": "'You're Indian, Aren't You?' opens Friday 6 November at XYZ Photo Gallery in Docklands, curated by a University of Melbourne student and showing six contemporary Indian photographers. It runs to 20 December, which matters because opening night is invitation-only and the gallery closes between hangs — so the window is the run, not the launch. The same outlet gave him the piece on the Melbourne artist mapping her own body a few weeks back; it keeps finding local photographic work that Broadsheet and Time Out do not cover.",
+      "date_published": "2026-11-02"
+    }
+  ]
+}
