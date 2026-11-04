@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://emottawablog.com/2026/10/the-aorta-made-me-do-it-cognitive-bias-and-acute-aortic-syndrome/",
+      "title": "The Aorta Made Me Do It: Cognitive Bias and Aortic Syndrome",
+      "source": "EMOttawa",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Argues the registrar's reflex to scan every chest pain is availability bias, and gives a defensible rule-out instead.",
+      "note": "The pathway it lands on is ADD-RS of 1 or less plus a D-dimer under 500, quoted at 99.7% negative predictive value, and it uses every Ontario acute aortic syndrome case from 2003 to 2018 to argue the prevalence is around 0.1%. It also kills the inter-arm blood pressure check, since a fifth of people without dissection have a greater than 20 mmHg difference. Worth reading beside EMOttawa's own 2020 post, which concluded the opposite about ruling out on D-dimer.",
+      "date_published": "2026-10-29"
+    },
+    {
+      "url": "https://emottawablog.com/2026/10/finger-on-the-pulse-personalizing-sepsis-resuscitation-in-2026/",
+      "title": "Finger on the Pulse: Personalizing Sepsis Resuscitation",
+      "source": "EMOttawa",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Builds the case for capillary refill time over lactate as the escalation trigger in septic shock, off the back of ANDROMEDA-SHOCK-2.",
+      "note": "ANDROMEDA-SHOCK-2 randomised 424 septic shock patients across Chile and Colombia to CRT-guided versus lactate-guided escalation and reported a win ratio of 1.16. That is an argument for pressing a fingertip rather than sending another gas, which is the kind of change that actually alters what you do at 3am. It sits directly on top of the SSC 2026 sepsis guidelines piece this feed carried from EMCrit.",
+      "date_published": "2026-10-01"
+    },
+    {
+      "url": "https://emottawablog.com/2026/05/beyond-the-belly-expanding-your-aortic-pocus/",
+      "title": "Beyond the Belly: Expanding Your Aortic PoCUS",
+      "source": "EMOttawa",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Takes aortic scanning past the AAA screen into the views that actually catch a dissection at the bedside.",
+      "note": "Most aortic PoCUS teaching stops at measuring an abdominal aorta in cross-section, which is exactly the gap this fills — suprasternal and parasternal windows, intimal flaps, and what the probe can and cannot exclude. That is CCPU territory rather than revision. Pairs with the LITFL critical care ultrasound library entries already in the feed.",
+      "date_published": "2026-05-01"
+    },
+    {
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2026/oct-ai-enabled-triage-tools-human-biases.html",
+      "title": "AI-Enabled Triage Tools May Reflect Human Biases",
+      "source": "UT Southwestern",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "LLMs asked to prioritise ED patients inherited clinical stigma from the notes, downgrading nearly one in ten.",
+      "note": "The team ran records from Stanford Medicine and Beth Israel Deaconess through LLM triage and found that adding stigmatising language to a history pushed close to 10% of patients down the queue. Published in npj Digital Medicine with Philip Jarrett as first author. This is the version of AI-in-the-ED worth tracking, because the failure mode is invisible at the point of use — the model is confidently wrong in the same direction a tired human would be.",
+      "date_published": "2026-10-20"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-11-01/victorian-election-labor-liberal-tough-battle/107331376",
+      "title": "Victoria's election sideshow is in full swing",
+      "source": "ABC News",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Three weeks from the 28 November poll, both parties are campaigning at health workers rather than patients.",
+      "note": "The analysis notes an appeal directly to health workers is central to Labor's pitch, including measures on violent and abusive patients — which is his workplace, not an abstraction. Sitting behind it are the $1.5bn ED expansion promise, the Coalition's $1.3bn private-hospital surgery plan, and an unresolved doctors' pay dispute that saw a four-hour stoppage in October. Whoever wins sets the terms of the department he walks into in December.",
+      "date_published": "2026-11-01"
+    },
+    {
+      "url": "https://dragonwilds.runescape.com/news/deluxe-preorders",
+      "title": "Deluxe & Physical Preorders Live!",
+      "source": "Dragonwilds",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "First-party word on the disc release landing tomorrow, and what is actually in the collector's box.",
+      "note": "Physical Standard and Deluxe editions hit PS5 and Xbox Series X|S on 5 November, so this is the day-before post. The Deluxe box is a steelbook with original artwork, three embroidered skill patches, five holographic character cards and a cloth map of Ashenfall. Jagex says it has no preferred stockist, which means local availability is a search problem rather than a preorder link.",
+      "date_published": "2026-07-29"
+    },
+    {
+      "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-file-size-confirmed-to-be-212gb-physical-map-available-but-not-in-boxed-copies",
+      "title": "GTA 6 PS5 File Size Confirmed to Be 212GB",
+      "source": "Push Square",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "The practical pre-launch numbers: 212GB to clear, preload from 10 November, release 19 November.",
+      "note": "212GB is most of a base PS5 drive, so this is a clear-the-console-now item rather than a hype piece. Preload opens Tuesday 10 November ahead of the 19 November launch on PS5 and Xbox Series X|S. Worth knowing too that the printed map is sold separately and is not in boxed copies, and that GTA 5 leaves PS Plus Extra on 17 November.",
+      "date_published": "2026-11-03"
+    },
+    {
+      "url": "https://vinylalliance.substack.com/p/cue-burn-special-edition-air-studios",
+      "title": "AIR Studios Engineers on the Human Craft of Vinyl Mastering",
+      "source": "Vinyl Alliance",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Three cutting engineers on what happens between a finished master and the lacquer a plant presses from.",
+      "note": "AIR runs three in-house cutting lathes, and the engineers here include one who learned on a lathe during straight-to-vinyl sessions and one who spent five years as the in-house cutting engineer at a pressing plant. This is the stage of record-making that almost never gets written about properly — the step that decides whether the pressing in the sleeve sounds like the mix. A new source for this feed, and a better one than the plant-explainer blogs that dominate the search for it.",
+      "date_published": "2026-10-29"
+    },
+    {
+      "url": "https://wdet.org/2026/10/06/in-the-groove-song-of-the-week-hermanos-gutierrezs-los-andes/",
+      "title": "Song of the Week: Hermanos Gutierrez's 'Los Andes'",
+      "source": "WDET",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "The lead single off the new Hermanos Gutierrez album, framed through the Khruangbin effect that made room for it.",
+      "note": "Hermanos Gutierrez and Khruangbin are both on his shelves, and this is the first proper write-up of 'Los Andes' from Los Ojos del Condor, the Dan Auerbach-produced record that landed on Easy Eye on 25 September. The feed already carried the album announcement; this is the music itself. The piece's argument — that Khruangbin's success opened the door for instrumental acts to get radio play at all — is the useful part.",
+      "date_published": "2026-10-06"
+    },
+    {
+      "url": "https://kosmofoto.com/2026/05/eastman-kodak-adds-large-format-and-bulk-films-to-new-film-range/",
+      "title": "Eastman Kodak adds large format and bulk films to range",
+      "source": "Kosmo Foto",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "Kodak's own film arm expands past 35mm, and the naming mess that comes with Alaris still owning the famous brands.",
+      "note": "The detail that matters for anyone reading a box: Portra and TMax stay with Kodak Alaris, so Eastman's equivalents ship as Ektacolor Pro and Ektapan. Same emulsions, unfamiliar names, and bulk rolls and sheet film now in the range. The feed already carried PetaPixel on Kodak showing film some love — this is the concrete version of what that actually means on the shelf.",
+      "date_published": "2026-05-01"
+    },
+    {
+      "url": "https://www.secretfanbase.com/banana/banana-republic-clothing-tag-and-logo-guide/",
+      "title": "Banana Republic Clothing Tag and Logo Guide",
+      "source": "Abandoned Republic",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Dates a vintage Banana Republic piece from its label alone, which is the whole game when buying unseen.",
+      "note": "The Coat of Bananas label predates the 1983 Gap purchase; a Safari & Travel label puts a garment at 1989 or later; Fall 1988 was the last true Travel & Safari catalogue season. That is a dating table you can use from a phone in an op shop. The feed already carried this archive's Ventile poplin safari jacket piece — this is the reference page behind it.",
+      "date_published": "2026-09-26"
+    },
+    {
+      "url": "https://concreteplayground.com/melbourne/food-drink/pizzeria-magma-new-owners/",
+      "title": "Fitzroy North's Pizzeria Magma Has New Owners",
+      "source": "Concrete Plygrnd",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "The St Georges Road pizzeria has changed hands and reopened, so it is worth a second look rather than a memory.",
+      "note": "305 St Georges Road, a few doors from the Fino Books and Northside Records corner this feed has been tracking all autumn. A handover is the moment a neighbourhood pizzeria either keeps its dough or quietly becomes a different restaurant, and that is only findable by going. Reopened early October under the new owners.",
+      "date_published": "2026-10-01"
+    }
+  ]
+}
