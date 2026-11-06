@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://www.thebottomline.org.uk/summaries/vasspr-vasopressin-for-septic-shock/",
+      "title": "VASSPR: vasopressin initiation threshold in septic shock",
+      "source": "The Bottom Line",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "A 3,959-patient cluster-crossover trial says the noradrenaline dose at which you reach for vasopressin does not move 28-day mortality.",
+      "note": "This tests the one septic-shock decision a registrar actually owns at the bedside: when to add the second agent rather than keep climbing the noradrenaline. 28-day mortality came out 31.8% versus 33.0% across a 0.14 and 0.34 mcg/kg/min threshold strategy, and the reviewer still argues for going early on the strength of VASST and OVIS. Read the limitation about dilution — every septic shock patient was randomised, including those who never reached the threshold.",
+      "date_published": "2026-11-04"
+    },
+    {
+      "url": "https://emcrit.org/pulmcrit/peguidelines/",
+      "title": "Four fatal flaws in the new AHA/ACC risk-stratification for PE",
+      "source": "PulmCrit",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Farkas argues the categories you are now expected to use for PE will route genuinely unstable patients into the low-risk bin.",
+      "note": "The 2026 AHA/ACC document is the one that retired \"massive\" and \"submassive\" in favour of Clinical Categories A–E, so this is the framework he will be writing in notes for years. The objections are concrete: sPESI, PESI and Bova used interchangeably, a Bova cutoff of 4 that includes an 18% complication rate, troponin and BNP treated as one biomarker, and a \"normotensive shock\" definition that admits a MAP under 60. Worth reading against the LITFL terminology piece rather than instead of it.",
+      "date_published": "2026-03-07"
+    },
+    {
+      "url": "https://emcrit.org/emcrit/state-of-the-airway-2026/",
+      "title": "EMCrit 416 - JanuAIRWAY: State of the Airway 2026",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A year's worth of airway evidence compressed into one sitting, with the comment thread doing as much work as the episode.",
+      "note": "The annual airway stocktake is the cheapest way to find out what changed while he was working nights. This edition's comments get into awake-intubation terminology and planning for can-intubate-cannot-ventilate, which pairs directly with the November Annals registry data showing 71% first-pass success on awake intubations where 68% of patients had both anatomic and physiologic difficulty predictors.",
+      "date_published": "2026-01-11"
+    },
+    {
+      "url": "https://litfl.com/point-of-care-ultrasound-essentials-workshop/",
+      "title": "Point-of-Care Ultrasound Essentials Workshop",
+      "source": "LITFL",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Ten cases built as a structured POCUS refresher rather than a lecture, which is the format CCPU logbook work actually rewards.",
+      "note": "Viveta Lobo's ten-case workshop is case-first, which is the gap between knowing the probe positions and being able to call a scan under time pressure. LITFL's ultrasound library is already where his CCPU reading lives — Robert Buttner, co-ultrasound lead at The Alfred, writes much of it — so this sits naturally beside the Ultrasound Case series he has been working through.",
+      "date_published": "2026-10-30"
+    },
+    {
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
+      "title": "Shamonda virus in human - France",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The first laboratory-confirmed human case of Shamonda virus anywhere, in rural eastern France, with no idea yet how often it infects people.",
+      "note": "An orthobunyavirus previously known from livestock turning up in a human in western Europe is the kind of notice that is either a footnote or the first line of something. WHO is explicit that there is insufficient evidence to assess the extent to which SHAV infects humans or causes disease, which is the honest version and also why it is worth reading now rather than after it has a name people recognise.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+      "title": "Two new candidate vaccines to join Ebola trial",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The DRC Bundibugyo outbreak is past 10,500 cases and 5,100 deaths, and the Tumaini trial is now testing multiple vaccine candidates at once.",
+      "note": "This is the response side of an outbreak he has been following since the Kenya and Nigeria importations: Tumaini uses a ring-vaccination design to run several candidates inside a single trial, which is how you get answers in an outbreak that is still moving. Bundibugyo has no licensed vaccine, unlike Zaire ebolavirus, which is exactly why the trial exists.",
+      "date_published": "2026-11-04"
+    },
+    {
+      "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
+      "title": "Import AI 479: Spacewar; low-latency tasks vs LLMs; Genie 4",
+      "source": "Import AI",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A benchmark showing language models fall apart on low-latency tasks, which is most of what a resus room asks of a decision aid.",
+      "note": "The low-latency finding is the one that matters for anyone being sold AI at work: models that look strong on reasoning benchmarks degrade when the task demands an answer inside a short window. Clark also reads a Princeton agent study as a bearish signal on short recursive self-improvement timelines, which is a useful corrective to the pace of the vendor claims.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/11/05/kings-of-convenience-quiet-is-the-new-loud/",
+      "title": "Kings of Convenience :: Quiet Is the New Loud",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Twenty-five years on, the record that made two guitars and two voices a viable proposition again.",
+      "note": "This one sits squarely on the quiet shelf of the collection — José González, Asgeir, Ben Howard, For Emma Forever Ago — and Erlend Oye's Bergen duo is the record most of those artists are downstream of. A good anniversary piece on an album he almost certainly knows by osmosis rather than by having bought it.",
+      "date_published": "2026-11-05"
+    },
+    {
+      "url": "https://www.35mmc.com/02/11/2026/a-journey-into-the-past/",
+      "title": "A Journey into the Past",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "An architectural series on film where the metering decisions are stated, not left as mystery.",
+      "note": "Walter Reumkens shows his working: a Gossen Variosix F with a dome, deliberately overexposing at ISO 320. That is the part most film write-ups skip, and it is the part that transfers — the difference between admiring someone's frames and knowing why their shadows hold. Useful against the run of favourite-photo-of-2026 posts filling the site this week, which are about outcome rather than method.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://www.heddels.com/2026/11/shangri-la-heritage-makes-serious-serious-outerwear/",
+      "title": "Shangri-La Heritage Makes Serious, Serious Outerwear",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "An Italian maker cutting a 1940s leather sports jacket and an N-1 deck jacket with the hardware and detailing to match.",
+      "note": "The Varenne is built on a 1940s sports-jacket pattern down to antique-brass hardware, and the Deck is an Italian reading of the American naval N-1 — provenance-first construction rather than a vintage-adjacent silhouette. Lines up with the RRL and Woolrich end of his reference points, and with the deadstock-corduroy and chore-jacket pieces already in the feed.",
+      "date_published": "2026-11-06"
+    },
+    {
+      "url": "https://enshrouded.com/en-US/news/changelog-for-patch-1",
+      "title": "Changelog for Patch #1",
+      "source": "Enshrouded",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "Keen's first post-1.0 patch closes the boss-healing exploit, kills the wand animation-cancel, and fixes failed save migrations.",
+      "note": "First-party notes for build 1283531, three weeks after the 1.0 launch already in the feed. The substantive changes: bosses like the Fell Monstrosity now stay engaged after being hit from range instead of regenerating, the block-cancel trick that inflated wand attack rate is gone, and the Aerial Wand Attack now costs 40 mana rather than stamina. Anyone whose save migration errored should retry it on this build, and a dedicated server has to update before players on the new build can join.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://massivelyop.com/2026/11/05/sci-fi-survivalbox-planet-crafter-opens-a-new-storm-filled-world-with-december-8s-magnetaris-dlc/",
+      "title": "Planet Crafter opens a storm-filled world with Magnetaris DLC",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "A $10 terraforming expansion on December 8, and only one player in a group of ten needs to own it.",
+      "note": "Miju Games pegs Magnetaris at Toxicity's map size, so this is a full second world rather than a cosmetic drop, landing December 8 on PC, PS5 and Xbox. The one-owner-hosts-ten rule is the detail that matters for co-op: it is the same shape as the Enshrouded dedicated-server arrangement, and it means a single purchase covers a group.",
+      "date_published": "2026-11-05"
+    }
+  ]
+}
