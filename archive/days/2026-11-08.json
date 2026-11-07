@@ -1,0 +1,202 @@
+{
+  "day": "2026-11-08",
+  "ran_at": "2026-11-07T15:23:23.786Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "623ddd59f21f620ae8b1654f95de2b52e2d7f7c2674e877ecc570a83897d34c7",
+      "url": "https://www.emdocs.net/2026-guideline-evaluation-and-management-of-acute-pe",
+      "title": "2026 Guideline: Evaluation and Management of Acute PE",
+      "summary": "The ED-facing read of the new AHA/ACC PE guideline, including which patients can now go home from the department.",
+      "date_published": "2026-03-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "emDocs",
+        "note": "This is the straight summary of the de novo AHA/ACC guideline that retired 'massive' and 'submassive' for Clinical Categories A–E: Category A patients can be discharged from the ED without admission, and DOACs are preferred for appropriate low-risk outpatients. Read it against the PulmCrit piece already in the feed, which argues the risk-stratification scheme has four fatal flaws — having the summary and the demolition side by side is more useful than either alone.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://www.emdocs.net/wp-content/uploads/2026/02/Screenshot-2026-02-21-at-3.03.53-AM.jpg",
+        "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+      }
+    },
+    {
+      "id": "b5cba0d011349b3bc50111809ab484ae3a7ae1efda7d7776ece58fac266468bd",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights",
+      "summary": "Someone actually ran the Weight-Space Programming prompts on a local model instead of repeating the paper's claims.",
+      "date_published": "2026-11-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "Willison reproduces the paper's prompts on a 27B model running on his own laptop: Qwen solves the Breakout prompt and fails the Freeway one, which is a more honest picture than the commentary the paper attracted. He is explicitly sceptical of the wider reading, and the value here is the method — a cheap local reproduction as the first response to a striking claim. Transferable habit well beyond AI.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": null,
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "f931055e19c3f0e2dec96544e63f4a87d7dc587a074916f236b615246060419a",
+      "url": "https://www.emdocs.net/kratom-in-the-ed-pearls-and-pitfalls",
+      "title": "Kratom in the ED: Pearls and Pitfalls",
+      "summary": "A presentation that reads as opioid toxicity, seizure or withdrawal while the urine drug screen comes back clean.",
+      "date_published": "2026-05-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "emDocs",
+        "note": "The operational pearl is that standard urine drug screening does not detect kratom at all — confirmation needs liquid chromatography or ion mass spectrometry, deliberately requested. Everything else is supportive and symptom-directed, which means the diagnosis lives entirely in the history you take. Worth having filed before the case rather than during it.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://www.emdocs.net/wp-content/uploads/2026/05/Screenshot-2026-05-04-at-11.51.49-PM.jpg",
+        "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+      }
+    },
+    {
+      "id": "5eb00ea2e10c0d2269a286966bd6fb4a0c2adae7cf4c46e48592a8ec766e4c67",
+      "url": "https://www.heddels.com/2026/11/indi-ash-renders-barn-coat-in-cutch-dyed-canvas",
+      "title": "Indi + Ash Renders Barn Coat in Cutch-Dyed Canvas",
+      "summary": "A barn coat whose canvas only looks like ordinary duck until you read what was done to it.",
+      "date_published": "2026-11-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The cloth is plant-dyed with cutch and then stone-and-enzyme washed, which gives an uneven, cobbled surface rather than the flat uniformity of standard duck canvas — natural dye plus mechanical finish doing the work that time usually does. Diamond-quilted lining and horn buttons finish it. This is the rustic, provenance-first end of the barn-coat lineage that RRL and Woolrich sit in, approached from the dye-house rather than the archive.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "939efc4d8b994e1f078a887c2a34141c39afc9985ecd261400e6ca4950f89085",
+      "url": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10",
+      "title": "Grand Theft Auto VI pre-download begins November 10",
+      "summary": "First-party confirmation of the preload date, brought forward two days, plus the 212GB you need to clear before it.",
+      "date_published": "2026-11-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PlayStation Blog",
+        "note": "Pre-download opens at local midnight on 10 November for pre-orders — moved up from the 12th — against a 19 November unlock, also local time, which means New Zealand plays first. Sony's own advice is to clear a minimum of 212GB, so the housekeeping is a real task on a PS5 rather than an afterthought. The boxed edition is a code in the box, not a disc, so physical buyers still preload the digital build.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://blog.playstation.com/tachyon/2026/11/4933057538b60628e4c543923b03620ff4bbc25a.jpg",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "a625906106170c20d5aaf02324e67cebdad1923b94336a83ac8bc621f55fe906",
+      "url": "https://aapnews.aap.com.au/news/hospital-overcrowding-fix-pitched-under-100m-pledge",
+      "title": "Hospital overcrowding fix pitched under $100m pledge",
+      "summary": "The Coalition's answer to ramping is not more ED beds but moving discharge-ready patients off the wards that are blocking them.",
+      "date_published": "2026-11-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "AAP News",
+        "note": "A $99 million Patient Transit Lounge Fund for up to ten new or expanded lounges, prioritised to the hospitals where ramping is worst — the premise being that ED waits are caused upstream, by inpatient beds held by people waiting on medication, transport or paperwork. With about 30% of Victorian ED presentations not seen in the recommended time, this is a bet on flow rather than capacity, and three weeks out from the 28 November election it is one of the two health platforms that could become his working conditions.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://aapnews.imgdeliver.net/article/lead_image/228028/bfdbb724-f695-464c-84c1-26d382fe2902.jpg?width=800",
+        "icon": "https://aapnews-web.imgdeliver.net/icons/apple-icon-57x57.png?v=2"
+      }
+    },
+    {
+      "id": "b0666515c02641c013715fe6505724681f8ae6719e61bfb12ae5849fd3116c8a",
+      "url": "https://rebelem.com/the-rsi-trial-ketamine-vs-etomidate-in-rapid-sequence-intubation",
+      "title": "The RSI Trial: Ketamine vs Etomidate in Intubation",
+      "summary": "A properly randomised answer to the induction-agent argument every registrar has had, and the answer is less dramatic than either camp wants.",
+      "date_published": "2026-01-08T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "REBEL EM",
+        "note": "No statistically significant difference in 28-day mortality, with about a 1% absolute difference favouring ketamine — and the appraisal rates the randomisation and protocol adherence as genuine strengths, which is what makes the null result worth something. The useful conclusion is that the choice matters less than the haemodynamics you are inducing into. Good counterweight to the EMCrit State of the Airway material already in the feed.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://rebelem.com/wp-content/uploads/2026/01/The-RSI-Trial-Ketamine-vs-Etomidate-in-Rapid-Sequence-Intubtation-1024x625.jpg",
+        "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "3a22ff5fe5de2d6fe0ed4b9e9c5812760eebbfddbfa102df3d60b5c4ebe672c9",
+      "url": "https://rebelem.com/renovate",
+      "title": "RENOVATE: HFNC vs BPAP in Acute Respiratory Failure",
+      "summary": "The trial that decides which mask you reach for at 3am, and the one subgroup where reaching wrong is dangerous.",
+      "date_published": "2026-01-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "REBEL EM",
+        "note": "RENOVATE used Bayesian borrowing across five acute respiratory failure subgroups, so the certainty behind 'non-inferior' is not the same in each one — COPD was small, and in the immunocompromised group HFNC clearly underperformed BPAP on early outcomes. That subgroup asymmetry is the part worth carrying onto a shift, because it is the patient in whom the default feels safest and isn't. Pairs directly with the airway and oxygenation material he has been working through.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2025/12/RENOVATE-3-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "caa9a0b3a6334060b5f5a5658a50607ad2161fb508d57ad1399cf08f188f9176",
+      "url": "https://shootitwithfilm.com/new-york-city-photo-story-by-charlotte-silverman",
+      "title": "New York City Photo Story by Charlotte Silverman",
+      "summary": "Street work made on a plastic-era autofocus SLR, which is most of the argument for not buying a better camera.",
+      "date_published": "2026-10-07T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "ShootItWithFilm",
+        "note": "Silverman shoots the series on a Pentax PZ-70 across several stocks — a camera nobody collects, bought for the price of a few rolls — and the pictures carry on regardless. The work is the point here rather than the kit, which is the side of the topic worth feeding. Useful as a counter to the gear drift that film photography invites.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/10/Charlotte-Silverman-NYC-Photo-Story-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "19228f65379b58511aa3293e8179fa363db2f3b0c3ad834d49989e4c7c7b8c7a",
+      "url": "https://www.analogplanet.com/content/matthew-lutthans-mastering-lab-master-tells-all-vinyl-summit",
+      "title": "The Mastering Lab Master Tells All at the Vinyl Summit",
+      "summary": "A mastering engineer walking through the chain with the original master tapes of a classic album in front of him.",
+      "date_published": "2026-11-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "AnalogPlanet",
+        "note": "Ken Micallef's interview with Matthew Lutthans of The Mastering Lab, recorded at Acoustic Sounds' first Vinyl Summit in Salina in October, with the tape-to-lacquer process demonstrated rather than described. The feed already carries Chad Kassem's preview and the Ryan K. Smith interview from the same summit, so this completes the mastering-bench set from one event. Directly the pressing-and-mastering-craft end of the topic, and the reason two cuts of a record he owns can sound unalike.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "9f7a13a0b367968cf1d0bb1fed2d101e88320e81ae3a9c48bc3656d3fb323d37",
+      "url": "https://shootitwithfilm.com/a-friendship-beyond-generations-by-pal-balazs",
+      "title": "A Friendship Beyond Generations by Pál Balázs",
+      "summary": "A photo essay built on repeated visits to one 97-year-old man, which is a different skill from finding a good frame.",
+      "date_published": "2026-08-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "ShootItWithFilm",
+        "note": "Balázs photographs his friendship with a 97-year-old Holocaust survivor and doctor — the subject is access and return rather than composition, and the pictures only exist because the relationship did. Worth reading as portraiture of extreme age by someone who kept showing up, which is a problem he meets from the other side at work. Long-form film essays like this are rarer on the site than technique posts.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/08/A-Friendship-Beyond-Generations-by-Pal-Balazs-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "4d8ae77221c18118935e43b9bd94ecb59903889cc1adafec12808e6dbd2f8944",
+      "url": "https://beat.com.au/jazz-folk-country-and-hot-club-swing-take-over-merri-bars-weekends-all-november-long",
+      "title": "Hot Club swing takes over Merri Bar's November weekends",
+      "summary": "Eight free-range weekend gigs at a small northside room, programmed straight down the middle of his shelf.",
+      "date_published": "2026-11-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat Magazine",
+        "note": "The November program runs jazz, folk, country and Hot Club swing across eight nights, including Tall Timber — a duo pairing swing guitar with trombone — on Saturday 21 November at 7pm. Hot Club swing is the Django-lineage end of the jazz in his collection, and this is it played live in a neighbourhood bar rather than a festival room. The kind of listing that only works if you see it inside the month it covers.",
+        "published_at": "2026-11-07T15:23:23.786Z",
+        "image": "https://beat.com.au/wp-content/uploads/2026/11/Frankie-Web-Article-Image-Design-2026-11-02T154256.486.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    }
+  ]
+}
