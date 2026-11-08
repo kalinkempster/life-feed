@@ -12737,5 +12737,199 @@
       "image": "https://beat.com.au/wp-content/uploads/2026/11/Frankie-Web-Article-Image-Design-2026-11-02T154256.486.jpg",
       "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
     }
+  },
+  {
+    "id": "a7907ada388808b8d174378764704035be773d3ec4d9fa421f2efca5be2006ef",
+    "url": "https://idp.nature.com/transit?code=194cf170-4df1-4df3-8ca2-c1dc4eb8c854&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41591-026-04601-5",
+    "title": "Prospective evaluation of an LLM decision support system in the ED",
+    "summary": "An LLM advisor ran live in a tertiary ED for four weeks and clinicians quietly stopped using it — adoption fell from 68 per cent to 30.",
+    "date_published": "2026-08-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Nature Medicine",
+      "note": "A DECIDE-AI stage 1 evaluation of SHAKED, a multi-model system, at Rambam Health Care Campus in Haifa. Integration was safe; what failed was uptake, which the authors attribute to workload sensitivity rather than accuracy, and they conclude the findings do not justify clinical deployment yet. Worth reading next to the Cabrini AI-scribe result already in the feed: the scribe took work away, this one added a step, and that difference decided both.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": null,
+      "icon": null
+    }
+  },
+  {
+    "id": "5c0371dd25675922681c6feb0df4d7287e48e7d33db5ce10089f1bb666d15935",
+    "url": "https://www.abc.net.au/news/2026-11-08/council-calls-to-reject-plans-for-mernda-town-centre/107357130",
+    "title": "Council calls to reject 'glorified drive-through' at Mernda station",
+    "summary": "Whittlesea says a 24-hectare site next to a train station is being built out at a third of its capacity, and the council does not get the final say.",
+    "date_published": "2026-11-08T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "The plan puts up to 368 homes on the corner of Plenty Road and Bridge Inn Road where council officers reckon 777 to 1,450 would fit. The decision sits with the state planning minister, not Whittlesea, because the project went through the development facilitation program that bypasses councils — which is the part that generalises beyond Mernda to every activity centre on the northern line. Twelve days out from the state election, with planning reform one of the sharper dividing lines.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/d2a4b65ff0aff47152d391064538c7b1?impolicy=wcms_watermark_news&cropH=339&cropW=602&xPos=0&yPos=77&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "c90a010feee7428c3ee1323d993715ba209a8c5f5783c14989ffbaf63aa06111",
+    "url": "https://emergencymedicinecases.com/ecg-casesacls-arrhythmia-pitfalls-stable-narrow-complex-tachycardias",
+    "title": "ACLS Arrhythmia Pitfalls: Stable Narrow Complex Tachycardia",
+    "summary": "Eight tracings on the one decision that actually matters in narrow complex tachycardia: primary arrhythmia or compensatory response.",
+    "date_published": "2026-06-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "EM Cases",
+      "note": "Jesse McLaren's part five walks eight patients through separating sinus tachycardia, AF, flutter and SVT, and the management that follows from each. The pitfall he builds the piece around is a slightly irregular narrow complex rhythm with varying P wave morphology — sinus tachycardia with PACs, not AF — in a patient with chest pain, where the ACLS reflex of blocking the AV node is the wrong move. Peer reviewed by Anton Helman, and the kind of structured case set that holds up long after the month it was published.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://emergencymedicinecases.com/wp-content/uploads/2026/06/ECGcases62.png",
+      "icon": "https://emergencymedicinecases.com/wp-content/uploads/2016/07/EM_Cases_Logo_16.png"
+    }
+  },
+  {
+    "id": "d522a29b016099d2885f26f5846211fdd6a2cca2527ab1f2e3b8ef3ac0f61b5b",
+    "url": "https://drsmithsecgblog.com/first-ekg-2nd-ekg",
+    "title": "First EKG? 2nd EKG?",
+    "summary": "A subtle inferior occlusion that the STEMI criteria miss on the first tracing and give away on the second.",
+    "date_published": "2026-11-02T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "The case is filed under subtle inferior OMI and the ECG is explicitly one that does not meet STEMI criteria — the exact situation where the repeat tracing, not the first, is the test. Smith's point is about serial comparison as a deliberate act rather than a formality, which is the habit worth drilling at registrar level. Pairs directly with the OMI-versus-STEMI framing he has been reading through the PE and ACS guideline posts already in the feed.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/10/QS-2nd-ECG-peak-trop-8000-99-percent-scaled.jpg",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "ef320a304cb189f2045afc5266dc02b79b8ab218f578b2aa876f2036f206331c",
+    "url": "https://aquariumdrunkard.com/2026/11/05/the-lagniappe-sessions-leah-senior",
+    "title": "The Lagniappe Sessions :: Leah Senior",
+    "summary": "A Melbourne songwriter covering two British folk guitar pieces for the covers series that tells you what an artist actually listens to.",
+    "date_published": "2026-11-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Senior works out of the same Northcote-and-Thornbury folk scene as a good deal of the Australian material on his shelf, and Lagniappe is the series where an artist picks covers rather than plays the single. The two British folk guitar pieces here put her in the fingerstyle lineage that runs through the José González and Ben Howard end of the collection. Short, and the recordings are the point rather than the write-up.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/Lagniappe-LeahSenior_a.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "0a6d1c2c4cb0e8dbfeeb622f3752c6091ebf2c429ec54609adfa081c7cdd152f",
+    "url": "https://www.heddels.com/2017/11/behind-the-n-1-deck-coat-the-peacoats-rugged-successor",
+    "title": "History of the N-1 Deck Coat: The Peacoat's Rugged Successor",
+    "summary": "Why the navy abandoned wool for jungle cloth and alpaca pile, and what that decision left in every modern deck jacket.",
+    "date_published": "2017-11-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "The N-1 is the direct ancestor of most of the shearling-collared outerwear RRL and Woolrich keep reissuing, and this traces the actual spec — the shift off wool melton, the alpaca-and-wool pile lining, the stencilled USN mark. Construction and provenance rather than styling, which is the end of Heddels worth his time. Sits next to the Shangri-La outerwear and Indi + Ash barn coat pieces already in the feed as the historical source they are both working from.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "a255060e265a1f5fdd73cb2e857b8702d8753f1a8d24ce7a1b1f6941242c0900",
+    "url": "https://www.heddels.com/2014/08/vintage-clothing-made-better-economics-durability",
+    "title": "Why Vintage Clothing Was Made Better: The Economics of Durability",
+    "summary": "The argument that century-old workwear survives because of who was buying it, not nostalgia about how things used to be made.",
+    "date_published": "2014-08-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "Heddels makes the case through construction: riveted stress points on Levi's and Davis's work pants outlasted conventionally sewn ones, and labourers paid the premium because the garment was a tool they could not afford to replace. It is the economic frame behind everything in the vintage Banana Republic and Woolrich end of his wardrobe — those pieces were specified for people who needed them to last, which is why they still do. Useful as the yardstick for judging a modern reproduction's claims.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "3f3f40ce1a14a7dd8b276462165c519a66d07e138e1c4d3057cbc1cb950786fb",
+    "url": "https://www.analog.cafe/r/rollei-35s-compact-camera-review-54pw",
+    "title": "Rollei 35 S Compact Camera Review",
+    "summary": "The sharpest lens that will fit in a coat pocket, bolted to a camera that fights you the whole way.",
+    "date_published": "2022-03-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Analog.cafe",
+      "note": "The review is honest about the trade: the 40mm Sonnar is remarkably contrasty with minimal flaring and high central resolution, and the body is slow to operate — scale focus, bottom-mounted controls, no rangefinder. That is the whole decision with this camera, and it is a review written from using the thing rather than testing it. The one to read before paying current Rollei 35 money.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_1494662_S3k9-lTrb.jpg",
+      "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+    }
+  },
+  {
+    "id": "6d1f29a69896083a39a1f4192ceea4d51687b1907427ae3fed5141c82e84db4e",
+    "url": "https://www.analog.cafe/r/how-to-make-candid-portraits-on-film-as83",
+    "title": "How to Make Candid Portraits: On Film",
+    "summary": "An argument that the camera you can work without looking at it beats the better camera, for one specific kind of picture.",
+    "date_published": "2021-05-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Analog.cafe",
+      "note": "The case is for compact fixed-lens bodies and 35mm as the format for candid work — small enough that nobody composes themselves before you press the shutter. It names the Rollei 35 class of camera specifically, which is why it reads well alongside the 35 S review in the same edition. Dense and practical rather than inspirational, which is Analog.cafe's habit, and the technique does not age.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_1502090_xb8fXzpk8.jpg",
+      "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+    }
+  },
+  {
+    "id": "688af69dcdefea22a3c0642fff4d7747fe89be8732f4601673e26687de789232",
+    "url": "https://broomedocs.com/2026/02/dr-james-rippey-unreal-resus-echocardiography",
+    "title": "Dr James Rippey: UNreal Resus Echocardiography",
+    "summary": "Australia's most-quoted emergency sonologist on the echo views you actually get in a resus, not the ones in the textbook.",
+    "date_published": "2026-02-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "Broome Docs",
+      "note": "Rippey is the Perth emergency physician behind much of the ANZ ultrasound curriculum, so this sits closer to CCPU material than almost any overseas echo teaching does. The framing — 'unreal' resus echo — is about the gap between the clean parasternal long axis of a training course and the subcostal snatch you get between compressions. Broome Docs publishes rarely and has been quiet since June, which makes the back catalogue worth mining rather than waiting on.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://broomedocs.com/wp-content/uploads/2026/02/image.png",
+      "icon": "https://broomedocs.com/wp-content/uploads/fbrfg/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "b391255c6a2439c47dfabb9f47bfd48c34e03e7dbf99f57bffe0dd927513a4cb",
+    "url": "https://www.pushsquare.com/news/2026/11/sony-fighting-gta-6-ps5-piracy-with-new-firmware-demands",
+    "title": "Sony Fighting GTA 6 PS5 Piracy with New Firmware Demands",
+    "summary": "GTA 6 reportedly will not run on a PS5 below firmware 14.22.00.00 — worth knowing before the pre-load opens.",
+    "date_published": "2026-11-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "With pre-download opening 10 November and launch on the 19th, a 212GB transfer that then refuses to launch is a genuinely annoying way to spend a night. The firmware requirement comes from PS Store data scraping rather than a Sony statement, so treat it as strong rumour, but the fix is free and takes a minute. The piracy angle is the reason: Rockstar's build leaked months early via the Cyberleek group.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://images.pushsquare.com/48c52aff0b0e2/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "c0077dbd8f81cfea8f59bc8e226f495124d31fd21be79056750930be9a94192f",
+    "url": "https://concreteplayground.com/melbourne/travel-leisure/leisure/local-coburg-guide",
+    "title": "If You Know You Know: A Local's Guide to Coburg",
+    "summary": "The Sydney Road end of the northside, written by someone who eats there rather than visits.",
+    "date_published": "2026-07-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Concrete Playgrnd",
+      "note": "Beit Siti's Palestinian mezze spread and Half Moon's fava-bean falafel for breakfast, Olivine's wine list in the preserved cells at Pentridge, the volunteer-run Coburg RSL and the Coburg Drive-In, which is the last outdoor cinema in Melbourne. Coburg is the suburb immediately past the Brunswick ground the feed has already covered heavily, and this is the first thing that treats it as a destination rather than a thoroughfare. A guide rather than an opening, so it keeps.",
+      "published_at": "2026-11-08T15:24:53.048Z",
+      "image": "https://cdn.concreteplayground.com/content/uploads/2022/08/Coburg-Drive-In_01_supplied.jpg?webp=false",
+      "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
+    }
   }
 ]
