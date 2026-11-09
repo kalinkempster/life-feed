@@ -12931,5 +12931,199 @@
       "image": "https://cdn.concreteplayground.com/content/uploads/2022/08/Coburg-Drive-In_01_supplied.jpg?webp=false",
       "icon": "https://concreteplayground.com/content/themes/concrete-v3/assets/images/icons-v2/apple-touch-icon/apple-touch-icon-57x57.png"
     }
+  },
+  {
+    "id": "11d7c96846ce56c1bbbc93434550bd868e7837f49ae4be7219927c7ac1f3ed97",
+    "url": "https://litfl.com/ecg-case-142",
+    "title": "ECG Case 142: ECG Top 100 Self-Assessment Quiz",
+    "summary": "A 300ms QRS that looks exactly like VT until you work out it is potassium, and the repeat tracing after calcium proves the point.",
+    "date_published": "2026-11-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "LITFL",
+      "note": "The teaching value is in the pair of tracings: QRS 300ms with peaked T waves and a near sine-wave morphology, then 170ms after IV calcium. Calcium stabilises the membrane and narrows the complex without touching the serum potassium, which is the distinction that decides what you reach for second. Worth having the sine-wave pattern filed as a shape you recognise rather than a description you remember, because the resus-bay version of this decision is made in seconds.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "bfd88a829e58cb80c5edf8a9fc9c93e314fdb8c1253250fcfa4d7b598d2896f9",
+    "url": "https://first10em.com/stop-using-steroids-to-pretreat-contrast-allergy-car-csaci-practice-guidance-for-contrast-media-hypersensitivity",
+    "title": "Stop using steroids to pretreat contrast allergy!",
+    "summary": "The CAR/CSACI guidance says drop steroid pretreatment entirely, which removes a delay you currently build into CTPA decisions.",
+    "date_published": "2025-11-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "First10EM",
+      "note": "Morgenstern takes the Canadian radiology and allergy guidance and draws the practical conclusion: premedication for a documented contrast reaction does not earn the hours it costs. That matters most in the exact scenario where the delay hurts, a suspected PE or dissection in someone with 'allergic to contrast' in the notes. A year old and still the clearest statement of a change that many departments have not yet written into protocol.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://first10em.com/wp-content/uploads/2025/11/Stop-steroid-pretreatment-for-CT-contrast-allergy-First10EM.jpg",
+      "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+    }
+  },
+  {
+    "id": "71413415f70d7286c7d3926bce30f705150b1d67a98faa7a889a4881d658e0a9",
+    "url": "https://www.stemlynsblog.org/onscene-taking-ecpr-to-the-patient-a-game-changer-for-refractory-cardiac-arrest",
+    "title": "OnScene: Taking ECPR to the patient",
+    "summary": "40% survival versus 20% in refractory arrest, and Carley's question is whether any system outside the trial can reproduce it.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "The headline number is the kind that reshapes a resus conversation, but the appraisal spends its time on the harder question: whether a national HEMS service could deliver prehospital ECPR at the fidelity the trial achieved, and what the comparator arm actually represents in refractory arrest. St Emlyn's is the appraisal blog whose case mix lines up closest to ANZ practice, which makes its scepticism more transferable than most. Pairs with the ECPR-adjacent material already in the feed on optimising shockable arrest.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/11/OnScene-trial.jpg",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
+  },
+  {
+    "id": "4687b89060688987d8183bc4de03c0ba56ce846f8ef740bb0007c44aa12e913d",
+    "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing---4-november-2026",
+    "title": "WHO Director-General's opening remarks, 4 November 2026",
+    "summary": "The DRC's worst cholera outbreak in decades — 60,000 cases and 1,800 deaths this year — running underneath the Ebola story the feed has been following.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "WHO",
+      "note": "The feed has carried the Bundibugyo outbreak closely, through the Kenya and Nigeria exportations and the vaccine trial expansion. This briefing is the reminder that the same health system is simultaneously carrying 60,000 cholera cases and 1,800 deaths, a case fatality that says more about access to oral rehydration than about the organism. The concurrent-emergency framing is the part worth keeping: it is how these events actually arrive.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://cdn.who.int/media/images/default-source/campaigns---annual-theme/annual-theme/year-of-the-nurse-and-the-midwife/who-dr-tedros-portrait-11aug2017-0102.tmb-1200v.jpg?sfvrsn=2ccc89d4_30",
+      "icon": "https://www.who.int/favicon.ico"
+    }
+  },
+  {
+    "id": "6d947b434dd740cf7524d73adde9aa32d9e9c5a806adb2e8a3201f924623275c",
+    "url": "https://idp.nature.com/transit?code=4c5d1eea-26e5-4a1b-a4c5-77077fd12868&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs43856-026-01823-z",
+    "title": "LLMs in primary care: evidence, use cases and safeguards",
+    "summary": "A narrative review that sorts LLM claims in clinical workflow into evidence appraisal, decision support, referral and prevention — with the safeguards attached.",
+    "date_published": "2026-10-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Nature Comms Med",
+      "note": "The feed has already carried the Cabrini ED scribe result and the Nature Medicine prospective decision-support evaluation, both single deployments. This is the structural version: what the evidence actually supports across workflows, and what implementation safeguards the authors think are non-negotiable. Primary care rather than ED, but the safeguards argument is the part that transfers, and no LLM yet holds authorisation for clinical use anywhere.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": null,
+      "icon": null
+    }
+  },
+  {
+    "id": "98c8d275f5750f72b88c3c885736e04e67560cfb04904b881a1adb3782ec30b0",
+    "url": "https://www.abc.net.au/news/2026-11-04/albury-wodonga-health-chief-medical-officer-resigns-/107343892",
+    "title": "Albury Wodonga health chief medical officer resigns after three months",
+    "summary": "A chief medical officer walking out after twelve weeks is a governance signal, and it lands mid-campaign with regional hospitals already contested.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "Albury Wodonga Health has been an election football for months — the Coalition's extra $100 million pledge for the hospital, the arguments over differences between regional hospital commitments. A CMO resigning after three months is the kind of detail that tells you more about what it is like to work inside a border health service than any funding figure does. Relevant as system news rather than clinical practice: it is the place, not the medicine.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/5971ff2531f0b7b483305dfee3a3eb59?impolicy=wcms_watermark_news&cropH=228&cropW=405&xPos=0&yPos=33&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "d4e99b567e3937c903921db8e2c276cf07d67fbfa3afb0a5a8e4f584afbbd89f",
+    "url": "https://www.heddels.com/2026/05/headlights-10oz-random-hbt-work-garb-is-based-on-near-century-old-coveralls",
+    "title": "Headlight's 10oz 'Random' HBT work garb, from 1930s coveralls",
+    "summary": "A stitch-for-stitch 1930s chore coat and dungaree reproduction, down to the random-pattern herringbone and the blue bar tacks.",
+    "date_published": "2026-05-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "The detail worth the read is the 'random' HBT itself — herringbone twill woven with a deliberately irregular repeat, which is why the cloth reads as old rather than merely vintage-styled. Chin strap, buckle back and blue bar tacks at the reinforcement points are all period-correct rather than decorative. Sits directly behind the Pendleton and Woolrich end of the wardrobe, and explains what the N-1 and blanket-coat pieces already in the feed were gesturing at about construction.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "24170f5d162996f361d86b082820aff573c6ab1a43621a0065c1ab37ad33cd0c",
+    "url": "https://www.pushsquare.com/news/2026/11/ps5-exclusive-god-of-war-laufey-has-officially-been-delayed-by-three-months",
+    "title": "God of War Laufey delayed by three months to 20 May 2027",
+    "summary": "Sony Santa Monica moves Faye's game off 17 February to 20 May, which clears the early-2027 PS5 calendar entirely.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "Pre-orders opened in late September and Push Square was reporting them as 'absolutely massive', so this is a slip made with the money already on the table. Still a PS5 exclusive, physical and digital both at launch, and the only stated reason is finishing touches. With GTA 6 landing 19 November, that leaves the first half of 2027 looking thin for the platform.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://images.pushsquare.com/77662bc359e9f/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "b341544d6ceaf520e1298fd34064659279cbaa9dc9aa81f90ab30bb2272169ee",
+    "url": "https://www.coleminerecords.com/blogs/news/the-winston-brothers-bring-you-sweets",
+    "title": "The Winston Brothers Bring You Sweets",
+    "summary": "Hamburg's instrumental funk quartet return with horn-led '70s soul, out three days ago on a 300-copy splatter press sold direct.",
+    "date_published": "2026-11-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Colemine Records",
+      "note": "Colemine sits immediately next to the Daptone and Big Crown shelf — Menahan Street Band, Sharon Jones, Thee Sacred Souls — and the Winston Brothers work the same horn-driven instrumental seam. This is the follow-up to 2022's Drift, and the green, red and black splatter is capped at 300 and webstore-only, so it is a now-or-never pressing rather than a reissue announcement. Label news from a label whose roster the collection already leans on.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://www.coleminerecords.com/cdn/shop/articles/Photo_by_Benjamin_Hampson_3_1024x.jpg?v=1789469048",
+      "icon": "https://www.coleminerecords.com/cdn/shop/files/colemine_logo_favicon_96x.png?v=1613601570"
+    }
+  },
+  {
+    "id": "10a40ef6b773cbf6921c2292e1a0d5fcd764da760e4e3c98e407b12c1dbc9c36",
+    "url": "https://enshrouded.com/en-US/news/changelog-for-hotfix-5-v1012",
+    "title": "Changelog for Hotfix #5: v1.0.1.2",
+    "summary": "Fifth hotfix in three weeks, and this one finally makes pinned recipes stay pinned — the small irritation everyone had stopped reporting.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Enshrouded",
+      "note": "Keen is now patching the 1.0 build roughly every other day: Patch #1 on 2 November fixed boss regen at range and closed the wand block-cancel, and this follows two days later. The crash fixes are the substantive part — deprecated items and blueprints brought into a world, a rare water crash, and an endless black screen on login to certain worlds. First-party notes, which is the version worth reading if you are the one loading the save.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://enshrouded.com/uploads/EN_STEAM_HOTFIX_5_f96b33321a.jpg",
+      "icon": "https://enshrouded.com/favicon.ico"
+    }
+  },
+  {
+    "id": "0786314a4e8e2d92a475494bcfd8b802e71980d510e66ef1ed4ac45e328824d5",
+    "url": "https://beat.com.au/no-more-guessing-brunswick-easts-tiny-new-bottle-shop-picks-your-wine-by-the-occasion",
+    "title": "Brunswick East's tiny new bottle shop picks your wine by occasion",
+    "summary": "60 square metres on Lygon Street, 150 wines instead of a thousand, ranged as Weekday, Party and Fancy rather than by region.",
+    "date_published": "2026-06-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Beat Magazine",
+      "note": "Drop Shop is Dan Sims of Pinot Palooza doing the opposite of a cellar — the whole premise is that 150 bottles chosen well beats a wall of them, sorted $15–25, $25–40 and $40-plus. Corner of Lygon and St Phillip in Brunswick East, which puts it a short walk from most of the northside dining the feed has been tracking. A shop rather than an opening, so it keeps.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://beat.com.au/wp-content/uploads/2026/06/Frankie-Web-Article-Image-Design-2026-06-11T140822.498.jpg",
+      "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+    }
+  },
+  {
+    "id": "d0a3dfffc86edfd51179519c612a240e049696dd23a6f8eda4c67f69b805fd40",
+    "url": "https://www.35mmc.com/10/10/2025/minox-35-el-reveiw-the-original-its-all-about-the-lens",
+    "title": "Minox 35 EL review — The Original: it's all about the lens",
+    "summary": "The other great pocket 35 of that era, and the review is honest about the glass-fibre body being the price you pay for the lens.",
+    "date_published": "2025-10-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The natural companion to the Rollei 35 S piece already in the feed: same ambition of a genuinely pocketable full-frame camera, a different and more fragile answer to it. The reviewer rates the lens highly and then documents the light-tightness problems the glass-fibre shell causes and the awkward wind-on tab, noting that later Minox models fixed much of it. Useful before buying one, which is the only kind of camera writing worth reading.",
+      "published_at": "2026-11-09T15:29:12.812Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2025/08/RJ408386c.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
   }
 ]
