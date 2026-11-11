@@ -1,0 +1,203 @@
+{
+  "day": "2026-11-12",
+  "ran_at": "2026-11-11T15:25:16.391Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "db3fb83391d18c0246f655f4443677a1d93dbe3d79bd81837c95135f48c19f65",
+      "url": "https://litfl.com/kovacs-sign",
+      "title": "Kovacs sign",
+      "summary": "The single visual cue that tells you a hyperangulated blade has gone in too far, before tube delivery fails.",
+      "date_published": "2026-11-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "Hyperangulated video laryngoscopy is the default in most Australian EDs now, and this is the failure mode nobody names out loud: a beautiful glottic view you cannot drive a tube through. If the cricoid ring is visible between the cords, the blade is over-inserted and over-rotated — withdraw and de-rotate until the view lines up with the tracheal axis. LITFL's eponym entries are short enough to read between patients, and this one pairs with their performance-errors-in-VL taxonomy.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "a2d0494dd486e4961a2071ae73c744d3700f1af16b97a8b124343e8cba3d3180",
+      "url": "https://www.analogplanet.com/content/frank-sinatra%E2%80%99s-benchmark-1966-double-live-album-sinatra-sands-soars-most-excellent-rti",
+      "title": "Sinatra At The Sands Soars on RTI-Pressed 180g 2LP Reissue",
+      "summary": "A reissue of a live record he already owns an artist from, assessed on the pressing rather than the repertoire.",
+      "date_published": "2026-11-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Analog Planet",
+        "note": "Sinatra is on the shelf, and this is the 60th-anniversary Vinylphyle edition of the 1966 Sands dates with Count Basie and a young Quincy Jones conducting. Smotroff's review is about the manufacturing: new mixes by Larry Walsh, mastering by Joe Nino-Hernes at Sterling Sound, pressed at RTI, with the original four-panel insert artwork reproduced. He reports the gain is mostly in instrumental detail and that it holds together without edge at volume — which is the whole question with a live big-band record.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "a989f1582084d0cf153c32d2fa32483a4ec12dee696b65f0f20a1d5ab4b8abfd",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "summary": "First-party release notes for the models most of the AI-in-medicine coverage will be about for the next month.",
+      "date_published": "2026-11-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Anthropic",
+        "note": "Worth reading from the source rather than the secondary coverage, which is currently tangled up with the IPO roadshow and getting the pricing wrong in both directions. Mythos 5.2 is gated to vetted organisations through Life Sciences and Cyber verification programs, which is the detail that matters for anyone wondering why clinical AI tools lag consumer ones. The system card's note that both models suspect they are being evaluated more often than previous versions is the kind of thing that will be quoted at him in a hospital IT meeting eventually.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://assets.claude.com/21b3240f9264f8e4c8ab1390e2702cf1401b2367.jpg",
+        "icon": "https://www.anthropic.com/favicon.ico"
+      }
+    },
+    {
+      "id": "e8c77afab4887077caa298b5427b94565788257f8cc38a6b877ba669c2dfb4e6",
+      "url": "https://disasterphilanthropy.org/blog/what-were-watching-weekly-disaster-update-november-2-2026",
+      "title": "What we're watching: Weekly disaster update, November 2",
+      "summary": "One page that catches up every active humanitarian emergency, including the ones the Australian press has stopped covering.",
+      "date_published": "2026-11-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "CDP",
+        "note": "Cyclone Arnab made landfall on the Andhra Pradesh coast on 28 October after tens of thousands were evacuated, with Cyclone Murasu queued behind it — back-to-back landfall is the scenario disaster medicine teaching keeps using and reality rarely supplies. South Sudan's cholera outbreak is now the largest on record there, with two-thirds of the population needing assistance against a $1.04 billion response plan. The Center for Disaster Philanthropy publishes these weekly and dates each one, so unlike a wire feed it is readable in a single sitting.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://disasterphilanthropy.org/wp-content/uploads/2026/11/872851340_28593046340398314_7331514201336618046_n.jpeg",
+        "icon": "https://disasterphilanthropy.org/favicon-light.png"
+      }
+    },
+    {
+      "id": "458034a73a00403a7f064091951ab99040a57cd47c3179379f0171aba9d625c3",
+      "url": "https://www.heddels.com/2026/11/back-in-black-fullcounts-sulfur-dyed-13-7-oz-black-selvedge-denim",
+      "title": "Back in Black: Fullcount's Sulfur-Dyed Black Selvedge Denim",
+      "summary": "Black denim that is built to fade rather than hold its colour, and the dye chemistry that decides which it does.",
+      "date_published": "2026-11-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Sulfur dyeing the warp is the whole point here: it means the 13.7 oz cloth greys out with wear instead of staying flat black the way a reactive-dyed pair does, so it ages like indigo rather than like fast fashion. Fullcount weave it on vintage shuttle looms from hand-picked Zimbabwean cotton, the same staple that built their reputation for soft, loose-spun yarn. Offered in the 0105 wide leg and the 1101 straight, which is the cut that sits closest to the vintage Banana Republic and RRL end of his wardrobe.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "52cbedfd3494e124b29934d7479b733f56d3a234c8d6fb589ed0837f928e71a0",
+      "url": "https://www.analog.cafe/r/smc-pentax-m-128-40mm-pancake-lens-review-bwn7",
+      "title": "SMC Pentax-M 1:2.8 40mm Pancake Lens Review",
+      "summary": "A review that settles a twenty-year argument about one lens by just showing you the unsharpened scans.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Analog.Cafe",
+        "note": "The internet has never agreed on whether the 40mm pancake is sharp, and this review's answer is to publish unsharpened 6MP and 4K scans and let you decide — which is more honest than most lens writing and exactly the Analog.Cafe house style. The practical findings: medium contrast, visible bokeh even at f/5.6, chromatic aberration as the real weakness, and an eBay average of $150–200 through Q4 2026. For a K-mount body this is the lens that makes an SLR pocketable, which is the only reason anyone puts up with a 40mm.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://res.cloudinary.com/analog-cafe/image/upload/c_fill,fl_progressive,w_880/image-froth_1538462_U6LVAjvcO.jpg",
+        "icon": "https://www.analog.cafe/static/icons/favicon.ico?v=3"
+      }
+    },
+    {
+      "id": "5ea2cb50ce5a3f5db28fdb766cf45726bce94240789553450c8b01e71e6370a4",
+      "url": "https://www.pushsquare.com/news/2026/11/10-ps-plus-extra-premium-games-for-november-2026-announced",
+      "title": "10 PS Plus Extra, Premium Games for November 2026 Announced",
+      "summary": "This month's catalogue drop, landing the week GTA 6 will eat everyone's time anyway.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "The Extra and Premium lineups roll out from the 17th, with Death Stranding 2: On the Beach the headline addition alongside Atomfall and the Dragon Quest 3 HD-2D remake. Death Stranding 2 at no extra cost is the one worth noting — it was a full-price PS5 exclusive eighteen months ago. Awkward timing against a 19 November GTA launch, so these are better thought of as January games claimed in November.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://images.pushsquare.com/473b43aebda42/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "3c094b0ef228076325a73b6d9cee0e958d76f9a1ba0ceb97be146a3db263371b",
+      "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-pro-features-revealed-30fps-target-on-both-consoles",
+      "title": "GTA 6 PS5 Pro Features Revealed, 30fps Target on Both",
+      "summary": "The performance answer eight days before launch: no 60fps mode, and the Pro buys you pixels, not frames.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Push Square",
+        "note": "Rockstar has confirmed 30fps on both base PS5 and PS5 Pro, with no 60 or even 40fps mode at launch, which settles the question people have been arguing since the gone-gold announcement the feed carried last week. The Pro's actual advantages are PSSR image clarity and ray-traced shadows that the base console does not get — a visual upgrade, not a smoothness one. Useful before the 19th if the decision was whether to wait for a Pro.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://images.pushsquare.com/30e94f06a6b3c/1280x720.jpg",
+        "icon": "https://static.pushsquare.com/favicon.ico"
+      }
+    },
+    {
+      "id": "c87295dbe042627dbe4c12e23fa4a36b6e8d0f37e41777c4cf22eb6cd300bddf",
+      "url": "https://www.stemlynsblog.org/ttl-tip-23-open-fractures",
+      "title": "TTL tip 23: Open fractures",
+      "summary": "A one-page resus-room checklist for the open fracture that arrives before the orthopaedic registrar does.",
+      "date_published": "2026-11-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "The feed already carries TTL tips 19 through 22, so this is the next instalment of a series he has been reading — Carley's trauma team leader notes written for the person actually standing at the end of the bed. The operational detail is the useful part: antibiotics inside the hour, neurovascular exam documented again after realignment and splinting, no mini-washouts in resus, and photograph the wound once rather than peeling the prehospital dressing back twice. It also flags agricultural, aquatic and sewage contamination as straight-to-theatre, which is the call a registrar has to make unprompted.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/11/Catastrophic-mid-face-bleeding-2.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "7be393fae75ffaa6a38ccafb3d638b150f8165cc93661c726c524c1491c6fc66",
+      "url": "https://www.35mmc.com/03/11/2026/canon-eos-650-the-cheap-the-good-and-the-phoenix",
+      "title": "Canon EOS 650 - the cheap the good and the Phoenix",
+      "summary": "The first EF-mount body, now the cheapest way into autofocus film, paired with Harman's strangest colour stock.",
+      "date_published": "2026-11-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Giacomo Cecot shoots the 1987 EOS 650 — the camera that launched the EF mount and now sells for less than a roll and a dev — on Harman Phoenix 200. It follows a run of autofocus-SLR writing the feed has picked up lately, the Minolta Dynax 700si and 7xi among them, and the argument is the same: the late-eighties plastic bodies are the last genuinely undervalued corner of film gear. Pairing it with Phoenix is the interesting choice, because a stock that unruly usually gets handed to a Leica.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/09/IMG_6188-scaled.jpeg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "577936621929d45b09d2c85d7375c2d0cb28213b949a75259abeb6808f81b3cf",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/tommy-two-buns-bar-gloria-pop-up",
+      "title": "Tommy Two Buns Launches Pop-Up at Fitzroy North's Bar Gloria",
+      "summary": "The bowlo burger has found a permanent wine bar to live in, ten minutes up St Georges Road.",
+      "date_published": "2026-10-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Ari Bedewi-Hayes has moved Tommy Two Buns out of the Fitzroy bowling club into an open-ended residency at Sam Vinciullo's Bar Gloria, 181 St Georges Road — a natural wine list and a charcoal-grilled 200g patty from Nino's & Joe's in Brunswick, which is as northside as a burger gets. The Tommy is the cheeseburger riff, with a portobello version for the non-meat version of the night. Thursday and Friday dinner, all day Saturday, Sunday lunch, though Broadsheet warns the schedule shifts.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/10/05/Tommy%20Two%20Buns%20at%20Bar%20Gloria_Michael%20Gardenia_16%20of%2046-f94161c9b2.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    },
+    {
+      "id": "7f785ad35acaa3ce6c853dc144582dc64d7d8bbbabab16e358f06eac8f55490b",
+      "url": "https://www.broadsheet.com.au/featured/melbourne-best-new-bars-2026",
+      "title": "Melbourne's Six Best New Bars of 2026",
+      "summary": "The year's shortlist rather than the month's, and three of the named rooms are a tram ride from him.",
+      "date_published": "2026-11-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Six is a short enough list to be an actual opinion, and the northside showing is strong: Jacket in Thornbury makes the main six, with The Pinnacle in Fitzroy North and Champagne Video as honourable mentions. The Pinnacle entry is the one to watch, because the reopened pub is reportedly making way for a 40-seat bistro, which changes what the place is for. Published 9 November, so it is the year-in-review rather than another openings roundup that gets rewritten next month.",
+        "published_at": "2026-11-11T15:25:16.391Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/11/09/BoB-melb-bars-article-60d73c2e37.gif",
+        "icon": "https://www.broadsheet.com.au/favicon.png"
+      }
+    }
+  ]
+}
