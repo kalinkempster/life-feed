@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://www.stemlynsblog.org/ttl-tip-24-shooting-arrows-give-the-task-a-name/",
+      "title": "TTL tip 24: Shooting arrows — give the task a name",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "A one-line fix for the trauma call where three people hear an instruction and nobody owns it.",
+      "note": "Carley's trauma-team-leading tips are the closest thing in FOAM to a transferable script for the resus room, and this one is entirely about naming the person before naming the task, then closing the loop to confirm it happened. Read it against tip 22 on graded assertiveness, already in this feed — together they cover both directions of the same communication failure.",
+      "date_published": "2026-11-12"
+    },
+    {
+      "url": "https://www.stemlynsblog.org/zone-1-partial-reboa/",
+      "title": "Pre-Hospital Zone 1 Partial REBOA",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "A feasibility study on partial aortic occlusion before hospital, appraised rather than cheered.",
+      "note": "Partial REBOA was achieved in 8 of 11 patients and occurred spontaneously in four of them — which is the detail that decides whether this is a controllable technique or just a possible one. The appraisal is honest about how little eleven patients can settle, and it sits directly alongside the REBOA-in-the-ED material he has already worked through.",
+      "date_published": "2026-10-16"
+    },
+    {
+      "url": "https://emergencymedicineireland.com/tasty-morsels-of-critical-care-096-infective-endocarditis-diagnosis/",
+      "title": "Tasty Morsels of Critical Care 096 — Infective Endocarditis",
+      "source": "EM Ireland",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Andy Neill on why endocarditis reaches the ED as heart failure or a stroke, not as a murmur.",
+      "note": "Built from chapter-level Oh's Manual material and pitched at fellowship exams, so it is dense in the way revision needs to be: modified Duke criteria, embolic presentations, the culture-negative causes that make the diagnosis slippery. Episode 097 picks up surgical indications and timing, so this is the front half of a pair worth doing in order.",
+      "date_published": "2026-08-17"
+    },
+    {
+      "url": "https://acem.org.au/News/October-2026-(1)/Report-reveals-health-system-failing-ageing-popula",
+      "title": "Report reveals health system failing ageing population",
+      "source": "ACEM",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "His own college putting numbers to what the over-65 cohort is doing to departmental flow.",
+      "note": "ACEM's third State of Emergency report: older patients waiting more than 24 hours for a bed rose from 15,084 to 53,510 across five years, while inpatient capacity stayed flat at 2.5 beds per 1000. The recommendations point outward — alternative acute pathways, discharge capacity — which is the argument being fought over right now in the Victorian campaign he is working through.",
+      "date_published": "2026-10-13"
+    },
+    {
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "title": "Claude can design electronic prototypes from start to finish",
+      "source": "Anthropic",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "A capability claim with a physical object at the end of it, which makes it easier to judge than a score.",
+      "note": "Three working devices — a speakerphone, a voice-assistant hub, a handheld virtual pet — specified, schematic'd, routed and firmware-written by the model, with a hardware partner assembling boards under its direction. The 25%-to-69% benchmark jump is the partner's own internal test rather than an independent one, and the post says plainly that nobody knows whether these prototypes survive real use or would ever certify.",
+      "date_published": "2026-11-09"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/11/12/habibi-funk-035-beirut-city-pop/",
+      "title": "Habibi Funk 035 :: Beirut City Pop",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Ten tracks lifted from Lebanese private-press cassettes, behind a cover that misleads you on purpose.",
+      "note": "Habibi Funk sits right next to the Yin Yin and Glass Beams end of the collection — non-Western grooves reissued with documentation rather than crate-digger mystique, and licensed properly, which is the label's whole point. Aquarium Drunkard's read is that the Hiroshi Nagai-style sleeve sets up a Japanese city-pop expectation the music then declines to meet.",
+      "date_published": "2026-11-12"
+    },
+    {
+      "url": "https://insheepsclothinghifi.com/richard-veal-revisits-sea-horses-lost-1989-1992-world/",
+      "title": "Richard Veal Revisits Sea Horses' Lost 1989–1992 World",
+      "source": "ISC HiFi",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "An interview that gets unusually specific about what a vinyl mastering credit does and doesn't cover.",
+      "note": "Veal separates the remastering done from source tapes from the final cut for pressing, and argues the original 1989–92 recordings were never properly mastered in the first place — exactly the pressing-and-mastering craft this topic exists for, rather than another reissue announcement. First run sold out immediately; the repress is taking orders now.",
+      "date_published": "2026-11-11"
+    },
+    {
+      "url": "https://www.35mmc.com/11/11/2026/large-format-reflections-part-i-1799-van-rensselaer-mill-claverack-new-york/",
+      "title": "Large-Format Reflections, Part I: 1799 Van Rensselaer Mill",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "What slowing all the way down to sheet film does to the way you look at one building.",
+      "note": "This is 35mmc at its work-led end rather than another body review — a single 18th-century mill, approached with the cost of each sheet shaping what gets exposed at all. Useful counterweight to the point-and-shoot reviews that dominate the film reading here, and it is part one of a series, so the follow-ups are coming.",
+      "date_published": "2026-11-11"
+    },
+    {
+      "url": "https://www.theavantmag.com/stories/the-chimayo-jacket-americas-most-storied-garment",
+      "title": "The Chimayo Jacket: America's most storied garment",
+      "source": "The Avant",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "The weaving tradition behind a jacket RRL has been reinterpreting since the 1980s.",
+      "note": "Handwoven wool body, corduroy sleeves, concho-style buttons — credited to Ollie McKenzie around 1930 and drawn from Chimayó weaving in northern New Mexico, with the Ortega and Trujillo weaving families named as the lineage. Ralph Lauren folded the look into the 1980s Country collection, which is the direct line back to the RRL end of his reference points; Centinela and Willie Taylor & Co. still make them.",
+      "date_published": "2026-04-09"
+    },
+    {
+      "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+      "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+      "source": "PlayStation Blog",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "The first-party numbers for a 212GB download and a rolling midnight unlock, nine days out.",
+      "note": "Straight from Sony rather than coverage of Sony: clear at least 212GB before the 19th, and the unlock rolls westward from New Zealand, which puts Melbourne among the first cities playing rather than waiting on a US clock. Physical copies are code-in-box with no disc, so the download is unavoidable whichever edition he bought.",
+      "date_published": "2026-11-10"
+    },
+    {
+      "url": "https://www.timeout.com/melbourne/news/melbourne-is-scoring-two-new-restaurants-from-chris-lucas-and-bookings-are-officially-open-111126",
+      "title": "Melbourne is scoring two new restaurants from Chris Lucas",
+      "source": "Time Out",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Two Bourke Street openings a week apart, with bookings already live rather than merely teased.",
+      "note": "Noēma opens 19 November and Wishbone follows on the 24th, both at 435 Bourke Street — city rather than northside, but Lucas rooms book out well before the reviews land, so the useful moment is now and not in January. Worth a diary note if a CBD dinner is going to happen before Christmas.",
+      "date_published": "2026-11-11"
+    },
+    {
+      "url": "https://www.timeout.com/melbourne/news/just-in-the-highly-anticipated-ngv-triennial-returns-to-melbourne-in-december-041526",
+      "title": "NGV Triennial 2026 opens at Melbourne's NGV this December",
+      "source": "Time Out",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "The free summer blockbuster to plan around, with the commissions actually worth queueing for.",
+      "note": "Opens 13 December and runs to 11 April, free entry, roughly 100 artists from 35 countries and 25 world premieres: Jenny Holzer's WTF, a 25-photograph Wolfgang Tillmans installation, Angelina Karadada Boona reworking the Waterwall in light. The announcement is from April, which is precisely why it belongs back in front of him four weeks before doors open.",
+      "date_published": "2026-04-15"
+    }
+  ]
+}
