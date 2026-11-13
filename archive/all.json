@@ -13705,5 +13705,200 @@
       "image": "https://media.timeout.com/images/106394353/image.jpg",
       "icon": "https://www.timeout.com/static/root-files/favicon.ico"
     }
+  },
+  {
+    "id": "f0f9aa4f575885a30605e965fc8e54a18da01745cbddd3d8240daf82b788e975",
+    "url": "https://criticalcarereviews.com/circulatory/dapt-shock-ami",
+    "title": "DAPT-SHOCK-AMI: Cangrelor vs Crushed Ticagrelor in Shock",
+    "summary": "A trial in the exact population every antiplatelet study has previously excluded — MI complicated by cardiogenic shock.",
+    "date_published": "2026-11-08T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Critical Care Rev",
+      "note": "Crushed ticagrelor down an NG tube in a shocked, intubated, poorly perfused patient is something he will have done on faith; this trial finally measures it, and the answer is that it achieved platelet inhibition in 22% of patients against cangrelor's 100%. Noninferiority on the clinical endpoint was not shown, which is the interesting part — the surrogate moved dramatically and the outcome did not. Critical Care Reviews is a new source for this feed and worth keeping for its trial pages, which are leaner than the blog appraisals.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "9b6daf4b67a4586a1aed2c2891e1fa43ee4ee59460e02174dea93a63df441947",
+    "url": "https://arxiv.org/abs/2610.00818",
+    "title": "Quantifying the Impact of Ambulance Ramping in Victoria",
+    "summary": "2.85 million Victorian ambulance attendances analysed to put a number on what ramping actually costs.",
+    "date_published": "2026-10-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "arXiv",
+      "note": "Every figure in the Victorian election health debate — the 40-minute transfer target, the 71% against an 80% benchmark — comes from administrative reporting; this is the same system measured from the case level across January 2020 to March 2024. It is the evidence base under the $1.5 billion ED expansion promise and the exit-lounge counter-pitch, and it is readable without a subscription. Useful for knowing whether the numbers being thrown around describe the ramp he actually stands on.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "e55fc414ab57e43433121863ab5e0e6e9dea67e46d9f4e8c04e755a0218da23b",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+    "title": "Yellow fever – WHO African Region",
+    "summary": "Yellow fever activity concentrated in four West African countries, much of it clustered near international borders.",
+    "date_published": "2026-11-06T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "WHO",
+      "note": "Burkina Faso, Côte d'Ivoire, Ghana and Liberia, with the cross-border clustering that makes containment a regional rather than national problem. The practical end of this for an Australian ED is the returned traveller with fever and jaundice, where yellow fever sits in a differential most registrars have never had to actually use. WHO's own DON notices carry the case definitions and vaccination status detail that the news coverage strips out.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+      "icon": "https://www.who.int/favicon.ico"
+    }
+  },
+  {
+    "id": "7a56e2062f93f8c0e4390f7ad3b798cb480a24170fa85961cca292378a685c71",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary",
+    "title": "Hide your slop PR descriptions behind <details><summary>",
+    "summary": "The problem with agent-written pull request descriptions is not that they are wrong, it is that they are too comprehensive to read.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison's point generalises past code review to anything where an AI produces an accurate, exhaustive summary nobody can absorb — discharge summaries and handover notes are the obvious medical version. The fix he proposes is purely presentational: collapse the thorough version, surface the two lines a human needs. Short, and the sort of practical observation that is more useful than another capability announcement.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://static.simonwillison.net/static/2026/details-summary-card.webp",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "1ea66b0919911ac00e995422016e55f24e355541c3a0b2b474c854b30d80f667",
+    "url": "https://insheepsclothinghifi.com/steve-gunn",
+    "title": "Steve Gunn's Wild Journeys Through Folk, Psych and Improv",
+    "summary": "Six records chosen to map twenty years of a guitarist who keeps moving between fingerpicking, drone and motorik.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "In Sheep's Cloth",
+      "note": "Gunn is the natural next shelf over from the José González and Ben Howard end of the collection — solo guitar as a whole arrangement rather than an accompaniment — and he goes considerably further out than either. Randall Roberts picks the entry points rather than the completist list, which is what a six-record piece should do. Flam is the one to start with if the ambient-and-distortion description appeals.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2026/11/f6f8c8fd-4a1f-4b18-87a6-7c3c39bd50b4-1200x630.webp",
+      "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "588b67b4a6e16cbc39ec2d19493b653ae7ab4afd6184a59e65b3fdff6004b58e",
+    "url": "https://emergencymedicinecases.com/em-quick-hits-74-nov-2026",
+    "title": "EM Quick Hits 74: Non-Obstructive ACS, Sickle Cell, NPO Rules",
+    "summary": "Amal Mattu on ACS without a culprit lesion, plus fasting rules before procedural sedation and sickle cell in the ED.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EM Cases",
+      "note": "The non-obstructive ACS segment is the one that changes a shift: a patient with a raised troponin, a clean angiogram and nowhere obvious to go. The NPO segment matters for anyone still being asked to starve patients before ketamine, where the guidelines have moved further than most department culture has. Quick Hits is the format that survives being listened to on the way in.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://emergencymedicinecases.com/wp-content/uploads/2026/11/EM-Quick-Hits-74-Featured-Image-600x450-1.png",
+      "icon": "https://emergencymedicinecases.com/wp-content/uploads/2016/07/EM_Cases_Logo_16.png"
+    }
+  },
+  {
+    "id": "24de56701783f12a5eae1ed4c0cb8b133061d4344f2314c16a5c59cbee9a7ff0",
+    "url": "https://insheepsclothinghifi.com/pipe-dreams-smiling-c",
+    "title": "Pipe Dreams: Smiling C's Private-Press Tropical Vacation",
+    "summary": "Four years of digging condensed into nineteen obscure soft rock, lounge and disco tracks, with the compilers explaining the choices.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "In Sheep's Cloth",
+      "note": "This is the private-press underground that the Alessi Brothers sit on the commercial edge of — the same soft-rock instinct, with none of the distribution. Henry Jones and collector Mike Patricola talk through how a double LP gets assembled from records that were pressed in the hundreds, which is the interesting half of any compilation. Good listening-bar sequencing, and a reliable source of artists that do not appear anywhere else.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2026/11/pipedream-1200x630.jpg",
+      "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "e3e379a363e47e8033d8a09270df12b0ca4c2508b3617ead8a3090b33d39f60c",
+    "url": "https://permanentstyle.com/2026/11/visiting-waterbury-buttons-in-connecticut-with-paul-stuart.html",
+    "title": "Visiting Waterbury Buttons in Connecticut",
+    "summary": "The brass button factory that supplies the entire US military, with menswear as a rounding error on its order book.",
+    "date_published": "2026-11-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Permanent Style",
+      "note": "Waterbury has been casting brass since 1849 and stamps around 50 million buttons a year, almost all of it military, police and fire service — which is precisely why its buttons turn up on the vintage Woolrich and surplus-derived pieces that the RRL and Banana Republic reference points are built from. A factory visit rather than a product post, so it is about tooling, dies and volume rather than a drop. The provenance end of menswear writing, which is the end worth reading.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "863b5c0407afe4a536deaee1f6316fa43773f6b0e0003748a9c04e86fb5fc3a5",
+    "url": "https://massivelyop.com/2026/11/11/cooperative-survival-sandbox-stormforge-officially-enters-early-access-maps-out-its-updates-into-2027",
+    "title": "Co-op Survival Sandbox Stormforge Enters Early Access",
+    "summary": "A new co-op survival game in early access with its roadmap published out to a 1.0 in late 2027.",
+    "date_published": "2026-11-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "Worth a look purely because the roadmap is specific — a biome with its own boss plus a healing class in spring 2027, NPC quest givers and deeper skill trees in summer — which is more than Dragonwilds or Enshrouded committed to at the same stage. Roboto Games has put dates against content rather than seasons, so it is checkable later. Early access, so the question is whether the loop holds for the first twenty hours, not whether it is finished.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "b12ce088533f82c00b1e1980f81d1675bb07d57d1ffcdec4565a113e9ad530c7",
+    "url": "https://drsmithsecgblog.com/hyperacute-t-wave-quiz-30-ecg-cases",
+    "title": "Hyperacute T-Wave Quiz: 30 ECG Cases",
+    "summary": "Thirty tracings in a row where the only question is whether the T waves are hyperacute or a convincing mimic.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "Hyperacute T waves are the finding most likely to be called normal on a first pass and then explain a troponin rise an hour later, and thirty cases in one sitting is the only way to calibrate against the mimics — LVH, hyperkalaemia, early repolarisation. Smith's blog is already the reference he reaches for on occlusion MI without ST elevation; this is the same material in drill form rather than case form. Worth doing in one go and keeping the ones he got wrong.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/11/Screenshot-2026-11-09-at-3.14.25-PM.png",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "8038f32d2333efde273d4b2882e92260c0caca0f6f5ae900112caf8714fbc878",
+    "url": "https://www.35mmc.com/13/11/2026/divine-intervention-my-favourite-photo-of-the-year",
+    "title": "Divine Intervention — My Favourite Photo of the Year",
+    "summary": "One frame, and a full account of why the photographer kept it over everything else shot that year.",
+    "date_published": "2026-11-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "35mmc is running a run of these single-picture pieces at the moment, and they are the most useful thing the site publishes — the discipline of defending one frame forces an argument about what the photographer was actually trying to do. Far more instructive than a camera review, because the camera turns out to be irrelevant. Read alongside the others in the series if the format lands.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": null,
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "3adc6197b9bf134a4926dd430537cdf8bd7e6efa4b00cd0a6f1b3b6443b33dfc",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-restaurant-favourite-baker-and-instagram-micro-bakery-akimbo-bread-finally-opens-retail-store-northcote",
+    "title": "Micro-Bakery Akimbo Bread Opens a Northcote Retail Store",
+    "summary": "The bread that restaurants were buying wholesale is now sold over a counter on Victoria Road.",
+    "date_published": "2026-07-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Akimbo spent its first years supplying kitchens and taking Instagram pre-orders, so the shopfront is the first time the bread, fougasse and focaccia can simply be bought. Victoria Road, Northcote, with Fieldwork coffee, and the hours are the honest micro-bakery kind — Wednesday to Saturday, 7.30am to 2pm, which rules out anything after a late shift. Closer to home than most of the bakeries that get this treatment.",
+      "published_at": "2026-11-13T16:14:05.006Z",
+      "image": null,
+      "icon": "https://www.broadsheet.com.au/favicon.ico"
+    }
   }
 ]
