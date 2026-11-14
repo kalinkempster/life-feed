@@ -1,0 +1,201 @@
+{
+  "day": "2026-11-15",
+  "ran_at": "2026-11-14T15:27:19.454Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "5c22e8ae3bb0c7f952ab7eee2c6733f1fe8d5caeb132e12a3fa273bce8fcdb39",
+      "url": "https://www.abc.net.au/news/2026-08-14/death-of-man-in-hospital-highlights-failures-staff-says/107028086",
+      "title": "Ballarat ED staff say a death highlights health system failures",
+      "summary": "ED staff going on the record about a death in their own department, two weeks out from an election being fought on exactly this.",
+      "date_published": "2026-08-14T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ABC News",
+        "note": "Both parties are now campaigning on emergency wait times — Labor's $1.5b expansion and the Coalition's transit lounges are both already in his feed — and this is the floor-level version of what those pledges are responding to. It is staff speaking publicly about their own department, which is rare and carries more weight than the quarterly ramping figures. Ballarat Base is one of the regional EDs named in Labor's expansion list.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://live-production.wcms.abc-cdn.net.au/428f525b1733acedf78053a8f5920095?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+        "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "1e75cc35b491a3109e484947f546b0d0416b05afc428cde61208be94884ce120",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "title": "The U.S. Census Bureau and \"Super Intelligence\"",
+      "summary": "The headline AI-adoption numbers everyone quotes just broke, and this explains why the before and after can't be compared.",
+      "date_published": "2026-11-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "Willison maintains the chart that gets cited whenever someone claims business AI adoption is surging or stalling. The survey's question wording changed under an executive order, so the series has a seam in it — which matters if he ever sees these figures used to justify a clinical AI rollout. A short, specific lesson in reading a statistic before repeating it.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png",
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "fd95eb2c417c3090f7b5f52afb46af4a16ba46d88d114747089513c40e212334",
+      "url": "https://afro.who.int/countries/kenya/news/kenyas-last-ebola-patient-goes-home-42-day-countdown-begins",
+      "title": "Kenya's last Ebola patient goes home as 42-day countdown begins",
+      "summary": "The one arm of this Bundibugyo outbreak that looks like it will actually close, with a date on it.",
+      "date_published": "2026-11-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO Africa",
+        "note": "His feed has carried the DON updates on this outbreak as the case count climbed past 10,000 across the DRC, Kenya and Nigeria; this is the first piece of it to resolve. The patient went home on 11 November, so Kenya can be declared free on 23 December if nothing new appears. Useful as a worked example of how the 42-day rule is applied in practice, which is the bit the case-count bulletins never explain.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://afro.who.int/sites/default/files/styles/social_1200x630/public/2026-11/Kenya-Ebola-last-patient-discharged-1.jpg.jpeg?itok=_-BZGqt4",
+        "icon": "https://afro.who.int/themes/who26/favicon.svg"
+      }
+    },
+    {
+      "id": "067290329faac3651f8c7fc515dea857dc17969c1b418be477685d168a2639df",
+      "url": "https://emergencymedicineireland.com/tasty-morsels-of-critical-care-097-infective-endocarditis-management",
+      "title": "Tasty Morsels of Critical Care 097 — Endocarditis Management",
+      "summary": "The management half of the endocarditis pair, and it answers the anticoagulation question he will actually be asked on the floor.",
+      "date_published": "2026-08-31T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "EM Ireland",
+        "note": "This is the direct sequel to episode 096, which is already in his feed — 096 was the diagnostic approach, this one covers surgical indications and anticoagulation. Neill's answer on anticoagulation is unusually clean for this topic: the guidelines do not recommend it as a prophylaxis strategy. Fellowship-exam length, drawn from Oh's Manual, so it fits in a handover gap.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": null,
+        "icon": "https://emergencymedicineireland.com/favicon.ico"
+      }
+    },
+    {
+      "id": "4d8efaeb1ee5a2c552a9aad2e9b1b7fe4a32b887cee59a21d50eda1cd981a9a5",
+      "url": "https://drsmithsecgblog.com/a-man-in-his-40s-with-chest-pain-and-normal-findings-per-ems-machine-read",
+      "title": "A man in his 40s, chest pain, \"normal\" EMS machine read",
+      "summary": "The machine called it normal and the bedside echo is what saved the diagnosis — a reminder of the order you should be doing things in.",
+      "date_published": "2026-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "Dr Smith's ECG",
+        "note": "Meyers walks a computer-read \"normal\" ECG against the Queen of Hearts model and then puts the probe on the chest, which is the exact sequence a registrar runs in a resus cubicle. The echo findings are the hinge of the case, so it doubles as CCPU revision rather than pure ECG pattern-matching. Worth reading alongside the hyperacute T-wave quiz already in the feed — same failure mode, different presentation.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/11/IMG_7041.jpeg",
+        "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+      }
+    },
+    {
+      "id": "4b7512d81affbf87793f76403f29712334714ead29d32ff86b76762753eed3df",
+      "url": "https://kosmofoto.com/2026/11/stuart-bailies-alter-your-native-land-turns-the-lens-on-five-decades-of-punk-in-northern-ireland",
+      "title": "Alter Your Native Land: five decades of Northern Irish punk",
+      "summary": "Fifty years of a scene documented on film by people who were in it, not sent to cover it.",
+      "date_published": "2026-11-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Kosmo Foto",
+        "note": "This is work-led rather than gear-led, which is the half of film photography that is harder to find — portraits made inside a scene over decades, where the emulsion choices were whatever was affordable at the time. Bailie's framing of Northern Irish punk is also a useful counterweight to the London-centric version. Kosmo Foto usually runs stock announcements, so a piece about pictures is worth the detour.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/11/Ciara-King-Problem-Patterns-1-by-Stuart-Bailie_1920.jpg?fit=1200%2C824&",
+        "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "f03a1f63642b47751652cd36fe8411e0b14c7d960500a047cf2e787a47238a94",
+      "url": "https://www.heddels.com/2026/11/warehouse-rocky-mountain-featherbed-come-together-again-for-denim-down-goodness",
+      "title": "Warehouse & Rocky Mountain Featherbed Come Together Again",
+      "summary": "Lot 2248RM-26: lightweight Japanese selvedge denim on the Western down-vest pattern, with a horsehide yoke.",
+      "date_published": "2026-11-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The construction detail is the point here — a lighter-ounce selvedge shell over 90/10 down, with Rocky Mountain's horsehide yoke doing the structural work, which is why these fade rather than just wear out. It sits in the same territory as the Fullcount sulfur-dyed denim and the Chimayo jacket piece already in his feed: Western shapes, documented cloth. HINOYA has it at $735, so it is reference rather than purchase.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "1178901865db0f414e6a221084638fffafee19230ba6237ab75afc3246609fc8",
+      "url": "https://aquariumdrunkard.com/2026/11/13/marshall-crenshaw-the-aquarium-drunkard-interview",
+      "title": "Marshall Crenshaw :: The Aquarium Drunkard Interview",
+      "summary": "A long interview about the unreleased demos and studio tapes from the stretch before his records went wrong.",
+      "date_published": "2026-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Crenshaw is the hinge between the Beatles reissues on his shelf and the guitar-pop end of it — the Strokes, the Killers, the Kooks all run back through this kind of songwriting. The interview is specifically about what did not get released between 1985 and 1987, which is the useful part of any archive conversation. Reliable-creator long-form rather than a reissue announcement.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/cren.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "2fda25f6a32179a5a2df8946a652562858a2f7aa0c5a9700ffa6702a54619eb9",
+      "url": "https://aquariumdrunkard.com/2026/11/09/call-mr-lloyd-a-brief-richard-lloyd-appreciation",
+      "title": "Call Mr. Lloyd: A Brief Richard Lloyd Appreciation",
+      "summary": "The Television guitarist died on 7 November, and this is the piece that explains what he actually did with the instrument.",
+      "date_published": "2026-11-09T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Lloyd is the connective tissue between two things on his shelves: the Lou Reed records and the Strokes, who built a career on the two-guitar conversation Television invented at CBGB. Worth reading before pulling either out again. Aquarium Drunkard's obituaries tend to be listening guides rather than career summaries, and this one points at specific playing rather than the legend.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/richardlloyd-hospital-oxygen-1977-godlis-lo-resjpg-8377522c67192cb8.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "5e8aa992d7d737d7247ecca4d5a3077ce4310a7fa723e025c06d31b567a2b001",
+      "url": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam",
+      "title": "QSSR arrives in Spider-Man 2, Control Resonant and more",
+      "summary": "The first real list of games getting Sony's AI upscaling, which decides whether 30fps targets stay the norm.",
+      "date_published": "2026-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PS Blog",
+        "note": "He already has the October announcement that AI upscaling was coming to PS5 and the GTA 6 piece confirming a 30fps target on both consoles — this is the first batch of games where QSSR actually ships, so it is the test of whether that trade-off was necessary. Six titles named, including Spider-Man 2 and Arc Raiders. First-party and dated, which is what makes PS Blog worth reading over the coverage of it.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://blog.playstation.com/tachyon/2026/11/84a6eb5f0831acb87ad7b548df366dcf10547aaf-scaled.jpg",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "b8acd11955a0cf4b319b5975da159539a18944937809ee9ed7962df37a88bcda",
+      "url": "https://shootitwithfilm.com/belgium-photo-essay-by-wout-de-ridder",
+      "title": "Belgium Photo Essay by Wout De Ridder",
+      "summary": "A medium-format series on home ground, which is the hardest subject to make anything of.",
+      "date_published": "2026-11-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Shoot It With Film",
+        "note": "De Ridder is photographing where he lives rather than travelling for pictures, and the medium-format frames force the kind of slowness that makes that work — one or two exposures per scene, not a roll. A direct counter-model to the \"go somewhere interesting\" instinct. The short note from the photographer at the end explains the sequencing, which is the part most photo essays leave out.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/11/Belgium-Photo-Essay-by-Wout-De-Ridder-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "b50c626b1061d3a2bf2eafd4f79fa1849d490b05391e5f06d91ed169a561310d",
+      "url": "https://dontforgetthebubbles.com/lost-in-transfusion",
+      "title": "Lost in Transfusion: a roadmap for paediatric transfusions",
+      "summary": "Paediatric transfusion volumes and thresholds are the thing you least want to be calculating from scratch at 3am.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "DFTB",
+        "note": "Paediatric ED is adjacent to his case mix rather than central to it, which is exactly why a written roadmap beats recall here — weight-based volumes and product choice don't come up often enough to stay fluent. Pairs with Tasty Morsels 094 on haemoglobin targets, already in the feed, which argued the adult case for a higher Hb in brain injury. Gabriel's piece is structured as a decision path, not a literature review.",
+        "published_at": "2026-11-14T15:27:19.454Z",
+        "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2026/10/TRANSFUSION-HEADER.png?fit=560%2C315&ssl=1",
+        "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+      }
+    }
+  ]
+}
