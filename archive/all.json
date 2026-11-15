@@ -14093,5 +14093,200 @@
       "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2026/10/TRANSFUSION-HEADER.png?fit=560%2C315&ssl=1",
       "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
     }
+  },
+  {
+    "id": "36b768863abd7303c8c451978f02815b6b7a614f55c77a1b55e74ac8fe5cbf4a",
+    "url": "https://criticalcarereviews.com/resuscitation/on-scene",
+    "title": "ON-SCENE: prehospital ECPR for refractory cardiac arrest",
+    "summary": "Survival to discharge of 40 per cent against 20 per cent is a big enough signal to change how he thinks about who gets moved, and how fast.",
+    "date_published": "2026-11-07T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Critical Care Rev",
+      "note": "Published in NEJM on 7 November, comparing ECPR-capable HEMS with conventional HEMS for out-of-hospital arrest that will not respond to anything else. The appraisal flags five patients without follow-up and no multiplicity adjustment, which is worth having in hand before the headline number starts getting quoted at handover. Victoria's retrieval configuration is not the trial's, so the transferable question is timing and destination rather than whether to run ECPR at all — same source as the DAPT-SHOCK-AMI appraisal already in the feed.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "cba41f0395d50b9e1105caa6f1e2b59d2b6903c55cdc81a6ceb02c5ed770ca1c",
+    "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+    "title": "Introducing our smallest, most efficient model: Muse Ember",
+    "summary": "A usable model at ten cents per million input tokens makes the economics of AI tooling look nothing like the frontier tier.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison puts Ember at one-eightieth the price of Claude Fable 5.2, which shipped the same day and is already in the feed, and notes it matches a model forty times dearer on his pelican-on-a-bicycle test. The interesting read is where the cheap tier is now good enough — routing, extraction, long-document parsing — which covers most of what any hospital or research workflow would actually ask. He also finds quality not tracking the six reasoning levels cleanly, which is a useful caution against turning the dial up by default.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://static.simonwillison.net/static/2026/muse-ember.webp",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "01520d981bf7bdcf5f6456f4dcc3cb3db5fc37be19c6baf2e775850ff739e6dc",
+    "url": "https://massivelyop.com/2026/11/10/bitcraft-officially-enters-1-0-on-november-13-with-monetization-updates-and-an-all-new-world",
+    "title": "BitCraft enters 1.0 on November 13 with an all-new world",
+    "summary": "A co-op survival sandbox leaving beta on a $15 box price rather than going free-to-play, with everyone starting again from zero.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Massively OP",
+      "note": "The 1.0 launch opens a brand-new world, which is the only reason to look at this now rather than in six months: settlement-building games are far better joined at the ground floor than inherited. Updates slow from fortnightly to roughly monthly from here, so the pace settles into something a registrar roster can actually keep up with. Same genre slot as Enshrouded and Dragonwilds, whose latest patches are both already in the feed.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "b3f6d45c366bcf403bb3fb96d001bd2fe3624b56cc9a6773d14ad9cda587a792",
+    "url": "https://www.pushsquare.com/news/2026/11/psa-gta-6-does-not-have-online-multiplayer-at-launch",
+    "title": "PSA: GTA 6 does not have online multiplayer at launch",
+    "summary": "Four days out from Thursday, the thing nearly everyone has assumed about launch turns out not to be true.",
+    "date_published": "2026-11-13T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "Online is expected some time in 2027 with no date committed, so the 19 November release is a single-player game and nothing else. Sits with the gone-gold, 212GB file size and 30fps-on-PS5-Pro items already in the feed, which together are the whole picture before the preload finishes downloading. Worth knowing now rather than on Thursday night.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://images.pushsquare.com/99c10bed6b2dc/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "5d180340845b7e7e2bba072329101d198baeff201fafe1b286ddd5c480a9ae1a",
+    "url": "https://www.abc.net.au/news/2026-11-15/labor-liberal-coalition-campaign-launches-health-youth-crime/107387220",
+    "title": "Labor and Coalition campaign launches put health front and centre",
+    "summary": "Two weeks from the 28 November poll, both parties are now openly bidding on the ED and surgery numbers that set his working conditions.",
+    "date_published": "2026-11-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "Labor is offering $1.5 billion to expand a dozen emergency departments by 25 per cent with 1,500 more staff and 150 beds; the Coalition is offering $1.27 billion to halve elective lists by sending public patients to private hospitals. The ACEM ageing-population report and the Royal Children's unstaffed-beds story are both already in the feed — this is where those arguments get costed and voted on. Whoever wins sets the resourcing of his department for the next four years.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/1932b6aac5a9cbd7d9e7f6c5d518968c?impolicy=wcms_watermark_news&cropH=602&cropW=1071&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "3e7c86b966e43fbc5b6d6f167ef81e9fdfbffbc024289fa4e0cc8c61dc6de120",
+    "url": "https://emcrit.org/emcrit/hypercritical-002",
+    "title": "EMCrit 438 – HyperCRITical 002",
+    "summary": "Early versus late vasopressin in septic shock, and phenobarbital against escalating diazepam in withdrawal — two calls he makes on nights.",
+    "date_published": "2026-11-14T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The vasopressin timing question picks up directly where ARISE FLUIDS left off: that trial argued for restricted fluid with early vasopressors, and this is the pressor half of the same argument, now with a JAMA 2026 randomised comparison behind it. The alcohol-withdrawal segment is the more immediately usable piece at registrar level, because phenobarbital versus diazepam is a department protocol decision rather than a bedside one. EMCrit 428, already in the feed, covered the fluid side in June.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://emcrit.org/wp-content/uploads/2025/12/emcrit-hypercritical-750x500.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "f2bcdb74162d87309d2ca9383f4ac45bdf234bba63c0de5000f500bd56388abb",
+    "url": "https://www.analogplanet.com/content/short-cuts-vol-38-nice-pair-1lp-reissues-1970s-soul-funk-legends-war-and-multi-octave-soul",
+    "title": "Short Cuts 38: War and Minnie Riperton 1LP reissues",
+    "summary": "Two single-LP soul-funk reissues judged on how they were cut rather than on the catalogue, including Riperton's Come to My Garden.",
+    "date_published": "2026-10-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Analog Planet",
+      "note": "The Riperton was mastered for vinyl by Levi Seitz at Black Belt Mastering, and that credit is the thing that decides whether a reissue earns shelf space next to the Etta James, Sly and Parliament records already there. War's Greatest Hits is the weaker half — a 180g Avenue/Rhino remaster of a compilation rather than an album. Volumes 36 and 37 are both already in the feed; the series stays reliable precisely because it talks about the pressing and not the press release.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "84abf1369e1ee61a4c14f82e198bbb982cb60ad9f25a9d250ce40099c30e2a01",
+    "url": "https://www.thebottomline.org.uk/uncategorized/sodium-bicarbonate-for-metabolic-acidosis-in-the-intensive-care-unit-soda-bic-trial",
+    "title": "SODa-BIC: sodium bicarbonate for metabolic acidosis in ICU",
+    "summary": "The third bicarbonate trial in a row to find nothing, and the first to test the pH range he actually sees on the floor.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "The Bottom Line",
+      "note": "BICAR-ICU and BICARICU-2 both enrolled only below pH 7.20; SODa-BIC opened the door to 7.30, which is where most acidotic patients on vasopressors sit when the question of giving bicarb first comes up. No reduction in death, renal replacement therapy or persistent renal dysfunction at 30 days. Read with BIHCA, already in the feed, which closed off the in-hospital arrest indication — between them the reflex-bicarb territory is now mostly mapped.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": null,
+      "icon": "https://www.thebottomline.org.uk/wp-content/uploads/2016/05/cropped-tbl-favicon-2-32x32.png"
+    }
+  },
+  {
+    "id": "8bbb2e5e348571fbe85fc8c37783403078ef33898179040768f187331910e3d8",
+    "url": "https://shootitwithfilm.com/professional-dreamer-photo-series-by-imoutta",
+    "title": "Professional Dreamer photo series by imoutta",
+    "summary": "People alone in abandoned buildings and empty streets, carrying wings, trying to fly and never once managing it on camera.",
+    "date_published": "2026-11-04T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Shoot It With Film",
+      "note": "Shot on an Olympus Super Zoom 200 on Kodak Gold 200 with the colour pulled right back afterwards, which is worth noticing because the work looks far more deliberate than a consumer point-and-shoot and a consumer stock would suggest. The stated subject — carrying on hoping in a world that treats hope as embarrassing — is unusually legible for a photo series, and the restraint in the processing is what sells it. A useful counterweight to the camera-review end of the photography shelf here.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://shootitwithfilm.com/wp-content/uploads/2026/10/Professional-Dreamer-Photo-Series-by-imoutta-on-Shoot-It-With-Film-Featured-Image.jpg",
+      "icon": null
+    }
+  },
+  {
+    "id": "5b9c59010843801922eb3f338b180ec737ddf838c3f69a297962e3075be6a76f",
+    "url": "https://www.theavantmag.com/stories/inside-the-archives-of-m47-vintage",
+    "title": "Inside the archives of M47Vintage",
+    "summary": "A dealer's archive gone through garment by garment — provenance and construction, which is the whole difference between vintage and old clothes.",
+    "date_published": "2026-09-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "The Avant",
+      "note": "Johan Fasquelle Kozjan's collection, covered as part of the Eric Maggiori Collection series, sits at the French military and workwear end of exactly the instinct that makes vintage Banana Republic and Woolrich worth hunting in the first place. The Avant supplied the Chimayo jacket and the Stifel jacket pieces already in the feed, and this is the same register: one holding explained properly rather than a trend read. The value is in learning what to actually look at on a rack.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": null,
+      "icon": "https://images.squarespace-cdn.com/content/v1/5f3ecaafedcc9c4af99022a9/33901581-3d88-4e6f-a59f-c03fee494f31/favicon.ico?format=100w"
+    }
+  },
+  {
+    "id": "e8d797b9df63cace6c5a8658f6f63e7921943a4153a7ec6b8088b86f6cb8fd73",
+    "url": "https://aquariumdrunkard.com/2026/11/15/radio-free-aquarium-drunkard-november-2026",
+    "title": "Radio Free Aquarium Drunkard :: November 2026",
+    "summary": "This month's programme for the 24/7 longform listening station, which is the nearest thing to a turntable that keeps turning itself.",
+    "date_published": "2026-11-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "The station was introduced here in October and the September programme is already in the feed, so this is the running thread rather than a one-off. It is built for listening in sides and long stretches, which is how a 297-record collection gets used rather than browsed, and the monthly post is where the selections are actually set out instead of just streamed. Nothing to buy and nothing to decide.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/bafkreibm7jvxyjpjky72jshkd5zzik5t6pkliiwsdu2e6q7ypwpclwhgzu.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "07384a6fa199454ed34fd1cdd5965b5c2f2f802fce051c73a83924560fd1f625",
+    "url": "https://kosmofoto.com/2026/03/harman-technology-releases-experimental-switch-azure-colour-film",
+    "title": "Harman releases experimental Switch Azure colour film",
+    "summary": "Two of the three colour couplers are swapped, so blues render orange and yellows azure, and it still goes through ordinary C-41.",
+    "date_published": "2026-03-01T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "Kosmo Foto",
+      "note": "Harman's second experimental colour stock after Red, built on the Phoenix base and sold in both 35mm and 120 at ISO 125, which makes it a one-roll experiment rather than a commitment. The practical catch is scanning: there is no orange mask, so the lab has to be told to preserve the shift instead of correcting it out, and a Fuji and a Noritsu scan of the same frame come back looking like different films. That is the kind of detail that decides whether an experimental stock is fun or just a wasted roll.",
+      "published_at": "2026-11-15T15:26:49.449Z",
+      "image": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2026/03/0009_Cassette-Box-e1772701578673.jpg?fit=1200%2C800&",
+      "icon": "https://i0.wp.com/kosmofoto.com/wp-content/uploads/2022/01/cropped-kflogo_1000.png?fit=32%2C32&"
+    }
   }
 ]
