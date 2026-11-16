@@ -1,0 +1,201 @@
+{
+  "day": "2026-11-17",
+  "ran_at": "2026-11-16T15:30:01.909Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "e12be6c2ba7dcfd83e8507b61c3a32adf780b2aded68a3c27e263f03bcd44b76",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+      "title": "Anthropic launches Claude Meetings",
+      "summary": "A model that joins the call and starts the work while people are still talking — the shape these tools are taking inside organisations.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "TechCrunch",
+        "note": "Announced on 10 November alongside Whiteboards and Sheets, a day after the Fable 5.2 release. The product is less interesting than the pattern: the move is from answering questions to acting on meetings and documents, which is precisely the capability that turns up first in handover summaries, audit paperwork and departmental admin rather than at the bedside. Worth knowing the shape of it before a health service buys one and calls it a clinical tool.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675",
+        "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32"
+      }
+    },
+    {
+      "id": "8289a441ebc3e7f84142ecd06b0ee21de4671d7bb5a3823250e04005879f17c9",
+      "url": "https://litfl.com/mcburney-point",
+      "title": "McBurney point",
+      "summary": "The landmark he palpates on every query-appendix abdomen, and the evidence that it does not reliably sit over the appendix.",
+      "date_published": "2026-11-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "LITFL",
+        "note": "Cadogan and Malik separate McBurney's 1889 diagnostic point from the 1894 incision that carries the same name, and note that McBurney never located his own point precisely in the original paper. The clinically useful line is that tenderness there is neither necessary nor sufficient for the diagnosis — one series found 70% of appendices lying below the interspinous line, against the way it is still taught. Good ammunition the next time someone wants to clear a right iliac fossa on palpation alone.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "3efa76975a537119d071ad5909a9f040baf1d5e602941ff313d8cffcdc021768",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON626",
+      "title": "Middle East respiratory syndrome (MERS) — Qatar",
+      "summary": "Qatar's first MERS cases since 2022, and the reason a camel-contact question still belongs in a returned-traveller fever history.",
+      "date_published": "2026-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO",
+        "note": "WHO reads these as sporadic zoonotic infections acquired from dromedary camels rather than human-to-human transmission, which is the single detail that decides whether anything changes at triage. For an ED in a city with constant Doha transit it is the travel-history prompt that matters, not the case count. The DON format gives the risk assessment and the recommendations in about two screens, which is the whole argument for reading WHO directly instead of the coverage of it.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+        "icon": "https://www.who.int/favicon.ico"
+      }
+    },
+    {
+      "id": "7a047324d6956fc9ffc2a17b65aaddc650350f01e6c2ffca00f787e73e1a6256",
+      "url": "https://rebelem.com/hypercapnia-on-rv",
+      "title": "Targeted Mild Hypercapnia and RV Function After OHCA",
+      "summary": "Asks whether the permissive-CO2 strategy some units run after arrest does anything measurable to the right ventricle.",
+      "date_published": "2026-11-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "REBEL EM",
+        "note": "A single-centre echo substudy of the targeted therapeutic mild hypercapnia trial, published in Chest and appraised here the day it landed. The right-heart assessment is done with the same transthoracic windows CCPU asks him to acquire, so the methods section reads as a practice exercise as much as a result. REBEL EM call it hypothesis-generating rather than practice-changing, which is the honest answer and the reason not to touch post-arrest CO2 targets on the strength of it.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2026/09/REBEL-HYPERCAPNIA-Cover-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "icon": "https://i0.wp.com/rebelem.com/wp-content/uploads/2018/10/cropped-Screen-Shot-2018-10-25-at-12.48.15-AM.png?fit=32%2C32&"
+      }
+    },
+    {
+      "id": "211445275438b6ac165ed4a99db1c1087aecd0010dbd02a5b38d302e0ffcb925",
+      "url": "https://aquariumdrunkard.com/2026/11/16/bob-dylan-the-rolling-thunder-revue-the-1976-live-recordings",
+      "title": "Bob Dylan :: The Rolling Thunder Revue: The 1976 Recordings",
+      "summary": "The harder, less-loved second leg of Rolling Thunder finally gets the archival treatment, reviewed by people who sit with it.",
+      "date_published": "2026-11-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Dylan is already on his shelf, and this covers 1976 rather than the 1975 tour that the Scorsese film and the earlier box both took. That matters: the second leg is rawer, more ragged and has always been the one collectors argue about. Aquarium Drunkard frame it around a man still releasing work in his mid-eighties instead of treating it as a curio, which is the right way to decide whether a set this size earns the space.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/bnm.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "6d4a9d6604d7e375fd5d37c9982c4009518050f70c7d50a4ce93c1add32af5d6",
+      "url": "https://emergencymedicinecases.com/av-block-pitfalls-and-pearls",
+      "title": "ECG Cases 64: AV Block Pitfalls and Pearls",
+      "summary": "Ten ECGs of possible AV block, asked in the order that actually decides management rather than the order textbooks use.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "EM Cases",
+        "note": "Jesse McLaren's monthly column, peer-reviewed by Anton Helman: for each of ten patients, is there block, at what level, from what cause, and what does it change. The feed has already carried LITFL's ECG Top 100 cases and EM Cases' own ACLS arrhythmia pitfalls series, and this is the gap between them — the slow, blocked rhythms rather than the tachycardias. The level-and-cause framing is what matters when the decision is atropine, pacing pads, or neither, with no cardiologist in the building.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://emergencymedicinecases.com/wp-content/uploads/2026/11/AV-Block-Pearls-Pitfalls.png",
+        "icon": "https://emergencymedicinecases.com/wp-content/uploads/2016/07/EM_Cases_Logo_16.png"
+      }
+    },
+    {
+      "id": "83beaf1c224beabc7a204980d3aa232295dbe6791ffe221b46a68324427243e4",
+      "url": "https://www.gamesradar.com/games/ps5-is-the-first-sony-console-to-hit-100-million-units-sold-without-a-price-cut",
+      "title": "PS5 is the first Sony console to hit 100 million without a price cut",
+      "summary": "The generation's headline number, with the two asterisks that matter: it counts shipments, and the pace is falling.",
+      "date_published": "2026-11-12T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "GamesRadar",
+        "note": "Sony's own supplemental data puts PS5 past 100 million as of 10 November, the fourth PlayStation to clear the mark and the first to do it having only ever raised prices rather than cut them. The figure is sell-in — 97.9 million by the end of September plus roughly 2.1 million since — and quarterly shipments dropped from 4.0 million to 2.6 million year on year, so the milestone and the slowdown arrive together. Useful framing for the GTA 6 launch week it lands in front of.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://cdn.mos.cms.futurecdn.net/7R4ugXpP3JfGrwnJ2xc72K-1920-80.jpg",
+        "icon": "https://cdn.mos.cms.futurecdn.net/flexiimages/jua6mqcjcd1773239906.ico"
+      }
+    },
+    {
+      "id": "9c37ef343256cfab97b603836097a9ebd2f498a0d3745f6c69d6f5e96468ca53",
+      "url": "https://insheepsclothinghifi.com/obi-art-japanese-jazz",
+      "title": "A Brief History of OBI Art and Favourite Japanese Pressed Jazz",
+      "summary": "Why the paper band wrapped round a Japanese pressing is a design object in its own right, and which jazz pressings wear it best.",
+      "date_published": "2026-11-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "ISC Hi-Fi",
+        "note": "ISC trace the obi to early-1950s shops receiving one band per title ordered as a display piece, becoming standard on every copy by the early 1970s — so an intact obi dates a pressing as much as it values it. Their argument is that jazz and ambient obis were treated as minimalist graphic design, spare and typographic, interplaying with the sleeve rather than shouting over it. Directly useful next to the Oscar Peterson, Stan Getz and Milt Jackson end of his collection, where the Japanese pressings are the ones worth hunting.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2021/04/king-records-obis-1200x630.jpg",
+        "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "df5b19cc2acaa3f8bdb3fc886e66db1b91456095251aa3e147470138f908a59a",
+      "url": "https://www.stitchdown.com/shoes-of-the-week/addict-boots-alden-crown-northampton-grant-stone-paraboot",
+      "title": "Addict x Stitchdown, Alden x Snake Oil, Crown Northampton",
+      "summary": "The weekly boot round-up back after a break, led by a Japanese-made zip western in horsebutt.",
+      "date_published": "2026-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Stitchdown",
+        "note": "Addict Boots' Stitchdown-exclusive ropers at $970 pre-order and a black horsebutt zip western at $900 are the headline, with a Paraboot x Barbour collaboration alongside. Horsebutt is the detail worth his attention — the same part of the hide shell cordovan is cut from, finished without the long cordovan process, so it reads tighter and harder than steerhide at a fraction of cordovan money. Makers and materials rather than a seasonal trend report, which is the whole reason Stitchdown is on the list.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://www.stitchdown.com/wp-content/uploads/2026/11/@addict_boots-x-@stitchdown-Round-2-and-3-and-4.Gotta-say-Im-absolutely-delighted-to-have-co.jpg",
+        "icon": "https://stitchdown.wpenginepowered.com/wp-content/uploads/2019/06/cropped-Stitchdown_icon_browser_PNG-32x32.png"
+      }
+    },
+    {
+      "id": "05495bd48e231aa616494012098445f4982869528165676a18d9cddd83fbdee8",
+      "url": "https://www.35mmc.com/16/11/2026/ansco-autoset-camera-john-glenn-used-one-and-i-did-too",
+      "title": "Ansco Autoset — John Glenn Used One and I Did Too",
+      "summary": "A rebadged Minolta rangefinder with a NASA footnote, actually loaded and shot rather than admired in a cabinet.",
+      "date_published": "2026-11-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Neal Wellons takes out the Autoset — Ansco's badge on a Minolta Hi-Matic, the camera lineage Glenn carried on Friendship 7 — and runs Santacolor 100 through it, which is respooled Kodak Aerocolor IV. That makes it two reads in one: the camera, and the aerial stock that keeps reappearing in 35mm cassettes under different names. Camera writing about using the thing, which is the only kind the brief asks for.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/08/Ansco-Autoset.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "597e2c864eb90ebc8b911e89dff2d1cbc28ea015c1a8cb8db67a899a6757fa88",
+      "url": "https://www.35mmc.com/11/11/2026/winter-garden-my-photograph-of-the-year-2026",
+      "title": "Winter Garden — My Photograph of the Year 2026",
+      "summary": "One frame explained all the way down by the person who made it: camera, film, developer, light.",
+      "date_published": "2026-11-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "Tony Warren's pick is the Winter Garden glasshouse at Dunedin's Botanic Gardens, shot on a Kalloflex K2 twin-lens and developed in Neofin Blue — an unusual choice for HP5+ and the reason the tonality is worth looking at closely. The value here is the specificity: a named developer and a named light rather than a gear verdict. The photograph-of-the-year series is 35mmc at its best, and this is the entry where every decision is legible in the result.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/11/kalloflexhp5-950x1024.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "b51808db4514c1afe11d8b13314fabb35849d7d0b4385b441524334791155ca5",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-chris-lucas-greek-restaurant-noema",
+      "title": "First Look Inside Noema, Chris Lucas's New Greek Restaurant",
+      "summary": "Lucas's most personal room yet, opening Thursday, and open to midnight every day of the week.",
+      "date_published": "2026-11-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Two storeys at 435 Bourke Street, opening 19 November, midday to midnight daily — the late close is the part that actually matters after a PM shift, when the CBD options thin out to pub food. Broadsheet lead on a whole snapper, butterflied and finished with ladolemono. Time Out's piece on the two Lucas openings came through this feed last week; this is the inside look, with Wishbone in the same tower following on 24 November.",
+        "published_at": "2026-11-16T15:30:01.909Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/11/13/Noema_@hellopablodiaz_Nov26LR-2-875f6d5703.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
+      }
+    }
+  ]
+}
