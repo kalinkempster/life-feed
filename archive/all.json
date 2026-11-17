@@ -14481,5 +14481,213 @@
       "image": "https://cdn.broadsheet.com.au/images/2026/11/13/Noema_@hellopablodiaz_Nov26LR-2-875f6d5703.webp",
       "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
     }
+  },
+  {
+    "id": "8f1f371be6a6b14980c14a33b8f748fa73a597f1e2ddcf5a77519aab80cb7048",
+    "url": "https://www.emdocs.net/em3am-rectal-injuries",
+    "title": "EM@3AM: Rectal Injuries",
+    "summary": "The structured 3am review for an injury you will see rarely and have to work up correctly the first time.",
+    "date_published": "2026-10-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "emDocs",
+      "note": "Kendrick Lim builds it off penetrating lower abdominal trauma and covers the examination, imaging choice and the question of who needs theatre now. Rectal injury is low-frequency and high-consequence, which is precisely the category the EM@3AM format exists for — it is a reference to have read once rather than to find mid-resus. emDocs has been lightly used in this feed relative to how reliably it covers this ground.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://www.emdocs.net/wp-content/uploads/2018/11/Screen-Shot-2018-11-03-at-3.14.29-PM.png",
+      "icon": "https://www.emdocs.net/wp-content/uploads/2013/12/cropped-iosIcon-32x32.png"
+    }
+  },
+  {
+    "id": "1cd01b15863e291ad4ce315f1c236c0c8cc0c0073c23c49c868e8f7873eb2b8e",
+    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+    "title": "Locating the source of a mysterious beep with Claude",
+    "summary": "A genuinely useful demonstration of agentic tooling: triangulating a sound to within 40cm using several phones and some arithmetic.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison recorded the beep on multiple devices and had Claude Code do the time-difference-of-arrival maths, landing on an old carbon monoxide detector. It is the rare AI write-up that shows the technique rather than the vibe, and the method — multiple cheap sensors plus a model willing to do the geometry — generalises well beyond household beeps. A short read that is more instructive than most capability announcements.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://static.simonwillison.net/static/2026/beep-locator-card.jpg",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "99c3d16046d1180a2ff3d6645e166cfdd38fa2ad8d16f5a0c31204fa87b9a62b",
+    "url": "https://brunswickvoice.com.au/coburg-artists-rally-to-delay-redevelopment-plans",
+    "title": "Coburg artists rally to delay redevelopment plans",
+    "summary": "Schoolhouse Studios artists have organised to push Merri-bek Council for support before they lose their studios to the Coburg is Here build.",
+    "date_published": "2026-11-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Brunswick Voice",
+      "note": "Several dozen artists have to be out next year so apartments, offices and shops can go up over what is currently public parking. This is the Merri-bek version of the density argument that keeps landing on Sydney Road, and it runs through the council that collects his rates. Brunswick Voice is doing the reporting nobody else bothers with at this scale, eleven days out from a state election where the Brunswick seat is live.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://brunswickvoice.com.au/wp-content/uploads/2026/11/261106_Schoolhouse_social-scaled.jpg",
+      "icon": "https://brunswickvoice.com.au/wp-content/uploads/2021/07/cropped-Online-avatar-32x32.png"
+    }
+  },
+  {
+    "id": "62c5177dfd97239bbcad99f89a5a36615474936447d95144cefc18fbb2b8f18e",
+    "url": "https://drsmithsecgblog.com/would-pmcardio-queen-of-hearts-help-on-prehospital-ecgs-and-is-the-ecg-important-even-when-2-troponins-are-non-diagnostic",
+    "title": "Would Queen of Hearts help on prehospital ECGs?",
+    "summary": "A missed inferoposterior OMI that the EMS machine called non-urgent, caught in the ED by an AI ECG model before troponins moved.",
+    "date_published": "2026-11-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "The patient went to a non-urgent bed off the back of the machine read; the ED ran the same tracing through PMcardio's Queen of Hearts, which flagged it, and the cath lab found a 95 per cent distal circumflex lesion. Circumflex territory is exactly where the standard twelve-lead under-reads, so this is the failure mode worth rehearsing before the next triage-category argument. It also puts a concrete case under the question of what an AI ECG model is actually for in a department that already has a registrar reading tracings.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/11/Prehospital-ECG-also-diagnostic.png",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "9240598452f0b419001b690ec7f79fb834b930b2e8cc93a7d8a223a15238b588",
+    "url": "https://drsmithsecgblog.com/a-50-year-old-with-a-normal-ecg-and-troponin-safe-or-sorry-so-many-learning-points-on-this-one",
+    "title": "A 50-year-old with a normal ECG and troponin — safe or sorry?",
+    "summary": "Discharged on a normal ECG and two negative troponins, and the diagnosis turned out to be spontaneous coronary artery dissection.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Dr Smith's ECG",
+      "note": "Willy Frick walks the case where every rule-out box was ticked and the answer was still SCAD — the diagnosis that does not respect risk scores or serial troponins. For a registrar whose chest-pain pathway leans on a negative delta trop to clear the bed, this is the counter-example that justifies the second look. Worth reading alongside the Queen of Hearts case in the same week: both are about trusting the story over the number.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/11/ECG1-1-scaled.png",
+      "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+    }
+  },
+  {
+    "id": "87fed41a3be58b72dfe0c98bca91153e0ec272134ae843cb1730544172caf93c",
+    "url": "https://aquariumdrunkard.com/2026/11/11/hiroshi-yoshimura-quiet-forest",
+    "title": "Hiroshi Yoshimura :: Quiet Forest",
+    "summary": "Writing on the Japanese environmental-music composer whose records reward the same attention as the quieter end of the shelf.",
+    "date_published": "2026-11-11T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Yoshimura sits next to the Japanese-pressing thread the feed has already pulled on, and his kankyo ongaku work is the natural bridge from Einaudi and Yiruma toward something with more air in it. The collection is deep on soul and jazz but thin on ambient that is actually composed rather than atmospheric — this is the entry point. Aquarium Drunkard is reliably better on this material than the reissue press.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/Hiroshi-Yoshimura-Quiet-Forest.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "26d5a3dfbc19beaac444cf28412bd4d14df638f73bcdc1698bcceb66bea1ec65",
+    "url": "https://blog.playstation.com/2026/11/12/once-human-season-5-gameplay-showcases-co-op-colossus-boss-battle-live-november-18",
+    "title": "Once Human: Season 5 showcases co-op Colossus boss battle",
+    "summary": "Free-to-play survival season drops tomorrow with a co-op boss fight, from the first-party blog rather than a coverage aggregator.",
+    "date_published": "2026-11-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "PS Blog",
+      "note": "Dissonant Resonance goes live globally on 18 November, which makes this actionable rather than a roadmap tease. Once Human is the same survival-crafting lane as Dragonwilds and Enshrouded, and it costs nothing to try while Dragonwilds waits on December's Luminance update. Co-op Colossus is the part that matters if there is someone to play it with.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://blog.playstation.com/tachyon/2026/11/4307c0e946544855e38087de41e890782dd7d4bf.jpg",
+      "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+    }
+  },
+  {
+    "id": "bed5d564adccf3b1e1d596c5f24d96e616fa3260909609560390f34f15de018f",
+    "url": "https://aquariumdrunkard.com/2026/11/09/josh-johnson-animative",
+    "title": "Josh Johnson :: Animative",
+    "summary": "New saxophone record from a player working the line between jazz tradition and processed, loop-built texture.",
+    "date_published": "2026-11-09T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Johnson is the contemporary answer to the Stan Getz and Oscar Peterson Trio end of the collection — horn-led, but built with effects and layering rather than a straight quartet date. Night Train and Soul Brothers get played; this is what that instinct sounds like made now. Worth hearing before it gets filed under ambient jazz and ignored.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/Josh-Johnson.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "f059153c4e3157d022834d570f7d90686604db0cf267a3f5dcd5be3a0ee1c002",
+    "url": "https://dontforgetthebubbles.com/dka-related-cerebral-injury",
+    "title": "DKA-Related Cerebral Injury",
+    "summary": "Reframes paediatric DKA brain injury as a spectrum rather than the single catastrophic cerebral oedema event most of us were taught.",
+    "date_published": "2026-11-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "DFTB",
+      "note": "Posted today, and it updates the mental model behind the fluid-rate anxiety that governs every paediatric DKA you run. The practical upshot is about what to watch for and when, rather than the old reflex of blaming the rehydration rate. Paediatric endocrine emergencies are the ones where the registrar carries the plan for hours before anyone senior lays eyes on the child, so the spectrum framing is the useful part.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2026/10/DKA-OEDEMA-HEADER-1.png?fit=560%2C315&ssl=1",
+      "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "fa3855b7c8d745f8d8dd4a17bfccb2ac9bd1cc9e3281f488314be74f40fdedd5",
+    "url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today",
+    "title": "Valhalla update adds New Game Plus and PS5 Pro PSSR support",
+    "summary": "A free patch retrofitting New Game Plus and upgraded Pro upscaling into a six-year-old open world.",
+    "date_published": "2026-11-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "PS Blog",
+      "note": "The interesting half is the PSSR work: Sony is backporting its machine-learning upscaler into older titles, which is the same thread as the QSSR rollout for the base PS5. If the Pro is going to earn its price it will be through patches like this one rather than new releases. New Game Plus arriving this late is also a fair signal of how long Ubisoft intends to keep the game in rotation.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://blog.playstation.com/tachyon/2048/11/d672eed84c63123a491e057dceb8889200254a54-scaled.jpg",
+      "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+    }
+  },
+  {
+    "id": "8ddb0456941a2ff47195afbb6a9d0393697e7e1e8436f7b5388ef0c312c74ee8",
+    "url": "https://www.35mmc.com/17/11/2026/joyful-sadness-my-favourite-photo-of-2026",
+    "title": "Joyful Sadness — My Favourite Photo of 2026",
+    "summary": "The same scene shot digitally and then on film 45 minutes later, with the film frame deliberately blurred and clearly the better picture.",
+    "date_published": "2026-11-17T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Erik Brammer sets the two frames against each other, which makes this more useful than the usual year-end favourite — it is an argument about what the film version was actually for, made with the evidence in front of you. The deliberate blur is the part worth sitting with: he chose the worse-resolved frame on purpose and can say why. Posted today.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/11/202601.2-Agytpen-Kalawy-020-1.jpeg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "24e1fce696e3126c27003dabd134f3da505253186693bfbeb6301b80b83cf310",
+    "url": "https://www.35mmc.com/03/11/2026/a-peak-in-a-colorless-sky-my-photo-of-the-year-2026",
+    "title": "A Peak in a Colorless Sky",
+    "summary": "A Contax G1 frame shot on colour negative that only worked once it was converted to black and white.",
+    "date_published": "2026-11-03T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Gary Smith's piece is about the decision after the shutter — recognising that the colour in the negative was doing nothing for the picture and the tonal separation was the whole image. That is a more transferable lesson than any emulsion recommendation, and it applies directly to shooting colour stock in flat Melbourne light. The Contax G1 writing is a bonus.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/11/peak-with-tree-bw-scaled.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "2906e4f95ab5e4de655898504e997e5af65d692ecf80589256f1d49ee86aaa85",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/i-cant-stop-thinking-about-suzes-ricotta-persimmon-and-pepperberry",
+    "title": "I Can't Stop Thinking About: The Ricotta at Suze, Fitzroy North",
+    "summary": "One dish, properly explained: ricotta set before service, persimmon and crushed pepperberry, at a Newry Street wine bar ten minutes away.",
+    "date_published": "2025-05-15T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Steve Harry makes the ricotta in-house from St David Dairy milk with bay leaf, and the early tables get it warm — the sort of detail that tells you whether a kitchen is serious. Suze is at 6 Newry Street in the old One Trick Pony site, and the same team's Northcote pasta bar Nina has already been through this feed. Worth going for the one plate and ordering the focaccia as well.",
+      "published_at": "2026-11-17T15:25:49.051Z",
+      "image": null,
+      "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
+    }
   }
 ]
