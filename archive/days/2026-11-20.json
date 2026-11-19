@@ -1,0 +1,154 @@
+{
+  "day": "2026-11-20",
+  "ran_at": "2026-11-19T15:27:40.193Z",
+  "published": 9,
+  "dropped": [],
+  "items": [
+    {
+      "id": "0acc9c99c566a468f33dace27721db0dd59c8dfbcfc1d2cfd889736582931e5c",
+      "url": "https://amateurphotographer.com/latest/photo-news/strewth-worlds-smallest-film-camera-captures-guinness-world-record",
+      "title": "World's smallest film camera captures Guinness World Record",
+      "summary": "A Melbourne art teacher built a working film camera the size of a quarter and had to invent the record category to win it.",
+      "date_published": "2026-11-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "photography",
+        "source": "Amateur Photo",
+        "note": "Luke Fazekas is local, and the Pocket Obscura took him close to a year to get from idea to a cube that produces recognisable frames — Guinness had no smallest-analogue-camera record at all, so they sent him a benchmark measurement to beat. Certified 22 October. The interesting part is not the novelty but the problem he was solving: at that scale the camera is almost all film-transport and light-leak engineering, which is the same craft as any body he'd actually shoot. Amateur Photographer is not on the source list and has a dedicated film desk worth returning to.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "1f0f06420faaa9f84b33783c621557403dc4eb1b2c275b5f1a560cc875844320",
+      "url": "https://www.playstationlifestyle.net/review/939293-grand-theft-auto-6-review-ps5-the-most-ambitious-video-game-ever",
+      "title": "Grand Theft Auto 6 Review (PS5)",
+      "summary": "It is out today, and the verdict from the PlayStation desk is about the 30fps ceiling as much as the game.",
+      "date_published": "2026-11-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PS LifeStyle",
+        "note": "GTA 6 shipped on PS5 and Series X today after two delays, no PC date and no online mode at launch. The archive has already tracked the 212GB file size, the gone-gold confirmation and the 30fps target on both consoles — this is the first read on whether that target holds in play, and the answer is that it mostly does with visible frame drops rather than a Cyberpunk-grade mess. A PlayStation-specific review rather than a multiplatform one, which is the relevant platform here.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": "https://www.playstationlifestyle.net/wp-content/uploads/sites/9/2026/11/Untitled-design.webp?resize=1200,630",
+        "icon": "https://www.playstationlifestyle.net/wp-content/uploads/sites/9/2023/03/cropped-favicon.png?w=32"
+      }
+    },
+    {
+      "id": "917f082078c9a894606045a82da8e35e00d0a74461cd0ea2f8c8b89aace1cf48",
+      "url": "https://www.tamingthesru.com/blog/diagnostics/blunt-cerebrovascular-injuries",
+      "title": "Blunt Cerebrovascular Injuries",
+      "summary": "The injury that is silent on arrival and announces itself as a stroke on day two, and who to screen for it.",
+      "date_published": "2026-11-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "Taming the SRU",
+        "note": "BCVI is a screening decision, not a diagnosis you make at the bedside — the artery is pinched or stretched by the same force that broke the cervical spine, and the deficit arrives hours later. Worth having the thresholds straight before the next high-mechanism neck, because CTA is cheap and the miss is not. Taming the SRU is a residency blog rather than a headline FOAM site, which is why its diagnostics series is still largely unmined here.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1438709457347-VA9D4R3HFQ1UTVKS53PW/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "62e9f9ad4c3cf10b8d09ee9127f4b53475d5830714c4a7fad904aa134b834a72",
+      "url": "https://journalfeed.org/article-a-day/2026/seeing-the-save-pocus-in-cardiac-arrest",
+      "title": "Seeing the Save: POCUS in Cardiac Arrest",
+      "summary": "Separates what ultrasound genuinely adds during an arrest from the harm of a pulse check that runs long.",
+      "date_published": "2026-11-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "JournalFeed",
+        "note": "The numbers are the useful part: occult VF turns up in roughly 3-5% of arrests, which is a missed shock, while cardiac activity on PEA predicts ROSC without ever being grounds on its own to stop. Straight CCPU territory, and it pairs with the Taming the SRU journal club on Doppler pulse checks already in the archive — same problem, different instrument. JournalFeed is not on the source list; it earns a place for summarising the AJEM review without making you fetch the paper.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": "https://journalfeed.org/wp-content/uploads/2024/12/resuscitation.png",
+        "icon": "https://journalfeed.org/wp-content/themes/journalfeed/assets/brand/favicon.svg?v=20260819"
+      }
+    },
+    {
+      "id": "41238a98a0538023ed8d7f802c6964606cb487e0a39cd66ba3171b9047025e7b",
+      "url": "https://beat.com.au/carlton-north-institution-geralds-bar-leaves-rathdowne-for-lygon-street",
+      "title": "Gerald's Bar leaves Rathdowne for Lygon Street",
+      "summary": "Twenty years in a tiny Rathdowne shopfront, now 100 seats in the old Enoteca Sileno, opening this week.",
+      "date_published": "2026-11-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Beat Magazine",
+        "note": "Gerald Diffey and Mario Di Ienno took the stools, the curved bar and the all-vinyl soundtrack with them to 920 Lygon Street, and added a 35-seat dining room called The Parlour plus a courtyard — the Murano grape-cluster lights from the Enoteca Sileno days stayed. Doors from 4pm Wednesday 19 November. Carlton North, walkable from the rest of the northside list, and the all-vinyl policy makes it the rare dining room that overlaps with the records topic. The old Rathdowne site is now Bar Carnation if you want both in one trip.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": "https://beat.com.au/wp-content/uploads/2025/10/Frankie-Web-Article-Image-Design-2025-10-28T123635.266.jpg",
+        "icon": "https://beat.com.au/wp-content/uploads/2024/07/cropped-Beat_favicon-32x32.png"
+      }
+    },
+    {
+      "id": "1ee8983c98098aa37601f73342d7ef6066b4787f42dc7c6ab6c4282fb13608b4",
+      "url": "https://www.icthealth.org/news/australian-virtual-hospital-pilot-reaches-600-patients",
+      "title": "Australian virtual hospital pilot reaches 600 patients",
+      "summary": "Victoria's virtual hospital has now treated 600 patients, and still cannot say whether it keeps anyone out of an ED.",
+      "date_published": "2026-11-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "ICT&health",
+        "note": "This is the Victorian Department of Health's own pilot, running since December 2025, with the Royal Melbourne expanding a digital coordination centre alongside it. The honest line in the reporting is that there is still no evidence it reduces readmissions, mortality or spend — which matters when every ED-demand pledge in the current state campaign leans on exactly this kind of diversion. Knowing where the virtual ward sits is knowing what the department thinks the answer to ramping is.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": "https://www.icthealth.nl/cdn/e3443dc8-1a2a-49b0-9a21-d35537205cea/-/scale_crop/1200x600/smart/-/format/preserve/-/quality/lighter/-/progressive/yes/-/strip_meta/none/future-hospital-sfeer-0307.jpg",
+        "icon": "https://www.icthealth.org/favicon.ico"
+      }
+    },
+    {
+      "id": "ab604cd4777a23ab86a71f8d7038fece83004a0d47d8f982f56d71d04985525c",
+      "url": "https://www.insidehook.com/style-news/new-menswear-releases-11-26",
+      "title": "Prep's Favorite Shetland Sweater Just Received a Makeover",
+      "summary": "J.Press and Alex Mill's third go at the Shaggy Dog, including an intarsia version that reworks the format.",
+      "date_published": "2026-11-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "InsideHook",
+        "note": "The Shaggy Dog is brushed Shetland wool, and the reason it belongs next to the Woolrich and Pendleton reference points is construction rather than prep nostalgia — the nap is raised after weaving, which is the same finishing logic as moleskin. This is the third capsule since October 2025, so the collaboration has moved past novelty into a line. A drop rather than runway coverage, which is the only kind of timely this topic gets.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": "https://www.insidehook.com/wp-content/uploads/2026/11/Alex-Mill-x-J.Press-Hero-e1794859616274.jpeg?resize=1172,800",
+        "icon": "https://www.insidehook.com/wp-content/uploads/2023/10/cropped-IH-favicon-700x700-v2.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "5dcd1d087597ad99152768e6e5d4e78e75621ab890ea755addafc2039e17dc96",
+      "url": "https://themelburnian.au/southbank-couple-support-local-artists-with-new-tattoo-studio",
+      "title": "Southbank couple support local artists with new tattoo studio",
+      "summary": "Two artists opened a basement studio in a heritage Flinders Lane building and stocked it with other people's work.",
+      "date_published": "2026-11-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "other",
+        "source": "Southbank News",
+        "note": "Studio Absent sits in the basement of Tavistock House on Flinders Lane, run by a couple who live in Southbank, and the premise is a rotating roster rather than a house style — blackwork and abstract alongside guest artists doing anime and traditional Japanese. Worth knowing because the Melbourne blackwork scene is concentrated in a handful of rooms and this is a new one with an open guest spot policy. Local-paper reporting, which is the only place a studio this size gets written about.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "0178bdf3490ab410c5084a36a12d8266219a3272fe989316b13e5214d6bd2ef3",
+      "url": "https://spillmagazine.com/spill-album-review-menahan-street-band-illusions",
+      "title": "Menahan Street Band — Illusions",
+      "summary": "First Menahan Street Band record in five years, and the one where the Daptone house band stops sounding like one.",
+      "date_published": "2026-11-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "records",
+        "source": "Spill Magazine",
+        "note": "Menahan Street Band is on the shelf, and Illusions landed on 13 November on Diamond West rather than Daptone — ten tracks that run film score into rap beats into Latin jazz, with Arthur Verocai arranging the opener and Rogê guesting. It sits a few inches along from the Sharon Jones and Thee Sacred Souls records in the collection and makes the case for the instrumental side of that shelf growing up. Spill is a new source here; the Treblezine announcement piece has already run, so this is the record rather than the press release.",
+        "published_at": "2026-11-19T15:27:40.193Z",
+        "image": "https://spillmagazine.com/wp-content/uploads/2026/11/Menahan-Street-Band-1.jpg",
+        "icon": "https://spillmagazine.com/wp-content/uploads/2015/09/spill_splat_10_inches.png"
+      }
+    }
+  ]
+}
