@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "url": "https://journalfeed.org/article-a-day/2026/seeing-the-save-pocus-in-cardiac-arrest/",
+      "title": "Seeing the Save: POCUS in Cardiac Arrest",
+      "source": "JournalFeed",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Separates what ultrasound genuinely adds during an arrest from the harm of a pulse check that runs long.",
+      "note": "The numbers are the useful part: occult VF turns up in roughly 3-5% of arrests, which is a missed shock, while cardiac activity on PEA predicts ROSC without ever being grounds on its own to stop. Straight CCPU territory, and it pairs with the Taming the SRU journal club on Doppler pulse checks already in the archive — same problem, different instrument. JournalFeed is not on the source list; it earns a place for summarising the AJEM review without making you fetch the paper."
+    },
+    {
+      "url": "https://www.tamingthesru.com/blog/diagnostics/blunt-cerebrovascular-injuries",
+      "title": "Blunt Cerebrovascular Injuries",
+      "source": "Taming the SRU",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "The injury that is silent on arrival and announces itself as a stroke on day two, and who to screen for it.",
+      "note": "BCVI is a screening decision, not a diagnosis you make at the bedside — the artery is pinched or stretched by the same force that broke the cervical spine, and the deficit arrives hours later. Worth having the thresholds straight before the next high-mechanism neck, because CTA is cheap and the miss is not. Taming the SRU is a residency blog rather than a headline FOAM site, which is why its diagnostics series is still largely unmined here."
+    },
+    {
+      "url": "https://www.icthealth.org/news/australian-virtual-hospital-pilot-reaches-600-patients",
+      "title": "Australian virtual hospital pilot reaches 600 patients",
+      "source": "ICT&health",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Victoria's virtual hospital has now treated 600 patients, and still cannot say whether it keeps anyone out of an ED.",
+      "note": "This is the Victorian Department of Health's own pilot, running since December 2025, with the Royal Melbourne expanding a digital coordination centre alongside it. The honest line in the reporting is that there is still no evidence it reduces readmissions, mortality or spend — which matters when every ED-demand pledge in the current state campaign leans on exactly this kind of diversion. Knowing where the virtual ward sits is knowing what the department thinks the answer to ramping is.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://spillmagazine.com/spill-album-review-menahan-street-band-illusions/",
+      "title": "Menahan Street Band — Illusions",
+      "source": "Spill Magazine",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "First Menahan Street Band record in five years, and the one where the Daptone house band stops sounding like one.",
+      "note": "Menahan Street Band is on the shelf, and Illusions landed on 13 November on Diamond West rather than Daptone — ten tracks that run film score into rap beats into Latin jazz, with Arthur Verocai arranging the opener and Rogê guesting. It sits a few inches along from the Sharon Jones and Thee Sacred Souls records in the collection and makes the case for the instrumental side of that shelf growing up. Spill is a new source here; the Treblezine announcement piece has already run, so this is the record rather than the press release."
+    },
+    {
+      "url": "https://amateurphotographer.com/latest/photo-news/strewth-worlds-smallest-film-camera-captures-guinness-world-record/",
+      "title": "World's smallest film camera captures Guinness World Record",
+      "source": "Amateur Photo",
+      "topic": "photography",
+      "kind": "timely",
+      "summary": "A Melbourne art teacher built a working film camera the size of a quarter and had to invent the record category to win it.",
+      "note": "Luke Fazekas is local, and the Pocket Obscura took him close to a year to get from idea to a cube that produces recognisable frames — Guinness had no smallest-analogue-camera record at all, so they sent him a benchmark measurement to beat. Certified 22 October. The interesting part is not the novelty but the problem he was solving: at that scale the camera is almost all film-transport and light-leak engineering, which is the same craft as any body he'd actually shoot. Amateur Photographer is not on the source list and has a dedicated film desk worth returning to.",
+      "date_published": "2026-11-19"
+    },
+    {
+      "url": "https://www.playstationlifestyle.net/review/939293-grand-theft-auto-6-review-ps5-the-most-ambitious-video-game-ever",
+      "title": "Grand Theft Auto 6 Review (PS5)",
+      "source": "PS LifeStyle",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "It is out today, and the verdict from the PlayStation desk is about the 30fps ceiling as much as the game.",
+      "note": "GTA 6 shipped on PS5 and Series X today after two delays, no PC date and no online mode at launch. The archive has already tracked the 212GB file size, the gone-gold confirmation and the 30fps target on both consoles — this is the first read on whether that target holds in play, and the answer is that it mostly does with visible frame drops rather than a Cyberpunk-grade mess. A PlayStation-specific review rather than a multiplatform one, which is the relevant platform here.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://www.insidehook.com/?p=1064436",
+      "title": "Prep's Favorite Shetland Sweater Just Received a Makeover",
+      "source": "InsideHook",
+      "topic": "fashion",
+      "kind": "timely",
+      "summary": "J.Press and Alex Mill's third go at the Shaggy Dog, including an intarsia version that reworks the format.",
+      "note": "The Shaggy Dog is brushed Shetland wool, and the reason it belongs next to the Woolrich and Pendleton reference points is construction rather than prep nostalgia — the nap is raised after weaving, which is the same finishing logic as moleskin. This is the third capsule since October 2025, so the collaboration has moved past novelty into a line. A drop rather than runway coverage, which is the only kind of timely this topic gets.",
+      "date_published": "2026-11-16"
+    },
+    {
+      "url": "https://beat.com.au/carlton-north-institution-geralds-bar-leaves-rathdowne-for-lygon-street/",
+      "title": "Gerald's Bar leaves Rathdowne for Lygon Street",
+      "source": "Beat Magazine",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "Twenty years in a tiny Rathdowne shopfront, now 100 seats in the old Enoteca Sileno, opening this week.",
+      "note": "Gerald Diffey and Mario Di Ienno took the stools, the curved bar and the all-vinyl soundtrack with them to 920 Lygon Street, and added a 35-seat dining room called The Parlour plus a courtyard — the Murano grape-cluster lights from the Enoteca Sileno days stayed. Doors from 4pm Wednesday 19 November. Carlton North, walkable from the rest of the northside list, and the all-vinyl policy makes it the rare dining room that overlaps with the records topic. The old Rathdowne site is now Bar Carnation if you want both in one trip."
+    },
+    {
+      "url": "https://southbanklocalnews.com.au/southbank-couple-support-local-artists-with-new-tattoo-studio",
+      "title": "Southbank couple support local artists with new tattoo studio",
+      "source": "Southbank News",
+      "topic": "other",
+      "kind": "timely",
+      "summary": "Two artists opened a basement studio in a heritage Flinders Lane building and stocked it with other people's work.",
+      "note": "Studio Absent sits in the basement of Tavistock House on Flinders Lane, run by a couple who live in Southbank, and the premise is a rotating roster rather than a house style — blackwork and abstract alongside guest artists doing anime and traditional Japanese. Worth knowing because the Melbourne blackwork scene is concentrated in a handful of rooms and this is a new one with an open guest spot policy. Local-paper reporting, which is the only place a studio this size gets written about."
+    }
+  ]
+}
