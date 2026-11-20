@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emcrit/the-scarlet-letters/",
+      "title": "The Scarlet Letters",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Spiegel argues the trial that killed SIMV's reputation rigged the comparison, and that the mode you were taught to avoid was never shown to harm anyone.",
+      "note": "The weaning trial everyone cites randomised 109 failed patients to T-piece, SIMV or pressure support, and the SIMV arm had to clear a day-long spontaneous breathing trial before extubation while the PSV arm only had to tolerate minimal support. Spiegel is explicit that this is not a defence of SIMV, which makes it a better read than one: it is a worked example of how an unequal extubation threshold manufactures a 43/42/23 percent result. Useful for anyone who inherited a ventilator opinion without inheriting the evidence behind it.",
+      "date_published": "2026-11-20"
+    },
+    {
+      "url": "https://drsmithsecgblog.com/80-something-with-h-o-inferior-omi-presents-with-12-hours-of-chest-pain/",
+      "title": "80-something with prior inferior OMI and 12 hours of chest pain",
+      "source": "Dr Smith's ECG",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "An old infarct with LV aneurysm and a new occlusion can look near-identical, and the first troponin came back over 60,000.",
+      "note": "This is the discrimination problem that a prior-MI history makes harder rather than easier: persistent ST elevation from aneurysm versus acute re-occlusion, in a patient whose troponin is already uninterpretably high. It sits directly alongside the Queen of Hearts and serial-ECG cases from this blog in the feed, and it is the one where the AI tools are least help, because the question is what the old ECG looked like. Worth the twelve-hour presentation detail too, which is exactly the window where the reflex is to stop caring about reperfusion.",
+      "date_published": "2026-11-19"
+    },
+    {
+      "url": "https://www.stemlynsblog.org/ttl-tip-25-penetrating-rectal-injury/",
+      "title": "TTL Tip 25: Penetrating Rectal Injury",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "evergreen",
+      "summary": "Carley on why DRE and CT both under-call rectal injury, and why the decision is early senior surgical review rather than more imaging.",
+      "note": "Written for the trauma team leader rather than the textbook reader, which is the useful altitude: what you do in the first ten minutes when the examination you were taught to rely on has poor sensitivity. The feed already carries emDocs' EM@3AM review of rectal injuries; this is the other half of it, the coordination and escalation side rather than the anatomy. St Emlyn's case mix maps closely onto ANZ practice, which is why it keeps earning slots here.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+      "title": "Chikungunya virus disease - Switzerland",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Four locally acquired chikungunya cases in Ticino, the first ever in Switzerland, with no identified source.",
+      "note": "Local transmission of an Aedes-borne arbovirus in southern Switzerland is a vector-range story, not a travel-medicine one, and that is the part worth filing away. Australia has established Aedes populations in the north and a long-running argument about how far south they go. The practical consequence is slow but real: the febrile returned-traveller script gets rewritten when the list of places you can acquire chikungunya starts including alpine Europe.",
+      "date_published": "2026-11-17"
+    },
+    {
+      "url": "https://www.croakey.org/improving-hospital-productivity-starts-with-honest-health-budgets/",
+      "title": "Improving hospital productivity starts with honest health budgets",
+      "source": "Croakey",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "The productivity argument being made about hospitals rests on budget figures that understate what the work actually costs.",
+      "note": "Published into the Victorian election run-in, where both major parties are campaigning on emergency department throughput and the debate stops at the hospital door. This is the accounting underneath those promises: if the baseline budget is dishonest, every efficiency target built on it lands as unfunded work on the floor. Relevant to anyone whose department is about to be told it can see more patients with the same roster.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "title": "Release: llm-gemini 0.38",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Gemini 4 Neon ships, and Willison picks apart pricing across the lineup that is about to double on 1 December.",
+      "note": "The release note is the hook; the pricing teardown is the actual content, and it is the kind of detail that decides whether a model is viable for a side project or a documentation workflow rather than a demo. Hydrogen currently sits at three-quarters the price of Argon and Carbon, and drops to a quarter of that once the other two double on 1 December. Willison's near-daily posts are the most reliable way in the feed to track what the frontier labs actually shipped versus what they announced.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://www.analogplanet.com/content/who%E2%80%99s-revelatory-1975-masterpiece-who-numbers-literally-puts-boot-expanded-50th-anniversary",
+      "title": "The Who by Numbers expanded 50th anniversary 3LP",
+      "source": "Analog Planet",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "A 9/8 for music and sound on the 50th anniversary set, with two full LPs of Swansea 1976 attached to the album's ten tracks.",
+      "note": "The Who are on his shelf, which moves this out of the reissue-announcement pile the brief deprioritises and into the owned-record category. The structure matters here: LP1 is the core album, LP2 and LP3 are the Vetch Field show from 12 June 1976, so what you are buying is a live document as much as a remaster. Analog Planet's split verdict, 9 for the album and roughly 8 for the live material, is the honest way to price a $99.99 box.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://insheepsclothinghifi.com/four-rooms-four-seasons-the-strange-beauty-of-fuubutsushi/",
+      "title": "Four Rooms, Four Seasons: The Strange Beauty of Fuubutsushi",
+      "source": "In Sheep's",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "Four musicians in four separate homes made four seasonal albums, now collected as a translucent white four-LP box.",
+      "note": "Randall Roberts on the quartet of Matthew Sage, Chaz Prymek, Patrick Shiroishi and Chris Jusell, named for the Japanese word for the sensations tied to a particular season. This is the ambient-jazz end of the shelf that already holds This Will Destroy You and the Hiroshi Yoshimura piece from earlier in the feed, and the Shiki box is the sort of object that rewards being played in sequence rather than shuffled. Limited run through the ISC shop, so the window on it is real.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://shootitwithfilm.com/100-day-film-project-by-autumn-kovach/",
+      "title": "100 Day Film Project by Autumn Kovach",
+      "source": "Shoot It/Film",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "A hundred consecutive days on one Yashica, run until the 120th roll, as a way of learning a single camera properly.",
+      "note": "The constraint is the point: one medium-format body, every day, until the camera stops being a variable. That is a different discipline from the one-perfect-frame essays the feed has been carrying lately, and a more transferable one if the aim is to stop thinking about the gear. The feed already has this site's 12-months-on-film project; this is the compressed version, and the shorter interval is what makes the progression visible.",
+      "date_published": "2026-11-18"
+    },
+    {
+      "url": "https://www.heddels.com/2026/11/wonder-looper-doubles-down-on-heavyweight-loopwheeled-cotton/",
+      "title": "Wonder Looper Doubles Down on Heavyweight Loopwheeled Cotton",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "timely",
+      "summary": "876gsm loopwheeled French terry, roughly double standard heavyweight sweats, made in Japan and starting at $115.",
+      "note": "Loopwheeling is the construction story worth knowing: slow circular knitting under almost no tension, which is why the fabric drapes rather than board-stiffens at that weight. Risa Saito and Bahzad Trinos make everything in Japan, and the line now spans a 409gsm jersey tee up to the 876gsm terry, so the range is the range of one mill's capability rather than a seasonal collection. This is the cloth-and-provenance end of menswear the brief asks for, and the opposite of trend reporting.",
+      "date_published": "2026-11-09"
+    },
+    {
+      "url": "https://steamcommunity.com/games/1203620/announcements/detail/694276363007298067",
+      "title": "Enshrouded: Changelog for Patch #1",
+      "source": "Keen Games",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "First post-1.0 patch: save migration fixes, multiplayer stability in large bases, and a wand economy rebalance.",
+      "note": "First-party patch notes for a game he actually plays, which beats coverage of them. The substantive change is the wand economy — Aerial Wand Attack now costs 40 mana instead of stamina, Whirlwind Crescendo and Wand Evasion Attack both cost less — so a magic build plays differently after this than before it. Also fixes the save migration errors from the 1.0 rollover and adds a sprint toggle, and two hotfixes followed within days.",
+      "date_published": "2026-11-02"
+    },
+    {
+      "url": "https://concreteplayground.com/melbourne/cafes/market-lane-fitzroy-north",
+      "title": "Market Lane Coffee, St Georges Road, Fitzroy North",
+      "source": "Concrete Play",
+      "topic": "melbourne",
+      "kind": "evergreen",
+      "summary": "Market Lane's twelfth shop, in a 1960s shopfront on St Georges Road with the original mosaic tiling kept.",
+      "note": "220 St Georges Road, seven days, 7am to 5pm — walkable from the Merri Creek end of the northside and on the tram line rather than tucked into a laneway. The fit-out keeps the building's 1960s mosaic and chrome-framed windows and adds bookshelves and timber panelling, which is a more considered job than the roaster's usual takeaway format. Pastries come from Wild Life and biscuits from Loafer, both local, and they sell beans over the counter.",
+      "date_published": "2026-08-11"
+    }
+  ]
+}
