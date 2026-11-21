@@ -1,0 +1,185 @@
+{
+  "day": "2026-11-22",
+  "ran_at": "2026-11-21T15:22:27.440Z",
+  "published": 11,
+  "dropped": [],
+  "items": [
+    {
+      "id": "82b169450b02e27d05b949928dfedb9d8fdbdeb171912bc893f9bbe7beab4383",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "title": "GPT-6.2 Astra and GPT-6.2 Sol",
+      "summary": "Two new OpenAI models, with the pricing and the early benchmark disagreements laid out by someone who actually runs them rather than reposting the launch copy.",
+      "date_published": "2026-11-17T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "Willison's launch write-ups are useful because he puts the cost per token next to the claimed capability and then tries the thing himself, which is the only way to tell a real jump from a repositioning. He notes Astra trailing Claude Fable 5.2 on some benchmarks, which is the kind of caveat the announcement posts leave out. Relevant if you are weighing which model to point at clinical summarising or documentation work, where the price and the failure modes matter more than the leaderboard.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "39798f5af6113701b18a1011f5cfb4cedf890d27c8bc344407151be60cebfc8a",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+      "title": "Bundibugyo Ebola remains a PHEIC as cases pass 11,600",
+      "summary": "The third Emergency Committee reported back: the DRC outbreak is still a public health emergency of international concern, with 11,613 confirmed cases and 5,678 deaths.",
+      "date_published": "2026-11-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO",
+        "note": "The feed carried the committee convening a fortnight ago; this is the outcome, and the detail underneath the determination is the part that matters. Contact tracing is running at 81 percent of contacts seen daily against a 95 percent threshold, which is the number that tells you why 48 of 68 health zones still have active transmission. Kenya began its 42-day countdown on 11 November after discharging its last case, so the regional picture is diverging from the DRC's.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+        "icon": "https://www.who.int/favicon.ico"
+      }
+    },
+    {
+      "id": "28c687d7483558c95eef95887b6a81e7cc797493fe867fef8c2209be44cbbc15",
+      "url": "https://first10em.com/prehospital-ecpr-a-20-survival-benefit",
+      "title": "Prehospital ECPR: A 20% survival benefit?!?!",
+      "summary": "Morgenstern takes apart the OnScene trial's headline number before anyone starts quoting it on a resus floor.",
+      "date_published": "2026-11-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "First10EM",
+        "note": "OnScene landed in the NEJM this month and the effect size is large enough that it will be cited at you within weeks, probably by someone who has only read the abstract. This is the appraisal to read first: it works through who was actually enrolled, how long the comparator arm waited, and why a mobile ECMO team in one system does not generalise to a retrieval model like Victoria's. Worth pairing with Rory Spiegel's take on the same trial if you want two readings before you form one.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://first10em.com/wp-content/uploads/2026/11/Prehospital-ECPR.jpg",
+        "icon": "https://first10em.com/wp-content/uploads/2018/12/cropped-First10EM-Square-Logo-2019.png"
+      }
+    },
+    {
+      "id": "a374f55b32812e5106ee43a92e63450b6f061c0925a930d7bb28811e49ae0872",
+      "url": "https://www.heddels.com/2026/11/a-new-medium-gears-up-for-cold-climes-with-sashiko-kersey-harris-tweed-outerwear",
+      "title": "A New Medium's Sashiko, Kersey and Harris Tweed Outerwear",
+      "summary": "The second FW26 drop goes all cloth: a 10oz Harris Tweed Eisenhower jacket and a Huntsman shirt-jacket in 12oz Japanese kersey or 15oz sashiko.",
+      "date_published": "2026-11-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "The Eisenhower keeps the M1944's pattern but swaps the issue wool for Harris Tweed woven in Scotland, which is exactly the vintage-pattern-better-cloth move that RRL built a business on. The Huntsman in 15oz sashiko is the more interesting garment — that weight of stitched cotton behaves more like a chore coat than a shirt and will break in rather than wear out. Priced $335 to $590 at Iron Shop Provisions; the feed already has this label's first FW26 drop from October, so this is the follow-through.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "1495cd463700cfacd544182cbb1c05987b3e18dfc8665c3e6ab9b2d92327de1d",
+      "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19",
+      "title": "Grand Theft Auto VI launches tomorrow, November 19",
+      "summary": "The first-party launch post, with the PS5-specific detail — DualSense haptics, Tempest 3D audio — that the review coverage skipped over.",
+      "date_published": "2026-11-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "PS Blog",
+        "note": "Sony's own post confirms it as the most pre-ordered game in PlayStation Store history and sets out what the PS5 version does with the hardware rather than how it scores. The feed already has the PS LifeStyle review; this is the platform-holder's account, which is where the haptics and audio implementation detail actually lives. Pre-loading opened 10 November, so if you queued it then it is playable now.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://blog.playstation.com/tachyon/2026/11/fc43cd44ef39d1697bb5bef1fca7d08e7f90c647.jpg",
+        "icon": "https://blog.playstation.com/tachyon/2019/03/cropped-pslogo.png?fit=32%2C32"
+      }
+    },
+    {
+      "id": "c51bd2bcfc06f5e9d9942c885788d344a1426e244736317c8dd11cdbd4ba9100",
+      "url": "https://www.stemlynsblog.org/are-we-ready-for-war-part-2-preparing-our-emergency-departments-and-hospitals",
+      "title": "Are we ready for war? Part 2: Preparing EDs and hospitals",
+      "summary": "Part two moves from the clinical problems of modern conflict to the uncomfortable question of whether your department could absorb them.",
+      "date_published": "2026-11-05T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "Part one is already in the feed and covered the wounds themselves; this instalment is about the building — surge capacity, blood supply, triage under resource constraint, and the decisions nobody practises making. Read as mass-casualty preparation rather than as war writing, it maps onto anything that empties a department of spare capacity at once. The sections on reverse triage and on who holds the authority to declare are the parts worth keeping.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/11/Are-we-ready-for-war_-1.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "3d7a4d33f7dc848680b15f7cc0598f14b9a4a169b82c5c28043f504975bb34bf",
+      "url": "https://aquariumdrunkard.com/2026/11/18/transmissions-larry-crane-tape-op",
+      "title": "Transmissions :: Larry Crane (Tape Op)",
+      "summary": "Thirty years of Tape Op, told by its founder — why records sound the way they do, from the side of the glass where the decisions get made.",
+      "date_published": "2026-11-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "Crane founded the magazine that taught a generation of engineers, and the conversation is about the craft end of the chain rather than the playback end: room choices, tape, and why a cheaply made record can sound better than an expensive one. If the pressing-and-mastering writing in this feed is interesting to you, this is the stage before it. His Making Music collects 26 of the magazine's interviews, which is the obvious next step if the episode lands.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/LarryCrane-copy.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "ddd51488b74ef5a12752aae9955083fc03683b3af83a95f5a4a2731cd5a48c4a",
+      "url": "https://aquariumdrunkard.com/2026/11/19/trio-ternura-a-gira-razao-de-ser",
+      "title": "Trio Ternura :: A Gira / Razão De Ser",
+      "summary": "Brazilian sibling-trio soul from the 1970s: polyrhythmic percussion under chanting harmonies, and a direct line to the shelf Habibi Funk sits on.",
+      "date_published": "2026-11-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "This lands in the same territory as the Habibi Funk and Hiroshi Yoshimura pieces that have already run here — regional soul and funk recovered from outside the Anglo-American canon, which is where the collection has been widening. The harmonies place it next to the Sam & Dave and Pointer Sisters end of the shelf while the percussion does something those records never attempt. Worth hearing before deciding whether it earns a slot.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/10/trio-ternura.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "dc142a9e6ba73723f15c67e574cf2d2f58df1541557aec630f72b2df636a09e6",
+      "url": "https://www.stemlynsblog.org/cues-ed-urgent-ecg-review",
+      "title": "Which ECGs need urgent senior review? The CUES-ED survey",
+      "summary": "Iain Beardsell wants ED clinicians to say which ECG findings should actually trigger a senior call, and you are exactly the respondent they mean.",
+      "date_published": "2026-11-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "St Emlyn's",
+        "note": "The question behind this is the one that sits under every triage ECG you glance at mid-shift: which findings are urgent enough to interrupt someone senior, and which are not. CUES-ED is trying to build that threshold from what clinicians actually do rather than from guideline consensus, and a registrar's answer carries real weight in that dataset. Fifteen minutes of your opinion, and the published version becomes something you can argue with later.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/11/Which-ECGs-need-uregtn-review.jpg",
+        "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+      }
+    },
+    {
+      "id": "8219500f8bca69c57db93edf3b941fac4c958be52c68398b203c684bcd07c537",
+      "url": "https://www.35mmc.com/19/11/2026/from-wedding-day-to-drying-negatives-developing-wedding-film-at-home",
+      "title": "Developing Wedding Film at Home",
+      "summary": "A working wedding photographer's full C-41 and E-6 workflow at home, written as a process you could copy rather than a flex about doing it the hard way.",
+      "date_published": "2026-11-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "35mmc",
+        "note": "This is colour-negative and slide processing done at volume and to a deadline, which is a much more demanding test of a home setup than developing one roll of black and white a month. The useful part is the operational detail — temperature control, batching, scanning and the turnaround it actually buys — because that is where home colour processing usually falls over. He includes film alongside digital in every package, which is the part that makes the workflow worth getting right.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://www.35mmc.com/wp-content/uploads/2026/10/DSC_3724-scaled.jpg",
+        "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "e8884a7d9dfe3790acc898f3dcb2a0ecf10a6980a16c3ba076211cdedaaa7377",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-the-snakepit-brings-old-world-swagger-live-music-st-kilda-basement",
+      "title": "First Look: The Snakepit, a St Kilda Basement Bar",
+      "summary": "The basement under the George Hotel reopened on 13 November with live soul, blues and nu jazz, and vinyl played between the sets.",
+      "date_published": "2026-11-13T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "127 Fitzroy Street, open to 3am Friday and Saturday — a long way from the northside, but a room programmed around soul, blues and nu jazz with records between sets is worth the tram. The space has been through several lives since the building opened as the Terminus in 1857, including the era its regulars called the Flying Jug, and Liam Ganley has rebuilt it as a late-night music bar rather than a nightclub. The between-sets vinyl is the detail that separates it from every other basement reopening this year.",
+        "published_at": "2026-11-21T15:22:27.440Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/11/10/GAN002-Snakepit-074-MichaelPham-WebRes-b4985dc280.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
+      }
+    }
+  ]
+}
