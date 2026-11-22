@@ -15562,5 +15562,38 @@
       "image": "https://res.cloudinary.com/melbourne-food-and-wine/images/dpr_2.0/f_auto,q_auto/v1790203426/wp-test/nina-pasta/nina-pasta.jpg",
       "icon": "https://www.melbournefoodandwine.com.au/app/themes/skeleton/dist/favicon.ico"
     }
+  },
+  {
+    "id": "3685ee1d7fb254b5bfc6ab7a2a624ab24969f4120e8c602ce094b4babcf79037",
+    "url": "https://www.lomography.com/magazine/359264-sonic-snapshot-euan-fryer-athens-of-the-north-lomo-mc-a",
+    "title": "A Sonic Snapshot by Euan Fryer of Athens of the North",
+    "summary": "The man behind the Edinburgh soul reissue label shoots a week of his own recording sessions on film, and leaves a playlist.",
+    "date_published": "2026-11-05T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Lomography",
+      "note": "Fryer takes the Lomo MC-A through a band session at Luke Oldfield's studio in Danham and then a week of overdubs at Athens of the North's own room in Edinburgh — the unglamorous middle of making a record, photographed rather than written about. It sits directly alongside the Athens of the North label profile in today's edition and the MC-A review 35mmc already gave this feed, and it is the rare piece genuinely about both shelves at once.",
+      "published_at": "2026-11-22T15:26:22.837Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "a50066b7f27d1dee0f487c9d6e782fc6dc69667a2cef825cd5f84e72eeb7f5b3",
+    "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-october-2026",
+    "title": "Critical Care Evidence Updates — October 2026",
+    "summary": "The month's critical care literature compressed into appraised summaries, including the VANISH hydrocortisone post hoc.",
+    "date_published": "2026-10-31T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "The Bottom Line",
+      "note": "The feed already carries the August and September editions, and this is the one that picks apart proenkephalin A as a marker of who actually benefits from hydrocortisone in septic shock — heterogeneity of treatment effect, not another yes-or-no steroid answer. The format is the value: enough appraisal to know whether a paper is worth chasing to full text before a shift, which is the realistic unit of reading at registrar level.",
+      "published_at": "2026-11-22T15:26:22.837Z",
+      "image": null,
+      "icon": "https://www.thebottomline.org.uk/wp-content/uploads/2016/05/cropped-tbl-favicon-2-32x32.png"
+    }
   }
 ]
