@@ -1,0 +1,169 @@
+{
+  "day": "2026-11-23",
+  "ran_at": "2026-11-22T15:24:04.971Z",
+  "published": 10,
+  "dropped": [],
+  "items": [
+    {
+      "id": "fbce50ad53f05e98f020f09948f6556147b1ae05d5332a3be8723d51b03afd62",
+      "url": "https://hms.harvard.edu/news/first-large-scale-study-shows-how-doctors-use-ai-medicine",
+      "title": "First large-scale study of how doctors actually use AI",
+      "summary": "What clinicians are really asking these tools, measured rather than surveyed — mostly treatment questions outside their own specialty.",
+      "date_published": "2026-10-15T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Harvard Medical",
+        "note": "Just over half the queries were clinical decision-making, and the striking pattern is that doctors reach for AI hardest at the edge of their own expertise — which is most of a shift in a mixed ED. Worth reading next to the Croakey piece this feed carried on Australia's AI policy lagging behind: this is the usage data that policy is failing to keep up with.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://hms.harvard.edu/sites/default/files/2026-10/848%20doctor%20illustration%20speech%20bubbles.jpg",
+        "icon": "https://hms.harvard.edu/themes/shared/harvardmedical/favicon.ico"
+      }
+    },
+    {
+      "id": "b42b273787be1fb0549b977da0b57ad51ffdd786e2eb8188f6fff1fd09ad97e2",
+      "url": "https://www.lomography.com/magazine/350111-extreme-multiple-exposure-photography-by-ian-turnage-butterbaugh",
+      "title": "Extreme multiple exposure photography by Ian Turnage-Butterbaugh",
+      "summary": "A photographer who calls stacking a whole roll onto one frame \"film sketching\", and is specific about which emulsions survive it.",
+      "date_published": "2023-02-16T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Lomography",
+        "note": "The technique detail is what makes this worth the time: Ektar 100 is the only C-41 stock he finds amenable, giving soft under-saturated results, while Delta 100 takes more than 100 exposures on a single frame, and slide film gets its own series. He moved from a Nikon F4S to a Mamiya 645 1000S purely for the multiple-exposure switch — a reminder that the camera choice here is a mechanical argument, not a nostalgic one.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "aa034c763228ae156a27e7f4484ab9e00cae47c3216d886626bb7dd75d5f9fef",
+      "url": "https://www.tamingthesru.com/blog/journal-club/beforethebaydoors",
+      "title": "Before the Bay Doors: three prehospital papers",
+      "summary": "Three PGY-3s work through why prehospital trials are built the way they are, and what that costs their conclusions.",
+      "date_published": "2026-11-18T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "Taming the SRU",
+        "note": "Covers ketamine versus midazolam for field airway management and TOWAR, the whole-blood trial that failed to beat component therapy — both findings that arrive in the ED as a patient already treated one way or the other. The framing is the point: no capacity to consent, no time to wait, and an intervention that has to fit in the back of an ambulance, which is why these trials rarely answer the question you actually wanted answered.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1438709457347-VA9D4R3HFQ1UTVKS53PW/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "072f9f0017b27b548eb4d96478c68cc21160a264bbecdc79ad0676bf3a5fd42a",
+      "url": "https://daily.bandcamp.com/label-profile/athens-of-the-north-label-profile",
+      "title": "Athens of the North unearths forgotten 70s soul and funk",
+      "summary": "A one-man Edinburgh reissue label that licenses, masters and presses rare soul 45s properly, and the digging habit behind it.",
+      "date_published": "2018-07-01T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Bandcamp Daily",
+        "note": "Euan Fryer does his own mastering and has the cutting and pressing done at Timmion in Finland — the same craft-first approach that makes the Daptone and Big Crown records on your shelf sound the way they do, applied to originals nobody reissued. The sub-labels Soul 7 and Soul Spectrum are where the modern soul and disco sits, which is the adjacent listening to Sharon Jones, Menahan Street Band and Solomon Burke rather than a repeat of them.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://f4.bcbits.com/img/0030513840_171.jpg",
+        "icon": "https://s4.bcbits.com/img/favicon/apple-touch-icon.png"
+      }
+    },
+    {
+      "id": "96cfb426c0abaab9a344907741b3150bd2faf98ff86ce79b749394f4cac1a799",
+      "url": "https://www.bisecthosting.com/blog/runescape-dragonwilds-update-1-0-2-patch-notes-release-date-new-content-bug-fixes-earth-magic-luminance",
+      "title": "Dragonwilds 1.0.2 patch notes: Earth magic, penguin hunting",
+      "summary": "Earth becomes the fourth magic element at level 14, plus the fix for the Buddy stamina debuff that has been quietly taxing you.",
+      "date_published": "2026-11-10T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "BisectHosting",
+        "note": "Full notes for the first substantial content patch since 1.0: Earth runes on staves and wands, Postie Pete's deliveries extended into Dowdun Reach and Umbral Sands, and a fix for player-built structures losing collision on dedicated servers. Jagex also teases Luminance as the opening of the Blood Crystal Saga and is standing up a limited PC test realm, so this is the point the post-launch roadmap becomes visible.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://www.bisecthosting.com/static/img/game_server_hosting_banner.webp",
+        "icon": "https://www.bisecthosting.com/static/favicon/favicon.ico"
+      }
+    },
+    {
+      "id": "50a3d181573ada80501bcb83b933b1ac6f6898d8b7f2d9d2dfbfbc4ace761095",
+      "url": "https://www.theavantmag.com/stories/ivy-style-the-exhibition-that-celebrated-americas-most-influential-menswear-tradition",
+      "title": "Ivy Style: the exhibition that celebrated a menswear tradition",
+      "summary": "A museum show's worth of provenance on the American tradition that vintage Banana Republic and RRL are both quoting from.",
+      "date_published": "2026-09-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "The Avant",
+        "note": "Runs from 1920s raccoon coats through mid-century sack suits to varsity knits and oxford shirting — the garment-by-garment lineage rather than a trend piece, which is the only way this subject is worth reading. The Avant has already given this feed the RRL heritage piece and the Chimayo jacket; this is the upstream source material those brands are drawing on, and it explains why the Shetland and the OCBD keep reappearing.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": null,
+        "icon": "https://images.squarespace-cdn.com/content/v1/5f3ecaafedcc9c4af99022a9/33901581-3d88-4e6f-a59f-c03fee494f31/favicon.ico?format=100w"
+      }
+    },
+    {
+      "id": "de2ddc87d3c7fb7ba6796a3dc076c3ac7c61556d54f3759f00a960c4f57df7fc",
+      "url": "https://store.steampowered.com/news/app/1203620/view/694276363007298066",
+      "title": "Enshrouded changelog for Patch #1",
+      "summary": "The first real post-1.0 patch, straight from Keen Games rather than filtered through coverage of it.",
+      "date_published": "2026-11-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Steam",
+        "note": "Boss combat tweaks, wand fixes and — the quality-of-life change that matters over a long building session — sprint can finally be set to toggle in the keyboard and mouse settings. Worth taking first-party since the third-party trackers disagree about which hotfix landed when; the changelog is the only version that does not need reconciling.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://clan.fastly.steamstatic.com/images/44053561/c374df7b49dadbf7a57272734ca93200d2d9ae91.png",
+        "icon": "https://store.steampowered.com/favicon.ico"
+      }
+    },
+    {
+      "id": "a24c203e660074bf05efdb301916054359b06421536eaec37aa51e1654520bac",
+      "url": "https://www.medicalrepublic.com.au/migrant-doctors-the-backbone-of-rural-healthcare-and-the-blind-spot-in-policy/129613",
+      "title": "Migrant doctors: the backbone of rural healthcare",
+      "summary": "A rural generalist argues the incentives built for Australian-trained graduates should extend to the IMGs holding the bush together.",
+      "date_published": "2026-10-02T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Medical Republic",
+        "note": "Around 35% of doctors practising in Australia qualified overseas, and more than half of rural and remote doctors are IMGs — yet the rural incentive architecture was designed around domestic graduates, with a ten-year Medicare moratorium bolted on top. This is the workforce arithmetic behind every regional ED that cannot fill a registrar roster, written by someone working inside it at Finley.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://d1svk58pjf7hyt.cloudfront.net/wp-content/uploads/sites/6/2026/10/02153949/iStock-1202107913.jpg",
+        "icon": "https://d1svk58pjf7hyt.cloudfront.net/wp-content/uploads/sites/6/2024/01/05093253/logo_icon_black-105x105.png"
+      }
+    },
+    {
+      "id": "bb5bafff12083f0786d43070efd2fe418565298d8217a3f0774a35047693426c",
+      "url": "https://drsmithsecgblog.com/50-yo-male-with-out-of-hospital-cardiac-arrest-coact-trial-would-say-dont-do-angiogram",
+      "title": "OHCA at 50: guidelines would say don't do an angiogram",
+      "summary": "A post-arrest ECG that no guideline would call a STEMI, and a 100% circumflex occlusion behind it.",
+      "date_published": "2026-11-21T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "Dr Smith's ECG",
+        "note": "COACT is the trial most often quoted to justify not taking a resuscitated arrest patient without STEMI criteria to the cath lab, and this case is the counter-argument in one patient: TIMI-0 circumflex, stented, survived. The circumflex is the territory the 12-lead is worst at seeing, so this is the exact failure mode worth holding onto before the next post-ROSC conversation with cardiology.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://drsmithsecgblog.com/wp-content/uploads/2026/11/VF-arrest-ECMO-from-PB-1024x536.png",
+        "icon": "https://drsmithsecgblog.com/wp-content/uploads/2025/05/cropped-dr-smith-favicon-32x32.png"
+      }
+    },
+    {
+      "id": "f05148080be0801e56316fc0cfe69d84fb06e16273722416901fe61db986eaa2",
+      "url": "https://www.melbournefoodandwine.com.au/eat/nina",
+      "title": "The Suze crew gets serious about casual dining at Nina",
+      "summary": "The Fitzroy North wine bar you already like has taken the old Vex site on High Street and made it about pasta.",
+      "date_published": "2026-09-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Melbourne F&W",
+        "note": "Giulia Giorgetti and Steve Harry have moved up the road from Suze into 66-68 High Street, Northcote: snacks built to be dragged through the focaccia, then house-made pasta, Italian and Australian glasses. Walk-ins only under six, from 5pm Tuesday to Friday and noon Saturday, which makes it a genuinely usable weeknight northside option rather than a booking you plan a month out.",
+        "published_at": "2026-11-22T15:24:04.971Z",
+        "image": "https://res.cloudinary.com/melbourne-food-and-wine/images/dpr_2.0/f_auto,q_auto/v1790203426/wp-test/nina-pasta/nina-pasta.jpg",
+        "icon": "https://www.melbournefoodandwine.com.au/app/themes/skeleton/dist/favicon.ico"
+      }
+    }
+  ]
+}
