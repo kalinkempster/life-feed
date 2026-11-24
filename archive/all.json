@@ -15758,5 +15758,214 @@
       "image": "https://www.35mmc.com/wp-content/uploads/2026/11/261017_NoKingsBWHasslbladDelta100_0036-Edit-scaled.jpg",
       "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
     }
+  },
+  {
+    "id": "105d2dd6f5d647be40a42af6f7b2258c0b866f02cc018acac8e3318ab419ba75",
+    "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+    "title": "GLM-5.4: Toward Generalized Coding with a Loop Transformer",
+    "summary": "Z.ai ships the first mainstream looped-transformer model, and it is the second one to appear in three days — an architecture shift, not another benchmark bump.",
+    "date_published": "2026-11-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Willison flags that GLM-5.4 and Thinking Machines' Inkling 2 Mini both use looped transformers, which recycle layers rather than stacking more of them — the first real departure from the standard recipe to land in shipped models. He also notes GLM-5.4 is not open-weights, which for a Chinese lab that built its reputation on open releases is the more interesting part. Useful context for anyone trying to work out whether this month's model churn means anything.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://static.simonwillison.net/static/2026/glm-family-4.webp",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "860330e39de4f2e6191c49c47927c32f4bc82db7b02e3cdedf9c9dd0ee322342",
+    "url": "https://www.doctorswithoutborders.org/latest/ebola-outbreak-dr-congo-remains-out-control-six-months-response",
+    "title": "Ebola outbreak in DR Congo remains out of control at six months",
+    "summary": "MSF's own read at the six-month mark, and it is bleaker than the WHO situation reports: the second-largest Ebola outbreak in history, still spreading.",
+    "date_published": "2026-11-12T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "MSF",
+      "note": "The number that matters is the surveillance failure — only 9% of patients MSF treated in Ituri had previously been identified as contacts, which means the case-finding system is missing nine in ten. Eight treatment centres across five provinces, 4,100 admissions, and MSF still turning down PPE requests it cannot fill. Read alongside the WHO Disease Outbreak News already in the feed, this is the operational view the official notices don't give.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://www.doctorswithoutborders.org/sites/default/files/styles/social_share/public/image_base_media/2026/11/MSF389377.jpg?itok=Gb33MkxU",
+      "icon": "https://www.doctorswithoutborders.org/themes/custom/msf/favicon.ico"
+    }
+  },
+  {
+    "id": "be18e921bb7a3adbc84f118a090f4263df36777fe385cf0f547f6a18404114b4",
+    "url": "https://www.abc.net.au/news/2026-11-23/doctor-ryan-cho-victim-impact-statements-after-secret-filming/107416260",
+    "title": "Hospital colleagues filmed in toilets tell court of their trauma",
+    "summary": "871 victims and 3,042 videos across three Melbourne hospitals — the pre-sentence hearing for a trainee surgeon who filmed staff in change rooms and toilets.",
+    "date_published": "2026-11-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "ABC News",
+      "note": "This is a Melbourne hospital story at a scale that makes it a workforce story rather than a crime story: the victim impact statements being read in the County Court are from colleagues, in departments he may well have rotated through. It also sits directly on the question of what hospitals owe staff in their own tea rooms and change rooms, which is the part that outlives the sentence. Hearing continues for two more days.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://live-production.wcms.abc-cdn.net.au/6e72de6db1221103a84ca0fe4601e003?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+      "icon": "https://www.abc.net.au/news-assets/favicon-32x32.png"
+    }
+  },
+  {
+    "id": "6d211974fd93509078ddb9c2b184e7c96d354dea1859a6a8e83eb5fc461fa284",
+    "url": "https://aquariumdrunkard.com/2026/11/23/tia-rosa-thirteen-automatic-dreams",
+    "title": "Tía Rosa :: Thirteen Automatic Dreams",
+    "summary": "Minimalist kosmische crossed with Latin pop — the exact seam the Hermanos Gutiérrez and Glass Beams records in the collection sit on.",
+    "date_published": "2026-11-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "The shelf already runs Hermanos Gutiérrez, Glass Beams, Yin Yin and Khruangbin, which is to say instrumental, repetitive, and borrowing from somewhere warmer than wherever it was recorded. Tía Rosa works that register from the Latin side rather than the desert-guitar side, and Aquarium Drunkard is good at explaining why a record like this does not collapse into wallpaper. Worth a listen before it disappears into the end-of-year lists.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/Tia-Rosa.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "41a6a8067465a7180a5c5c4289737e3c2b70a81376944092b5c229c3a72b8ee4",
+    "url": "https://www.35mmc.com/20/11/2026/the-future-of-care-a-one-shot-story",
+    "title": "The Future of Care — A One Shot Story",
+    "summary": "One frame of the Joslin Diabetes Center being demolished, shot on Ferrania P30, by someone thinking about what GLP-1 drugs did to the building.",
+    "date_published": "2026-11-20T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "Omar Tibi made the picture on a Contax RX with a 50/1.4 Planar on P30 while his mother was at a Dana-Farber checkup, and the essay turns on the fact that the diabetes centre is coming down to make way for a cancer centre — care infrastructure made redundant by a drug class, inside a decade. P30 is the right stock for it too: high contrast, almost no latitude, a demolition rendered as graphite. The rare 35mmc piece where the writing earns the frame rather than explaining it.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/10/care_50-1024x679.png",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "020401a229214fcb299449d01c8477767598030b748b7577b5daf79c2557e148",
+    "url": "https://www.permanentstyle.com/2026/11/the-first-p-johnson-collection-aimed-at-winter.html",
+    "title": "Interesting first winter outerwear from P. Johnson",
+    "summary": "Crompton on an Australian tailor's first genuinely cold-weather outerwear, including a revived Forestiere, judged on cloth rather than cut.",
+    "date_published": "2026-11-16T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "fashion",
+      "source": "Permanent Style",
+      "note": "P. Johnson is the Australian house with a Melbourne shop, and it has spent its whole life making clothes for a climate that never needs a heavy coat — so a first winter collection is a real test of whether the soft-tailoring approach survives weight. Crompton goes at the wool/cashmere/silk jacket and the cord, and at the Forestiere, the old French forester's jacket with the bellows back that keeps getting rediscovered. Closer to the rustic end than the bespoke end of Permanent Style, which is the useful end.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "8aa3a39c89e026dd83d02501fe755758c2ea46ce63be047f5bdc33f309392236",
+    "url": "https://www.35mmc.com/10/11/2026/why-i-built-forma-reimagining-a-75-year-old-viewfinder",
+    "title": "Why I Built Forma: Reimagining a 75-Year-Old Viewfinder",
+    "summary": "Peter Modzelewski rebuilds the 1951 Voigtländer Kontur's binocular-fusion trick as a modular finder with laser-cut frameline cards.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "The Kontur's idea was that one eye looks through the finder and the other looks straight at the scene, and your brain fuses the framelines onto the real world — no glass between you and the subject. Modzelewski's first wooden prototype failed for the obvious reason, that you cannot hold markings and scene in focus at once up close, and the piece is mostly about solving that. Swappable cards take it out to a 24mm field of view, which makes it useful on any body with a cold shoe rather than one camera.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/11/01_Forma_hero.jpg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "f754cd254b3235a3e828f29ef8e77ecf6d6ae7accc6bc2f739d5da983ab39566",
+    "url": "https://dragonwilds.runescape.com/news/fixes-and-stability",
+    "title": "Our 2027 Plans — Fixes and Stability",
+    "summary": "Jagex puts bugfixing above new content in writing for 2027, and says the monthly content drumbeat is being slowed deliberately.",
+    "date_published": "2026-11-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Dragonwilds",
+      "note": "First-party, and unusually blunt: the stated priority order is Bugfixing, then QOL, then new quests and features, with the shift starting after December's Luminance update. Concretely it means a player test realm (invite-only for now), public issue logging and voting, and one consolidated stable release early next year instead of the hotfix wave that followed 1.0 and the save-corruption mess. For anyone who lost a world to the 1.0.0.8 bug, this is the post that says whether the next year is worth staying for.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://framerusercontent.com/images/x3rJplwb3a81CHLhDLZRLcUBDto.png?scale-down-to=512&width=3840&height=2160",
+      "icon": "https://framerusercontent.com/images/zsWjtam1WJLLCvwCfvVjtijK3OA.png"
+    }
+  },
+  {
+    "id": "195004e0ca29394efb428cc187fad5385bb14b39b0e7632765e8588c8997b292",
+    "url": "https://dontforgetthebubbles.com/different-not-less",
+    "title": "Different, Not Less",
+    "summary": "Johann de Alwis on the neurodivergent child in a loud, bright, crowded ED — the one environment guaranteed to make the presentation harder to read.",
+    "date_published": "2026-11-19T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "medicine",
+      "source": "DFTB",
+      "note": "The argument is deliberately unsentimental: these children are in the department because they are unwell, like every other child, and the adjustment being asked for is to the assessment environment, not to the clinical standard. De Alwis borrows Temple Grandin's line and turns it on the clinician — it asks you to raise your understanding, not lower your expectations. Short, and the kind of thing that changes a single triage decision rather than a guideline.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2026/11/Different-HEADER.png?fit=560%2C315&ssl=1",
+      "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "4c4bff2847205f7d525795ae2302a59576f2862061bb5e1f5603b0fa2b06c2ef",
+    "url": "https://www.pushsquare.com/news/2026/11/ps5-has-officially-crossed-100-million-sales-sony-confirms",
+    "title": "PS5 Has Officially Crossed 100 Million Sales, Sony Confirms",
+    "summary": "The fourth Sony home console to reach 100 million, and it got there slower than the PS4 despite price rises and GTA 6.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "Sony's own site now lists more than 100 million as of 10 November, up about 2.1 million since the quarter closed at 97.9 million — so the GTA 6 launch window did the last of the work. The PS4 hit the mark faster, which is the interesting comparison given the PS5 has had no real competition and two price increases. Relevant as the backdrop to Sony saying PS6 development is making solid progress.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://images.pushsquare.com/6078c2ee2a64f/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "b55bc06c1f284f8d9360d4645beb7b486b1176a3295dfd1c9fac56d43bfba18c",
+    "url": "https://dontforgetthebubbles.com/mart-in-childhood-asthma-one-inhaler-simpler-care",
+    "title": "MART in Childhood Asthma: One Inhaler, Simpler Care?",
+    "summary": "Maintenance-and-reliever therapy is quietly becoming the default in paediatric asthma, which changes what the discharge script should say.",
+    "date_published": "2026-11-18T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "DFTB",
+      "note": "MART collapses preventer and reliever into one combination inhaler, so a child who has just been in the department for a wheeze goes home on a different plan than the salbutamol-plus-separate-preventer routine most of us were taught. The DFTB post works through where the paediatric evidence actually sits and where it stops, including the adherence argument that drives most of the enthusiasm. Worth reading before the next asthma discharge rather than after.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://dontforgetthebubbles.com/wp-content/uploads/2026/08/MART-HEADER.png",
+      "icon": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2021/09/cropped-cropped-DFTB-Dont-Forget-the-Bubbles-sq-512-2.jpeg?fit=32%2C32&"
+    }
+  },
+  {
+    "id": "886413eaf9359a5fc50f4dfe3cab1f9ef6b01be2308d8e4f2c40554a4a7982de",
+    "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/little-house-wine-bar-smith-street-collingwood",
+    "title": "First Look: Smith Street Wine Bar Little House",
+    "summary": "A small produce-led wine bar at the Collingwood end of Smith Street, built on local growers and a kitchen-driven cocktail list.",
+    "date_published": "2026-05-28T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "98 Smith Street, a few doors from the Mutimer shop at 308, so it slots into an evening that already exists. Richard Duncan's list leans hard on Victorian producers with only a handful of imports, and the cocktails were built off the kitchen's produce rather than bolted on — the Amatriciana supplì with Fremantle octopus and the brick chicken with eucalyptus honey and lemon myrtle give the measure of it. Hours have moved around since it opened, so check before walking down.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/05/27/LITTLEHOUSE_MAY2026_ARIANNALEGGIERO-157-9abd74ed2a.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
+    }
+  },
+  {
+    "id": "40eec49b6e7d36572bdd5c4e033a5ea6ed3eba7e9f87f45512052c5287f148ac",
+    "url": "https://resus.com.au/the-years-algorithm-are-we-missing-pulmonary-emboli",
+    "title": "The YEARS Algorithm: Are We Missing Pulmonary Emboli?",
+    "summary": "A 63,583-patient meta-analysis puts a number on the misses you accept every time you clear a PE with an adjusted D-dimer.",
+    "date_published": "2026-11-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "Resus",
+      "note": "Twenty-four studies pooled: adaptive D-dimer strategies failed in 0.12% of patients, YEARS-like strategies in 0.24% — roughly one missed PE per four hundred patients discharged. That is the figure to have in your head when a registrar asks whether YEARS is safe enough to use solo, and it is an Australian site making the argument, so the denominator looks like his department's. Published today.",
+      "published_at": "2026-11-24T15:27:04.855Z",
+      "image": "https://resus.com.au/wp-content/uploads/2026/11/Comparative-Pulmonary-Embolism-Diagnostic-Strategies.png",
+      "icon": "https://resus.com.au/wp-content/uploads/2023/02/Emergency-Medicine-Education-Resus-favicon.png"
+    }
   }
 ]
