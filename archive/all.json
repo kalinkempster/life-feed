@@ -15967,5 +15967,182 @@
       "image": "https://resus.com.au/wp-content/uploads/2026/11/Comparative-Pulmonary-Embolism-Diagnostic-Strategies.png",
       "icon": "https://resus.com.au/wp-content/uploads/2023/02/Emergency-Medicine-Education-Resus-favicon.png"
     }
+  },
+  {
+    "id": "5e8eba5b15ac60442c06ba0c605298c68acc153c2342183b0f55f54aa4e85ddb",
+    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+    "title": "Three LLM inflection points in twelve months",
+    "summary": "Willison names the three moments in the last year when models actually changed what they could do, rather than just benchmarked higher.",
+    "date_published": "2026-11-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "Simon Willison",
+      "note": "Drawn from his AI Engineer Code Summit keynote: coding agents becoming daily-usable in late 2025, the Fable-class models mid-2026, and frontier models getting good at 3D in the autumn. He is openly undecided about whether Fable 5.2 is a fourth point, which is more useful than confident prediction. Willison is the one AI writer who consistently separates capability from marketing, and that distinction is what matters when these tools start arriving in hospital workflows.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://img.youtube.com/vi/9RKrSF9d2SE/maxresdefault.jpg",
+      "icon": "https://simonwillison.net/favicon.ico"
+    }
+  },
+  {
+    "id": "058c95b69487c614accc10423c9845665e62eabdec88079b8f987294ae377545",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON629",
+    "title": "Influenza A(H5N1) — United States of America",
+    "summary": "Three confirmed human H5 infections in Washington State, one of them fatal — the authoritative notice rather than the coverage of it.",
+    "date_published": "2026-11-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "news",
+      "source": "WHO",
+      "note": "WHO now counts 75 human A(H5) cases in the US since 2024, and a death in a cluster is the detail that changes how a febrile-returned-traveller or poultry-exposure history gets taken. Disease Outbreak News is the primary document — dates, case definitions and risk assessment, without the compression that happens when it reaches a newsroom. The feed has been tracking Bundibugyo in the DRC; this is the other outbreak worth having a mental model of.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+      "icon": "https://www.who.int/favicon.ico"
+    }
+  },
+  {
+    "id": "30eb6049828a02da3b72ba7a222931fc04df938d79e5e3f8f85888f105a5385b",
+    "url": "https://aquariumdrunkard.com/2026/11/25/late-november-autumnal-britfolk-instrumentals-1968-1981",
+    "title": "Late November: Autumnal Britfolk Instrumentals, 1968-1981",
+    "summary": "An hour of British folk instrumentals from the Pentangle-and-after years, sequenced for the end of the month rather than for discovery.",
+    "date_published": "2026-11-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "The guitar-led end of this tradition is the ancestry behind a good slab of the shelf — José González, Ben Howard, Cat Stevens, the quieter Joni Mitchell records. A mix like this is the cheapest way to find the next thing to actually buy, because it names the players rather than the playlist. Aquarium Drunkard's mixes keep indefinitely, which is more than can be said for most music writing.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/s-l1200.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "7850f75aadec85c23934e046bb2b678402ca303f53527b7c2a55a9e69cc36062",
+    "url": "https://aquariumdrunkard.com/2026/11/25/transmissions-beth-orton",
+    "title": "Transmissions :: Beth Orton",
+    "summary": "Orton on The Ground Above, in the penultimate episode of the show's twelfth season.",
+    "date_published": "2026-11-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "records",
+      "source": "Aquarium Drunkard",
+      "note": "Orton essentially invented the seam that Chet Faker, Tom Misch and Bon Iver's later records all work — acoustic songwriting routed through electronics without either side winning. Transmissions interviews are long and unhurried, so this is a listen rather than a skim. Useful as a pointer to a catalogue that is well pressed, widely available secondhand, and conspicuously absent from the collection.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/BethOrton.jpg",
+      "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+    }
+  },
+  {
+    "id": "1a129f77eff2f7b327ea21c1fa1e0072657ce411043687f32647d4704a1ca4d9",
+    "url": "https://www.heddels.com/2026/11/macmahon-knitting-mills-sweaters-are-knit-by-hand-in-nepali-homes",
+    "title": "MacMahon Sweaters Are Knit by Hand in Nepali Homes",
+    "summary": "Why every MacMahon jumper reads slightly differently: each one is hand-knitted in a household, so tension varies piece to piece.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "fashion",
+      "source": "Heddels",
+      "note": "The Cowichan-style Dog Sled is the piece to look at — one relaxed size, sold through Blue in Green from around $256, and squarely in the same territory as the Pendleton and Woolrich reference points. Hand-knitting means variation is the product rather than a defect, which is a different proposition to the reproduction-spec approach Heddels usually covers. Worth knowing before buying blind off a resale listing, where the tension differences are invisible.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": null,
+      "icon": null,
+      "verified": "bot-walled"
+    }
+  },
+  {
+    "id": "739654c86c49e0b9c3a584731417fbf15b1642cffd6ef5e86dea37a8cfb08755",
+    "url": "https://emcrit.org/emnerd/fgebm-hypothermia",
+    "title": "FGEBM 005: A Slow Retreat From Therapeutic Hypothermia",
+    "summary": "Rory Spiegel walks the whole hypothermia evidence base in order, and the foundations turn out to be thinner than the protocols built on them.",
+    "date_published": "2026-11-23T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EMCrit",
+      "note": "The piece starts with Bernard 2002 — the Melbourne trial, allocation by odd and even calendar day, unblinded — and shows how a 49% versus 26% good-outcome figure became two decades of cooling practice. It is the kind of post-arrest argument that decides what you actually do with a targeted temperature order set at 3am. Worth reading alongside the OHCA-at-50 guidelines piece from earlier this week: both are about how much weight a single old trial can carry.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/07/fgebm-Field-Guide-to-EBM-Banner-750x300.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "4cf21e10cfa90abba5b2f8853fa1e451b591010a391d4ee286ff6417a4ee4a35",
+    "url": "https://www.stemlynsblog.org/tetris-resuscitative-thoracotomy-traumatic-cardiac-arrest-and-the-importance-of-patient-selection",
+    "title": "TETRiS: Resuscitative Thoracotomy and Patient Selection",
+    "summary": "A national service evaluation of thoracotomy performed outside theatre, and Carley's read on which patients it can actually save.",
+    "date_published": "2026-11-22T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "St Emlyn's",
+      "note": "Ramage and colleagues pooled resuscitative thoracotomy cases across a whole national system and published in Resuscitation this year — the sample size no single department will ever accumulate. Carley's framing is about selection rather than technique, which is the part that matters when the decision lands on a registrar with one shot at it. Pairs directly with the traumatic-arrest material in the CCPU and trauma-call reading.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://www.stemlynsblog.org/wp-content/uploads/2026/11/TETRIS.jpg",
+      "icon": "https://www.stemlynsblog.org/wp-content/uploads/2023/05/cropped-cropped-Logo2-32x32.png"
+    }
+  },
+  {
+    "id": "a558c2c39ba283090ef1c3a3355c3781756bc6de9afdec9d5ebf0774c364e511",
+    "url": "https://emcrit.org/emnerd/the-scene-of-four",
+    "title": "The Scene of Four",
+    "summary": "Spiegel takes apart the OnScene trial, which moved ECPR out of the cath lab and onto the pavement.",
+    "date_published": "2026-11-10T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "medicine",
+      "source": "EM Nerd",
+      "note": "OnScene is the trial that tests whether you bring the circuit to the patient instead of the patient to the circuit — a genuinely different model of refractory arrest care. The feed has already carried the pre-ECPR optimisation argument and the TOE-guided CPR piece; this is the logical next question in that sequence. EM Nerd's habit of reading trials as narrative rather than abstract is why it is worth the twenty minutes.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://emcrit.org/wp-content/uploads/2026/11/The-Scene-of-Four_-Mechanical-Heart-Apparatus-750x250.png",
+      "icon": "https://emcrit.org/wp-content/themes/magazine-pro/images/favicon.ico"
+    }
+  },
+  {
+    "id": "371c22561e63344c8472f7f67658744c1bdcaf7baebcf43ab23f462d084c5f53",
+    "url": "https://www.pushsquare.com/news/2026/11/ps5-rpg-lords-of-the-fallen-2-locks-on-to-april-2027-release-date-following-lengthy-delay",
+    "title": "Lords of the Fallen 2 Locks on to April 2027 Release",
+    "summary": "CI Games' CEO put a month on it — April 2027, exact date in December — after a delay out of autumn 2026.",
+    "date_published": "2026-11-24T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "gaming",
+      "source": "Push Square",
+      "note": "This is the second slip for the sequel, from an August 2026 rumour to Q1 2027 to April, so the month matters more than the announcement. Push Square expects the precise date at The Game Awards in December, which is speculation rather than confirmation. The first game was one of the better PS5 soulslikes to arrive outside the FromSoftware calendar, and this is the concrete platform-and-window detail without the trailer hype.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://images.pushsquare.com/03dcf5118acb4/1280x720.jpg",
+      "icon": "https://static.pushsquare.com/favicon.ico"
+    }
+  },
+  {
+    "id": "b62c159df6196ae44191a11f2bbe287c63ad39b8fea68719bc52fece5953fbdc",
+    "url": "https://www.35mmc.com/25/11/2026/sheep-on-a-hillside-my-favorite-photo-of-2026",
+    "title": "Sheep on a Hillside — My Favorite Photo of 2026",
+    "summary": "One frame, shot on a Rolleiflex SL35 with an 85mm, explained by the person who took it.",
+    "date_published": "2026-11-25T00:00:00.000Z",
+    "_homepage": {
+      "kind": "evergreen",
+      "topic": "photography",
+      "source": "35mmc",
+      "note": "35mmc's single-photo format is the most useful thing the site does: a photographer has to justify one frame rather than review a camera. The SL35 is the overlooked Rollei SLR — Zeiss glass, unloved body, cheap for what it is — and seeing what an 85mm does on it is more persuasive than any buying guide. A good counterweight to the one-shot story the feed carried last week.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://www.35mmc.com/wp-content/uploads/2026/11/IMG_1067.jpeg",
+      "icon": "https://www.35mmc.com/wp-content/themes/35mmc/library/images/favicons/apple-touch-icon.png"
+    }
+  },
+  {
+    "id": "649189e92f380cd45fcfc08c7c465171f11f675f17574ed38d88391118976b06",
+    "url": "https://www.broadsheet.com.au/melbourne/event/atong-atem-ngv-ian-potter-exhibition",
+    "title": "Inside the NGV's Free Atong Atem Exhibition",
+    "summary": "A decade of Atem's studio self-portraits at Fed Square, free, and running long enough that there is no excuse not to go.",
+    "date_published": "2026-10-30T00:00:00.000Z",
+    "_homepage": {
+      "kind": "timely",
+      "topic": "melbourne",
+      "source": "Broadsheet",
+      "note": "Passage is Atem's first major solo show — 65-plus works plus a new NGV commission — at the Ian Potter Centre, which is the easier NGV to get to from the northside than St Kilda Road. She works in studio portraiture with painted backdrops and saturated colour, so it is a photography exhibition as much as a contemporary-art one. Free entry and open into 2027 means it can be a short visit rather than a planned outing.",
+      "published_at": "2026-11-25T15:21:09.263Z",
+      "image": "https://cdn.broadsheet.com.au/images/2026/09/15/EXHI073594_RGB-ba8a22928a.webp",
+      "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
+    }
   }
 ]
