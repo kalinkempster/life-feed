@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://emcrit.org/emnerd/fgebm-hypothermia/",
+      "title": "FGEBM 005: A Slow Retreat From Therapeutic Hypothermia",
+      "source": "EMCrit",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Rory Spiegel walks the whole hypothermia evidence base in order, and the foundations turn out to be thinner than the protocols built on them.",
+      "note": "The piece starts with Bernard 2002 — the Melbourne trial, allocation by odd and even calendar day, unblinded — and shows how a 49% versus 26% good-outcome figure became two decades of cooling practice. It is the kind of post-arrest argument that decides what you actually do with a targeted temperature order set at 3am. Worth reading alongside the OHCA-at-50 guidelines piece from earlier this week: both are about how much weight a single old trial can carry.",
+      "date_published": "2026-11-23"
+    },
+    {
+      "url": "https://www.stemlynsblog.org/tetris-resuscitative-thoracotomy-traumatic-cardiac-arrest-and-the-importance-of-patient-selection/",
+      "title": "TETRiS: Resuscitative Thoracotomy and Patient Selection",
+      "source": "St Emlyn's",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "A national service evaluation of thoracotomy performed outside theatre, and Carley's read on which patients it can actually save.",
+      "note": "Ramage and colleagues pooled resuscitative thoracotomy cases across a whole national system and published in Resuscitation this year — the sample size no single department will ever accumulate. Carley's framing is about selection rather than technique, which is the part that matters when the decision lands on a registrar with one shot at it. Pairs directly with the traumatic-arrest material in the CCPU and trauma-call reading.",
+      "date_published": "2026-11-22"
+    },
+    {
+      "url": "https://emcrit.org/emnerd/the-scene-of-four/",
+      "title": "The Scene of Four",
+      "source": "EM Nerd",
+      "topic": "medicine",
+      "kind": "timely",
+      "summary": "Spiegel takes apart the OnScene trial, which moved ECPR out of the cath lab and onto the pavement.",
+      "note": "OnScene is the trial that tests whether you bring the circuit to the patient instead of the patient to the circuit — a genuinely different model of refractory arrest care. The feed has already carried the pre-ECPR optimisation argument and the TOE-guided CPR piece; this is the logical next question in that sequence. EM Nerd's habit of reading trials as narrative rather than abstract is why it is worth the twenty minutes.",
+      "date_published": "2026-11-10"
+    },
+    {
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON629",
+      "title": "Influenza A(H5N1) — United States of America",
+      "source": "WHO",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Three confirmed human H5 infections in Washington State, one of them fatal — the authoritative notice rather than the coverage of it.",
+      "note": "WHO now counts 75 human A(H5) cases in the US since 2024, and a death in a cluster is the detail that changes how a febrile-returned-traveller or poultry-exposure history gets taken. Disease Outbreak News is the primary document — dates, case definitions and risk assessment, without the compression that happens when it reaches a newsroom. The feed has been tracking Bundibugyo in the DRC; this is the other outbreak worth having a mental model of.",
+      "date_published": "2026-11-24"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "title": "Three LLM inflection points in twelve months",
+      "source": "Simon Willison",
+      "topic": "news",
+      "kind": "timely",
+      "summary": "Willison names the three moments in the last year when models actually changed what they could do, rather than just benchmarked higher.",
+      "note": "Drawn from his AI Engineer Code Summit keynote: coding agents becoming daily-usable in late 2025, the Fable-class models mid-2026, and frontier models getting good at 3D in the autumn. He is openly undecided about whether Fable 5.2 is a fourth point, which is more useful than confident prediction. Willison is the one AI writer who consistently separates capability from marketing, and that distinction is what matters when these tools start arriving in hospital workflows.",
+      "date_published": "2026-11-24"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/11/25/late-november-autumnal-britfolk-instrumentals-1968-1981/",
+      "title": "Late November: Autumnal Britfolk Instrumentals, 1968-1981",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "evergreen",
+      "summary": "An hour of British folk instrumentals from the Pentangle-and-after years, sequenced for the end of the month rather than for discovery.",
+      "note": "The guitar-led end of this tradition is the ancestry behind a good slab of the shelf — José González, Ben Howard, Cat Stevens, the quieter Joni Mitchell records. A mix like this is the cheapest way to find the next thing to actually buy, because it names the players rather than the playlist. Aquarium Drunkard's mixes keep indefinitely, which is more than can be said for most music writing.",
+      "date_published": "2026-11-25"
+    },
+    {
+      "url": "https://aquariumdrunkard.com/2026/11/25/transmissions-beth-orton/",
+      "title": "Transmissions :: Beth Orton",
+      "source": "Aquarium Drunkard",
+      "topic": "records",
+      "kind": "timely",
+      "summary": "Orton on The Ground Above, in the penultimate episode of the show's twelfth season.",
+      "note": "Orton essentially invented the seam that Chet Faker, Tom Misch and Bon Iver's later records all work — acoustic songwriting routed through electronics without either side winning. Transmissions interviews are long and unhurried, so this is a listen rather than a skim. Useful as a pointer to a catalogue that is well pressed, widely available secondhand, and conspicuously absent from the collection.",
+      "date_published": "2026-11-25"
+    },
+    {
+      "url": "https://www.35mmc.com/25/11/2026/sheep-on-a-hillside-my-favorite-photo-of-2026/",
+      "title": "Sheep on a Hillside — My Favorite Photo of 2026",
+      "source": "35mmc",
+      "topic": "photography",
+      "kind": "evergreen",
+      "summary": "One frame, shot on a Rolleiflex SL35 with an 85mm, explained by the person who took it.",
+      "note": "35mmc's single-photo format is the most useful thing the site does: a photographer has to justify one frame rather than review a camera. The SL35 is the overlooked Rollei SLR — Zeiss glass, unloved body, cheap for what it is — and seeing what an 85mm does on it is more persuasive than any buying guide. A good counterweight to the one-shot story the feed carried last week.",
+      "date_published": "2026-11-25"
+    },
+    {
+      "url": "https://www.heddels.com/2026/11/macmahon-knitting-mills-sweaters-are-knit-by-hand-in-nepali-homes/",
+      "title": "MacMahon Sweaters Are Knit by Hand in Nepali Homes",
+      "source": "Heddels",
+      "topic": "fashion",
+      "kind": "evergreen",
+      "summary": "Why every MacMahon jumper reads slightly differently: each one is hand-knitted in a household, so tension varies piece to piece.",
+      "note": "The Cowichan-style Dog Sled is the piece to look at — one relaxed size, sold through Blue in Green from around $256, and squarely in the same territory as the Pendleton and Woolrich reference points. Hand-knitting means variation is the product rather than a defect, which is a different proposition to the reproduction-spec approach Heddels usually covers. Worth knowing before buying blind off a resale listing, where the tension differences are invisible.",
+      "date_published": "2026-11-10"
+    },
+    {
+      "url": "https://www.pushsquare.com/news/2026/11/ps5-rpg-lords-of-the-fallen-2-locks-on-to-april-2027-release-date-following-lengthy-delay",
+      "title": "Lords of the Fallen 2 Locks on to April 2027 Release",
+      "source": "Push Square",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "CI Games' CEO put a month on it — April 2027, exact date in December — after a delay out of autumn 2026.",
+      "note": "This is the second slip for the sequel, from an August 2026 rumour to Q1 2027 to April, so the month matters more than the announcement. Push Square expects the precise date at The Game Awards in December, which is speculation rather than confirmation. The first game was one of the better PS5 soulslikes to arrive outside the FromSoftware calendar, and this is the concrete platform-and-window detail without the trailer hype.",
+      "date_published": "2026-11-24"
+    },
+    {
+      "url": "https://massivelyop.com/2026/11/11/cooperative-survival-sandbox-stormforge-officially-enters-early-access-maps-out-its-updates-into-2027/",
+      "title": "Co-op Survival Sandbox Stormforge Enters Early Access",
+      "source": "Massively OP",
+      "topic": "gaming",
+      "kind": "timely",
+      "summary": "A new co-op survival game with a published roadmap into 2027 — the detail that tells you whether it is worth starting now.",
+      "note": "Launch state is 25-plus hours, four storm types, three biomes and a 75 square kilometre map, which puts it in the same bracket Dragonwilds and Enshrouded occupied at their own early-access starts. The roadmap is the useful part: both of those games rewarded players who waited for the content cadence to prove itself. Massively OP is the only outlet that covers survival-game roadmaps as news rather than as review bait.",
+      "date_published": "2026-11-11"
+    },
+    {
+      "url": "https://www.broadsheet.com.au/melbourne/event/atong-atem-ngv-ian-potter-exhibition",
+      "title": "Inside the NGV's Free Atong Atem Exhibition",
+      "source": "Broadsheet",
+      "topic": "melbourne",
+      "kind": "timely",
+      "summary": "A decade of Atem's studio self-portraits at Fed Square, free, and running long enough that there is no excuse not to go.",
+      "note": "Passage is Atem's first major solo show — 65-plus works plus a new NGV commission — at the Ian Potter Centre, which is the easier NGV to get to from the northside than St Kilda Road. She works in studio portraiture with painted backdrops and saturated colour, so it is a photography exhibition as much as a contemporary-art one. Free entry and open into 2027 means it can be a short visit rather than a planned outing.",
+      "date_published": "2026-10-30"
+    }
+  ]
+}
