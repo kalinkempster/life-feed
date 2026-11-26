@@ -1,0 +1,204 @@
+{
+  "day": "2026-11-27",
+  "ran_at": "2026-11-26T15:25:04.235Z",
+  "published": 12,
+  "dropped": [],
+  "items": [
+    {
+      "id": "1fc1baeb009f4e9563116b9cc675910574177da372199ea8de8a96c356552c75",
+      "url": "https://www.croakey.org/as-voting-begins-in-victoria-the-states-health-system-faces-significant-challenges-ahead",
+      "title": "As voting begins in Victoria, the health system faces challenges",
+      "summary": "The sector's own read on what Saturday's result does to ED capacity and hospital funding.",
+      "date_published": "2026-11-19T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Croakey",
+        "note": "Written by the Victorian Healthcare Association off a conference panel with Health Minister Ingrid Stitt, two days before he votes. The four pressure points it names — sustainability, capacity, infrastructure, community care — are what decide whether Labor's twelve-hospital ED expansion or the Coalition's transit-lounge fund reaches his floor at all. It is advocacy from a sector body, so read it as a stated position rather than neutral analysis.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "f7c1cea421afd4ea08936be66de6086dfff006f4d8aa50172a3bb3c4966817ed",
+      "url": "https://www.aliem.com/beeper-perc-peds-pulmonary-embolism-pecarn",
+      "title": "PERC-Peds Rule Could Change How Children Are Evaluated for PE",
+      "summary": "A bedside rule that may let him rule out paediatric PE without a D-dimer or a CT.",
+      "date_published": "2026-07-20T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "medicine",
+        "source": "ALiEM",
+        "note": "BEEPER enrolled just over 4,000 children across 21 PECARN emergency departments and found PE or proximal DVT in 6.3% of them, with the negative rule reported at 99.6% sensitivity. Worth reading against the adult PERC rule he already applies, because PERC-Peds was adapted from it and the failure modes are not the same. It was observational, so it describes how the rule performs when clinicians are watched, not what happens once they start acting on it.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "7eea171611f31c8f95c6e226f61955635ce9adf9e7d105467cd6d5dca1057023",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "summary": "A historian watched a model do in 22 minutes what archival attribution normally takes months of.",
+      "date_published": "2026-11-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "Simon Willison",
+        "note": "An 1808 sketchbook at Yale's Beinecke attributed from publicly available sources with minimal prompting, which Willison uses to ask whether historians are about to have the argument mathematicians are already having. The transferable question for clinical work is the same one: what happens to a skill once the hard part of it becomes cheap. He has been tracking the Astra releases here since the launch notes earlier this month, so this is the consequences post rather than the capability post.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": null,
+        "icon": "https://simonwillison.net/favicon.ico"
+      }
+    },
+    {
+      "id": "2c4a2dd0622b41bed526b97f159ac8d46359a618542f2b970fc9c76cf109f677",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
+      "title": "Circulating vaccine-derived poliovirus type 1 – Syria",
+      "summary": "Polio has resurfaced in Deir Ez Zor, in a health system with little capacity to chase it down.",
+      "date_published": "2026-11-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "news",
+        "source": "WHO",
+        "note": "Three confirmed cVDPV1 cases as of 13 November, with twelve further acute flaccid paralysis cases from Deir Ez Zor still under investigation. The feed has followed the Bundibugyo PHEIC through these same notices all month; this is the quieter sort of outbreak notice, and the one most likely to reach him as a returned-traveller or unvaccinated-child question rather than a headline. Vaccine-derived type 1 also means the containment problem is immunity coverage, not importation.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20",
+        "icon": "https://www.who.int/favicon.ico"
+      }
+    },
+    {
+      "id": "c8d1f3b1faba85a22ed1ee0f4d5a005dcc34aa9372160fd815f5f2734ee9be53",
+      "url": "https://shootitwithfilm.com/life-is-but-a-dream-photo-series-by-bar-herman",
+      "title": "Life Is But a Dream: Photo Series by Bar Herman",
+      "summary": "Long exposures and expired stock used on purpose rather than apologised for afterwards.",
+      "date_published": "2026-11-25T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Shoot It w/ Film",
+        "note": "Bar Herman shot this across Europe, Asia and the Middle East on 35mm, leaning into motion blur and dead film to get the drift rather than fighting it. It runs directly against the clean-negative technique pieces, which makes it useful if there are half-expired rolls in the fridge he has been avoiding spending on anything that matters. Shoot It With Film publishes the photographer's own account of how the set was made, not a critic's.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/11/Life-is-But-a-Dream-Photo-Series-by-Bar-Herman-on-Shoot-It-With-Film-Featured-Image.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "ff3339272f3143c689d90765004fa094872511ce2c8867c9ea1fbf84bd8f88d6",
+      "url": "https://aquariumdrunkard.com/2026/11/24/frank-black-the-pixies-the-aquarium-drunkard-interview",
+      "title": "Frank Black (The Pixies) :: The Aquarium Drunkard Interview",
+      "summary": "Long-form with the man whose loud-quiet-loud template half the guitar records on his shelf inherited.",
+      "date_published": "2026-11-24T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "Aquarium Drunkard",
+        "note": "The Pixies are not in the collection, but the Strokes, Bloc Party, Arctic Monkeys and Foo Fighters records that are all descend from what Black built in the late eighties. Aquarium Drunkard's interview format runs long enough that artists talk about process instead of promotion. Sits naturally next to the Teenage Fanclub and Marshall Crenshaw pieces the feed has already carried from the same series.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://aquariumdrunkard.com/_newness/wp-content/uploads/2026/11/fb.jpg",
+        "icon": "https://aquariumdrunkard.com/_newness/wp-content/themes/aquarium-drunkard/inc/favicons//apple-icon-57x57.png"
+      }
+    },
+    {
+      "id": "51086da5447745a34fe3b7a512215dbf9849865542d8be38da58b67e345c5c43",
+      "url": "https://www.heddels.com/2026/11/a-different-kind-of-workshop-inside-iron-shop-provisions",
+      "title": "A Different Kind of Workshop: Inside Iron Shop Provisions",
+      "summary": "An ironworker's shop that became a menswear store and then started making the clothes itself.",
+      "date_published": "2026-11-11T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "fashion",
+        "source": "Heddels",
+        "note": "Josh Guillory runs Iron Shop Provisions out of Lake Charles and New Orleans, and its house line A New Medium now makes a 20oz double-slub indigo wide-straight in the US, with cloth from Japan and Harris Tweed and waxed cotton from the UK. The feed has carried three A New Medium drops this month without ever explaining who was behind them — this is the provenance half, which is the part that counts next to the Woolrich and Pendleton end of the wardrobe.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "699504298675afea395c78136e8801aa1bf8055df4780267d8d3004915cd618b",
+      "url": "https://massivelyop.com/2026/11/23/runescape-dragonwilds-resolves-to-focus-on-fixing-bugs-and-improving-quality-of-life-in-2027",
+      "title": "Dragonwilds to Focus on Bug Fixes and Quality-of-Life in 2027",
+      "summary": "Jagex is slowing content after December's Luminance update to fix what is already shipped.",
+      "date_published": "2026-11-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "gaming",
+        "source": "Massively OP",
+        "note": "The plan includes a public test realm and a player-facing issue log with voting, which matters for a game he has played through a run of save-corruption and stability patches this year. New quests and features slow rather than stop. Luminance still lands in December with Prayer and a new building kit, so this is about the year after that, not the next update.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": null,
+        "icon": null,
+        "verified": "bot-walled"
+      }
+    },
+    {
+      "id": "da7e88e7f883f9c83b33bb88f9bc9a46a6ed16c9542b7b86c95ab75a0a862ac9",
+      "url": "https://sydneyhems.com/2026/11/23/environmental-emergencies-heat-part-1",
+      "title": "Environmental Emergencies: Heat, Part 1",
+      "summary": "Heat illness teaching from an ANZ retrieval service, landing the week Melbourne's summer actually starts.",
+      "date_published": "2026-11-23T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "medicine",
+        "source": "Sydney HEMS",
+        "note": "Sydney HEMS puts up the talks from its own education and governance meetings, so this is prehospital and retrieval teaching recorded for registrars rather than a journal appraisal. The feed has carried the PreCare and ON-SCENE ECPR work from this same service; this is the other, less glamorous half of what they do. Heat is the one environmental presentation a Victorian ED can count on between December and February, and the recognition-to-cooling decisions are the ones that get made badly under load.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://sydneyhems.com/wp-content/uploads/2026/11/images-2.jpeg",
+        "icon": "https://s1.wp.com/i/favicon.ico?m=1713425267i"
+      }
+    },
+    {
+      "id": "97cc5e1c4f371e98cc4ca2a8bbd92399f1b64344567c7ffad8df9d400a9fe690",
+      "url": "https://shootitwithfilm.com/submitting-a-portfolio-for-publication",
+      "title": "Submitting a Portfolio for Publication: Choosing Your Work",
+      "summary": "How to cut a body of work down to only the frames that earn their place in it.",
+      "date_published": "2026-11-06T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "photography",
+        "source": "Shoot It w/ Film",
+        "note": "Anna Roesch's piece is about culling, which is the one part of film photography that costs nothing and gets practised least. The feed has carried a run of SIWF photo series lately; this is the editorial logic that decides which frames make those sets in the first place. Applies as much to a year of scans sitting in a folder as to an actual submission anywhere.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://shootitwithfilm.com/wp-content/uploads/2026/11/Submitting-Photography-for-Publication-by-Anna-Roesch-on-Shoot-It-With-Film-02.jpg",
+        "icon": null
+      }
+    },
+    {
+      "id": "2f9d042fdfca563540f65c4501e7e1cd9423602df1898305c6415c5ab45d78bc",
+      "url": "https://insheepsclothinghifi.com/in-conversation-asa-tone",
+      "title": "In Conversation: Asa Tone on Mutualkind and Putu Septa",
+      "summary": "A record written across four cities that ends up sounding like one room, and the interview explains how.",
+      "date_published": "2026-11-03T00:00:00.000Z",
+      "_homepage": {
+        "kind": "evergreen",
+        "topic": "records",
+        "source": "ISC Hi-Fi",
+        "note": "Asa Tone's fourth album is out on Music from Memory, with Balinese gamelan player Putu Septa on kendang across two tracks recorded in Indonesia. The trio talk about gating vocals through a hand-played percussion synth, which is the kind of construction detail the Glass Beams and Yin Yin end of his shelf never gets written about. In Sheep's Clothing interviews from the listening-bar side rather than the release-cycle side, so the questions are about how it was made.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://insheepsclothinghifi.com/wordpress/wp-content/uploads/2026/11/asatone-1200x630.jpg",
+        "icon": "https://insheepsclothinghifi.com/wordpress/wp-content/themes/isc-theme-child-v127/dist/img/favicon-32x32.png"
+      }
+    },
+    {
+      "id": "43de6c1e957e4bbbea0c4bd157c35824f426bffce4048f5975e718d0f9d3e177",
+      "url": "https://www.broadsheet.com.au/melbourne/food-and-drink/article/first-look-the-rathdowne-revitalises-carlton-north-classic-neighbourhood-bistro",
+      "title": "First Look: The Rathdowne Revitalises a Carlton North Corner",
+      "summary": "A new bistro opened this week on the Rathdowne Street corner Gerald's Bar just left.",
+      "date_published": "2026-11-26T00:00:00.000Z",
+      "_homepage": {
+        "kind": "timely",
+        "topic": "melbourne",
+        "source": "Broadsheet",
+        "note": "Gerald's Bar moved off Rathdowne Street to Lygon Street earlier this year — the feed covered the move — and this loosely Mediterranean neighbourhood bistro has taken over 320 Rathdowne Street. Carlton North is a short run from the Brunswick and Fitzroy North places the feed usually points at, and a corner-site bistro is a different proposition from the CBD openings that have dominated Broadsheet this month. Worth catching in the first fortnight, before the bookings tighten up.",
+        "published_at": "2026-11-26T15:25:04.235Z",
+        "image": "https://cdn.broadsheet.com.au/images/2026/11/25/the-rathdowne-hellopablodiaz-nov26-hr-29-32b3dbf5ca.webp",
+        "icon": "https://www.broadsheet.com.au/favicon.ico?favicon.1rleld5ze7yr3.ico"
+      }
+    }
+  ]
+}
